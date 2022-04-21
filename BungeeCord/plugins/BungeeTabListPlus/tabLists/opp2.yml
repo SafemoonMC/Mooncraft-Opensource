@@ -1,0 +1,138 @@
+# This is the default configuration file of BungeeTabListPlus.
+#
+# Since the configuration of the plugin is quite complex you
+# might want to have a look at the wiki from time to time.
+#
+# Wiki: https://github.com/CodeCrafter47/BungeeTabListPlus/wiki
+#  Placeholders: https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Placeholders
+#  Examples: https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Examples
+#
+
+# Configure who can see the tab lists
+# See https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/MultipleTablists
+showTo: ${viewer server} = "opp-2"
+priority: 2
+
+# Configure header and footer
+# See https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Configuration-Basics-Part-3---Header-and-Footer      ${viewer server}
+showHeaderFooter: true
+header: |-
+  &7
+  ${title}
+  &7${links}
+  &7
+headerAnimationUpdateInterval: 0.5
+footer: |-
+  &7
+  &7${playerset:all_players size} Players &8- &7(${playerset:same_server size} here)
+  &b Azkaban Prison &8- &b${viewer ping}ms
+  &7
+# Configure whether hidden players appear on the tab list
+# see https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Hidden-Players
+hiddenPlayers: INVISIBLE
+
+type: FIXED_SIZE
+
+size: 60
+
+defaultIcon: colors/gray.png
+defaultPing: 1
+
+playerSets:
+  all_players: all
+  same_server: |
+      ${player server} == "opp-2"
+  same_gang: |
+      ${player ultraprison_gang} == "${viewer ultraprison_gang}"
+
+components:
+- !table
+  columns:
+    0-1:
+    - {text: "  &8&m                                    &r", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "  &8&m                                    &r", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "            &f&lPlayers &f(${playerset:same_server size})", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "            &f&lPlayers &f(${playerset:same_server size})", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "  &8&m                                    &r", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "  &8&m                                    &r", icon: "colors/dark_gray.png", ping: 0}
+    - !players
+      playerSet: same_server
+      playerOrder: vault_primary_group_weight desc, name asc
+      playerComponent: "${vanished}&7${player vault_prefix}${player name} ${player vault_suffix}${player ultraprison_gang}"
+      fillSlotsVertical: true
+      morePlayersComponent: {text: "&f... and ${other_count} others", icon: "colors/gray.png", ping: 0}
+    2:
+    - {text: "  &8&m                                    &r", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "&f&l        Player Info", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "  &8&m                                    &r", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " &7Multiplier: &d&l/multi", icon: "colors/gray.png", ping: 0}
+    -
+    - {text: " &7Money: &a$${viewer vault_eco_balance_formatted}", icon: "colors/gray.png", ping: 0}
+    - {text: " &7E. Tokens: &b${viewer ultraprison_tokens_3}", icon: "colors/gray.png", ping: 0}
+    - {text: " &7Blocks Mined: &f${viewer ultraprison_blocks_3}", icon: "colors/gray.png", ping: 0}
+    - 
+    - {text: " &7Next Rankup: &8[&f&l${viewer ultraprison_next_rank}&8]", icon: "colors/gray.png", ping: 0}
+    - {text: " &7Cost: &a$${viewer ultraprison_next_rank_cost_formatted}", icon: "colors/gray.png", ping: 0}
+    -
+    - {text: "  &8&m                                    &r", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "&f&l            Gang", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "  &8&m                                    &r", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " ${gang1}", icon: "colors/gray.png", ping: 0}
+    - {text: " ${gang2}", icon: "colors/gray.png", ping: 0}
+    - {text: " ${gang4}", icon: "colors/gray.png", ping: 0}
+    - {text: " ${gang3}", icon: "colors/gray.png", ping: 0}
+    - {text: "&7", icon: "colors/gray.png", ping: 0}
+#playerSet: same_world
+#playerOrder: "bw_team-color desc, name asc"
+#playerComponent: "${player bw_team-color}${player bw_team-symbol} &7| ${player bw_team-color}${player name} &7(&c${player health}❤&7) "
+
+customPlaceholders:
+  gang1:
+    !conditional
+    condition: ${viewer ultraprison_gang_has_gang} == "Yes"
+    true: "&7Name: &9${viewer ultraprison_gang_name}"
+    false: "&cYou don't have a gang!"
+  gang2:
+    !conditional
+    condition: ${viewer ultraprison_gang_has_gang} == "Yes"
+    true: "&7Leader: &9${viewer ultraprison_gang_leader_name}"
+    false: "&cCreate or join one with"
+  gang3:
+    !conditional
+    condition: ${viewer ultraprison_gang_has_gang} == "Yes"
+    true: "&7Members: &f${viewer ultraprison_gang_members_amount}/4 &7(&a● ${viewer ultraprison_gang_members_online}&7)"
+    false: "&c"
+  gang4:
+    !conditional
+    condition: ${viewer ultraprison_gang_has_gang} == "Yes"
+    true: "&7Kills: &e${viewer ultraprison_gang_value}"
+    false: "&c&c/gang"
+  links:
+    !animated
+    interval: 2
+    elements:
+    - "play.mooncraft.gg"
+    - "mcstore.safemoon.net"
+    - "discord.gg/mooncraft"
+    - "mooncraft.gg/vote"
+  title:
+    !animated
+    interval: 0.1
+    elements:
+    - "&3&lMooncraft"
+    - "&b&lM&3&looncraft"
+    - "&b&lMo&3&loncraft"
+    - "&b&lMoo&3&lncraft"
+    - "&3&lM&b&loon&3&lcraft"
+    - "&3&lMo&b&lonc&3&lraft"
+    - "&3&lMoo&b&lncr&3&laft"
+    - "&3&lMoon&b&lcra&3&lft"
+    - "&3&lMooncr&b&laf&3&lt"
+    - "&3&lMooncr&b&laft"
+    - "&3&lMooncra&b&lft"
+    - "&3&lMooncraf&b&lt"
+  vanished:
+    !conditional
+    condition: ${player is_hidden}
+    true: "&3[V] "
+    false: ""

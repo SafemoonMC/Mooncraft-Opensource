@@ -1,0 +1,235 @@
+General:
+  DisabledServer: '&cThis command cannot be executed here.'
+  UnableToConnectToServerRedisBungee: '&cThe server could not be joined.'
+Party:
+  Error:
+    CommandNotFound:
+    - '&cThis command does not exist!'
+    - '&cThis command does not exist!'
+    NoPermission: '&cYou don''t have the permission to execute this command!'
+  CommandUsage:
+    Join: '&b/Party join  &8- &7Join a party'
+    Deny: '&b/Party deny  &8- &7Deny a party invitation'
+    Invite: '&b/Party invite  &8- &7Invite a player into your party'
+    InviteSetting: '&b/Party setting  &8- &7Enables/disables party invites'
+    List: '&b/Party list &8- &7List all players who are in the party'
+    Chat: '&b/Party chat  &8- &7Send all players in the party a message'
+    Leave: '&b/Party leave &8- &7Leave the party'
+    Kick: '&b/Party kick  &8- &7Kicks a player out of the party'
+    Leader: '&b/Party leader &b &8- &7Makes another player to the party leader'
+  Command:
+    General:
+      ErrorNoParty: '&7You need to be in a party.'
+      ErrorNotPartyLeader: '&cYou are not the party leader.'
+      ErrorGivenPlayerIsNotInTheParty: '&cThe player &4[PLAYER] &cis not in the party.'
+      ErrorNoPlayer: '&cYou need to specify a player.'
+      ErrorPlayerNotOnline: '&cThis player is not online.'
+      DissolvedPartyCauseOfNotEnoughPlayers: '&7The party was dissolved because there
+        are not enough players.'
+      PlayerHasLeftTheParty: '&7The player &b[PLAYER] &7has left the party.'
+      ServerSwitched: '&7The party has joined &b[SERVER]&7.'
+    Chat:
+      ErrorNoMessage: '&7You need to give in a message.'
+      Prefix: '&3PartyChat &8| '
+      ContentColor: '&7'
+      PartyChatOutput: '&b[SENDERNAME]&7:[MESSAGE_CONTENT]'
+    Info:
+      Empty: empty
+      PlayersCut: '&7, &b'
+      Leader: '&3Leader&7: &b[LEADER]'
+      Players: '&8Players&7: &f'
+    Invite:
+      GivenPlayerEqualsSender: '&7You are not allowed to invite yourself.'
+      CanNotInviteThisPlayer: '&cYou cannot invite this player into your Party.'
+      AlreadyInAParty: '&cThis player is already in a party.'
+      AlreadyInYourParty: '&cThe player &4[PLAYER] &cis already invited into your
+        party.'
+      MaxPlayersInPartyReached: '&cThe max size of a party is [MAXPLAYERSINPARTY].'
+      InvitedPlayer: '&b[PLAYER] &7was invited to your party.'
+      YouWereInvitedBY: '&7You were invited into &b[PLAYER]''s &7party!'
+      AcceptInvite: '&7Join the party by using the command &b/Party &bjoin &b[PLAYER]&7!'
+      AcceptInviteHOVER: '&aClick here to join the party'
+      DeclineInvite: '&cDecline the invitation by using the command &4/Party &4deny
+        &4[PLAYER]&c!'
+      DeclineInviteHOVER: '&cClick here to decline the invitation'
+      InvitationTimedOutInvited: '&7The invitation of &b[PLAYER]''s &7party has timed
+        out!'
+      InvitationTimedOutLeader: '&7The player &b[PLAYER] &7has not accepted your invitation!'
+    Join:
+      PlayerHasNoParty: '&cThis player does not own a party.'
+      AlreadyInAPartyError: '&cYou are already in a party. Use &4/party leave &cto
+        leave this party.'
+      PlayerHasJoined: '&7The player &b[PLAYER] &7joined the party.'
+      ErrorNoInvitation: '&cYou cannot join this party.'
+      MaxPlayersInPartyReached: '&cThe max size of a party is [MAXPLAYERSINPARTY].'
+    Deny:
+      PlayerHasNoParty: '&cThis player does not own a party.'
+      PlayerHasDeniedInvitation: '&7The player &b[PLAYER] &7has declined the invitation.'
+      DeniedInvitation: '&bYou denied the party invitation.'
+      ErrorNoInvitation: '&cYou are not invited into that party.'
+    Kick:
+      KickedPlayerOutOfThePartyOthers: '&7The player &b[PLAYER] &7was kicked out of
+        the party.'
+      KickedPlayerOutOfThePartyKickedPlayer: '&bYou have been kicked out of the party.'
+    Leader:
+      SenderEqualsGivenPlayer: '&7You cannot make yourself the party leader.'
+      NewLeaderIs: '&7The new party leader is &b[NEWLEADER]'
+    Leave:
+      NewLeaderIs: '&7The leader has left the party. The new leader is &b[NEWLEADER].'
+      YouLeftTheParty:
+      - '&bYou left your party.'
+  General:
+    PartyPrefix: '&3Party &8| '
+    HelpBegin: '&8&m+-------------------&r &3Party&8 &m-------------------+'
+    HelpEnd: '&8&m+--------------------------------------------+'
+Friends:
+  General:
+    CommandNotFound:
+    - ' &cThe command does not exist.'
+    - ' &cI am sorry, but the command you were searching for was not found.'
+    NoPermission: ' &cYou don''t have the permission to execute this command.'
+    PlayerIsOffline: ' &7The player &b[PLAYER] &7is not online or you are not his
+      friend.'
+    NotAFriendOfOrOffline: ' &7The player &b[PLAYER] &7is not online or you are not
+      his friend.'
+    NoFriendGiven: ' &7You need to specify a friend.'
+    NoPlayerGiven: ' &7You need to specify a player.'
+    PlayerIsNowOffline: ' &7Your friend &b[PLAYER] &7is &coffline &7now.'
+    PlayerIsNowOnline: ' &7Your friend &b[PLAYER] &7is &aonline &7now.'
+    RequestInfoOnJoin: ' &7You &7have &7friend &7requests &7from: [FRIENDREQUESTS]'
+    DoesNotExist: ' &7The given player &7does not &7exist'
+    GivenPlayerEqualsSender: ' &7You cannot specify yourself as player argument.'
+    Prefix: '&3Friends &8|'
+    HelpBegin: '&8&m+-------------------&r &3Friends&8 &m-------------------+'
+    HelpEnd: '&8&m+----------------------------------------------+'
+    RequestInfoOnJoinColor: '&f'
+    RequestInfoOnJoinColorComma: '&7'
+  GUI:
+    NoFriendRequests: ' &7You do not have any pending friend requests at the moment.'
+    Hide:
+      ShowAllPlayers: ' &7Now all players will be shown.'
+      ShowOnlyFriendsAndPeopleFromTheServer: ' &7Now only friends and people of server
+        team will be shown.'
+      ShowOnlyFriends: ' &7Now only your friends will be shown.'
+      ShowOnlyPeopleFromTheServer: ' &7Now only staff members will be shown.'
+      ShowNobody: ' &cNow no players will be shown.'
+      ShowPartyMembers: ' &bFrom now on only players who are in your party are visible.'
+  CommandUsage:
+    List: '&b/friend list &8- &7Lists all your friends'
+    MSG: '&b/friend msg [name of the friend] [message]&r &8- &7Send a message to a
+      friend'
+    ADD: '&b/friend add [name of the player]&r &8- &7Add a friend'
+    Accept: '&b/friend accept [name of the player]&r &8- &7Accept a friend request'
+    Deny: '&b/friend deny [name of the player]&r &8- &7Deny a friend request'
+    Remove: '&b/friend remove [name of the friend]&r &8- &7Removes &7a &7friend'
+    Jump: '&b/friend jump [name of the friend]&r &8- &7Jump to a friend'
+    Settings: '&b/friend settings &r&8- &7Change the settings'
+  Command:
+    Accept:
+      NowFriends: ' &7You and &b[PLAYER] &7are now friends'
+      ErrorNoFriendShipInvitation: ' &7You have not receive a friend request from
+        &b[PLAYER]&7.'
+      ErrorSenderEqualsReceiver: ' &7You cannot message yourself.'
+      ErrorAlreadySend: ' &7You already have sent the player &b[PLAYER] &7a friend
+        request.'
+    Add:
+      SenderEqualsReceiver: ' &7You cannot send yourself a friend request.'
+      FriendRequestFromReceiver: ' &7The player &b[PLAYER] &7has already sent you
+        a friend request.'
+      FriendRequestReceived: ' &7You have received a friend request from &b[PLAYER]&7.'
+      ClickHere: '&aClick here to accept the friend request'
+      SentAFriendRequest: ' &7The player &b[PLAYER] &7received a friend request from
+        you.'
+      CanNotSendThisPlayer: ' &7You cannot send the player &b[PLAYER] &7a friend request.'
+      HowToAccept: ' &7Accept the friend request with &b/friend accept [PLAYER]&7.'
+      AlreadyFriends: ' &7You and &b[PLAYER] &7are already friends.'
+      FriendRequestTimedOut: ' &7The Friend request from &b[PLAYER] &7has timed out.'
+    Deny:
+      HasDenied: ' &7You have denied &b[PLAYER]s&7 friend request.'
+      NoFriendRequest: ' &7You have not received a friend request from &b[PLAYER]&7.'
+    Settings:
+      NowYouCanGetInvitedByEveryone: ' &7Now you can get invited into a party by &aeveryone.'
+      NowYouCanGetInvitedByFriends: ' &7Now you can &conly &7get invited into a party
+        by your friends.'
+      NowYouAreNotGoneReceiveFriendRequests: ' &7Now you are &cnot going to &7receive
+        friend requests anymore.'
+      NowYouAreGoneReceiveFriendRequests: ' &7Now you are &agoing to &7receive friend
+        requests from everyone.'
+      NowYouAreNotGoneReceiveMessages: ' &7Now you are &cnot going to &7receive messages
+        anymore.'
+      NowYouWillBeShowAsOnline: ' &7Now you will be shown as &aonline.'
+      NowYouWilBeShownAsOffline: ' &7Now you will be shown as &coffline.'
+      NowYouWillReceiveOnlineStatusNotification: ' &7Now you will &areceive a notification
+        &7when a friend of yours goes online/offline.'
+      NowYouWillNotReceiveOnlineStatusNotification: ' &7Now you will &cnot receive
+        a notification &7when a friend of yours goes online/offline.'
+      NowNoMessages: ' &7Now you are &cnot going to &7receive messages anymore.'
+      NowMessages: ' &7Now you are &agoing to &7receive messages from everyone.'
+      NowYourFriendsCanJump: ' &7Now your friends &acan jump &7to you.'
+      NowYourFriendsCanNotJump: ' &7Now your friends &ccan not jump &7to you.'
+      Introduction: ' &7These are your settings:'
+      FriendRequestSettingEveryone: '&7At the moment you are going to receive friend
+        requests from &aeveryone&7. To change this setting use &b/friend settings
+        friendrequests&7.'
+      FriendRequestSettingNobody: '&7At the moment you are &cnot going to &7receive
+        friend requests. To change this setting use &b/friend settings friendrequests&7.'
+      PartyInvitedByEveryone: '&7At the moment you can get invited into a party by
+        &aevery &7player. To change this setting use &b/friend settings invite&7.'
+      PartyInvitedByFriends: '&7At the moment you can get invited &conly &7by your
+        friends into their Party. To change this setting use &b/friend settings invite&7.'
+      CanJump: '&7At the moment your friends &acan jump to you&7. To change this setting
+        use &b/friend settings jump&7.'
+      CanNotJump: '&7At the moment your friends &ccannot &7jump to you. To change
+        this setting use &b/friend settings jump&7.'
+      ShowAsOnline: '&7At the moment you are shown as &aonline&7. To change this setting
+        use &b/friend settings offline&7.'
+      ShowAsOffline: '&7At the moment you are shown as &coffline&7. To change this
+        setting use &b/friend settings offline&7.'
+      ShowOnlineStatusChangeNotification: '&7At the moment you are &areceiving &7a
+        notification if the online status of a friend changes. To change this setting
+        use &b/friend settings notifyonline&7.'
+      DoNotShowOnlineStatusChangeNotification: '&7At the moment you are shown as &cnot
+        receiving &7a notification if the online status of a friend changes. To change
+        this setting use &b/friend settings notifyonline&7.'
+      ReceivePM: '&7At the moment you are able to &areceive &7private messages. To
+        change this setting use &b/friend settings message&7.'
+      DoNotReceivePM: '&7At the moment you are &cnot &7able to receive private messages.
+        To change this setting use &b/friend settings message&7.'
+      ChangeThisSettingsHover: '&aClick here to change this setting.'
+      NotFound: ' &7The setting which was specified could not be found or you don''t
+        have the permission to use this setting.'
+      SplitLine: '&8&m+-----------------------------------------------+'
+    Jump:
+      AlreadyOnTheServer: ' &7You are already on this server.'
+      JoinedTheServer: ' &7Now you are on the same server, like the player &b[PLAYER]&7.'
+      CanNotJump: ' &7You cannot jump to this person.'
+    List:
+      NoFriendsAdded: ' &7You currently do not have any friends.'
+      FriendsList: ' &7These are your friends:LINE_BREAK &7- '
+      PageDoesNotExist: ' &7The given page does not exist.'
+      NextPage: ' &7To see more friends use /friend list [PAGE].'
+      OnlineTitle: ' &a(online)&7, currently playing on [SERVER_ON]'
+      OfflineTitle: ' &c(offline)&7, last seen at [LAST_ONLINE]'
+      TimeColor: '&7'
+      OnlineColor: '&a'
+      OfflineColor: '&c'
+      PlayerSplit: 'LINE_BREAK &7- '
+    MSG:
+      CanNotWriteToHim: ' &7You cannot message this player.'
+      NoOneEverWroteToYou: ' &7You have not received any messages before.'
+      MessageMissing: ' &7You need to give a message.'
+      PlayerWillReceiveMessageOnJoin: ' &7The player will receive the message when
+        he goes online.'
+      SentMessage: ' &3[SENDERNAME] &b-> &3[PLAYER]&7:[CONTENT]'
+      ColorOfMessage: ' &b'
+    Remove:
+      Removed: ' &7You removed the friend &b[PLAYER]&7.'
+      FriendRemovedYou: ' &b[PLAYER]&7 removed you from his friend list.'
+PAFAdmin:
+  Command:
+    DeletePlayer:
+      PlayerDeleted: ' &7All data saved by Party and Friends of the player &b[PLAYER]&7
+        were deleted.'
+    MustBeExecutedByConsole: '&cThis command needs to be executed by the console.
+      This message can be changed in the messages.yml under "AdminCommands.TopCommand.PlayerMessage",
+      if UseOwnLanguageFile is activated in the config.yml.'

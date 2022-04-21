@@ -1,0 +1,168 @@
+server_connect_timeout: 5000
+listeners:
+- bind_local_address: true
+  force_default_server: true
+  forced_hosts: {}
+  host: 0.0.0.0:25565
+  max_players: 2000
+  motd: '&a            &aMooncraft Network &c[1.8-1.18]&c    &f☄ &6&lGrand Opening!&b&L
+    Version 1.0! &f☄'
+  ping_passthrough: false
+  priorities:
+  - lobby-1
+  proxy_protocol: false
+  query_enabled: true
+  query_port: 25565
+  tab_list: GLOBAL_PING
+  tab_size: 100
+remote_ping_cache: -1
+network_compression_threshold: 128
+permissions:
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  - bungeecord.command.list
+  - swms.island.admin
+  - bungeecord.command.send
+  - bungeetablistplus.admin
+  default:
+  - maintenance.bypass
+log_pings: false
+connection_throttle_limit: 3
+prevent_proxy_connections: false
+timeout: 30000
+player_limit: -1
+ip_forward: true
+groups:
+  ga:
+  - admin
+remote_ping_timeout: 5000
+connection_throttle: 4000
+log_commands: false
+stats: a96bc3f5-9516-4879-b921-20874427b897
+online_mode: true
+forge_support: false
+disabled_commands: []
+servers:
+  bw-game-1:
+    address: sfm-na-3:25566
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  bw-game-2:
+    address: sfm-na-3:25567
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  bw-lobby-1:
+    address: sfm-na-3:25565
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  bw-lobby-2:
+    address: sfm-na-3:25569
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  creative-1:
+    address: sfm-na-4:25568
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  lobby-1:
+    address: sfm-na-2:25565
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  lobby-2:
+    address: sfm-na-2:25566
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  lobby-3:
+    address: sfm-na-2:25567
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  lobby-4:
+    address: sfm-na-2:25568
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  lobby-5:
+    address: sfm-na-2:25569
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  ogp-1:
+    address: sfm-na-4:25566
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  ogp-2:
+    address: sfm-na-4:25567
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  opp-1:
+    address: sfm-na-4:25565
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  opp-2:
+    address: sfm-na-4:25569
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  sf-city-1:
+    address: sfm-na-5:25565
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  sf-city-2:
+    address: sfm-na-5:25566
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  sf-city-3:
+    address: sfm-na-5:25567
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  sf-city-4:
+    address: sfm-na-5:25568
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  sf-city-5:
+    address: sfm-na-5:25569
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  sf-islands-1:
+    address: sfm-na-6:25566
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  sf-islands-2:
+    address: sfm-na-6:25567
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  sf-islands-3:
+    address: sfm-na-6:25568
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  sf-islands-4:
+    address: sfm-na-6:25569
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  sf-islands-5:
+    address: sfm-na-6:25570
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  sf-w1-1:
+    address: sfm-na-6:25570
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  sf-w1-2:
+    address: sfm-na-6:25571
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  sf-w2-1:
+    address: sfm-na-6:25571
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  sf-w2-2:
+    address: sfm-na-6:25572
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  sf-w3-1:
+    address: sfm-na-6:25572
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  sf-w3-2:
+    address: sfm-na-6:25573
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false

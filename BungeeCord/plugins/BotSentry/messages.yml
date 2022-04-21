@@ -1,0 +1,199 @@
+#-------------------------------------------------------------------------------------------------------#
+#    _______    ______  ________         ______   ________  __    __  ________  _______  __      __     #
+#   |       \  /      \|        \       /      \ |        \|  \  |  \|        \|       \|  \    /  \    #
+#   | $$$$$$$\|  $$$$$$\\$$$$$$$$      |  $$$$$$\| $$$$$$$$| $$\ | $$ \$$$$$$$$| $$$$$$$\\$$\  /  $$    #
+#   | $$__/ $$| $$  | $$  | $$         | $$___\$$| $$__    | $$$\| $$   | $$   | $$__| $$ \$$\/  $$     #
+#   | $$    $$| $$  | $$  | $$          \$$    \ | $$  \   | $$$$\ $$   | $$   | $$    $$  \$$  $$      #
+#   | $$$$$$$\| $$  | $$  | $$          _\$$$$$$\| $$$$$   | $$\$$ $$   | $$   | $$$$$$$\   \$$$$       #
+#   | $$__/ $$| $$__/ $$  | $$         |  \__| $$| $$_____ | $$ \$$$$   | $$   | $$  | $$   | $$        #
+#   | $$    $$ \$$    $$  | $$          \$$    $$| $$     \| $$  \$$$   | $$   | $$  | $$   | $$        #
+#    \$$$$$$$   \$$$$$$    \$$           \$$$$$$  \$$$$$$$$ \$$   \$$    \$$    \$$   \$$    \$$        #
+#                                                                                                       #
+#                               _       _______     ________   ______                                   #
+#                              / \     |_   __ \   |_   __  |.' ____ \                                  #
+#                             / _ \      | |__) |    | |_ \_|| (___ \_|                                 #
+#                            / ___ \     |  __ /     |  _| _  _.____`.                                  #
+#                          _/ /   \ \_  _| |  \ \_  _| |__/ || \____) |                                 #
+#                         |____| |____||____| |___||________| \______.'                                 #
+#                                                                                                       #
+#                                                                                                       #
+#                  Join our Discord Server if you need Support or have any doubt!                       #
+#                                  https://discord.gg/uxRTwDa                                           #
+#                                                                                                       #
+#                      You can get some translations made by our community in:                          #
+#                        https://cyberdevelopment.es/BotSentry/translations                             #
+#                                                                                                       #
+#  Add our official Discord Bot to your DC server, the bot will send a message in your Discord Server   #
+#      and in your DMs when an attack occurs to your server, with statistics related to the attack      #
+#       https://discord.com/oauth2/authorize?client_id=750526188555993148&scope=bot&permissions=8       #
+#                                                                                                       #
+#-------------------------------------------------------------------------------------------------------#
+#    __  __ ______  _____ _____         _____ ______  _____
+#   |  \/  |  ____|/ ____/ ____|  /\   / ____|  ____|/ ____|
+#   | \  / | |__  | (___| (___   /  \ | |  __| |__  | (___
+#   | |\/| |  __|  \___ \\___ \ / /\ \| | |_ |  __|  \___ \
+#   | |  | | |____ ____) |___) / ____ \ |__| | |____ ____) |
+#   |_|  |_|______|_____/_____/_/    \_\_____|______|_____/
+#
+# The url that will get automatically substituted in kick messages
+whitelisturl: "www.notbot.es"
+error:
+  startup: "&6BotSentry &7\u00BB &cError while connecting to &6&lBotSentry&c servers, code &4%1$d&c. &cYou can ignore this error in case of only appearing 2-3 times, if it appears a lot, contact us on discord (/bs discord)."
+  config: "&6BotSentry &7\u00BB &cCannot download the default config from &6&lBotSentry&c servers. Making a config without comments..."
+  mysql:
+    sqlerror: "&6BotSentry &7\u00BB &cA SQL error has occurred: MySQL Error Code %1$d"
+    credentials: "&6BotSentry &7\u00BB &cThe credentials in the config are incorrect"
+    classnotfound: "&6BotSentry &7\u00BB &cThe MySQL classes are not found, check your server version"
+  firewall:
+    command: "&6BotSentry &7\u00BB &cAn error happened while running a system command."
+    notunix: "&6BotSentry &7\u00BB &cYou are not using an unix-like system. Be sure to check your blacklist firewall commands. If you have any doubt contact us on discord (/bs discord)."
+    setup: "&6BotSentry &7\u00BB &cAn error happened while setting up blacklist firewall. Make sure your server is ran using root or your user has permission to execute the specified commands. If you have any doubt contact us on discord (/bs discord)."
+    unix:
+      install: "&6BotSentry &7\u00BB &cCould not install the packages. Make sure your server is ran using root or your user has permission to execute the specified commands. If you have any doubt contact us on discord (/bs discord)."
+  filewriting: "&6BotSentry &7\u00BB &cError while writing into the file system: %1$s"
+blacklisted: "&8\u00AB &cBotSentry &8\u00BB\n&7Your connection has been analyzed!\n&7-----------------------------------\n\n&cYour IP is blacklisted by the AntiBot system.\n\n&7-----------------------------------\n&7Do you want to play right now? Complete the Google Captcha at:\n&e%1$s"
+commands:
+  bs:
+    whitelist:
+      add:
+        successful:
+          moved: "&6BotSentry &7\u00BB &a%1$s &7has been successfully moved from the blacklist into the whitelist"
+          added: "&6BotSentry &7\u00BB &a%1$s &7has been successfully whitelisted"
+        error:
+          invalid: "&6BotSentry &7\u00BB &cThe given IP or player is not valid"
+          already: "&6BotSentry &7\u00BB &cThe given IP or player's IP is already in the whitelist"
+      description: "Whitelisting"
+      clear:
+        successful: "&6BotSentry &7\u00BB &aSuccessfully cleared the whole whitelist"
+        error: "&6BotSentry &7\u00BB &cThe code is incorrect: /bs whitelist clear %1$d"
+        confirm: "&6BotSentry &7\u00BB &cConfirm clearing by running: /bs whitelist clear %1$d"
+        warning: "&6BotSentry &7\u00BB &4Caution! &cThis will remove all IPs from the whitelist!"
+      contains:
+        # Don't translate the true or false
+        successful:
+          'true': "&6BotSentry &7\u00BB &a%1$s is whitelisted"
+          'false': "&6BotSentry &7\u00BB &a%1$s is not whitelisted"
+        error: "&6BotSentry &7\u00BB &cThe given IP is not valid"
+      remove:
+        error:
+          notinside: "&6BotSentry &7\u00BB &cThe given IP is not whitelisted"
+          invalid: "&6BotSentry &7\u00BB &cThe given IP is not valid"
+        successful: "&6BotSentry &7\u00BB &aSuccessfully removed %1$s from the whitelist"
+      fulldescription: "&r\n&8\u00BB &6Full Description:\n&fYou can add, remove, clear and check if an IP is inside the whitelist\n&r\n&8\u00BB &6Parameters:\n&8- &badd&7: &fAdd an IP to the whitelist (by an IP or username)\n&8- &bremove&7: &fRemove an IP from the whitelist\n&8- &bclear&7: &fRemoves all IPs from the whitelist\n&8- &bcontains&7: &fChecks if the IP is in the whitelist\n&8- &b[ip] &7- &fThe IP that can be used in some operations\n&r"
+      format: "whitelist <add:remove:clear:contains> [ip]"
+    # Don't translate the off
+    'off':
+      successful: "&6BotSentry &7\u00BB &aSuccessfully disabled AntiBot Mode"
+      fulldescription: "&r\n&8\u00BB &6Full Description:\n&fDeactivates the AntiBot Mode\n&r"
+      description: "Deactivates AntiBot Mode manually"
+      format: "off"
+      error: "&6BotSentry &7\u00BB &cAntiBot Mode is already off"
+    stats:
+      fulldescription: "&r\n&8\u00BB &6Full Description:\n&fReturns a detailed list and count of blacklisted IPs, whitelisted IPs, check queue and more.\n&r"
+      message:
+        version: "&r\n&r\n&8&m&l-------------&8&l<&r  &c&lBotSentry  &8&l>&8&m&l-------------\n&r\n&8\u00BB &6Version: &f%1$s"
+        whitelist: "&8\u00BB &6Whitelisted IPs: &f%1$d &7IPs"
+        blacklist: "&8\u00BB &6Blacklisted IPs: &f%1$d &7IPs"
+        checking: "&8\u00BB &6IPs in the queue: &f%1$d &7IPs"
+        checked: "&8\u00BB &6IPs checked this session: &f%1$d &7IPs\n&8\u00BB &6IPs detected as Proxy this session: &f%2$d &7IPs"
+        server: "&8\u00BB &6Server IP and Port: &f%1$s"
+        badpackets: "&8\u00BB &6Bad packets prevented this session: &f%1$d &7packets"
+      description: "Sends the current plugin statistics"
+      format: "stats"
+    apipassword:
+      error:
+        already: "&6BotSentry &7\u00BB &cThis server already has an API password set this session"
+        unknown: "&6BotSentry &7\u00BB &cAn unknown error occurred when uploading the password"
+        invalid: "&6BotSentry &7\u00BB &cThe given password is invalid. (Maximum length is 14, needs to be alphanumeric)"
+      successful: "&6BotSentry &7\u00BB &aSuccessfully set the API password for this server (IP: &c%1$s&a)"
+      description: "Sets the API password"
+      format: "apipassword <password>"
+      uploading: "&6BotSentry &7\u00BB &bUploading API password..."
+      fulldescription: "&r\n&8\u00BB &6Full Description:\n&fThis command sets a password for you to be able to use our public API, the password has a maximum length of 14 and has to be alphanumeric.\n&r\n&fWith this API you have access to make web-requests to:\n&7www.cyberdevelopment.es/BotSentry/publicapi/request.php\n&r\n&8&l(&4&l!&8&l) &cThis command can only be ran once per session!\n&r"
+    blacklist:
+      fulldescription: "&r\n&8\u00BB &6Full Description:\n&fYou can add, remove, clear and check if an IP is inside the blacklist\n&r\n&8\u00BB &6Parameters:\n&8- &badd&7: &fAdd an IP to the blacklist (by an IP or username)\n&8- &bremove&7: &fRemove an IP from the blacklist\n&8- &bclear&7: &fRemoves all IPs from the blacklist\n&8- &bcontains&7: &fChecks if the IP is in the blacklist\n&8- &b[ip] &7- &fThe IP that can be used in some operations\n&r"
+      description: "Blacklisting"
+      clear:
+        confirm: "&6BotSentry &7\u00BB &cConfirm clearing by running: /bs blacklist clear %1$d"
+        error: "&6BotSentry &7\u00BB &cThe code is incorrect: /bs blacklist clear %1$d"
+        successful: "&6BotSentry &7\u00BB &aSuccessfully cleared the whole blacklist"
+        warning: "&6BotSentry &7\u00BB &4Caution! &cThis will remove all IPs from the blacklist!"
+      format: "blacklist <add:remove:clear:contains> [ip]"
+      remove:
+        successful: "&6BotSentry &7\u00BB &aSuccessfully removed %1$s from the blacklist"
+        error:
+          notinside: "&6BotSentry &7\u00BB &cThe given IP is not blacklisted"
+          invalid: "&6BotSentry &7\u00BB &cThe given IP is not valid"
+      add:
+        error:
+          already: "&6BotSentry &7\u00BB &cThe given IP or player's IP is already in the blacklist"
+          invalid: "&6BotSentry &7\u00BB &cThe given IP or player is not valid"
+        successful:
+          moved: "&6BotSentry &7\u00BB &a%1$s &7has been successfully moved from the whitelist into the blacklist"
+          added: "&6BotSentry &7\u00BB &a%1$s &7has been successfully blacklisted"
+      contains:
+        successful:
+          # Don't translate the true and false
+          'false': "&6BotSentry &7\u00BB &a%1$s is not blacklisted"
+          'true': "&6BotSentry &7\u00BB &a%1$s is blacklisted"
+        error: "&6BotSentry &7\u00BB &cThe given IP is not valid"
+    reload:
+      successful: "&6BotSentry &7\u00BB &aSuccessfully reloaded files"
+      fulldescription: "&r\n&8\u00BB &6Full Description:\n&fSimple command to reload the plugin.\n&r\n&8\u00BB &6What the plugin will do when reloading:\n&8- &fSaves and loads the blacklist and whitelist.\n&8- &fLoads all messages and configurations from the files.\n&8- &fDoes not restart running processes.\n&8- &fRestarts the Auto Purger times (as they can be changed).\n&8- &fRe-runs the blacklist firewall commands (if enabled).\n&r\n&8&l(&4&l!&8&l) &cCannot be used when AntiBot mode is ON.\n&r"
+      format: "reload"
+      error: "&6BotSentry &7\u00BB &cAntiBot Mode is on, did not reload files"
+      description: "Reloads all values from the configuration"
+    discord:
+      description: "Gives the plugin's official Discord's link"
+      fulldescription: "&r\n&8\u00BB &6Full Description:\n&fReturns the Discord link of the official support Discord.\n&fDiscord: &a&nhttps://discord.gg/8f55U9k\n&r"
+      format: "discord"
+    # Don't translate the on
+    'on':
+      successful: "&6BotSentry &7\u00BB &aSuccessfully enabled AntiBot Mode"
+      format: "on"
+      error: "&6BotSentry &7\u00BB &cAntiBot Mode is already on"
+      description: "Activates AntiBot Mode manually"
+      fulldescription: "&r\n&8\u00BB &6Full Description:\n&fActivates the AntiBot mode. Not recommended to activate it manually, AntiBot enables itself when needed.\n&r"
+    notifications:
+      description: "Toggles ActionBar notifications for you"
+      fulldescription: "&r\n&8\u00BB &6Full Description:\n&fDisables/enables the notifications for the player and gives the player notifications about the attack that is going on in the ActionBar.\n&r\n&8&l(&4&l!&8&l) &cThe server must be using 1.8 or older!\n&r"
+      successfully:
+        enabled: "&6BotSentry &7\u00BB &aSuccessfully enabled the notifications"
+        disabled: "&6BotSentry &7\u00BB &aSuccessfully disabled the notifications"
+      error:
+        version: "&6BotSentry &7\u00BB &cYou or the server needs to have at least Minecraft 1.8"
+      format: "notifications"
+    help:
+      fulldescription: "&r\n&8\u00BB &6Full Description:\n&fGives a full explanatory list with all available commands.\n&fOr with a given command, shows that command's full description.\n&r\n&8\u00BB &6Parameters:\n&b[command] &7- &fThe command to give more information of.\n&r"
+      format: "help [command]" # Don't translate this
+      description: "Shows a menu with the list of commands"
+    mainhelp: "&7\u00BB All main commands with their descriptions:\n&r"
+    helpformat: "&8\u00BB &7/bs &6%1$s &8- &f%2$s"
+    # The header of a lot of BotSentry commands
+    header: "&r\n&r\n&8&m&l-------------&8&l<&r  &c&lBotSentry  &8&l>&8&m&l-------------&r\n&r"
+  bsw:
+    # The header of the BotSentry Wiki
+    header: "&8&m&l-------------&8&l<&r  &c&lBotSentry &6&lWiki  &8&l>&8&m&l-------------"
+    search:
+      empty: "&6BotSentry &7\u00BB &cPlease add a search query: &7/bsw %1$s search <query>"
+
+consolefiltering:
+  update: "&6BotSentry &7\u00BB &f%1$d &bIPs blacklisted (last second) &7&l\u00BB &f%2$d &bIPs joined (last second) &7&l\u00BB &f%3$d &bIPs pinged (last second)"
+  badpackets: "&6BotSentry &7\u00BB &f%1$d &bBad packets prevented (last second)"
+antibotmode:
+  lockdown: "&8\u00AB &3Mooncraft &8\u00BB\n&7We are suffering a Bot Attack!\n&7-----------------------------------\n\n&7The AntiBot Mode is currently &bON.\n&7The lockdown will take atleast &b%1$d &7more seconds.\n\n&7-----------------------------------\n&7You want to play without waiting? Complete the Google Captcha at:\n&3%2$s"
+notifications:
+  attack: "&7\u00BB &cIPs in blacklist: &f%1$d &7- &cBots last second: &f%2$d &7- &cIPs in queue: &f%3$d &7- &cBad packets prevented this session: &f%4$d &7\u00AB"
+  waiting: "&7\u00BB &6Waiting for new attacks to arrive... &7\u00AB"
+# Specify here if you use a custom URL
+notenougharguments: "&6BotSentry &7\u00BB &cNot enough arguments: /%1$s, use /%2$s for more information"
+detection:
+  kick: "&8\u00AB &3Mooncraft &8\u00BB\n&7We are analyzing your connection!\n&7-----------------------------------\n\n&7We detected some dangerous activity on the server, we are now confirming all requests.\n&bRe-join the server please.\n\n&7-----------------------------------\n&7If the problem persists, you can complete the Google Captcha to assure the joining:\n&3%1$s"
+  dolly: "&8\u00AB &3Mooncraft &8\u00BB\n&7You surpassed the limit of accounts!\n&7-----------------------------------\n\n&cYou have been blacklisted for playing with a lot of different nicknames with the same IP at the same time!\n\n&7-----------------------------------\n&7Do you think this was a mistake? Complete the Google Captcha at:\n&3%1$s"
+  amazon: "&8\u00AB &3Mooncraft &8\u00BB\n&7Your connection is very suspicious!\n&7-----------------------------------\n\n&cYour connection is very suspicious for the server.\n&cTry re-joining or restarting Minecraft to fix it!\n\n&7-----------------------------------\n&7Do you think this was a mistake?\n&eContact us on Discord"
+  illegalname: "&8\u00AB &3Mooncraft &8\u00BB\n&7Your connection has been analyzed!\n&7-----------------------------------\n\n&cYour username contains illegal characters.\nAllowed characters are: [a-zA-Z0-9_]*\n\n&7-----------------------------------\n&7Do you think this was a mistake?\n&eContact us on Discord"
+  firstjoin: "&8\u00AB &3Mooncraft &8\u00BB\n&7We are analyzing your connection!\n&7-----------------------------------\n\n&7As this is your first time playing, we are checking your connection.\n\n&7-----------------------------------\n&bYou can join back immediately!"
+# Needs to be changed in every message due to more customization purposes
+prefix: ""
+nosubcommand: "&3Mooncraft &8| &7\u00BB &c%1$s is an unknown sub command"
+nopermission: "&3Mooncraft &8| &7\u00BB &cYou do not have enough permissions to do this"

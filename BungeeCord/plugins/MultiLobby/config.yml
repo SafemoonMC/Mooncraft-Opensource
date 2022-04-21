@@ -1,0 +1,193 @@
+#THE GROUPS BELOW ARE JSUT EXAMPLES! YOU CAN DELETE THEM ALL AND START CREATING YOUR OWN!
+balancing-groups:
+  lobbies: #your group name here
+    balancing: true #Is this group automatically balanced ?
+    internal-balancing: false #If you enable this, lobby selector plugins wont work 
+    clear-chat: false #Clear player chat before joining this group
+    is-main: true #Your main hub/lobby group - can be only one
+    is-login-group: true #If true, newly connected players are send to this group, only 1 group can have this value set to true
+    fallback-group: "lobbies" #where to send players if the server crashes
+    shared-chat: true
+    servers: #server names must match exactly (it is case-sensitive) your server names in bungee config
+      - lobby-1
+      - lobby-2
+      - lobby-3
+      - lobby-4
+      - lobby-5
+  ogprison: #your group name here
+    balancing: true #Is this group automatically balanced ?
+    internal-balancing: false #If you enable this, lobby selector plugins wont work 
+    clear-chat: false #Clear player chat before joining this group
+    is-main: false #Your main hub/lobby group - can be only one
+    is-login-group: false #If true, newly connected players are send to this group, only 1 group can have this value set to true
+    fallback-group: "lobbies" #where to send players if the server crashes
+    shared-chat: true
+    servers: #server names must match exactly (it is case-sensitive) your server names in bungee config
+      - ogp-1
+  #    - ogp-2
+  opprison: #your group name here
+    balancing: true #Is this group automatically balanced ?
+    internal-balancing: false #If you enable this, lobby selector plugins wont work 
+    clear-chat: false #Clear player chat before joining this group
+    is-main: false #Your main hub/lobby group - can be only one
+    is-login-group: false #If true, newly connected players are send to this group, only 1 group can have this value set to true
+    fallback-group: "lobbies" #where to send players if the server crashes
+    shared-chat: true
+    servers: #server names must match exactly (it is case-sensitive) your server names in bungee config
+      - opp-1
+    #  - opp-2
+  bedwarslobby: #your group name here
+    balancing: true #Is this group automatically balanced ?
+    internal-balancing: false #If you enable this, lobby selector plugins wont work 
+    clear-chat: false #Clear player chat before joining this group
+    is-main: false #Your main hub/lobby group - can be only one
+    is-login-group: false #If true, newly connected players are send to this group, only 1 group can have this value set to true
+    fallback-group: "lobbies" #where to send players if the server crashes
+    shared-chat: true
+    servers: #server names must match exactly (it is case-sensitive) your server names in bungee config
+      - bw-lobby-1
+      - bw-lobby-2
+  bwgames: #your group name here
+    balancing: false #Is this group automatically balanced ?
+    internal-balancing: false #If you enable this, lobby selector plugins wont work 
+    clear-chat: false #Clear player chat before joining this group
+    is-main: false #Your main hub/lobby group - can be only one
+    is-login-group: false #If true, newly connected players are send to this group, only 1 group can have this value set to true
+    fallback-group: "bedwarslobby" #where to send players if the server crashes
+    shared-chat: false
+    servers: #server names must match exactly (it is case-sensitive) your server names in bungee config
+      - bw-game-1
+      - bw-game-2
+ # Auths: #If you dont have separated auth servers just delete this group
+ #   balancing: true
+ #   internal-balancing: false
+ #   clear-chat: false
+ #   is-main: false
+ #   is-login-group: true
+ #   fallback-group: "null" #Ignored value if this is your login/main group
+ #   shared-chat: false
+ #   servers:
+ #     - Auth1
+ #     - Auth2
+    
+#Players will be forced to your logingroup of servers after they join your bungee, disabling this will disable logingroup option in the section above, this is useful when you want to just balance your lobby servers and you want that players stays on server where they last logged off or you want to control this feature with another plugin (like BungeeAuthentificator)
+force-login-group: true
+  
+
+#Can change this if you have more plugins sending players to different servers on the bungee-side
+#Values are: [LOWEST, LOW, NORMAL, HIGH, HIGHEST]
+#For ViaVersion on bungee-side this must be set to HIGHEST
+multilobby-priority: HIGHEST
+
+#Detect if lobby server is offline and redirect players to other lobby which is online (this feature may take additional resources especially RAM, by default this feature is disabled)
+#You might experience some issues if you use multi-protocol servers or fake offline detections, just keep it disabled, players will be still able to connect if 1 of your lobby servers goes down, dont worry.
+offlinedetection: true
+
+#How often should MultiLobby check the lobby servers if they are online or offline, the interval is in secs. (By default there is an interval 25 seconds, this means that MultiLobby pings all of your lobby servers every 25 secs, if lobby server does not respond to the ping = server is down and MultiLobby will no more be sending players to this server). If there is no online lobby, all players that are trying to connect will be kicked
+detectioninterval: 3
+
+#Socket timeout for offline detection or external lobby status in miliseconds. Do not touch this value util you have problems with pinging. If you have higher ping between bungee and lobby machines raise this value 2x higher than the ping value between lobby and bungee machines. Default is 100.
+socket-timeout: 200
+
+#Allows your players use "slash-server-commands". So if your lobby server is called "Lobby2", you can use /Lobby2 to teleport to Lobby2! (it works only for lobby servers).
+slash-lobby: false
+
+#Command blacklist (from here you can deny some commands on certain servers, there are 2 examples, if you have auth servers, then you probably do not want to let players teleport to lobby without logging-in. If you want to use this feature font forget to change option enabled: true!
+cmdblacklist:
+  enabled: false
+  Auth1:
+    - /lobby
+    - /hub
+  Auth2:
+    - /lobby
+    - /hub
+
+#Should command /glag show you local or external number of player connected to lobby servers ? (false=internal bungee status)
+glag-external-status: true
+
+#Motd can be easily edited from here (if enabled) without having to do /greload which is dangerous command and can lead to serious problems, this motd can be loaded by /mlreload command:
+motd: '&a            &aMooncraft Network &c[1.8-1.18]&c                           &5 &r &3&lFishing Update in Azkaban! '
+motdenabled: true
+
+
+#If server is closed should be the player moved to the fallback group of servers ? If disable player will be kicked out of the network
+kick-move: 
+  enabled: true
+  allow-on-login-group: false
+  #If the kick reason contains one of the following phrases or words, player will be kicked out of the network instead to a lobby server (works only if the kick-move is enabled)
+  reason-blacklist:
+    - "ban"
+    - "kick"
+  #Reasons that will be ignored by multilobby means default behavior for your network for kick events
+  reason-whitelist:
+    - "Maintenance"
+
+#gsay prefix:
+gsay-prefix: "&7[&3MooncraftNetwork&7] &f"
+
+#Shared chat:
+enable-shared-chat: false
+shared-chat-format: "&7[&e%server%&7]&f %prefix% %playername% %suffix%: %msg%"
+#Force the shared chat format even on the same server as the message sender is on
+shared-chat-force-format: false
+shared-chat-debug: false
+shared-chat-ignore-list: #ignore shared chat when message starts with one of these characters or strings
+  - "@"
+  - "$"
+
+#Glist:
+#To use the custom glist you have to disable module "cmd_list" in your bungeecord in modules.yml (delete the line) and delete the file cmd_list.jar from "modules" folder located also in your bungeecord folder.
+custom-glist: false
+glist-format: "&3%server%&8 | &7(&b%numplayers%&7)&f: %playerlist%"
+glist-total: "&3Total player online: &b%totalnum%"
+glist-excluded: []
+
+#Enable /player command
+player-enabled: true
+
+#Enable debug:
+debug: false
+
+#print all info available - warning: this can be log heavy and should be used only when analyzing config errors
+extradebug: false
+
+#Protect MultiLobby commands againts abuse
+cmdcooldown: true
+
+#Enable /lobby and /hub command
+lobbycommand: true
+
+#Always send your players to the fallback groups when /hub or /lobby commands are executed
+always-force-fallbacks: false
+
+#Every x seconds prints info about server status into console (players, server load, allocated RAM), this feature is great if you are trying to analyze Bungee-side lags.
+printinfo: true
+
+#print interval in seconds
+printinfointerval: 30
+
+#limit maximum number of player server switches
+security:
+  limit-max-rejoins: true #enable/disable this feature
+  max-rejoins: 6 #max server switch count per clear-interval
+  clear-interval: 10 #clear interval in seconds - meaning player can make only 5 server switches per 10 seconds, after that he will get kicked out
+  limit-exceeded-message: "&cYou are switching servers too quickly!"
+
+
+#Messages:
+enablekickmsg: false
+kickmsg: "You have been moved to fallback server: &reason"
+spamblock: "Blocked as a spam!"
+alternatives: "Alternatives"
+playernotfound: "Player not found!"
+ison: " is playing on "
+badarguments: "Bad arguments"
+name: "name"
+noperm: "You do not have permission to perform this command!"
+wrongnumber: "Wrong lobby number! Use: /lobby <number>"
+cmdblock: "You cannot use this command here!"
+noonlinelobbyfound: "No online lobby at the moment, please try again later!"
+
+
+#Do not touch the version
+version: 5

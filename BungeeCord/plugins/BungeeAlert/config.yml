@@ -1,0 +1,24 @@
+# █▀▀▄ █░░█ █▀▀▄ █▀▀▀ █▀▀ █▀▀ █▀▀█ █░░ █▀▀ █▀▀█ ▀▀█▀▀
+# █▀▀▄ █░░█ █░░█ █░▀█ █▀▀ █▀▀ █▄▄█ █░░ █▀▀ █▄▄▀ ░░█░░
+# ▀▀▀░ ░▀▀▀ ▀░░▀ ▀▀▀▀ ▀▀▀ ▀▀▀ ▀░░▀ ▀▀▀ ▀▀▀ ▀░▀▀ ░░▀░░
+
+# This is the main config for BungeeAlert.
+# Edit permission and the messages here.
+
+# Any problems, message me on discord. (kyle#2345)
+
+# Permission and message
+
+permission-alert: alert.use
+permission-reload: ba.reload
+permissionmessage: '&cYou''re not allowed to do that.'
+
+# Alert
+
+alert-prefix-title: '&3&lAlert'
+alert-prefix-chat: '&3Mooncraft &8| &7'
+alert-prefix-action: '&3Mooncraft &8| &7'
+alert-prefix-warn: '&3Warning &8| &7'
+
+
+# End of the config :)

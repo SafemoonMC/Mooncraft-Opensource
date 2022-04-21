@@ -1,0 +1,58 @@
+# Wiki: https://github.com/CodeCrafter47/BungeeTabListPlus/wiki
+# Placeholders: https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Placeholders
+# Examples: https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Examples
+#
+showTo: ${viewer server} = "sf-city-1"
+priority: 2
+
+showHeaderFooter: true
+header: |-
+  &e&lWelcome &f&l${viewer name}
+  &r
+footer: |-
+  &fJoin our community - &5/discord
+  &7Visit our webpage - mc.safemoon.net
+  &bPurchase &aRanks&7, &eBoosters&7, &6Mystery Boxes &7& More! - &d&l/store
+
+playerSets:
+  all_players: all
+  sf-city-1: ${player server} == "sf-city-1"
+
+type: FIXED_SIZE
+size: 80
+
+defaultIcon: "colors/dark_gray.png"
+defaultPing: 1000
+
+components:
+- !table
+  columns:
+    0-2:
+    - {center: "&a&l    Players &f(${playerset:all_players size})", icon: "colors/green.png", ping: 0}
+    - {center: "&a&l    Players &f(${playerset:all_players size})", icon: "colors/green.png", ping: 0}
+    - {center: "&b&l    Network &f(${viewer bungee_total})", icon: "colors/aqua.png", ping: 0}
+    - !players
+      playerSet: sf-city-1
+      playerComponent: "${player luckperms_prefix}${player name}"
+      morePlayersComponent: {text: "... and ${other_count} others", icon: "default/players.png", ping: 0}
+    3:
+    - {text: "&6&l   Player Level", icon: "colors/gold.png", ping: 0}
+    - {text: "", icon: "colors/gold.png", ping: 0}
+    - {text: "", icon: "colors/gold.png", ping: 0}
+    - {text: "&cServer:", icon: "default/server.png", ping: 0}
+    - {text: "&6${viewer server}", icon: "default/server.png", ping: 0}
+    - {text: "", icon: "colors/gold.png", ping: 0}
+    - {text: "&cRank:", icon: "default/rank.png", ping: 0}
+    - {text: "&6${viewer vault_primary_group}", icon: "default/rank.png", ping: 0}
+    - {text: "", icon: "colors/gold.png", ping: 0}
+    - {text: "&cPing:", icon: "default/ping.png", ping: 0}
+    - {text: "&6${viewer ping}ms", icon: "default/ping.png", ping: 0}
+    - {text: "", icon: "colors/gold.png", ping: 0}
+    - {text: "&cConstruction: &a23 &622%", icon: "default/players.png", ping: 0}
+    - {text: "&6${playerset:all_players size}", icon: "default/players.png", ping: 0}
+    - {text: "", icon: "colors/gold.png", ping: 0}
+    - {text: "&cBalance:", icon: "default/balance.png", ping: 0}
+    - {text: "&6${viewer vault_balance}", icon: "default/balance.png", ping: 0}
+    - {text: "", icon: "colors/gold.png", ping: 0}
+    - {text: "&cTime:", icon: "default/clock.png", ping: 0}
+    - {text: "&6${time HH:mm:ss}", icon: "default/clock.png", ping: 0}

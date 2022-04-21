@@ -1,0 +1,6 @@
+# Changing the UUID in this file will make Plan regard your server as a completely new server
+# Tread with caution.
+Server:
+    ID: 68
+    UUID: c96f2760-8451-4259-b985-f187c990499b
+    Web_address: http://sfm-na-1.siren-symmetric.ts.net:8804

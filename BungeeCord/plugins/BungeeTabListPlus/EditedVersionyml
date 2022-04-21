@@ -1,0 +1,84 @@
+# This is the default configuration file of BungeeTabListPlus.
+#
+# Since the configuration of the plugin is quite complex you
+# might want to have a look at the wiki from time to time.
+#
+# Wiki: https://github.com/CodeCrafter47/BungeeTabListPlus/wiki
+#  Placeholders: https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Placeholders
+#  Examples: https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Examples
+#
+
+# Configure who can see the tab lists
+# See https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/MultipleTablists
+showTo: all
+priority: 1
+
+# Configure header and footer
+# See https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Configuration-Basics-Part-3---Header-and-Footer      ${viewer server}
+showHeaderFooter: true
+header: |-
+  &7
+  &b&l▪ [color=#00ACEC]&lEnsuri &b&l▪
+  [color=#0187B9]&oTagline here :)
+  &7
+  &7Online Players:
+headerAnimationUpdateInterval: 0.5
+footer: |-
+  &7
+  &b&l▪ &#05a8e5C&#0aaae6o&#0face7n&#14afe9n&#19b1eae&#1eb3ebc&#24b5ect&#29b8eee&#2ebaefd &#38bef1P&#3dc1f3l&#43c3f4a&#48c5f5y&#4dc7f6e&#52caf8r&#57ccf9s&#5ccefa: &b${playerset:all_players size} &b&l▪
+  &7
+  &b&l▪ &#17BDFC&lMAP: &#07a9e5m&#0eace7a&#15afe9p&#1cb2ea.&#22b5ece&#29b8een&#30bbf0s&#37bef1u&#3ec1f3r&#45c4f5i&#4cc7f6.&#53caf8c&#5acdfao&#61d1fcm &b&l▪
+  &b&l▪ &#17BDFC&lSTORE: &#06a8e5s&#0dabe7h&#13aee8o&#1ab1eap&#20b4ec.&#27b7ede&#2dbaefn&#34bcf0s&#3abff2u&#41c2f4r&#47c5f5i&#4ec8f7.&#54cbf8c&#5bcefao&#61d1fcm &b&l▪
+  &7
+# Configure whether hidden players appear on the tab list
+# see https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Hidden-Players
+hiddenPlayers: VISIBLE_TO_ADMINS
+
+# Player sets are required to display players and player counts on the tab list.
+# See https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Configuration-Basics-Part-4---Player-sets
+playerSets:
+  all_players: all
+  same_server: ${player server} == ${viewer server}
+
+# Type of the tab list
+# See https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Configuration-Basics-Part-5---Dynamic-Size-Tablist
+# and https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Configuration-Basics-Part-6---Fixed-Size-Tablist-Introduction
+# for different options
+type: DYNAMIC_SIZE
+
+playerSet: same_server
+playerOrder: "vault_primary_group_weight desc, name asc"
+playerComponent: "&7${player vault_prefix}&8 | &7&f${player name} ${player vault_suffix}"
+
+# Here the content of the tab list is configured:
+
+# Custom placeholders are a powerful mechanism to add more dynamic content
+# to the tab list.
+# See https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/CustomPlaceholders
+customPlaceholders:
+  # Defines the ${afk_tag} placeholder which is used to add "|away"
+  # to the players name if he is afk.
+  links:
+    !animated
+    interval: 2
+    elements:
+    - "play.minestock.org"
+    - "store.minestock.org"
+    - "forum.minestock.org"
+    - "discord.minestock.org"
+  title:
+    !animated
+    interval: 0.1
+    elements:
+    - "&3&lMine Stock"
+    - "&b&lM&3&line Stock"
+    - "&b&lMi&3&lne Stock"
+    - "&b&lMin&3&le Stock"
+    - "&3&lM&b&line&3&l Stock"
+    - "&3&lMi&b&lne S&3&ltock"
+    - "&3&lMin&b&le St&3&lock"
+    - "&3&lMine &b&lSto&3&lck"
+    - "&3&lMine S&b&ltoc&3&lk"
+    - "&3&lMine St&b&lock"
+    - "&3&lMine Sto&b&lck"
+    - "&3&lMine Stoc&b&lk"

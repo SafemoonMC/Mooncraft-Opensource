@@ -1,0 +1,288 @@
+#-------------------------------------------------------------------------------------------------------#
+#    _______    ______  ________         ______   ________  __    __  ________  _______  __      __     #
+#   |       \  /      \|        \       /      \ |        \|  \  |  \|        \|       \|  \    /  \    #
+#   | $$$$$$$\|  $$$$$$\\$$$$$$$$      |  $$$$$$\| $$$$$$$$| $$\ | $$ \$$$$$$$$| $$$$$$$\\$$\  /  $$    #
+#   | $$__/ $$| $$  | $$  | $$         | $$___\$$| $$__    | $$$\| $$   | $$   | $$__| $$ \$$\/  $$     #
+#   | $$    $$| $$  | $$  | $$          \$$    \ | $$  \   | $$$$\ $$   | $$   | $$    $$  \$$  $$      #
+#   | $$$$$$$\| $$  | $$  | $$          _\$$$$$$\| $$$$$   | $$\$$ $$   | $$   | $$$$$$$\   \$$$$       #
+#   | $$__/ $$| $$__/ $$  | $$         |  \__| $$| $$_____ | $$ \$$$$   | $$   | $$  | $$   | $$        #
+#   | $$    $$ \$$    $$  | $$          \$$    $$| $$     \| $$  \$$$   | $$   | $$  | $$   | $$        #
+#    \$$$$$$$   \$$$$$$    \$$           \$$$$$$  \$$$$$$$$ \$$   \$$    \$$    \$$   \$$    \$$        #
+#                                                                                                       #
+#              _________          _______  _        _______ _________ _______  _______                  #
+#              \__   __/|\     /|(  ___  )( (    /|(  ___  )\__   __/(  ___  )(  ____ \                 #
+#                 ) (   | )   ( || (   ) ||  \  ( || (   ) |   ) (   | (   ) || (    \/                 #
+#                 | |   | (___) || (___) ||   \ | || (___) |   | |   | |   | || (_____                  #
+#                 | |   |  ___  ||  ___  || (\ \) ||  ___  |   | |   | |   | |(_____  )                 #
+#                 | |   | (   ) || (   ) || | \   || (   ) |   | |   | |   | |      ) |                 #
+#                 | |   | )   ( || )   ( || )  \  || )   ( |   | |   | (___) |/\____) |                 #
+#                 )_(   |/     \||/     \||/    )_)|/     \|   )_(   (_______)\_______)                 #                                                                 
+#                                                                                                       #
+#                                                                                                       #
+#                  Join our Discord Server if you need Support or have any doubt!                       #
+#                                  https://discord.gg/uxRTwDa                                           #
+#                                                                                                       #
+#                      You can get some translations made by our community in:                          #
+#                               https://docs.cyberdevelopment.es                                        #
+#                                                                                                       #
+#  Add our official Discord Bot to your DC server, the bot will send a message in your Discord Server   #
+#      and in your DMs when an attack occurs to your server, with statistics related to the attack      #
+#       https://discord.com/oauth2/authorize?client_id=750526188555993148&scope=bot&permissions=8       #
+#                                                                                                       #
+#-------------------------------------------------------------------------------------------------------#
+#
+#     _____ ____  _   _ ______ _____ _____ _    _ _____         _______ _____ ____  _   _
+#    / ____/ __ \| \ | |  ____|_   _/ ____| |  | |  __ \     /\|__   __|_   _/ __ \| \ | |
+#   | |   | |  | |  \| | |__    | || |  __| |  | | |__) |   /  \  | |    | || |  | |  \| |
+#   | |   | |  | | . ` |  __|   | || | |_ | |  | |  _  /   / /\ \ | |    | || |  | | . ` |
+#   | |___| |__| | |\  | |     _| || |__| | |__| | | \ \  / ____ \| |   _| || |__| | |\  |
+#    \_____\____/|_| \_|_|    |_____\_____|\____/|_|  \_\/_/    \_\_|  |_____\____/|_| \_|
+
+#
+prefix: false
+# TOP FEATURE!
+# Should the Google-Captcha system to un-blacklist players themselves be enabled? (Hosted by us)
+# This will download a Global whitelist of IPs that completed the google captcha from:
+# https://cyberdevelopment.es/BotSentry/verify/
+# 
+# If you want to customize the website you can get a custom link here and shorten it if you want:
+# https://cyberdevelopment.es/BotSentry/verify/custom/
+#
+# By default, when users get blacklisted they will get the kick message with the URL (www.notbot.es) so they can whitelist themselves.
+# HIGHLY RECOMMENDED to leave it to TRUE
+database-whitelist-sync: true
+
+# AntiBot mode generic settings
+antibotmode:
+  # When AntiBot mode will automatically disable during attack
+  # Default values are: Disable AntiBot mode if less than 8 non-blacklisted and non-whitelisted joins in 5 seconds,
+  # and stays below those 8 IPs for 3 seconds.
+  # The purpose of this is to disable AntiBot-mode automatically when the 95% of the attack is mitigated
+  stop:
+    enabled: true
+    amount: 8
+    time: 5
+    keep: 3
+  # Conditions settings, how many % will give to a player/bot certain checks
+  condition:
+    # If an IP joins with 3 different usernames during an attack
+    cloned:
+      amount: 3
+      percentage: 50
+    # If an IP joins from the specified country list, it will give that % of bot to the IP
+    # You can find a list of the top-countries detected bots by Bot-Sentry in:
+    # https://cyberdevelopment.es/BotSentry/publicapi/countries.php
+    # There are few blocked by default, you MUST adjust it to your needs!
+    # This check can be really effective to block bots, can block the 90% of the attack in 5 seconds if well-configured!
+    deniedcountry:
+      # When set to true, it will add the percentage to the countries inside the list.
+      # When set to false, it will add the percentage to countries that are outside the list.
+      denymode: true
+      percentage: 50
+      values: [IL, TH, RU, ID, BR, IN, CN]
+    # If an IP joins from the specified continents list, it will give that % of bot to the IP
+    # You can find a list of the top-countries detected bots by Bot-Sentry in:
+    # https://cyberdevelopment.es/BotSentry/publicapi/continents.php
+    # There are few blocked by default, you MUST adjust it to your needs!
+    # This check can be really effective to block bots, can block the 90% of the attack in 5 seconds if well-configured!
+    deniedcontinent:
+      # When set to true, it will add the percentage to the continents inside the list.
+      # When set to false, it will add the percentage to continents that are outside the list.
+      denymode: true
+      percentage: 50
+      values: [Antarctica]
+    # If an IP joins from the specified providers list, it will give that % of bot to the IP
+    # You can find a list of the top-providers detected bots by Bot-Sentry in:
+    # https://cyberdevelopment.es/BotSentry/publicapi/providers.php
+    # There are few blocked by default, you MUST adjust it to your needs!
+    # This check can be really effective to block bots, can block the 60% of the attack in 5 seconds if well-configured!
+    deniedprovider:
+      # When set to true, it will add the percentage to the providers inside the list.
+      # When set to false, it will add the percentage to providers that are outside the list.
+      denymode: true
+      percentage: 50
+      values: [DEPARTMENT OF AGRICULTURE WATER AND THE ENVIRONMENT]
+    # If an IP joins 35 times during an attack
+    usainbolt:
+      percentage: 25
+      amount: 35
+    # If an IP is a proxy/vpn
+    # This check can mitigate easily more than the 70% of the attack
+    unknownlocation:
+      percentage: 50
+  # If a bot/player reach this likeliness amount, will get blacklisted
+  minimumlikeliness: 50
+  # The time that AntiBot mode will be enabled, don't touch it, there are other checks that makes it posible to stop antibot mode earlier.
+  time: 10
+
+# Auto purger settings, to maintain things optimized automatically without need of manual interaction
+# - Modes:
+# · limit: purge the specified thing when the number is reached
+# · afterattack: purge the specified thing after every attack ends
+# · time: purge the specified thing every X amount of minutes
+autopurger:
+  # Whitelist auto-purging
+  # Modes: afterattack/time (limit is only for blacklist and whitelist)
+  whitelist:
+    # In case you use limit
+    amount: 200000
+    # In case you use time
+    time: 30
+    mode: "limit"
+    enabled: false
+  # Server Logs auto-purging
+  serverlogs:
+    # In case you use time
+    time: 30
+    mode: "afterattack"
+    enabled: false
+  # Blacklist auto-purging
+  blacklist:
+    # In case you use time
+    time: 30
+    mode: "limit"
+    # In case you use limit
+    amount: 100000
+    enabled: false
+  # Bot-Sentry attack logs auto-purging
+  attacklogs:
+    mode: "time"
+    # In case you use time
+    time: 30
+    enabled: false
+  # Bot-Sentry slow bots logs auto-purging
+  slowbotslogs:
+    mode: "time"
+    # In case you use time
+    time: 30
+    enabled: false
+
+# MySQL settings
+# Only enable MySQL when you have multiple BungeeCord instances.
+mysql:
+  settings:
+    updateinterval: 60
+  port: 3306
+  username: "root"
+  database: "database"
+  password: "password"
+  ip: "123.123.123.123"
+  enabled: false
+
+# Slow attack detection settings
+# To prevent possible bypasses and breaches, this is dev-Only
+# You will need to contact us in order to toggle this settings. Default ones should be perfect.
+# https://discord.gg/aDAqmvA
+detection:
+  # Slow attack detection of non-advanced bots
+  amazon:
+    amount: 4
+    # Toggle this to false if you use Essentials.
+    sendjoinmessagelater: true
+    blacklist: false
+    time: 8
+    antibotmode: true
+    enabled: true
+    toggletime: 120
+  # Slow attack detection of advanced bots (more intelligent bots)
+  strangesituation:
+    latency: 750
+    time: 90
+    amount: 5
+    blacklist: false
+    antibotmode: true
+  # Slow attack detection to prevent bots from registering
+  stopregistering:
+    amount: 4
+  # If 5 connections are established in 250 milliseconds, activate AntiBot mode
+  usainjoin:
+    amount: 5
+    time: 500
+  # How many different usernames can play with the same IP at the same time
+  dolly:
+    amount: 5
+  # Dev-only, contact us if you have problems
+  slowattack:
+    sameip:
+      time: 1
+      amount: 10
+  # If a player joins for the first time, it will get kicked by BotSentry to to detect slow bot attacks.
+  firstjoin:
+    enabled: false
+  # The regex to compare the username with. If everything it correct, the player will proceed login
+  # Check how regex works here: https://regexr.com/
+  illegalname:
+    regex: "[a-zA-Z0-9_.]*"
+
+# Console filtering settings
+consolefiltering:
+  # Should the console be filtered when attack?
+  enabled: true
+  # Should InitialHandler messages always be filtered?
+  # We really recommend keeping this to true, as it defends against 1 type of exploited attack.
+  initialhandler: true
+  # Add here your custom messages, which will be filtered in the console.
+  # Filtered messages will be removed.
+  custommessages: [Typing this message in console, will be filtered!]
+  # Should BotSentry filter specific console messages, per platform.
+  # These messages are default per platform.
+  # It is not supported to disable this setting, as some errors will occur when disabled!!!
+  defaultmessages: true
+  # Clear mode is when no console lines are logged at all.
+  # This results in less CPU and RAM usage.
+  clearmode:
+    # The amount of filtered messages (both bad packets and custom messages) which is needed in the given timeframe to enable clear mode
+    amount: 20
+    # The timeframe in seconds it checks for
+    time: 3
+    # The minimum duration in seconds of clear mode
+    duration: 5
+    # The grace period after the minimum duration in which it keeps detecting for an enormous amount of bad packets.
+    # This is in seconds and can be 0 if no grace period is necessary.
+    # In the grace period these checks are performed to check if there is still a lot going on:
+    # - Restart clear mode if the amount of logged messages (all) in the grace period is more than the grace avarage
+    # - The grace average is calculated using: ((clearmode.amount) / clearmode.time * clearmode.grace) * 2
+    grace: 1
+    # Should clear mode be enabled or not?
+    enabled: true
+
+# Whitelist filtering settings
+# After how many minutes playing will an IP be whitelisted. A value of 0 and lower means never.
+whitelist:
+  automatic: 2
+
+# Firewall blacklisting settings
+# You will need a system with IPSet and IPTables permissions in order to run this (On Unix like system, it installs it for you)
+blacklist:
+  firewall:
+    # All the commands that will execute for internal bans
+    unix:
+      install: "apt-get --yes install ipset" # This command will be executed on bot-sentry enable
+      load: "ipset restore -file /etc/ipset.conf" # This command will be executed on bot-sentry enable
+      ipset: "ipset create -! blacklist hash:ip hashsize 4096" # This command will be executed on bot-sentry enable
+      iptables: "iptables -t raw -A PREROUTING -p tcp --dport 25565:25600 -m set --match-set blacklist src -j DROP" # This command will be executed on bot-sentry enable
+      iptablesdelete: "iptables -t raw -D PREROUTING -p tcp --dport 25565:25600 -m set --match-set blacklist src -j DROP" # This command will be executred on Bot-Sentry disable
+      save: "ipset save > /etc/ipset.conf" # This command will be executed on bot-sentry enable
+    add: "ipset -! -A blacklist %1$s" # This command will be executed with the detected IP when it gets Blacklisted
+    # Should internal bans be enabled?
+    enabled: false
+    remove: "ipset -! -D blacklist %1$s" # This command will be executed with the IP when it gets Un-Blacklisted or Whitelisted
+    flush: "ipset flush blacklist" # This command will be executed when doing the command /bs blacklist clear. When setting to: '' it will run each ip through the remove command (in case there is no flush)
+
+# Should bot-sentry logs be enabled by default?
+# If you have any false positives, it will be logged, then contact us somewhere and we touch your config specifically to fix it and keep blocking bots without problem.
+logs: true
+
+# Command specific settings
+commands:
+  bs:
+    # Should the /bs blacklist clear and /bs whitelist clear ask to confirm the request with a code?
+    # Recommended if you give the permission to clear the blacklist/whitelist to a non-experienced user
+    clearconfirmation: true
+  bsw:
+    search:
+      # Amount of results per page in the Wiki search menu
+      resultpagesize: 6
+      # The size of the context before and after the searched word.
+      # 1 meaning only one word before and after the searched word etc.
+      resultcontext: 2

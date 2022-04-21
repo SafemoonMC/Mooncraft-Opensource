@@ -1,0 +1,75 @@
+REPORT:
+  COOLDOWN: 60
+  USAGE:
+    INCORRECT:
+      - '&cUsage: /report <player> <reason>'
+    NO-REASON:
+      - '&cPlease put the reason why you would report to &e<target>&c.'
+      - '&cUsage: /report <target> <reason>'
+    UNKNOWN-REASON:
+      - '&7Please use one of the reasons below:'
+      - '&7 Cheats: &bHacks&7, &bFly&7, &bKillAura&7, &bGod&7, &bScam&7, &bOther&7.'
+      - '&7 Chat: &bSpam&7, &bAdvertise&7, &bRacism&7, &bBullying&7, &bToxicity&7, &bProfanity&7.'
+    SUCCESSFULLY:
+      - '&7You have reported &b<target>&7 successfully. A Staff member has been notified!'
+  REASONS:
+    USE-CUSTOM-REASON: true
+    LIST:
+      - 'Spam'
+      - 'Advertise'
+      - 'Racism'
+      - 'Bullying'
+      - 'Toxicity'
+      - 'Profanity'
+      - 'Hacks'
+      - 'Fly'
+      - 'KillAura'
+      - 'God'
+      - 'Scam'
+      - 'Other'
+  NOTIFY-MESSAGE:
+    - '&a'
+    - '&8&m+------------&a &3Report&a &8&m------------+'
+    - '&8* &b<player> &7reported &b<target>'
+    - '&8* &7Reason: &b<reason>'
+    - '&8* &7Server: &b<server>'
+    - '&8&m+-------------------------------+'
+    - '&a'
+  TOGGLE-MESSAGE:
+    ENABLED: '&3Report &8| &7Report notifications have been &aenabled&7.'
+    DISABLED: '&3Report &8| &7Report notifications have been &cdisabled&7.'
+  HOVER:
+    MESSAGE: '&aClick to connect to <server>'
+    COMMAND: '/server <server>'
+  TITLE:
+    ENABLED: false
+    LINES:
+      1: '&3Report'
+      2: '&b<player> &7reported &b<target> &7for &b<reason> &7on &b<server>'
+  REPORTS:
+    LIST:
+      - '&3Reports &8| &7Players reported online.'
+      - ' &3<players-reported>'
+    PLAYERS-REPORTED-FORMAT: '&7- &b<player>'
+    LIST-HOVER: '&7Player is on &b<server><line>&3Reason: &c<reason><line>&7Last reported by: &3<reporter>'
+    REMOVE: '&3Report &8| &7The report of &b<player> &7has been removed.'
+    CLEAR: '&3Report &8| &7All reports have been removed.'
+CANCEL-SERVERS:
+  REPORT-COMMAND: []
+  NOTIFY-MESSAGE:
+    - 'PreHub'
+    - 'PreLobby'
+OTHERS:
+  NO-ONLINE: '&3Report &8| &c<target> is not connected.'
+  NO-SERVER: '&3Report &8| &cYou cannot report players in <server>.'
+  NO-CONSOLE: '&3Report &8| &cOnw ly players can execute this command.'
+  NO-REPORTS: '&3Report &8| &cThere are no players reported.'
+  NO-REPORT: '&3Report &8| &c<target> no has reported.'
+  NO-YOURSELF: '&3Report &8| &cYou cannot report yourself.'
+  NO-PERMISSIONS: '&3Report &8| &cYou do not have permissions to execute the command.'
+  COOLDOWN-FORMAT:
+    SECOND: 'second'
+    SECONDS: 'seconds'
+    MINUTE: 'minute'
+    MINUTES: 'minutes'
+  COOLDOWN: '&3Report &8| &cPlease wait &4<cooldown> &cto report again.'

@@ -1,0 +1,318 @@
+# -----------------------------------------------------
+# Plan Bungee Configuration file
+# More information about each setting:
+# https://github.com/plan-player-analytics/Plan/wiki/Bungee-Configuration
+# https://github.com/plan-player-analytics/Plan/wiki/Bukkit-Configuration
+# -----------------------------------------------------
+Server:
+    IP: 100.111.0.70
+Network:
+    Name: Mooncraft
+# -----------------------------------------------------
+Plugin:
+    Logging:
+        Locale: default
+        Create_new_locale_file_on_next_enable: false
+        Dev: false
+        Delete_logs_after_days: 7
+    Update_notifications:
+        # Display update notification on the website
+        Check_for_updates: false
+        Notify_about_DEV_releases: false
+# -----------------------------------------------------
+# Supported databases: MySQL
+# -----------------------------------------------------
+Database:
+    MySQL:
+        Host: 10.10.10.2
+        Port: 3305
+        User: plan
+        Password: q2Hoy4pGH7N
+        Database: plan
+        # Launch options to append after mysql driver address
+        Launch_options: "?rewriteBatchedStatements=true&useSSL=false&serverTimezone=UTC"
+        Max_connections: 8
+# -----------------------------------------------------
+# More information about SSL Certificate Settings:
+# https://github.com/plan-player-analytics/Plan/wiki/SSL-Certificate-%28HTTPS%29-Set-Up
+# -----------------------------------------------------
+Webserver:
+    Port: 8804
+    Alternative_IP: true
+        # %port% is replaced automatically with Webserver.Port
+        Address: sfm-na-1.siren-symmetric.ts.net:%port%
+    # InternalIP usually does not need to be changed, only change it if you know what you're doing!
+    # 0.0.0.0 allocates Internal (local) IP automatically for the WebServer.
+    Internal_IP: 0.0.0.0
+    Cache:
+        Reduced_refresh_barrier: 15
+            Unit: SECONDS
+        Invalidate_query_results_on_disk_after: 7
+            Unit: DAYS
+        Invalidate_disk_cache_after: 2
+            Unit: DAYS
+        Invalidate_memory_cache_after: 5
+            Unit: MINUTES
+    Security:
+        SSL_certificate:
+            KeyStore_path: Cert.jks
+            Key_pass: default
+            Store_pass: default
+            Alias: alias
+        # HTTPS is required for Login.
+        Disable_authentication: true
+        # Cross-Origin Resource Sharing (Requests from non-Plan web pages)
+        # https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+        CORS:
+            Allow_origin: "*"
+        # Allows using the whitelist & brute-force shield with a reverse-proxy.
+        # ! Make sure non-proxy access is not possible, it would allow IP spoofing !
+        Use_X-Forwarded-For_Header: false
+        IP_whitelist: false
+            Whitelist:
+              - "192.168.0.0"
+              - "0:0:0:0:0:0:0:1"
+        # Does not affect existing cookies
+        Cookies_expire_after: 2
+            Unit: HOURS
+    Disable_Webserver: false
+    External_Webserver_address: "https://www.example.address"
+# -----------------------------------------------------
+Data_gathering:
+    Geolocations: true
+    # Please accept the EULA to download GeoLite2 IP-Country Database
+    # https://www.maxmind.com/en/geolite2/eula
+    Accept_GeoLite2_EULA: true
+    Ping: true
+    Disk_space: true
+# -----------------------------------------------------
+# Supported time units: MILLISECONDS, SECONDS, MINUTES, HOURS, DAYS
+# -----------------------------------------------------
+Time:
+    Delays:
+        Ping_server_enable_delay: 300
+            Unit: SECONDS
+        Ping_player_join_delay: 30
+            Unit: SECONDS
+        Wait_for_DB_Transactions_on_disable: 20
+            Unit: SECONDS
+    Thresholds:
+        # How long player needs to be idle until Plan considers them AFK
+        AFK_threshold: 3
+            Unit: MINUTES
+        # Activity Index considers last 3 weeks and uses these thresholds in the calculation
+        # The index is a number from 0 to 5.
+        # These numbers were calibrated with data of 250 players (Small sample size).
+        Activity_index:
+            Playtime_threshold: 30
+                Unit: MINUTES
+        Remove_inactive_player_data_after: 180
+            Unit: DAYS
+        # Includes players online, tps and performance time series
+        Remove_time_series_data_after: 90
+            Unit: DAYS
+        Remove_ping_data_after: 14
+            Unit: DAYS
+        Remove_disabled_extension_data_after: 2
+            Unit: DAYS
+    Periodic_tasks:
+        Extension_data_refresh_every: 1
+            Unit: HOURS
+        Check_DB_for_server_config_files_every: 1
+            Unit: MINUTES
+        Clean_Database_every: 1
+            Unit: HOURS
+# -----------------------------------------------------
+Display_options:
+    # More information about Themes:
+    # https://github.com/plan-player-analytics/Plan/wiki/Themes
+    Theme: default
+    Sessions:
+        Show_on_page: 50
+        # By Default World playtime pie is ordered alphabetically.
+        # Colors will be determined alphabetically in any case.
+        Order_world_pies_by_percentage: false
+    Players_table:
+        Show_on_server_page: 2500
+        Show_on_players_page: 25000
+    Open_player_links_in_new_tab: false
+    Graphs:
+        Show_gaps_in_data: false
+        TPS:
+            High_threshold: 18
+            Medium_threshold: 10
+        Disk_space:
+            High_threshold: 500
+            Medium_threshold: 100
+    Command_colors:
+        Main: '&2'
+        Secondary: '&7'
+        Highlight: '&f'
+# -----------------------------------------------------
+Formatting:
+    Decimal_points: '#.##'
+    Time_amount:
+        Year: '1 year, '
+        Years: '%years% years, '
+        Month: '1 month, '
+        Months: '%months% months, '
+        Day: '1d '
+        Days: '%days%d '
+        Hours: '%hours%h '
+        Minutes: '%minutes%m '
+        Seconds: '%seconds%s'
+        Zero: '0s'
+    # Dates settings use Java SimpleDateFormat.
+    # You can find the patterns & examples here:
+    # https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
+    Dates:
+        # Show_recent_day_names replaces day number with Today, Yesterday, Wednesday etc.
+        Show_recent_day_names: true
+            # Non-regex pattern to replace
+            DatePattern: 'MMM d YYYY'
+        Full: 'MMM d YYYY, HH:mm:ss'
+        NoSeconds: 'MMM d YYYY, HH:mm'
+        JustClock: 'HH:mm:ss'
+        # TimeZone Option uses format 'GMT+2' or 'GMT-04:30'
+        # Other valid options are 'server' and 'UTC'
+        TimeZone: 'server'
+# -----------------------------------------------------
+# World aliases can be used to rename worlds and to combine multiple worlds into a group.
+# -----------------------------------------------------
+World_aliases:
+    # List of world names: aliases, case sensitive. Set alias of two worlds to same one to group them.
+    # Automatically generated, if regex matches world will not be added here.
+    List:
+        world: world
+        SB2: SB2
+        mooncraft_hub: mooncraft_hub
+        OPP1: OPP1
+        VoidworldStart: VoidworldStart
+        alcatraz-map-20c7ae09-a95f-4781-9976-36230d52e4e7: alcatraz-map-20c7ae09-a95f-4781-9976-36230d52e4e7
+        bedwars_lobby: bedwars_lobby
+        plotworld: plotworld
+        starfruit-spire-map-1f19ca86-cb18-4942-8593-78d3e816814f: starfruit-spire-map-1f19ca86-cb18-4942-8593-78d3e816814f
+        pirate-bay-map-29fd4c01-8edb-41b9-8627-f9afdcc406e3: pirate-bay-map-29fd4c01-8edb-41b9-8627-f9afdcc406e3
+        cityscapes-map-345c1149-eb66-45d1-aae1-406b852b9d09: cityscapes-map-345c1149-eb66-45d1-aae1-406b852b9d09
+        mushroom-grove-map-cc13961c-23ab-406c-9963-c1df6c7141b8: mushroom-grove-map-cc13961c-23ab-406c-9963-c1df6c7141b8
+        cityscapes-map-c78a2fee-9f01-4531-829a-9984513d61c0: cityscapes-map-c78a2fee-9f01-4531-829a-9984513d61c0
+        starfruit-spire-map-44833c60-cf5d-481a-90c1-9db3f607584a: starfruit-spire-map-44833c60-cf5d-481a-90c1-9db3f607584a
+        rocket-platform-map-49f45bc5-aefd-48c1-b07e-42a0d059bcd3: rocket-platform-map-49f45bc5-aefd-48c1-b07e-42a0d059bcd3
+        starfruit-spire-map-6bafce86-3ed4-4e21-aaa0-a73c541e4775: starfruit-spire-map-6bafce86-3ed4-4e21-aaa0-a73c541e4775
+        cityscapes-map-d19f2fff-6dcc-4840-bcd0-3728e938624b: cityscapes-map-d19f2fff-6dcc-4840-bcd0-3728e938624b
+        rocket-platform-map-f7d154e7-965b-43a9-9f7c-57dbea8fdf73: rocket-platform-map-f7d154e7-965b-43a9-9f7c-57dbea8fdf73
+        rocket-platform-map-12749c32-ee29-445b-aeea-1790618c2175: rocket-platform-map-12749c32-ee29-445b-aeea-1790618c2175
+        cityscapes-map-9badb7db-c4d3-4bdb-b112-c61705dd1580: cityscapes-map-9badb7db-c4d3-4bdb-b112-c61705dd1580
+        alcatraz-map-2b1bfaa0-e668-461c-bcc9-3cf28cf0ae44: alcatraz-map-2b1bfaa0-e668-461c-bcc9-3cf28cf0ae44
+        starfruit-spire-map-e8ced1de-2497-478b-b02d-6748a44de6f4: starfruit-spire-map-e8ced1de-2497-478b-b02d-6748a44de6f4
+        starfruit-spire-map-13d27e07-5614-4d41-a843-23459659d337: starfruit-spire-map-13d27e07-5614-4d41-a843-23459659d337
+        alcatraz-map-39f85442-ce08-40d6-82a9-4d1ebd2c2c20: alcatraz-map-39f85442-ce08-40d6-82a9-4d1ebd2c2c20
+        cityscapes-map-22ee1ca6-7043-469d-aea0-f8f03ef804a2: cityscapes-map-22ee1ca6-7043-469d-aea0-f8f03ef804a2
+        alcatraz-map-11d38002-23f0-4d8d-8a5d-8391e5d3a07f: alcatraz-map-11d38002-23f0-4d8d-8a5d-8391e5d3a07f
+        alcatraz-map-1e788407-3ab4-44ac-a0a6-74cee31b6829: alcatraz-map-1e788407-3ab4-44ac-a0a6-74cee31b6829
+        rocket-platform-map-9eba65f4-220e-4512-8a2a-54536007acaf: rocket-platform-map-9eba65f4-220e-4512-8a2a-54536007acaf
+        alcatraz-map-42d79502-cbaa-454a-8522-eef012d40c31: alcatraz-map-42d79502-cbaa-454a-8522-eef012d40c31
+        cityscapes-map-032b6765-0f0b-4eba-8fd1-f8262a0b1857: cityscapes-map-032b6765-0f0b-4eba-8fd1-f8262a0b1857
+        starfruit-spire-map-76f4dd5f-4474-4fc7-9d17-8601b156f35d: starfruit-spire-map-76f4dd5f-4474-4fc7-9d17-8601b156f35d
+        alcatraz-map-003c4e87-ce28-48a3-ad0e-b657eac8cc79: alcatraz-map-003c4e87-ce28-48a3-ad0e-b657eac8cc79
+        cityscapes-map-0fc55f4b-e120-4595-8c7e-ad648a3bda47: cityscapes-map-0fc55f4b-e120-4595-8c7e-ad648a3bda47
+        cityscapes-map-0921cf1f-5fd0-4125-b33b-ef978218b1b1: cityscapes-map-0921cf1f-5fd0-4125-b33b-ef978218b1b1
+        cityscapes-map-daa8844a-dd6e-4fc1-8298-acb611d167d3: cityscapes-map-daa8844a-dd6e-4fc1-8298-acb611d167d3
+        mushroom-grove-map-7f629503-8c00-42fa-9be4-0edf8ec36a92: mushroom-grove-map-7f629503-8c00-42fa-9be4-0edf8ec36a92
+        cityscapes-map-9b0840d0-ef03-47ba-b109-5b66ede38484: cityscapes-map-9b0840d0-ef03-47ba-b109-5b66ede38484
+        starfruit-spire-map-02823e2d-58b6-4ceb-b8a1-312a3b0160b8: starfruit-spire-map-02823e2d-58b6-4ceb-b8a1-312a3b0160b8
+        starfruit-spire-map-5ea88809-5d54-46dd-b0a5-77642dd563ec: starfruit-spire-map-5ea88809-5d54-46dd-b0a5-77642dd563ec
+        starfruit-spire-map-f21f7bc9-34c9-4273-b707-84c82a80ae7e: starfruit-spire-map-f21f7bc9-34c9-4273-b707-84c82a80ae7e
+        rocket-platform-map-15d4b6b4-b6af-49e0-a89d-fedd7a5a118b: rocket-platform-map-15d4b6b4-b6af-49e0-a89d-fedd7a5a118b
+        starfruit-spire-map-cc717574-f881-4b4c-8a26-d6ffec323423: starfruit-spire-map-cc717574-f881-4b4c-8a26-d6ffec323423
+        starfruit-spire-map-3156dc24-e2c5-4963-9b46-9dde0e5ac80a: starfruit-spire-map-3156dc24-e2c5-4963-9b46-9dde0e5ac80a
+        alcatraz-map-d0bf5d34-1353-4ae5-88a1-c9020f49e509: alcatraz-map-d0bf5d34-1353-4ae5-88a1-c9020f49e509
+        rocket-platform-map-8dc42991-ab52-4500-b76e-b4bda2818f47: rocket-platform-map-8dc42991-ab52-4500-b76e-b4bda2818f47
+        starfruit-spire-map-558c69a8-d3cf-446c-ad8f-ea45fae539ff: starfruit-spire-map-558c69a8-d3cf-446c-ad8f-ea45fae539ff
+        starbase-map-8384eac9-4070-46be-ae1e-ac06d4b1bcc8: starbase-map-8384eac9-4070-46be-ae1e-ac06d4b1bcc8
+        pirate-bay-map-18553371-9e6c-47d4-9246-3380cf8a8ba0: pirate-bay-map-18553371-9e6c-47d4-9246-3380cf8a8ba0
+        rocket-platform-map-f6c6e850-7767-4edd-a5dd-b095b3a1aa9d: rocket-platform-map-f6c6e850-7767-4edd-a5dd-b095b3a1aa9d
+    # List of - "alias:regex" rules, Set alias of multiple worlds that match regex to group them
+    Regex:
+      - "Alias for world:^abc$"
+# -----------------------------------------------------
+# These settings will make Plan write .js, .css, .json and .html files to some location on disk.
+# Relative path will render to /plugins/Plan/path
+# Make sure user running the server has write permissions to the path.
+# On networks export is disabled on Bukkit/Sponge servers.
+# -----------------------------------------------------
+Export:
+    HTML_Export_path: 'Analysis Results'
+    JSON_Export_path: 'Raw JSON'
+    Parts:
+        # Player pages/JSON are only written on join/leave.
+        Player_pages: false
+        Player_JSON: false
+        Players_page: false
+        Server_page: false
+        Server_JSON: false
+    Export_player_on_login_and_logout: false
+    # If there are multiple servers the period is divided evenly to avoid export of all servers at once
+    # Also affects Players page export
+    Server_refresh_period: 20
+        Unit: MINUTES
+# -----------------------------------------------------
+# These settings affect Plugin data integration.
+# If a plugin is causing issues the integration can be disabled by setting Plugin_name.Enabled: false
+# -----------------------------------------------------
+Plugins:
+    Buycraft:
+        # https://docs.tebex.io/store/faq#how-can-i-find-my-secret-key
+        Secret: "-"
+    Litebans:
+        Enabled: true
+    LuckPerms:
+        Enabled: true
+    nuVotifier:
+        Enabled: true
+# The files are placed in /Plan/web/ if the setting is 'true' when accessed.
+Customized_files:
+    Path: "web"
+    # Web dev mode enables all customized files and disables webserver resource cache for instant changes on browser refresh.
+    Enable_web_dev_mode: false
+    Plan:
+        css/noauth,css: false
+        css/querybutton,css: false
+        css/sb-admin-2,css: false
+        css/style,css: false
+        error,html: false
+        favicon,ico: false
+        img/Flaticon_circle,png: false
+        js/color-selector,js: false
+        js/domUtils,js: false
+        js/filters,js: false
+        js/graphs,js: false
+        js/network-values,js: false
+        js/pingTable,js: false
+        js/player-values,js: false
+        js/query,js: false
+        js/sb-admin-2,js: false
+        js/server-values,js: false
+        js/sessionAccordion,js: false
+        js/xmlhttprequests,js: false
+        network,html: false
+        player,html: false
+        players,html: false
+        query,html: false
+        server,html: false
+        vendor/datatables/datatables,min,css: false
+        vendor/datatables/datatables,min,js: false
+        vendor/fontawesome-free/css/all,min,css: false
+        vendor/fontawesome-free/webfonts/fa-brands-400,woff2: false
+        vendor/fontawesome-free/webfonts/fa-regular-400,woff2: false
+        vendor/fontawesome-free/webfonts/fa-solid-900,woff2: false
+        vendor/fullcalendar/fullcalendar,min,css: false
+        vendor/fullcalendar/fullcalendar,min,js: false
+        vendor/highcharts/highcharts,js: false
+        vendor/highcharts/mapdata/world,js: false
+        vendor/highcharts/modules/drilldown,js: false
+        vendor/highcharts/modules/map,js: false
+        vendor/highcharts/modules/no-data-to-display,js: false
+        vendor/highcharts/modules/stock,js: false
+        vendor/masonry/masonry,pkgd,min,js: false
+        vendor/momentjs/moment,js: false

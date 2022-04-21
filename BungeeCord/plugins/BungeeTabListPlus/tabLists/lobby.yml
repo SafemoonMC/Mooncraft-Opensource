@@ -1,0 +1,90 @@
+# This is the default configuration file of BungeeTabListPlus.
+#
+# Since the configuration of the plugin is quite complex you
+# might want to have a look at the wiki from time to time.
+#
+# Wiki: https://github.com/CodeCrafter47/BungeeTabListPlus/wiki
+#  Placeholders: https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Placeholders
+#  Examples: https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Examples
+#
+
+# Configure who can see the tab lists
+# See https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/MultipleTablists
+showTo: |
+  ${viewer server} = "lobby-1"
+  or ${viewer server} = "lobby-2"
+  or ${viewer server} = "lobby-3"
+  or ${viewer server} = "lobby-4"
+  or ${viewer server} = "lobby-5"
+priority: 2
+
+# Configure header and footer
+# See https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Configuration-Basics-Part-3---Header-and-Footer      ${viewer server}
+showHeaderFooter: true
+header: |-
+  &7
+  ${title}
+  &7${links}
+  &7
+headerAnimationUpdateInterval: 0.5
+footer: |-
+  &7
+  &7${playerset:all_players size} Players &8- &7(${playerset:same_server size} here)
+  &b ${server_display_name viewer server} &8- &b${viewer ping}ms
+  &7
+# Configure whether hidden players appear on the tab list
+# see https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Hidden-Players
+hiddenPlayers: VISIBLE_TO_ADMINS
+
+# Player sets are required to display players and player counts on the tab list.
+# See https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Configuration-Basics-Part-4---Player-sets
+playerSets:
+  all_players: all
+  same_server: ${player server} == ${viewer server}
+
+# Type of the tab list
+# See https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Configuration-Basics-Part-5---Dynamic-Size-Tablist
+# and https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/Configuration-Basics-Part-6---Fixed-Size-Tablist-Introduction
+# for different options
+type: DYNAMIC_SIZE
+
+playerSet: same_server
+playerOrder: "vault_primary_group_weight desc, name asc"
+playerComponent: "${vanished}&7${player vault_prefix}${player name} ${player vault_suffix}"
+
+# Here the content of the tab list is configured:
+
+# Custom placeholders are a powerful mechanism to add more dynamic content
+# to the tab list.
+# See https://github.com/CodeCrafter47/BungeeTabListPlus/wiki/CustomPlaceholders
+customPlaceholders:
+  # Defines the ${afk_tag} placeholder which is used to add "|away"
+  # to the players name if he is afk.
+  links:
+    !animated
+    interval: 2
+    elements:
+    - "play.mooncraft.gg"
+    - "mcstore.safemoon.net"
+    - "discord.gg/mooncraft"
+  title:
+    !animated
+    interval: 0.1
+    elements:
+    - "&3&lMooncraft"
+    - "&b&lM&3&looncraft"
+    - "&b&lMo&3&loncraft"
+    - "&b&lMoo&3&lncraft"
+    - "&3&lM&b&loon&3&lcraft"
+    - "&3&lMo&b&lonc&3&lraft"
+    - "&3&lMoo&b&lncr&3&laft"
+    - "&3&lMoon&b&lcra&3&lft"
+    - "&3&lMooncr&b&laf&3&lt"
+    - "&3&lMooncr&b&laft"
+    - "&3&lMooncra&b&lft"
+    - "&3&lMooncraf&b&lt"
+  vanished:
+    !conditional
+    condition: ${player is_hidden}
+    true: "&3[V] "
+    false: ""

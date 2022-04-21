@@ -1,0 +1,565 @@
+#
+#Note that this is the Bungeecord configuration and therefore some spigot function are missing
+#Wiki: https://github.com/Nononitas/Plugin-Hide-Pro/wiki
+#
+
+#Config version. Don't change!
+version: 8
+
+debug: false
+
+#Message shown if you type /pl | Enter none to disable | Players with the permission plhide.bypass.pl-message.pl will see the real plugins when executing /plugins
+/pl-message: none
+
+#Changes the server brand in the upper left of the f3 debug screen
+#Use %server% to display the server name of the mc server.
+f3-server-brand: '&3MoonCraft &7by &bSafeMoon'
+replace-f3-server-brand: true
+
+#Stay on the newest version to get better features!
+#Enable or disable automatic ingame update notification on join
+update-notify: false
+
+#If you want to use the feature "plugin:<pluginName> make sure you installed Pl-Hide-Pro on the MC-Servers and enabled bungee-mode
+#Read here for more details https://github.com/Nononitas/Plugin-Hide-Pro/wiki/Setup-the-autlisting-command-function-per-plugin-for-Spigot-plugin-commands-in-Bungeecord
+bungee-mode: false
+#Only change this ip if the Spigot Subservers are hosted on a different ip than the Bungeecord server
+ip: 127.0.0.1
+#If the ip is other than 127.0.0.1, make sure the port is open
+#Do NOT change the port unless you are 100% sure what you are doing. In most cases it is recommended to leave the default value
+port: 1550
+
+
+groups:
+  admin:
+    commands:
+      - test
+    tabcomplete:
+      - test
+    priority: 5
+    blocked-command-message: "&cUnknown command."
+    servers:
+      - all
+    included-groups:
+      - none
+  ogprison:
+    commands:
+      - heal
+      - feed
+      - fix
+      - blockstop
+      - cells
+      - autosell
+      - craft
+      - maxprestige
+      - quest
+      - quests
+      - voteparty
+      - vp
+      - cells
+      - ctime
+      - ct
+      - kits
+      - kit
+      - info
+      - disenchant
+      - disenchantmenu
+      - fasttravel
+      - token
+      - tokens
+      - enchantmenu
+      - enchant
+      - multi
+      - multiplier
+      - ranks
+      - cell
+      - baltop
+      - balancetop
+      - block
+      - blocks
+      - autominer
+      - crates
+      - maxrankup
+      - rankup
+      - prestige
+      - mine
+      - mines
+      - balance
+      - bal
+      - menu
+      - warps
+      - warp
+      - spawn
+    tabcomplete:
+      - heal
+      - feed
+      - fix
+      - blockstop
+      - cells
+      - autosell
+      - craft
+      - maxprestige
+      - quest
+      - quests
+      - voteparty
+      - vp
+      - cells
+      - ctime
+      - ct
+      - kits
+      - kit
+      - info
+      - disenchant
+      - disenchantmenu
+      - fasttravel
+      - token
+      - tokens
+      - enchantmenu
+      - enchant
+      - multi
+      - multiplier
+      - ranks
+      - cell
+      - baltop
+      - balancetop
+      - block
+      - blocks
+      - autominer
+      - crates
+      - maxrankup
+      - rankup
+      - prestige
+      - mine
+      - mines
+      - balance
+      - bal
+      - menu
+      - warps
+      - warp
+      - spawn
+    priority: 2
+    blocked-command-message: "&cUnknown command."
+    servers:
+      - ogp-1
+      - ogp-2
+      - ogp-3
+      - sf-city-1
+    included-groups:
+      - default
+  bedwars:
+    commands:
+      - leave
+      - stats
+      - bwstats
+      - bedwarsstats
+    tabcomplete:
+      - leave
+      - stats
+      - bwstats
+      - bedwarsstats
+    priority: 2
+    blocked-command-message: "&cUnknown command."
+    servers:
+      - bw-lobby-1
+      - bw-lobby-2
+      - bw-game-1
+      - bw-game-2
+    included-groups:
+      - default
+  helper:
+    commands:
+      - kick
+      - warnings
+      - find
+      - history
+      - mute
+      - tempmute
+      - tempipmute
+      - unmute
+      - warn
+      - unwarn
+      - punish
+      - find
+      - warnings
+      - checkban
+      - checkmute
+    tabcomplete:
+      - kick
+      - warnings
+      - find
+      - history
+      - mute
+      - tempmute
+      - tempipmute
+      - unmute
+      - warn
+      - unwarn
+      - punish
+      - find
+      - warnings
+      - checkban
+      - checkmute
+    priority: 2
+    blocked-command-message: "&cUnknown command."
+    servers:
+      - all
+    included-groups:
+      - default
+  mod:
+    commands:
+      - teleport
+      - lp
+      - luckperms
+      - reporttoggle
+      - forcestart
+      - fs
+      - chc
+      - chatcontrolred
+      - breport
+      - kick
+      - warnings
+      - networkvanish
+      - glist
+      - find
+      - history
+      - banlist
+      - mute
+      - tempmute
+      - tempipmute
+      - unmute
+      - ban
+      - tempban
+      - tempipban
+      - ipban
+      - unban
+      - warn
+      - unwarn
+      - punish
+      - find
+      - warnings
+      - checkban
+      - checkmute
+      - fly
+      - feed
+      - heal
+      - invsee
+      - tp
+      - teleport
+      - staff
+      - staffhide
+      - v
+      - vanish
+    tabcomplete:
+      - teleport
+      - reporttoggle
+      - forcestart
+      - fs
+      - chc
+      - chatcontrolred
+      - breport
+      - kick
+      - warnings
+      - networkvanish
+      - glist
+      - find
+      - history
+      - banlist
+      - mute
+      - tempmute
+      - tempipmute
+      - unmute
+      - ban
+      - tempban
+      - tempipban
+      - ipban
+      - unban
+      - warn
+      - unwarn
+      - punish
+      - find
+      - warnings
+      - checkban
+      - checkmute
+      - fly
+      - feed
+      - heal
+      - invsee
+      - tp
+      - teleport
+      - staff
+      - staffhide
+      - v
+      - vanish
+    priority: 2
+    blocked-command-message: "&cUnknown command."
+    servers:
+      - all
+    included-groups:
+      - default
+  creative:
+    commands:
+      - wardrobe
+      - pwarp
+      - playerwarp
+      - playerwarps
+      - hat
+      - warp
+      - warps
+      - spawn
+      - heads
+      - /wand
+      - /set
+      - /undo
+      - /redo
+      - /center
+      - /replace
+      - /walls
+      - /smooth
+      - /copy
+      - /paste
+      - /rotate
+      - /cyl
+      - /sphere
+      - /pyramid
+      - /line
+      - /cut
+      - /curve
+      - /overlay
+      - sit
+      - lay
+      - crawl
+      - wehelp
+      - worldedithelp
+      - creativemenu
+      - menu
+      - p
+      - plot
+      - plots
+      - plotme
+      - rate
+      - rateplot
+      - roleplay
+      - marriage
+      - marry
+      - disguise
+      - undisguise
+    tabcomplete:
+      - wardrobe
+      - pwarp
+      - playerwarp
+      - playerwarps
+      - hat
+      - warp
+      - warps
+      - spawn
+      - heads
+      - /wand
+      - /set
+      - /undo
+      - /redo
+      - /center
+      - /replace
+      - /walls
+      - /smooth
+      - /copy
+      - /paste
+      - /rotate
+      - /cyl
+      - /sphere
+      - /pyramid
+      - /line
+      - /cut
+      - /curve
+      - /overlay
+      - sit
+      - lay
+      - crawl
+      - wehelp
+      - worldedithelp
+      - creativemenu
+      - menu
+      - p
+      - plot
+      - plots
+      - plotme
+      - rate
+      - rateplot
+      - roleplay
+      - marriage
+      - marry
+      - disguise
+      - undisguise
+    priority: 2
+    blocked-command-message: "&cUnknown command."
+    servers:
+      - creative-1
+    included-groups:
+      - default
+  opprison:
+    commands:
+      - fisherman
+      - kit
+      - kits
+      - tokenmessage
+      - pay
+      - gang
+      - gangs
+      - luckybooster
+      - heal
+      - feed
+      - cells
+      - disenchant
+      - disenchantmenu
+      - fasttravel
+      - particles
+      - keys
+      - token
+      - tokens
+      - enchantmenu
+      - enchant
+      - multi
+      - multiplier
+      - ranks
+      - cell
+      - topplayers
+      - block
+      - blocks
+      - autominer
+      - vault
+      - crates
+      - tutorial
+      - journal
+      - monsterbook
+      - recipes
+      - maxrankup
+      - maxprestige
+      - rankup
+      - prestige
+      - mine
+      - mines
+      - balance
+      - bal
+      - menu
+      - travel
+      - waypoints
+      - warps
+      - warp
+      - spawn
+      - menu
+      - help
+    tabcomplete:
+      - kit
+      - kits
+      - tokenmessage
+      - pay
+      - gang
+      - gangs
+      - luckybooster
+      - heal
+      - feed
+      - cells
+      - disenchant
+      - disenchantmenu
+      - fasttravel
+      - particles
+      - keys
+      - token
+      - tokens
+      - enchantmenu
+      - enchant
+      - multi
+      - multiplier
+      - ranks
+      - cell
+      - topplayers
+      - block
+      - blocks
+      - autominer
+      - vault
+      - crates
+      - tutorial
+      - journal
+      - monsterbook
+      - recipes
+      - maxrankup
+      - maxprestige
+      - rankup
+      - prestige
+      - mine
+      - mines
+      - balance
+      - bal
+      - menu
+      - travel
+      - waypoints
+      - warps
+      - warp
+      - spawn
+      - menu
+      - help
+    priority: 2
+    blocked-command-message: "&cUnknown command."
+    servers:
+      - opp-1
+      - opp-2
+      - opp-3
+      - opp-4
+    included-groups:
+      - default
+  default:
+    commands:
+      - interactions
+      - gadgetsmenu
+      - tell
+      - hub
+      - wiki
+      - rules
+      - lobby
+      - msg
+      - message
+      - reply
+      - r
+      - friend
+      - friends
+      - party
+      - parties
+      - store
+      - buy
+      - discord
+      - support
+      - tags
+      - report
+      - help
+      - vote
+      - cat
+      - glow
+    tabcomplete:
+      - tell
+      - hub
+      - wiki
+      - rules
+      - lobby
+      - msg
+      - message
+      - reply
+      - r
+      - friend
+      - friends
+      - party
+      - parties
+      - store
+      - buy
+      - discord
+      - support
+      - tags
+      - report
+      - help
+      - vote
+      - cat
+      - glow
+    priority: 0
+    blocked-command-message: "&cUnknown command."
+    servers:
+      - all
+    included-groups:
+      - none
