@@ -1,0 +1,79 @@
+#-----------------------------------------------------------------------------------------
+#
+# Helpful Information:
+#
+# - Item names: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+#
+#
+# - Enchantment names: http://pastebin.com/0WktGa59
+#
+# - (Example of adding an enchantment)
+# - displayed: 276 1 sharpness:3 smite:2 unbreaking:3
+#
+#
+# - PotionEffect names: http://pastebin.com/eghUaTuJ
+#
+# - (Example of adding a custom potion effect to your displayed potion item)
+# - displayed: 373:8258 1 strength:2:200 speed:3:600
+# [In this case, the item displayed will have Strength II (0:10) and Speed III (0:30).]
+#
+#
+# [IMPORTANT]
+# In Minecraft 1.9, potions & mob spawn eggs no longer use durability to specify the type.
+#
+# NOTE: In Minecraft 1.13, Spawn Eggs were given their own material name!
+#
+#  (1.9+ - 1.12.2) - Example of setting mob spawn egg (zombie) as a displayed item
+#
+#  displayed: MONSTER_EGG:ZOMBIE 1 name:&9Purchase_a_Zombie_Spawn_Egg!
+#
+#
+#  (1.9+) - Example of setting potion (splash strength II) as a displayed item
+#
+#  displayed: POTION:STRENGTH-strong-splash 1 name:&cSplash_Potion_of_Strength_II
+#
+#
+#  (1.9+) - Example of setting potion (speed I extended) as a displayed item
+#
+#  displayed: POTION:SPEED-extended 1 name:&bPotion_of_Speed_(Extended)
+#
+#
+# - 1.9+ Potions: http://minecraft.gamepedia.com/Potion#Data_values
+#
+#-----------------------------------------------------------------------------------------
+
+shops:
+  main:
+    default-currency: bedwars
+    title: '&0Loot Wheel Spins'
+    rows: 1
+    auto-close: false
+    items:
+      '0':
+        displayed: PLAYER_HEAD 1 name:&fNormal_Spin_x5 texture:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZjYzhkMjZjNjQ1YzNiYWQyOWIyZjJhMTMxYTYyOGVkYzliZmNiYmU2M2ZkMzkxY2UxNWMyYmM4OWNjOTBjYiJ9fX0= lore:&7Adds_&e5_&fNormal_Spins_&7to|&7your_spin_balance.|_|&7Cost:_&6100_Bed_Wars_Tokens
+        cost: 100
+        confirm-purchase: true
+        message: "&3LootWheel &8| &7You've purchased &e 5 &fNormal Spins &7for &6%cost% BedWars Tokens"
+        commands:
+          - 'bwca addspins normal 5 %player%'
+      '1':
+        displayed: PLAYER_HEAD 1 name:&aEnhanced_Spin_x5 texture:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGU5YjI3ZmNjZDgwOTIxYmQyNjNjOTFkYzUxMWQwOWU5YTc0NjU1NWU2YzljYWQ1MmU4NTYyZWQwMTgyYTJmIn19fQ== lore:&7Adds_&e5_&aEnhanced_Spins_&7to|&7your_spin_balance.|_|&7Cost:_&6200_Bed_Wars_Tokens
+        cost: 200
+        confirm-purchase: true
+        message: "&3LootWheel &8| &7You've purchased &e 5 &aEnhanced Spins &7for &6%cost% BedWars Tokens"
+        commands:
+          - 'bwca addspins enhanced 5 %player%'
+      '2':
+        displayed: PLAYER_HEAD 1 name:&9Super_Spin_x5 texture:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjgxNTdiNGRjNWVmYzIxNzM1Mjg5NDQ3MWMxMTZkMzlhMDM0ZmMzOTdjMjQ1MzlhOWQwZWViMmE0NjVjYSJ9fX0= lore:&7Adds_&e5_&9Super_Spins_&7to|&7your_spin_balance.|_|&7Cost:_&6350_Bed_Wars_Tokens
+        cost: 350
+        confirm-purchase: true
+        message: "&3LootWheel &8| &7You've purchased &e 5 &9Super Spins &7for &6%cost% BedWars Tokens"
+        commands:
+          - 'bwca addspins super 5 %player%'          
+      '3':
+        displayed: PLAYER_HEAD 1 name:&5Ultra_Spin_x5 texture:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTMyYWUyY2I4ZDJhZTYxNTE0MWQyYzY1ODkyZjM2NGZjYWRkZjczZmRlYzk5YmUxYWE2ODc0ODYzZWViNWMifX19 lore:&7Adds_&e5_&5Ultra_Spins_&7to|&7your_spin_balance.|_|&7Cost:_&6500_Bed_Wars_Tokens
+        cost: 500
+        confirm-purchase: true
+        message: "&3LootWheel &8| &7You've purchased &e 5 &5Ultra Spins &7for &6%cost% BedWars Tokens"
+        commands:
+          - 'bwca addspins ultra 5 %player%' 

@@ -1,0 +1,4 @@
+per-world: {}
+_DEFAULT_:
+  tagprefix: '%vault-prefix%'
+  customtagname: '%essentialsnick%'

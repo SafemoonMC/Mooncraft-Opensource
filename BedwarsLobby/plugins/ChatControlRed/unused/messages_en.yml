@@ -1,0 +1,31 @@
+Channels:
+  Leave:
+    Usages:
+    - /{label} {sublabel} <channel> &7- Leave chat channel.
+    - /{label} {sublabel} <channel> <player> &7- Force player to leave channel.
+  Join:
+    Usages:
+    - /{label} {sublabel} <channel> &7- Join channel for writing.
+    - /{label} {sublabel} <channel> <mode> &7- Join channel for mode.
+    - /{label} {sublabel} <channel> <mode> [player] &7- Join player to channel for
+      mode.
+    - ''
+    - '&cNote: Joining player will leave old channel(s) if over limit.'
+    - ''
+    - '&cWarning: Give players chatcontrol.channel.join.{channel}.{mode}'
+    - '&cpermission for the relevant channel and mode (read or write)'
+    - '&cotherwise we will kick them out of channel when they join.'
+Commands:
+  Motd:
+    Usages:
+    - /{label} &7- Read your message of the day.
+    - /{label} <player> &7- Send the motd to other player.
+  Migrate:
+    Export_Start: Begun exporting data.db entries to database. This may take a long
+      time, please watch your console.
+    Import_Start: Begun importing database entries to data.db and usermap.scv. This
+      may take a long time, please watch your console. We will however keep ignoring
+      them until you disable MySQL.
+    Export_Finish: Successfully exported {0} entries.
+    Import_Finish: Successfully imported data.db and usermap.csv entries.
+    Essentials: Successfully imported usermap.csv from Essentials (if existed).

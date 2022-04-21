@@ -1,0 +1,139 @@
+menu_title: 'Bed Wars Statistics'
+open_command:
+- stats
+- bwstats
+- bedwarsstats
+size: 45
+register_command: true
+items:
+
+      overall:
+        material: PAPER
+        slot: 4
+        display_name: '&aOverall Statistics'
+        lore:
+        - '&7Games Played: &a%math_0_{bw_stat-game-WINS}+{bw_stat-game-LOSSES}%'
+        - ''
+        - '&7Wins: &a%formatter_number_format_#,###_{bw_stat-game-WINS}% (#%formatter_number_format_#,###_{ajlb_position_bw_stat-game-WINS_alltime}%)'
+        - '&7Losses: &a%formatter_number_format_#,###_{bw_stat-game-LOSSES}%'
+        - ''
+        - '&7Beds Broken: &a%formatter_number_format_#,###_{bw_stat-game-BEDS_BROKEN}%'
+        - ''
+        - '&7Kills: &a%formatter_number_format_#,###_{bw_stat-game-NORMAL_KILLS}% (#%formatter_number_format_#,###_{ajlb_position_bw_stat-game-NORMAL_KILLS_alltime}%)'
+        - '&7Final Kills: &a%formatter_number_format_#,###_{bw_stat-game-FINAL_KILLS}%'
+        - '&7Deaths: &a%formatter_number_format_#,###_{bw_stat-game-NORMAL_DEATHS}%'
+        - '&7Final Deaths: &a%formatter_number_format_#,###_{bw_stat-game-FINAL_DEATHS}%'
+      #  - ''
+     #   - '&7K/D Ratio: &a%math_1_{bw_stat-game-NORMAL_KILLS}/{bw_stat-game-NORMAL_DEATHS}%'
+        - ''
+        - '&7Iron Collected: &a%formatter_number_format_#,###_{bw_stat-overall-IRON}% (#%formatter_number_format_#,###_{ajlb_position_bw_stat-overall-IRON_alltime}%)'
+        - '&7Gold Collected: &a%formatter_number_format_#,###_{bw_stat-overall-GOLD}% (#%formatter_number_format_#,###_{ajlb_position_bw_stat-overall-GOLD_alltime}%)'
+        - '&7Diamond Collected: &a%formatter_number_format_#,###_{bw_stat-overall-DIAMOND}% (#%formatter_number_format_#,###_{ajlb_position_bw_stat-overall-DIAMOND_alltime}%)'
+        - '&7Emerald Collected: &a%formatter_number_format_#,###_{bw_stat-overall-EMERALD}% (#%formatter_number_format_#,###_{ajlb_position_bw_stat-overall-EMERALD_alltime}%)'
+        left_click_commands:
+        - '[openguimenu] stats'
+        right_click_commands:
+        - '[openguimenu] stats'
+
+      SOLOS:
+        material: PAPER
+        slot: 19
+        display_name: '&aSolos Statistics'
+        lore:
+        - '&7Wins: &a%formatter_number_format_#,###_{bw_stat-game-SOLO-WINS}%'
+        - '&7Losses: &a%formatter_number_format_#,###_{bw_stat-game-SOLO-LOSSES}%'
+        - ''
+        - '&7Beds Broken: &a%formatter_number_format_#,###_{bw_stat-game-SOLO-BEDS_BROKEN}%'
+        - ''
+        - '&7Kills: &a%formatter_number_format_#,###_{bw_stat-game-SOLO-NORMAL_KILLS}%'
+        - '&7Final Kills: &a%formatter_number_format_#,###_{bw_stat-game-SOLO-FINAL_KILLS}%'
+        - '&7Deaths: &a%formatter_number_format_#,###_{bw_stat-game-SOLO-NORMAL_DEATHS}%'
+        - '&7Final Deaths: &a%formatter_number_format_#,###_{bw_stat-game-SOLO-FINAL_DEATHS}%'
+        left_click_commands:
+        - '[openguimenu] stats'
+        right_click_commands:
+        - '[openguimenu] stats'
+
+      DUOS:
+        material: PAPER
+        amount: 2
+        slot: 21
+        display_name: '&aDuos Statistics'
+        lore:
+        - '&7Wins: &a%formatter_number_format_#,###_{bw_stat-game-DUOS-WINS}%'
+        - '&7Losses: &a%formatter_number_format_#,###_{bw_stat-game-DUOS-LOSSES}%'
+        - ''
+        - '&7Beds Broken: &a%formatter_number_format_#,###_{bw_stat-game-DUOS-BEDS_BROKEN}%'
+        - ''
+        - '&7Kills: &a%formatter_number_format_#,###_{bw_stat-game-DUOS-NORMAL_KILLS}%'
+        - '&7Final Kills: &a%formatter_number_format_#,###_{bw_stat-game-DUOS-FINAL_KILLS}%'
+        - '&7Deaths: &a%formatter_number_format_#,###_{bw_stat-game-DUOS-NORMAL_DEATHS}%'
+        - '&7Final Deaths: &a%formatter_number_format_#,###_{bw_stat-game-DUOS-FINAL_DEATHS}%'
+        left_click_commands:
+        - '[openguimenu] stats'
+        right_click_commands:
+        - '[openguimenu] stats'
+
+
+      TRIOS:
+        material: PAPER
+        amount: 3
+        slot: 23
+        display_name: '&aTrios Statistics'
+        lore:
+        - '&7Wins: &a%formatter_number_format_#,###_{bw_stat-game-TRIOS-WINS}%'
+        - '&7Losses: &a%formatter_number_format_#,###_{bw_stat-game-TRIOS-LOSSES}%'
+        - ''
+        - '&7Beds Broken: &a%formatter_number_format_#,###_{bw_stat-game-TRIOS-BEDS_BROKEN}%'
+        - ''
+        - '&7Kills: &a%formatter_number_format_#,###_{bw_stat-game-TRIOS-NORMAL_KILLS}%'
+        - '&7Final Kills: &a%formatter_number_format_#,###_{bw_stat-game-TRIOS-FINAL_KILLS}%'
+        - '&7Deaths: &a%formatter_number_format_#,###_{bw_stat-game-TRIOS-NORMAL_DEATHS}%'
+        - '&7Final Deaths: &a%formatter_number_format_#,###_{bw_stat-game-TRIOS-FINAL_DEATHS}%'
+        left_click_commands:
+        - '[openguimenu] stats'
+        right_click_commands:
+        - '[openguimenu] stats'
+
+      QUADS:
+        material: PAPER
+        amount: 4
+        slot: 25
+        display_name: '&aQuads Statistics'
+        lore:
+        - '&7Wins: &a%formatter_number_format_#,###_{bw_stat-game-QUADS-WINS}%'
+        - '&7Losses: &a%formatter_number_format_#,###_{bw_stat-game-QUADS-LOSSES}%'
+        - ''
+        - '&7Beds Broken: &a%formatter_number_format_#,###_{bw_stat-game-QUADS-BEDS_BROKEN}%'
+        - ''
+        - '&7Kills: &a%formatter_number_format_#,###_{bw_stat-game-QUADS-NORMAL_KILLS}%'
+        - '&7Final Kills: &a%formatter_number_format_#,###_{bw_stat-game-QUADS-FINAL_KILLS}%'
+        - '&7Deaths: &a%formatter_number_format_#,###_{bw_stat-game-QUADS-NORMAL_DEATHS}%'
+        - '&7Final Deaths: &a%formatter_number_format_#,###_{bw_stat-game-QUADS-FINAL_DEATHS}%'
+        left_click_commands:
+        - '[openguimenu] stats'
+        right_click_commands:
+        - '[openguimenu] stats'
+
+
+      CLOSE:
+        material: BARRIER
+        slot: 40
+        priority: 1
+        display_name: '&cClose'
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'
+
+      level:
+        material: DIAMOND
+        slot: 41
+        display_name: '&aBed Wars Level'
+        lore:
+        - '&7Level: %bw_level-prestige%✦'
+        - '&7Progress: &b%formatter_number_format_#,###_{bw_experience-current}%&7/&a%formatter_number_format_#,###_{bw_experience-required}%'
+        left_click_commands:
+        - '[openguimenu] stats'
+        right_click_commands:
+        - '[openguimenu] stats'

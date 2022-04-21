@@ -1,0 +1,154 @@
+scoreboard-teams:
+  enabled: true
+  invisible-nametags: false
+  anti-override: true
+  enable-collision: false
+  sorting-types:
+  - GROUPS:owner,manager,developer,administrator,srmoderator,moderator,helper,media,diamondhands,trader,investor,holder,paperhands,default
+  - PLACEHOLDER_A_TO_Z:%player%
+  case-sensitive-sorting: true
+  disable-in-worlds: []
+  unlimited-nametag-mode:
+    enabled: true
+    use-marker-tag-for-1-8-x-clients: false
+    disable-on-boats: true
+    space-between-lines: true
+    disable-in-worlds:
+    - disabledworld
+    dynamic-lines:
+    - abovename
+    - nametag
+    static-lines: {}
+tablist-name-formatting:
+  enabled: false
+  align-tabsuffix-on-the-right: false
+  character-width-overrides: {}
+  anti-override: true
+  disable-in-worlds: []
+header-footer:
+  enabled: false
+  disable-in-worlds: []
+  header: []
+  footer: []
+  per-world: {}
+yellow-number-in-tablist:
+  enabled: false
+  value: ''
+  disable-in-worlds: []
+belowname-objective:
+  enabled: false
+  number: '%health%'
+  text: '&c❤'
+  disable-in-worlds: []
+prevent-spectator-effect:
+  enabled: false
+bossbar:
+  enabled: true
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  default-bars:
+  - ServerInfo
+  bars:
+    ServerInfo:
+      permission-required: false
+      refresh: 300
+      style: PROGRESS
+      color: BLUE
+      progress: '100'
+      text: '%animation:MyAnimation1%'
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds: []
+  shared-playerlist-world-groups: null
+scoreboard:
+  enabled: true
+  toggle-command: ''
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: true
+  static-number: 0
+  disable-in-worlds: []
+  delay-on-join-milliseconds: 0
+  scoreboards:
+    rebooting:
+      display-condition: '%ultimateautorestart_seconds%<60'
+      title: '&b⁂ %animation:bw-title% &b⁂'
+      lines:
+      - '              &7%server_time_MMM d%'
+      - '&r'
+      - '&cServer rebooting soon!'
+      - '&cReboot In: &e%ultimateautorestart_seconds%s'
+      - '&c'
+      - '&cPlease rejoin in a few minutes.'
+      - '&r'
+      - '&b&l    play.mooncraft.gg'
+    default:
+      display-condition: '%viaversion_player_protocol_id%>335'
+      title: '&b⁂ %animation:bw-title% &b⁂'
+      lines:
+      - '           &7%server_time_MMM d%'
+      - '&b&lPlayer'
+      - '&3&l| &7Level: %bw_level-prestige%✦'
+      - '&3&l| &7Prestige: &f%bw_prestige% '
+      - '&r'
+      - '&b&lBed Wars'
+      - '&3&l| &7Wins: &f%bw_stat-game-WINS%'
+      - '&3&l| &7Final Kills: &f%bw_stat-game-FINAL_KILLS%'
+      - '&3&l| &7Normal Kills: &f%bw_stat-game-NORMAL_KILLS%'
+      - '&a'
+      - '&b&lCoins'
+      - '&3&l| &7Coins: &6%formatter_number_format_{bw_coins}%'
+      - '&3'
+      - '  &b&l&nplay.mooncraft.gg'
+    default-fixed:
+      display-condition: '%viaversion_player_protocol_id%<=335'
+      title: '&b⁂ %animation:bw-title% &b⁂'
+      lines:
+      - '           &7%server_time_MMM d%'
+      - '&b&lPlayer'
+      - '&3* &7Level: %bw_level-prestige%✦'
+      - '&3* &7Prestige: &f%bw_prestige% '
+      - '&r'
+      - '&b&lBed Wars'
+      - '&3* &7Wins: &f%bw_stat-game-WINS%'
+      - '&3* &7Final Kills: &f%bw_stat-game-FINAL_KILLS%'
+      - '&3* &7Normal Kills: &f%bw_stat-game-NORMAL_KILLS%'
+      - '&a'
+      - '&b&lCoins'
+      - '&3* &7Coins: &6%formatter_number_format_{bw_coins}%'
+      - '&3'
+      - '  &b&lplay.mooncraft.gg'
+  respect-other-plugins: true
+ping-spoof:
+  enabled: false
+fix-pet-names:
+  enabled: false
+placeholders:
+  date-format: MM/dd/yyyy
+  time-offset: 0.0
+  time-format: '[HH:mm:ss / h:mm a]'
+  remove-strings:
+  - '[] '
+  - '< > '
+placeholder-output-replacements:
+  '%afk%':
+    'true': ' &4*&4&lAFK&4*&r'
+    'false': ''
+conditions: {}
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 100
+  server: null
+  player: null
+  relational: null
+assign-groups-by-permissions: false
+primary-group-finding-list: []
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password

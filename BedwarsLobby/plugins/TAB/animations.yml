@@ -1,0 +1,21 @@
+bw-title:
+  change-interval: 200
+  texts:
+  - '&3&lBED WARS'
+  - '&f&lB&3&lED WARS'
+  - '&3&lB&f&lE&3&lD WARS'
+  - '&3&lBE&f&lD &3&lWARS'
+  - '&3&lBED &f&lW&3&lARS'
+  - '&3&lBED W&f&lA&3&lRS'
+  - '&3&lBED WA&f&lR&3&lS'
+  - '&3&lBED WAR&f&lS'
+  - '&3&lBED WARS'
+MyAnimation1:
+  change-interval: 300
+  texts:
+  - '&cPurchase &aRanks&7, &eCrates&7, &6Boosters &d& More! &8| &3&l/store'
+  - '&bPurchase &cRanks&7, &eCrates&7, &6Boosters &d& More! &8| &3&l/store'
+  - '&bPurchase &aRanks&7, &cCrates&7, &6Boosters &d& More! &8| &3&l/store'
+  - '&bPurchase &aRanks&7, &eCrates&7, &cBoosters &d& More! &8| &3&l/store'
+  - '&bPurchase &aRanks&7, &eCrates&7, &6Boosters &c& More! &8| &3&l/store'
+  - '&bPurchase &aRanks&7, &eCrates&7, &6Boosters &d& More! &8| &c&l/store'

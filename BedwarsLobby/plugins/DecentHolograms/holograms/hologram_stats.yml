@@ -1,0 +1,22 @@
+location: bedwars_lobby:48.500:97.100:-143.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 100
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&e&lYour Bed Wars Profile'
+    height: 0.5
+  - content: '&f&lProgress'
+    height: 0.3
+  - content: '&fLvl %bw_level%  %progress_bar_{bw_experience-current}_c:&b|_p:&7|_r:&7|_l:30_m:{bw_experience-required}%  &fLvl %bw_level-next%'
+    height: 0.3
+  - content: '&b%formatter_number_format_{bw_experience-current}%&7/&a%formatter_number_format_{bw_experience-required}%'
+    height: 0.4
+  - content: '&e&lCLICK FOR STATS'
+    height: 0.3
+  actions: {}
+  always-face-player: true

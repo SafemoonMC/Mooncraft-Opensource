@@ -1,0 +1,18 @@
+location: bedwars_lobby:64.500:97.000:-130.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&eDuos'
+    height: 0.3
+  - content: '&b&l%bw_counter-duos% Playing'
+    height: 0.3
+  - content: '&bClick to play!'
+    height: 0.3
+  actions: {}
+  always-face-player: true

@@ -1,0 +1,9 @@
+chat_locked: false
+spawn:
+  ==: org.bukkit.Location
+  world: bedwars_lobby
+  x: 61.5
+  y: 94.0
+  z: -166.5
+  pitch: -1.7086071
+  yaw: 0.75938416

@@ -1,0 +1,42 @@
+sorting-type: GROUPS
+sorting-placeholder: ''
+case-sentitive-sorting: false
+unlimited-nametag-mode-dynamic-lines: []
+unlimited-nametag-mode-static-lines: {}
+scoreboard:
+  enabled: true
+  toggle-command: ''
+  permission-required-to-toggle: true
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: true
+  static-number: 0
+  disable-in-worlds: []
+  default-scoreboard: default
+  per-world: {}
+  delay-on-join-milliseconds: 0
+scoreboards:
+  default:
+    title: '&b⁂ %animation:bw-title% &b⁂'
+    lines:
+    - '&7%server_time_MMM d%'
+    - '&r'
+    - '&b&lHi, %player%!'
+    - '&3&l| &7Rank: &f%vault_group_capital%'
+    - '&3&l| &7MoonCoins: &f0000'
+    - '&r'
+    - '&3&l| &7Final Kills: &f%bw_stat-game-FINAL_KILLS%'
+    - '&3&l| &7Normal Kills: &f%bw_stat-game-NORMAL_KILLS%'
+    - '&r'
+    - '&3&l| &7Wins: &f%bw_stat-game-WINS%'
+    - '&3&l| &7Beds Broken: &f%bw_stat-game-BEDS_BROKEN%'
+    - '&r'
+    - '&3&l| &7Coins (not yet): &f%bw_stat-game-WINS%'
+    - '&r'
+    - '&b&nmooncraft.gg'
+scoreboard-on: '&7Scoreboard &aON'
+scoreboard-off: '&7Scoreboard &cOFF'
+placeholder-output-replacements: {}
+align-tabsuffix-on-the-right: false
+extra-character-widths: {}
+conditions: {}

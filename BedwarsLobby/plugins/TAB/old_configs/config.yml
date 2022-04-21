@@ -1,0 +1,61 @@
+# Detailed explanation of all options available at https://github.com/NEZNAMY/TAB/wiki/config.yml
+
+change-nametag-prefix-suffix: false
+change-tablist-prefix-suffix: false
+enable-header-footer: false
+header: []
+footer: []
+yellow-number-in-tablist: ''
+group-sorting-priority-list: []
+Groups: null
+Users: null
+classic-vanilla-belowname:
+  enabled: false
+  number: '%health%'
+  text: '&c❤'
+enable-collision: false
+revert-collision-rule-in-worlds: []
+do-not-move-spectators: false
+allow-spectator-bypass-permission: false
+unlimited-nametag-prefix-suffix-mode:
+  enabled: false
+  modify-npc-names: false
+  use-marker-tag-for-1-8-x-clients: false
+  disable-on-boats: true
+per-world-settings: null
+placeholders:
+  date-format: MM/dd/yyyy
+  remove-strings: []
+  afk-no: ''
+  afk-yes: ' &4*&4&lAFK&4*&r'
+  time-offset: 0.0
+  time-format: '[HH:mm:ss / h:mm a]'
+rank-aliases: null
+disable-features-in-worlds:
+  header-footer: []
+  tablist-names: []
+  nametag: []
+  yellow-number: []
+  bossbar: []
+  belowname: []
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 100
+  server: null
+  player: null
+  relational: null
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds: []
+  shared-playerlist-world-groups: null
+sort-players-by-permissions: false
+fix-pet-names: false
+use-primary-group: false
+primary-group-finding-list: []
+assign-groups-by-permissions: false
+debug: false
+anti-override:
+  scoreboard-teams: true
+  scoreboard-objectives: true
+ping-spoof:
+  enabled: false

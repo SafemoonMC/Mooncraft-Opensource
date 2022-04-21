@@ -1,0 +1,103 @@
+main:
+  prefix: ""
+
+  no-permission: "&cYou need &7[&b&lDiamondHands&7] &cRank to be able to use Glow effects!"
+  no-permission-join: "&cYou no longer have access to that glow effect!"
+  no-permission-glowonjoin: "&cYou don't have permission to glow on join!"
+
+  glow-new: ""
+  glow-same: "&aYou already have that glow effect selected!"
+  glow-enable: "&aYour glow has been enabled!"
+  glow-disable: "&cYour glow has been disabled!"
+  glow-removed: "&cDisabling glow! The effect your were using got removed."
+  glow-visibility-change: "&aYou will now only see the following glows: &f%value%"
+  glow-unsupported: "&cYou won't be able to see the glow effect as your client version doesn't support it!"
+
+  other-glow-player-confirm: ""
+  other-glow-on-join-confirm: ""
+  other-glow-player-confirm-off: "&e%target% &fis no longer glowing!"
+  other-glow-player-disabled-world: "&e%target% &cis in a world where glowing is disabled!"
+  other-glow-player-disguise: "&e%target% &cis in disguise which disabled the glow&f."
+  other-glow-player-invisible: "&e%target% &cis invisible which disables the glow&f."
+  other-glow-target-notification-prefix: ""
+
+  reload-success: "&aReloaded successfull!"
+  reload-fail: "&cReload failed&f."
+
+  argument-no-last-glow: " &cYou don't have any last known glows."
+  argument-incorrect-usage: "&cIncorrect usage&f! %command%"
+  argument-player-not-found: "&cCouldn't find player&f!"
+
+  command-list: "&fUse &e/eGlow help &ffor a list of commands."
+  command-player-only: "&6This command can only by used as a player&f!"
+
+  invisibility-glow-blocked: "&cGlowing is disabled while you're invisible."
+  invisibility-glow-disabled: "&cDisabling glow while you're invisible."
+  invisibility-glow-enabled: "&aRe-enabling you glow as you're no longer invisible."
+
+  disguise-glow-blocked: "&cGlowing is not allowed while in disguise!"
+  disguise-glow-allowed: "&aYou have undisguised and are allowed to glow again& Reactivating glow!"
+
+  world-glow-blocked: "&cGlowing is not allowed in this world&f!"
+  world-glow-blocked-reload: "&cGlowing is no longer allowed in this world&f! &cDeactivating glow&f!"
+  world-glow-allowed: "&aGlowing is back allowed in this world&f! &aReactivating glow&f!"
+
+  color-red: "&c&lRed"
+  color-dark-red: "&4&lDark Red"
+  color-gold: "&6&lGold &7(&6Investor&7)"
+  color-yellow: "&e&lYellow"
+  color-green: "&a&lGreen &7(&aTrader&7)"
+  color-dark-green: "&2&lDark Green &7(&2Holder&7)"
+  color-aqua: "&b&lAqua &7(&bDiamondHands&7)"
+  color-dark-aqua: "&3&lDark Aqua"
+  color-blue: "&9&lBlue"
+  color-dark-blue: "&1&lDark Blue"
+  color-purple: "&5&lPurple"
+  color-pink: "&d&lPink"
+  color-white: "&f&lWhite &7(&fPaperHands&7)"
+  color-gray: "&7&lGray"
+  color-dark-gray: "&8&lDark Gray"
+  color-black: "&8&lBlack"
+  color-none: "&f&lNone"
+  color-slow: "&6&lSlow"
+  color-fast: "&a&lFast"
+  color-effect-blink: "&f&lBlink"
+  color-effect-rainbow: "&c&lR&6&la&e&li&a&ln&b&lb&9&lo&d&lw"
+
+  citizens-not-installed: "&cYou don't have Citizens installed&f!"
+  citizens-npc: "&f[&cNPC&f] "
+  citizens-npc-not-spawned: "&cThe selected NPC is not spawned&f!"
+  citizens-npc-not-found: "&cCouldn't find NPC&f!"
+  citizens-argument-npc-missing: "&cMissing NPC argument&f!"
+  citizens-argument-npcid-invalid: "&cCouldn't find NPC by that ID&f!"
+
+gui:
+  title: "&8Glows"
+  
+  misc-yes: "&aYes"
+  misc-no: "&cNo"
+  misc-not-available: "&eN/A"
+  misc-left-click: "&fLeft-Click: "
+  misc-right-click: "&fRight-Click: "
+  misc-click-to-toggle: "&9Click to toggle"
+  misc-click-to-open: "&9Click to open."
+  misc-previous-page: "&e&l< Previous page"
+  misc-next-page: "&e&lNext page >"
+  misc-page-lore: "&fPage: %page%"
+  misc-main-menu: "&eMain menu"
+  
+  color-colorpermission: "&fColor permission: "
+  color-blinkpermission: "&fBlink permission: "
+  color-effectpermission: "&fEffect permission: "
+  
+  setting-item-name: "&e&lYour Settings"
+  setting-glow-on-join: "&fGlow on join: "
+  setting-last-glow: "&fLast glow: "
+  
+  glow-item-name: "&e&lGlowing Status"
+  glow-glowing: "&fGlowing: "
+  
+  speed-item-name: "&e&lEffect Speed"
+  speed-speed: "&fSpeed: "
+  
+  custom-effect-item-name: "&e&lCustom & Limited Effects"

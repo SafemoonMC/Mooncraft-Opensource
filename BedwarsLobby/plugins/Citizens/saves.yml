@@ -1,0 +1,1092 @@
+# Citizens NPC Storage
+last-created-npc-id: 27
+npc:
+  '16':
+    metadata:
+      cached-skin-uuid-name: princehatem
+      cached-skin-uuid: 5485821d-5975-41e6-b620-d7eed1702ea0
+      nameplate-visible: 'false'
+      glowing: false
+    name: §bQuads
+    uuid: 47ca7578-919c-4e7f-aa7e-c45756eb361e
+    traits:
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: ocen8OLF2GO70I37RgIthg+ZiHaGCeO8VV0LIEs9WZd0H+0N8j9hePn0+MalGKO7K+/vV2ZQeb0ufN9xXFRLZRkK94VVmyJroxYvi0VHCnP4y2e8qCOSWYtzH2gpocsjVEbr99O9qBOVq/6RoyuxUGpGzDsV7lht0+w7rQsh5ntJ/qss+E7u9BwRhKM6ily6l0CTJSfwvAGT0ADdLXTA8QUYA+2JD9U0iinGrejpMwR2Cl2bwCOZfpWdkPUWCzMeqsVEuu95XE+M3qFzB0HAusFgto98NqEzUt6R/IhrlISZVUN+PH8f9Tc4fcSZls4WZdKC0AW4LIH0wAz9T7vgIHV59pTVj1E/8ShkU3RvyhBsbsOZmmvCkHtiHGZJVm42WhWEQ5fHd9m2AuNN0phUqJLxMIsQ9YL76f0XTnU3BVDDsAQWpIgOegkXFWGzWePU57mmcie2GZ5or+kpMGhY8ZN00sf1UZL1aJzjGC5BHKoVqDG7c+8qkUYPawjeKMsgBozbFkcmUA6UMHrxRc//dyfaW7AzbIBqU7WW8uhoC9xI3WTtyGBLvRQdIqpGpP5e8gtK3KynxmQfO8qzKSh7GnfyrTKnp28YKoQtgkM5elxAKGVnKDBE1C1DmG3ASpXwxS65dSD0Q/F7cAe+ZRHUUCq6UcmuDsJvJ5Ml6UzDUoM=
+        skinName: princehatem
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzMzEzMzA4MjY3MywKICAicHJvZmlsZUlkIiA6ICI1NDg1ODIxZDU5NzU0MWU2YjYyMGQ3ZWVkMTcwMmVhMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJQcmluY2VIYXRlbSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lNTk1MGIwNDhlMTg1NmVmMGJlYjI5M2JiNTgyMTRlYWJjMjE5NjAyZGIzNzVlYmVmODJhM2ViODMwYmI0ZjBiIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      location:
+        bodyYaw: 137.89188
+        world: bedwars_lobby
+        x: '53.5'
+        y: '94.0'
+        z: '-132.5'
+        yaw: '177.8919'
+        pitch: '0.0'
+      spawned: true
+      sneak:
+        sneaking: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: bw play QUADS <p>
+            hand: RIGHT
+            player: false
+            op: false
+            cooldown: 5
+            globalcooldown: 0
+            n: -1
+            delay: 0
+        cooldowns:
+          af68e0c3-9218-49b1-a487-153e25502056:
+            lastUsed:
+              YncgcGxheSBRVUFEUyA8cD4=: 1644021804
+            lastUsedId: 0
+          988f709a-2ac3-470d-9243-2eb3391bcf20:
+            lastUsed:
+              YncgcGxheSBRVUFEUyA8cD4=: 1646270399
+            lastUsedId: 0
+          556945d5-7ffe-4d60-a826-2163fe443f38:
+            lastUsed:
+              YncgcGxheSBRVUFEUyA8cD4=: 1642193114
+            lastUsedId: 0
+          9d4e487a-ffd6-4a53-98f4-bca069b34b28:
+            lastUsed:
+              YncgcGxheSBRVUFEUyA8cD4=: 1647267494
+            lastUsedId: 0
+          ff60d774-c481-450c-9acd-8711105ee964:
+            lastUsed:
+              YncgcGxheSBRVUFEUyA8cD4=: 1639642797
+            lastUsedId: 0
+          2d8ae659-eef3-461d-a0a6-ba7806bd836f:
+            lastUsed:
+              YncgcGxheSBRVUFEUyA8cD4=: 1643651943
+            lastUsedId: 0
+          2eba14ff-e280-4ef8-91b6-8513a8b1d7d2:
+            lastUsed:
+              YncgcGxheSBRVUFEUyA8cD4=: 1642043029
+            lastUsedId: 0
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      scoreboardtrait:
+        color: RESET
+      eglow:
+        ActiveOnDespawn: false
+        LastEffect: white
+      owner:
+        owner: ReverendDread
+        uuid: f33ae78a-2b3c-4d5b-8706-a9bff290ba36
+    traitnames: spawned,eglow,scoreboardtrait,mounttrait,skintrait,commandtrait,type,location,inventory,lookclose,owner,equipment,sneak
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '15':
+    metadata:
+      cached-skin-uuid-name: potrity
+      cached-skin-uuid: b88456f2-6276-4c0a-816e-35036c25a852
+      nameplate-visible: 'false'
+      glowing: false
+    name: §bTrios
+    uuid: dec7b572-a635-4f4f-a7b9-bca28effc668
+    traits:
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: rUZM5i3mJH9cQ0Qw/MiCwUZijCqlcwwacN26axmq/Oo7NocxvKHfKyAHAT/i0BXeYDCLb5jddRzUfpdWlK7iw0ybhtBuN5iakietWXUPfxXkCkNDDkn4u1aQQye+vj5VwasDH+Hr+So3ONs4kHK8u3pH9nVdA7W91/PmZ7/vo/yNUTiwRkgO+KniiB4yAC0c1vVmCp3hOxSR/xkW+kRjQ5JbANgQ3RNlNlmYKDc3yz52cJ0coGfu0qdCJJk4+uSs5Gm5fHRFTzOvCplRFA8cysAvk8hEti29FEIEAEET+4IFJdS62Gt5WW6kId5nhcK7AAe8FEo9M2RKRpph9KIWiUpdyl+kXsH+b+Y7xjY/6GDcW6GwGulZPNOMG0gQt2FvPIxe6aJoyrxJDNHhYxM2P5FUq/f3W/ed957MqbAFToYw1YLcHPp8vysoTcDSaUKtFTDmwO2CQHkzmCCqXMgrXXIvXOzucMON5AuJWGFK9KWJsIOiSzwLqeVbDznb4/p/i+iaggSePOjflSov4x3FrILphK7QY8p91SaHTf7beQcFQp2Gtm+VjZ+JX7NbyAlOBjQu9Te/abvx5ltQcdGvzNWc8IV4+IWTQrAKa/N76z3JozZSVnfh96rYwF5RTSbZVBTnRcd6X1ntbAMAIeruFEoD6vJx8pE3r7uB2IXmPgA=
+        skinName: potrity
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzMzEzMzEwOTY2NSwKICAicHJvZmlsZUlkIiA6ICJiODg0NTZmMjYyNzY0YzBhODE2ZTM1MDM2YzI1YTg1MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJQb3RyaXR5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZmYjFjMWE5ODEyMjI5NzQ5MDU0MDZlYWI0ODc3YTljY2U3MzhjNWY4NzA0YmU0ZDg1MzNlMjgyMDIwMGY2YzkiCiAgICB9CiAgfQp9
+        updateSkins: false
+      location:
+        bodyYaw: 139.76158
+        world: bedwars_lobby
+        x: '58.5'
+        y: '94.0'
+        z: '-130.5'
+        yaw: '179.7616'
+        pitch: '0.0'
+      spawned: true
+      sneak:
+        sneaking: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: bw play TRIOS <p>
+            hand: RIGHT
+            player: false
+            op: false
+            cooldown: 5
+            globalcooldown: 0
+            n: -1
+            delay: 0
+        cooldowns:
+          af68e0c3-9218-49b1-a487-153e25502056:
+            lastUsed:
+              YncgcGxheSBUUklPUyA8cD4=: 1644022065
+            lastUsedId: 0
+          556945d5-7ffe-4d60-a826-2163fe443f38:
+            lastUsed:
+              YncgcGxheSBUUklPUyA8cD4=: 1643305969
+            lastUsedId: 0
+          3637bfd8-2baa-4728-9af8-3c26be80dbad:
+            lastUsed:
+              YncgcGxheSBUUklPUyA8cD4=: 1645921812
+            lastUsedId: 0
+          9d4e487a-ffd6-4a53-98f4-bca069b34b28:
+            lastUsed:
+              YncgcGxheSBUUklPUyA8cD4=: 1647267459
+            lastUsedId: 0
+          ff60d774-c481-450c-9acd-8711105ee964:
+            lastUsed:
+              YncgcGxheSBUUklPUyA8cD4=: 1639642796
+            lastUsedId: 0
+          926d9e00-1a92-4ab6-bfff-aff4d9249b46:
+            lastUsed:
+              YncgcGxheSBUUklPUyA8cD4=: 1642973052
+            lastUsedId: 0
+          5032424a-a894-4849-bf02-c27b47b908db:
+            lastUsed:
+              YncgcGxheSBUUklPUyA8cD4=: 1644968563
+            lastUsedId: 0
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      scoreboardtrait:
+        color: RESET
+      eglow:
+        ActiveOnDespawn: false
+        LastEffect: white
+      owner:
+        owner: ReverendDread
+        uuid: f33ae78a-2b3c-4d5b-8706-a9bff290ba36
+    traitnames: spawned,eglow,scoreboardtrait,mounttrait,skintrait,commandtrait,type,location,lookclose,inventory,owner,sneak,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '13':
+    metadata:
+      cached-skin-uuid-name: yoteyote
+      cached-skin-uuid: c057c542-9cab-4502-9148-3a5951899418
+      nameplate-visible: 'false'
+      glowing: false
+    name: §bDuos
+    uuid: b23f1729-4c91-4660-90f7-bc392da67961
+    traits:
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: sLNBTMY9XGB61c5w7cfu/iBUvsU41ECZR01pwlrhyQ5SgEspTiA/qXlMLa+gUbybu8U7KxvGAQUUJi+pNU58rCBC+4IxMi+EtUwrrAskNflGE50F4ps20bjKs6EN4mKj9532fndObsgxtz2Fxlisl1+YL7dNfKABx6hCg3IWya9z9QiOV1N0stlWQapGlQlzpGB+o9v8xNQ0jCsY7rm2PY+ertwHTR+DpNNwcQWSIvk29ukZSD0mfYc/pMj6rAEXzxdUxuhacBtcysTxPF922X6tWjp7ic/GXZlC5hWDkXkSiF30iZJjORzDYJ6AFBZCy7JFWQv8iyMuRRZjQq5mBBFz5MDsTeVafrFPyS+RxEcAtd9mjJtxQc1ENHYA52OWO/8XiII/T+e7mSJ5GOz6Q00Aovh2v9AB4c54DxA73XRdIcX9kBKIU7UPJnhap4PFkaARTpsHDbRvb+UJ+8PzvuYQz4ZCUuF5/THB65fuU+GIG5vRlZdh1+/qfaB3cr+JH9muFi8uxHGTu2FTXYOBaokEfTq6k45yrUwYCI9pXmEpq0rBHOoZSnDE57cTQQklJvoYiPBN2YvpthkYsRG0bbHSDKAWg0ESK6kxwVbNETq5kzxEaLeSe1p3muOBceMKZ0BZ1NWNnI6L8z4cz/OCFsrTbhTEOEO3btNFmKozck8=
+        skinName: yoteyote
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0NzU4MzIzNzAyOCwKICAicHJvZmlsZUlkIiA6ICJjMDU3YzU0MjljYWI0NTAyOTE0ODNhNTk1MTg5OTQxOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ5b3RleW90ZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ZTBhNzVmMzdlNzc5OTBjOGU1YTA5MWMxODQyMjAyN2M4NTlmODlkZWNkZjI5MDcyMjk0NzQzYTQ5MjEzOTBlIgogICAgfQogIH0KfQ==
+        updateSkins: true
+      location:
+        bodyYaw: 139.90857
+        world: bedwars_lobby
+        x: '64.5'
+        y: '94.0'
+        z: '-130.5'
+        yaw: '179.9086'
+        pitch: '0.0'
+      spawned: true
+      sneak:
+        sneaking: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: bw play DUOS <p>
+            hand: RIGHT
+            player: false
+            op: false
+            cooldown: 5
+            globalcooldown: 0
+            n: -1
+            delay: 0
+        cooldowns:
+          c057c542-9cab-4502-9148-3a5951899418:
+            lastUsed:
+              YncgcGxheSBEVU9TIDxwPg==: 1644283378
+            lastUsedId: 0
+          988f709a-2ac3-470d-9243-2eb3391bcf20:
+            lastUsed:
+              YncgcGxheSBEVU9TIDxwPg==: 1646270503
+            lastUsedId: 0
+          4ad1255b-04a8-41b5-982f-3e27696947bd:
+            lastUsed:
+              YncgcGxheSBEVU9TIDxwPg==: 1644284574
+            lastUsedId: 0
+          556945d5-7ffe-4d60-a826-2163fe443f38:
+            lastUsed:
+              YncgcGxheSBEVU9TIDxwPg==: 1643305967
+            lastUsedId: 0
+          a72b2bea-92e8-4c76-856d-ff277d7e09f2:
+            lastUsed:
+              YncgcGxheSBEVU9TIDxwPg==: 1644596005
+            lastUsedId: 0
+          9d4e487a-ffd6-4a53-98f4-bca069b34b28:
+            lastUsed:
+              YncgcGxheSBEVU9TIDxwPg==: 1647267362
+            lastUsedId: 0
+          ff60d774-c481-450c-9acd-8711105ee964:
+            lastUsed:
+              YncgcGxheSBEVU9TIDxwPg==: 1642972349
+            lastUsedId: 0
+          3e4dada2-dc00-4699-a4df-26bc451c4210:
+            lastUsed:
+              YncgcGxheSBEVU9TIDxwPg==: 1644283360
+            lastUsedId: 0
+          926d9e00-1a92-4ab6-bfff-aff4d9249b46:
+            lastUsed:
+              YncgcGxheSBEVU9TIDxwPg==: 1642967252
+            lastUsedId: 0
+          6a06a41b-73a1-4c47-9b9d-e672ae541f51:
+            lastUsed:
+              YncgcGxheSBEVU9TIDxwPg==: 1644283867
+            lastUsedId: 0
+          fafa530e-7923-4453-a2ef-2d4dfd753ebe:
+            lastUsed:
+              YncgcGxheSBEVU9TIDxwPg==: 1642967271
+            lastUsedId: 0
+          af68e0c3-9218-49b1-a487-153e25502056:
+            lastUsed:
+              YncgcGxheSBEVU9TIDxwPg==: 1644022144
+            lastUsedId: 0
+          94872c58-db13-49b6-a7e3-52f0107c9752:
+            lastUsed:
+              YncgcGxheSBEVU9TIDxwPg==: 1644283864
+            lastUsedId: 0
+          77a24861-3adf-4f7e-8555-335cb8d2feb9:
+            lastUsed:
+              YncgcGxheSBEVU9TIDxwPg==: 1645378526
+            lastUsedId: 0
+          a2c5be9d-a090-4c3e-8931-038521f5c152:
+            lastUsed:
+              YncgcGxheSBEVU9TIDxwPg==: 1645680224
+            lastUsedId: 0
+          d611462c-97cd-4a78-8503-d015b8f2996e:
+            lastUsed:
+              YncgcGxheSBEVU9TIDxwPg==: 1644352267
+            lastUsedId: 0
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      scoreboardtrait:
+        color: RESET
+      eglow:
+        ActiveOnDespawn: false
+        LastEffect: white
+      owner:
+        owner: ReverendDread
+        uuid: f33ae78a-2b3c-4d5b-8706-a9bff290ba36
+    traitnames: spawned,eglow,scoreboardtrait,mounttrait,skintrait,commandtrait,type,location,inventory,lookclose,owner,sneak,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '12':
+    metadata:
+      cached-skin-uuid-name: reverenddread
+      cached-skin-uuid: f33ae78a-2b3c-4d5b-8706-a9bff290ba36
+      nameplate-visible: 'false'
+      glowing: false
+    name: §bSolos
+    uuid: e1731e38-72ad-4fbc-a912-3729951e9ac2
+    traits:
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: eavy6psjmxmDF3jENBefnsrzqTnY/XXSre5uPNsYRcYDsF2YeXuvmwfgVI+L6ep5oRWgt1vgMuOaxC6Hfht5Q14r2CoDzLyk0jsFco6IQGUvie1PjDiRcApgPyl6la4+VC3QdqpB1YNQVZTav+hEpy3+EdRm9R49EW7m7pryKl7Z02pyd1MVSTpi06PmNfZT2Ukqj4WRCe4LMH1DUCPgE3jrk5FlYAlDpKVWpuFwekJnM4AL3MK2edhw6/soyFoXLI3+MTrm/QIg6PqxSIlXZQ7R7c3ZL9LvukM2yXxNdy0xUsE2suLZLe0ep/CmT0l5GjcFVYzmVMtarfRmXDRu+46X1OI/lBGNmRm1ClhmpJsJa1cE6DFWjCGZ96LyjiE5fdHwtwTxn+DBiUL6dFH54Dow4u5ZeJo5GOkPBuBD+i8Ci1BN7b45bsIg9AMhLCQJc6HeyFx7dWaJHPpH+a9oEzx+1nRIuyMStHjlNFLkfTqTvwlBfiWtMSBwq+tS35UhYOUON7gYDK4w7WVimJAeuN9oNjBF58rMNJToWeUzFtolv1XsNLUrsGDblcSc4wSCWnGrqPdooFR8kdm+fDYfdAjlw3ec6UDKBw/5ejqIYtkMdH83FA6qPVDmJkYAOe/SpJECWRPFMwkHOeeRfh4G3CW+yW4vqvmdyqYQa3BY0Zw=
+        skinName: reverenddread
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0NzU4MzIzNzAwMiwKICAicHJvZmlsZUlkIiA6ICJmMzNhZTc4YTJiM2M0ZDViODcwNmE5YmZmMjkwYmEzNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZXZlcmVuZERyZWFkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIyYmU5NjRhZDYzNTk0OTkxMTFjYzdlYjRkMDczZGMyZWY5MmVjZTE2ODFhOWQ4NjljMjYyYmU3MjMyZDRhOGYiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9
+        updateSkins: true
+      location:
+        bodyYaw: 139.78967
+        world: bedwars_lobby
+        x: '69.5'
+        y: '94.0'
+        z: '-132.5'
+        yaw: '179.7897'
+        pitch: '0.0'
+      spawned: true
+      sneak:
+        sneaking: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: bw play SOLO <p>
+            hand: RIGHT
+            player: false
+            op: false
+            cooldown: 5
+            globalcooldown: 0
+            n: -1
+            delay: 0
+          '1':
+            command: bw play SOLO <p>
+            hand: LEFT
+            player: false
+            op: false
+            cooldown: 5
+            globalcooldown: 0
+            n: -1
+            delay: 0
+        cooldowns:
+          c057c542-9cab-4502-9148-3a5951899418:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644279764
+            lastUsedId: 0
+          0558b70a-9339-4419-aa78-0cbdb25c7b2c:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644481777
+            lastUsedId: 0
+          a3222ec8-bb84-4d1d-b74c-084589a79246:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1642965703
+            lastUsedId: 0
+          1132f8ee-12b4-4012-96cd-adfc3fe2b664:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1645134375
+            lastUsedId: 0
+          2f67c93e-e525-44fa-a8c6-5b2c5b943c56:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1645305562
+            lastUsedId: 0
+          7288924d-951b-4e23-bfa6-895c448a4723:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644512950
+            lastUsedId: 0
+          ff60d774-c481-450c-9acd-8711105ee964:
+            lastUsed:
+              YncgcGxheSBTT0xPUyA8cD4=: 1639642789
+              YncgcGxheSBTT0xPIDxwPg==: 1644087789
+            lastUsedId: 0
+          266be4da-afb4-4340-9eb0-0879ad8d02ad:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1646514859
+            lastUsedId: 0
+          191fb73c-aa21-4901-ae20-c51fe7faf219:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644427230
+            lastUsedId: 0
+          d1d0f399-5597-4e5b-9074-a52837eeb1c5:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1645663455
+            lastUsedId: 0
+          87e2f4c7-c80e-40e4-99bf-f9b8da09936b:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644866270
+            lastUsedId: 0
+          fa6038a2-a3ff-441a-9819-ef8cc5ddf058:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1645663459
+            lastUsedId: 0
+          4765c39c-ab5a-4a58-92ea-abff48491ea5:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644654235
+            lastUsedId: 0
+          b3c671c5-8eab-4f14-9ead-be89c8b17733:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644366098
+            lastUsedId: 0
+          d6438513-9524-4ca3-8406-83eeeca8610f:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1645670505
+            lastUsedId: 0
+          ae275a12-1cbc-4b63-a1a4-69e3576f92d2:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644866273
+            lastUsedId: 0
+          af2905cd-afb1-48bb-97f7-eec4b2c78195:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644278905
+            lastUsedId: 0
+          bf609892-4b0d-4917-a84f-d64b2a8c94c9:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644775807
+            lastUsedId: 0
+          a1452d1d-bdf3-4059-b6d3-6c166f15fb85:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1643763816
+            lastUsedId: 0
+          29e6ec62-38b2-46dc-ac5a-6c759bd4fa66:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644365803
+            lastUsedId: 0
+          10cacb25-6211-4c83-9276-c2546292ff0d:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1645305576
+            lastUsedId: 0
+          f60451da-91d1-4cd4-a981-a0346ad72b40:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1646020084
+            lastUsedId: 0
+          adbad9c3-0d99-4f5d-924d-fe0ed377c5c4:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644622581
+            lastUsedId: 0
+          d1295952-cc9f-47a0-9247-14c230f4b677:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1646746372
+            lastUsedId: 0
+          9dc0d145-8d03-4b30-9f9b-b1a0df1584d2:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644293609
+            lastUsedId: 0
+          258fe811-1ac2-487d-a502-6d96e6c35cce:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644645737
+            lastUsedId: 0
+          3e4dada2-dc00-4699-a4df-26bc451c4210:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644645839
+            lastUsedId: 0
+          926d9e00-1a92-4ab6-bfff-aff4d9249b46:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1643065322
+            lastUsedId: 0
+          21f4c771-adb1-4c03-9cf4-687aaecf8ab8:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644281599
+            lastUsedId: 0
+          db9e37c9-57a0-4fc4-9c2a-d7808f0f6dfe:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1643065271
+            lastUsedId: 0
+          61fa9099-6da4-4386-abf8-c5ad420228a8:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644280489
+            lastUsedId: 0
+          8c0ba8db-8f0b-4e31-b917-41884adb100f:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644957918
+            lastUsedId: 0
+          fafa530e-7923-4453-a2ef-2d4dfd753ebe:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1646059829
+            lastUsedId: 0
+          20b8dab7-ab4b-4754-b157-e36138872f3b:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644801128
+            lastUsedId: 0
+          dbb92185-69ff-4646-9ef8-ef0ae1989f7f:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1646965432
+            lastUsedId: 0
+          a2e30023-1284-460c-8e5a-ce1bfe992925:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644359860
+            lastUsedId: 0
+          481d48fe-436b-43b9-905d-0b16d8a7a52c:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1645985744
+            lastUsedId: 0
+          ca8d8b81-f7ea-409b-b203-e5aff84df637:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644706466
+            lastUsedId: 0
+          93688922-0470-4725-9fea-3d68cfe06060:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1646514858
+            lastUsedId: 0
+          234ed368-8c73-4e36-a9e9-af261bb9cc67:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644279004
+            lastUsedId: 0
+          21ad878f-6def-44c8-806c-3dbf3510b52d:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1645985751
+            lastUsedId: 0
+          521f830f-d29a-4a3e-a66d-fb9550b9cf5f:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644278896
+            lastUsedId: 0
+          4ad1255b-04a8-41b5-982f-3e27696947bd:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644366098
+            lastUsedId: 0
+          57012802-044d-47c7-972a-dc1afba82cd0:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644283261
+            lastUsedId: 0
+          556945d5-7ffe-4d60-a826-2163fe443f38:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1645657993
+            lastUsedId: 0
+          837defa8-9c3e-4fc3-93b1-73e6aab110a0:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644278654
+            lastUsedId: 0
+          c570a7c3-df85-490e-8c51-84ba10350734:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1646084207
+            lastUsedId: 0
+          9d4e487a-ffd6-4a53-98f4-bca069b34b28:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1647267407
+            lastUsedId: 0
+          e75734ce-d559-4882-a7b7-63e4a4736391:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644638782
+            lastUsedId: 0
+          60b6490f-a2ed-4374-a477-3e2444497946:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644854667
+            lastUsedId: 0
+          2d8ae659-eef3-461d-a0a6-ba7806bd836f:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1643830382
+            lastUsedId: 0
+          f09c378c-29dc-49c4-b62c-681feb13001a:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644645734
+            lastUsedId: 0
+          a94a60d3-43ee-4d8f-bce5-8751a521763f:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644281641
+            lastUsedId: 0
+          fe90fe38-f25c-4a51-953d-644b632a103e:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1643969890
+            lastUsedId: 0
+          f33ae78a-2b3c-4d5b-8706-a9bff290ba36:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644419540
+            lastUsedId: 0
+          af68e0c3-9218-49b1-a487-153e25502056:
+            lastUsed:
+              YncgcGxheSBTT0xPUyA8cD4=: 1640643616
+              YncgcGxheSBTT0xPIDxwPg==: 1644328001
+            lastUsedId: 0
+          99dccb6b-7b5e-451b-82e8-50eee0c2615c:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644645753
+            lastUsedId: 0
+          6860ac67-9fd2-451f-bcef-20a85f1eb7c6:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644301988
+            lastUsedId: 0
+          4328100b-08c6-45e2-bde0-3ec7d2038e82:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1645914681
+            lastUsedId: 0
+          1144f763-0e4b-413b-97df-885c5e95313b:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644707861
+            lastUsedId: 0
+          7eb0eee1-37ae-4662-a4e7-218dc99a39dc:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644707862
+            lastUsedId: 0
+          480e788b-513a-4c9d-8163-71f1ae6abc1a:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644811228
+            lastUsedId: 0
+          a62932ee-3851-41a5-894f-db9091d26b40:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1643747004
+            lastUsedId: 0
+          c83e0d15-0c72-4082-b81b-6db258200ecd:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644280015
+            lastUsedId: 0
+          2c42125e-3482-4b6f-a333-804a690cec74:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1645451803
+            lastUsedId: 0
+          2eba14ff-e280-4ef8-91b6-8513a8b1d7d2:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1642965342
+            lastUsedId: 0
+          ac388b52-b99d-45ea-887d-dcb8eae154a2:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644278723
+            lastUsedId: 0
+          5032424a-a894-4849-bf02-c27b47b908db:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1644968559
+            lastUsedId: 0
+          fee5e94a-6f22-48d7-81bb-7356de16b659:
+            lastUsed:
+              YncgcGxheSBTT0xPIDxwPg==: 1645132105
+            lastUsedId: 0
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      scoreboardtrait:
+        color: RESET
+      eglow:
+        ActiveOnDespawn: false
+        LastEffect: white
+      owner:
+        owner: ReverendDread
+        uuid: f33ae78a-2b3c-4d5b-8706-a9bff290ba36
+    traitnames: spawned,eglow,scoreboardtrait,mounttrait,skintrait,commandtrait,type,location,lookclose,inventory,owner,sneak,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '11':
+    metadata:
+      cached-skin-uuid-name: mhf_chest
+      cached-skin-uuid: 73d4e068-3a6d-4c8b-8f85-3323546955c4
+      nameplate-visible: 'false'
+      glowing: false
+    name: §bStats
+    uuid: 0b9b13c5-14e0-4f88-9840-69355d629aeb
+    traits:
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: JVflNb47ruUSQUEW7InVKh57ZjKAf7fWtsqeGgrEIdGEdsBFiLm2OLg33MIE7XWXbWDVJNgt1pNje+1/Xy6SotjKuJ++grcOKlAau70EFANvBZVqOCirx+BmaeAnwKubLIqEETDAhnoFHB7kz/vDl2vucVFB6xDqkZ7nDXzZoHzEEKsqLoQl+8ZdMEk+yzwYeIuSUQHOm3CLg9dusYrsQZw5j0B+owLsn5OKBtB8pKTuKfFTAwVXcxUM0iZMi/t+nY5aRfOqCK0UYbJNAAZcCvHiahWZXf5VxXjfPWcmfwlXr1U19lOjbVKKdVzNYpexwoWNq2E+eyMXN34llJzjk91lfFy3ceNDQlN1Flvg2iGlXZoEs7UIM20QDbWeu3tU4hrC3tnZL9dXshUGamGNISZQWQZDd/ywHE24km30kHNIXxseMWbVNScchZsTxdFVW5RnQ/3pGktrwNApVbBWkEls2+PNgQGMkwlFI7eN4j9fX7HsLm1Au83VCZhTRmBCSVeDoXCEjH1sUFAxfYu38FySEyOIaKBExWF93asf2SHuBZJze8aS4XY7FeGhk1axX16QgIpCUungWElcrRjuMtJZ+BXCQ/fSfa5MgvlDcWaEneyiiWsiJw7fJUWC57xX3d44owSVBSgkljG8QEbkYgDSWkIZetgXwycYf2xpsI0=
+        skinName: mhf_chest
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0NzU4MzIzNzA5MywKICAicHJvZmlsZUlkIiA6ICI3M2Q0ZTA2ODNhNmQ0YzhiOGY4NTMzMjM1NDY5NTVjNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfQ2hlc3QiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU4MzA1ZTUyN2ZjZjA4NTI1ZmRmZjA3ZTRjZDZlNzk3NzRhY2RkNDI2Y2MyNzMyN2Q0NWRmOGE1ZmY4NjQxOSIKICAgIH0KICB9Cn0=
+        updateSkins: true
+      location:
+        bodyYaw: -56.50672
+        world: bedwars_lobby
+        x: '48.5'
+        y: '93.0'
+        z: '-143.5'
+        yaw: '-90.0157'
+        pitch: '0.0'
+      spawned: true
+      sneak:
+        sneaking: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: red_bed
+          amount: 1
+          durability: 0
+      inventory:
+        '0':
+          type_namespace: minecraft
+          type_key: red_bed
+          amount: 1
+          durability: 0
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: stats
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      scoreboardtrait:
+        color: RESET
+      eglow:
+        ActiveOnDespawn: false
+        LastEffect: aqua
+      owner:
+        owner: ReverendDread
+        uuid: f33ae78a-2b3c-4d5b-8706-a9bff290ba36
+    traitnames: spawned,hologramtrait,eglow,scoreboardtrait,mounttrait,skintrait,commandtrait,type,location,inventory,lookclose,owner,equipment,sneak
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '17':
+    metadata:
+      cached-skin-uuid-name: dongnose
+      cached-skin-uuid: 3652d740-866b-4857-adf6-362d2e0c8c48
+    name: §bItem Shop
+    uuid: 6e090df2-7a97-442c-877e-e383274c49e6
+    traits:
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: D1KA8x8CiJ5Dylk32vWKe8zMdl1pgYmKLTQdGIYzbsD4nX6HEW3rVjA5qG6XH6xsNqj6W93JO15KRcte9skqdiVNdyx5Y3HIRDfyXiXIRJdGAKZS0RLteY7jnB3C1Kbnc8n2Us+rYxMXJP7QYDYplrmP/LCHNzluTCcvUq23K/eBMwEGrfqcXlajANHl5yygv6X00i+b2ASnlGzzZoOUeNZiPQYxhF9skz1nB8NQlpno/i7wFfgA1OMcpbqeAnc1Vg7dSOr8atxlz7vzW8Rzu/bBKmrDvi4fh0KXpbuAjozWinsL9X9df+JQIZMqsfkhq8YgLibzRGTBPQEcF5MEs8sCSW9K4gbtFAWZZYxpUsRsV2txjwjnFjTdnedhRq3eMEbUX0aXFJfQoLA3G5MP202OCNEYBRMoU76bzk2EGkZwZlsaICtAfric/Y6CWJeMqo7hJ55j3v1AfnERpDuQSgVR0mV7kghJKNEV/zVR+gYNWBehGKWRfYCY976mF+dWk0RibWsJdrHCnjfl0YbsQlpp8AgoXPo4rxByw6QHkWKHrss0ona+dlKxUXqZ0baSxJzL7idGpDlQk2BACeh/IjESt2b7L7VyuGam+f7cM0Ra3Ppfyaulxma2kumJh54erWwejw4Tcw1c+m0lxzuzord2kghitR02Bp5KTuk5w6I=
+        skinName: dongnose
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzMzEyNjc5MjY2OCwKICAicHJvZmlsZUlkIiA6ICIzNjUyZDc0MDg2NmI0ODU3YWRmNjM2MmQyZTBjOGM0OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJEb25nTm9zZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jMWViNTQzNjk1ZWRjYjA0YmY4MTlhN2E2MDcyNDc4ZTMwYjkzZWNlOTZiYzg5NjExYzE4ZTQwYjIzNjUyMTE5IgogICAgfQogIH0KfQ==
+        updateSkins: false
+      location:
+        bodyYaw: 269.6001
+        world: bedwars_lobby
+        x: '51.6323'
+        y: '93.0'
+        z: '-140.4969'
+        yaw: '-90.3999'
+        pitch: '12.7499'
+      spawned: false
+      sneak:
+        sneaking: false
+      owner:
+        owner: ReverendDread
+        uuid: f33ae78a-2b3c-4d5b-8706-a9bff290ba36
+    traitnames: spawned,mounttrait,skintrait,type,location,inventory,owner,sneak,equipment,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '27':
+    name: fastmatch
+    uuid: b1ec91ef-d43e-40c4-b5a7-49f397fd4e1a
+    traits:
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: Pf5MYsmonLQYkvqScSJiuchVVcc4Vz9eijbVuIEUab+ydU5VS/sj/XHjVLteyXLF1EVFJEWTef9k6hAud3SVfjss24XlMC5wiLKEdB6eQUWJ4AhgB9OMUTlj0+N89KB/Pzhs3Nb3a3Ed2ojk4HdcJGJ+UR8oTDO6oqSNGwJ/QPrGJ0upuc1X8jwk3gZ0SjZkPgVu5VyVnkshS22tQyCpnIIsQumtCTylPjIMiKJAKfnOWqimcf6pZfcWF7GEJanKANclDqxN//0JbUmilerbjRuA1KHq+yTHq4V3csahJTldlKnmN97QPujuMRXO8aCwZysuGq77xHDI5raz41c0zHpIelIcizr8spdPezQkrd0/fd4edFr+WDwG0/NxHnS7DzG1ZAy/nrfdFzH4H1HNp403b2BhF3Z42PEHvC9YaRUsvXDJ4Bg5zJjQIWHxLEdXLv/pnqUrhhYLzdrvbJqo4SGrL7+fGsfyTIgk+5qML577TYWATwo5SOFpypP1l+XZs9+Q1UkkSd5/A1tpt1Z7viQ2G70N2+6VimvqnzwD7NFPoOdO4GLpdpqHT3q707hT8KPGglIaQqlSqNUdsLrDPQYTrh6kjXmxOdZsU38hTm3kQTo6XIJ35fSr6tv3FtsTr+6eETDPuHz4uoCUbhwEJkSUfdnhTG8pfpVaai1Gr/8=
+        skinName: 9b0d4248-b96d-4a84-9feb-847087d16b1b
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYwMTA2Mjg1MjE2OCwKICAicHJvZmlsZUlkIiA6ICI5YjBkNDI0OGI5NmQ0YTg0OWZlYjg0NzA4N2QxNmIxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZWRXYXJzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U2Zjk3OTY4NGM4NjFiMDg3ZDc3ZTI4NTllMDg1ZTg5ZThjYWQyYWU2ZThjMzAxYTMzYmUzOGM1N2NlZmMzMWMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+      type: PLAYER
+      location:
+        bodyYaw: 142.70511
+        world: bedwars_lobby
+        x: '61.5'
+        y: '93.0'
+        z: '-134.5'
+        yaw: '-177.2949'
+        pitch: '0.0'
+      sneak:
+        sneaking: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '1':
+            command: bw fastplay <player>
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 3
+            globalcooldown: 0
+            n: -1
+            delay: 0
+        cooldowns:
+          08a919d6-7dd0-47f9-a6c4-dcfc07eece8b:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644531717
+            lastUsedId: 1
+          0558b70a-9339-4419-aa78-0cbdb25c7b2c:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644481827
+            lastUsedId: 1
+          1132f8ee-12b4-4012-96cd-adfc3fe2b664:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1645133569
+            lastUsedId: 1
+          5c164c01-0e3d-4dab-a1c0-423a95517403:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644342302
+            lastUsedId: 1
+          66d25e90-b6f5-4796-a518-736bf7b5a8c1:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644968685
+            lastUsedId: 1
+          a3da7e5e-b8a8-406d-9688-3347bf6f672e:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644511954
+            lastUsedId: 1
+          887f40ba-987d-4eae-9f03-e73dfcb699e0:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1647118485
+            lastUsedId: 1
+          b4872a2c-0577-4e5a-9a10-7ee650bfe7a4:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644288796
+            lastUsedId: 1
+          7288924d-951b-4e23-bfa6-895c448a4723:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644512876
+            lastUsedId: 1
+          ff60d774-c481-450c-9acd-8711105ee964:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644265075
+            lastUsedId: 1
+          266be4da-afb4-4340-9eb0-0879ad8d02ad:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1646514889
+            lastUsedId: 1
+          997e5cea-5b7e-4577-88db-e70f41db3a79:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644629209
+            lastUsedId: 1
+          d1d0f399-5597-4e5b-9074-a52837eeb1c5:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1645663079
+            lastUsedId: 1
+          87e2f4c7-c80e-40e4-99bf-f9b8da09936b:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644866298
+            lastUsedId: 1
+          ff1303b7-1a93-4932-8a35-7a9b8e5d3688:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644510182
+            lastUsedId: 1
+          ae275a12-1cbc-4b63-a1a4-69e3576f92d2:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644866305
+            lastUsedId: 1
+          af2905cd-afb1-48bb-97f7-eec4b2c78195:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1646003515
+            lastUsedId: 1
+          94b74451-371b-4a5f-9804-0c30b33abb18:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644280521
+            lastUsedId: 1
+          9011b43a-867e-4d1a-95d8-8c3c85d78780:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1646194809
+            lastUsedId: 1
+          477b80a8-feb4-4041-baf6-210a2f35ca13:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1646745065
+            lastUsedId: 1
+          e352e1d8-a8d4-483c-9e25-c615063d6c3c:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644638705
+            lastUsedId: 1
+          10cacb25-6211-4c83-9276-c2546292ff0d:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1645303655
+            lastUsedId: 1
+          21f4c771-adb1-4c03-9cf4-687aaecf8ab8:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644281728
+            lastUsedId: 1
+          93688922-0470-4725-9fea-3d68cfe06060:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1646514894
+            lastUsedId: 1
+          83b89a4c-420e-44dc-aa47-7c30adc89f93:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1645982944
+            lastUsedId: 1
+          36b647a1-0ce3-4621-8a3e-8a9f340e1d2a:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644631058
+            lastUsedId: 1
+          ea83da62-4422-4f86-9276-a149e04f7660:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644840670
+            lastUsedId: 1
+          988f709a-2ac3-470d-9243-2eb3391bcf20:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1646844903
+            lastUsedId: 1
+          c10135b2-ab51-436a-98c9-799892eaa8d2:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644352686
+            lastUsedId: 1
+          4ad1255b-04a8-41b5-982f-3e27696947bd:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644362327
+            lastUsedId: 1
+          8384cf05-2b50-4afb-93cb-b30aff57e905:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644543361
+            lastUsedId: 1
+          556945d5-7ffe-4d60-a826-2163fe443f38:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1645133567
+            lastUsedId: 1
+          3637bfd8-2baa-4728-9af8-3c26be80dbad:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644610236
+            lastUsedId: 1
+          7a80997f-0b92-4302-b6b8-fd14036f5145:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644642361
+            lastUsedId: 1
+          aec4c6f3-dfe6-4f0b-8489-114f46c6c2b1:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644278877
+            lastUsedId: 1
+          9d4e487a-ffd6-4a53-98f4-bca069b34b28:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1647267608
+            lastUsedId: 1
+          7f166fe3-a13b-4e30-aaaf-c9728da007c3:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644441148
+            lastUsedId: 1
+          8db26fab-23d9-43a2-abad-b42679b480d1:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644489486
+            lastUsedId: 1
+          a94a60d3-43ee-4d8f-bce5-8751a521763f:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644278700
+            lastUsedId: 1
+          a5064d57-6923-4d4f-ada6-15d4f6ab0a5c:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644676679
+            lastUsedId: 1
+          efc99eed-0783-438f-8cc1-c7fc254e85c3:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644536805
+            lastUsedId: 1
+          af68e0c3-9218-49b1-a487-153e25502056:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644328975
+            lastUsedId: 1
+          db0e59d4-7602-45e8-9b25-5b518eef028d:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1645177701
+            lastUsedId: 1
+          fb9a6c76-83d6-42e9-b264-2418a01bf8d2:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644279778
+            lastUsedId: 1
+          3310977e-069d-43bb-aa9a-6114b28da095:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644281507
+            lastUsedId: 1
+          320b2137-752a-4819-b399-e916b637546a:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644282626
+            lastUsedId: 1
+          a5b8311c-4e0d-4eb3-8a63-0f10e5169756:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644280465
+            lastUsedId: 1
+          4fdd37f7-8821-44cf-805f-0c9db8c007ff:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1645386992
+            lastUsedId: 1
+          5b6b58b7-51d8-4662-abe5-ff7b3d47c415:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644278671
+            lastUsedId: 1
+          fa600060-1816-4487-bb20-6996daa28272:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644499077
+            lastUsedId: 1
+          e08b423b-cbcd-4d08-b13a-519e63ea150e:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644808175
+            lastUsedId: 1
+          96a34334-1cbb-474b-9019-8c9c0c360165:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1646474679
+            lastUsedId: 1
+          31d0f54f-06e6-432b-af13-7ebadc6aae01:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644316600
+            lastUsedId: 1
+          94872c58-db13-49b6-a7e3-52f0107c9752:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644537150
+            lastUsedId: 1
+          f653f2e3-2508-47ae-bacd-bcad2fc0379a:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644543032
+            lastUsedId: 1
+          d5c03b4b-af78-4b9d-bd9b-1df7c7f1cb9c:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1645582680
+            lastUsedId: 1
+          2eba14ff-e280-4ef8-91b6-8513a8b1d7d2:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1645662398
+            lastUsedId: 1
+          5032424a-a894-4849-bf02-c27b47b908db:
+            lastUsed:
+              YncgZmFzdHBsYXkgPHBsYXllcj4=: 1644968672
+            lastUsedId: 1
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+        lines:
+          '0': '&bClick to play!'
+          '1': '&a&lFast Play'
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      inventory: {}
+      equipment: {}
+      owner:
+        owner: EduardWayland
+        uuid: af68e0c3-9218-49b1-a487-153e25502056
+    traitnames: spawned,hologramtrait,scoreboardtrait,mounttrait,skintrait,commandtrait,type,location,lookclose,inventory,owner,equipment,sneak
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid-name: 9b0d4248-b96d-4a84-9feb-847087d16b1b
+      nameplate-visible: 'false'

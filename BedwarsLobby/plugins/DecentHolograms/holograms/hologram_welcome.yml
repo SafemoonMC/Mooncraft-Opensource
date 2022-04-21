@@ -1,0 +1,18 @@
+location: bedwars_lobby:61.500:96.000:-157.000
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&e&lWelcome to &b&lBedwars'
+    height: 0.5
+  - content: '&e&lPlay by clicking any of the &b&lNPCs!'
+    height: 0.3
+  - content: '&e&lNew? Use &b&l/help&e&l for Bed Wars basics.'
+    height: 0.5
+  actions: {}
+  always-face-player: true

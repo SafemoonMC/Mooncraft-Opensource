@@ -1,0 +1,1862 @@
+# DeluxeTags version: 1.8.1 Main Configuration
+# 
+# Create your tags using the following format:
+# 
+# deluxetags:
+#   VIP: 
+#     order: 1
+#     tag: '&7[&eVIP&7]'
+#     description: 'This tag is awarded by getting VIP'
+# 
+# Placeholders for your DeluxeChat formats config:
+# 
+# %deluxetags_identifier% - display the players active tag identifier
+# %deluxetags_tag% - display the players active tag
+# %deluxetags_description% - display the players active tag description
+# %deluxetags_amount% - display the amount of tags a player has access to
+# 
+# Placeholders for your essentials/chat handling formats config:
+# 
+# {deluxetags_identifier} - display the players active tag identifier
+# {deluxetags_tag} - display the players active tag
+# {deluxetags_description} - display the players active tag description
+# {deluxetags_amount} - display the amount of tags a player has access to
+load_tag_on_join: true
+force_tags: false
+check_updates: false
+deluxe_chat: false
+format_chat:
+  enabled: false
+  format: '{deluxetags_tag} <%1$s> %2$s'
+gui:
+  name: '&eAvailable tags: &f{deluxetags_amount}'
+  tag_select_item:
+    material: NAME_TAG
+    data: 0
+    displayname: '&r'
+    lore:
+    - '&b&m---&r&8&m[-&r  &8&m+--------------------------+&r  &8&m-]&b&m---'
+    - '&7◆ &eName: &7{deluxetags_identifier}'
+    - '&7◆ &ePreview: &r{deluxetags_tag}'
+    - '&7◆ &eDescription: &7{deluxetags_description}'
+    - '&r'
+    - '&aClick to use this tag.'
+    - '&b&m---&r&8&m[-&r  &8&m+--------------------------+&r  &8&m-]&b&m---'
+    - '&r'
+  divider_item:
+    material: STAINED_GLASS_PANE
+    data: 15
+    displayname: ''
+    lore: []
+  has_tag_item:
+    material: BOOK
+    data: 0
+    displayname: '&aCurrent tag: {deluxetags_tag}'
+    lore:
+    - '&r'
+    - '&cClick to remove your current tag.'
+  no_tag_item:
+    material: PAPER
+    data: 0
+    displayname: '&cYou don''t have a tag set!'
+    lore:
+    - '&7Click a tag above to select one!'
+  exit_item:
+    material: IRON_DOOR
+    data: 0
+    displayname: '&cClick to exit'
+    lore:
+    - '&7Exit the tags menu'
+deluxetags:
+  Miner:
+    order: 1
+    tag: '&8[&4&k;&cMiner&4&k;&8] '
+    description: Perfect tag for players who mine a lot.
+  Rich:
+    order: 2
+    tag: '&8[&2&k;&a&n$&2&k;&8] '
+    description: Wealthy? This is the tag for you!
+  PvPGod:
+    order: 3
+    tag: '&8[&3&k;&bPvP God&3&k;&8] '
+    description: Players who win almost every PvP match!
+  Raider:
+    order: 4
+    tag: '&8[&6&k;&eRaider&6&k;&8] '
+    description: Woah, splitting walls is amazing!
+  Salty:
+    order: 6
+    tag: '&8[&a&k;&bSalty&a&k;&8] '
+    description: Here comes the salt...
+  TooGood:
+    order: 7
+    tag: '&8[&b&k;&aToo Good&b&k;&8] '
+    description: Are you too good for the game?
+  Ez:
+    order: 8
+    tag: '&8[&c&k;&eEz&c&k;&8] '
+    description: Is everything 'ez' for you?
+  Naughty:
+    order: 9
+    tag: '&8[&3&k;;&eNaughty&3&k;;&8] '
+    description: It's not good to be naughty.
+  Heart:
+    order: 10
+    tag: '&8[&e&k;&c&l<3&e&k;&8] '
+    description: Players that love something too much use this.
+  Grinder:
+    order: 11
+    tag: '&8[&e&k;&aGrinder&e&k;&8] '
+    description: Do you love exp that much?
+  1v1:
+    order: 12
+    tag: '&8[&e&k;&b1&fv&b1&e&k;&8] '
+    description: Players who win 1v1s have this.
+  SFMMaster:
+    order: 13
+    tag: '&8[&a&k;&cSBS Master&a&k;&8] '
+    description: Master of the house..!
+  Toxic:
+    order: 14
+    tag: '&8[&b&k;&3Toxic&b&k;&8] '
+    description: Be nice for once...
+  Savage:
+    order: 15
+    tag: '&8[&5&k;&d&k;&e&nSavage&r&d&k;&5&k;&8] '
+    description: Wow, you're just a savage.
+  MoneyMaker:
+    order: 16
+    tag: '&8[&2&k;&a&k;&dMoney Maker&a&k;&2&k;&8] '
+    description: Love making money? Everyone does!
+  Abuser:
+    order: 17
+    tag: '&8[&d&k;&5Abuser&d&k;&8] '
+    description: Abuse!!!
+  QuickDrop:
+    order: 18
+    tag: '&8[&9&k;;&3Quick Drop&9&k;;&8] '
+    description: Like quick dropping players and gaining their items?
+  Stealth:
+    order: 19
+    tag: '&8[&e&k;&dStealth&e&k;&8] '
+    description: Time to play sneaky!
+  Bae:
+    order: 20
+    tag: '&8[&d&k;&cBae&d&k;&8] '
+    description: How cute. :)
+  Rekt:
+    order: 21
+    tag: '&8[&c&k;;&4Rekt&c&k;;&8] '
+    description: Woah, you 'rek' so many people.
+  L:
+    order: 22
+    tag: '&8[&b&k;&c&lL&b&k;&8] '
+    description: Take that L!
+  Killstreak:
+    order: 23
+    tag: '&8[&6&k;&eKillstreak&6&k;&8] '
+    description: Kill a lot of players in a row!
+  OG:
+    order: 24
+    tag: '&8[&f&k;;&e&lOG&f&k;;&8] '
+    description: Players who have been here since the start!
+  OP:
+    order: 25
+    tag: '&8[&e&k;;&b&nOP&e&k;;&8] '
+    description: Too overpowered!
+  Powerful:
+    order: 26
+    tag: '&8[&b&k;;&ePower&6ful&b&k;;&8] '
+    description: Oh my... you're too powerful.
+  Halloween:
+    order: 28
+    tag: '&8[&e&k;&f&k;&6&nHalloween&f&k;&e&k;&8] '
+    description: Halloween.
+  TrickOrTreat:
+    order: 29
+    tag: '&8[&e&k;&6Trick or Treat&e&k;&8] '
+    description: Halloween.
+  Spooky:
+    order: 30
+    tag: '&8[&6&k;&e&k;&fSp00ky&e&k;&6&k;&8] '
+    description: Halloween.
+  uMadBro:
+    order: 31
+    tag: '&8[&e&k;&duMadBro?&e&k;&8] '
+    description: Are you mad at me?
+  DeadMeme:
+    order: 32
+    tag: '&8[&c&k;&4Dead Meme&c&k;&8] '
+    description: Think of a better meme.
+  Awesome:
+    order: 34
+    tag: '&8[&c&k;&eAwesome&c&k;&8] '
+    description: Perfect for awesome people!
+  TNT:
+    order: 35
+    tag: '&8[&d&k;&c&lTNT&d&k;&8] '
+    description: Do you like playing with TNT?
+  RedstoneMaster:
+    order: 36
+    tag: '&8[&4&k;&cRedsone Master&4&k;&8] '
+    description: Master at making stuff with redstone.
+  Tank:
+    order: 37
+    tag: '&8[&4&k;&2Tank&4&k;&8] '
+    description: Never get killed? You must be a tank.
+  Camper:
+    order: 38
+    tag: '&8[&2&k;&aCamper&2&k;&8] '
+    description: Camping is fun, sometimes.
+  Explorer:
+    order: 39
+    tag: '&8[&5&k;&dExplorer&5&k;&8] '
+    description: Explore the world!
+  Combo:
+    order: 40
+    tag: '&8[&6&k;&eCombo&6&k;&8] '
+    description: Combo and you are dead.
+  Farmer:
+    order: 41
+    tag: '&8[&3&k;&eFarmer&3&k;&8] '
+    description: Grow wheat, carrots and more!
+  Witch:
+    order: 42
+    tag: '&8[&d&k;;&5Witch&d&k;;&8] '
+    description: Do you like being a Witch?
+  Banker:
+    order: 43
+    tag: '&8[&2&l$&aBanker&2&l$&8] '
+    description: Money! Money! Money!
+  Lord:
+    order: 44
+    tag: '&8[&c&k;&4Lord&c&k;&8] '
+    description: Are you a Lord?
+  Enchanter:
+    order: 45
+    tag: '&8[&3&k;;&bEnchanter&3&k;;&8] '
+    description: Enchanting items gives you an advantage.
+  Tinkerer:
+    order: 46
+    tag: '&8[&3&k;;&bTinkerer&3&k;;&8] '
+    description: Tinkerering items for other stuff?
+  Prisoner:
+    order: 47
+    tag: '&8[&2&k;;&aPrisoner&2&k;;&8] '
+    description: Welp, now you are a prisoner.
+  Gambler:
+    order: 48
+    tag: '&8[&4Gambler&8] '
+    description: Like wasting money?
+  2Cool4School:
+    order: 49
+    tag: '&8[&9&k;&b2Cool4School&9&k;&8] '
+    description: I don't think so.
+  2Cool4U:
+    order: 50
+    tag: '&8[&b&k;&32Cool4U&b&k;&8] '
+    description: That's more like it!
+  2Good4U:
+    order: 51
+    tag: '&8[&b&k;&62Good4U&b&k;&8] '
+    description: Probably are.
+  Planes:
+    order: 52
+    tag: '&8[&4&k;&cPlanes&4&k;&8] '
+    description: You better not be afraid of heights.
+  Boom:
+    order: 53
+    tag: '&8[&a&k;;&c&lBOOM&a&k;;&8] '
+    description: BOOM! Was that TNT?
+  Archer:
+    order: 54
+    tag: '&8[&c&k;&aArcher&c&k;&8] '
+    description: One shot, one head shot!
+  Builder:
+    order: 55
+    tag: '&8[&5&k;&dBuilder&5&k;&8] '
+    description: Build the greatest things in Minecraft!
+  PvPer:
+    order: 56
+    tag: '&8[&3PvPer&8] '
+    description: Do you like PvPing?
+  Axeman:
+    order: 57
+    tag: '&8[&6&k;&eAxeman&6&k;&8] '
+    description: Use your axe to kil your enemy!
+  Excavator:
+    order: 58
+    tag: '&8[&c&k;&eExcavator&c&k;&8] '
+    description: Mine, mine, mine!
+  GoodGame:
+    order: 59
+    tag: '&8[&4&k;&c&lGG&4&k;&8] '
+    description: That must have been a good game.
+  GoodFight:
+    order: 60
+    tag: '&8[&4&k;&d&lGF&4&k;&8] '
+    description: That was a good fight!
+  GoodLuck:
+    order: 61
+    tag: '&8[&4&k;&e&lGL&4&k;&8] '
+    description: I wish you luck!
+  HaveFun:
+    order: 62
+    tag: '&8[&4&k;&f&lHF&4&k;&8] '
+    description: Yea! Have fun.
+  Tough:
+    order: 63
+    tag: '&8[&4&k*&c&lTOUGH&4&k*&8] '
+    description: Everyone is harmless to you?
+  Zeus:
+    order: 65
+    tag: '&8[&3&k;;&b&lZEUS&3&k;;&8] '
+    description: Lighning!
+  Dolphin:
+    order: 66
+    tag: '&8[&b&nDolphin&8] '
+    description: Swim in the ocean!
+  Pow:
+    order: 67
+    tag: '&8[&6POW&8] '
+    description: POW!
+  Creative:
+    order: 68
+    tag: '&8[&e&k;&c/gmc&e&k;&8] '
+    description: Your a creative thinker!
+  Blaze420:
+    order: 70
+    tag: '&8[&6Blaze&8] '
+    description: Do you like blazin?
+  Zombie:
+    order: 71
+    tag: '&8[&2Zombie&8] '
+    description: Do you like zombies?
+  Skeleton:
+    order: 72
+    tag: '&8[&7Skeleton&8] '
+    description: Do you like skeletons?
+  Slime:
+    order: 73
+    tag: '&8[&aSlime&8] '
+    description: Do you like slime?
+  Spider:
+    order: 74
+    tag: '&8[&cSpider&8] '
+    description: Do you like spiders?
+  WoodCutter:
+    order: 75
+    tag: '&8[&dWood Cutter&8] '
+    description: Cut wood and make blocks!
+  Diamonds:
+    order: 76
+    tag: '&8[&bDiamonds&8] '
+    description: DIAMONDSSS!
+  Gold:
+    order: 77
+    tag: '&8[&6Gold&8] '
+    description: Gold is valuable.
+  Emeralds:
+    order: 78
+    tag: '&8[&aEmerlads&8] '
+    description: Emeralds are shiny and cool.
+  Iron:
+    order: 79
+    tag: '&8[&7Iron&8] '
+    description: Iron Man?
+  Coal:
+    order: 80
+    tag: '&8[&0Coal&8] '
+    description: Put it in a furnace or something.
+  DungeonExplorer:
+    order: 81
+    tag: '&8[&aDungeon Explorer&8] '
+    description: Woah! You're brave.
+  CaveExplorer:
+    order: 82
+    tag: '&8[&cCave Explorer&8] '
+    description: That must be spooky.
+  WarzoneExplorer:
+    order: 83
+    tag: '&8[&dWarzone Explorer&8] '
+    description: Don't die!
+  Spawners:
+    order: 84
+    tag: '&8[&e&k;;&6Spawners&e&k;;&8] '
+    description: King of spawners?
+  GimmeYourMoney:
+    order: 85
+    tag: '&8[&2&k*&aGimme Your Money&2&k*&8] '
+    description: How about no.
+  GimmeYourStuff:
+    order: 86
+    tag: '&8[&2&k*&bGimme Your Stuff&2&k*&8] '
+    description: Let me think... no.
+  CapeLover:
+    order: 87
+    tag: '&8[&cI Love Capes&8] '
+    description: Ok
+  KillingMachine:
+    order: 88
+    tag: '&8[&4&k;&5Killing Machine&4&k;&8] '
+    description: I Better run away if I see you.
+  GrindingMachine:
+    order: 89
+    tag: '&8[&4&k;&6Grinding Machine&4&k;&8] '
+    description: Kill mobs 24/7?
+  Brewer:
+    order: 90
+    tag: '&8[&d&k;;&5Brewer&d&k;;&8] '
+    description: Brewing powerful potions is cool.
+  Alchemist:
+    order: 91
+    tag: '&8[&d&k;;&5Alchemist&d&k;;&8] '
+    description: Are you a brewer>
+  PotPvP:
+    order: 92
+    tag: '&8[&cPotPvP&8] '
+    description: You must be skilled!
+  Gapple:
+    order: 93
+    tag: '&8[&eGapple&8] '
+    description: Eat those golden apples.
+  OneShot:
+    order: 94
+    tag: '&8[&e&k;;&4One&cShot&4One&cKill&e&k;;&8] '
+    description: Pretty cool.
+  Hype:
+    order: 96
+    tag: '&8[&b&k;&e&lHYPE&b&k;&8] '
+    description: HYPE HYPE HYPE!
+  Bedrock:
+    order: 97
+    tag: '&8[&6&k;&0Bedrock&6&k;&8] '
+    description: Good luck trying to get it.
+  MasterBuilder:
+    order: 98
+    tag: '&8[&dMaster Builder&8] '
+    description: Do you like building?
+  AFK:
+    order: 99
+    tag: '&8[&4&k;&c&lAFK&4&k;&8] '
+    description: Away From Keyboard.
+  Cool:
+    order: 100
+    tag: '&8[&5&k;&dC00L&5&k;&8] '
+    description: I know right.
+  Sky:
+    order: 101
+    tag: '&8[&3&k;&9Sky&3&k;&8] '
+    description: The sky is blue, like this tag.
+  Nether:
+    order: 102
+    tag: '&8[&6&k;&4Nether&6&k;&8] '
+    description: Hot and dangerous.
+  End:
+    order: 103
+    tag: '&8[&6&k;&dEnd&6&k;&8] '
+    description: Is it the end?
+  Chicken:
+    order: 104
+    tag: '&8[&e&k;&6Chicken&e&k;&8] '
+    description: Run!
+  Gamer:
+    order: 105
+    tag: '&8[&dGamer&8] '
+    description: Do you like playing games?
+  Summer:
+    order: 106
+    tag: '&8[&6&k;;&c&lSummer&6&k;;&8] '
+    description: Summer is here!
+  Brutal:
+    order: 107
+    tag: '&8[&6&k;;&d&lBrutal&6&k;;&8] '
+    description: You must be brutal.
+  Gank:
+    order: 108
+    tag: '&8[&e&k;;&c&lGANK&e&k;;&8] '
+    description: 10v1 kids?
+  Fearless:
+    order: 109
+    tag: '&8[&e&k;;&d&lFearless&e&k;;&8] '
+    description: Fearless like me!
+  Dangerous:
+    order: 110
+    tag: '&8[&e&k;;&4Dangerous&e&k;;&8] '
+    description: You are pretty dangerous.
+  Revenge:
+    order: 111
+    tag: '&8[&e&k;;&2Revenge&e&k;;&8] '
+    description: Time to get revenge.
+  Karma:
+    order: 112
+    tag: '&8[&e&k;;&dKarma&e&k;;&8] '
+    description: Karma!
+  Mythical:
+    order: 113
+    tag: '&8[&6&k;&cMythical&6&k;&8] '
+    description: Old and wise?
+  Autumn:
+    order: 114
+    tag: '&8[&d&k;&cAutumn&d&k;&8] '
+    description: Yay! Autumn is here.
+  Yolo:
+    order: 115
+    tag: '&8[&5&k;&d&lYOLO&5&k;&8] '
+    description: YOLO it!
+  Troll:
+    order: 116
+    tag: '&8[&4Troll&8] '
+    description: Get trolled.
+  Perfect:
+    order: 117
+    tag: '&8[&a&k;&2&k;&bPerfect&2&k;&a&k;&8] '
+    description: Perfect, you are perfect.
+  Nuke:
+    order: 118
+    tag: '&8[&c&kg&4&lNUKE&c&kg&8] '
+    description: Nuke their base!
+  Wow:
+    order: 119
+    tag: '&8[&a&k;&2&k;&cWOW&2&k;&a&k;&8] '
+    description: Wow!
+  Lol:
+    order: 120
+    tag: '&8[&eLOL&8] '
+    description: Funny!
+  Conqueror:
+    order: 121
+    tag: '&8[&e&k;;&4Conqueror&e&k;;&8] '
+    description: Don't invade me!
+  '420':
+    order: 122
+    tag: '&8[&6&k;&b&l420&6&k;&8] '
+    description: 420!
+  420BlazeIt:
+    order: 123
+    tag: '&8[&e420BlazeIt&8] '
+    description: Blaze it on 420?
+  ParkourPro:
+    order: 124
+    tag: '&8[&bParkour&3Pro&8] '
+    description: You must be good at parkour!
+  Rose:
+    order: 125
+    tag: '&8[&cRose&8] '
+    description: Roses are red...
+  Daisy:
+    order: 126
+    tag: '&8[&fDaisy&8] '
+    description: Make a daisy chain!
+  Dandelion:
+    order: 127
+    tag: '&8[&eDandelion&8] '
+    description: Dandelions are yellow.
+  Tulip:
+    order: 128
+    tag: '&8[&bTulip&8] '
+    description: Tulips are nice.
+  Allium:
+    order: 129
+    tag: '&8[&dAllium&8] '
+    description: Another flower.
+  Lilac:
+    order: 130
+    tag: '&8[&dLilac&8] '
+    description: Another flower.
+  Sunflower:
+    order: 131
+    tag: '&8[&6Sunflower&8] '
+    description: And another flower.
+  P2W:
+    order: 132
+    tag: '&8[&b&k;&3&lP2W&b&k;&8] '
+    description: Pay to win the game.
+  Thug:
+    order: 133
+    tag: '&8[&b&k;&c&lThug&b&k;&8] '
+    description: Chav.
+  Legend:
+    order: 134
+    tag: '&8[&6Legend&8] '
+    description: You are a legend!
+  Undead:
+    order: 135
+    tag: '&8[&c&k;&4Undead&c&k;&8] '
+    description: Undead, like a zombie?
+  Divine:
+    order: 136
+    tag: '&8[&b&k;&3Divine&b&k;&8] '
+    description: Powerful? But even more.
+  Warrior:
+    order: 137
+    tag: '&8[&2&k;&cWarrior&2&k;&8] '
+    description: Battle other warriors.
+  Undefeated:
+    order: 138
+    tag: '&8[&4&k;&eUndefeated&4&k;&8] '
+    description: Too good.
+  Adorable:
+    order: 139
+    tag: '&8[&cAdorable&8] '
+    description: Cute!
+  Peasant:
+    order: 140
+    tag: '&8[&5&k;&ePeasant&5&k;&8] '
+    description: Um... Ok?
+  Poor:
+    order: 141
+    tag: '&8[&7Poor&8] '
+    description: Your balance killed itself.
+  Grumpy:
+    order: 142
+    tag: '&8[&4Grumpy&8] '
+    description: wahh wahh wah.
+  Happy:
+    order: 143
+    tag: '&8[&eHappy&8] '
+    description: Happy because of you.
+  Sad:
+    order: 144
+    tag: '&8[&cSad&8] '
+    description: Sad you got raided?
+  Pleased:
+    order: 145
+    tag: '&8[&dPleased&8] '
+    description: Found something good?
+  Angry:
+    order: 146
+    tag: '&8[&6Angry&8] '
+    description: Angry you died?
+  Good:
+    order: 147
+    tag: '&8[&aGood&8] '
+    description: Good.
+  Mermaid:
+    order: 148
+    tag: '&8[&bMermaid&8] '
+    description: Swim in the sea.
+  Squid:
+    order: 149
+    tag: '&8[&3Squid&8] '
+    description: Swin in the ocean.
+  Pig:
+    order: 150
+    tag: '&8[&cPig&8] '
+    description: Oink.
+  Spartan:
+    order: 151
+    tag: '&8[&2Spartan&8] '
+    description: Better than a warrior, or the same?
+  Assassin:
+    order: 152
+    tag: '&8[&3Assassin&8] '
+    description: Kill your enemies from the shadows.
+  Creeper:
+    order: 153
+    tag: '&8[&aCreeper&8] '
+    description: '...Boom'
+  Tamer:
+    order: 154
+    tag: '&8[&3Tamer&8] '
+    description: Get the beast to fight with you.
+  Rider:
+    order: 155
+    tag: '&8[&cRider&8] '
+    description: Ride that horse.
+  Lumberjack:
+    order: 156
+    tag: '&8[&bLumberjack&8] '
+    description: Chop them trees down.
+  Forest:
+    order: 157
+    tag: '&8[&aForest&8] '
+    description: The forest biome.
+  Plains:
+    order: 158
+    tag: '&8[&aPlains&8] '
+    description: The plains biome.
+  Jungle:
+    order: 159
+    tag: '&8[&2Jungle&8] '
+    description: The jungle biome.
+  Donator:
+    order: 160
+    tag: '&8[&2&k;&aDonator&2&k;&8] '
+    description: Donate the most to the server.
+  Supporter:
+    order: 161
+    tag: '&8[&2&k;&aSupporter&2&k;&8] '
+    description: Support the server.
+  SideKick:
+    order: 162
+    tag: '&8[&2&k;&3Side Kick&2&k;&8] '
+    description: Your turn to fight.
+  Backup:
+    order: 163
+    tag: '&8[&2&k;&4Backup&2&k;&8] '
+    description: Better protect your mate.
+  PlanB:
+    order: 164
+    tag: '&8[&2&k;&5Plan B&2&k;&8] '
+    description: Plan A failed... time for Plan B.
+  PlanC:
+    order: 165
+    tag: '&8[&2&k;&6Plan C&2&k;&8] '
+    description: Plan C!
+  Derp:
+    order: 166
+    tag: '&8[&4&k;&eDerp&4&k;&8 ] '
+    description: Derpy?
+  Trapper:
+    order: 167
+    tag: '&8[&4&k;&eTrapper&4&k;&8] '
+    description: Do you like trapping people?
+  Trap:
+    order: 168
+    tag: '&8[&4&k;&eTrap!&4&k;&8] '
+    description: Is that a trap?!
+  Skilled:
+    order: 169
+    tag: '&8[&6&k;&eSkilled&6&k;&8] '
+    description: You are too skilled.
+  Master:
+    order: 170
+    tag: '&8[&6&k;&9Master&6&k;&8] '
+    description: Minecraft Master.
+  Engineer:
+    order: 171
+    tag: '&8[&6&k;&dEngineer&6&k;&8] '
+    description: Invent the best things.
+  Pilot:
+    order: 172
+    tag: '&8[&6&k;&fPilot&6&k;&8] '
+    description: Fly the planes.
+  Mechanic:
+    order: 173
+    tag: '&8[&6&k;&2Mechanic&6&k;&8] '
+    description: Repair everything.
+  Special:
+    order: 174
+    tag: '&8[&6&k;&3Special&6&k;&8] '
+    description: You are special!
+  Pet:
+    order: 175
+    tag: '&8[&d&k;&2Pet&d&k;&8] '
+    description: Pet.
+  Submarine:
+    order: 176
+    tag: '&8[&d&k;&9Submarine&d&k;&8] '
+    description: Dive underwater and explore.
+  Boat:
+    order: 177
+    tag: '&8[&d&k;&3Boat&d&k;&8] '
+    description: Sail the seas!
+  Ship:
+    order: 178
+    tag: '&8[&d&k;&eShip&d&k;&8] '
+    description: Sail the seas on the ship!
+  Plane:
+    order: 179
+    tag: '&8[&d&k;&4Plane&d&k;&8] '
+    description: Fly it!
+  King:
+    order: 180
+    tag: '&8[&e&k;&dKing&e&k;&8] '
+    description: King of the country.
+  Queen:
+    order: 181
+    tag: '&8[&e&k;&dQueen&e&k;&8] '
+    description: Queen of the country.
+  Prince:
+    order: 182
+    tag: '&8[&e&k;&5Prince&e&k;&8] '
+    description: Son of the King/Queen.
+  Princess:
+    order: 183
+    tag: '&8[&e&k;&5Princess&e&k;&8] '
+    description: Daughter of the King/Queen.
+  Guard:
+    order: 184
+    tag: '&8[&e&k;&2Guard&e&k;&8] '
+    description: Protect them!
+  Royal:
+    order: 186
+    tag: '&8[&e&k;&4Royal&e&k;&8] '
+    description: Like the royal family.
+  Chief:
+    order: 187
+    tag: '&8[&e&k;&cChief&e&k;&8] '
+    description: Chief commander of the clan.
+  Chef:
+    order: 188
+    tag: '&8[&e&k;&dChef&e&k;&8] '
+    description: Cook the best food.
+  Protector:
+    order: 189
+    tag: '&8[&e&k;&aProtector&e&k;&8] '
+    description: Protect them like a guard.
+  Knight:
+    order: 190
+    tag: '&8[&e&k;&bKnight&e&k;&8] '
+    description: Kill your enemies.
+  Angelic:
+    order: 191
+    tag: '&8[&e&k;&bAngelic&e&k;&8] '
+    description: Look at that angel.
+  Fighter:
+    order: 192
+    tag: '&8[&e&k;&3Fighter&e&k;&8] '
+    description: Do you like fighting people?
+  Katniss:
+    order: 194
+    tag: '&8[&e&k;&bKatniss&e&k;&8] '
+    description: Wow!
+  BangBang:
+    order: 195
+    tag: '&8[&b&k;&cBang! Bang!&b&k;&8] '
+    description: Bang, bang, bang, bang.
+  Robber:
+    order: 196
+    tag: '&8[&b&k;&eRobber&b&k;&8] '
+    description: Do you like stealing?
+  Worker:
+    order: 197
+    tag: '&8[&b&k;&3Worker&b&k;&8] '
+    description: Working for something is good.
+  KK:
+    order: 198
+    tag: '&8[&b&k;&5KK&b&k;&8] '
+    description: Ok.
+  WomboCombo:
+    order: 199
+    tag: '&8[&c&k;&eWombo Combo&c&k;&8] '
+    description: Get that combo.
+  Bloody:
+    order: 200
+    tag: '&8[&c&k;&4Bloody&c&k;&8] '
+    description: That is bloody.
+  January:
+    order: 201
+    tag: '&8[&6January&8] '
+    description: Month.
+  February:
+    order: 202
+    tag: '&8[&3February&8] '
+    description: Month.
+  March:
+    order: 203
+    tag: '&8[&2March&8] '
+    description: Month.
+  April:
+    order: 204
+    tag: '&8[&aApril&8] '
+    description: Month.
+  May:
+    order: 205
+    tag: '&8[&bMay&8] '
+    description: Month.
+  June:
+    order: 206
+    tag: '&8[&cJune&8] '
+    description: Month.
+  July:
+    order: 207
+    tag: '&8[&dJuly&8] '
+    description: Month.
+  August:
+    order: 208
+    tag: '&8[&eAugust&8] '
+    description: Month.
+  September:
+    order: 209
+    tag: '&8[&2September&8] '
+    description: Month.
+  October:
+    order: 210
+    tag: '&8[&4October&8] '
+    description: Month.
+  November:
+    order: 211
+    tag: '&8[&9November&8] '
+    description: Month.
+  December:
+    order: 212
+    tag: '&8[&bDecember&8] '
+    description: Month.
+  Bully:
+    order: 213
+    tag: '&8[&c&k;&4Bully&c&k;&8] '
+    description: Bullying is not nice.
+  Victim:
+    order: 214
+    tag: '&8[&4&k;&3Victim&4&k;&8] '
+    description: Victim of something bad?
+  Horror:
+    order: 215
+    tag: '&8[&4&k;&bHorror&4&k;&8] '
+    description: Is this a dream or reality?
+  Smurf:
+    order: 216
+    tag: '&8[&4&k;&bSmurf&4&k;&8] '
+    description: Blue like a smurf.
+  Short:
+    order: 217
+    tag: '&8[&4&k;&aShort&4&k;&8] '
+    description: Midget.
+  Tall:
+    order: 218
+    tag: '&8[&4&k;&bTall&4&k;&8] '
+    description: Giant.
+  Skinny:
+    order: 219
+    tag: '&8[&4&k;&cSkinny&4&k;&8] '
+    description: Twig.
+  Fat:
+    order: 220
+    tag: '&8[&4&k;&dFat&4&k;&8] '
+    description: Football.
+  Burger:
+    order: 221
+    tag: '&8[&6Burger&8] '
+    description: They're nice!
+  Chips:
+    order: 222
+    tag: '&8[&eChips&8] '
+    description: Good with fish.
+  Fanta:
+    order: 223
+    tag: '&8[&dFanta&8] '
+    description: Nice drink.
+  Pepsi:
+    order: 224
+    tag: '&8[&6Pepsi&8] '
+    description: Also a nice drink.
+  7UP:
+    order: 225
+    tag: '&8[&c7UP&8] '
+    description: Also a nice drink!
+  iPhone:
+    order: 226
+    tag: '&8[&c&k;&4iPhone&c&k;&8] '
+    description: Gang gang.
+  Apple:
+    order: 227
+    tag: '&8[&c&k;&aApple&c&k;&8] '
+    description: Elite products.
+  iPad:
+    order: 228
+    tag: '&8[&c&k;&ciPad&c&k;&8] '
+    description: Better than an iPhone.
+  iPod:
+    order: 229
+    tag: '&8[&c&k;&diPod&c&k;&8] '
+    description: Who even uses this?
+  Nonstop:
+    order: 231
+    tag: '&8[&c&k;&624/7&c&k;&8] '
+    description: Do you spend 24/7 on the server?
+  Nonstop2:
+    order: 232
+    tag: '&8[&c&k;&6Nonstop&c&k;&8] '
+    description: Nonstop on the server.
+  Windows:
+    order: 233
+    tag: '&8[&c&k;&5Windows&c&k;&8] '
+    description: Umm? Ok.
+  iMac:
+    order: 234
+    tag: '&8[&c&k;&biMac&c&k;&8 '
+    description: Windows is better.
+  Bus:
+    order: 235
+    tag: '&8[&c&k;&3Bus&c&k;&8] '
+    description: Public transport.
+  Taxi:
+    order: 236
+    tag: '&8[&c&k;&4Taxi&c&k;&8] '
+    description: Get from A to B.
+  BMX:
+    order: 239
+    tag: '&8[&c&k;&a&lBMX&c&k;&8] '
+    description: A bike?
+  Scammer:
+    order: 243
+    tag: '&8[&e&k;&a&lScammer&e&k;&8] '
+    description: Stop scamming people.
+  bandit:
+    order: 244
+    tag: '&8[&e&k;&bBandit&e&k;&8] '
+    description: Stop taking stuff that is not yours.
+  Criminal:
+    order: 245
+    tag: '&8[&e&k;&cCriminal&e&k;&8] '
+    description: You did the crime, you pay the time.
+  Tryhard:
+    order: 246
+    tag: '&8[&e&k;&dTryhard&e&k;&8] '
+    description: You try too hard.
+  DoubleKill:
+    order: 247
+    tag: '&8[&e&k;&3Double Kill&e&k;&8] '
+    description: Nice!
+  Hacker:
+    order: 248
+    tag: '&8[&e&k;&4Hacker&e&k;&8] '
+    description: S a d d o
+  AutoClicker:
+    order: 249
+    tag: '&8[&e&k;&4Auto Clicker&e&k;&8] '
+    description: Too lazy to click?
+  Boeing:
+    order: 251
+    tag: '&8[&e&k;&3Boeing&e&k;&8] '
+    description: Some plane maker.
+  Sunny:
+    order: 252
+    tag: '&8[&6Sunny&8] '
+    description: Good weather.
+  Rainy:
+    order: 253
+    tag: '&8[&7Rainy&8] '
+    description: Bad weather.
+  Stormy:
+    order: 254
+    tag: '&8[&eStormy&8] '
+    description: Also bad weather.
+  Snowy:
+    order: 255
+    tag: '&8[&fSnowy&8] '
+    description: LET IT SNOW!
+  Hacker2:
+    order: 256
+    tag: '&8[&4&k;&cHacker&4&k;&8] '
+    description: Do not hack.
+  Scary:
+    order: 257
+    tag: '&8[&4&k;&cScary&4&k;&8 ] '
+    description: Scary... run!
+  Haunted:
+    order: 258
+    tag: '&8[&4&k;&6Haunted&4&k;&8] '
+    description: Are ghosts here?
+  Police:
+    order: 259
+    tag: '&8[&4&k;&dPolice&4&k;&8] '
+    description: They help you?
+  Audi:
+    order: 260
+    tag: '&8[&4&k;&bAudi&4&k;&8] '
+    description: A great car manufacturer.
+  BMW:
+    order: 261
+    tag: '&8[&4&k;&bBMW&4&k;&8] '
+    description: Another good car manufacturer.
+  Toyota:
+    order: 262
+    tag: '&8[&4&k;&bToyota&4&k;&8] '
+    description: Toyota Hybrids are good for the environment.
+  Mini:
+    order: 263
+    tag: '&8[&4&k;&bMini&4&k;&8] '
+    description: It is such a small car.
+  Java:
+    order: 264
+    tag: '&8[&a&k;&cJava&a&k;&8] '
+    description: Programing language.
+  Python:
+    order: 265
+    tag: '&8[&a&k;&cPython&a&k;&8] '
+    description: Programing language.
+  HTML:
+    order: 266
+    tag: '&8[&a&k;&cHTML&a&k;&8] '
+    description: Programing language.
+  BurgerKing:
+    order: 267
+    tag: '&8[&d&k;&cBurger King&d&k;&8] '
+    description: They make good food.
+  MacDonalds:
+    order: 268
+    tag: '&8[&d&k;&6Mac&eDonalds&d&k;&8] '
+    description: Best of all.
+  KFC:
+    order: 269
+    tag: '&8[&d&k;&dKFC&d&k;&8] '
+    description: Good chicken.
+  IceSkater:
+    order: 270
+    tag: '&8[&d&k;&bIce Skater&d&k;&8] '
+    description: Be careful you do not slip.
+  Swimmer:
+    order: 271
+    tag: '&8[&e&k;&bSwimmer&e&k;&8] '
+    description: Swim fast.
+  Runner:
+    order: 272
+    tag: '&8[&e&k;&cRunner&e&k;&8] '
+    description: Run!
+  Champion:
+    order: 273
+    tag: '&8[&e&k;&dChampion&e&k;&8] '
+    description: Champion of all.
+  Hero:
+    order: 274
+    tag: '&8[&e&k;&eHero&e&k;&8] '
+    description: You are my hero.
+  WWI:
+    order: 275
+    tag: '&8[&e&k;&6WWI&e&k;&8] '
+    description: World War I
+  WWII:
+    order: 276
+    tag: '&8[&e&k;&6WWII&e&k;&8] '
+    description: World War II
+  Trump:
+    order: 277
+    tag: '&8[&e&k;&4Trump&e&k;&8] '
+    description: So many haters.
+  UK:
+    order: 278
+    tag: '&8[&c&k;&4UK&c&k;&8] '
+    description: Brits everywhere.
+  US:
+    order: 279
+    tag: '&8[&c&k;&5US&c&k;&8] '
+    description: Country!
+  Virus:
+    order: 280
+    tag: '&8[&4Virus&8] '
+    description: Who falls for this stuff nowadays.
+  Malware:
+    order: 281
+    tag: '&8[&bMalware&8] '
+    description: Uncommon nowadays.
+  Ransomware:
+    order: 282
+    tag: '&8[&cRansomware&8] '
+    description: Pain in the arse to get rid off.
+  Trojan:
+    order: 283
+    tag: '&8[&dTrojan&8] '
+    description: A bit uncommon nowadays.
+  Thanksgiving:
+    order: 284
+    tag: '&8[&e&k;&6Thanksgiving&e&k;&8] '
+    description: Food time.
+  Turkey:
+    order: 285
+    tag: '&8[&e&k;&cTurkey&e&k;&8] '
+    description: Taste nice but it is a bit dry.
+  Netflix:
+    order: 286
+    tag: '&8[&c&k;&4Netflix&c&k;&8] '
+    description: Good place to find movies.
+  NetflixAndChill:
+    order: 287
+    tag: '&8[&c&k;&4Netflix and Chill&c&k;8] '
+    description: '....'
+  Jolly:
+    order: 288
+    tag: '&8[&b&k;&3Jolly&b&k;&8] '
+    description: Have a jolly time!
+  Pleb:
+    order: 289
+    tag: '&8[&a&k;&2Pleb&a&k;&8] '
+    description: Plebster.
+  XD:
+    order: 290
+    tag: '&8[&a&k;&c&lXD&a&k;&8] '
+    description: xdddddde
+  UPS:
+    order: 291
+    tag: '&8[&6UPS&8] '
+    description: They deliver your stuff.
+  Amazon:
+    order: 292
+    tag: '&8[&eAmazon&8] '
+    description: Better than Ebay.
+  Ebay:
+    order: 293
+    tag: '&8[&aEbay&8] '
+    description: sell sell sell.
+  Ugly:
+    order: 294
+    tag: '&8[&5Ugly&8] '
+    description: Ugly and owning it.
+  EggHead:
+    order: 295
+    tag: '&8[&eEggHead&8] '
+    description: '....'
+  Paid:
+    order: 296
+    tag: '&8[&aPaid&8] '
+    description: P2W? or nah...
+  Refund:
+    order: 297
+    tag: '&8[&3Refund&8] '
+    description: Gimme my money back.
+  JustNoHacks:
+    order: 298
+    tag: '&8[&4Just&cNo&4Hacks&8] '
+    description: He is cool.
+  HackedClient:
+    order: 299
+    tag: '&8[&6&k;&4Hacked&cClient&6&k;&8] '
+    description: Is the game too hard for ya?
+  AutoClicker2:
+    order: 300
+    tag: '&8[&6&k;&5Auto&dClicker&6&k;&8] '
+    description: Too lazy to click?
+  '1':
+    order: 301
+    tag: '&8[&e#1&8] '
+    description: Number 1.
+  '2':
+    order: 302
+    tag: '&8[&b#2&8] '
+    description: Number 2.
+  '3':
+    order: 303
+    tag: '&8[&c#3&8] '
+    description: Number 3.
+  '4':
+    order: 304
+    tag: '&8[&d#4&8] '
+    description: Number 4.
+  '5':
+    order: 305
+    tag: '&8[&9#5&8] '
+    description: Number 5.
+  Bed:
+    order: 306
+    tag: '&8[&cBed&8] '
+    description: Time to sleep?
+  Clock:
+    order: 307
+    tag: '&8[&eClock&8] '
+    description: Tick tock.
+  TV:
+    order: 308
+    tag: '&8[&6TV&8] '
+    description: They are good.
+  Sunset:
+    order: 309
+    tag: '&8[&6Sunset&8] '
+    description: Time for night time.
+  Sunrise:
+    order: 310
+    tag: '&8[&eSunrise&8] '
+    description: Time for day time.
+  BossSlayer:
+    order: 311
+    tag: '&8[&e&k;&cBoss Slayer&e&k;&8] '
+    description: Do you like the bosses?
+  BossHunter:
+    order: 312
+    tag: '&8[&e&k;&cBoss Hunter&e&k;&8] '
+    description: Do you like the bosses?
+  BossFighter:
+    order: 313
+    tag: '&8[&e&k;&cBoss Fighter&e&k;&8] '
+    description: Do you like the bosses?
+  BossCamper:
+    order: 314
+    tag: '&8[&e&k;&cBoss Camper&e&k;&8] '
+    description: Do you like the bosses?
+  Killstreak2:
+    order: 315
+    tag: '&8[&e&k;&6Killstreak&e&k;&8] '
+    description: Woah!
+  Executor:
+    order: 316
+    tag: '&8[&e&k;&aExecutor&e&k;&8] '
+    description: Scary stuff.
+  Crusher:
+    order: 317
+    tag: '&8[&e&k;&dCrusher&e&k;&8] '
+    description: Crush them to death.
+  PlayerKiller:
+    order: 318
+    tag: '&8[&c&k;&ePlayer Killer&c&k;&8] '
+    description: You must like killing other players.
+  PlayerHunter:
+    order: 319
+    tag: '&8[&c&k;&ePlayer Hunter&c&k;&8] '
+    description: You must like killing other players.
+  PlayerCamper:
+    order: 320
+    tag: '&8[&c&k;&ePlayer Camper&c&k;&8] '
+    description: You must like killing other players.
+  KillerExpert:
+    order: 321
+    tag: '&8[&c&k;&6Killing Expert&c&k;&8] '
+    description: You must like killing other players.
+  KillingChampion:
+    order: 322
+    tag: '&8[&c&k;&6Killing Champion&c&k;&8] '
+    description: You must like killing other players.
+  Bloodthirsty:
+    order: 323
+    tag: '&8[&c&k;&4Bloodthirsty&c&k;&8] '
+    description: Thristy for blood?
+  BloodHungry:
+    order: 324
+    tag: '&8[&c&k;&4Blood Hungry&c&k;&8] '
+    description: Hungry for blood?
+  BloodEater:
+    order: 325
+    tag: '&8[&c&k;&4Blood Eater&c&k;&8] '
+    description: Want to eat blood?
+  MerryChristmas:
+    order: 326
+    tag: '&8[&f&k;&4&lMerry Christmas&f&k;&8] '
+    description: Christmas
+  XMAS:
+    order: 327
+    tag: '&8[&f&k;&c&lXMAS&f&k;&8] '
+    description: Christmas
+  HappyChristmas:
+    order: 328
+    tag: '&8[&c&k;&e&lHappy Christmas&c&k;&8] '
+    description: Christmas
+  Santa:
+    order: 329
+    tag: '&8[&c&lS&f&lA&c&lN&f&lT&c&lA&8] '
+    description: Christmas
+  LetItSnow:
+    order: 331
+    tag: '&8[&f&k;&b&lLET&f&lIT&b&lSNOW&f&k;&8] '
+    description: Christmas
+  LetItSnow2:
+    order: 332
+    tag: '&8[&f&k;&b&l&nLET&f&l&nIT&b&l&nSNOW&f&k;&8] '
+    description: Christmas
+  HappyNewYear:
+    order: 333
+    tag: '&8[&e&k;&6Happy New Year&e&k;&8] '
+    description: Are we there yet??
+  Snitch:
+    order: 335
+    tag: '&8[&e&k;&dSnitch&e&k;&8] '
+    description: It is not good being a snitch.
+  Chad:
+    order: 336
+    tag: '&8[&e&k;&6&nChad&r&e&k;&8] '
+    description: Sorry my bad, I chad
+  Refugee:
+    order: 337
+    tag: '&8[&c&k;&e&nRefugee&r&c&k;&8] '
+    description: Come on, help this guy out.
+  DramaAlert:
+    order: 339
+    tag: '&8[&c&k;&4&nDrama Alert&r&c&k;&8] '
+    description: LETS GET RIGHT INTO THE NEWS!
+  Meme:
+    order: 342
+    tag: '&8[&6&k;&e&nMeme&r&6&k;&8] '
+    description: Funny for a while...
+  Voyager:
+    order: 343
+    tag: '&8[&7&k;&c&nVoyager&r&7&k;&8] '
+    description: Fancy an adventure?
+  Deadly:
+    order: 344
+    tag: '&8[&7&k;&4&nDeadly&r&7&k;&8] '
+    description: Do you kill a lot?
+  Viper:
+    order: 345
+    tag: '&8[&2&k;&a&nViper&r&2&k;&8] '
+    description: A very scary snake.
+  StPatricksDay:
+    order: 346
+    tag: '&8[&a&k;&2&nSt Patrick''s Day&r&a&k;&8] '
+    description: It is a special day! :)
+  AntiCheat:
+    order: 347
+    tag: '&8[&aAnti-Cheat&8] '
+    description: Got it to stop the cheaters!
+  Legit:
+    order: 350
+    tag: '&8[&eLegit&8] '
+    description: Legit and not hacking.
+  ImNotAHacker:
+    order: 351
+    tag: '&8[&6I''m not a hacker&8] '
+    description: Often not hacking.
+  Skills:
+    order: 352
+    tag: '&8[&5&k;&dSkills&5&k;&8] '
+    description: Very skilled at the game.
+  Jitter:
+    order: 353
+    tag: '&8[&2Jitter&8] '
+    description: Click very fast!
+  c3po:
+    order: 354
+    tag: '&8[&6&k;&ec3po&6&k;&8] '
+    description: Wooo! Anikins Best work!
+  r2d2:
+    order: 355
+    tag: '&8[&6&k;&c15CPS&6&k;&8] '
+    description: beep boop!
+  GhostClient:
+    order: 356
+    tag: '&8[&6&k;&fGhost Client&6&k;&8] '
+    description: Sneaky!
+  Scared:
+    order: 359
+    tag: '&8[&bScared&8] '
+    description: Scared?
+  CombatLogger:
+    order: 360
+    tag: '&8[&3Combat&bLogger&8] '
+    description: Wow, that is pretty sad.
+  LogOut:
+    order: 361
+    tag: '&8[&dLog&5Out&8] '
+    description: true
+  Not4Me:
+    order: 362
+    tag: '&8[&eNot&6For&eMe&8 ] '
+    description: I know, now go.
+  GoAway:
+    order: 363
+    tag: '&8[&dGo Away&8] '
+    description: I agree.
+  Good4U:
+    order: 364
+    tag: '&8[&aG&b4&cU&8] '
+    description: Good for you!
+  Good4U2:
+    order: 365
+    tag: '&8[&aGood&b4&cYou&8] '
+    description: That is good for you.
+  Cheater:
+    order: 366
+    tag: '&8[&cCheater&8] '
+    description: Stop cheating!
+  Banned:
+    order: 367
+    tag: '&8[&4BANNED&8] '
+    description: Get banned!
+  iRun:
+    order: 368
+    tag: '&8[&diRun&8] '
+    description: Runnnnn awayyyy!!
+  Irrelevent:
+    order: 370
+    tag: '&8[&2Irrelevent&8] '
+    description: Yes so go away!
+  JakePaul:
+    order: 371
+    tag: '&8[&4Jake&cPaul&8] '
+    description: Do not even start...
+  LoganPaul:
+    order: 372
+    tag: '&8[&4Logan&cPaul&8] '
+    description: Do not even start...
+  JakePaulers:
+    order: 373
+    tag: '&8[&4Jake&cPaulers&8] '
+    description: Do not even start...
+  LoGang:
+    order: 374
+    tag: '&8[&4Lo&cGang&8] '
+    description: Do not even start...
+  OvernightChallenge:
+    order: 380
+    tag: '&8[&9OVERNIGHT CHALLENGE&8] '
+    description: '...with charges.'
+  24HourChallenge:
+    order: 381
+    tag: '&8[&924HR CHALLENGE&8] '
+    description: '...with charges.'
+  3AMChallenge:
+    order: 382
+    tag: '&8[&93AM CHALLENGE&8] '
+    description: '...with charges.'
+  Prison:
+    order: 385
+    tag: '&8(&5&k;&aPrison&5&k;&8) '
+    description: Escape the prison.
+  OPPrison:
+    order: 386
+    tag: '&8(&5&k;&bOP Prison&5&k;&8) '
+    description: Escape the prison.
+  Skyblock:
+    order: 387
+    tag: '&8(&5&k;&cSkyblock&5&k;&8) '
+    description: On an island?
+  Creative3:
+    order: 388
+    tag: '&8(&5&k;&9Creative&5&k;&8) '
+    description: with World Edit?
+  DeadMemer:
+    order: 389
+    tag: '&8[&4&k;&c&k;&eDead Memer&c&k;&4&k;&8] '
+    description: Not funny.
+  DeadMemes:
+    order: 390
+    tag: '&8[&4&k;&c&k;&6Dead Memes&c&k;&4&k;&8] '
+    description: Not funny at all.
+  Easter2018:
+    order: 391
+    tag: '&8[&6&k;&eEaster&6&k;&8] '
+    description: It is Easter!
+  EasterHunt:
+    order: 392
+    tag: '&8[&e&k;&6Easter Hunt&e&k;&8] '
+    description: How many eggs did you find?
+  Spring:
+    order: 393
+    tag: '&8[&2&k;&aSpring&2&k;&8] '
+    description: The winter is over and here comes the spring.
+  Ddos:
+    order: 394
+    tag: '&8[&2&k;&bDDOS&2&k;&8] '
+    description: Oh no. Please do not do that.
+  Dox:
+    order: 395
+    tag: '&8[&2&k;&cDOX&2&k;&8] '
+    description: It is not nice, please do not do that.
+  Banana:
+    order: 401
+    tag: '&8[&e&k;&6Banana&e&k;&8] '
+    description: Who does not like bananas??
+  Juic:
+    order: 402
+    tag: '&8[&4&k;&cJuice&4&k;&8] '
+    description: Yummy juice!
+  Sweden:
+    order: 403
+    tag: '&8[&b&k;&eSweden&e&k;&8] '
+    description: Brrr, Why is it so cold?
+  Cactus:
+    order: 404
+    tag: '&8[&2&k;&aCactus&2&k;&8] '
+    description: Pointy and sharp!
+  HowBoutDat:
+    order: 405
+    tag: '&8[&6&k;&eHow&6Bout&eThat&6&k;&8] '
+    description: HowBoutWhat?
+  Squat:
+    order: 406
+    tag: '&f[&eSquat&f] '
+    description: Squat like a Russian?
+  3D:
+    order: 407
+    tag: '&8[&e&k;&b3&cD&e&k;&8] '
+    description: Three Dimensional!
+  TooGoodForDis:
+    order: 408
+    tag: '&8[&b&k;&eToooo&6Good&eFor&6Dis&b&k;&8] '
+    description: Ikr...
+  Sushi:
+    order: 409
+    tag: '&8[&b&k;&dSushi&b&k;&8] '
+    description: Yum! Raw fish.
+  Subway:
+    order: 410
+    tag: '&8[&a&k;&eSub&aWay&a&k;&8] '
+    description: Anyone fancy a tasty sandwich?
+  Brain:
+    order: 411
+    tag: '&8[&e&k;&fBrain&e&k;&8] '
+    description: Did you know that a brain is in your skull?
+  Psycho:
+    order: 412
+    tag: '&8[&e&k;&cPsycho&e&k;&8] '
+    description: You need a chill pill.
+  Blizzard:
+    order: 413
+    tag: '&8[&3&k;&bBlizzard&3&k;&8] '
+    description: Brrrrr
+  Blaster:
+    order: 414
+    tag: '&8[&3&k;&dBlaster&3&k;&8] '
+    description: Blast! Blast! Blast!
+  Pizza:
+    order: 415
+    tag: '&8[&d&k;&cPizza&d&k;&8] '
+    description: Yummy!
+  Pasta:
+    order: 416
+    tag: '&8[&e&k;&cPasta&e&k;&8] '
+    description: Pasta is very nice.
+  Cheese:
+    order: 417
+    tag: '&8[&e&k;&r&eCheese&e&k;&8] '
+    description: I love cheese!
+  Ham:
+    order: 418
+    tag: '&8[&e&k;&r&dHam&e&k;&8] '
+    description: This meat is nice on bread.
+  Vodka:
+    order: 419
+    tag: '&8[&e&k;&r&3Vodka&e&k;&8] '
+    description: That is strong.
+  Beer:
+    order: 420
+    tag: '&8[&e&k;&r&dBeer&e&k;&8] '
+    description: Hmmm
+  Cider:
+    order: 421
+    tag: '&8[&e&k;&r&aCider&e&k;&8] '
+    description: Hmmmmmm
+  Goliath:
+    order: 422
+    tag: '&8[&4&k;&r&c&nGoliath&r&4&k;&8] '
+    description: Strong... very strong.
+  Excalibur:
+    order: 423
+    tag: '&8[&e&k;&r&6&nExcalibur&r&e&k;&8] '
+    description: You better not mess with that.
+  Carona:
+    order: 426
+    tag: '&8[&d&k;&r&eCarona&r&d&k;&8] '
+    description: Do not let it get you!
+  Pi:
+    order: 427
+    tag: '&8[&d&k;&r&bPi&r&d&k;&8] '
+    description: The life of Pi or the Maths thing?
+  GirlPower:
+    order: 428
+    tag: '&8[&d&k;&r&cGirl&bPower&r&d&k;&8] '
+    description: Girls are better than boys?
+  Stupid:
+    order: 429
+    tag: '&8[&7&k;&r&4&l&nStupid&r&7&k;&8] '
+    description: idiot?...
+  Idiot:
+    order: 430
+    tag: '&8[&7&k;&r&3&l&nIdiot&r&7&k;&8] '
+    description: A very stupid person.
+  Superb:
+    order: 431
+    tag: '&8(&b&k;&r&f&k;&r &e&nSuperb&r &f&k;&r&b&k;&r&8) '
+    description: Even better than super!
+  Asia:
+    order: 432
+    tag: '&8[&eAsia&8] '
+    description: It is a continent.
+  FBI:
+    order: 434
+    tag: '&8[&d&k#&r &5&nFBI&r &d&k#&r&8] '
+    description: The secret spies with all the knowledge.
+  Woosh:
+    order: 435
+    tag: '&8[&d&l開發&8] '
+    description: What?
+  flower:
+    order: 438
+    tag: ' &d❀ &8┃'
+    description: '&cFlower Power! '
+  arrow:
+    order: 439
+    tag: ' &b➳ &8┃'
+    description: '&cShoOst! '
+  yingyang:
+    order: 440
+    tag: ' ☯ &8┃'
+    description: '&cYou are at peace with the world '
+  hearticon:
+    order: 441
+    tag: ' &c❤ &8┃'
+    description: '&chearts '
+  peace:
+    order: 442
+    tag: ' &d✌ &8┃'
+    description: '&cayy! '
+  music:
+    order: 443
+    tag: ' &a♫ &8┃'
+    description: '&cSing us a song! '
+  scissors:
+    order: 444
+    tag: ' &3✂ &8┃'
+    description: '&cDont cut yourself! '
+  writing:
+    order: 445
+    tag: ' &a✍ &8┃ '
+    description: '&chmmmm!'
+  snowman:
+    order: 446
+    tag: ' &b☃ &8┃ '
+    description: '&ci wanna be a snewmean!'
+  downy:
+    order: 448
+    tag: '&8[&e&lbounty&8] '
+    description: ''
+  salty:
+    order: 449
+    tag: '&8[&a&ldowny&8] '
+    description: ''
+  moneybags:
+    order: 450
+    tag: '&8[&2&lmoneybags&8] '
+    description: ''
+  pleb:
+    order: 451
+    tag: '&8[&5&lpleb&8] '
+    description: ''
+  roasted:
+    order: 452
+    tag: '&8[&9&lroasted&8] '
+    description: ''
+  triggered:
+    order: 453
+    tag: '&8[&9&ltriggered&8] '
+    description: ''
+  weeaboo:
+    order: 454
+    tag: '&8[&4&lw&6&le&e&le&a&la&b&lb&3&lo&9&lo&8] '
+    description: ''
+  4head:
+    order: 455
+    tag: '&8[&e&l4&6&lhead&8] '
+    description: ''
+  kappa:
+    order: 456
+    tag: '&8[&c&lkappa&8] '
+    description: ''
+  babyrage:
+    order: 457
+    tag: '&8[&c&lbaby&4&lrage&8] '
+    description: ''
+  mommyscard:
+    order: 458
+    tag: '&8[&f&lmommyscard&8] '
+    description: ''
+  quickdropped:
+    order: 459
+    tag: '&8[&5&lquickdropped&8] '
+    description: ''
+  uw0tm8?:
+    order: 460
+    tag: '&8[&c&luw0tm8?&8] '
+    description: ''
+  gotem:
+    order: 461
+    tag: '&8[&9&lgotem&8] '
+    description: ''
+  ezpz:
+    order: 462
+    tag: '&8[&e&lezpz&8] '
+    description: ''
+  savage:
+    order: 463
+    tag: '&8[&a&lsavage&8] '
+    description: ''
+  lag:
+    order: 464
+    tag: '&8[&3&lag&8] '
+    description: ''
+  nerd:
+    order: 465
+    tag: '&8[&b&lnerd&8] '
+    description: ''
+  facepalm:
+    order: 466
+    tag: '&8[&a&lface&f&lpalm&8] '
+    description: ''
+  harambe:
+    order: 467
+    tag: '&8[&4&lharambe&8] '
+    description: ''
+  mcchicken:
+    order: 468
+    tag: '&8[&6&lmcchicken&8] '
+    description: ''
+  XoXo:
+    order: 469
+    tag: '&8[&4&lX&co&4&lX&co&8] '
+    description: ''
+  jolliest:
+    order: 470
+    tag: '&8[&b&ljolliest&8] '
+    description: ''
+  elves:
+    order: 471
+    tag: '&8[&a&lelves&8] '
+    description: ''
+  noelle:
+    order: 472
+    tag: '&8[&c&lnoelle&8] '
+    description: ''
+  JingleBell:
+    order: 473
+    tag: '&8[&2&lJingle&a&lBell&8] '
+    description: ''
+  eggnog:
+    order: 474
+    tag: '&8[&f&leggnog&8] '
+    description: ''
+  gingerbread:
+    order: 475
+    tag: '&8[&7&lgingerbread&8] '
+    description: ''
+  ssing:
+    order: 476
+    tag: '&8[&b&lsing&8] '
+    description: ''
+  Falalala:
+    order: 477
+    tag: '&8[&b&lFa la la la&8] '
+    description: ''
+  HollyJolly:
+    order: 478
+    tag: '&8[&a&lHolly&c&lJolly&8] '
+    description: ''
+  CandyCanes:
+    order: 479
+    tag: '&8[&c&lCandy&f&lCanes&8] '
+    description: ''
+  ApplePie:
+    order: 480
+    tag: '&8[&a&lApplePie&8] '
+    description: ''
+  Milk:
+    order: 481
+    tag: '&8[&f&lMilk&8] '
+    description: ''
+  Giftbearer:
+    order: 482
+    tag: '&8[&4&lGiftbearer&8] '
+    description: ''
+  FruitCake:
+    order: 483
+    tag: '&8[&a&lFruit&f&lCake&8] '
+    description: ''
+  Raindeer:
+    order: 484
+    tag: '&8[&6&lRaindeer&8] '
+    description: ''
+  Rudolph:
+    order: 485
+    tag: '&8[&d&lRudolph&8] '
+    description: ''
+  Angel:
+    order: 486
+    tag: '&8[&f&lAngel&8] '
+    description: ''
+  Rudy:
+    order: 487
+    tag: '&8[&a&lRudy&8] '
+    description: ''
+  Rosy:
+    order: 488
+    tag: '&8[&a&lRosy&8] '
+    description: ''
+  ice:
+    order: 489
+    tag: '&8[&b&lIce&8] '
+    description: ''
+  Boo:
+    order: 490
+    tag: '&8[&c&lBoo&8] '
+    description: ''
+  Ghost:
+    order: 491
+    tag: '&8[&f&lGhost&8] '
+    description: ''

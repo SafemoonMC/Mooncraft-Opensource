@@ -1,0 +1,119 @@
+#########################################################################################
+#                                                                                       #
+# UltimateAutoRestartPro, a premium resource by Norska#1933 [ID: 253886847690866688]    #
+#                                                                                       #
+# Wiki: https://norska.dev/docs/welcome                                                 #
+# Support: https://norska.dev/discord                                                   #
+#                                                                                       #
+# You are editing the webhook.yml file of UltimateAutoRestartPro.                       #
+#                                                                                       #
+#########################################################################################
+
+#########################################################################################
+#                                                                                       #
+# NOTE: PLEASE READ BEFORE CONFIGURING!                                                 #
+#                                                                                       #
+# Please consult the wiki for any questions regarding the setup of this plugin, if you  #
+# still require help, open a ticket on my discord server!                               #
+#                                                                                       #
+#########################################################################################
+
+# Thank you for purchasing UltimateAutoRestartPRO! ❤️
+
+# PLEASE READ:
+# 1. New line characters (\n) need to be escaped. Use "\\n" instead of "\n".
+# 2. If the webhook returns an HTTP 400 Error, you're doing something wrong.
+# 3. You can test webhooks by using "/ar debug webhook".
+
+webhook:
+   enabled: false
+   # Note: Find the URL at Server Settings -> Integrations -> Webhooks -> Select your Webhook (or make a new one) -> Copy Webhook URL
+   url: ''
+   
+messages:
+      
+   SERVER_BACK_UP:
+      enabled: true
+      
+      settings:
+         content:
+            enabled: true
+            message: "The server is back up! Join at play.servername.com"
+            
+         avatarURL: "https://i.imgur.com/ngZFpUl.png"
+         
+         username: "Your Server Name"
+         
+         textToSpeech: false
+         
+         embed:
+           enabled: true
+           title: "Embed Title"
+           description: "Embed Description"
+           color: "#aa7dff"
+           thumbnail: "https://i.imgur.com/ngZFpUl.png"
+           footer:
+               enabled: true
+               message: "Footer Text"
+               image: "https://i.imgur.com/ngZFpUl.png"
+           author:
+               enabled: true
+               message: "Author Example"
+               link: "https://yourserver.com"
+               image: "https://i.imgur.com/ngZFpUl.png"
+           url:
+               enabled: true
+               link: "https://yourserver.com"
+           
+           fields:
+              '1':
+                 title: "1st Embed Field Title"
+                 description: "1st Embed Field Description"
+                 inline: false
+              '2':
+                 title: "2nd Embed Field Title"
+                 description: "2nd Embed Field Description"
+                 inline: true
+   
+   SERVER_RESTARTING:
+      enabled: true
+      
+      settings:
+         content:
+            enabled: true
+            message: "The server is restarting, join back soon!"
+            
+         avatarURL: "https://i.imgur.com/ngZFpUl.png"
+         
+         username: "Your Server Name"
+         
+         textToSpeech: false
+         
+         embed:
+           enabled: true
+           title: "Embed Title"
+           description: "Embed Description"
+           color: "#aa7dff"
+           thumbnail: "https://i.imgur.com/ngZFpUl.png"
+           footer:
+               enabled: true
+               message: "Footer Text"
+               image: "https://i.imgur.com/ngZFpUl.png"
+           author:
+               enabled: true
+               message: "Author Example"
+               link: "https://yourserver.com"
+               image: "https://i.imgur.com/ngZFpUl.png"
+           url:
+               enabled: true
+               link: "https://yourserver.com"
+           
+           fields:
+              '1':
+                 title: "1st Embed Field Title"
+                 description: "1st Embed Field Description"
+                 inline: false
+              '2':
+                 title: "2nd Embed Field Title"
+                 description: "2nd Embed Field Description"
+                 inline: true

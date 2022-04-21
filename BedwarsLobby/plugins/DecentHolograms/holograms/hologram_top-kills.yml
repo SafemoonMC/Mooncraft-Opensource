@@ -1,0 +1,99 @@
+location: bedwars_lobby:76.500:98.600:-138.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&b&lLifetime Kills'
+    height: 0.3
+  - content: '&7All-time'
+    height: 0.5
+  - content: '&e1. &7%ajlb_lb_bw_stat-game-NORMAL_KILLS_1_alltime_prefix%%ajlb_lb_bw_stat-game-NORMAL_KILLS_1_alltime_name%
+      &7- &e%ajlb_lb_bw_stat-game-NORMAL_KILLS_1_alltime_value_formatted%'
+    height: 0.3
+  - content: '&e2. &7%ajlb_lb_bw_stat-game-NORMAL_KILLS_2_alltime_prefix%%ajlb_lb_bw_stat-game-NORMAL_KILLS_2_alltime_name%
+      &7- &e%ajlb_lb_bw_stat-game-NORMAL_KILLS_2_alltime_value_formatted%'
+    height: 0.3
+  - content: '&e3. &7%ajlb_lb_bw_stat-game-NORMAL_KILLS_3_alltime_prefix%%ajlb_lb_bw_stat-game-NORMAL_KILLS_3_alltime_name%
+      &7- &e%ajlb_lb_bw_stat-game-NORMAL_KILLS_3_alltime_value_formatted%'
+    height: 0.3
+  - content: '&e4. &7%ajlb_lb_bw_stat-game-NORMAL_KILLS_4_alltime_prefix%%ajlb_lb_bw_stat-game-NORMAL_KILLS_4_alltime_name%
+      &7- &e%ajlb_lb_bw_stat-game-NORMAL_KILLS_4_alltime_value_formatted%'
+    height: 0.3
+  - content: '&e5. &7%ajlb_lb_bw_stat-game-NORMAL_KILLS_5_alltime_prefix%%ajlb_lb_bw_stat-game-NORMAL_KILLS_5_alltime_name%
+      &7- &e%ajlb_lb_bw_stat-game-NORMAL_KILLS_5_alltime_value_formatted%'
+    height: 0.3
+  - content: '&e6. &7%ajlb_lb_bw_stat-game-NORMAL_KILLS_6_alltime_prefix%%ajlb_lb_bw_stat-game-NORMAL_KILLS_6_alltime_name%
+      &7- &e%ajlb_lb_bw_stat-game-NORMAL_KILLS_6_alltime_value_formatted%'
+  - content: '&e7. &7%ajlb_lb_bw_stat-game-NORMAL_KILLS_7_alltime_prefix%%ajlb_lb_bw_stat-game-NORMAL_KILLS_7_alltime_name%
+      &7- &e%ajlb_lb_bw_stat-game-NORMAL_KILLS_7_alltime_value_formatted%'
+  - content: '&e8. &7%ajlb_lb_bw_stat-game-NORMAL_KILLS_8_alltime_prefix%%ajlb_lb_bw_stat-game-NORMAL_KILLS_8_alltime_name%
+      &7- &e%ajlb_lb_bw_stat-game-NORMAL_KILLS_8_alltime_value_formatted%'
+    height: 0.3
+  - content: '&e9. &7%ajlb_lb_bw_stat-game-NORMAL_KILLS_9_alltime_prefix%%ajlb_lb_bw_stat-game-NORMAL_KILLS_9_alltime_name%
+      &7- &e%ajlb_lb_bw_stat-game-NORMAL_KILLS_9_alltime_value_formatted%'
+    height: 0.3
+  - content: '&e10. &7%ajlb_lb_bw_stat-game-NORMAL_KILLS_10_alltime_prefix%%ajlb_lb_bw_stat-game-NORMAL_KILLS_10_alltime_name%
+      &7- &e%ajlb_lb_bw_stat-game-NORMAL_KILLS_10_alltime_value_formatted%'
+    height: 0.5
+  - content: '&6&lClick to toggle!'
+    height: 0.3
+  - content: '&a&lAll-time &7Monthly'
+    height: 0.3
+  actions:
+    RIGHT:
+    - NEXT_PAGE
+    - MESSAGE:&aYou have toggled the leaderboards to show &b&lMonthly &apositions!
+    LEFT:
+    - NEXT_PAGE
+    - MESSAGE:&aYou have toggled the leaderboards to show &b&lMonthly &apositions!
+  always-face-player: true
+- lines:
+  - content: '&b&lMonthly Kills'
+    height: 0.3
+  - content: '&7All-time'
+    height: 0.5
+  - content: '&e1. &7%ajlb_lb_bw_stat-game-NORMAL_KILLS_1_monthly_prefix%%ajlb_lb_bw_stat-game-NORMAL_KILLS_1_monthly_name%
+      &7- &e%ajlb_lb_bw_stat-game-NORMAL_KILLS_1_monthly_value_formatted%'
+    height: 0.3
+  - content: '&e2. &7%ajlb_lb_bw_stat-game-NORMAL_KILLS_2_monthly_prefix%%ajlb_lb_bw_stat-game-NORMAL_KILLS_2_monthly_name%
+      &7- &e%ajlb_lb_bw_stat-game-NORMAL_KILLS_2_monthly_value_formatted%'
+    height: 0.3
+  - content: '&e3. &7%ajlb_lb_bw_stat-game-NORMAL_KILLS_3_monthly_prefix%%ajlb_lb_bw_stat-game-NORMAL_KILLS_3_monthly_name%
+      &7- &e%ajlb_lb_bw_stat-game-NORMAL_KILLS_3_monthly_value_formatted%'
+    height: 0.3
+  - content: '&e4. &7%ajlb_lb_bw_stat-game-NORMAL_KILLS_4_monthly_prefix%%ajlb_lb_bw_stat-game-NORMAL_KILLS_4_monthly_name%
+      &7- &e%ajlb_lb_bw_stat-game-NORMAL_KILLS_4_monthly_value_formatted%'
+    height: 0.3
+  - content: '&e5. &7%ajlb_lb_bw_stat-game-NORMAL_KILLS_5_monthly_prefix%%ajlb_lb_bw_stat-game-NORMAL_KILLS_5_monthly_name%
+      &7- &e%ajlb_lb_bw_stat-game-NORMAL_KILLS_5_monthly_value_formatted%'
+    height: 0.3
+  - content: '&e6. &7%ajlb_lb_bw_stat-game-NORMAL_KILLS_6_monthly_prefix%%ajlb_lb_bw_stat-game-NORMAL_KILLS_6_monthly_name%
+      &7- &e%ajlb_lb_bw_stat-game-NORMAL_KILLS_6_monthly_value_formatted%'
+  - content: '&e7. &7%ajlb_lb_bw_stat-game-NORMAL_KILLS_7_monthly_prefix%%ajlb_lb_bw_stat-game-NORMAL_KILLS_7_monthly_name%
+      &7- &e%ajlb_lb_bw_stat-game-NORMAL_KILLS_7_monthly_value_formatted%'
+  - content: '&e8. &7%ajlb_lb_bw_stat-game-NORMAL_KILLS_8_monthly_prefix%%ajlb_lb_bw_stat-game-NORMAL_KILLS_8_monthly_name%
+      &7- &e%ajlb_lb_bw_stat-game-NORMAL_KILLS_8_monthly_value_formatted%'
+    height: 0.3
+  - content: '&e9. &7%ajlb_lb_bw_stat-game-NORMAL_KILLS_9_monthly_prefix%%ajlb_lb_bw_stat-game-NORMAL_KILLS_9_monthly_name%
+      &7- &e%ajlb_lb_bw_stat-game-NORMAL_KILLS_9_monthly_value_formatted%'
+    height: 0.3
+  - content: '&e10. &7%ajlb_lb_bw_stat-game-NORMAL_KILLS_10_monthly_prefix%%ajlb_lb_bw_stat-game-NORMAL_KILLS_10_monthly_name%
+      &7- &e%ajlb_lb_bw_stat-game-NORMAL_KILLS_10_monthly_value_formatted%'
+    height: 0.5
+  - content: '&6&lClick to toggle!'
+    height: 0.3
+  - content: '&7All-time &a&lMonthly'
+    height: 0.3
+  actions:
+    RIGHT:
+    - PREV_PAGE
+    - MESSAGE:&aYou have toggled the leaderboards to show &b&lAll-time &apositions!
+    LEFT:
+    - PREV_PAGE
+    - MESSAGE:&aYou have toggled the leaderboards to show &b&lAll-time &apositions!
+  always-face-player: true
