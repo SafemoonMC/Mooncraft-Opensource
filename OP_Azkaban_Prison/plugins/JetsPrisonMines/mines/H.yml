@@ -1,0 +1,34 @@
+mine_name: H
+blocks:
+- GOLD_ORE:30:false:false
+- STONE:70:false:false
+region:
+  world: OPP1
+  zmin: -2101
+  ymin: 53
+  xmin: -933
+  zmax: -2073
+  ymax: 70
+  xmax: -895
+reset:
+  use_timer: true
+  timer: 180
+  use_percentage: true
+  percentage: 45
+  reset_type: GRADUAL
+  use_messages: false
+  reset_direction: TOPTOBOTTOM
+perm_to_mine: false
+blocks_mined: 0
+stats:
+  holograms: []
+effects:
+- FLY
+teleport_location:
+  ==: org.bukkit.Location
+  world: OPP1
+  x: -878.6
+  y: 72.0
+  z: -2086.51
+  pitch: -4.04
+  yaw: 90.48

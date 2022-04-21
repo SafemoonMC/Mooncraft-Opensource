@@ -1,0 +1,321 @@
+name: '{centered}&cPrison Warden'
+starts_with:
+- NPC with id 7
+block_movement: false
+slow_effect: false
+save_conversation_progress: false
+start_conversation_radius: 0
+end_conversation_radius: 12
+requires_permission: false
+cooldown: 0
+conversation:
+  conversation1:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Welcome to your new home prisoner %player_name%!'
+        - '{centered}&7This is where you''ll serve out your &b100 year sentence&7.'
+        - '{centered}&7I still can''t believe you &bassassinated King John&7... and
+          as a'
+        - '{centered}&7trusted guard. Makes me sick... Anyways!'
+        - '{centered}&7This is the realm of &bAzkaban&7, the home to the worst criminals!'
+        time: 2
+        conditional_dialogue:
+          conditional_dialogue1:
+            requires:
+            - '%quests_player_has_current_quest_introduction% == Yes'
+            start_conversation: conversation4
+          conditional_dialogue2:
+            requires:
+            - '%quests_player_has_completed_quest_introduction% == true'
+            - '%quests_player_has_completed_quest_custom2% == true'
+            - '%quests_player_has_completed_quest_custom3% == true'
+            - '%quests_player_has_completed_quest_custom4% == true'
+            start_conversation: conversation5
+          conditional_dialogue3:
+            requires:
+            - '%quests_player_has_completed_quest_introduction% == true'
+            - '%quests_player_has_completed_quest_custom2% == false'
+            - '%quests_player_has_current_quest_custom2% == No'
+            start_conversation: conversation6
+          conditional_dialogue4:
+            requires:
+            - '%quests_player_has_current_quest_custom2% == Yes'
+            start_conversation: conversation8
+          conditional_dialogue5:
+            requires:
+            - '%quests_player_has_completed_quest_custom2% == true'
+            - '%quests_player_has_completed_quest_custom3% == false'
+            - '%quests_player_has_current_quest_custom3% == No'
+            start_conversation: conversation9
+          conditional_dialogue6:
+            requires:
+            - '%quests_player_has_current_quest_custom3% == Yes'
+            start_conversation: conversation11
+          conditional_dialogue7:
+            requires:
+            - '%quests_player_has_completed_quest_custom3% == true'
+            - '%quests_player_has_completed_quest_custom4% == false'
+            - '%quests_player_has_current_quest_custom4% == No'
+            start_conversation: conversation12
+          conditional_dialogue8:
+            requires:
+            - '%quests_player_has_current_quest_custom4% == Yes'
+            - '%quests_player_current_stage_number_custom4% == 1'
+            start_conversation: conversation14
+          conditional_dialogue9:
+            requires:
+            - '%quests_player_has_current_quest_custom4% == Yes'
+            - '%quests_player_current_stage_number_custom4% == 2'
+            start_conversation: conversation15
+          conditional_dialogue10:
+            requires:
+            - '%quests_player_has_completed_quest_custom17% == true'
+            - '%quests_player_has_completed_quest_custom18% == false'
+            start_conversation: conversation16
+          conditional_dialogue11:
+            requires:
+            - '%quests_player_has_completed_quest_custom18% == true'
+            start_conversation: conversation17
+    options:
+      option1:
+        text: '&bI''m innocent! I didn''t kill him! &7(&a&lCLICK HERE&7)'
+        start_conversation: conversation2
+    random_dialogue: false
+  conversation2:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Yeah yeah.. like I don''t hear that 50 times a week!'
+        - '{centered}&7 Go introduce yourself to the people in charge here'
+        - '{centered}&7and come back and talk to me when you are done!'
+        - ' '
+        time: 2
+      dialogue2:
+        text:
+        - '{centered}&3Quest Started!'
+        - '{centered}&7Introduction'
+        - '{centered}'
+        - '{centered}&bObjective:'
+        - '{centered}&7Meet the &cLumberjack&7, the &cBlacksmith&7, and the &cFarmer&7!'
+        - ' '
+        time: 2
+        actions:
+        - 'console_command: questadmin give %player% introduction'
+        show_name: false
+        save_dialogue_to_player: true
+        actions_after_dialogue: true
+    random_dialogue: false
+  conversation3:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Well then, come back when you are ready!'
+        time: 2
+    random_dialogue: false
+  conversation4:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Why are you here? Go introduce yourself to them!'
+        - '{centered}&7Don''t waste my time!'
+        time: 2
+    random_dialogue: false
+  conversation5:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Since you are already acquainted with the main areas.'
+        - '{centered}&7I can''t help you anymore. Go back to work!'
+        time: 1
+        actions:
+        - 'give_potion_effect: harm;1;1'
+        actions_after_dialogue: true
+    random_dialogue: false
+  conversation6:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7I''ve been so kind as to let you roam the landscape'
+        - '{centered}&7of the planet under VERY close surveillance, but beware!'
+        - '{centered}&7&bThe Forest &7is home to many wild beings that wouldn''t think'
+        - '{centered}&7twice about killing you.'
+        - ' '
+        - '{centered}&7Ready for another adventure?'
+        time: 2
+        actions_after_dialogue: true
+    options:
+      option1:
+        text: '&bYes! &7(&a&lCLICK HERE&7)'
+        start_conversation: conversation7
+      option2:
+        text: '&bNot yet! &7(&a&lCLICK HERE&7)'
+        start_conversation: conversation3
+    random_dialogue: false
+  conversation7:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Perfect! We are having a little bug problem'
+        - '{centered}&7that needs taking care of. I may have a useful'
+        - '{centered}&7item for you if you are successful.'
+        - ' '
+        time: 2
+      dialogue2:
+        text:
+        - '{centered}&3Quest Started!'
+        - '{centered}&7The Forest'
+        - '{centered}'
+        - '{centered}&bObjective:'
+        - '{centered}&7Kill x10 Grass Bugs!'
+        - ' '
+        time: 2
+        actions:
+        - 'console_command: questadmin give %player% the forest'
+        show_name: false
+        save_dialogue_to_player: true
+        actions_after_dialogue: true
+    random_dialogue: false
+  conversation8:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Why are you here? The bugs won''t kill themselves!'
+        - '{centered}&7Don''t waste more time!'
+        time: 1
+    random_dialogue: false
+  conversation9:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7I''m glad to see you aren''t dead yet.'
+        - '{centered}&7Now... You have one job and one job only. To &bmine'
+        - '{centered}&7the resources this realm has to offer. Let''s see if I'
+        - '{centered}&7made the right decision bringing you here.'
+        - ' '
+        - '{centered}&7Ready?'
+        time: 2
+        actions_after_dialogue: true
+    options:
+      option1:
+        text: '&bYes! I''m ready! &7(&a&lCLICK HERE&7)'
+        start_conversation: conversation10
+      option2:
+        text: '&bNot yet, I need some rest! &7(&a&lCLICK HERE&7)'
+        start_conversation: conversation3
+    random_dialogue: false
+  conversation10:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Perfect! Get used to this task as this is what'
+        - '{centered}&7prison is all about.'
+        - ' '
+        time: 2
+      dialogue2:
+        text:
+        - '{centered}&3Quest Started!'
+        - '{centered}&7The Mines'
+        - '{centered}'
+        - '{centered}&bObjective:'
+        - '{centered}&7Mine &bx1,000 Blocks&7 in Mine &bA&7!'
+        - ' '
+        time: 2
+        actions:
+        - 'console_command: questadmin give %player% the mines'
+        show_name: false
+        save_dialogue_to_player: true
+        actions_after_dialogue: true
+    random_dialogue: false
+  conversation11:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Why are you here? The blocks won''t mine themselves!'
+        - '{centered}&7Go!'
+        time: 1
+    random_dialogue: false
+  conversation12:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Does your back hurt yet? It will... Now I have more of'
+        - '{centered}&7a personal request to ask of you... One of my guards'
+        - '{centered}&7has been distracted lately speaking &bfoolish things &7about'
+        - '{centered}&bhearing voices&7... I don''t have time to deal with stuff like'
+        - '{centered}&7this so go speak to him and see what''s troubling him.'
+        - ' '
+        - '{centered}&7Ready?'
+        time: 2
+        actions_after_dialogue: true
+    options:
+      option1:
+        text: '&bSure but what do I get if I do this? &7(&a&lCLICK HERE&7)'
+        start_conversation: conversation13
+      option2:
+        text: '&bNot yet, my back hurts from mining! &7(&a&lCLICK HERE&7)'
+        start_conversation: conversation3
+    random_dialogue: false
+  conversation13:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7I might be able to knock off a few years of your sentence!'
+        - '{centered}&7Now go! You''ll find him in the &6Dungeon&7!'
+        - ' '
+        time: 2
+      dialogue2:
+        text:
+        - '{centered}&3Quest Started!'
+        - '{centered}&7Guard Gone Crazy'
+        - '{centered}'
+        - '{centered}&bObjective:'
+        - '{centered}&7Speak to the &cCrazy Guard &7in the &6Dungeon'
+        - '{centered}&7about the voices he''s hearing.'
+        - ' '
+        time: 2
+        actions:
+        - 'console_command: questadmin give %player% guard gone crazy'
+        show_name: false
+        save_dialogue_to_player: true
+        actions_after_dialogue: true
+    random_dialogue: false
+  conversation14:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Don''t come back until you talk to the crazy guard!'
+        - '{centered}&7Go!'
+        time: 1
+    random_dialogue: false
+  conversation15:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Thanks for calming him down... He better stick'
+        - '{centered}&7 to what he''s paid to do... That''s all for now.'
+        - '{centered}&7GET BACK TO MINING!'
+        - '&7'
+        time: 1
+    random_dialogue: false
+  conversation16:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7%player_name%! I just received word that some dark wizard was
+          the true killer of King John and you were framed! My dearest apologies.
+          I’d love to recruit you as one of our guards!'
+        time: 3
+        actions:
+        - 'console_command: lp user %player% parent add guard opprison'
+        save_dialogue_to_player: true
+        actions_after_dialogue: true
+    random_dialogue: false
+  conversation17:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7You are already a Guard!'
+        time: 1
+        save_dialogue_to_player: true
+    random_dialogue: false

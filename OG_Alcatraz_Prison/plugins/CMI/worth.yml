@@ -1,0 +1,11 @@
+# Use ingame editor /cmi setworth to change prices
+worth:
+  COAL_BLOCK: 10.53
+  IRON_BLOCK: 58.5
+  GOLD_BLOCK: 93.6
+  DIAMOND_BLOCK: 234
+  DIORITE: 1.5
+  REDSTONE_BLOCK: 12.87
+  LAPIS_BLOCK: 8.19
+  GRAVEL: 0.5
+  FLINT: 0.5

@@ -1,0 +1,4678 @@
+addon-data:
+  '%statistic_deaths%':
+    signs: []
+    heads: []
+  '%statistic_seconds_played%':
+    signs: []
+    heads: []
+data:
+  '%statistic_deaths%':
+    5485821d-5975-41e6-b620-d7eed1702ea0:
+      value: 0.0
+    aec4c6f3-dfe6-4f0b-8489-114f46c6c2b1:
+      value: 0.0
+    6b23291c-495b-478d-9055-d0d151206bff:
+      value: 0.0
+    f33ae78a-2b3c-4d5b-8706-a9bff290ba36:
+      value: 0.0
+    e703fb8a-1909-41d9-807a-8a3b0d6ea3a1:
+      value: 0.0
+    c6247f77-3873-40e2-848d-7769e23a8747:
+      value: 0.0
+    c899304c-72d0-4b64-adf6-86b28c097718:
+      value: 0.0
+    debce3b8-2786-4993-a24a-206df08ac7e5:
+      value: 0.0
+    693872e6-6383-4f1a-a2c7-4dd6f5cf7a73:
+      value: 0.0
+    546515b9-21ce-4bb0-bc3e-6127993bcb25:
+      value: 0.0
+    9bec1da7-5fd0-4a67-bf8b-4f43963b2f0e:
+      value: 0.0
+    c276d112-ab09-4ac3-a6be-c8aa5b6d1086:
+      value: 0.0
+    820920e3-4747-47fc-8e36-dba308c098e4:
+      value: 0.0
+    6853899d-aa83-4714-b163-187ecb05087b:
+      value: 0.0
+    015abe42-b1fb-4675-8ea7-5ce5aaae6429:
+      value: 0.0
+    0f8aa9d9-d975-47f9-9055-3a6269fbc3f1:
+      value: 0.0
+    54ecafe9-9ffb-4219-a43c-0856076bfa92:
+      value: 0.0
+    75dd0549-48cb-4c6a-908b-2ba68c029765:
+      value: 0.0
+    fa7b7bd9-717b-4509-92af-398369b71332:
+      value: 0.0
+    6068cfc7-3d43-4840-8bf1-a064a03c71c2:
+      value: 0.0
+    45a3c332-e88d-4385-b920-613f7a66b22b:
+      value: 0.0
+    d1295952-cc9f-47a0-9247-14c230f4b677:
+      value: 0.0
+    fb22dca4-24ce-4a30-be86-7d7676422982:
+      value: 0.0
+    e2ceb0ae-3c83-4adb-b380-5e79cc8d695d:
+      value: 0.0
+    a72b2bea-92e8-4c76-856d-ff277d7e09f2:
+      value: 0.0
+    396ac9be-0d47-4fae-9816-2a69f852b8e0:
+      value: 0.0
+    1b7a130e-21b4-4552-af33-f699019345f1:
+      value: 0.0
+    e2991b5c-79eb-4f74-a529-2132639478db:
+      value: 0.0
+    1a91788d-0799-470e-aab5-2b0644f28394:
+      value: 0.0
+    a01deae4-3f81-4667-8308-823074386574:
+      value: 0.0
+    18196ffe-9286-492e-9a84-d41dcab40f8a:
+      value: 0.0
+    3a76fff3-3d8a-4d2e-9804-0ad286d8f30d:
+      value: 0.0
+    ee9744ef-f44c-484e-a3b5-18793325e903:
+      value: 0.0
+    aa8079dc-f826-4efb-8923-453a7d5e4b7d:
+      value: 0.0
+    a7ce6487-8376-4869-b6a5-8056818029f4:
+      value: 0.0
+    28512219-84f9-4921-88a5-6b23cdd50ab4:
+      value: 0.0
+    96a34334-1cbb-474b-9019-8c9c0c360165:
+      value: 0.0
+    f06c825c-0bf3-4894-b658-1ce2c6febb9e:
+      value: 0.0
+    e1a73fe1-8081-4361-82e8-80765849797c:
+      value: 0.0
+    48bc3247-e533-4862-9b6b-c150b2618a61:
+      value: 0.0
+    2eba14ff-e280-4ef8-91b6-8513a8b1d7d2:
+      value: 0.0
+    85ec24cc-5c91-4b0e-8676-1bdcc947642f:
+      value: 0.0
+    bd185c2e-0aef-4e38-a36f-0000f876be5a:
+      value: 0.0
+    016f2641-e888-4a3f-a8de-e572c0fe1de4:
+      value: 0.0
+    e7f7c55b-a214-4bbe-9f02-8850db558d23:
+      value: 0.0
+    18c60ab1-dc59-4c59-b389-14039168c5dd:
+      value: 0.0
+    481d48fe-436b-43b9-905d-0b16d8a7a52c:
+      value: 0.0
+    bfd3a269-2f52-4fe9-8919-2a9eec536ed2:
+      value: 0.0
+    f2b266a3-067e-4b60-89cd-1038cf8e6e74:
+      value: 0.0
+    482a929d-321a-4b8e-9ac0-c4abb389a2e2:
+      value: 0.0
+    f2b9254a-ce8b-4018-8f58-5f3935c9b6a2:
+      value: 0.0
+    70549018-6bfb-4256-a286-5f494ffef8d8:
+      value: 0.0
+    3649ae8f-093d-4751-a944-eb0611a37778:
+      value: 0.0
+    cad1a8dd-aeca-42f2-bdd4-1ec78308fb91:
+      value: 0.0
+    d9ae727b-f6ba-41ee-b84d-9bf4a0c7f034:
+      value: 0.0
+    3026a5d6-4ac2-4a73-8328-e69360d6ff61:
+      value: 0.0
+    b01d1e7a-1794-4ffd-a810-e873ad7abd14:
+      value: 0.0
+    e7f623ff-fc6c-4559-8bce-4fc98a6e2cc4:
+      value: 0.0
+    898a0ded-65ef-4716-a5df-77a469a66f0d:
+      value: 0.0
+    6db9375c-7104-46c5-86a1-6d1232c77e0a:
+      value: 0.0
+    9c5eabf7-126f-418d-8dd9-fbee0adf9669:
+      value: 0.0
+    a5c83720-cb4e-43aa-b4b9-c9d0f38f0dd0:
+      value: 0.0
+    f7b60a58-e32c-45c4-8724-96f3ef09a26c:
+      value: 0.0
+    eff92658-a6ea-4a7d-92bf-ae1a0fdc1992:
+      value: 0.0
+    50f163c9-2fe9-4182-a193-22265b5694b7:
+      value: 0.0
+    8ec97d7d-c4a2-4c4d-b42c-cd6dde73bcb0:
+      value: 0.0
+    55001586-bf94-44f4-a84e-8fc897162485:
+      value: 0.0
+    29294955-81e1-42ae-9499-784cd697bd71:
+      value: 0.0
+    6137a4c1-ea2a-4b6d-a21a-fab3e400dd9a:
+      value: 0.0
+    90e79743-318f-49b4-a98c-06309c62a1c3:
+      value: 0.0
+    e31d794e-3713-4872-a3c1-4a331cf13967:
+      value: 0.0
+    f86e92fd-1626-4d06-bae8-9d1d7ab12de4:
+      value: 0.0
+    d34e4ee3-4682-4c26-9ad7-88aed490a9cf:
+      value: 0.0
+    da50810c-f6a3-4b3a-88e2-76e62c18f2fa:
+      value: 0.0
+    a1cc2569-f70d-424b-85ab-1769b180d143:
+      value: 0.0
+    b66ff8ab-7f4c-4688-9cd6-8de29e11503f:
+      value: 0.0
+    2671928d-64dd-4557-a3b8-f0aacc3b0832:
+      value: 0.0
+    153a6407-b9c4-41ea-aa38-5e21fd2ce031:
+      value: 0.0
+    83a851a2-54e8-498b-8cb2-97a0a254f84e:
+      value: 0.0
+    1af4f553-b4ef-4cdb-83cc-b719ee89b1fa:
+      value: 0.0
+    9d326d61-04e6-4c6c-bd0b-8aaf14f80ff0:
+      value: 0.0
+    fda99b26-0515-45d3-9a89-704fa649e23d:
+      value: 0.0
+    05320cd2-bcdc-4f33-9c0c-7839d7214b34:
+      value: 0.0
+    f24caf0f-e798-45ae-97b5-c3fcc88f1245:
+      value: 0.0
+    aba497da-f7c9-428e-ab77-2765217c70bc:
+      value: 0.0
+    b9281bb1-4f1e-4f02-82de-13bdf61f29f3:
+      value: 0.0
+    0a5f0538-8487-4dbe-9804-d0bcc6f15a6f:
+      value: 0.0
+    d9088334-3ad4-4244-8d1d-67512744fb9b:
+      value: 0.0
+    a312def9-f390-4231-9a21-042744af10dd:
+      value: 0.0
+    faf98b4f-2578-4cc0-8abd-f62261dda4b4:
+      value: 0.0
+    3d599ee0-c261-47c6-88fc-441dc83d68c8:
+      value: 0.0
+    84c99226-2310-4fff-a929-1caab471a3cd:
+      value: 0.0
+    e679533c-7d6d-47a4-af4a-32df71f8d3d9:
+      value: 0.0
+    7dcb8982-8df1-4b6f-a56a-2e3d6d7300f1:
+      value: 0.0
+    8d90d2bc-1285-4607-bf7e-b851edaad2e8:
+      value: 0.0
+    0fc249c9-9aef-4ce9-87bd-8455dc44be7b:
+      value: 0.0
+    33b3b2ae-1603-4438-856c-83e13af8ab5f:
+      value: 0.0
+    ac02467a-f2b2-41fb-8b8d-ba66956a0970:
+      value: 0.0
+    549d0a2e-5a4a-44a1-8b51-3bfc722832d3:
+      value: 0.0
+    5c9d06bc-33af-4703-a476-da27985d88d7:
+      value: 0.0
+    908262a0-8d93-4c08-af55-6ba2a97d5438:
+      value: 0.0
+    57145db1-c0c5-494b-9837-d1832882081f:
+      value: 0.0
+    c70a4c35-a2d5-41d6-b9a9-ffe7fa727642:
+      value: 0.0
+    5b4e89e4-975a-4c1e-b490-24450ed3293e:
+      value: 0.0
+    ea75f906-b8ca-4a0c-b34c-bc7ac8fdd827:
+      value: 0.0
+    aa3819a7-c52f-4ab1-9def-08949b8d5ae3:
+      value: 0.0
+    cbdad4b1-1f75-4536-ba26-280deef3efee:
+      value: 0.0
+    5384f0c7-7c33-4f37-b349-d5df51219e29:
+      value: 0.0
+    b0779491-904a-46f8-9666-8c3060d11294:
+      value: 0.0
+    beabd420-2b71-458e-aa8b-a4d89ab0fa81:
+      value: 0.0
+    29e6ec62-38b2-46dc-ac5a-6c759bd4fa66:
+      value: 0.0
+    1b8fecf7-5def-4685-b355-0e019b38d013:
+      value: 0.0
+    79d94d56-b6e5-4a26-ac49-e02489b3e5f7:
+      value: 0.0
+    8188a1b6-b8bf-4e1a-a1ff-152725288341:
+      value: 0.0
+    08d2ee92-3ca7-4c8d-9d7c-0d5c54acb751:
+      value: 0.0
+    ec847d00-6cf4-4235-9b1a-a65dbed0a961:
+      value: 0.0
+    799a3d51-8804-4f32-b163-2cfdbaba08b2:
+      value: 0.0
+    259d8686-3bda-44d6-9cad-3808f44a1b4a:
+      value: 0.0
+    5e543713-0c8e-451b-8471-bbab26a3efd9:
+      value: 0.0
+    f8a2bed3-b9e7-4b5b-8e5a-9a4f7fe8190d:
+      value: 0.0
+    c9ca8837-cde7-4bc7-8cd2-babd373c3af8:
+      value: 0.0
+    4828d19e-97e2-46b9-bba7-44bdf1561ce6:
+      value: 0.0
+    4b434819-32ee-486d-9dff-582494319204:
+      value: 0.0
+    c1e95f4e-d70e-4dae-b467-9f56cfaaf627:
+      value: 0.0
+    d289dd5a-fa5d-4d85-8579-4dfcba5762e2:
+      value: 0.0
+    434ec079-cc66-49c0-a953-12f3f32cda6f:
+      value: 0.0
+    960092b1-a0ee-4ee1-b437-be50a6c21460:
+      value: 0.0
+    912e5e52-798f-4cda-a3c7-456e80429a86:
+      value: 0.0
+    6e76181a-2472-47f3-a0af-0e877b62a2a8:
+      value: 0.0
+    64404fe9-c881-4600-b288-555ea3b38d04:
+      value: 0.0
+    94a31d2c-2a4f-49bc-a244-3d5b8e3fb8c5:
+      value: 0.0
+    80d393c0-942f-408f-80e0-8b89a1142941:
+      value: 0.0
+    611639a0-7210-4643-91a3-538ec5ef7b2a:
+      value: 0.0
+    cd4d9426-0a10-4ac6-b8cb-e92f46ca309a:
+      value: 0.0
+    56918356-57d5-4110-9eaf-6f722e5bfec6:
+      value: 0.0
+    fc5ce5ce-1dac-4a17-ab29-c4bc7e597866:
+      value: 0.0
+    7fa97ab1-e892-4c74-8e86-2d8356bd58c0:
+      value: 0.0
+    10b6e530-8b22-48da-a5ec-f3ea44675e8f:
+      value: 0.0
+    8f90a320-6bcf-4e6a-a717-71c5d8272593:
+      value: 0.0
+    76878016-e9ac-46d3-b6f4-97651e868af1:
+      value: 0.0
+    10cf7650-f757-4dc5-9bed-4219120899a5:
+      value: 0.0
+    7ca693c0-3805-4225-952c-5e0351532b25:
+      value: 0.0
+    f752eaf0-c304-43f5-ac01-5c9aa4a8793c:
+      value: 0.0
+    a5974882-c536-46be-a84e-652a01c9a66f:
+      value: 0.0
+    af430840-37e2-49ae-a246-7318fb9a3fe9:
+      value: 0.0
+    b36deab4-826a-4c51-b48c-bf1d7c347c18:
+      value: 0.0
+    b93e5fa9-2642-40d3-8f02-d560aa755888:
+      value: 0.0
+    c2305caa-30dc-41f5-8ad7-717ed297d2cd:
+      value: 0.0
+    2417c9bf-237d-46aa-8faf-e1231136d5bd:
+      value: 0.0
+    27e8ca42-2228-43ed-9fcc-5b9489935d0c:
+      value: 0.0
+    e0174865-0718-45f6-991b-4a2d0b85468e:
+      value: 0.0
+    cdb42963-bf1d-4568-b452-61df6e28bda5:
+      value: 0.0
+    73e8df9d-ff9d-423f-b78e-7e93178e6429:
+      value: 0.0
+    de5a5dcc-6424-4e65-a518-f3bd9d5c90df:
+      value: 0.0
+    b1d038cb-003b-4a39-9a33-64f69fef2cd1:
+      value: 0.0
+    7cbb3049-41a1-4e0c-b98d-1c6aede28c3a:
+      value: 0.0
+    3d4d1331-3fe4-4773-9a18-e1e038b1af11:
+      value: 0.0
+    0579067c-f3a0-4df4-b9f5-498b61e8fa7a:
+      value: 0.0
+    73f66983-9c26-4260-9427-4546743b3bd4:
+      value: 0.0
+    e30a3879-1d98-418f-8201-34918458e515:
+      value: 0.0
+    ea2654c4-265a-4abb-8ab2-b5e647a9f78d:
+      value: 0.0
+    bf10bd85-f490-4689-ba72-560fecb39ef9:
+      value: 0.0
+    74ea55a9-314f-4965-a777-b46417e58319:
+      value: 0.0
+    b7c4149b-17f0-491a-9a0b-951d6a0d862e:
+      value: 0.0
+    c9a0370f-3ebe-48ef-992f-bc733529a84a:
+      value: 0.0
+    67566a10-c4c8-4028-899b-257e7380d67b:
+      value: 0.0
+    63034cd5-57bd-4287-8c39-e812cd397b72:
+      value: 0.0
+    fc2b7e2a-8f67-4976-a643-71667f4202c5:
+      value: 0.0
+    25e48e1a-d24c-4e1f-8bf9-609f8a0faf95:
+      value: 0.0
+    b58a6073-e07a-4812-9ea7-27b7a1bcfdb6:
+      value: 0.0
+    533bacdd-178c-4ae9-bc0b-c7cf36f8d4e9:
+      value: 0.0
+    2debe9e3-687a-42b1-a8a2-529844128467:
+      value: 0.0
+    48b9ba2d-d395-490a-a020-5bb05b331031:
+      value: 0.0
+    a147edeb-26eb-43e4-9c24-0622522f8f06:
+      value: 0.0
+    ad291843-fcf4-40e0-8620-34fd7d4b9c77:
+      value: 0.0
+    6197d016-dae3-4055-a3e6-d8756f95a9ec:
+      value: 0.0
+    1bd9fbbd-a37c-4412-bb5a-03a9c8540b2b:
+      value: 0.0
+    8423391f-415b-47c5-8896-9541946718d0:
+      value: 0.0
+    9b639c54-638e-4730-b0d1-8276dc82c90f:
+      value: 0.0
+    0fe523ff-09f4-4147-82a6-df5ab5a37027:
+      value: 0.0
+    cf185015-53a0-4a73-b09f-e29c80c23c8c:
+      value: 0.0
+    c01cd08a-eee8-4ca9-abbf-edf8818187fe:
+      value: 0.0
+    8bbe5d43-166f-4756-a4cf-fc13aa2f8c0a:
+      value: 0.0
+    a9aa62b9-39ab-4982-8310-130e012be123:
+      value: 0.0
+    c46cf789-d048-4533-a868-b249ac7197e4:
+      value: 0.0
+    71758231-36cb-460d-9342-f4301a79a052:
+      value: 0.0
+    838d92d7-0fb0-4271-9703-06f68f1e0751:
+      value: 0.0
+    47d21802-2428-4168-9f55-e2f6adc4e05b:
+      value: 0.0
+    d1d0f399-5597-4e5b-9074-a52837eeb1c5:
+      value: 0.0
+    75ad193f-171b-4ffa-b4e2-a0af5f0307d2:
+      value: 0.0
+    68012f07-b4e4-4777-953f-d874dc11b726:
+      value: 0.0
+    7a85a82a-dd6e-41fa-9eca-97ebbec9677a:
+      value: 0.0
+    2c4a419e-e303-43bf-b755-9f347a96174a:
+      value: 0.0
+    9f04d678-dd7b-4bb6-9f13-942c10174032:
+      value: 0.0
+    fafa530e-7923-4453-a2ef-2d4dfd753ebe:
+      value: 0.0
+    99e59a0d-e0b6-4513-98dc-d36c72768336:
+      value: 0.0
+    d8c35a30-ebb1-46c4-b899-b3f23fd67401:
+      value: 0.0
+    6b73186d-0da9-4128-93be-bce8a57d5b4a:
+      value: 0.0
+    596f4d83-cdd6-4e93-9e3b-0638f32db0bd:
+      value: 0.0
+    86243659-a577-4322-a742-a0f6d5c0daac:
+      value: 0.0
+    6e6a799d-3708-4696-a319-9f5c3ba90377:
+      value: 0.0
+    4c02fb07-c0cf-46fb-acfb-5169a721977f:
+      value: 0.0
+    f57b228b-c91a-40b0-a1bf-362bde5c9563:
+      value: 0.0
+    86b32896-480a-450e-ad65-f82bbcf855a9:
+      value: 0.0
+    f60451da-91d1-4cd4-a981-a0346ad72b40:
+      value: 0.0
+    718a7384-ff0f-49dd-a6cb-873292f2b917:
+      value: 0.0
+    86570832-44c8-4d42-afc0-a042d18b6f17:
+      value: 0.0
+    dd99a5a9-238e-4136-8ff7-8d38c660badd:
+      value: 0.0
+    718116a1-7f7b-48ae-a126-3b32439143fe:
+      value: 0.0
+    8295a092-f1ed-4ad0-847e-a278ef39f8c9:
+      value: 0.0
+    76a40344-71dd-4344-ab8a-bd11f1449669:
+      value: 0.0
+    d6280bab-5e73-4b7c-afe6-be37f15564c0:
+      value: 0.0
+    f0fac4c7-1a9e-43bd-9df8-40ac766042fa:
+      value: 0.0
+    6459977d-ae4e-4053-a576-8f461fba0238:
+      value: 0.0
+    3aaa8745-42b6-4bca-b3ce-9d00be1a18cd:
+      value: 0.0
+    6128e623-cdd1-4ea9-a85a-e43eb7556b96:
+      value: 0.0
+    26c37296-7580-4b21-922c-09588511ae45:
+      value: 0.0
+    863bd1ee-29d9-4058-86bd-8a41e5ec8dab:
+      value: 0.0
+    da6a5861-539e-4e99-a437-f8934a272159:
+      value: 0.0
+    cdfb94ed-14f0-451a-83af-2adceac82191:
+      value: 0.0
+    f73c0af0-79dd-4c6e-8c60-672483e91c16:
+      value: 0.0
+    9966a51a-1d7b-4c6a-aa29-a7716e57feb5:
+      value: 0.0
+    17b73d6a-082a-4660-8ea6-ab087f73f4d2:
+      value: 0.0
+    b8b203d3-2646-4829-9add-2c5bb59faf70:
+      value: 0.0
+    f529bab0-3382-48b4-8ae3-422ea0987fc6:
+      value: 0.0
+    ecd91b57-fb05-42a2-b10b-09592ab495d1:
+      value: 0.0
+    acc2160f-e415-43b9-b119-9b1fd27e4e64:
+      value: 0.0
+    15a2b098-b3b4-4e8d-be38-461fcb8652cc:
+      value: 0.0
+    765b72cb-96f4-43da-923f-4b700ec5fb0f:
+      value: 0.0
+    7e833597-5457-43a9-ad82-0a19b50e5d5e:
+      value: 0.0
+    b5d970bd-227d-4869-8f09-e18d41397fee:
+      value: 0.0
+    ba20297d-90db-495b-bc7c-963555caae48:
+      value: 0.0
+    96747de5-4fa4-4caa-880b-e127cb1591b3:
+      value: 0.0
+    5ba72011-aeff-47f5-a7c6-2ccd04de5640:
+      value: 0.0
+    7a745ed4-96d0-4d03-bedf-7c3b0da8671b:
+      value: 0.0
+    313620ac-f5cc-48f2-accd-8e9de62d21e5:
+      value: 0.0
+    ba34be7d-0cfd-46b8-9c97-7bd9350a457c:
+      value: 0.0
+    ac46c2d9-5961-4404-a3af-e78ebcdd3e0f:
+      value: 0.0
+    6bd72c8b-12b4-4f82-a6d5-9d644ecbfaee:
+      value: 0.0
+    c32949e1-3efe-4654-a383-26d00a5fba5d:
+      value: 0.0
+    79665245-8f97-411c-b098-64f0b83426cc:
+      value: 0.0
+    0b3c9a46-5673-4486-8c46-33b9c8b3adc4:
+      value: 0.0
+    a3cac096-326c-4610-a6e2-909c0a55a239:
+      value: 0.0
+    1a00d706-fed9-4577-8527-73d05ec085e3:
+      value: 0.0
+    1629a860-e9ff-4432-8fa0-167c6751a679:
+      value: 0.0
+    6dc81ddf-257b-4371-b0bc-537fc20b00e7:
+      value: 0.0
+    be50b949-952a-4c85-a733-2de954169fbf:
+      value: 0.0
+    80a6a8e3-e74b-4a0f-8897-c823fb08dfa1:
+      value: 0.0
+    83b89a4c-420e-44dc-aa47-7c30adc89f93:
+      value: 0.0
+    bf35a921-6a6d-4177-a041-46a95b6f2d8f:
+      value: 0.0
+    960395ec-c61f-4e16-a24b-c222acd61a18:
+      value: 0.0
+    08625be2-8435-4560-a0e1-bd53106e11c9:
+      value: 0.0
+    ae5c1e91-745b-4a6f-a337-11484ede6957:
+      value: 0.0
+    8385cc61-9b84-47f5-a50d-6e37c3f4cc4e:
+      value: 0.0
+    9b792f2c-8e5c-4231-ad0d-38184369a183:
+      value: 0.0
+    ea7f7e48-62ed-443a-ba93-3716e8cfd37c:
+      value: 0.0
+    db84fb1f-97dd-4531-b922-2d68c2040721:
+      value: 0.0
+    2e99e393-f92f-407f-9054-e0ce674ff097:
+      value: 0.0
+    5671316f-ebd1-43d6-8367-c767b85a6a1b:
+      value: 0.0
+    3953ca96-5584-4e54-b837-c6523da3f00a:
+      value: 0.0
+    bb57cb5a-4826-4e02-883e-497bba307278:
+      value: 0.0
+    6c12b8ce-19e8-400e-a676-e1eb45d64c1d:
+      value: 0.0
+    c52df555-ac07-4654-8eeb-50f6c2c2a1aa:
+      value: 0.0
+    13ddd619-bc83-4dfc-ac53-6ee3fc266782:
+      value: 0.0
+    4d107acb-257a-459f-b5f5-67c6cc44f42b:
+      value: 0.0
+    4c9b8803-14c6-4810-8fc7-3c0b056425ce:
+      value: 0.0
+    ec0ba484-cbe3-49fd-8738-26b631093175:
+      value: 0.0
+    bb0fa2a9-11e2-4dad-abd8-e9551870284f:
+      value: 0.0
+    c680f2b2-9447-486a-962d-fcac50ca51f6:
+      value: 0.0
+    edc169c5-e13d-4267-b4cc-68341dcba141:
+      value: 0.0
+    db2ebc47-e557-45c2-88aa-d2efad1653f7:
+      value: 0.0
+    eb52408b-310e-4c80-a358-b3caf06e0dff:
+      value: 0.0
+    69a1c160-0da5-46c0-85b6-42fd815b2ee3:
+      value: 0.0
+    6ddde9f0-75b4-4498-bf5f-730b739a5a61:
+      value: 0.0
+    aa7c42d4-8c68-4d16-966f-aee94d6f135d:
+      value: 0.0
+    8932de5a-5970-476f-963c-249d2d9afb67:
+      value: 0.0
+    3f6b86a6-93ad-4788-b5dd-7715b2140641:
+      value: 0.0
+    fe2969de-67aa-4df8-9b57-e4594b1cfaca:
+      value: 0.0
+    7dfb0753-8ad3-4485-871f-daad71fcbbcf:
+      value: 0.0
+    4498bbb8-5014-444e-9789-a7a8d2187e3a:
+      value: 0.0
+    c33b09a3-f6c9-45d3-b1f6-8f36fb22e5ca:
+      value: 0.0
+    cc2cb912-7932-463b-8cb3-7ac8c7730245:
+      value: 0.0
+    271b41a9-db59-491e-9db6-36077aa58296:
+      value: 0.0
+    8205971e-fe2b-4e3d-8cdb-b2e83b16fd1f:
+      value: 0.0
+    f774e875-e889-4a32-8fb4-bb606bbaedee:
+      value: 0.0
+    dc4d2531-fbde-4ab3-bcb0-48866c6c494c:
+      value: 0.0
+    de876851-be9a-49c1-8e33-1eb0c1052949:
+      value: 0.0
+    3d08f3e7-e534-4866-863d-26537ed33002:
+      value: 0.0
+    f628369c-7c75-4344-ba1b-1e81301ed212:
+      value: 0.0
+    250dd925-b0cb-439f-9164-e09a646fe3e0:
+      value: 0.0
+    25f74002-446b-4ad5-81c1-3baf4c309867:
+      value: 0.0
+    337a3619-23a0-40ba-8c46-6774b558fb1e:
+      value: 0.0
+    8c71548d-8577-4a08-8b78-9a7b88bd2134:
+      value: 0.0
+    50dd88b7-e13d-41ec-8bc1-3d91525db3e6:
+      value: 0.0
+    7a940655-a527-42b1-b0e3-16d5ceee12db:
+      value: 0.0
+    01702076-ee1b-4c59-967a-1e56f8a9949c:
+      value: 0.0
+    fe6286fd-fd38-4f41-896a-33bae8046f5d:
+      value: 0.0
+    3bdc0ccc-c611-48ac-8c0c-5c182496cc46:
+      value: 0.0
+    b6440bd1-50ff-49c9-a454-2769cc67e169:
+      value: 0.0
+    ea31644a-cee0-44b9-9126-48b9da1ec8f0:
+      value: 0.0
+    b77bfd84-ef31-4f90-80a5-8925faa0d47c:
+      value: 0.0
+    bf7b1659-3bac-4136-b77c-b9bd6b3b58da:
+      value: 0.0
+    a2c74b65-b2d4-436d-8304-a121a53f2e58:
+      value: 0.0
+    4245826f-db11-4237-a66e-6dbb1cfab53a:
+      value: 0.0
+    ff303d6a-02df-48ef-aedc-cd2020650654:
+      value: 0.0
+    b63efa9b-62ca-4b18-adda-633e829318e5:
+      value: 0.0
+    f5495946-7a95-471a-bd4a-b9c813918d34:
+      value: 0.0
+    009e6efb-550c-4336-8875-bf9e83d28182:
+      value: 0.0
+    962f7085-36a6-4aec-9e47-f1260b0c212e:
+      value: 0.0
+    0339bdeb-1548-41bd-b5be-9e4af9c44db6:
+      value: 0.0
+    59b77e3b-82f0-4226-9324-2a7fc5140b6f:
+      value: 0.0
+    21ff162b-2314-4185-8ff7-24819e071182:
+      value: 0.0
+    323b525e-8b71-44b8-831a-abfa5fcec72e:
+      value: 0.0
+    57b5b9eb-349f-4c7d-a048-d1ca4fb2ff29:
+      value: 0.0
+    472f45d8-1244-487f-ba71-2a634970b438:
+      value: 0.0
+    cf3e4e02-3e0e-4e25-ac7c-6b00a1e9b864:
+      value: 0.0
+    8107b5ab-39fa-481b-a7c8-bcfd623e71d2:
+      value: 0.0
+    9b6ae8ea-7747-4616-a817-8e94306885b5:
+      value: 0.0
+    992e0c9c-7a87-4afd-956f-e49f1645b5d2:
+      value: 0.0
+    7af31856-3f72-4a1b-b8aa-351b3690311f:
+      value: 0.0
+    e6e7dba4-f984-4a91-8c6f-865d5666ee7f:
+      value: 0.0
+    39f94cdb-1c2c-4e72-92fc-a87ef5879383:
+      value: 0.0
+    a4d38c81-2bf3-490f-992c-b0a1fe968034:
+      value: 0.0
+    f7455eb1-c853-4e71-b7ea-10c3ae7d9535:
+      value: 0.0
+    257c4914-a9e8-4342-99b5-a610a5a95d69:
+      value: 0.0
+    5c44b263-2733-4fa6-a9ab-c2c2e78ecbee:
+      value: 0.0
+    8c0ba8db-8f0b-4e31-b917-41884adb100f:
+      value: 0.0
+    902ea5a8-c5b5-410f-98c7-6d11cb97f4d9:
+      value: 0.0
+    d02cf7ab-ab09-430f-b4e5-39b698d767c0:
+      value: 0.0
+    c8aab8c3-976a-4c35-8327-6e108b205666:
+      value: 0.0
+    8b4221fb-c364-4471-8f43-bed65b8dec34:
+      value: 0.0
+    08f94115-9295-4f6f-a5ec-6e161563ed05:
+      value: 0.0
+    18f058f3-9255-44d6-b4b8-5d1d9984896a:
+      value: 0.0
+    9e33aaec-2272-4007-b448-a03995778439:
+      value: 0.0
+    4a323b26-a77b-44c0-8435-e93725fbc38b:
+      value: 0.0
+    8991d4a1-7f2b-4c19-8a18-ce387c74e107:
+      value: 0.0
+    3c8c6693-d128-4616-b431-758cad30da30:
+      value: 0.0
+    6979ad4b-3544-45d6-82a0-a5f78a643c0a:
+      value: 0.0
+    a96b2152-090d-479c-958c-a360224c219d:
+      value: 0.0
+    ad0c1ff8-65b1-4207-8b25-ee276d1cce8d:
+      value: 0.0
+    20b4da7a-7572-4913-a834-2b57e9408516:
+      value: 0.0
+    9a2eb7cd-6d4f-4da2-8ada-876684d23df8:
+      value: 0.0
+    932d9bdc-e1e4-4ada-b658-07ced79e6222:
+      value: 0.0
+    ed94f8fd-fcfd-413c-9bf9-a53747c04658:
+      value: 0.0
+    90628cd5-0194-4d84-b68c-2aea14e0f7c2:
+      value: 0.0
+    577ce8af-deaf-4d08-87c1-0920916d9e52:
+      value: 0.0
+    23584d36-2e53-415a-83de-6b4e77f0622a:
+      value: 0.0
+    6e9073a9-d7b1-41a7-b6ae-27c6816584f6:
+      value: 0.0
+    6b1aacfa-8458-4d57-badf-c4816da39d3c:
+      value: 0.0
+    cd616c2a-c9fa-4f19-9779-6468098d3ae5:
+      value: 0.0
+    f1077170-52a5-48f8-9a58-2aa6549f43ed:
+      value: 0.0
+    398b062e-e538-466f-acfb-646227191699:
+      value: 0.0
+    16b3534f-246b-42da-b914-2122648d941c:
+      value: 0.0
+    8a5b1377-7399-43be-b5c2-4ae62b18cecb:
+      value: 0.0
+    e9f10984-3aa8-4516-b9a6-e11b819f3559:
+      value: 0.0
+    d38377fe-b192-45f1-9e9c-af639a3212ed:
+      value: 0.0
+    4fd61128-7d3b-4e6b-a170-9dc4e9b3f095:
+      value: 0.0
+    0b9de9f2-6362-4b1e-9b4d-18bfd5f3c3eb:
+      value: 0.0
+    04d87a2d-3f6a-4bc2-9394-9370957d5e4a:
+      value: 0.0
+    16473735-3e25-456c-bb7f-26a993429129:
+      value: 0.0
+    f143b015-2545-4152-b26a-7aec828e32b7:
+      value: 0.0
+    aceef17e-fe61-473f-a977-7b97b6874161:
+      value: 0.0
+    d1f8d8c8-fdef-494c-a19c-687e3f8231fd:
+      value: 0.0
+    d227d238-6f34-4261-8a5a-6f15694f54b7:
+      value: 0.0
+    d08d71a0-1f57-4c47-aa5b-99174e8a500d:
+      value: 0.0
+    5496eeaf-293e-4cfd-b08a-47a0c549a66e:
+      value: 0.0
+    422c2341-381f-481d-b224-d18ee65e2912:
+      value: 0.0
+    bd075f55-56a0-470b-8e25-1a0c2ac62097:
+      value: 0.0
+    96509f4a-cd94-4a80-8594-10efb13b1d85:
+      value: 0.0
+    87d864a8-73ed-4708-9417-1322a8544b36:
+      value: 0.0
+    f82a97f7-7b0d-4683-81e6-0288a6dd47f2:
+      value: 0.0
+    d15e0f32-8736-4f4c-b965-fcbc902e9025:
+      value: 0.0
+    1cad12f2-c8a3-4f78-ad7a-89dc48cfe43e:
+      value: 0.0
+    1bd1e093-782b-41ca-b644-39c67181ab7c:
+      value: 0.0
+    63bada41-64a7-4829-9b60-e55f3baeaf7d:
+      value: 0.0
+    dbe5c49f-76e3-457d-945c-07f5c0d1d287:
+      value: 0.0
+    a493f04b-0d26-46ea-ad17-f0742f653734:
+      value: 0.0
+    3b659406-55dd-4c79-b454-876519641ebe:
+      value: 0.0
+    a5bd6505-d14f-4287-a8f1-ce974c283757:
+      value: 0.0
+    6c4f617b-7034-46e0-91d4-c3394bd78cdb:
+      value: 0.0
+    d4bd8e74-45a7-41de-9f14-92ed8938346c:
+      value: 0.0
+    a44c66bc-9fd7-4228-842e-311e0e3c5a4a:
+      value: 0.0
+    ded14b4b-92f4-4fbf-bbd5-f13bbcb2d848:
+      value: 0.0
+    278bfee5-439a-491b-b5c6-21dee2d0df74:
+      value: 0.0
+    c929048c-bd65-4905-8580-8e5e1b25e725:
+      value: 0.0
+    131dfa42-a646-4aa3-b476-728ea7e27af2:
+      value: 0.0
+    1a3ced4d-263f-40c8-ba25-a9f7b74dcb2b:
+      value: 0.0
+    a3d07f64-6823-4e6f-8607-6640c169a859:
+      value: 0.0
+    6d30b37d-c81c-447a-99c7-323a80dcc357:
+      value: 0.0
+    5e03f5d6-d102-4ffe-88c7-f9f5519e47e1:
+      value: 0.0
+    4364fba5-51ba-460f-a35d-f29301396560:
+      value: 0.0
+    82d23f1a-5600-49b9-b18e-d4c1ab6962b8:
+      value: 0.0
+    ab397db2-8369-425b-8ab7-ed5c6b7029fb:
+      value: 0.0
+    c278e4a2-3a2c-44fd-8827-055765c9ba32:
+      value: 0.0
+    495572ec-d4e3-4287-b747-5e76bf5b3d03:
+      value: 0.0
+    c2f99e2d-561e-4cfa-ae85-f02e3056ca66:
+      value: 0.0
+    5327d46a-972c-4494-b946-9f14db890f61:
+      value: 0.0
+    81bdbe76-ec90-4d1b-bc07-c5d390371d7e:
+      value: 0.0
+    bd8334be-a3e4-4767-b0a8-6d0151144f5a:
+      value: 0.0
+    2f381bd9-7df5-482c-bb0b-e3b044b687ac:
+      value: 0.0
+    c6213df9-5d94-4c40-b9bc-ea332503b26d:
+      value: 0.0
+    b238e914-27dc-423f-bad2-c7360d159d0f:
+      value: 0.0
+    2b49258f-360f-4da6-a28d-b4893889610f:
+      value: 0.0
+    2cc6bdc2-d2a1-45cf-add9-86c2ff8101cb:
+      value: 0.0
+    0bd39dd2-3f4a-417f-94fd-eafbb02f38fb:
+      value: 0.0
+    1b263a81-90e6-465d-9fe1-5c503457862c:
+      value: 0.0
+    0ca63de9-6819-4767-b795-fefa9fb3d208:
+      value: 0.0
+    9ab7b77a-57d4-4b48-b08b-18d62711acff:
+      value: 0.0
+    e9ae9c4e-319f-40cf-a0cd-ebdad8afc830:
+      value: 0.0
+    6eb4dae3-76a2-4621-b1af-e171a39dbcf0:
+      value: 0.0
+    53d88428-fce2-436c-9154-eb0d4105a8da:
+      value: 0.0
+    fd1c4e6c-124a-48f2-8f35-783b4f1c5ed9:
+      value: 0.0
+    6a23f06d-76be-432b-9cbb-7a51226db06c:
+      value: 0.0
+    a382e00b-1b82-4d6e-bd8f-ac2b52fd812f:
+      value: 0.0
+    8067f756-7084-41c1-84eb-c0dfde7ee314:
+      value: 0.0
+    5eb6e56e-e8cf-4d31-8d27-4280f8fcfe68:
+      value: 0.0
+    fdf6e7a6-570f-43ee-bcc8-0369f6af3cd2:
+      value: 0.0
+    7168eff8-269f-4688-92f5-dcdc9f10a4d9:
+      value: 0.0
+    cbd035da-69df-4618-b13d-7edf55c2c0cb:
+      value: 0.0
+    30a20dbb-ff80-4ecb-9396-5699c8affa8c:
+      value: 0.0
+    e1fe54e0-f042-46b3-bef2-697fcd128e06:
+      value: 0.0
+    15d8455e-5738-4530-a1f5-cbef63731ccc:
+      value: 0.0
+    b2ed206c-a194-4223-8c0f-c20b427052cd:
+      value: 0.0
+    234ed368-8c73-4e36-a9e9-af261bb9cc67:
+      value: 0.0
+    7aaf00b7-d73a-4f16-8296-e509b6583497:
+      value: 0.0
+    ff713008-e8fe-4dbb-80bd-4564910b4114:
+      value: 0.0
+    b145a60f-60e1-4ad3-94fc-12fdb49b604c:
+      value: 0.0
+    6bdd6fe5-5bf1-46da-b5ba-4e7f055b382f:
+      value: 0.0
+    f668b33e-203c-4263-8725-93ffaee88af7:
+      value: 0.0
+    d538454c-ef74-4b82-a4ad-8a037feb2204:
+      value: 0.0
+    836a9983-e5c0-4b7f-8389-d1e51a23dbdd:
+      value: 0.0
+    ad121f4c-11f0-49d3-acb4-0a6867bae8aa:
+      value: 0.0
+    13ace48a-6cf9-4218-9d6b-83d6bd1311fc:
+      value: 0.0
+    588ffe51-5f9c-42cb-9296-ef8e5797b2d0:
+      value: 0.0
+    4b38fa31-f0f2-4e58-b041-414fc55628a7:
+      value: 0.0
+    1c33a6a7-52b5-4511-a184-b756a1aecd65:
+      value: 0.0
+    d25859a5-bb0d-480e-a04f-0796557421f9:
+      value: 0.0
+    f7952e08-bfb8-498b-b3c6-318705b9c7b1:
+      value: 0.0
+    3e07c646-0097-4fa4-addd-e1e57dc6d15c:
+      value: 0.0
+    897d3d38-433e-4a11-9b78-3066e17030ed:
+      value: 0.0
+    3b767a9d-c307-4e05-a952-3ab6a802ed29:
+      value: 0.0
+    5d5c78f8-5796-4f47-821b-797d9f1b3af7:
+      value: 0.0
+    0cf4256c-3740-4b92-b751-5722c52ca3ef:
+      value: 0.0
+    1d13062f-2ad5-49cc-a5f3-2be857d4fe45:
+      value: 0.0
+    37d7dcee-d865-4326-b61d-dbe09f876230:
+      value: 0.0
+    b709c63c-a691-4878-9349-8d42d59b6fc5:
+      value: 0.0
+    5bd0fc76-fbef-43a8-b62e-4941a0ab0be6:
+      value: 0.0
+    654c9692-fbd3-42dc-b11c-44b26abe7e0e:
+      value: 0.0
+    3e620987-eee9-4ca4-a3ba-eb92328810de:
+      value: 0.0
+    0cb64f2d-b453-422a-b53c-b823deb6bdb9:
+      value: 0.0
+    11eaf665-27b5-4f66-ac87-2d5796a523fa:
+      value: 0.0
+    d21bb81e-cc6d-4b71-b779-72b66c941756:
+      value: 0.0
+    e3b93c40-9564-44cb-870b-c3b666cb663b:
+      value: 0.0
+    1400dec4-8c26-4d4f-ac19-9a9cd514e7e7:
+      value: 0.0
+    e8d20cdf-5af6-4ddf-b303-667c92639ba9:
+      value: 0.0
+    c4884935-f353-4e24-9e57-c61eabf6dcaf:
+      value: 0.0
+    6578eb62-ccfb-4a09-814e-b3b53942bc55:
+      value: 0.0
+    4fa0aaf4-e06d-4f42-9a81-9d22123ff706:
+      value: 0.0
+    7c8f9522-566e-4c25-88d0-eb12e8d48519:
+      value: 0.0
+    d3875e3f-5ead-4e78-b513-8b90a5a5b677:
+      value: 0.0
+    80c4fd1f-c241-4a84-ae47-6c2914cc7f9d:
+      value: 0.0
+    9e1bd02d-ad29-4db3-97f5-930eed1c5f4b:
+      value: 0.0
+    0bb2bc51-80f8-479b-9723-9cc3bf59ac39:
+      value: 0.0
+    df326800-9607-4ce8-b2af-c450e1416bb6:
+      value: 0.0
+    11c32b4c-a70c-4947-a64e-2736011a20ef:
+      value: 0.0
+    cb66bf5f-6eef-46c8-ada2-5e9686107522:
+      value: 0.0
+    f46a25a3-e716-4435-aff5-d68cb55adae5:
+      value: 0.0
+    c29f6d9d-aab8-43e3-a363-1cf6e46455bc:
+      value: 0.0
+    94872c58-db13-49b6-a7e3-52f0107c9752:
+      value: 0.0
+    920f72b7-0e29-49f9-822a-4a87a588f22e:
+      value: 0.0
+    4842e5c0-4ba7-4c8b-af95-7a978146e64f:
+      value: 0.0
+    dae51321-196f-48d3-bc1e-c8655ceff4df:
+      value: 0.0
+    4c905e71-27c7-47d0-a410-03f2194e70d4:
+      value: 0.0
+    090a2f5f-59b0-40f2-81b6-74339be0693c:
+      value: 0.0
+    bd2eeae2-d831-488b-bb0a-6538110540d7:
+      value: 0.0
+    4d733c79-aed0-4b20-905d-fd4c2af41b99:
+      value: 0.0
+    0ad0b2a4-d3a2-4fb5-938e-12476853b5bd:
+      value: 0.0
+    25adb195-b6eb-4199-9c5c-d24fde68085a:
+      value: 0.0
+    9618e554-e798-4a99-8d26-b8423cac973c:
+      value: 0.0
+    0e3d3c8b-7a48-4cff-b484-72058946634e:
+      value: 0.0
+    44101e01-54f5-4205-8c70-96428ce892bb:
+      value: 0.0
+    62d00297-b121-4659-a521-b77cce0b7b3f:
+      value: 0.0
+    8fddf950-d37b-4384-9edd-e0784cfaacea:
+      value: 0.0
+    f2c56f1d-d553-4967-aae8-5cc6ab6f8851:
+      value: 0.0
+    2920aa5b-b221-4a42-a86f-322ec2b1e702:
+      value: 0.0
+    04fb0f40-02bb-4c74-8e9b-b73edb222341:
+      value: 0.0
+    25e7305c-f528-4d8c-850a-90d023529376:
+      value: 0.0
+    de8b4b40-369e-49b4-92c8-02d2b5f8e830:
+      value: 0.0
+    cb174d0f-3aac-4a52-8b2e-3dabe79a60f3:
+      value: 0.0
+    579d9fcc-6b04-43a8-b823-3699391957a2:
+      value: 0.0
+    b178ccd0-6d10-48e4-88a2-8a715c0c8601:
+      value: 0.0
+    d5363d2d-26b7-450e-a9d8-dfc796628b0d:
+      value: 0.0
+    eed646ec-0b0e-41d1-9970-db4cc1be1a7b:
+      value: 0.0
+    8730c5d3-6bd8-43ac-8944-630b55fe51bc:
+      value: 0.0
+    252775a5-34f3-466f-b75b-171c3a11c4aa:
+      value: 0.0
+    d6438513-9524-4ca3-8406-83eeeca8610f:
+      value: 0.0
+    3995a3ac-9520-491b-a3aa-a9abe0190502:
+      value: 0.0
+    a5e335dd-d28a-4a28-ac96-c03dbe703b57:
+      value: 0.0
+    6932191a-1bb9-4429-be19-c135d8bc155f:
+      value: 0.0
+    27576663-250e-4a87-8c5a-5f38da6cbe44:
+      value: 0.0
+    8283127d-dd00-4090-9623-ff4daa5a1ea7:
+      value: 0.0
+    fea66741-bb32-4c7d-8b55-806ae99b05cc:
+      value: 0.0
+    e26289f3-3491-43e6-a2ab-103f22bfc9f7:
+      value: 0.0
+    bc5dcada-2e0f-49bf-9bd3-ad9baef7a889:
+      value: 0.0
+    bf9460f8-e5f6-4684-85bf-06b20661e87c:
+      value: 0.0
+    42127f1d-c1e3-44ba-8ce1-98fdc32c3e73:
+      value: 0.0
+    4188757d-9048-4e91-9a22-0c50c3d652c3:
+      value: 0.0
+    0f6a74b1-f65d-4bb1-a835-d1c7bd494bec:
+      value: 0.0
+    3d4cedb2-bc06-4ded-8c23-3a152e5f94ce:
+      value: 0.0
+    f0debb45-bf8b-4e60-8654-79d484afb5fd:
+      value: 0.0
+    07dd22b8-ba66-4db7-b28b-59290b91e7c4:
+      value: 0.0
+    5af60b58-d10c-4514-b519-5d70167a4d37:
+      value: 0.0
+    91074266-343e-40d6-8e7d-6c52f3d8fcea:
+      value: 0.0
+    65602efa-b912-4a6e-a8a8-2f066abfb392:
+      value: 0.0
+    eb69a0d7-d427-4778-aa32-deb716b3bb43:
+      value: 0.0
+    eafcd4d2-06f8-4295-a9c9-058834cbd76b:
+      value: 0.0
+    3b0148e3-5446-4aca-8ac6-57df820193c0:
+      value: 0.0
+    ac03c4d4-4bf3-4a38-9070-0fd0459aeea0:
+      value: 0.0
+    4a597a0c-3c39-4386-8330-b8f2c45da9bc:
+      value: 0.0
+    7da6d74d-964f-4898-819f-f43f9971b538:
+      value: 0.0
+    a1c396c5-b984-481f-ab88-fe7c78d3de6f:
+      value: 0.0
+    b9fd6cb4-e8c7-442e-bc5a-831ea6e109de:
+      value: 0.0
+    41197a94-ada3-428b-bb6b-95b84b0b289d:
+      value: 0.0
+    c78387fb-9075-4150-adb9-29fbbc86ac7f:
+      value: 0.0
+    ba00b3a0-3aaa-4794-b46a-d64ab9307e55:
+      value: 0.0
+    96c68eaa-73f5-4447-a99a-cc098872b7bc:
+      value: 0.0
+    fb33960d-d3c6-4624-8c9f-e984f455805e:
+      value: 0.0
+    a9cb0669-55e8-4525-96ec-b2195abc78e6:
+      value: 0.0
+    9e1aabb8-fdfc-40f0-bf97-815eb92536ab:
+      value: 0.0
+    b87ba67a-fa19-435f-a14c-648f9f2657b3:
+      value: 0.0
+    3d82c61c-a679-4b27-860b-bafecbb1d81c:
+      value: 0.0
+    912b0824-e548-40b4-ab98-a43d5d93bcdc:
+      value: 0.0
+    15787ca1-b1ef-4a19-b7a3-227932447b32:
+      value: 0.0
+    d1eb197c-f150-4778-ba43-200d87fa11fa:
+      value: 0.0
+    aa9c2184-a12a-4c43-96c4-77fb9979912f:
+      value: 0.0
+    139f9fee-52dd-46be-af89-a0a7bdfb49b0:
+      value: 0.0
+    e81d1f59-fbde-46e5-bb61-03a157fd7a66:
+      value: 0.0
+    fea32c63-3042-41cd-b095-355e78e2e101:
+      value: 0.0
+    437f9337-142d-4546-91a2-12eff757be69:
+      value: 0.0
+    137d587f-fb7f-4894-acc3-13263f904729:
+      value: 0.0
+    4e9bd213-6772-425d-b550-cd148603c4df:
+      value: 0.0
+    e87dfe3b-ca4f-4aed-9eb3-bfa88c8aeb59:
+      value: 0.0
+    0422537c-d844-4740-a885-aec61cef22be:
+      value: 0.0
+    98be3ad1-c9d7-40aa-9204-583b0986e83b:
+      value: 0.0
+    2a2a850f-66db-480c-a533-f1bbbe0f83d5:
+      value: 0.0
+    8f9bbb02-f7cc-45e6-b977-a893d6c89101:
+      value: 0.0
+    d1d5eb24-7abe-4172-a90f-603738a59980:
+      value: 0.0
+    d774189c-9177-4e30-9243-c8ff360dd561:
+      value: 0.0
+    4baccf2e-bb48-4df9-a572-e85f138b6d18:
+      value: 0.0
+    a8624524-7560-4c3f-ab27-e910bd783641:
+      value: 0.0
+    80710358-4e77-4e0f-beba-b384138c501c:
+      value: 0.0
+    85955636-f709-446e-8b48-4d56482398f2:
+      value: 0.0
+    02a6d447-3053-407b-b888-99d1d020dd88:
+      value: 0.0
+    d9e4b12b-5907-4422-b69e-3139e328cbb8:
+      value: 0.0
+    34d0491b-70ab-41d2-949b-485f030545a1:
+      value: 0.0
+    49f47a66-46a6-40e6-ac5c-acb0b86e62c6:
+      value: 0.0
+    191fb73c-aa21-4901-ae20-c51fe7faf219:
+      value: 0.0
+    da15329e-a5ec-462a-8787-8423c08fc84d:
+      value: 0.0
+    4f75b07c-62b9-4e78-8d23-d9b5b3578d66:
+      value: 0.0
+    040e043e-c283-4744-8461-5086a0594049:
+      value: 0.0
+    df261d2d-7f3f-4ba7-91d9-f580394caaee:
+      value: 0.0
+    e469f56e-82c4-4712-93c5-9509fe4d9ff7:
+      value: 0.0
+    52773ac3-3cfd-4727-9d0a-cb93e51590b2:
+      value: 0.0
+    991afabd-5c8a-4549-a356-ddbeb87f70de:
+      value: 0.0
+    62753e8c-2240-44a3-bfdb-3710e5411349:
+      value: 0.0
+    7700cbbb-1989-48b1-9268-8ee4dff512e8:
+      value: 0.0
+    ebc3f5dd-8561-4b1a-bbbe-5fc41077c2d6:
+      value: 0.0
+    173012f1-99d7-4912-bf9f-db92122cc575:
+      value: 0.0
+    937cd4dc-efa5-4a63-a588-aad9147acb5a:
+      value: 0.0
+    e4d8f837-4055-47be-90ab-6a5534ac330f:
+      value: 0.0
+    c3a9395c-b6ec-4245-985e-06e2ab876d3f:
+      value: 0.0
+    04d2f993-45e7-4d66-8609-3b5368162a75:
+      value: 0.0
+    76f2e014-d775-436d-b95d-1b3f14ad174c:
+      value: 0.0
+    20b1a768-a7d7-46f8-b47b-84064b542e8e:
+      value: 0.0
+    57881066-df8f-4efa-b7f8-1d11b7b0f49f:
+      value: 0.0
+    b6d1074c-439a-466c-bd9d-bd06fd779b11:
+      value: 0.0
+    0a90db3c-4344-4cc1-a97d-a16ac9eb90f2:
+      value: 0.0
+    ea7b58ec-b429-4374-a166-f08616acfd6a:
+      value: 0.0
+    e314da8e-e2b9-4749-9608-f6e9c163a83c:
+      value: 0.0
+    3c8e57d4-e87d-4145-a4cf-7b3c340915c3:
+      value: 0.0
+    0d1ffc5c-7e4f-4424-ae54-f117a75d7783:
+      value: 0.0
+    bf38cbd4-800e-44af-a94b-fa24227fb067:
+      value: 0.0
+    192e2fde-f05c-4950-a53d-d23f2c5f35e7:
+      value: 0.0
+    686aecca-227d-4187-8614-6fa270b64746:
+      value: 0.0
+    07409a19-fffd-4dca-9c9d-4439329538a0:
+      value: 0.0
+    60c2ecdd-1718-42bb-93c2-e7d6822d29aa:
+      value: 0.0
+    279c52b9-cc02-4459-a2bf-8eb295856d3a:
+      value: 0.0
+    414072b7-1bd1-4bb3-ba62-4e1bb475b29c:
+      value: 0.0
+    f0343f6b-e628-4327-9de9-b20be76ec4f2:
+      value: 0.0
+    20120368-8d4f-40c6-994a-8775e967635a:
+      value: 0.0
+    afc1e40e-a69e-4bc7-a13a-6ebb2799bb74:
+      value: 0.0
+    5c8e022b-d5ac-4c56-a892-c387409ab2b1:
+      value: 0.0
+    38ab7797-3057-4975-89f6-0d417ce60044:
+      value: 0.0
+    71de01a3-0c09-4cea-9a2b-ae68eb7949e1:
+      value: 0.0
+    75c5864b-9cab-47ae-952e-90cd18d53a28:
+      value: 0.0
+    6a7ff2dd-b88a-4730-9c32-f15ffcb3d1a2:
+      value: 0.0
+    0285f56f-9c32-4b22-9ebe-76e3fe2f5c69:
+      value: 0.0
+    ef53c607-6874-4835-b0d0-aba7356a39f7:
+      value: 0.0
+    d587b177-0ab6-46a4-842a-5b912190a029:
+      value: 0.0
+    67c61fd2-8283-4b7e-98d8-41e1415ad2b7:
+      value: 0.0
+    748937dd-25d6-46c4-87a6-1dfa672c9be4:
+      value: 0.0
+    6f1e2108-75d0-418f-8672-56fdf9626cc8:
+      value: 0.0
+    7c1f3cb3-e60b-400b-b353-b00a7967a37d:
+      value: 0.0
+    c241ca0f-06e2-465f-bb62-1c527a820f15:
+      value: 0.0
+    c6d472bb-ac51-44f3-97b3-bca3269cfe94:
+      value: 0.0
+    1c3a2c8c-7ffc-4eb8-85de-baffc372567c:
+      value: 0.0
+    d4d9af3c-f35a-4ec6-be2e-7cdf7c1b28f2:
+      value: 0.0
+    e0a71bb4-8ca0-4d3c-8485-b4bde3654230:
+      value: 0.0
+    4bfea103-9699-4730-a32c-d2c30b1efd66:
+      value: 0.0
+    5066357e-205a-4aa2-9439-62658bd8a1bb:
+      value: 0.0
+    1c532494-51bd-45b8-8553-6078e60aa7b5:
+      value: 0.0
+    8969100d-e99e-49f6-bd98-dcf976532a6b:
+      value: 0.0
+    ab520598-a2f7-4378-9d55-88c25e7bb876:
+      value: 0.0
+    d472da3d-ff30-4a7a-8448-29521f49701a:
+      value: 0.0
+    f4a29333-8206-4420-9406-4af1fbc9940c:
+      value: 0.0
+    f163a7b6-ac1a-4be0-85c9-aef50f52899c:
+      value: 0.0
+    9f661277-6201-49a2-859f-6a6fd57d14ce:
+      value: 0.0
+    9bf3bf16-3522-470c-9e6b-7fa0b20d89ca:
+      value: 0.0
+    2b66aa5f-646c-4782-b41a-abb68a1dec62:
+      value: 0.0
+    92612cd7-4740-4594-aacc-4ce9da8c9d32:
+      value: 0.0
+    8c60ea38-c596-4630-97f1-a1bbf88fc67f:
+      value: 0.0
+    510022c2-f5e9-4c47-901f-b1a8d3fe3d40:
+      value: 0.0
+    36846682-c132-44ca-9042-a70b2f7cd817:
+      value: 0.0
+    c1ab5687-9dfa-4099-a05b-18206e6f5182:
+      value: 0.0
+    63fc9f97-71e9-4655-a3e4-883cfc3646ae:
+      value: 0.0
+    57d9a069-0e66-4b66-abde-73d40dfd040b:
+      value: 0.0
+    c30bc11d-bc87-4d57-a860-c2948513b392:
+      value: 0.0
+    ad45eb00-67e6-4b25-afb9-3c97dfc62a4d:
+      value: 0.0
+    6b8315d0-20f2-4a6f-9d40-bdbb124842b6:
+      value: 0.0
+    0f343f19-5dd9-456c-ba11-ece0cf23b013:
+      value: 0.0
+    34555720-1e07-4be8-9436-339ad6a29a76:
+      value: 0.0
+    1fb0206c-d8d9-4504-9569-b26475ff2956:
+      value: 0.0
+    3afdd1a1-0371-4260-bd89-76e7d93684b7:
+      value: 0.0
+    29d03ae1-bf60-42c0-86d3-335b1c2d707d:
+      value: 0.0
+    0cc0b4af-c0c6-4d6d-92b0-2625e654a51b:
+      value: 0.0
+    0558b70a-9339-4419-aa78-0cbdb25c7b2c:
+      value: 0.0
+    575055ad-c762-4e8b-a7ff-14be0297980a:
+      value: 0.0
+    586922be-4ff4-42ee-affc-9f77eabccfdc:
+      value: 0.0
+    144fd002-c8f8-4e02-9830-9d09af21a90c:
+      value: 0.0
+    403343ea-250a-478e-a597-f2204d8d81e5:
+      value: 0.0
+    b97103d3-b0e3-49be-b86f-fa2a0cb42849:
+      value: 0.0
+    f1f90208-1390-4d81-a27c-19532e131e2d:
+      value: 0.0
+    90f41e55-f346-4f13-8e80-bbf08ce8ddaa:
+      value: 0.0
+    359516e5-8bd5-4602-ac8d-2098098aa896:
+      value: 0.0
+    0af35954-e545-493a-bab6-b6815877a012:
+      value: 0.0
+    4a26fd67-af7f-46bb-9518-ffd1afa8c468:
+      value: 0.0
+    258b1fdd-73f6-4fbf-a603-01316f22505a:
+      value: 0.0
+    89429d9c-8b2e-42f9-819c-b306d2fc0367:
+      value: 0.0
+    9e60bd84-f8d2-433f-abaf-6c5f712eb695:
+      value: 0.0
+    03825363-aac1-452a-a8d9-ae848ce1dd1e:
+      value: 0.0
+    6e4408fd-86e8-4827-bcb1-b296702def5b:
+      value: 0.0
+    0fcd9605-3459-4d75-a18a-a7482294284c:
+      value: 0.0
+    89db0a9e-ea70-49cb-84a4-4576fa83b3b7:
+      value: 0.0
+    c31553c2-c694-4e99-b1e1-aa0074b25f19:
+      value: 0.0
+    0bc62fe5-5f5b-4985-be14-d07d216c8533:
+      value: 0.0
+    ba128c37-de92-4522-a2d9-07599e2eb728:
+      value: 0.0
+    57db326c-6b75-4ee9-aa6d-3bb05e079923:
+      value: 0.0
+    8e867725-a5b5-490d-b422-fbecc94072da:
+      value: 0.0
+    e0133457-6213-42cc-b00d-921411f4ce27:
+      value: 0.0
+    29b59ccc-03e6-49b1-bbd1-26252552723c:
+      value: 0.0
+    d577ddb3-4b79-4ceb-b7f9-8ca72c0685a4:
+      value: 0.0
+    b7a88bb0-3fac-4256-b854-5f2f8ad4c5ab:
+      value: 0.0
+    eb657272-f8f1-4ff1-ac61-235ee910ed85:
+      value: 0.0
+    bfa3437a-263c-4fb7-9d0e-d5b9c7d94fc8:
+      value: 0.0
+    f922e625-5ba3-45eb-b67f-532e85d4a816:
+      value: 0.0
+    d1ad87b0-090a-4634-9a72-842a5fc6b4ac:
+      value: 0.0
+    da95d511-7786-4af4-a0d6-f8d5b73837bd:
+      value: 0.0
+    e0175183-a821-48b4-93ed-6eeca710c95f:
+      value: 0.0
+    872357b8-b028-4d00-843b-0066740c70dd:
+      value: 0.0
+    4e147ade-e9ec-4c6e-8e5d-6a3bb8004242:
+      value: 0.0
+    114bcb13-1189-45fd-89af-f4675c84441d:
+      value: 0.0
+    de5ccbb1-91c0-4833-ae0f-9cbd1107f0b9:
+      value: 0.0
+    b88456f2-6276-4c0a-816e-35036c25a852:
+      value: 0.0
+    61f4fea7-f50f-4b6d-999a-4d8318d7fe5e:
+      value: 0.0
+    7e17f834-5f3a-412e-b1d9-15e3fae94693:
+      value: 0.0
+    c0e6ca80-48ca-435d-8109-8e2f607026a7:
+      value: 0.0
+    9b227bc2-ddd7-4139-b7bc-4ee112674ba7:
+      value: 0.0
+    727a9866-853f-4f0e-a5e8-d3ad045a9730:
+      value: 0.0
+    440a729a-a841-4c6d-a5dd-0171acee47bb:
+      value: 0.0
+    effa28da-8de6-4763-ac73-b7a548751554:
+      value: 0.0
+    9a63b1fc-23ac-432b-baec-80519d932b83:
+      value: 0.0
+    f66ba64a-73c8-4c02-94e0-51510bc20d11:
+      value: 0.0
+    89a9a055-1b75-47c1-a8da-753488e6138b:
+      value: 0.0
+    21a05553-7db0-42ae-b543-c13883039f3d:
+      value: 0.0
+    5f087af2-e496-408a-a7c2-dc1ef37e22fe:
+      value: 0.0
+    241e3a1d-d0b0-49b1-8b5d-81ee64bdcaba:
+      value: 0.0
+    30a3717b-2707-4598-874b-0ad94c28851b:
+      value: 0.0
+    c91a7c8f-02eb-414d-87aa-6088d0f1aa3f:
+      value: 0.0
+    bb2d1120-9da5-48f6-b1ba-0bc83b2a1e4c:
+      value: 0.0
+    1f9cfd41-b600-431b-ae7f-455ebeaea513:
+      value: 0.0
+    614dd7ab-4840-4e45-a4fc-8ade2e9144c0:
+      value: 0.0
+    db6811de-606a-4471-adf7-13ce851acd0f:
+      value: 0.0
+    e9de08c0-3df6-48f1-aa68-06716f847748:
+      value: 0.0
+    d3224341-a8a0-42bd-b67b-cb7ce55a639d:
+      value: 0.0
+    c6aabf54-14b4-4eec-91f7-a2061f992da1:
+      value: 0.0
+    4a2ca235-7b71-4395-945c-cfc22e34a86d:
+      value: 0.0
+    a03ab65e-2b57-4fe7-8aa4-90915a0685d1:
+      value: 0.0
+    ab2b2b7f-6ada-4a34-9a59-0fde3b17a5ad:
+      value: 0.0
+    bbbdb15f-cb04-4b3d-b98c-162132276fe0:
+      value: 0.0
+    3de12d3c-f92d-4620-a345-29893ccb34fd:
+      value: 0.0
+    4a510889-1618-449e-8d8b-3cf3556d6da6:
+      value: 0.0
+    58865f00-76cd-4957-843d-3720d3e567d7:
+      value: 0.0
+    a83beb7a-380c-49f2-98c1-4c8abcc28df6:
+      value: 0.0
+    0ef566c0-2cdb-4c24-9192-b6b97426b8d9:
+      value: 0.0
+    a7de950b-f2fe-4b74-9445-c6cabde12879:
+      value: 0.0
+    debe18dc-9b35-4411-8817-7f940c5b221b:
+      value: 0.0
+    8f1ea17f-6a8d-4002-928d-6b224a5f32ab:
+      value: 0.0
+    3eff7a3b-27bd-4f1d-9dea-fa653beb504e:
+      value: 0.0
+    937febdb-ce07-4198-8e4b-24d272ec82a4:
+      value: 0.0
+    08726cbb-06ba-4d5b-8864-4c7c493fdcfb:
+      value: 0.0
+    340f53ae-90df-4a60-93c4-e92e52c399fb:
+      value: 0.0
+    10136119-a737-4ae6-a6e5-fd74d04de952:
+      value: 0.0
+    4b41068a-cdc0-4ddc-9e45-211d4b065c5a:
+      value: 0.0
+    19cce373-3352-4750-acc4-7cc9ce024e6a:
+      value: 0.0
+    4d8c9e9b-1152-464e-9993-2d03fea61473:
+      value: 0.0
+    8080fdbb-3be8-4537-b106-4575dcbaad39:
+      value: 0.0
+    5dd34e91-9ba2-41c3-a261-746ad6ab8302:
+      value: 0.0
+    076f6c4a-bc34-4848-a98e-014471bee4a7:
+      value: 0.0
+    23c43668-4fe4-4792-a15c-2de5d24731c1:
+      value: 0.0
+    181e5655-47a4-41cd-b447-07bbe7cc237a:
+      value: 0.0
+    8da27c8a-4dde-4a56-b386-9cd630c3c269:
+      value: 0.0
+    eb7a9450-6bf6-4f3e-bcd1-080ba2412ae6:
+      value: 0.0
+    ca00efd3-69f4-4993-a40a-42d7252979b3:
+      value: 0.0
+    416f4e12-5ea6-4496-81c4-8376874b474d:
+      value: 0.0
+    a69ecce6-6a9c-49cd-a75a-9fe43ebc24f9:
+      value: 0.0
+    eb5f5d4d-adec-4a3f-9f67-bfb3c2180f27:
+      value: 0.0
+    125b713e-2b83-4c8c-ab90-8a94cff6c290:
+      value: 0.0
+    614c35bb-51a2-4865-8412-13500990f7c8:
+      value: 0.0
+    a6cbd629-58db-460f-a865-5411ffaad19e:
+      value: 0.0
+    0552a3e8-e0c6-4dfe-8659-d6687e1759b0:
+      value: 0.0
+    749b618c-c853-4e7b-960c-fd319f704f33:
+      value: 0.0
+    44c51850-9de9-441b-8cca-76b64acb1d8b:
+      value: 0.0
+    a94028c1-4780-4f6a-8eb0-c53a3c342b90:
+      value: 0.0
+    059492c8-436b-463e-9520-4511e2aa8449:
+      value: 0.0
+    d0855974-b5c3-4094-b944-5a1cbe00dcd2:
+      value: 0.0
+    b8a0a8d6-34a9-4cb5-b562-5dac216958b0:
+      value: 0.0
+    cd463ff6-7fef-400b-969e-5b2c8ee6db1b:
+      value: 0.0
+    29418e2e-1315-4d84-b5ff-f3d3bbf1bdda:
+      value: 0.0
+    eb9cbae9-56ab-418b-bcce-b81b924867ff:
+      value: 0.0
+    a5d61af0-1044-4f14-890b-3c7e23a41161:
+      value: 0.0
+    bc7f9236-40fb-442d-a036-962373a4bf32:
+      value: 0.0
+    42246cbf-2e8d-47a3-b338-82eaa1acc95f:
+      value: 0.0
+    88c6238f-b34c-4b2c-baf8-fd059c37c6f1:
+      value: 0.0
+    c9e98823-3d7f-4f33-ba4f-bf56f84fa25f:
+      value: 0.0
+    3294e6cd-193b-4f8e-993b-afead5890664:
+      value: 0.0
+    7580b993-f8d4-4173-a738-11bb5a865bbf:
+      value: 0.0
+    8ddad2d0-840f-4394-b0fc-c72ce101df57:
+      value: 0.0
+    efc04f87-98c9-474d-baaa-6e157b8be3d0:
+      value: 0.0
+    80a55338-ef40-48a8-906b-adef0d89ffc9:
+      value: 0.0
+    f6625aff-fe4f-4d48-856c-a9e0315282c2:
+      value: 0.0
+    68999cb6-592d-402f-9a1a-f74b202730f1:
+      value: 0.0
+    157708fc-d6cd-4cf0-9ac2-9dd4e2251b54:
+      value: 0.0
+    4811469f-88ce-413a-be0b-fb57ce2e7d12:
+      value: 0.0
+    7e17a601-5b49-4399-b0b5-e72c3bd046e0:
+      value: 0.0
+    a2c3f213-9bf3-489c-9916-29e6ec84d614:
+      value: 0.0
+    903b3cff-5a47-4f79-a619-6065fb50ca0f:
+      value: 0.0
+    6177a6a1-5937-464a-881c-0e038bfdf4ac:
+      value: 0.0
+    0a48e1af-54ea-4786-80d8-ac01205b79b6:
+      value: 0.0
+    3c9eb1a1-9b18-44ec-8509-d38d701b2ef7:
+      value: 0.0
+    2b085ca1-a93e-4630-8c0d-bcc66f967dc6:
+      value: 0.0
+    d73a8541-26b7-422b-a34c-64695ec3c06f:
+      value: 0.0
+    6b57ab59-8309-41bf-9c04-f1b8bd884230:
+      value: 0.0
+    b1cb7ecc-3363-4603-8ffe-da78e775e864:
+      value: 0.0
+    38ab600f-453e-4489-aaf2-11c39f213820:
+      value: 0.0
+    ff60d774-c481-450c-9acd-8711105ee964:
+      value: 0.0
+    af68e0c3-9218-49b1-a487-153e25502056:
+      value: 0.0
+    a1452d1d-bdf3-4059-b6d3-6c166f15fb85:
+      value: 0.0
+    ffffffff-ffff-ffff-ffff-fffffffffff0:
+      value: 0.0
+    a3222ec8-bb84-4d1d-b74c-084589a79246:
+      value: 0.0
+    185154b1-683e-4e24-ae13-f979564a7d80:
+      value: 0.0
+    db9e37c9-57a0-4fc4-9c2a-d7808f0f6dfe:
+      value: 0.0
+    4d61dddb-9f0c-4e1d-8486-9014aaa7cd20:
+      value: 0.0
+    d5c03b4b-af78-4b9d-bd9b-1df7c7f1cb9c:
+      value: 0.0
+    e642a1df-ed70-4846-bcb2-141af66680f6:
+      value: 0.0
+    a5b8311c-4e0d-4eb3-8a63-0f10e5169756:
+      value: 0.0
+    2ca26c31-739b-4492-9782-f5e6e276c298:
+      value: 0.0
+    107ca566-bb92-4714-b755-450edc611d1a:
+      value: 0.0
+    e08b423b-cbcd-4d08-b13a-519e63ea150e:
+      value: 0.0
+    58355759-f993-4ca1-b30e-4fa76fd7482a:
+      value: 0.0
+    6a047dbf-1411-4f73-be03-f52c8c2cf3d8:
+      value: 0.0
+    dd10e66c-13ff-4779-9754-1ad5579930e4:
+      value: 0.0
+    45dc70e0-5aeb-451a-9c72-1bc2a09cd23a:
+      value: 0.0
+    e5f63f0c-899f-46f9-a634-e014468a135b:
+      value: 0.0
+    189ad2f8-361c-4d00-b902-12b534a83333:
+      value: 0.0
+    83238fcc-4db2-4229-b519-adf66ba7980a:
+      value: 0.0
+    c28bcb83-e0bf-4b95-8dd9-bdcd2e0c8b0b:
+      value: 0.0
+    0a3b2419-7a39-4881-ad5d-05a51ff81d30:
+      value: 0.0
+    82e90522-b028-4668-baf0-a39d53ba30bb:
+      value: 0.0
+    7c03df8a-f8bc-49d7-864f-770be6a09385:
+      value: 0.0
+    562e265a-c718-4f4d-b01b-2c9e349618e7:
+      value: 0.0
+    69ef1180-deb4-4893-9486-4eef9b41d774:
+      value: 0.0
+    b2370953-2444-44a4-b1f0-914e627496a4:
+      value: 0.0
+    34987af2-8d56-4857-a951-469aaa11a29d:
+      value: 0.0
+    9b3ec842-b591-4954-8fe5-906585284473:
+      value: 0.0
+    b343f450-4709-4984-aeb4-3571826c1d90:
+      value: 0.0
+    60ff3e15-ef68-4c52-a0a0-c99f4c4f7d52:
+      value: 0.0
+    6bc662a1-ec8a-4acd-919a-fa627d155c15:
+      value: 0.0
+    fc2b5e28-55ff-464e-9b92-c92a9a18808d:
+      value: 0.0
+    d54e4d4c-a97f-4847-8c2c-584506823b33:
+      value: 0.0
+    01d1c4b9-10c7-430d-9938-f8afa29563a0:
+      value: 0.0
+    95028a76-8eb4-4553-a69e-e921a16c4070:
+      value: 0.0
+    b5166b26-2054-48d2-ba2f-867a8b50def2:
+      value: 0.0
+    b7794602-b208-4a5b-9f4d-fc93501419d1:
+      value: 0.0
+    c815de4f-f229-4adc-864f-85e25a4a6ff6:
+      value: 0.0
+    5abb9585-30ef-49fc-ad4a-833dfe977cbe:
+      value: 0.0
+    21ad878f-6def-44c8-806c-3dbf3510b52d:
+      value: 0.0
+    12506d81-86b5-40db-a283-9ddccbcabcc5:
+      value: 0.0
+    b03e9e17-0c7f-4d8a-9262-4752836f2a39:
+      value: 0.0
+    3310977e-069d-43bb-aa9a-6114b28da095:
+      value: 0.0
+    25b7a6fe-9cf6-45fe-bea0-048bad23021b:
+      value: 0.0
+    f8df1ad8-eca6-4f35-a1e9-637dd8e25a45:
+      value: 0.0
+    57daa932-fb31-4f4d-bf36-115a1d2f7c6f:
+      value: 0.0
+    ffb9072b-980f-4dae-81a3-1d50c87f9054:
+      value: 0.0
+    bfab4e85-2a4b-4961-9e0e-c404765d534e:
+      value: 0.0
+    f69d1886-e9a1-4d2f-a2a6-b2a158391a0c:
+      value: 0.0
+    a1708921-d013-4e94-a9a0-7b5f38943cc9:
+      value: 0.0
+    326af739-9b73-44d8-bfa1-4964352080ab:
+      value: 0.0
+    0126b23e-95e4-410b-a08a-13755a388e8f:
+      value: 0.0
+    ee273781-ab04-4435-85c4-c4389bb6123e:
+      value: 0.0
+    019e0beb-3599-4cd3-9edc-cb9ff8232ae0:
+      value: 0.0
+    acfc583f-fa4b-467b-b7eb-9cc461e681f3:
+      value: 0.0
+    2a59970a-4688-40cd-9c15-46921ec5fca8:
+      value: 0.0
+    5e54177c-fcba-437a-8ff1-d4d9ac3c306b:
+      value: 0.0
+    ebc2fc06-f73f-4e2a-b741-94d9b90ed055:
+      value: 0.0
+    4dd47ecd-87c4-4a8a-b4b9-1cae4813cb10:
+      value: 0.0
+    294f81f7-815b-4901-bebc-faa048d53c4d:
+      value: 0.0
+    e66cd338-e9a6-4483-8448-e3347bf23d54:
+      value: 0.0
+    be3de444-5aa2-400a-a32c-6b335484d2dd:
+      value: 0.0
+    27dca4a7-2671-4280-9f65-90307225dc5b:
+      value: 0.0
+    da7c5eb6-bae7-4da2-aa52-248129239f7b:
+      value: 0.0
+    a5c8305a-d328-423d-a9a8-9402f942e2ef:
+      value: 0.0
+    f1a61185-c9d2-429b-8546-2f2d33fdc6f6:
+      value: 0.0
+    0bd4ecf0-8321-4ae6-8c51-9a7d37f1b02d:
+      value: 0.0
+    7d05c63a-57a6-4aa8-bf8a-7d15efef1ff3:
+      value: 0.0
+    5e9ccfea-735e-4a92-b2b9-abfec9c26b9b:
+      value: 0.0
+    35e5b439-37ef-47cf-a052-35d68250b9d6:
+      value: 0.0
+    706f4612-4150-4385-88ee-1f357fba602d:
+      value: 0.0
+    1d7d0552-2ba4-48a1-a3e6-043760b30604:
+      value: 0.0
+    689b1cd2-bc86-4fcf-8765-d8f51d54e0de:
+      value: 0.0
+    ed504d3d-956f-47e3-b2ba-daf530051fd8:
+      value: 0.0
+    b342db01-200b-406b-a4a3-59f9c97b3cd0:
+      value: 0.0
+    b396a565-007d-4136-8b7d-7d91eea0b564:
+      value: 0.0
+    cf1f2b4c-224d-462c-99cc-ad9508d94994:
+      value: 0.0
+    220ae4c7-4087-4970-97d2-d29605f85de9:
+      value: 0.0
+    57ba9fcc-b47e-48f6-ad92-ada7e67479d6:
+      value: 0.0
+    6a51909e-c2e8-4fc1-953d-55c3e52e784f:
+      value: 0.0
+    3d8c85cb-dee1-444b-acfe-c4975034c0a5:
+      value: 0.0
+    894b3e39-46c3-46dd-9e7e-d3388d486778:
+      value: 0.0
+    456bc476-4113-44ea-90a3-d612a3fcd4b8:
+      value: 0.0
+    8f8c7d8d-7635-4e0e-a779-1848cbca43be:
+      value: 0.0
+    23bdb981-cf9e-4ce5-a3ba-4919c9aed61c:
+      value: 0.0
+    ad5f831d-6d0c-47f3-956d-848a129edc8a:
+      value: 0.0
+    dd8344ac-ec77-43f0-8b8b-5cd3aaa77a1e:
+      value: 0.0
+    a40afab1-f082-4751-aaa2-b24b5307bbae:
+      value: 0.0
+    df454ab3-46b2-468a-8009-2d44046eede8:
+      value: 0.0
+    9ae45692-1b24-46cc-a9ea-714567e71a27:
+      value: 0.0
+    26de586c-743a-4ffc-8e21-c454e977cfc6:
+      value: 0.0
+    4a229c78-2ff9-41b1-a440-4fe6ae28a816:
+      value: 0.0
+    c1553ad2-d1ce-459c-ac0d-b20c544e6611:
+      value: 0.0
+    99fde3cd-09cd-4bb8-bd40-bdf09abfc58e:
+      value: 0.0
+    dd532948-3923-4702-982b-c1a3c62a39a0:
+      value: 0.0
+    5e6fb157-f98a-467d-80e5-a56b5cd54ffd:
+      value: 0.0
+    a2aca717-48cb-409b-b3f5-fe05ad0b07bd:
+      value: 0.0
+    9e9c1c33-140e-4a7a-9b35-274a03e739f2:
+      value: 0.0
+    8652fe70-5687-4293-94f2-b175d7628c62:
+      value: 0.0
+    3fd9f0e6-6996-4fb5-89a1-38885f60abf0:
+      value: 0.0
+    7f4d47b0-3771-4a21-8d2a-f864f9976774:
+      value: 0.0
+    56616bcf-81eb-4e9c-b4f1-c5c739436866:
+      value: 0.0
+    90adf1f7-da23-4105-bf95-f9e081fb4b21:
+      value: 0.0
+    2bddcded-5f3b-4d96-92c8-6106fd2af13e:
+      value: 0.0
+    18fbf87f-baf3-4e1e-b11c-cc723f8fa1c8:
+      value: 0.0
+    de6cf9c4-2c11-473c-9794-0e9aa76e7d96:
+      value: 0.0
+    29112647-c2d8-4c9b-9513-07bad089ba8b:
+      value: 0.0
+    ddf539e5-a8e4-43e8-8355-e318e64478ba:
+      value: 0.0
+    055441a4-29a8-4829-9566-b9603105d188:
+      value: 0.0
+    1bd6eab8-0feb-4788-9314-182eedd3c43d:
+      value: 0.0
+    9e28c6e6-5f1a-422c-b9b8-c28eae6d1c8c:
+      value: 0.0
+    08a919d6-7dd0-47f9-a6c4-dcfc07eece8b:
+      value: 0.0
+    2c723501-993d-475d-9119-153477e13855:
+      value: 0.0
+    7d621b95-04b5-43fe-8b97-ae732029e2bc:
+      value: 0.0
+    9645fda9-6242-43c0-9c87-bf8c6ea1cb14:
+      value: 0.0
+    d58a275a-681c-46ed-a779-c79a430ae917:
+      value: 0.0
+    37b3db09-f3c2-4e7b-a118-8d27683096d3:
+      value: 0.0
+    2ab10ada-b784-426c-a2e9-b53a4108085a:
+      value: 0.0
+    0ab20ef4-1828-4654-b06d-a9796124aff9:
+      value: 0.0
+    809a755c-63b2-4830-82f4-1e4431f8b961:
+      value: 0.0
+    5abd45a6-42e2-43b4-bbee-8254cdcc30c6:
+      value: 0.0
+    0662fb03-c1c4-41bc-bd36-a9737fbdfcd1:
+      value: 0.0
+    80b7555e-b9cc-4223-b336-3d0c21e15fc2:
+      value: 0.0
+    97e22aa7-56ef-4388-8924-6253b43ec109:
+      value: 0.0
+    5ea1c36e-f2d4-4f96-bb1a-967926b38d55:
+      value: 0.0
+    383c7362-aa4c-458b-bd7f-3d3a878d8cc2:
+      value: 0.0
+    a397b789-7ff0-45ce-9bb8-360196ad9049:
+      value: 0.0
+    6dbed8d5-e3f1-47d6-8654-ecdcae7bd735:
+      value: 0.0
+    f88af3cc-0000-4798-a6cb-194b077dcf19:
+      value: 0.0
+    4984b0a7-fdbc-4a73-a045-9baf80974d67:
+      value: 0.0
+    80c3ac24-a302-4e07-9de4-693f0d82d26d:
+      value: 0.0
+    7df603b4-aeb7-4806-9103-db2e4410c717:
+      value: 0.0
+    0bf059f7-1659-43ac-80d1-9cb35a8e5802:
+      value: 0.0
+    4bb5adef-d2f8-49ec-a421-90750b7d353e:
+      value: 0.0
+    e31dfc0f-02ab-4c2d-9494-b0e3356f15e1:
+      value: 0.0
+    837defa8-9c3e-4fc3-93b1-73e6aab110a0:
+      value: 0.0
+    c4ad5fb2-584f-4375-a4d2-9e0b6d932ddc:
+      value: 0.0
+    2f48c17a-1f94-463d-a4da-3100ae657b1d:
+      value: 0.0
+    fe9e8eb9-ae9f-4d4e-9e96-bca602d3e80b:
+      value: 0.0
+    b08eed6f-c55c-453f-a431-0e4b3d668a0e:
+      value: 0.0
+    862ea9b4-7a90-4334-b439-4bedce21623c:
+      value: 0.0
+    cca0bbbd-7ce9-49f6-a01e-83ea9a0693b7:
+      value: 0.0
+    4ee29790-73e7-4f7e-9fb2-e60f08cf4322:
+      value: 0.0
+    c1687c1c-6851-49e5-84c0-e35c1cf409a3:
+      value: 0.0
+    0f4d9a06-6430-422b-92ae-3be4db42905f:
+      value: 0.0
+    969a9670-25d1-41c2-8f02-0a43e0a2b2d1:
+      value: 0.0
+    d71df1b9-0d4a-4e80-b6ab-d4a8eaa94d2d:
+      value: 0.0
+    43dee008-80de-4f61-a5cd-be8d88879c8a:
+      value: 0.0
+    57c58d9f-53b4-4da8-aa38-1f9cc553a9d8:
+      value: 0.0
+    4df34866-7a3e-4d24-a6d9-f15598786711:
+      value: 0.0
+    099c5f15-f929-4e6d-b7a4-d5a81dd7efac:
+      value: 0.0
+    c76897f9-1bad-4f9d-b47f-c1b7e0f22270:
+      value: 0.0
+    08967655-b69b-4313-9d20-8340f5c3df12:
+      value: 0.0
+    a68494c1-6deb-42e6-94d6-066c4046f78e:
+      value: 0.0
+    a5c4779f-0fb1-44e3-bb78-71d75e4258ac:
+      value: 0.0
+    abcf6b70-dfa1-435d-9fc4-95b8c22158cc:
+      value: 0.0
+    feddbc68-e3cb-433b-9cdb-a14d12dbfdfe:
+      value: 0.0
+    4432890c-2dad-4bcb-b76d-c1d013d21f27:
+      value: 0.0
+    76a6912e-f431-41ce-a688-b38d28a6a040:
+      value: 0.0
+    16cd9142-9034-49ec-9c94-4f9879c0a528:
+      value: 0.0
+    230ed7be-637b-4d2c-8a06-c5b64d935155:
+      value: 0.0
+    57ba5693-0072-479a-bf27-0ac533c90979:
+      value: 0.0
+    02364b66-399c-42ca-b121-d147c1c19049:
+      value: 0.0
+    c057c542-9cab-4502-9148-3a5951899418:
+      value: 0.0
+    96fdf7fa-50e5-4b73-afb0-9e7e146ac4b4:
+      value: 0.0
+    880c6b32-0273-4215-adb2-ef234e30bc2c:
+      value: 0.0
+    d10c18c3-6b9a-4f3a-95ba-4c6085f0b8d0:
+      value: 0.0
+    175bddce-231b-4c30-b594-59f14eef675d:
+      value: 0.0
+    c5d3d2e9-cf01-4d7f-8ae4-eeba4ad0b7d5:
+      value: 0.0
+    67f64f59-a014-45c5-8114-def4f4abc84d:
+      value: 0.0
+    b136bd8d-bb85-4e76-aa1e-1b5b6dc4fdbe:
+      value: 0.0
+    c5416cc1-137d-490b-b6b9-1359a3978bee:
+      value: 0.0
+    61497176-14c8-4289-b6de-ed5ee9a14c06:
+      value: 0.0
+    e90d2638-19ec-495a-8086-1a6e516b4cac:
+      value: 0.0
+    f1963fdc-03be-4882-a040-f0928dd78ef7:
+      value: 0.0
+    887f40ba-987d-4eae-9f03-e73dfcb699e0:
+      value: 0.0
+    88508df2-7f0c-4244-87ce-6cd22d83a106:
+      value: 0.0
+    c0f8f8fb-ef7e-45d3-9a93-ff1b3b4a97ca:
+      value: 0.0
+    85900199-6919-4d7a-b232-30ca277b0047:
+      value: 0.0
+    61bf8fea-28fe-4da7-be7d-889fd186bb5c:
+      value: 0.0
+    0ae52ddc-372d-41c9-b5ed-135752734cd9:
+      value: 0.0
+    8649d362-1237-4b6f-84f6-2e3fa951978b:
+      value: 0.0
+    35d3abc0-cda2-400e-9408-a1b171048748:
+      value: 0.0
+    709a9981-fd56-4cfb-805f-4310bd525805:
+      value: 0.0
+    ca31f032-dcc3-4141-ae94-23d098454479:
+      value: 0.0
+    9071df1a-320d-460c-8354-19e7202b1b00:
+      value: 0.0
+    5bf68e67-fe0e-47ab-9f28-ebc5dcd3f713:
+      value: 0.0
+    ad81a953-9a40-45dd-87f3-2dced195d1e8:
+      value: 0.0
+    855e4bce-c94a-4d68-a93b-1f4de52cd2bc:
+      value: 0.0
+    c2a62035-0ed0-49fd-86c9-f17f3f6a601a:
+      value: 0.0
+    bf64d3f9-6fa6-4b2b-afd4-01eed5ff7886:
+      value: 0.0
+    d7e8e708-9754-4d86-a3fe-f9c52a936928:
+      value: 0.0
+    16934dea-e1a1-4204-8e10-5fe456ef684d:
+      value: 0.0
+    c491cf92-3d6d-40cf-b7e6-cd7dd89c23a6:
+      value: 0.0
+    94da74ce-0173-4358-ae91-85e364284552:
+      value: 0.0
+    2f3e5531-ff86-41ae-8494-dc5e052c3b80:
+      value: 0.0
+    e935137d-02b5-49d2-bb64-77f8610d3a9f:
+      value: 0.0
+    8a593ab3-3929-4a5f-b894-f75a707faa46:
+      value: 0.0
+    6728e9a2-600e-434d-93ef-60af5dbdf763:
+      value: 0.0
+    e4fb7c39-7044-4b2b-a32d-e5a68f45af4e:
+      value: 0.0
+    fa6038a2-a3ff-441a-9819-ef8cc5ddf058:
+      value: 0.0
+    ee9b6803-d667-4942-9896-a943e6e347c7:
+      value: 0.0
+    6b5aeccd-d97f-4705-8b7f-011b7e8e5a01:
+      value: 0.0
+    08e6fe03-467b-4893-8399-c661f2d8b022:
+      value: 0.0
+    c01006c1-a4ac-4525-9918-c6af02da217b:
+      value: 0.0
+    9aa397f7-0c4a-495e-b1dc-390bed55f812:
+      value: 0.0
+    3f723bea-249e-41de-b3fb-2fdae68f5b13:
+      value: 0.0
+    c796146d-a5ef-40b2-8fa4-676671cc2994:
+      value: 0.0
+    5a567f0a-9ee9-4675-b928-12e02c186c58:
+      value: 0.0
+    239ace6b-b2b8-4de3-886a-50460ecb94f1:
+      value: 0.0
+    8368a8dc-3c6a-4c4d-b1eb-267306d967a1:
+      value: 0.0
+    7052f294-48e6-48c7-8777-dcffabbb9de8:
+      value: 0.0
+    b4cb22c7-13ce-45cd-a1d1-f7256cc0834d:
+      value: 0.0
+    43238efa-d2c2-4570-b1d4-8993d2c4d9a3:
+      value: 0.0
+    ea75c43e-5ab7-4c5c-b0f4-1c2254c465c0:
+      value: 0.0
+    879d94f0-92dd-4f5a-bfc4-1f324e0c85a4:
+      value: 0.0
+    a53f8b8f-9dfd-4b16-9151-ce4ab9826908:
+      value: 0.0
+    a8d010ce-9565-4c16-b323-2e3e4e43c84e:
+      value: 0.0
+    0a291b74-c6a4-4976-9db8-13f65bb236ec:
+      value: 0.0
+    46302d7c-ced7-4084-be50-18e6ab19e834:
+      value: 0.0
+    fd97f0a9-9896-414b-8f7c-19b8b09be820:
+      value: 0.0
+    b9ca3f91-0b6e-451d-8c0b-f4877c299670:
+      value: 0.0
+    9082682c-1ca3-44af-97aa-5efe4ebaea42:
+      value: 0.0
+    f0c4aedd-7826-43be-8892-d2929cbd1807:
+      value: 0.0
+    46bc5984-b297-4d18-82ef-2f00ac87320a:
+      value: 0.0
+    d24d20fa-12d9-4637-9bb8-1dc493b4befe:
+      value: 0.0
+    e86f0125-d6e8-46b0-9f10-fcf06a1c699b:
+      value: 0.0
+    1780c2fb-a7f3-4e2d-8386-05ea119a2a17:
+      value: 0.0
+    267c54a7-be76-42b1-b7d2-33b219796686:
+      value: 0.0
+    79ac6f83-25a7-4305-96ca-dada5f9563f5:
+      value: 0.0
+    69be03d3-5680-4227-abaa-d33ecc987ad7:
+      value: 0.0
+    15e5d603-d922-4cb7-a13f-11eb73f9656f:
+      value: 0.0
+    55b8fa4d-335e-40b3-a127-971f944cca51:
+      value: 0.0
+    6b316b20-25e1-4933-936c-4bd33b1c9172:
+      value: 0.0
+    7e6e92a2-3444-4102-8487-d2545e0f0303:
+      value: 0.0
+    bf29b24c-84d1-40ef-b8e6-d497a5958c16:
+      value: 0.0
+    eed83eba-3f9c-43e8-b0ee-e714aa2d790a:
+      value: 0.0
+    c51f2905-9444-4f14-a2e4-e5e7e10e3d67:
+      value: 0.0
+    c9e96523-db64-4805-a5cf-172dbb000ea2:
+      value: 0.0
+    6a06a41b-73a1-4c47-9b9d-e672ae541f51:
+      value: 0.0
+    e8bf6772-2ef3-4ec8-aadb-3d8ee13586e7:
+      value: 0.0
+    eb53dc57-9a49-49aa-85ac-07d176502dd4:
+      value: 0.0
+    1e099efa-3bd2-47f7-9b59-d0613bceaf5b:
+      value: 0.0
+    8f1002d9-6771-460a-871e-5ad8cfc11bf5:
+      value: 0.0
+    7ccc76cd-7844-4439-bbab-041963ac7efd:
+      value: 0.0
+    9f5964ce-9268-41d5-a7fb-90b3dce79017:
+      value: 0.0
+    13d7b28e-97e7-41f2-bcb0-d33df6380104:
+      value: 0.0
+    65b77766-8884-4d7d-8bab-8e61e1520c17:
+      value: 0.0
+    578624cb-0a6a-4793-90ed-f9a99e6bf617:
+      value: 0.0
+    2c0ed476-362a-4b57-9f8e-8b5a28b2aa9a:
+      value: 0.0
+    07b9320d-6d8a-4255-939b-c57ab10e8d97:
+      value: 0.0
+    07245ac0-4a3a-4ed4-8829-f8cd0b049aa3:
+      value: 0.0
+    789b9803-3161-4b4c-b5a6-b2339578c00a:
+      value: 0.0
+    f27c1f43-aff5-4920-8843-1f3e2786bff8:
+      value: 0.0
+    716976ea-6435-46b9-9654-11394cc14382:
+      value: 0.0
+    34a29559-6403-4f73-b8fa-09034aa1f0ce:
+      value: 0.0
+    c79cdd7e-76cf-4f96-8acd-aa43dccfc5ba:
+      value: 0.0
+    601b6ec2-2ec3-4ff5-9911-84d638e5ad04:
+      value: 0.0
+    f4fb8857-4cc6-48a0-a5b7-83e49e436ec2:
+      value: 0.0
+    f056ebe5-f54e-4cf0-9fa1-c8a17673d5e4:
+      value: 0.0
+    af192676-fb09-4224-b00c-12cde3a91f5f:
+      value: 0.0
+    fd860596-b43b-418f-bf04-dd5c93654bb0:
+      value: 0.0
+    e1e51639-97b6-44ac-b697-69c82b161c2c:
+      value: 0.0
+    2a40db2f-5216-4f14-8eee-9ef2a3ba3620:
+      value: 0.0
+    0b7bdd91-c6ac-43df-8e58-1116171d6fa3:
+      value: 0.0
+    17d3ce80-a091-44a0-8173-b3fa325167c3:
+      value: 0.0
+    1918ecc2-4d88-409d-9987-d204fc72b9d9:
+      value: 0.0
+    30488d97-745a-4555-aeba-0ab3d108eb90:
+      value: 0.0
+    57126995-a824-40c4-917c-4264e065c4cb:
+      value: 0.0
+    8dbd63e9-1814-4a64-853e-a233ce4b1711:
+      value: 0.0
+    b0766311-1f73-4a42-bace-100145aff3aa:
+      value: 0.0
+    233d8094-4dff-4b89-ba23-97002f9b1088:
+      value: 0.0
+    e2b07536-c4de-4811-891b-4f3e99b9a3f2:
+      value: 0.0
+    06638ac1-c0e6-46d7-a7fa-40abcbfcf166:
+      value: 0.0
+    fdbbd4e7-3603-45d6-9c41-eabc838454bc:
+      value: 0.0
+    63563084-14ab-4fcd-9733-e21a4a75488e:
+      value: 0.0
+    b1904ad9-5d24-46c9-a1dc-c0a594985909:
+      value: 0.0
+    ff426fe7-907b-4dcb-98ca-423631bdbaac:
+      value: 0.0
+    a91992e7-69a3-4baa-97d2-61981fe0c27f:
+      value: 0.0
+    1959d5b9-8126-4456-9bf4-7b0064c53396:
+      value: 0.0
+    c4e65cca-0543-497b-94a1-b98c6c6523a5:
+      value: 0.0
+    3499e583-f743-4698-93be-4fe6817357b4:
+      value: 0.0
+    b4872a2c-0577-4e5a-9a10-7ee650bfe7a4:
+      value: 0.0
+    60279001-d97a-49ad-a9d7-80e34cadbbc2:
+      value: 0.0
+    9b9f40ec-6972-4bdc-b33c-90e5b4ecccaa:
+      value: 0.0
+    27726678-78b2-4ab3-a4cd-0f9ee19b624f:
+      value: 0.0
+    7f52ef48-ff62-44bc-b72c-7c24ff1a5d46:
+      value: 0.0
+    1de55324-9cc0-4a94-99e7-67d2b1e315ae:
+      value: 0.0
+    53231977-fa62-4d19-999a-03265ec747ec:
+      value: 0.0
+    6392fcfb-8e04-4dcb-bce4-a0decabdcc82:
+      value: 0.0
+    3da74e6f-ebb5-4b27-952f-eb2506852976:
+      value: 0.0
+    6b383fd2-feba-49ec-9eae-ec5e906ea476:
+      value: 0.0
+    27276f38-6c1c-4b49-8e09-6ff3d669527d:
+      value: 0.0
+    139da894-e1fa-4cb3-8108-1cafb063e154:
+      value: 0.0
+    7f716a0a-54c7-4442-a28f-3a5a560b15e0:
+      value: 0.0
+    312a0bf0-11aa-4fd7-b5ee-a6a1270a6618:
+      value: 0.0
+    ed19381c-49ad-4735-9728-6ba905b261c9:
+      value: 0.0
+    c10135b2-ab51-436a-98c9-799892eaa8d2:
+      value: 0.0
+    f45a9d67-884a-4d51-99e3-31d6dac25db2:
+      value: 0.0
+    8670709e-955a-42fd-bbc6-ce84391b47e7:
+      value: 0.0
+    b5cffa6e-e19b-43dd-8f10-e88c4d1e5461:
+      value: 0.0
+    afb425e7-fb3e-4bf6-ac06-d7b6e65c93b2:
+      value: 0.0
+    af695c95-98c8-4f11-a0cc-da20cfdcb1b4:
+      value: 0.0
+    6f388622-8925-49ef-8ae9-71a9918f643d:
+      value: 0.0
+    271b21e6-326e-405e-b4e8-d31b58f160e5:
+      value: 0.0
+    77872d26-b025-447b-970e-df895596ecb3:
+      value: 0.0
+    4c80be93-0064-4245-a1f0-a9698d991e8f:
+      value: 0.0
+    33983913-cd1a-4660-afba-3de1d02bac36:
+      value: 0.0
+    dd4ee88a-e93c-41ec-8c11-4b9c1d11fc0b:
+      value: 0.0
+    8c719995-d7bf-4a37-a4fb-789251a72a62:
+      value: 0.0
+    30950f78-b14e-48fb-b62a-e9b2eac1a887:
+      value: 0.0
+    e47674d4-a955-42d1-9ea2-1d1f06804dc6:
+      value: 0.0
+    92b847aa-bb4c-4bed-89af-de307178357e:
+      value: 0.0
+    82ec7612-7313-4491-be0f-049c52369c34:
+      value: 0.0
+    8633add8-fa65-4c54-9b33-b9710a9b22c6:
+      value: 0.0
+    71ee0408-662d-4aa8-8aac-e0ee3e98ae77:
+      value: 0.0
+    770fe024-16f5-4622-82e8-f3fdfe92e45a:
+      value: 0.0
+    b9a665bf-e9b1-49cc-bcfb-6a421be9dd2c:
+      value: 0.0
+    111190ad-e044-4196-b79a-767e1291bf20:
+      value: 0.0
+    26041e0f-d199-40c7-9b66-fcfcb80ab2df:
+      value: 0.0
+    57396826-f3cf-4218-91a2-aca11811db08:
+      value: 0.0
+    5720ea97-a0e8-4d80-af6f-3c6f0580a6fa:
+      value: 0.0
+    d19b7db9-93a0-4961-b078-ba2303d99726:
+      value: 0.0
+    73b9093b-b48f-4c91-af9b-2721ebff05d9:
+      value: 0.0
+    4a39f60b-dc6c-465e-bef5-3fa0f00be312:
+      value: 0.0
+    eba915a5-8262-4463-94ec-30a6099629bf:
+      value: 0.0
+    5d32426c-3105-4256-988e-d4d64c4db460:
+      value: 0.0
+    c25dbaeb-0874-4fff-9400-98e6d88903b1:
+      value: 0.0
+    4f0fd0cb-a590-4bf5-b034-a8d47517ccc5:
+      value: 0.0
+    d6ed2228-dcd3-4fcf-b12d-59ea2d9f7a5d:
+      value: 0.0
+    93c178ef-1f02-4cc6-b8fd-5d4c08ac9513:
+      value: 0.0
+    b78ac942-65a1-4dc6-b8c4-99215ed6d556:
+      value: 0.0
+    90d662c5-4f3a-48f5-957b-b224eb95bc35:
+      value: 0.0
+    41a05609-7e3c-496b-a96a-2e103e64bcc3:
+      value: 0.0
+    c16df153-d70f-4d3b-8c36-fe6a5c02c175:
+      value: 0.0
+    942215b3-5280-4cf0-b2f6-54ab2ab66deb:
+      value: 0.0
+    c0d14ccb-80d6-44e7-afe2-42c303e3a7c8:
+      value: 0.0
+    c1cf53bd-9273-4dd6-bb60-a582de767829:
+      value: 0.0
+    c12ed750-9a18-4f45-81fa-cae109f110b9:
+      value: 0.0
+    b2ca105c-cac6-4f20-9423-43a30819259e:
+      value: 0.0
+    8f23f147-0852-4549-b69b-a81cd19a056f:
+      value: 0.0
+    357eb505-7ff0-4c3c-b3bb-331169617f4c:
+      value: 0.0
+    3f49c8b8-17a2-470b-8698-3fb4b0cfdfaf:
+      value: 0.0
+    6778c38e-acc7-4bfb-be87-4b6f3c2c6769:
+      value: 0.0
+    8b21fa08-e411-4ecc-877c-4b2418832e87:
+      value: 0.0
+    2ffd1aa8-1eed-4d83-8e73-268010c82c0d:
+      value: 0.0
+    4810c897-d958-4c64-b6b9-1b163802f27d:
+      value: 0.0
+    c19ceca1-731d-4afb-9b9a-adfe3d6dc3fe:
+      value: 0.0
+    56cfc747-5457-47a2-9f1f-2ffaed53572c:
+      value: 0.0
+    498e032e-51c2-415e-8bb7-def7c7c4f6c7:
+      value: 0.0
+    79184b75-e2fc-4e9d-83e7-42a8a2dbd79f:
+      value: 0.0
+    3681d6e2-cf7e-4ed4-bb1f-d4e63323c8da:
+      value: 0.0
+    180e14a3-aaf7-4ad6-83f9-6f7bbfd22da8:
+      value: 0.0
+    e9fcd399-1533-4182-bdd6-b1ac9114e1dc:
+      value: 0.0
+    a1b933fa-96ba-4e8f-afa0-717990fb965e:
+      value: 0.0
+    efcae7ba-b31a-4272-bca6-1543da773859:
+      value: 0.0
+    45324a79-f930-454b-bfe9-f19e0de28a75:
+      value: 0.0
+    378d3dce-bb7a-427b-aa50-2c6a1ad38937:
+      value: 0.0
+    ce6ca811-494d-49ee-9fe2-77292163d1ee:
+      value: 0.0
+    ef495c63-02da-4931-b620-5f96891a8f07:
+      value: 0.0
+    083d8cc8-da13-4505-85f9-ac2335385406:
+      value: 0.0
+    8c003c71-4f8d-4afa-b966-9d8d347226c6:
+      value: 0.0
+    64bf1050-7cc7-48fe-acb3-5482696f1e63:
+      value: 0.0
+    9f7a5a91-0f7b-4f92-9eef-1b3733cf34fb:
+      value: 0.0
+    58e33ff3-d269-406f-a1dd-c550aa048c79:
+      value: 0.0
+    377c493f-4d39-4ba0-83b7-2621c282a328:
+      value: 0.0
+    f2846ea1-b0c6-4be8-bfea-1fcdc46a6f55:
+      value: 0.0
+    172bf73a-6574-435d-91f8-ec9894eaafae:
+      value: 0.0
+    818effb2-c6cc-4530-91cb-a728827fe50f:
+      value: 0.0
+    d207c107-39e2-4f96-9eb9-56e9fe126ba8:
+      value: 0.0
+    29fdebdb-4bb5-428d-a17e-0519070fb170:
+      value: 0.0
+    54686893-4f28-4776-b2f2-6e8306750672:
+      value: 0.0
+    32719c9d-a495-469c-bbee-45c5fca91795:
+      value: 0.0
+    84137aa8-1fc9-441b-9172-2d9f44f04724:
+      value: 0.0
+    a45c09e4-f73e-476c-9602-1437378271f4:
+      value: 0.0
+    50d31e9e-8ed9-40af-9f41-b5038ff0b44c:
+      value: 0.0
+    1dcb0696-1ea5-450f-8f26-fb37d895cbbc:
+      value: 0.0
+    f09c378c-29dc-49c4-b62c-681feb13001a:
+      value: 0.0
+    839575ff-9534-4ebb-a06d-12206cf1b908:
+      value: 0.0
+    f99c583e-9424-4fb9-8634-63532bcf8228:
+      value: 0.0
+    466d1308-4de9-4887-87e8-5f6d02b28cb6:
+      value: 0.0
+    209ebe11-35c6-4b5d-8d20-4cdfcfd4a880:
+      value: 0.0
+    ee878378-88bc-4979-b593-5262097a5dc0:
+      value: 0.0
+    398b4492-8945-4781-8ab2-6814b7ec5817:
+      value: 0.0
+    2a1834d8-0d04-4f32-92e3-b6cc0ea44dc1:
+      value: 0.0
+    f393877c-ee96-41dc-9198-66c112d4019e:
+      value: 0.0
+    f71342ce-9d16-4f03-8577-c2496005eb23:
+      value: 0.0
+    a3da818e-7ea6-410f-a986-dff92cf7b764:
+      value: 0.0
+    7eb22eed-2003-49c5-8a80-efdb30977437:
+      value: 0.0
+    52a1495c-c8c4-4260-a0e3-1f2f569dbc30:
+      value: 0.0
+    21fce73b-f6e8-46db-8f96-5e22a1dd96a3:
+      value: 0.0
+    194841b6-6890-44fc-bbdc-10db916246fc:
+      value: 0.0
+    9dc4de0b-3270-42b0-adc1-6e1d72e88251:
+      value: 0.0
+    2fd9dd33-5e8f-4e13-88ef-7e25886780c6:
+      value: 0.0
+    8ff9cada-c283-4950-9dde-9439a73858d7:
+      value: 0.0
+    b5b581ae-dd1f-4ace-9d05-d1c2c8c36f01:
+      value: 0.0
+    3e4dada2-dc00-4699-a4df-26bc451c4210:
+      value: 0.0
+    30c251f6-404a-4347-9db7-d536cf6774c2:
+      value: 0.0
+    556945d5-7ffe-4d60-a826-2163fe443f38:
+      value: 0.0
+    fe90fe38-f25c-4a51-953d-644b632a103e:
+      value: 0.0
+    4ffa08ca-81ea-4cfc-91de-88c831761279:
+      value: 0.0
+  '%statistic_seconds_played%':
+    5485821d-5975-41e6-b620-d7eed1702ea0:
+      value: 0.0
+    aec4c6f3-dfe6-4f0b-8489-114f46c6c2b1:
+      value: 0.0
+    6b23291c-495b-478d-9055-d0d151206bff:
+      value: 0.0
+    f33ae78a-2b3c-4d5b-8706-a9bff290ba36:
+      value: 0.0
+    e703fb8a-1909-41d9-807a-8a3b0d6ea3a1:
+      value: 0.0
+    c6247f77-3873-40e2-848d-7769e23a8747:
+      value: 0.0
+    c899304c-72d0-4b64-adf6-86b28c097718:
+      value: 0.0
+    debce3b8-2786-4993-a24a-206df08ac7e5:
+      value: 0.0
+    693872e6-6383-4f1a-a2c7-4dd6f5cf7a73:
+      value: 0.0
+    546515b9-21ce-4bb0-bc3e-6127993bcb25:
+      value: 0.0
+    9bec1da7-5fd0-4a67-bf8b-4f43963b2f0e:
+      value: 0.0
+    c276d112-ab09-4ac3-a6be-c8aa5b6d1086:
+      value: 0.0
+    820920e3-4747-47fc-8e36-dba308c098e4:
+      value: 0.0
+    6853899d-aa83-4714-b163-187ecb05087b:
+      value: 0.0
+    015abe42-b1fb-4675-8ea7-5ce5aaae6429:
+      value: 0.0
+    0f8aa9d9-d975-47f9-9055-3a6269fbc3f1:
+      value: 0.0
+    54ecafe9-9ffb-4219-a43c-0856076bfa92:
+      value: 0.0
+    75dd0549-48cb-4c6a-908b-2ba68c029765:
+      value: 0.0
+    fa7b7bd9-717b-4509-92af-398369b71332:
+      value: 0.0
+    6068cfc7-3d43-4840-8bf1-a064a03c71c2:
+      value: 0.0
+    45a3c332-e88d-4385-b920-613f7a66b22b:
+      value: 0.0
+    d1295952-cc9f-47a0-9247-14c230f4b677:
+      value: 0.0
+    fb22dca4-24ce-4a30-be86-7d7676422982:
+      value: 0.0
+    e2ceb0ae-3c83-4adb-b380-5e79cc8d695d:
+      value: 0.0
+    a72b2bea-92e8-4c76-856d-ff277d7e09f2:
+      value: 0.0
+    396ac9be-0d47-4fae-9816-2a69f852b8e0:
+      value: 0.0
+    1b7a130e-21b4-4552-af33-f699019345f1:
+      value: 0.0
+    e2991b5c-79eb-4f74-a529-2132639478db:
+      value: 0.0
+    1a91788d-0799-470e-aab5-2b0644f28394:
+      value: 0.0
+    a01deae4-3f81-4667-8308-823074386574:
+      value: 0.0
+    18196ffe-9286-492e-9a84-d41dcab40f8a:
+      value: 0.0
+    3a76fff3-3d8a-4d2e-9804-0ad286d8f30d:
+      value: 0.0
+    ee9744ef-f44c-484e-a3b5-18793325e903:
+      value: 0.0
+    aa8079dc-f826-4efb-8923-453a7d5e4b7d:
+      value: 0.0
+    a7ce6487-8376-4869-b6a5-8056818029f4:
+      value: 0.0
+    28512219-84f9-4921-88a5-6b23cdd50ab4:
+      value: 0.0
+    96a34334-1cbb-474b-9019-8c9c0c360165:
+      value: 0.0
+    f06c825c-0bf3-4894-b658-1ce2c6febb9e:
+      value: 0.0
+    e1a73fe1-8081-4361-82e8-80765849797c:
+      value: 0.0
+    48bc3247-e533-4862-9b6b-c150b2618a61:
+      value: 0.0
+    2eba14ff-e280-4ef8-91b6-8513a8b1d7d2:
+      value: 0.0
+    85ec24cc-5c91-4b0e-8676-1bdcc947642f:
+      value: 0.0
+    bd185c2e-0aef-4e38-a36f-0000f876be5a:
+      value: 0.0
+    016f2641-e888-4a3f-a8de-e572c0fe1de4:
+      value: 0.0
+    e7f7c55b-a214-4bbe-9f02-8850db558d23:
+      value: 0.0
+    18c60ab1-dc59-4c59-b389-14039168c5dd:
+      value: 0.0
+    481d48fe-436b-43b9-905d-0b16d8a7a52c:
+      value: 0.0
+    bfd3a269-2f52-4fe9-8919-2a9eec536ed2:
+      value: 0.0
+    f2b266a3-067e-4b60-89cd-1038cf8e6e74:
+      value: 0.0
+    482a929d-321a-4b8e-9ac0-c4abb389a2e2:
+      value: 0.0
+    f2b9254a-ce8b-4018-8f58-5f3935c9b6a2:
+      value: 0.0
+    70549018-6bfb-4256-a286-5f494ffef8d8:
+      value: 0.0
+    3649ae8f-093d-4751-a944-eb0611a37778:
+      value: 0.0
+    cad1a8dd-aeca-42f2-bdd4-1ec78308fb91:
+      value: 0.0
+    d9ae727b-f6ba-41ee-b84d-9bf4a0c7f034:
+      value: 0.0
+    3026a5d6-4ac2-4a73-8328-e69360d6ff61:
+      value: 0.0
+    b01d1e7a-1794-4ffd-a810-e873ad7abd14:
+      value: 0.0
+    e7f623ff-fc6c-4559-8bce-4fc98a6e2cc4:
+      value: 0.0
+    898a0ded-65ef-4716-a5df-77a469a66f0d:
+      value: 0.0
+    6db9375c-7104-46c5-86a1-6d1232c77e0a:
+      value: 0.0
+    9c5eabf7-126f-418d-8dd9-fbee0adf9669:
+      value: 0.0
+    a5c83720-cb4e-43aa-b4b9-c9d0f38f0dd0:
+      value: 0.0
+    f7b60a58-e32c-45c4-8724-96f3ef09a26c:
+      value: 0.0
+    eff92658-a6ea-4a7d-92bf-ae1a0fdc1992:
+      value: 0.0
+    50f163c9-2fe9-4182-a193-22265b5694b7:
+      value: 0.0
+    8ec97d7d-c4a2-4c4d-b42c-cd6dde73bcb0:
+      value: 0.0
+    55001586-bf94-44f4-a84e-8fc897162485:
+      value: 0.0
+    29294955-81e1-42ae-9499-784cd697bd71:
+      value: 0.0
+    6137a4c1-ea2a-4b6d-a21a-fab3e400dd9a:
+      value: 0.0
+    90e79743-318f-49b4-a98c-06309c62a1c3:
+      value: 0.0
+    e31d794e-3713-4872-a3c1-4a331cf13967:
+      value: 0.0
+    f86e92fd-1626-4d06-bae8-9d1d7ab12de4:
+      value: 0.0
+    d34e4ee3-4682-4c26-9ad7-88aed490a9cf:
+      value: 0.0
+    da50810c-f6a3-4b3a-88e2-76e62c18f2fa:
+      value: 0.0
+    a1cc2569-f70d-424b-85ab-1769b180d143:
+      value: 0.0
+    b66ff8ab-7f4c-4688-9cd6-8de29e11503f:
+      value: 0.0
+    2671928d-64dd-4557-a3b8-f0aacc3b0832:
+      value: 0.0
+    153a6407-b9c4-41ea-aa38-5e21fd2ce031:
+      value: 0.0
+    83a851a2-54e8-498b-8cb2-97a0a254f84e:
+      value: 0.0
+    1af4f553-b4ef-4cdb-83cc-b719ee89b1fa:
+      value: 0.0
+    9d326d61-04e6-4c6c-bd0b-8aaf14f80ff0:
+      value: 0.0
+    fda99b26-0515-45d3-9a89-704fa649e23d:
+      value: 0.0
+    05320cd2-bcdc-4f33-9c0c-7839d7214b34:
+      value: 0.0
+    f24caf0f-e798-45ae-97b5-c3fcc88f1245:
+      value: 0.0
+    aba497da-f7c9-428e-ab77-2765217c70bc:
+      value: 0.0
+    b9281bb1-4f1e-4f02-82de-13bdf61f29f3:
+      value: 0.0
+    0a5f0538-8487-4dbe-9804-d0bcc6f15a6f:
+      value: 0.0
+    d9088334-3ad4-4244-8d1d-67512744fb9b:
+      value: 0.0
+    a312def9-f390-4231-9a21-042744af10dd:
+      value: 0.0
+    faf98b4f-2578-4cc0-8abd-f62261dda4b4:
+      value: 0.0
+    3d599ee0-c261-47c6-88fc-441dc83d68c8:
+      value: 0.0
+    84c99226-2310-4fff-a929-1caab471a3cd:
+      value: 0.0
+    e679533c-7d6d-47a4-af4a-32df71f8d3d9:
+      value: 0.0
+    7dcb8982-8df1-4b6f-a56a-2e3d6d7300f1:
+      value: 0.0
+    8d90d2bc-1285-4607-bf7e-b851edaad2e8:
+      value: 0.0
+    0fc249c9-9aef-4ce9-87bd-8455dc44be7b:
+      value: 0.0
+    33b3b2ae-1603-4438-856c-83e13af8ab5f:
+      value: 0.0
+    ac02467a-f2b2-41fb-8b8d-ba66956a0970:
+      value: 0.0
+    549d0a2e-5a4a-44a1-8b51-3bfc722832d3:
+      value: 0.0
+    5c9d06bc-33af-4703-a476-da27985d88d7:
+      value: 0.0
+    908262a0-8d93-4c08-af55-6ba2a97d5438:
+      value: 0.0
+    57145db1-c0c5-494b-9837-d1832882081f:
+      value: 0.0
+    c70a4c35-a2d5-41d6-b9a9-ffe7fa727642:
+      value: 0.0
+    5b4e89e4-975a-4c1e-b490-24450ed3293e:
+      value: 0.0
+    ea75f906-b8ca-4a0c-b34c-bc7ac8fdd827:
+      value: 0.0
+    aa3819a7-c52f-4ab1-9def-08949b8d5ae3:
+      value: 0.0
+    cbdad4b1-1f75-4536-ba26-280deef3efee:
+      value: 0.0
+    5384f0c7-7c33-4f37-b349-d5df51219e29:
+      value: 0.0
+    b0779491-904a-46f8-9666-8c3060d11294:
+      value: 0.0
+    beabd420-2b71-458e-aa8b-a4d89ab0fa81:
+      value: 0.0
+    29e6ec62-38b2-46dc-ac5a-6c759bd4fa66:
+      value: 0.0
+    1b8fecf7-5def-4685-b355-0e019b38d013:
+      value: 0.0
+    79d94d56-b6e5-4a26-ac49-e02489b3e5f7:
+      value: 0.0
+    8188a1b6-b8bf-4e1a-a1ff-152725288341:
+      value: 0.0
+    08d2ee92-3ca7-4c8d-9d7c-0d5c54acb751:
+      value: 0.0
+    ec847d00-6cf4-4235-9b1a-a65dbed0a961:
+      value: 0.0
+    799a3d51-8804-4f32-b163-2cfdbaba08b2:
+      value: 0.0
+    259d8686-3bda-44d6-9cad-3808f44a1b4a:
+      value: 0.0
+    5e543713-0c8e-451b-8471-bbab26a3efd9:
+      value: 0.0
+    f8a2bed3-b9e7-4b5b-8e5a-9a4f7fe8190d:
+      value: 0.0
+    c9ca8837-cde7-4bc7-8cd2-babd373c3af8:
+      value: 0.0
+    4828d19e-97e2-46b9-bba7-44bdf1561ce6:
+      value: 0.0
+    4b434819-32ee-486d-9dff-582494319204:
+      value: 0.0
+    c1e95f4e-d70e-4dae-b467-9f56cfaaf627:
+      value: 0.0
+    d289dd5a-fa5d-4d85-8579-4dfcba5762e2:
+      value: 0.0
+    434ec079-cc66-49c0-a953-12f3f32cda6f:
+      value: 0.0
+    960092b1-a0ee-4ee1-b437-be50a6c21460:
+      value: 0.0
+    912e5e52-798f-4cda-a3c7-456e80429a86:
+      value: 0.0
+    6e76181a-2472-47f3-a0af-0e877b62a2a8:
+      value: 0.0
+    64404fe9-c881-4600-b288-555ea3b38d04:
+      value: 0.0
+    94a31d2c-2a4f-49bc-a244-3d5b8e3fb8c5:
+      value: 0.0
+    80d393c0-942f-408f-80e0-8b89a1142941:
+      value: 0.0
+    611639a0-7210-4643-91a3-538ec5ef7b2a:
+      value: 0.0
+    cd4d9426-0a10-4ac6-b8cb-e92f46ca309a:
+      value: 0.0
+    56918356-57d5-4110-9eaf-6f722e5bfec6:
+      value: 0.0
+    fc5ce5ce-1dac-4a17-ab29-c4bc7e597866:
+      value: 0.0
+    7fa97ab1-e892-4c74-8e86-2d8356bd58c0:
+      value: 0.0
+    10b6e530-8b22-48da-a5ec-f3ea44675e8f:
+      value: 0.0
+    8f90a320-6bcf-4e6a-a717-71c5d8272593:
+      value: 0.0
+    76878016-e9ac-46d3-b6f4-97651e868af1:
+      value: 0.0
+    10cf7650-f757-4dc5-9bed-4219120899a5:
+      value: 0.0
+    7ca693c0-3805-4225-952c-5e0351532b25:
+      value: 0.0
+    f752eaf0-c304-43f5-ac01-5c9aa4a8793c:
+      value: 0.0
+    a5974882-c536-46be-a84e-652a01c9a66f:
+      value: 0.0
+    af430840-37e2-49ae-a246-7318fb9a3fe9:
+      value: 0.0
+    b36deab4-826a-4c51-b48c-bf1d7c347c18:
+      value: 0.0
+    b93e5fa9-2642-40d3-8f02-d560aa755888:
+      value: 0.0
+    c2305caa-30dc-41f5-8ad7-717ed297d2cd:
+      value: 0.0
+    2417c9bf-237d-46aa-8faf-e1231136d5bd:
+      value: 0.0
+    27e8ca42-2228-43ed-9fcc-5b9489935d0c:
+      value: 0.0
+    e0174865-0718-45f6-991b-4a2d0b85468e:
+      value: 0.0
+    cdb42963-bf1d-4568-b452-61df6e28bda5:
+      value: 0.0
+    73e8df9d-ff9d-423f-b78e-7e93178e6429:
+      value: 0.0
+    de5a5dcc-6424-4e65-a518-f3bd9d5c90df:
+      value: 0.0
+    b1d038cb-003b-4a39-9a33-64f69fef2cd1:
+      value: 0.0
+    7cbb3049-41a1-4e0c-b98d-1c6aede28c3a:
+      value: 0.0
+    3d4d1331-3fe4-4773-9a18-e1e038b1af11:
+      value: 0.0
+    0579067c-f3a0-4df4-b9f5-498b61e8fa7a:
+      value: 0.0
+    73f66983-9c26-4260-9427-4546743b3bd4:
+      value: 0.0
+    e30a3879-1d98-418f-8201-34918458e515:
+      value: 0.0
+    ea2654c4-265a-4abb-8ab2-b5e647a9f78d:
+      value: 0.0
+    bf10bd85-f490-4689-ba72-560fecb39ef9:
+      value: 0.0
+    74ea55a9-314f-4965-a777-b46417e58319:
+      value: 0.0
+    b7c4149b-17f0-491a-9a0b-951d6a0d862e:
+      value: 0.0
+    c9a0370f-3ebe-48ef-992f-bc733529a84a:
+      value: 0.0
+    67566a10-c4c8-4028-899b-257e7380d67b:
+      value: 0.0
+    63034cd5-57bd-4287-8c39-e812cd397b72:
+      value: 0.0
+    fc2b7e2a-8f67-4976-a643-71667f4202c5:
+      value: 0.0
+    25e48e1a-d24c-4e1f-8bf9-609f8a0faf95:
+      value: 0.0
+    b58a6073-e07a-4812-9ea7-27b7a1bcfdb6:
+      value: 0.0
+    533bacdd-178c-4ae9-bc0b-c7cf36f8d4e9:
+      value: 0.0
+    2debe9e3-687a-42b1-a8a2-529844128467:
+      value: 0.0
+    48b9ba2d-d395-490a-a020-5bb05b331031:
+      value: 0.0
+    a147edeb-26eb-43e4-9c24-0622522f8f06:
+      value: 0.0
+    ad291843-fcf4-40e0-8620-34fd7d4b9c77:
+      value: 0.0
+    6197d016-dae3-4055-a3e6-d8756f95a9ec:
+      value: 0.0
+    1bd9fbbd-a37c-4412-bb5a-03a9c8540b2b:
+      value: 0.0
+    8423391f-415b-47c5-8896-9541946718d0:
+      value: 0.0
+    9b639c54-638e-4730-b0d1-8276dc82c90f:
+      value: 0.0
+    0fe523ff-09f4-4147-82a6-df5ab5a37027:
+      value: 0.0
+    cf185015-53a0-4a73-b09f-e29c80c23c8c:
+      value: 0.0
+    c01cd08a-eee8-4ca9-abbf-edf8818187fe:
+      value: 0.0
+    8bbe5d43-166f-4756-a4cf-fc13aa2f8c0a:
+      value: 0.0
+    a9aa62b9-39ab-4982-8310-130e012be123:
+      value: 0.0
+    c46cf789-d048-4533-a868-b249ac7197e4:
+      value: 0.0
+    71758231-36cb-460d-9342-f4301a79a052:
+      value: 0.0
+    838d92d7-0fb0-4271-9703-06f68f1e0751:
+      value: 0.0
+    47d21802-2428-4168-9f55-e2f6adc4e05b:
+      value: 0.0
+    d1d0f399-5597-4e5b-9074-a52837eeb1c5:
+      value: 0.0
+    75ad193f-171b-4ffa-b4e2-a0af5f0307d2:
+      value: 0.0
+    68012f07-b4e4-4777-953f-d874dc11b726:
+      value: 0.0
+    7a85a82a-dd6e-41fa-9eca-97ebbec9677a:
+      value: 0.0
+    2c4a419e-e303-43bf-b755-9f347a96174a:
+      value: 0.0
+    9f04d678-dd7b-4bb6-9f13-942c10174032:
+      value: 0.0
+    fafa530e-7923-4453-a2ef-2d4dfd753ebe:
+      value: 0.0
+    99e59a0d-e0b6-4513-98dc-d36c72768336:
+      value: 0.0
+    d8c35a30-ebb1-46c4-b899-b3f23fd67401:
+      value: 0.0
+    6b73186d-0da9-4128-93be-bce8a57d5b4a:
+      value: 0.0
+    596f4d83-cdd6-4e93-9e3b-0638f32db0bd:
+      value: 0.0
+    86243659-a577-4322-a742-a0f6d5c0daac:
+      value: 0.0
+    6e6a799d-3708-4696-a319-9f5c3ba90377:
+      value: 0.0
+    4c02fb07-c0cf-46fb-acfb-5169a721977f:
+      value: 0.0
+    f57b228b-c91a-40b0-a1bf-362bde5c9563:
+      value: 0.0
+    86b32896-480a-450e-ad65-f82bbcf855a9:
+      value: 0.0
+    f60451da-91d1-4cd4-a981-a0346ad72b40:
+      value: 0.0
+    718a7384-ff0f-49dd-a6cb-873292f2b917:
+      value: 0.0
+    86570832-44c8-4d42-afc0-a042d18b6f17:
+      value: 0.0
+    dd99a5a9-238e-4136-8ff7-8d38c660badd:
+      value: 0.0
+    718116a1-7f7b-48ae-a126-3b32439143fe:
+      value: 0.0
+    8295a092-f1ed-4ad0-847e-a278ef39f8c9:
+      value: 0.0
+    76a40344-71dd-4344-ab8a-bd11f1449669:
+      value: 0.0
+    d6280bab-5e73-4b7c-afe6-be37f15564c0:
+      value: 0.0
+    f0fac4c7-1a9e-43bd-9df8-40ac766042fa:
+      value: 0.0
+    6459977d-ae4e-4053-a576-8f461fba0238:
+      value: 0.0
+    3aaa8745-42b6-4bca-b3ce-9d00be1a18cd:
+      value: 0.0
+    6128e623-cdd1-4ea9-a85a-e43eb7556b96:
+      value: 0.0
+    26c37296-7580-4b21-922c-09588511ae45:
+      value: 0.0
+    863bd1ee-29d9-4058-86bd-8a41e5ec8dab:
+      value: 0.0
+    da6a5861-539e-4e99-a437-f8934a272159:
+      value: 0.0
+    cdfb94ed-14f0-451a-83af-2adceac82191:
+      value: 0.0
+    f73c0af0-79dd-4c6e-8c60-672483e91c16:
+      value: 0.0
+    9966a51a-1d7b-4c6a-aa29-a7716e57feb5:
+      value: 0.0
+    17b73d6a-082a-4660-8ea6-ab087f73f4d2:
+      value: 0.0
+    b8b203d3-2646-4829-9add-2c5bb59faf70:
+      value: 0.0
+    f529bab0-3382-48b4-8ae3-422ea0987fc6:
+      value: 0.0
+    ecd91b57-fb05-42a2-b10b-09592ab495d1:
+      value: 0.0
+    acc2160f-e415-43b9-b119-9b1fd27e4e64:
+      value: 0.0
+    15a2b098-b3b4-4e8d-be38-461fcb8652cc:
+      value: 0.0
+    765b72cb-96f4-43da-923f-4b700ec5fb0f:
+      value: 0.0
+    7e833597-5457-43a9-ad82-0a19b50e5d5e:
+      value: 0.0
+    b5d970bd-227d-4869-8f09-e18d41397fee:
+      value: 0.0
+    ba20297d-90db-495b-bc7c-963555caae48:
+      value: 0.0
+    96747de5-4fa4-4caa-880b-e127cb1591b3:
+      value: 0.0
+    5ba72011-aeff-47f5-a7c6-2ccd04de5640:
+      value: 0.0
+    7a745ed4-96d0-4d03-bedf-7c3b0da8671b:
+      value: 0.0
+    313620ac-f5cc-48f2-accd-8e9de62d21e5:
+      value: 0.0
+    ba34be7d-0cfd-46b8-9c97-7bd9350a457c:
+      value: 0.0
+    ac46c2d9-5961-4404-a3af-e78ebcdd3e0f:
+      value: 0.0
+    6bd72c8b-12b4-4f82-a6d5-9d644ecbfaee:
+      value: 0.0
+    c32949e1-3efe-4654-a383-26d00a5fba5d:
+      value: 0.0
+    79665245-8f97-411c-b098-64f0b83426cc:
+      value: 0.0
+    0b3c9a46-5673-4486-8c46-33b9c8b3adc4:
+      value: 0.0
+    a3cac096-326c-4610-a6e2-909c0a55a239:
+      value: 0.0
+    1a00d706-fed9-4577-8527-73d05ec085e3:
+      value: 0.0
+    1629a860-e9ff-4432-8fa0-167c6751a679:
+      value: 0.0
+    6dc81ddf-257b-4371-b0bc-537fc20b00e7:
+      value: 0.0
+    be50b949-952a-4c85-a733-2de954169fbf:
+      value: 0.0
+    80a6a8e3-e74b-4a0f-8897-c823fb08dfa1:
+      value: 0.0
+    83b89a4c-420e-44dc-aa47-7c30adc89f93:
+      value: 0.0
+    bf35a921-6a6d-4177-a041-46a95b6f2d8f:
+      value: 0.0
+    960395ec-c61f-4e16-a24b-c222acd61a18:
+      value: 0.0
+    08625be2-8435-4560-a0e1-bd53106e11c9:
+      value: 0.0
+    ae5c1e91-745b-4a6f-a337-11484ede6957:
+      value: 0.0
+    8385cc61-9b84-47f5-a50d-6e37c3f4cc4e:
+      value: 0.0
+    9b792f2c-8e5c-4231-ad0d-38184369a183:
+      value: 0.0
+    ea7f7e48-62ed-443a-ba93-3716e8cfd37c:
+      value: 0.0
+    db84fb1f-97dd-4531-b922-2d68c2040721:
+      value: 0.0
+    2e99e393-f92f-407f-9054-e0ce674ff097:
+      value: 0.0
+    5671316f-ebd1-43d6-8367-c767b85a6a1b:
+      value: 0.0
+    3953ca96-5584-4e54-b837-c6523da3f00a:
+      value: 0.0
+    bb57cb5a-4826-4e02-883e-497bba307278:
+      value: 0.0
+    6c12b8ce-19e8-400e-a676-e1eb45d64c1d:
+      value: 0.0
+    c52df555-ac07-4654-8eeb-50f6c2c2a1aa:
+      value: 0.0
+    13ddd619-bc83-4dfc-ac53-6ee3fc266782:
+      value: 0.0
+    4d107acb-257a-459f-b5f5-67c6cc44f42b:
+      value: 0.0
+    4c9b8803-14c6-4810-8fc7-3c0b056425ce:
+      value: 0.0
+    ec0ba484-cbe3-49fd-8738-26b631093175:
+      value: 0.0
+    bb0fa2a9-11e2-4dad-abd8-e9551870284f:
+      value: 0.0
+    c680f2b2-9447-486a-962d-fcac50ca51f6:
+      value: 0.0
+    edc169c5-e13d-4267-b4cc-68341dcba141:
+      value: 0.0
+    db2ebc47-e557-45c2-88aa-d2efad1653f7:
+      value: 0.0
+    eb52408b-310e-4c80-a358-b3caf06e0dff:
+      value: 0.0
+    69a1c160-0da5-46c0-85b6-42fd815b2ee3:
+      value: 0.0
+    6ddde9f0-75b4-4498-bf5f-730b739a5a61:
+      value: 0.0
+    aa7c42d4-8c68-4d16-966f-aee94d6f135d:
+      value: 0.0
+    8932de5a-5970-476f-963c-249d2d9afb67:
+      value: 0.0
+    3f6b86a6-93ad-4788-b5dd-7715b2140641:
+      value: 0.0
+    fe2969de-67aa-4df8-9b57-e4594b1cfaca:
+      value: 0.0
+    7dfb0753-8ad3-4485-871f-daad71fcbbcf:
+      value: 0.0
+    4498bbb8-5014-444e-9789-a7a8d2187e3a:
+      value: 0.0
+    c33b09a3-f6c9-45d3-b1f6-8f36fb22e5ca:
+      value: 0.0
+    cc2cb912-7932-463b-8cb3-7ac8c7730245:
+      value: 0.0
+    271b41a9-db59-491e-9db6-36077aa58296:
+      value: 0.0
+    8205971e-fe2b-4e3d-8cdb-b2e83b16fd1f:
+      value: 0.0
+    f774e875-e889-4a32-8fb4-bb606bbaedee:
+      value: 0.0
+    dc4d2531-fbde-4ab3-bcb0-48866c6c494c:
+      value: 0.0
+    de876851-be9a-49c1-8e33-1eb0c1052949:
+      value: 0.0
+    3d08f3e7-e534-4866-863d-26537ed33002:
+      value: 0.0
+    f628369c-7c75-4344-ba1b-1e81301ed212:
+      value: 0.0
+    250dd925-b0cb-439f-9164-e09a646fe3e0:
+      value: 0.0
+    25f74002-446b-4ad5-81c1-3baf4c309867:
+      value: 0.0
+    337a3619-23a0-40ba-8c46-6774b558fb1e:
+      value: 0.0
+    8c71548d-8577-4a08-8b78-9a7b88bd2134:
+      value: 0.0
+    50dd88b7-e13d-41ec-8bc1-3d91525db3e6:
+      value: 0.0
+    7a940655-a527-42b1-b0e3-16d5ceee12db:
+      value: 0.0
+    01702076-ee1b-4c59-967a-1e56f8a9949c:
+      value: 0.0
+    fe6286fd-fd38-4f41-896a-33bae8046f5d:
+      value: 0.0
+    3bdc0ccc-c611-48ac-8c0c-5c182496cc46:
+      value: 0.0
+    b6440bd1-50ff-49c9-a454-2769cc67e169:
+      value: 0.0
+    ea31644a-cee0-44b9-9126-48b9da1ec8f0:
+      value: 0.0
+    b77bfd84-ef31-4f90-80a5-8925faa0d47c:
+      value: 0.0
+    bf7b1659-3bac-4136-b77c-b9bd6b3b58da:
+      value: 0.0
+    a2c74b65-b2d4-436d-8304-a121a53f2e58:
+      value: 0.0
+    4245826f-db11-4237-a66e-6dbb1cfab53a:
+      value: 0.0
+    ff303d6a-02df-48ef-aedc-cd2020650654:
+      value: 0.0
+    b63efa9b-62ca-4b18-adda-633e829318e5:
+      value: 0.0
+    f5495946-7a95-471a-bd4a-b9c813918d34:
+      value: 0.0
+    009e6efb-550c-4336-8875-bf9e83d28182:
+      value: 0.0
+    962f7085-36a6-4aec-9e47-f1260b0c212e:
+      value: 0.0
+    0339bdeb-1548-41bd-b5be-9e4af9c44db6:
+      value: 0.0
+    59b77e3b-82f0-4226-9324-2a7fc5140b6f:
+      value: 0.0
+    21ff162b-2314-4185-8ff7-24819e071182:
+      value: 0.0
+    323b525e-8b71-44b8-831a-abfa5fcec72e:
+      value: 0.0
+    57b5b9eb-349f-4c7d-a048-d1ca4fb2ff29:
+      value: 0.0
+    472f45d8-1244-487f-ba71-2a634970b438:
+      value: 0.0
+    cf3e4e02-3e0e-4e25-ac7c-6b00a1e9b864:
+      value: 0.0
+    8107b5ab-39fa-481b-a7c8-bcfd623e71d2:
+      value: 0.0
+    9b6ae8ea-7747-4616-a817-8e94306885b5:
+      value: 0.0
+    992e0c9c-7a87-4afd-956f-e49f1645b5d2:
+      value: 0.0
+    7af31856-3f72-4a1b-b8aa-351b3690311f:
+      value: 0.0
+    e6e7dba4-f984-4a91-8c6f-865d5666ee7f:
+      value: 0.0
+    39f94cdb-1c2c-4e72-92fc-a87ef5879383:
+      value: 0.0
+    a4d38c81-2bf3-490f-992c-b0a1fe968034:
+      value: 0.0
+    f7455eb1-c853-4e71-b7ea-10c3ae7d9535:
+      value: 0.0
+    257c4914-a9e8-4342-99b5-a610a5a95d69:
+      value: 0.0
+    5c44b263-2733-4fa6-a9ab-c2c2e78ecbee:
+      value: 0.0
+    8c0ba8db-8f0b-4e31-b917-41884adb100f:
+      value: 0.0
+    902ea5a8-c5b5-410f-98c7-6d11cb97f4d9:
+      value: 0.0
+    d02cf7ab-ab09-430f-b4e5-39b698d767c0:
+      value: 0.0
+    c8aab8c3-976a-4c35-8327-6e108b205666:
+      value: 0.0
+    8b4221fb-c364-4471-8f43-bed65b8dec34:
+      value: 0.0
+    08f94115-9295-4f6f-a5ec-6e161563ed05:
+      value: 0.0
+    18f058f3-9255-44d6-b4b8-5d1d9984896a:
+      value: 0.0
+    9e33aaec-2272-4007-b448-a03995778439:
+      value: 0.0
+    4a323b26-a77b-44c0-8435-e93725fbc38b:
+      value: 0.0
+    8991d4a1-7f2b-4c19-8a18-ce387c74e107:
+      value: 0.0
+    3c8c6693-d128-4616-b431-758cad30da30:
+      value: 0.0
+    6979ad4b-3544-45d6-82a0-a5f78a643c0a:
+      value: 0.0
+    a96b2152-090d-479c-958c-a360224c219d:
+      value: 0.0
+    ad0c1ff8-65b1-4207-8b25-ee276d1cce8d:
+      value: 0.0
+    20b4da7a-7572-4913-a834-2b57e9408516:
+      value: 0.0
+    9a2eb7cd-6d4f-4da2-8ada-876684d23df8:
+      value: 0.0
+    932d9bdc-e1e4-4ada-b658-07ced79e6222:
+      value: 0.0
+    ed94f8fd-fcfd-413c-9bf9-a53747c04658:
+      value: 0.0
+    90628cd5-0194-4d84-b68c-2aea14e0f7c2:
+      value: 0.0
+    577ce8af-deaf-4d08-87c1-0920916d9e52:
+      value: 0.0
+    23584d36-2e53-415a-83de-6b4e77f0622a:
+      value: 0.0
+    6e9073a9-d7b1-41a7-b6ae-27c6816584f6:
+      value: 0.0
+    6b1aacfa-8458-4d57-badf-c4816da39d3c:
+      value: 0.0
+    cd616c2a-c9fa-4f19-9779-6468098d3ae5:
+      value: 0.0
+    f1077170-52a5-48f8-9a58-2aa6549f43ed:
+      value: 0.0
+    398b062e-e538-466f-acfb-646227191699:
+      value: 0.0
+    16b3534f-246b-42da-b914-2122648d941c:
+      value: 0.0
+    8a5b1377-7399-43be-b5c2-4ae62b18cecb:
+      value: 0.0
+    e9f10984-3aa8-4516-b9a6-e11b819f3559:
+      value: 0.0
+    d38377fe-b192-45f1-9e9c-af639a3212ed:
+      value: 0.0
+    4fd61128-7d3b-4e6b-a170-9dc4e9b3f095:
+      value: 0.0
+    0b9de9f2-6362-4b1e-9b4d-18bfd5f3c3eb:
+      value: 0.0
+    04d87a2d-3f6a-4bc2-9394-9370957d5e4a:
+      value: 0.0
+    16473735-3e25-456c-bb7f-26a993429129:
+      value: 0.0
+    f143b015-2545-4152-b26a-7aec828e32b7:
+      value: 0.0
+    aceef17e-fe61-473f-a977-7b97b6874161:
+      value: 0.0
+    d1f8d8c8-fdef-494c-a19c-687e3f8231fd:
+      value: 0.0
+    d227d238-6f34-4261-8a5a-6f15694f54b7:
+      value: 0.0
+    d08d71a0-1f57-4c47-aa5b-99174e8a500d:
+      value: 0.0
+    5496eeaf-293e-4cfd-b08a-47a0c549a66e:
+      value: 0.0
+    422c2341-381f-481d-b224-d18ee65e2912:
+      value: 0.0
+    bd075f55-56a0-470b-8e25-1a0c2ac62097:
+      value: 0.0
+    96509f4a-cd94-4a80-8594-10efb13b1d85:
+      value: 0.0
+    87d864a8-73ed-4708-9417-1322a8544b36:
+      value: 0.0
+    f82a97f7-7b0d-4683-81e6-0288a6dd47f2:
+      value: 0.0
+    d15e0f32-8736-4f4c-b965-fcbc902e9025:
+      value: 0.0
+    1cad12f2-c8a3-4f78-ad7a-89dc48cfe43e:
+      value: 0.0
+    1bd1e093-782b-41ca-b644-39c67181ab7c:
+      value: 0.0
+    63bada41-64a7-4829-9b60-e55f3baeaf7d:
+      value: 0.0
+    dbe5c49f-76e3-457d-945c-07f5c0d1d287:
+      value: 0.0
+    a493f04b-0d26-46ea-ad17-f0742f653734:
+      value: 0.0
+    3b659406-55dd-4c79-b454-876519641ebe:
+      value: 0.0
+    a5bd6505-d14f-4287-a8f1-ce974c283757:
+      value: 0.0
+    6c4f617b-7034-46e0-91d4-c3394bd78cdb:
+      value: 0.0
+    d4bd8e74-45a7-41de-9f14-92ed8938346c:
+      value: 0.0
+    a44c66bc-9fd7-4228-842e-311e0e3c5a4a:
+      value: 0.0
+    ded14b4b-92f4-4fbf-bbd5-f13bbcb2d848:
+      value: 0.0
+    278bfee5-439a-491b-b5c6-21dee2d0df74:
+      value: 0.0
+    c929048c-bd65-4905-8580-8e5e1b25e725:
+      value: 0.0
+    131dfa42-a646-4aa3-b476-728ea7e27af2:
+      value: 0.0
+    1a3ced4d-263f-40c8-ba25-a9f7b74dcb2b:
+      value: 0.0
+    a3d07f64-6823-4e6f-8607-6640c169a859:
+      value: 0.0
+    6d30b37d-c81c-447a-99c7-323a80dcc357:
+      value: 0.0
+    5e03f5d6-d102-4ffe-88c7-f9f5519e47e1:
+      value: 0.0
+    4364fba5-51ba-460f-a35d-f29301396560:
+      value: 0.0
+    82d23f1a-5600-49b9-b18e-d4c1ab6962b8:
+      value: 0.0
+    ab397db2-8369-425b-8ab7-ed5c6b7029fb:
+      value: 0.0
+    c278e4a2-3a2c-44fd-8827-055765c9ba32:
+      value: 0.0
+    495572ec-d4e3-4287-b747-5e76bf5b3d03:
+      value: 0.0
+    c2f99e2d-561e-4cfa-ae85-f02e3056ca66:
+      value: 0.0
+    5327d46a-972c-4494-b946-9f14db890f61:
+      value: 0.0
+    81bdbe76-ec90-4d1b-bc07-c5d390371d7e:
+      value: 0.0
+    bd8334be-a3e4-4767-b0a8-6d0151144f5a:
+      value: 0.0
+    2f381bd9-7df5-482c-bb0b-e3b044b687ac:
+      value: 0.0
+    c6213df9-5d94-4c40-b9bc-ea332503b26d:
+      value: 0.0
+    b238e914-27dc-423f-bad2-c7360d159d0f:
+      value: 0.0
+    2b49258f-360f-4da6-a28d-b4893889610f:
+      value: 0.0
+    2cc6bdc2-d2a1-45cf-add9-86c2ff8101cb:
+      value: 0.0
+    0bd39dd2-3f4a-417f-94fd-eafbb02f38fb:
+      value: 0.0
+    1b263a81-90e6-465d-9fe1-5c503457862c:
+      value: 0.0
+    0ca63de9-6819-4767-b795-fefa9fb3d208:
+      value: 0.0
+    9ab7b77a-57d4-4b48-b08b-18d62711acff:
+      value: 0.0
+    e9ae9c4e-319f-40cf-a0cd-ebdad8afc830:
+      value: 0.0
+    6eb4dae3-76a2-4621-b1af-e171a39dbcf0:
+      value: 0.0
+    53d88428-fce2-436c-9154-eb0d4105a8da:
+      value: 0.0
+    fd1c4e6c-124a-48f2-8f35-783b4f1c5ed9:
+      value: 0.0
+    6a23f06d-76be-432b-9cbb-7a51226db06c:
+      value: 0.0
+    a382e00b-1b82-4d6e-bd8f-ac2b52fd812f:
+      value: 0.0
+    8067f756-7084-41c1-84eb-c0dfde7ee314:
+      value: 0.0
+    5eb6e56e-e8cf-4d31-8d27-4280f8fcfe68:
+      value: 0.0
+    fdf6e7a6-570f-43ee-bcc8-0369f6af3cd2:
+      value: 0.0
+    7168eff8-269f-4688-92f5-dcdc9f10a4d9:
+      value: 0.0
+    cbd035da-69df-4618-b13d-7edf55c2c0cb:
+      value: 0.0
+    30a20dbb-ff80-4ecb-9396-5699c8affa8c:
+      value: 0.0
+    e1fe54e0-f042-46b3-bef2-697fcd128e06:
+      value: 0.0
+    15d8455e-5738-4530-a1f5-cbef63731ccc:
+      value: 0.0
+    b2ed206c-a194-4223-8c0f-c20b427052cd:
+      value: 0.0
+    234ed368-8c73-4e36-a9e9-af261bb9cc67:
+      value: 0.0
+    7aaf00b7-d73a-4f16-8296-e509b6583497:
+      value: 0.0
+    ff713008-e8fe-4dbb-80bd-4564910b4114:
+      value: 0.0
+    b145a60f-60e1-4ad3-94fc-12fdb49b604c:
+      value: 0.0
+    6bdd6fe5-5bf1-46da-b5ba-4e7f055b382f:
+      value: 0.0
+    f668b33e-203c-4263-8725-93ffaee88af7:
+      value: 0.0
+    d538454c-ef74-4b82-a4ad-8a037feb2204:
+      value: 0.0
+    836a9983-e5c0-4b7f-8389-d1e51a23dbdd:
+      value: 0.0
+    ad121f4c-11f0-49d3-acb4-0a6867bae8aa:
+      value: 0.0
+    13ace48a-6cf9-4218-9d6b-83d6bd1311fc:
+      value: 0.0
+    588ffe51-5f9c-42cb-9296-ef8e5797b2d0:
+      value: 0.0
+    4b38fa31-f0f2-4e58-b041-414fc55628a7:
+      value: 0.0
+    1c33a6a7-52b5-4511-a184-b756a1aecd65:
+      value: 0.0
+    d25859a5-bb0d-480e-a04f-0796557421f9:
+      value: 0.0
+    f7952e08-bfb8-498b-b3c6-318705b9c7b1:
+      value: 0.0
+    3e07c646-0097-4fa4-addd-e1e57dc6d15c:
+      value: 0.0
+    897d3d38-433e-4a11-9b78-3066e17030ed:
+      value: 0.0
+    3b767a9d-c307-4e05-a952-3ab6a802ed29:
+      value: 0.0
+    5d5c78f8-5796-4f47-821b-797d9f1b3af7:
+      value: 0.0
+    0cf4256c-3740-4b92-b751-5722c52ca3ef:
+      value: 0.0
+    1d13062f-2ad5-49cc-a5f3-2be857d4fe45:
+      value: 0.0
+    37d7dcee-d865-4326-b61d-dbe09f876230:
+      value: 0.0
+    b709c63c-a691-4878-9349-8d42d59b6fc5:
+      value: 0.0
+    5bd0fc76-fbef-43a8-b62e-4941a0ab0be6:
+      value: 0.0
+    654c9692-fbd3-42dc-b11c-44b26abe7e0e:
+      value: 0.0
+    3e620987-eee9-4ca4-a3ba-eb92328810de:
+      value: 0.0
+    0cb64f2d-b453-422a-b53c-b823deb6bdb9:
+      value: 0.0
+    11eaf665-27b5-4f66-ac87-2d5796a523fa:
+      value: 0.0
+    d21bb81e-cc6d-4b71-b779-72b66c941756:
+      value: 0.0
+    e3b93c40-9564-44cb-870b-c3b666cb663b:
+      value: 0.0
+    1400dec4-8c26-4d4f-ac19-9a9cd514e7e7:
+      value: 0.0
+    e8d20cdf-5af6-4ddf-b303-667c92639ba9:
+      value: 0.0
+    c4884935-f353-4e24-9e57-c61eabf6dcaf:
+      value: 0.0
+    6578eb62-ccfb-4a09-814e-b3b53942bc55:
+      value: 0.0
+    4fa0aaf4-e06d-4f42-9a81-9d22123ff706:
+      value: 0.0
+    7c8f9522-566e-4c25-88d0-eb12e8d48519:
+      value: 0.0
+    d3875e3f-5ead-4e78-b513-8b90a5a5b677:
+      value: 0.0
+    80c4fd1f-c241-4a84-ae47-6c2914cc7f9d:
+      value: 0.0
+    9e1bd02d-ad29-4db3-97f5-930eed1c5f4b:
+      value: 0.0
+    0bb2bc51-80f8-479b-9723-9cc3bf59ac39:
+      value: 0.0
+    df326800-9607-4ce8-b2af-c450e1416bb6:
+      value: 0.0
+    11c32b4c-a70c-4947-a64e-2736011a20ef:
+      value: 0.0
+    cb66bf5f-6eef-46c8-ada2-5e9686107522:
+      value: 0.0
+    f46a25a3-e716-4435-aff5-d68cb55adae5:
+      value: 0.0
+    c29f6d9d-aab8-43e3-a363-1cf6e46455bc:
+      value: 0.0
+    94872c58-db13-49b6-a7e3-52f0107c9752:
+      value: 0.0
+    920f72b7-0e29-49f9-822a-4a87a588f22e:
+      value: 0.0
+    4842e5c0-4ba7-4c8b-af95-7a978146e64f:
+      value: 0.0
+    dae51321-196f-48d3-bc1e-c8655ceff4df:
+      value: 0.0
+    4c905e71-27c7-47d0-a410-03f2194e70d4:
+      value: 0.0
+    090a2f5f-59b0-40f2-81b6-74339be0693c:
+      value: 0.0
+    bd2eeae2-d831-488b-bb0a-6538110540d7:
+      value: 0.0
+    4d733c79-aed0-4b20-905d-fd4c2af41b99:
+      value: 0.0
+    0ad0b2a4-d3a2-4fb5-938e-12476853b5bd:
+      value: 0.0
+    25adb195-b6eb-4199-9c5c-d24fde68085a:
+      value: 0.0
+    9618e554-e798-4a99-8d26-b8423cac973c:
+      value: 0.0
+    0e3d3c8b-7a48-4cff-b484-72058946634e:
+      value: 0.0
+    44101e01-54f5-4205-8c70-96428ce892bb:
+      value: 0.0
+    62d00297-b121-4659-a521-b77cce0b7b3f:
+      value: 0.0
+    8fddf950-d37b-4384-9edd-e0784cfaacea:
+      value: 0.0
+    f2c56f1d-d553-4967-aae8-5cc6ab6f8851:
+      value: 0.0
+    2920aa5b-b221-4a42-a86f-322ec2b1e702:
+      value: 0.0
+    04fb0f40-02bb-4c74-8e9b-b73edb222341:
+      value: 0.0
+    25e7305c-f528-4d8c-850a-90d023529376:
+      value: 0.0
+    de8b4b40-369e-49b4-92c8-02d2b5f8e830:
+      value: 0.0
+    cb174d0f-3aac-4a52-8b2e-3dabe79a60f3:
+      value: 0.0
+    579d9fcc-6b04-43a8-b823-3699391957a2:
+      value: 0.0
+    b178ccd0-6d10-48e4-88a2-8a715c0c8601:
+      value: 0.0
+    d5363d2d-26b7-450e-a9d8-dfc796628b0d:
+      value: 0.0
+    eed646ec-0b0e-41d1-9970-db4cc1be1a7b:
+      value: 0.0
+    8730c5d3-6bd8-43ac-8944-630b55fe51bc:
+      value: 0.0
+    252775a5-34f3-466f-b75b-171c3a11c4aa:
+      value: 0.0
+    d6438513-9524-4ca3-8406-83eeeca8610f:
+      value: 0.0
+    3995a3ac-9520-491b-a3aa-a9abe0190502:
+      value: 0.0
+    a5e335dd-d28a-4a28-ac96-c03dbe703b57:
+      value: 0.0
+    6932191a-1bb9-4429-be19-c135d8bc155f:
+      value: 0.0
+    27576663-250e-4a87-8c5a-5f38da6cbe44:
+      value: 0.0
+    8283127d-dd00-4090-9623-ff4daa5a1ea7:
+      value: 0.0
+    fea66741-bb32-4c7d-8b55-806ae99b05cc:
+      value: 0.0
+    e26289f3-3491-43e6-a2ab-103f22bfc9f7:
+      value: 0.0
+    bc5dcada-2e0f-49bf-9bd3-ad9baef7a889:
+      value: 0.0
+    bf9460f8-e5f6-4684-85bf-06b20661e87c:
+      value: 0.0
+    42127f1d-c1e3-44ba-8ce1-98fdc32c3e73:
+      value: 0.0
+    4188757d-9048-4e91-9a22-0c50c3d652c3:
+      value: 0.0
+    0f6a74b1-f65d-4bb1-a835-d1c7bd494bec:
+      value: 0.0
+    3d4cedb2-bc06-4ded-8c23-3a152e5f94ce:
+      value: 0.0
+    f0debb45-bf8b-4e60-8654-79d484afb5fd:
+      value: 0.0
+    07dd22b8-ba66-4db7-b28b-59290b91e7c4:
+      value: 0.0
+    5af60b58-d10c-4514-b519-5d70167a4d37:
+      value: 0.0
+    91074266-343e-40d6-8e7d-6c52f3d8fcea:
+      value: 0.0
+    65602efa-b912-4a6e-a8a8-2f066abfb392:
+      value: 0.0
+    eb69a0d7-d427-4778-aa32-deb716b3bb43:
+      value: 0.0
+    eafcd4d2-06f8-4295-a9c9-058834cbd76b:
+      value: 0.0
+    3b0148e3-5446-4aca-8ac6-57df820193c0:
+      value: 0.0
+    ac03c4d4-4bf3-4a38-9070-0fd0459aeea0:
+      value: 0.0
+    4a597a0c-3c39-4386-8330-b8f2c45da9bc:
+      value: 0.0
+    7da6d74d-964f-4898-819f-f43f9971b538:
+      value: 0.0
+    a1c396c5-b984-481f-ab88-fe7c78d3de6f:
+      value: 0.0
+    b9fd6cb4-e8c7-442e-bc5a-831ea6e109de:
+      value: 0.0
+    41197a94-ada3-428b-bb6b-95b84b0b289d:
+      value: 0.0
+    c78387fb-9075-4150-adb9-29fbbc86ac7f:
+      value: 0.0
+    ba00b3a0-3aaa-4794-b46a-d64ab9307e55:
+      value: 0.0
+    96c68eaa-73f5-4447-a99a-cc098872b7bc:
+      value: 0.0
+    fb33960d-d3c6-4624-8c9f-e984f455805e:
+      value: 0.0
+    a9cb0669-55e8-4525-96ec-b2195abc78e6:
+      value: 0.0
+    9e1aabb8-fdfc-40f0-bf97-815eb92536ab:
+      value: 0.0
+    b87ba67a-fa19-435f-a14c-648f9f2657b3:
+      value: 0.0
+    3d82c61c-a679-4b27-860b-bafecbb1d81c:
+      value: 0.0
+    912b0824-e548-40b4-ab98-a43d5d93bcdc:
+      value: 0.0
+    15787ca1-b1ef-4a19-b7a3-227932447b32:
+      value: 0.0
+    d1eb197c-f150-4778-ba43-200d87fa11fa:
+      value: 0.0
+    aa9c2184-a12a-4c43-96c4-77fb9979912f:
+      value: 0.0
+    139f9fee-52dd-46be-af89-a0a7bdfb49b0:
+      value: 0.0
+    e81d1f59-fbde-46e5-bb61-03a157fd7a66:
+      value: 0.0
+    fea32c63-3042-41cd-b095-355e78e2e101:
+      value: 0.0
+    437f9337-142d-4546-91a2-12eff757be69:
+      value: 0.0
+    137d587f-fb7f-4894-acc3-13263f904729:
+      value: 0.0
+    4e9bd213-6772-425d-b550-cd148603c4df:
+      value: 0.0
+    e87dfe3b-ca4f-4aed-9eb3-bfa88c8aeb59:
+      value: 0.0
+    0422537c-d844-4740-a885-aec61cef22be:
+      value: 0.0
+    98be3ad1-c9d7-40aa-9204-583b0986e83b:
+      value: 0.0
+    2a2a850f-66db-480c-a533-f1bbbe0f83d5:
+      value: 0.0
+    8f9bbb02-f7cc-45e6-b977-a893d6c89101:
+      value: 0.0
+    d1d5eb24-7abe-4172-a90f-603738a59980:
+      value: 0.0
+    d774189c-9177-4e30-9243-c8ff360dd561:
+      value: 0.0
+    4baccf2e-bb48-4df9-a572-e85f138b6d18:
+      value: 0.0
+    a8624524-7560-4c3f-ab27-e910bd783641:
+      value: 0.0
+    80710358-4e77-4e0f-beba-b384138c501c:
+      value: 0.0
+    85955636-f709-446e-8b48-4d56482398f2:
+      value: 0.0
+    02a6d447-3053-407b-b888-99d1d020dd88:
+      value: 0.0
+    d9e4b12b-5907-4422-b69e-3139e328cbb8:
+      value: 0.0
+    34d0491b-70ab-41d2-949b-485f030545a1:
+      value: 0.0
+    49f47a66-46a6-40e6-ac5c-acb0b86e62c6:
+      value: 0.0
+    191fb73c-aa21-4901-ae20-c51fe7faf219:
+      value: 0.0
+    da15329e-a5ec-462a-8787-8423c08fc84d:
+      value: 0.0
+    4f75b07c-62b9-4e78-8d23-d9b5b3578d66:
+      value: 0.0
+    040e043e-c283-4744-8461-5086a0594049:
+      value: 0.0
+    df261d2d-7f3f-4ba7-91d9-f580394caaee:
+      value: 0.0
+    e469f56e-82c4-4712-93c5-9509fe4d9ff7:
+      value: 0.0
+    52773ac3-3cfd-4727-9d0a-cb93e51590b2:
+      value: 0.0
+    991afabd-5c8a-4549-a356-ddbeb87f70de:
+      value: 0.0
+    62753e8c-2240-44a3-bfdb-3710e5411349:
+      value: 0.0
+    7700cbbb-1989-48b1-9268-8ee4dff512e8:
+      value: 0.0
+    ebc3f5dd-8561-4b1a-bbbe-5fc41077c2d6:
+      value: 0.0
+    173012f1-99d7-4912-bf9f-db92122cc575:
+      value: 0.0
+    937cd4dc-efa5-4a63-a588-aad9147acb5a:
+      value: 0.0
+    e4d8f837-4055-47be-90ab-6a5534ac330f:
+      value: 0.0
+    c3a9395c-b6ec-4245-985e-06e2ab876d3f:
+      value: 0.0
+    04d2f993-45e7-4d66-8609-3b5368162a75:
+      value: 0.0
+    76f2e014-d775-436d-b95d-1b3f14ad174c:
+      value: 0.0
+    20b1a768-a7d7-46f8-b47b-84064b542e8e:
+      value: 0.0
+    57881066-df8f-4efa-b7f8-1d11b7b0f49f:
+      value: 0.0
+    b6d1074c-439a-466c-bd9d-bd06fd779b11:
+      value: 0.0
+    0a90db3c-4344-4cc1-a97d-a16ac9eb90f2:
+      value: 0.0
+    ea7b58ec-b429-4374-a166-f08616acfd6a:
+      value: 0.0
+    e314da8e-e2b9-4749-9608-f6e9c163a83c:
+      value: 0.0
+    3c8e57d4-e87d-4145-a4cf-7b3c340915c3:
+      value: 0.0
+    0d1ffc5c-7e4f-4424-ae54-f117a75d7783:
+      value: 0.0
+    bf38cbd4-800e-44af-a94b-fa24227fb067:
+      value: 0.0
+    192e2fde-f05c-4950-a53d-d23f2c5f35e7:
+      value: 0.0
+    686aecca-227d-4187-8614-6fa270b64746:
+      value: 0.0
+    07409a19-fffd-4dca-9c9d-4439329538a0:
+      value: 0.0
+    60c2ecdd-1718-42bb-93c2-e7d6822d29aa:
+      value: 0.0
+    279c52b9-cc02-4459-a2bf-8eb295856d3a:
+      value: 0.0
+    414072b7-1bd1-4bb3-ba62-4e1bb475b29c:
+      value: 0.0
+    f0343f6b-e628-4327-9de9-b20be76ec4f2:
+      value: 0.0
+    20120368-8d4f-40c6-994a-8775e967635a:
+      value: 0.0
+    afc1e40e-a69e-4bc7-a13a-6ebb2799bb74:
+      value: 0.0
+    5c8e022b-d5ac-4c56-a892-c387409ab2b1:
+      value: 0.0
+    38ab7797-3057-4975-89f6-0d417ce60044:
+      value: 0.0
+    71de01a3-0c09-4cea-9a2b-ae68eb7949e1:
+      value: 0.0
+    75c5864b-9cab-47ae-952e-90cd18d53a28:
+      value: 0.0
+    6a7ff2dd-b88a-4730-9c32-f15ffcb3d1a2:
+      value: 0.0
+    0285f56f-9c32-4b22-9ebe-76e3fe2f5c69:
+      value: 0.0
+    ef53c607-6874-4835-b0d0-aba7356a39f7:
+      value: 0.0
+    d587b177-0ab6-46a4-842a-5b912190a029:
+      value: 0.0
+    67c61fd2-8283-4b7e-98d8-41e1415ad2b7:
+      value: 0.0
+    748937dd-25d6-46c4-87a6-1dfa672c9be4:
+      value: 0.0
+    6f1e2108-75d0-418f-8672-56fdf9626cc8:
+      value: 0.0
+    7c1f3cb3-e60b-400b-b353-b00a7967a37d:
+      value: 0.0
+    c241ca0f-06e2-465f-bb62-1c527a820f15:
+      value: 0.0
+    c6d472bb-ac51-44f3-97b3-bca3269cfe94:
+      value: 0.0
+    1c3a2c8c-7ffc-4eb8-85de-baffc372567c:
+      value: 0.0
+    d4d9af3c-f35a-4ec6-be2e-7cdf7c1b28f2:
+      value: 0.0
+    e0a71bb4-8ca0-4d3c-8485-b4bde3654230:
+      value: 0.0
+    4bfea103-9699-4730-a32c-d2c30b1efd66:
+      value: 0.0
+    5066357e-205a-4aa2-9439-62658bd8a1bb:
+      value: 0.0
+    1c532494-51bd-45b8-8553-6078e60aa7b5:
+      value: 0.0
+    8969100d-e99e-49f6-bd98-dcf976532a6b:
+      value: 0.0
+    ab520598-a2f7-4378-9d55-88c25e7bb876:
+      value: 0.0
+    d472da3d-ff30-4a7a-8448-29521f49701a:
+      value: 0.0
+    f4a29333-8206-4420-9406-4af1fbc9940c:
+      value: 0.0
+    f163a7b6-ac1a-4be0-85c9-aef50f52899c:
+      value: 0.0
+    9f661277-6201-49a2-859f-6a6fd57d14ce:
+      value: 0.0
+    9bf3bf16-3522-470c-9e6b-7fa0b20d89ca:
+      value: 0.0
+    2b66aa5f-646c-4782-b41a-abb68a1dec62:
+      value: 0.0
+    92612cd7-4740-4594-aacc-4ce9da8c9d32:
+      value: 0.0
+    8c60ea38-c596-4630-97f1-a1bbf88fc67f:
+      value: 0.0
+    510022c2-f5e9-4c47-901f-b1a8d3fe3d40:
+      value: 0.0
+    36846682-c132-44ca-9042-a70b2f7cd817:
+      value: 0.0
+    c1ab5687-9dfa-4099-a05b-18206e6f5182:
+      value: 0.0
+    63fc9f97-71e9-4655-a3e4-883cfc3646ae:
+      value: 0.0
+    57d9a069-0e66-4b66-abde-73d40dfd040b:
+      value: 0.0
+    c30bc11d-bc87-4d57-a860-c2948513b392:
+      value: 0.0
+    ad45eb00-67e6-4b25-afb9-3c97dfc62a4d:
+      value: 0.0
+    6b8315d0-20f2-4a6f-9d40-bdbb124842b6:
+      value: 0.0
+    0f343f19-5dd9-456c-ba11-ece0cf23b013:
+      value: 0.0
+    34555720-1e07-4be8-9436-339ad6a29a76:
+      value: 0.0
+    1fb0206c-d8d9-4504-9569-b26475ff2956:
+      value: 0.0
+    3afdd1a1-0371-4260-bd89-76e7d93684b7:
+      value: 0.0
+    29d03ae1-bf60-42c0-86d3-335b1c2d707d:
+      value: 0.0
+    0cc0b4af-c0c6-4d6d-92b0-2625e654a51b:
+      value: 0.0
+    0558b70a-9339-4419-aa78-0cbdb25c7b2c:
+      value: 0.0
+    575055ad-c762-4e8b-a7ff-14be0297980a:
+      value: 0.0
+    586922be-4ff4-42ee-affc-9f77eabccfdc:
+      value: 0.0
+    144fd002-c8f8-4e02-9830-9d09af21a90c:
+      value: 0.0
+    403343ea-250a-478e-a597-f2204d8d81e5:
+      value: 0.0
+    b97103d3-b0e3-49be-b86f-fa2a0cb42849:
+      value: 0.0
+    f1f90208-1390-4d81-a27c-19532e131e2d:
+      value: 0.0
+    90f41e55-f346-4f13-8e80-bbf08ce8ddaa:
+      value: 0.0
+    359516e5-8bd5-4602-ac8d-2098098aa896:
+      value: 0.0
+    0af35954-e545-493a-bab6-b6815877a012:
+      value: 0.0
+    4a26fd67-af7f-46bb-9518-ffd1afa8c468:
+      value: 0.0
+    258b1fdd-73f6-4fbf-a603-01316f22505a:
+      value: 0.0
+    89429d9c-8b2e-42f9-819c-b306d2fc0367:
+      value: 0.0
+    9e60bd84-f8d2-433f-abaf-6c5f712eb695:
+      value: 0.0
+    03825363-aac1-452a-a8d9-ae848ce1dd1e:
+      value: 0.0
+    6e4408fd-86e8-4827-bcb1-b296702def5b:
+      value: 0.0
+    0fcd9605-3459-4d75-a18a-a7482294284c:
+      value: 0.0
+    89db0a9e-ea70-49cb-84a4-4576fa83b3b7:
+      value: 0.0
+    c31553c2-c694-4e99-b1e1-aa0074b25f19:
+      value: 0.0
+    0bc62fe5-5f5b-4985-be14-d07d216c8533:
+      value: 0.0
+    ba128c37-de92-4522-a2d9-07599e2eb728:
+      value: 0.0
+    57db326c-6b75-4ee9-aa6d-3bb05e079923:
+      value: 0.0
+    8e867725-a5b5-490d-b422-fbecc94072da:
+      value: 0.0
+    e0133457-6213-42cc-b00d-921411f4ce27:
+      value: 0.0
+    29b59ccc-03e6-49b1-bbd1-26252552723c:
+      value: 0.0
+    d577ddb3-4b79-4ceb-b7f9-8ca72c0685a4:
+      value: 0.0
+    b7a88bb0-3fac-4256-b854-5f2f8ad4c5ab:
+      value: 0.0
+    eb657272-f8f1-4ff1-ac61-235ee910ed85:
+      value: 0.0
+    bfa3437a-263c-4fb7-9d0e-d5b9c7d94fc8:
+      value: 0.0
+    f922e625-5ba3-45eb-b67f-532e85d4a816:
+      value: 0.0
+    d1ad87b0-090a-4634-9a72-842a5fc6b4ac:
+      value: 0.0
+    da95d511-7786-4af4-a0d6-f8d5b73837bd:
+      value: 0.0
+    e0175183-a821-48b4-93ed-6eeca710c95f:
+      value: 0.0
+    872357b8-b028-4d00-843b-0066740c70dd:
+      value: 0.0
+    4e147ade-e9ec-4c6e-8e5d-6a3bb8004242:
+      value: 0.0
+    114bcb13-1189-45fd-89af-f4675c84441d:
+      value: 0.0
+    de5ccbb1-91c0-4833-ae0f-9cbd1107f0b9:
+      value: 0.0
+    b88456f2-6276-4c0a-816e-35036c25a852:
+      value: 0.0
+    61f4fea7-f50f-4b6d-999a-4d8318d7fe5e:
+      value: 0.0
+    7e17f834-5f3a-412e-b1d9-15e3fae94693:
+      value: 0.0
+    c0e6ca80-48ca-435d-8109-8e2f607026a7:
+      value: 0.0
+    9b227bc2-ddd7-4139-b7bc-4ee112674ba7:
+      value: 0.0
+    727a9866-853f-4f0e-a5e8-d3ad045a9730:
+      value: 0.0
+    440a729a-a841-4c6d-a5dd-0171acee47bb:
+      value: 0.0
+    effa28da-8de6-4763-ac73-b7a548751554:
+      value: 0.0
+    9a63b1fc-23ac-432b-baec-80519d932b83:
+      value: 0.0
+    f66ba64a-73c8-4c02-94e0-51510bc20d11:
+      value: 0.0
+    89a9a055-1b75-47c1-a8da-753488e6138b:
+      value: 0.0
+    21a05553-7db0-42ae-b543-c13883039f3d:
+      value: 0.0
+    5f087af2-e496-408a-a7c2-dc1ef37e22fe:
+      value: 0.0
+    241e3a1d-d0b0-49b1-8b5d-81ee64bdcaba:
+      value: 0.0
+    30a3717b-2707-4598-874b-0ad94c28851b:
+      value: 0.0
+    c91a7c8f-02eb-414d-87aa-6088d0f1aa3f:
+      value: 0.0
+    bb2d1120-9da5-48f6-b1ba-0bc83b2a1e4c:
+      value: 0.0
+    1f9cfd41-b600-431b-ae7f-455ebeaea513:
+      value: 0.0
+    614dd7ab-4840-4e45-a4fc-8ade2e9144c0:
+      value: 0.0
+    db6811de-606a-4471-adf7-13ce851acd0f:
+      value: 0.0
+    e9de08c0-3df6-48f1-aa68-06716f847748:
+      value: 0.0
+    d3224341-a8a0-42bd-b67b-cb7ce55a639d:
+      value: 0.0
+    c6aabf54-14b4-4eec-91f7-a2061f992da1:
+      value: 0.0
+    4a2ca235-7b71-4395-945c-cfc22e34a86d:
+      value: 0.0
+    a03ab65e-2b57-4fe7-8aa4-90915a0685d1:
+      value: 0.0
+    ab2b2b7f-6ada-4a34-9a59-0fde3b17a5ad:
+      value: 0.0
+    bbbdb15f-cb04-4b3d-b98c-162132276fe0:
+      value: 0.0
+    3de12d3c-f92d-4620-a345-29893ccb34fd:
+      value: 0.0
+    4a510889-1618-449e-8d8b-3cf3556d6da6:
+      value: 0.0
+    58865f00-76cd-4957-843d-3720d3e567d7:
+      value: 0.0
+    a83beb7a-380c-49f2-98c1-4c8abcc28df6:
+      value: 0.0
+    0ef566c0-2cdb-4c24-9192-b6b97426b8d9:
+      value: 0.0
+    a7de950b-f2fe-4b74-9445-c6cabde12879:
+      value: 0.0
+    debe18dc-9b35-4411-8817-7f940c5b221b:
+      value: 0.0
+    8f1ea17f-6a8d-4002-928d-6b224a5f32ab:
+      value: 0.0
+    3eff7a3b-27bd-4f1d-9dea-fa653beb504e:
+      value: 0.0
+    937febdb-ce07-4198-8e4b-24d272ec82a4:
+      value: 0.0
+    08726cbb-06ba-4d5b-8864-4c7c493fdcfb:
+      value: 0.0
+    340f53ae-90df-4a60-93c4-e92e52c399fb:
+      value: 0.0
+    10136119-a737-4ae6-a6e5-fd74d04de952:
+      value: 0.0
+    4b41068a-cdc0-4ddc-9e45-211d4b065c5a:
+      value: 0.0
+    19cce373-3352-4750-acc4-7cc9ce024e6a:
+      value: 0.0
+    4d8c9e9b-1152-464e-9993-2d03fea61473:
+      value: 0.0
+    8080fdbb-3be8-4537-b106-4575dcbaad39:
+      value: 0.0
+    5dd34e91-9ba2-41c3-a261-746ad6ab8302:
+      value: 0.0
+    076f6c4a-bc34-4848-a98e-014471bee4a7:
+      value: 0.0
+    23c43668-4fe4-4792-a15c-2de5d24731c1:
+      value: 0.0
+    181e5655-47a4-41cd-b447-07bbe7cc237a:
+      value: 0.0
+    8da27c8a-4dde-4a56-b386-9cd630c3c269:
+      value: 0.0
+    eb7a9450-6bf6-4f3e-bcd1-080ba2412ae6:
+      value: 0.0
+    ca00efd3-69f4-4993-a40a-42d7252979b3:
+      value: 0.0
+    416f4e12-5ea6-4496-81c4-8376874b474d:
+      value: 0.0
+    a69ecce6-6a9c-49cd-a75a-9fe43ebc24f9:
+      value: 0.0
+    eb5f5d4d-adec-4a3f-9f67-bfb3c2180f27:
+      value: 0.0
+    125b713e-2b83-4c8c-ab90-8a94cff6c290:
+      value: 0.0
+    614c35bb-51a2-4865-8412-13500990f7c8:
+      value: 0.0
+    a6cbd629-58db-460f-a865-5411ffaad19e:
+      value: 0.0
+    0552a3e8-e0c6-4dfe-8659-d6687e1759b0:
+      value: 0.0
+    749b618c-c853-4e7b-960c-fd319f704f33:
+      value: 0.0
+    44c51850-9de9-441b-8cca-76b64acb1d8b:
+      value: 0.0
+    a94028c1-4780-4f6a-8eb0-c53a3c342b90:
+      value: 0.0
+    059492c8-436b-463e-9520-4511e2aa8449:
+      value: 0.0
+    d0855974-b5c3-4094-b944-5a1cbe00dcd2:
+      value: 0.0
+    b8a0a8d6-34a9-4cb5-b562-5dac216958b0:
+      value: 0.0
+    cd463ff6-7fef-400b-969e-5b2c8ee6db1b:
+      value: 0.0
+    29418e2e-1315-4d84-b5ff-f3d3bbf1bdda:
+      value: 0.0
+    eb9cbae9-56ab-418b-bcce-b81b924867ff:
+      value: 0.0
+    a5d61af0-1044-4f14-890b-3c7e23a41161:
+      value: 0.0
+    bc7f9236-40fb-442d-a036-962373a4bf32:
+      value: 0.0
+    42246cbf-2e8d-47a3-b338-82eaa1acc95f:
+      value: 0.0
+    88c6238f-b34c-4b2c-baf8-fd059c37c6f1:
+      value: 0.0
+    c9e98823-3d7f-4f33-ba4f-bf56f84fa25f:
+      value: 0.0
+    3294e6cd-193b-4f8e-993b-afead5890664:
+      value: 0.0
+    7580b993-f8d4-4173-a738-11bb5a865bbf:
+      value: 0.0
+    8ddad2d0-840f-4394-b0fc-c72ce101df57:
+      value: 0.0
+    efc04f87-98c9-474d-baaa-6e157b8be3d0:
+      value: 0.0
+    80a55338-ef40-48a8-906b-adef0d89ffc9:
+      value: 0.0
+    f6625aff-fe4f-4d48-856c-a9e0315282c2:
+      value: 0.0
+    68999cb6-592d-402f-9a1a-f74b202730f1:
+      value: 0.0
+    157708fc-d6cd-4cf0-9ac2-9dd4e2251b54:
+      value: 0.0
+    4811469f-88ce-413a-be0b-fb57ce2e7d12:
+      value: 0.0
+    7e17a601-5b49-4399-b0b5-e72c3bd046e0:
+      value: 0.0
+    a2c3f213-9bf3-489c-9916-29e6ec84d614:
+      value: 0.0
+    903b3cff-5a47-4f79-a619-6065fb50ca0f:
+      value: 0.0
+    6177a6a1-5937-464a-881c-0e038bfdf4ac:
+      value: 0.0
+    0a48e1af-54ea-4786-80d8-ac01205b79b6:
+      value: 0.0
+    3c9eb1a1-9b18-44ec-8509-d38d701b2ef7:
+      value: 0.0
+    2b085ca1-a93e-4630-8c0d-bcc66f967dc6:
+      value: 0.0
+    d73a8541-26b7-422b-a34c-64695ec3c06f:
+      value: 0.0
+    6b57ab59-8309-41bf-9c04-f1b8bd884230:
+      value: 0.0
+    b1cb7ecc-3363-4603-8ffe-da78e775e864:
+      value: 0.0
+    38ab600f-453e-4489-aaf2-11c39f213820:
+      value: 0.0
+    ff60d774-c481-450c-9acd-8711105ee964:
+      value: 0.0
+    af68e0c3-9218-49b1-a487-153e25502056:
+      value: 0.0
+    a1452d1d-bdf3-4059-b6d3-6c166f15fb85:
+      value: 0.0
+    ffffffff-ffff-ffff-ffff-fffffffffff0:
+      value: 0.0
+    a3222ec8-bb84-4d1d-b74c-084589a79246:
+      value: 0.0
+    185154b1-683e-4e24-ae13-f979564a7d80:
+      value: 0.0
+    db9e37c9-57a0-4fc4-9c2a-d7808f0f6dfe:
+      value: 0.0
+    4d61dddb-9f0c-4e1d-8486-9014aaa7cd20:
+      value: 0.0
+    d5c03b4b-af78-4b9d-bd9b-1df7c7f1cb9c:
+      value: 0.0
+    e642a1df-ed70-4846-bcb2-141af66680f6:
+      value: 0.0
+    a5b8311c-4e0d-4eb3-8a63-0f10e5169756:
+      value: 0.0
+    2ca26c31-739b-4492-9782-f5e6e276c298:
+      value: 0.0
+    107ca566-bb92-4714-b755-450edc611d1a:
+      value: 0.0
+    e08b423b-cbcd-4d08-b13a-519e63ea150e:
+      value: 0.0
+    58355759-f993-4ca1-b30e-4fa76fd7482a:
+      value: 0.0
+    6a047dbf-1411-4f73-be03-f52c8c2cf3d8:
+      value: 0.0
+    dd10e66c-13ff-4779-9754-1ad5579930e4:
+      value: 0.0
+    45dc70e0-5aeb-451a-9c72-1bc2a09cd23a:
+      value: 0.0
+    e5f63f0c-899f-46f9-a634-e014468a135b:
+      value: 0.0
+    189ad2f8-361c-4d00-b902-12b534a83333:
+      value: 0.0
+    83238fcc-4db2-4229-b519-adf66ba7980a:
+      value: 0.0
+    c28bcb83-e0bf-4b95-8dd9-bdcd2e0c8b0b:
+      value: 0.0
+    0a3b2419-7a39-4881-ad5d-05a51ff81d30:
+      value: 0.0
+    82e90522-b028-4668-baf0-a39d53ba30bb:
+      value: 0.0
+    7c03df8a-f8bc-49d7-864f-770be6a09385:
+      value: 0.0
+    562e265a-c718-4f4d-b01b-2c9e349618e7:
+      value: 0.0
+    69ef1180-deb4-4893-9486-4eef9b41d774:
+      value: 0.0
+    b2370953-2444-44a4-b1f0-914e627496a4:
+      value: 0.0
+    34987af2-8d56-4857-a951-469aaa11a29d:
+      value: 0.0
+    9b3ec842-b591-4954-8fe5-906585284473:
+      value: 0.0
+    b343f450-4709-4984-aeb4-3571826c1d90:
+      value: 0.0
+    60ff3e15-ef68-4c52-a0a0-c99f4c4f7d52:
+      value: 0.0
+    6bc662a1-ec8a-4acd-919a-fa627d155c15:
+      value: 0.0
+    fc2b5e28-55ff-464e-9b92-c92a9a18808d:
+      value: 0.0
+    d54e4d4c-a97f-4847-8c2c-584506823b33:
+      value: 0.0
+    01d1c4b9-10c7-430d-9938-f8afa29563a0:
+      value: 0.0
+    95028a76-8eb4-4553-a69e-e921a16c4070:
+      value: 0.0
+    b5166b26-2054-48d2-ba2f-867a8b50def2:
+      value: 0.0
+    b7794602-b208-4a5b-9f4d-fc93501419d1:
+      value: 0.0
+    c815de4f-f229-4adc-864f-85e25a4a6ff6:
+      value: 0.0
+    5abb9585-30ef-49fc-ad4a-833dfe977cbe:
+      value: 0.0
+    21ad878f-6def-44c8-806c-3dbf3510b52d:
+      value: 0.0
+    12506d81-86b5-40db-a283-9ddccbcabcc5:
+      value: 0.0
+    b03e9e17-0c7f-4d8a-9262-4752836f2a39:
+      value: 0.0
+    3310977e-069d-43bb-aa9a-6114b28da095:
+      value: 0.0
+    25b7a6fe-9cf6-45fe-bea0-048bad23021b:
+      value: 0.0
+    f8df1ad8-eca6-4f35-a1e9-637dd8e25a45:
+      value: 0.0
+    57daa932-fb31-4f4d-bf36-115a1d2f7c6f:
+      value: 0.0
+    ffb9072b-980f-4dae-81a3-1d50c87f9054:
+      value: 0.0
+    bfab4e85-2a4b-4961-9e0e-c404765d534e:
+      value: 0.0
+    f69d1886-e9a1-4d2f-a2a6-b2a158391a0c:
+      value: 0.0
+    a1708921-d013-4e94-a9a0-7b5f38943cc9:
+      value: 0.0
+    326af739-9b73-44d8-bfa1-4964352080ab:
+      value: 0.0
+    0126b23e-95e4-410b-a08a-13755a388e8f:
+      value: 0.0
+    ee273781-ab04-4435-85c4-c4389bb6123e:
+      value: 0.0
+    019e0beb-3599-4cd3-9edc-cb9ff8232ae0:
+      value: 0.0
+    acfc583f-fa4b-467b-b7eb-9cc461e681f3:
+      value: 0.0
+    2a59970a-4688-40cd-9c15-46921ec5fca8:
+      value: 0.0
+    5e54177c-fcba-437a-8ff1-d4d9ac3c306b:
+      value: 0.0
+    ebc2fc06-f73f-4e2a-b741-94d9b90ed055:
+      value: 0.0
+    4dd47ecd-87c4-4a8a-b4b9-1cae4813cb10:
+      value: 0.0
+    294f81f7-815b-4901-bebc-faa048d53c4d:
+      value: 0.0
+    e66cd338-e9a6-4483-8448-e3347bf23d54:
+      value: 0.0
+    be3de444-5aa2-400a-a32c-6b335484d2dd:
+      value: 0.0
+    27dca4a7-2671-4280-9f65-90307225dc5b:
+      value: 0.0
+    da7c5eb6-bae7-4da2-aa52-248129239f7b:
+      value: 0.0
+    a5c8305a-d328-423d-a9a8-9402f942e2ef:
+      value: 0.0
+    f1a61185-c9d2-429b-8546-2f2d33fdc6f6:
+      value: 0.0
+    0bd4ecf0-8321-4ae6-8c51-9a7d37f1b02d:
+      value: 0.0
+    7d05c63a-57a6-4aa8-bf8a-7d15efef1ff3:
+      value: 0.0
+    5e9ccfea-735e-4a92-b2b9-abfec9c26b9b:
+      value: 0.0
+    35e5b439-37ef-47cf-a052-35d68250b9d6:
+      value: 0.0
+    706f4612-4150-4385-88ee-1f357fba602d:
+      value: 0.0
+    1d7d0552-2ba4-48a1-a3e6-043760b30604:
+      value: 0.0
+    689b1cd2-bc86-4fcf-8765-d8f51d54e0de:
+      value: 0.0
+    ed504d3d-956f-47e3-b2ba-daf530051fd8:
+      value: 0.0
+    b342db01-200b-406b-a4a3-59f9c97b3cd0:
+      value: 0.0
+    b396a565-007d-4136-8b7d-7d91eea0b564:
+      value: 0.0
+    cf1f2b4c-224d-462c-99cc-ad9508d94994:
+      value: 0.0
+    220ae4c7-4087-4970-97d2-d29605f85de9:
+      value: 0.0
+    57ba9fcc-b47e-48f6-ad92-ada7e67479d6:
+      value: 0.0
+    6a51909e-c2e8-4fc1-953d-55c3e52e784f:
+      value: 0.0
+    3d8c85cb-dee1-444b-acfe-c4975034c0a5:
+      value: 0.0
+    894b3e39-46c3-46dd-9e7e-d3388d486778:
+      value: 0.0
+    456bc476-4113-44ea-90a3-d612a3fcd4b8:
+      value: 0.0
+    8f8c7d8d-7635-4e0e-a779-1848cbca43be:
+      value: 0.0
+    23bdb981-cf9e-4ce5-a3ba-4919c9aed61c:
+      value: 0.0
+    ad5f831d-6d0c-47f3-956d-848a129edc8a:
+      value: 0.0
+    dd8344ac-ec77-43f0-8b8b-5cd3aaa77a1e:
+      value: 0.0
+    a40afab1-f082-4751-aaa2-b24b5307bbae:
+      value: 0.0
+    df454ab3-46b2-468a-8009-2d44046eede8:
+      value: 0.0
+    9ae45692-1b24-46cc-a9ea-714567e71a27:
+      value: 0.0
+    26de586c-743a-4ffc-8e21-c454e977cfc6:
+      value: 0.0
+    4a229c78-2ff9-41b1-a440-4fe6ae28a816:
+      value: 0.0
+    c1553ad2-d1ce-459c-ac0d-b20c544e6611:
+      value: 0.0
+    99fde3cd-09cd-4bb8-bd40-bdf09abfc58e:
+      value: 0.0
+    dd532948-3923-4702-982b-c1a3c62a39a0:
+      value: 0.0
+    5e6fb157-f98a-467d-80e5-a56b5cd54ffd:
+      value: 0.0
+    a2aca717-48cb-409b-b3f5-fe05ad0b07bd:
+      value: 0.0
+    9e9c1c33-140e-4a7a-9b35-274a03e739f2:
+      value: 0.0
+    8652fe70-5687-4293-94f2-b175d7628c62:
+      value: 0.0
+    3fd9f0e6-6996-4fb5-89a1-38885f60abf0:
+      value: 0.0
+    7f4d47b0-3771-4a21-8d2a-f864f9976774:
+      value: 0.0
+    56616bcf-81eb-4e9c-b4f1-c5c739436866:
+      value: 0.0
+    90adf1f7-da23-4105-bf95-f9e081fb4b21:
+      value: 0.0
+    2bddcded-5f3b-4d96-92c8-6106fd2af13e:
+      value: 0.0
+    18fbf87f-baf3-4e1e-b11c-cc723f8fa1c8:
+      value: 0.0
+    de6cf9c4-2c11-473c-9794-0e9aa76e7d96:
+      value: 0.0
+    29112647-c2d8-4c9b-9513-07bad089ba8b:
+      value: 0.0
+    ddf539e5-a8e4-43e8-8355-e318e64478ba:
+      value: 0.0
+    055441a4-29a8-4829-9566-b9603105d188:
+      value: 0.0
+    1bd6eab8-0feb-4788-9314-182eedd3c43d:
+      value: 0.0
+    9e28c6e6-5f1a-422c-b9b8-c28eae6d1c8c:
+      value: 0.0
+    08a919d6-7dd0-47f9-a6c4-dcfc07eece8b:
+      value: 0.0
+    2c723501-993d-475d-9119-153477e13855:
+      value: 0.0
+    7d621b95-04b5-43fe-8b97-ae732029e2bc:
+      value: 0.0
+    9645fda9-6242-43c0-9c87-bf8c6ea1cb14:
+      value: 0.0
+    d58a275a-681c-46ed-a779-c79a430ae917:
+      value: 0.0
+    37b3db09-f3c2-4e7b-a118-8d27683096d3:
+      value: 0.0
+    2ab10ada-b784-426c-a2e9-b53a4108085a:
+      value: 0.0
+    0ab20ef4-1828-4654-b06d-a9796124aff9:
+      value: 0.0
+    809a755c-63b2-4830-82f4-1e4431f8b961:
+      value: 0.0
+    5abd45a6-42e2-43b4-bbee-8254cdcc30c6:
+      value: 0.0
+    0662fb03-c1c4-41bc-bd36-a9737fbdfcd1:
+      value: 0.0
+    80b7555e-b9cc-4223-b336-3d0c21e15fc2:
+      value: 0.0
+    97e22aa7-56ef-4388-8924-6253b43ec109:
+      value: 0.0
+    5ea1c36e-f2d4-4f96-bb1a-967926b38d55:
+      value: 0.0
+    383c7362-aa4c-458b-bd7f-3d3a878d8cc2:
+      value: 0.0
+    a397b789-7ff0-45ce-9bb8-360196ad9049:
+      value: 0.0
+    6dbed8d5-e3f1-47d6-8654-ecdcae7bd735:
+      value: 0.0
+    f88af3cc-0000-4798-a6cb-194b077dcf19:
+      value: 0.0
+    4984b0a7-fdbc-4a73-a045-9baf80974d67:
+      value: 0.0
+    80c3ac24-a302-4e07-9de4-693f0d82d26d:
+      value: 0.0
+    7df603b4-aeb7-4806-9103-db2e4410c717:
+      value: 0.0
+    0bf059f7-1659-43ac-80d1-9cb35a8e5802:
+      value: 0.0
+    4bb5adef-d2f8-49ec-a421-90750b7d353e:
+      value: 0.0
+    e31dfc0f-02ab-4c2d-9494-b0e3356f15e1:
+      value: 0.0
+    837defa8-9c3e-4fc3-93b1-73e6aab110a0:
+      value: 0.0
+    c4ad5fb2-584f-4375-a4d2-9e0b6d932ddc:
+      value: 0.0
+    2f48c17a-1f94-463d-a4da-3100ae657b1d:
+      value: 0.0
+    fe9e8eb9-ae9f-4d4e-9e96-bca602d3e80b:
+      value: 0.0
+    b08eed6f-c55c-453f-a431-0e4b3d668a0e:
+      value: 0.0
+    862ea9b4-7a90-4334-b439-4bedce21623c:
+      value: 0.0
+    cca0bbbd-7ce9-49f6-a01e-83ea9a0693b7:
+      value: 0.0
+    4ee29790-73e7-4f7e-9fb2-e60f08cf4322:
+      value: 0.0
+    c1687c1c-6851-49e5-84c0-e35c1cf409a3:
+      value: 0.0
+    0f4d9a06-6430-422b-92ae-3be4db42905f:
+      value: 0.0
+    969a9670-25d1-41c2-8f02-0a43e0a2b2d1:
+      value: 0.0
+    d71df1b9-0d4a-4e80-b6ab-d4a8eaa94d2d:
+      value: 0.0
+    43dee008-80de-4f61-a5cd-be8d88879c8a:
+      value: 0.0
+    57c58d9f-53b4-4da8-aa38-1f9cc553a9d8:
+      value: 0.0
+    4df34866-7a3e-4d24-a6d9-f15598786711:
+      value: 0.0
+    099c5f15-f929-4e6d-b7a4-d5a81dd7efac:
+      value: 0.0
+    c76897f9-1bad-4f9d-b47f-c1b7e0f22270:
+      value: 0.0
+    08967655-b69b-4313-9d20-8340f5c3df12:
+      value: 0.0
+    a68494c1-6deb-42e6-94d6-066c4046f78e:
+      value: 0.0
+    a5c4779f-0fb1-44e3-bb78-71d75e4258ac:
+      value: 0.0
+    abcf6b70-dfa1-435d-9fc4-95b8c22158cc:
+      value: 0.0
+    feddbc68-e3cb-433b-9cdb-a14d12dbfdfe:
+      value: 0.0
+    4432890c-2dad-4bcb-b76d-c1d013d21f27:
+      value: 0.0
+    76a6912e-f431-41ce-a688-b38d28a6a040:
+      value: 0.0
+    16cd9142-9034-49ec-9c94-4f9879c0a528:
+      value: 0.0
+    230ed7be-637b-4d2c-8a06-c5b64d935155:
+      value: 0.0
+    57ba5693-0072-479a-bf27-0ac533c90979:
+      value: 0.0
+    02364b66-399c-42ca-b121-d147c1c19049:
+      value: 0.0
+    c057c542-9cab-4502-9148-3a5951899418:
+      value: 0.0
+    96fdf7fa-50e5-4b73-afb0-9e7e146ac4b4:
+      value: 0.0
+    880c6b32-0273-4215-adb2-ef234e30bc2c:
+      value: 0.0
+    d10c18c3-6b9a-4f3a-95ba-4c6085f0b8d0:
+      value: 0.0
+    175bddce-231b-4c30-b594-59f14eef675d:
+      value: 0.0
+    c5d3d2e9-cf01-4d7f-8ae4-eeba4ad0b7d5:
+      value: 0.0
+    67f64f59-a014-45c5-8114-def4f4abc84d:
+      value: 0.0
+    b136bd8d-bb85-4e76-aa1e-1b5b6dc4fdbe:
+      value: 0.0
+    c5416cc1-137d-490b-b6b9-1359a3978bee:
+      value: 0.0
+    61497176-14c8-4289-b6de-ed5ee9a14c06:
+      value: 0.0
+    e90d2638-19ec-495a-8086-1a6e516b4cac:
+      value: 0.0
+    f1963fdc-03be-4882-a040-f0928dd78ef7:
+      value: 0.0
+    887f40ba-987d-4eae-9f03-e73dfcb699e0:
+      value: 0.0
+    88508df2-7f0c-4244-87ce-6cd22d83a106:
+      value: 0.0
+    c0f8f8fb-ef7e-45d3-9a93-ff1b3b4a97ca:
+      value: 0.0
+    85900199-6919-4d7a-b232-30ca277b0047:
+      value: 0.0
+    61bf8fea-28fe-4da7-be7d-889fd186bb5c:
+      value: 0.0
+    0ae52ddc-372d-41c9-b5ed-135752734cd9:
+      value: 0.0
+    8649d362-1237-4b6f-84f6-2e3fa951978b:
+      value: 0.0
+    35d3abc0-cda2-400e-9408-a1b171048748:
+      value: 0.0
+    709a9981-fd56-4cfb-805f-4310bd525805:
+      value: 0.0
+    ca31f032-dcc3-4141-ae94-23d098454479:
+      value: 0.0
+    9071df1a-320d-460c-8354-19e7202b1b00:
+      value: 0.0
+    5bf68e67-fe0e-47ab-9f28-ebc5dcd3f713:
+      value: 0.0
+    ad81a953-9a40-45dd-87f3-2dced195d1e8:
+      value: 0.0
+    855e4bce-c94a-4d68-a93b-1f4de52cd2bc:
+      value: 0.0
+    c2a62035-0ed0-49fd-86c9-f17f3f6a601a:
+      value: 0.0
+    bf64d3f9-6fa6-4b2b-afd4-01eed5ff7886:
+      value: 0.0
+    d7e8e708-9754-4d86-a3fe-f9c52a936928:
+      value: 0.0
+    16934dea-e1a1-4204-8e10-5fe456ef684d:
+      value: 0.0
+    c491cf92-3d6d-40cf-b7e6-cd7dd89c23a6:
+      value: 0.0
+    94da74ce-0173-4358-ae91-85e364284552:
+      value: 0.0
+    2f3e5531-ff86-41ae-8494-dc5e052c3b80:
+      value: 0.0
+    e935137d-02b5-49d2-bb64-77f8610d3a9f:
+      value: 0.0
+    8a593ab3-3929-4a5f-b894-f75a707faa46:
+      value: 0.0
+    6728e9a2-600e-434d-93ef-60af5dbdf763:
+      value: 0.0
+    e4fb7c39-7044-4b2b-a32d-e5a68f45af4e:
+      value: 0.0
+    fa6038a2-a3ff-441a-9819-ef8cc5ddf058:
+      value: 0.0
+    ee9b6803-d667-4942-9896-a943e6e347c7:
+      value: 0.0
+    6b5aeccd-d97f-4705-8b7f-011b7e8e5a01:
+      value: 0.0
+    08e6fe03-467b-4893-8399-c661f2d8b022:
+      value: 0.0
+    c01006c1-a4ac-4525-9918-c6af02da217b:
+      value: 0.0
+    9aa397f7-0c4a-495e-b1dc-390bed55f812:
+      value: 0.0
+    3f723bea-249e-41de-b3fb-2fdae68f5b13:
+      value: 0.0
+    c796146d-a5ef-40b2-8fa4-676671cc2994:
+      value: 0.0
+    5a567f0a-9ee9-4675-b928-12e02c186c58:
+      value: 0.0
+    239ace6b-b2b8-4de3-886a-50460ecb94f1:
+      value: 0.0
+    8368a8dc-3c6a-4c4d-b1eb-267306d967a1:
+      value: 0.0
+    7052f294-48e6-48c7-8777-dcffabbb9de8:
+      value: 0.0
+    b4cb22c7-13ce-45cd-a1d1-f7256cc0834d:
+      value: 0.0
+    43238efa-d2c2-4570-b1d4-8993d2c4d9a3:
+      value: 0.0
+    ea75c43e-5ab7-4c5c-b0f4-1c2254c465c0:
+      value: 0.0
+    879d94f0-92dd-4f5a-bfc4-1f324e0c85a4:
+      value: 0.0
+    a53f8b8f-9dfd-4b16-9151-ce4ab9826908:
+      value: 0.0
+    a8d010ce-9565-4c16-b323-2e3e4e43c84e:
+      value: 0.0
+    0a291b74-c6a4-4976-9db8-13f65bb236ec:
+      value: 0.0
+    46302d7c-ced7-4084-be50-18e6ab19e834:
+      value: 0.0
+    fd97f0a9-9896-414b-8f7c-19b8b09be820:
+      value: 0.0
+    b9ca3f91-0b6e-451d-8c0b-f4877c299670:
+      value: 0.0
+    9082682c-1ca3-44af-97aa-5efe4ebaea42:
+      value: 0.0
+    f0c4aedd-7826-43be-8892-d2929cbd1807:
+      value: 0.0
+    46bc5984-b297-4d18-82ef-2f00ac87320a:
+      value: 0.0
+    d24d20fa-12d9-4637-9bb8-1dc493b4befe:
+      value: 0.0
+    e86f0125-d6e8-46b0-9f10-fcf06a1c699b:
+      value: 0.0
+    1780c2fb-a7f3-4e2d-8386-05ea119a2a17:
+      value: 0.0
+    267c54a7-be76-42b1-b7d2-33b219796686:
+      value: 0.0
+    79ac6f83-25a7-4305-96ca-dada5f9563f5:
+      value: 0.0
+    69be03d3-5680-4227-abaa-d33ecc987ad7:
+      value: 0.0
+    15e5d603-d922-4cb7-a13f-11eb73f9656f:
+      value: 0.0
+    55b8fa4d-335e-40b3-a127-971f944cca51:
+      value: 0.0
+    6b316b20-25e1-4933-936c-4bd33b1c9172:
+      value: 0.0
+    7e6e92a2-3444-4102-8487-d2545e0f0303:
+      value: 0.0
+    bf29b24c-84d1-40ef-b8e6-d497a5958c16:
+      value: 0.0
+    eed83eba-3f9c-43e8-b0ee-e714aa2d790a:
+      value: 0.0
+    c51f2905-9444-4f14-a2e4-e5e7e10e3d67:
+      value: 0.0
+    c9e96523-db64-4805-a5cf-172dbb000ea2:
+      value: 0.0
+    6a06a41b-73a1-4c47-9b9d-e672ae541f51:
+      value: 0.0
+    e8bf6772-2ef3-4ec8-aadb-3d8ee13586e7:
+      value: 0.0
+    eb53dc57-9a49-49aa-85ac-07d176502dd4:
+      value: 0.0
+    1e099efa-3bd2-47f7-9b59-d0613bceaf5b:
+      value: 0.0
+    8f1002d9-6771-460a-871e-5ad8cfc11bf5:
+      value: 0.0
+    7ccc76cd-7844-4439-bbab-041963ac7efd:
+      value: 0.0
+    9f5964ce-9268-41d5-a7fb-90b3dce79017:
+      value: 0.0
+    13d7b28e-97e7-41f2-bcb0-d33df6380104:
+      value: 0.0
+    65b77766-8884-4d7d-8bab-8e61e1520c17:
+      value: 0.0
+    578624cb-0a6a-4793-90ed-f9a99e6bf617:
+      value: 0.0
+    2c0ed476-362a-4b57-9f8e-8b5a28b2aa9a:
+      value: 0.0
+    07b9320d-6d8a-4255-939b-c57ab10e8d97:
+      value: 0.0
+    07245ac0-4a3a-4ed4-8829-f8cd0b049aa3:
+      value: 0.0
+    789b9803-3161-4b4c-b5a6-b2339578c00a:
+      value: 0.0
+    f27c1f43-aff5-4920-8843-1f3e2786bff8:
+      value: 0.0
+    716976ea-6435-46b9-9654-11394cc14382:
+      value: 0.0
+    34a29559-6403-4f73-b8fa-09034aa1f0ce:
+      value: 0.0
+    c79cdd7e-76cf-4f96-8acd-aa43dccfc5ba:
+      value: 0.0
+    601b6ec2-2ec3-4ff5-9911-84d638e5ad04:
+      value: 0.0
+    f4fb8857-4cc6-48a0-a5b7-83e49e436ec2:
+      value: 0.0
+    f056ebe5-f54e-4cf0-9fa1-c8a17673d5e4:
+      value: 0.0
+    af192676-fb09-4224-b00c-12cde3a91f5f:
+      value: 0.0
+    fd860596-b43b-418f-bf04-dd5c93654bb0:
+      value: 0.0
+    e1e51639-97b6-44ac-b697-69c82b161c2c:
+      value: 0.0
+    2a40db2f-5216-4f14-8eee-9ef2a3ba3620:
+      value: 0.0
+    0b7bdd91-c6ac-43df-8e58-1116171d6fa3:
+      value: 0.0
+    17d3ce80-a091-44a0-8173-b3fa325167c3:
+      value: 0.0
+    1918ecc2-4d88-409d-9987-d204fc72b9d9:
+      value: 0.0
+    30488d97-745a-4555-aeba-0ab3d108eb90:
+      value: 0.0
+    57126995-a824-40c4-917c-4264e065c4cb:
+      value: 0.0
+    8dbd63e9-1814-4a64-853e-a233ce4b1711:
+      value: 0.0
+    b0766311-1f73-4a42-bace-100145aff3aa:
+      value: 0.0
+    233d8094-4dff-4b89-ba23-97002f9b1088:
+      value: 0.0
+    e2b07536-c4de-4811-891b-4f3e99b9a3f2:
+      value: 0.0
+    06638ac1-c0e6-46d7-a7fa-40abcbfcf166:
+      value: 0.0
+    fdbbd4e7-3603-45d6-9c41-eabc838454bc:
+      value: 0.0
+    63563084-14ab-4fcd-9733-e21a4a75488e:
+      value: 0.0
+    b1904ad9-5d24-46c9-a1dc-c0a594985909:
+      value: 0.0
+    ff426fe7-907b-4dcb-98ca-423631bdbaac:
+      value: 0.0
+    a91992e7-69a3-4baa-97d2-61981fe0c27f:
+      value: 0.0
+    1959d5b9-8126-4456-9bf4-7b0064c53396:
+      value: 0.0
+    c4e65cca-0543-497b-94a1-b98c6c6523a5:
+      value: 0.0
+    3499e583-f743-4698-93be-4fe6817357b4:
+      value: 0.0
+    b4872a2c-0577-4e5a-9a10-7ee650bfe7a4:
+      value: 0.0
+    60279001-d97a-49ad-a9d7-80e34cadbbc2:
+      value: 0.0
+    9b9f40ec-6972-4bdc-b33c-90e5b4ecccaa:
+      value: 0.0
+    27726678-78b2-4ab3-a4cd-0f9ee19b624f:
+      value: 0.0
+    7f52ef48-ff62-44bc-b72c-7c24ff1a5d46:
+      value: 0.0
+    1de55324-9cc0-4a94-99e7-67d2b1e315ae:
+      value: 0.0
+    53231977-fa62-4d19-999a-03265ec747ec:
+      value: 0.0
+    6392fcfb-8e04-4dcb-bce4-a0decabdcc82:
+      value: 0.0
+    3da74e6f-ebb5-4b27-952f-eb2506852976:
+      value: 0.0
+    6b383fd2-feba-49ec-9eae-ec5e906ea476:
+      value: 0.0
+    27276f38-6c1c-4b49-8e09-6ff3d669527d:
+      value: 0.0
+    139da894-e1fa-4cb3-8108-1cafb063e154:
+      value: 0.0
+    7f716a0a-54c7-4442-a28f-3a5a560b15e0:
+      value: 0.0
+    312a0bf0-11aa-4fd7-b5ee-a6a1270a6618:
+      value: 0.0
+    ed19381c-49ad-4735-9728-6ba905b261c9:
+      value: 0.0
+    c10135b2-ab51-436a-98c9-799892eaa8d2:
+      value: 0.0
+    f45a9d67-884a-4d51-99e3-31d6dac25db2:
+      value: 0.0
+    8670709e-955a-42fd-bbc6-ce84391b47e7:
+      value: 0.0
+    b5cffa6e-e19b-43dd-8f10-e88c4d1e5461:
+      value: 0.0
+    afb425e7-fb3e-4bf6-ac06-d7b6e65c93b2:
+      value: 0.0
+    af695c95-98c8-4f11-a0cc-da20cfdcb1b4:
+      value: 0.0
+    6f388622-8925-49ef-8ae9-71a9918f643d:
+      value: 0.0
+    271b21e6-326e-405e-b4e8-d31b58f160e5:
+      value: 0.0
+    77872d26-b025-447b-970e-df895596ecb3:
+      value: 0.0
+    4c80be93-0064-4245-a1f0-a9698d991e8f:
+      value: 0.0
+    33983913-cd1a-4660-afba-3de1d02bac36:
+      value: 0.0
+    dd4ee88a-e93c-41ec-8c11-4b9c1d11fc0b:
+      value: 0.0
+    8c719995-d7bf-4a37-a4fb-789251a72a62:
+      value: 0.0
+    30950f78-b14e-48fb-b62a-e9b2eac1a887:
+      value: 0.0
+    e47674d4-a955-42d1-9ea2-1d1f06804dc6:
+      value: 0.0
+    92b847aa-bb4c-4bed-89af-de307178357e:
+      value: 0.0
+    82ec7612-7313-4491-be0f-049c52369c34:
+      value: 0.0
+    8633add8-fa65-4c54-9b33-b9710a9b22c6:
+      value: 0.0
+    71ee0408-662d-4aa8-8aac-e0ee3e98ae77:
+      value: 0.0
+    770fe024-16f5-4622-82e8-f3fdfe92e45a:
+      value: 0.0
+    b9a665bf-e9b1-49cc-bcfb-6a421be9dd2c:
+      value: 0.0
+    111190ad-e044-4196-b79a-767e1291bf20:
+      value: 0.0
+    26041e0f-d199-40c7-9b66-fcfcb80ab2df:
+      value: 0.0
+    57396826-f3cf-4218-91a2-aca11811db08:
+      value: 0.0
+    5720ea97-a0e8-4d80-af6f-3c6f0580a6fa:
+      value: 0.0
+    d19b7db9-93a0-4961-b078-ba2303d99726:
+      value: 0.0
+    73b9093b-b48f-4c91-af9b-2721ebff05d9:
+      value: 0.0
+    4a39f60b-dc6c-465e-bef5-3fa0f00be312:
+      value: 0.0
+    eba915a5-8262-4463-94ec-30a6099629bf:
+      value: 0.0
+    5d32426c-3105-4256-988e-d4d64c4db460:
+      value: 0.0
+    c25dbaeb-0874-4fff-9400-98e6d88903b1:
+      value: 0.0
+    4f0fd0cb-a590-4bf5-b034-a8d47517ccc5:
+      value: 0.0
+    d6ed2228-dcd3-4fcf-b12d-59ea2d9f7a5d:
+      value: 0.0
+    93c178ef-1f02-4cc6-b8fd-5d4c08ac9513:
+      value: 0.0
+    b78ac942-65a1-4dc6-b8c4-99215ed6d556:
+      value: 0.0
+    90d662c5-4f3a-48f5-957b-b224eb95bc35:
+      value: 0.0
+    41a05609-7e3c-496b-a96a-2e103e64bcc3:
+      value: 0.0
+    c16df153-d70f-4d3b-8c36-fe6a5c02c175:
+      value: 0.0
+    942215b3-5280-4cf0-b2f6-54ab2ab66deb:
+      value: 0.0
+    c0d14ccb-80d6-44e7-afe2-42c303e3a7c8:
+      value: 0.0
+    c1cf53bd-9273-4dd6-bb60-a582de767829:
+      value: 0.0
+    c12ed750-9a18-4f45-81fa-cae109f110b9:
+      value: 0.0
+    b2ca105c-cac6-4f20-9423-43a30819259e:
+      value: 0.0
+    8f23f147-0852-4549-b69b-a81cd19a056f:
+      value: 0.0
+    357eb505-7ff0-4c3c-b3bb-331169617f4c:
+      value: 0.0
+    3f49c8b8-17a2-470b-8698-3fb4b0cfdfaf:
+      value: 0.0
+    6778c38e-acc7-4bfb-be87-4b6f3c2c6769:
+      value: 0.0
+    8b21fa08-e411-4ecc-877c-4b2418832e87:
+      value: 0.0
+    2ffd1aa8-1eed-4d83-8e73-268010c82c0d:
+      value: 0.0
+    4810c897-d958-4c64-b6b9-1b163802f27d:
+      value: 0.0
+    c19ceca1-731d-4afb-9b9a-adfe3d6dc3fe:
+      value: 0.0
+    56cfc747-5457-47a2-9f1f-2ffaed53572c:
+      value: 0.0
+    498e032e-51c2-415e-8bb7-def7c7c4f6c7:
+      value: 0.0
+    79184b75-e2fc-4e9d-83e7-42a8a2dbd79f:
+      value: 0.0
+    3681d6e2-cf7e-4ed4-bb1f-d4e63323c8da:
+      value: 0.0
+    180e14a3-aaf7-4ad6-83f9-6f7bbfd22da8:
+      value: 0.0
+    e9fcd399-1533-4182-bdd6-b1ac9114e1dc:
+      value: 0.0
+    a1b933fa-96ba-4e8f-afa0-717990fb965e:
+      value: 0.0
+    efcae7ba-b31a-4272-bca6-1543da773859:
+      value: 0.0
+    45324a79-f930-454b-bfe9-f19e0de28a75:
+      value: 0.0
+    378d3dce-bb7a-427b-aa50-2c6a1ad38937:
+      value: 0.0
+    ce6ca811-494d-49ee-9fe2-77292163d1ee:
+      value: 0.0
+    ef495c63-02da-4931-b620-5f96891a8f07:
+      value: 0.0
+    083d8cc8-da13-4505-85f9-ac2335385406:
+      value: 0.0
+    8c003c71-4f8d-4afa-b966-9d8d347226c6:
+      value: 0.0
+    64bf1050-7cc7-48fe-acb3-5482696f1e63:
+      value: 0.0
+    9f7a5a91-0f7b-4f92-9eef-1b3733cf34fb:
+      value: 0.0
+    58e33ff3-d269-406f-a1dd-c550aa048c79:
+      value: 0.0
+    377c493f-4d39-4ba0-83b7-2621c282a328:
+      value: 0.0
+    f2846ea1-b0c6-4be8-bfea-1fcdc46a6f55:
+      value: 0.0
+    172bf73a-6574-435d-91f8-ec9894eaafae:
+      value: 0.0
+    818effb2-c6cc-4530-91cb-a728827fe50f:
+      value: 0.0
+    d207c107-39e2-4f96-9eb9-56e9fe126ba8:
+      value: 0.0
+    29fdebdb-4bb5-428d-a17e-0519070fb170:
+      value: 0.0
+    54686893-4f28-4776-b2f2-6e8306750672:
+      value: 0.0
+    32719c9d-a495-469c-bbee-45c5fca91795:
+      value: 0.0
+    84137aa8-1fc9-441b-9172-2d9f44f04724:
+      value: 0.0
+    a45c09e4-f73e-476c-9602-1437378271f4:
+      value: 0.0
+    50d31e9e-8ed9-40af-9f41-b5038ff0b44c:
+      value: 0.0
+    1dcb0696-1ea5-450f-8f26-fb37d895cbbc:
+      value: 0.0
+    f09c378c-29dc-49c4-b62c-681feb13001a:
+      value: 0.0
+    839575ff-9534-4ebb-a06d-12206cf1b908:
+      value: 0.0
+    f99c583e-9424-4fb9-8634-63532bcf8228:
+      value: 0.0
+    466d1308-4de9-4887-87e8-5f6d02b28cb6:
+      value: 0.0
+    209ebe11-35c6-4b5d-8d20-4cdfcfd4a880:
+      value: 0.0
+    ee878378-88bc-4979-b593-5262097a5dc0:
+      value: 0.0
+    398b4492-8945-4781-8ab2-6814b7ec5817:
+      value: 0.0
+    2a1834d8-0d04-4f32-92e3-b6cc0ea44dc1:
+      value: 0.0
+    f393877c-ee96-41dc-9198-66c112d4019e:
+      value: 0.0
+    f71342ce-9d16-4f03-8577-c2496005eb23:
+      value: 0.0
+    a3da818e-7ea6-410f-a986-dff92cf7b764:
+      value: 0.0
+    7eb22eed-2003-49c5-8a80-efdb30977437:
+      value: 0.0
+    52a1495c-c8c4-4260-a0e3-1f2f569dbc30:
+      value: 0.0
+    21fce73b-f6e8-46db-8f96-5e22a1dd96a3:
+      value: 0.0
+    194841b6-6890-44fc-bbdc-10db916246fc:
+      value: 0.0
+    9dc4de0b-3270-42b0-adc1-6e1d72e88251:
+      value: 0.0
+    2fd9dd33-5e8f-4e13-88ef-7e25886780c6:
+      value: 0.0
+    8ff9cada-c283-4950-9dde-9439a73858d7:
+      value: 0.0
+    b5b581ae-dd1f-4ace-9d05-d1c2c8c36f01:
+      value: 0.0
+    3e4dada2-dc00-4699-a4df-26bc451c4210:
+      value: 0.0
+    30c251f6-404a-4347-9db7-d536cf6774c2:
+      value: 0.0
+    556945d5-7ffe-4d60-a826-2163fe443f38:
+      value: 0.0
+    fe90fe38-f25c-4a51-953d-644b632a103e:
+      value: 0.0
+    4ffa08ca-81ea-4cfc-91de-88c831761279:
+      value: 0.0

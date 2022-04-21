@@ -1,0 +1,38 @@
+mine_name: pvp
+blocks:
+- DIAMOND_ORE:0.8:false:false
+- DIAMOND_BLOCK:1.1:false:false
+- GOLD_BLOCK:5:false:false
+- IRON_BLOCK:8:false:false
+- COAL_BLOCK:20:false:false
+- DIORITE:65:false:false
+region:
+  world: world
+  zmin: -166
+  ymin: 8
+  xmin: -70
+  zmax: -147
+  ymax: 25
+  xmax: -51
+reset:
+  use_timer: true
+  timer: 600
+  use_percentage: true
+  percentage: 45
+  reset_type: INSTANT
+  use_messages: false
+  reset_direction: TOPTOBOTTOM
+perm_to_mine: false
+blocks_mined: 0
+stats:
+  holograms:
+  - world:-59.50494031491039:27.5:-145.38320592073543:HOLOGRAM_PERCENT_BLOCKS_LEFT
+effects: []
+teleport_location:
+  ==: org.bukkit.Location
+  world: world
+  x: -47.589331031905516
+  y: 28.0
+  z: -142.45034772987833
+  pitch: 15.000077
+  yaw: -222.16438

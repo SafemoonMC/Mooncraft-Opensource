@@ -1,0 +1,412 @@
+###############################
+#                             #
+#           [ End ]           #
+#                             #
+###############################
+
+Void_Cultist:
+  Type: ZOMBIE
+  Display: '&3[Lv. <caster.level>] &4Void Cultist &c<caster.hp> &c<&heart>'
+  Health: 10
+  Faction: Jungle
+  Disguise: Void_Cultist
+  Equipment:
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Options:
+    MovementSpeed: 0.28
+    FollowRange: 20
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - cmd{c=codex unlock <trigger.name> monsters 31} 100%
+  - mmoitems{type=MATERIAL;id=SHADOWORB} 1 0.28%
+  - money 1400000 100%
+  - mmoitems{type=MISCELLANEOUS;id=SHADOW3} 1 5%
+  LevelModifiers:
+    Health: 10
+    Damage: 10
+  Skills:
+  - randomskill{s=Stone_WeaponsPick,Iron_WeaponsPick} @self ~onSpawn
+  - sound{s=entity.evoker.ambient;v=0.5;p=1} @self ~onTimer:120 0.7
+  - sound{s=entity.evoker.hurt;v=0.5;p=1} @self ~onDamaged
+  - sound{s=entity.wither.hurt;v=0.1;p=2} @self ~onDamaged
+  - effect:particles{p=spell_witch;hS=0.3;vS=0.3;s=0.1;a=12;cooldown=0.3} @self ~onDamaged
+  - sound{s=entity.evoker.death;v=0.5;p=1} @self ~onDeath
+  - sound{s=entity.experience_orb.pickup;volume=1.0;pitch=2.0} @Self ~onDeath
+  - damage{a=50} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+  - setname{name=<caster.name>;delay=1} @self ~onDamaged
+
+Void_Sentinel:
+  Type: ENDERMAN
+  Display: '&3[Lv. <caster.level>] &4Void Sentinel &c<caster.hp> &c<&heart>'
+  Health: 10
+  Faction: End
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Options:
+    PreventTeleport: true
+    MovementSpeed: 0.2
+    FollowRange: 20
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - cmd{c=codex unlock <trigger.name> monsters 32} 100%
+  - mmoitems{type=MATERIAL;id=SHADOWORB} 1 0.3%
+  - money 1500000 100%
+  - mmoitems{type=MISCELLANEOUS;id=SHADOW3} 1 8.5%
+  LevelModifiers:
+    Health: 10
+    Damage: 10
+  Skills:
+  - effect:particles{p=smoke;hS=0.8;vS=0.8;s=0.1;a=40;cooldown=0.3} @self ~onDamaged
+  - effect:particles{p=spell_witch;hS=0.8;vS=0.8;s=0.1;a=15;cooldown=0.3} @self ~onDamaged
+  - sound{s=entity.experience_orb.pickup;volume=1.0;pitch=2.0} @Self ~onDeath
+  - damage{a=55} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+  - setname{name=<caster.name>;delay=1} @self ~onDamaged
+
+
+Rogue_Sorcerer:
+  Type: ZOMBIE
+  Display: '&cRogue Sorcerer &6[Lv. <caster.level>]'
+  Faction: Jungle
+  Disguise: Rogue_Sorcerer
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - AIR HEAD
+  - AIR CHEST
+  - AIR LEGS
+  - AIR FEET
+  Options:
+    MovementSpeed: 0.18
+    FollowRange: 20
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 20-40
+  - rotten_flesh 1-3 0.2
+  - purple_dye 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Magic_Projectile} ~onTimer:100 0.7
+  - sound{s=entity.experience_orb.pickup;volume=1.0;pitch=2.0} @Self ~onDeath
+  - equip{i="STICK HAND"} @self ~onSpawn 0.8
+  - equip{i="ENCHANTED_BOOK HAND"} @self ~onSpawn 0.8
+
+  - skill{s=Levels-20to40} @self ~onSpawn
+  - sound{s=entity.evoker.ambient;v=0.5;p=1} @self ~onTimer:120 0.7
+  - sound{s=entity.evoker.hurt;v=0.5;p=1} @self ~onDamaged
+  - sound{s=entity.witch.hurt;v=0.3;p=1} @self ~onDamaged
+  - sound{s=entity.wither.hurt;v=0.1;p=2} @self ~onDamaged
+  - sound{s=entity.evoker.death;v=0.5;p=1} @self ~onDeath
+  - sound{s=entity.witch.death;v=0.3;p=1} @self ~onDeath
+
+  - effect:particles{p=spell_witch;hS=0.3;vS=0.3;s=0.1;a=12;cooldown=0.3} @self ~onDamaged
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Shulker_Remnants:
+  Type: BABY_ZOMBIE
+  Display: '&cShulker Remnant &6[Lv. <caster.level>]'
+  Faction: End
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - Shulker_RemnantHEAD HEAD
+  - SHULKER_SHELL HAND
+  - ShulkerCHEST CHEST
+  - ShulkerLEGS LEGS
+  - ShulkerFEET FEET
+  Options:
+    FollowRange: 20
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 20-40
+  - shulker_shell 1-3 0.2
+  - purple_dye 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-20to40} @self ~onSpawn
+  - sound{s=entity.shulker.ambient;v=0.2;p=1} @self ~onTimer:120 0.7
+  - sound{s=entity.shulker.hurt;v=0.4;p=1.5} @self ~onDamaged
+  - sound{s=entity.shulker.death;v=0.4;p=1.5} @self ~onDeath
+  - sound{s=entity.witch.death;v=0.1;p=1} @self ~onDeath
+  - sound{s=entity.witch.hurt;v=0.1;p=1.5} @self ~onDamaged
+  - sound{s=entity.experience_orb.pickup;volume=1.0;pitch=2.0} @Self ~onDeath
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+
+Corrupt_Inquisitor:
+  Type: ZOMBIE
+  Display: '&cCorrupt Inquisitor &6[Lv. <caster.level>]'
+  Faction: End
+  Disguise: Corrupt_Inquisitor
+  Equipment:
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Options:
+    MovementSpeed: 0.3
+    FollowRange: 20
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 20-40
+  - bone 1-3 0.2
+  - black_dye 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-20to40} @self ~onSpawn
+  - randomskill{s=Stone_WeaponsPick,Iron_WeaponsPick} @self ~onSpawn
+  - effect:particles{p=spell_witch;hS=0.3;vS=0.3;s=0.1;a=12;cooldown=0.3} @self ~onDamaged
+  - sound{s=entity.enderman.ambient;v=0.3;p=0.6} @self ~onTimer:120 0.7
+  - sound{s=entity.enderman.hurt;v=0.1;p=0.6} @self ~onDamaged
+  - sound{s=entity.enderman.death;v=0.01;p=0.6} @self ~onDeath
+  - sound{s=entity.iron_golem.hurt;v=0.3;p=2} @self ~onDamaged
+  - sound{s=entity.iron_golem.death;v=0.1;p=1.2} @self ~onDeath
+  - sound{s=entity.experience_orb.pickup;volume=1.0;pitch=2.0} @Self ~onDeath
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Lost_Spirit:
+  Type: ZOMBIE
+  Display: '&eLost Spirit &6[Lv. <caster.level>]'
+  Faction: End
+  Disguise: ARMOR_STAND setInvisible setYModifier 0.5
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  Equipment:
+  - Lost_SpiritHEAD HEAD
+  - Lost_SpiritCHEST CHEST
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.34
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 20-40
+  - bone 1-3 0.2
+  - purple_dye 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-20to40} @self ~onSpawn
+  - effect:particles{p=large_smoke;hS=0.2;vS=0.2;s=0.1;a=5;y=1.3} @self ~onTimer:20 0.7 
+  - effect:particles{p=spell_witch;hS=0.2;vS=0.2;s=0.1;a=5;y=1.3} @self ~onTimer:20 0.7 
+  - sound{s=entity.experience_orb.pickup;volume=1.0;pitch=2.0} @Self ~onDeath
+  - sound{s=entity.enderman.ambient;v=0.1;p=0.6} @self ~onTimer:120 0.7
+  - sound{s=entity.enderman.hurt;v=0.1;p=0.6} @self ~onDamaged
+  - sound{s=entity.enderman.death;v=0.05;p=0.6} @self ~onDeath
+  - sound{s=entity.player.breath;v=0.3;p=0.6} @self ~onDeath
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Ruined_Specter:
+  Type: BEE
+  Display: '&cRuined Specter &6[Lv. <caster.level>]'
+  Faction: End
+  Disguise: ARMOR_STAND setInvisible setYModifier -1.5
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - Ruined_SpecterHEAD HEAD
+  Options:
+    FollowRange: 20
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 20-40
+  - purple_dye 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-20to40} @self ~onSpawn
+  - effect:particles{p=large_smoke;hS=0.2;vS=0.2;s=0.1;a=5;y=1.3} @self ~onTimer:20 0.7
+  - effect:particles{p=spell_witch;hS=0.2;vS=0.2;s=0.1;a=;y=1.3} @self ~onTimer:20 0.7
+  - sound{s=entity.experience_orb.pickup;volume=1.0;pitch=2.0} @Self ~onDeath
+  - sound{s=entity.silverfish.ambient;v=0.1;p=0.6} @self ~onTimer:120 0.7
+  - sound{s=entity.silverfish.hurt;v=0.1;p=0.6} @self ~onDamaged
+  - sound{s=entity.silverfish.death;v=0.1;p=0.6} @self ~onDeath
+  - sound{s=entity.player.breath;v=0.3;p=0.6} @self ~onDeath
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Obsidian_Watcher:
+  Type: SKELETON
+  Display: '&3[Lv. <caster.level>] &4Shadow Watcher &c<caster.hp> &c<&heart>'
+  Health: 10
+  Faction: End
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - AIR HAND
+  - Obsidian_WatcherHEAD HEAD
+  - ObsidianCHEST CHEST
+  - ObsidianLEGS LEGS
+  - ObsidianFEET FEET
+  Options:
+    FollowRange: 20
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - cmd{c=codex unlock <trigger.name> monsters 33} 100%
+  - mmoitems{type=MATERIAL;id=SHADOWORB} 1 0.3%
+  - mmoitems{type=MATERIAL;id=ENHANCEDSHADOWORB} 1 0.05%
+  - money 1650000 100%
+  - mmoitems{type=MISCELLANEOUS;id=SHADOW4} 1 5%
+  LevelModifiers:
+    Health: 10
+    Damage: 10
+  Skills:
+  - sound{s=entity.experience_orb.pickup;volume=1.0;pitch=2.0} @Self ~onDeath
+  - damage{a=55} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+  - setname{name=<caster.name>;delay=1} @self ~onDamaged
+
+Obsidian_Seeker:
+  Type: SKELETON
+  Display: '&3[Lv. <caster.level>] &4Shadow Seeker &c<caster.hp> &c<&heart>'
+  Health: 10
+  Faction: End
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - Obsidian_SeekerHEAD HEAD
+  - ObsidianCHEST CHEST
+  - ObsidianLEGS LEGS
+  - ObsidianFEET FEET
+  Options:
+    FollowRange: 20
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - cmd{c=codex unlock <trigger.name> monsters 34} 100%
+  - mmoitems{type=MATERIAL;id=SHADOWORB} 1 0.45%
+  - mmoitems{type=MATERIAL;id=ENHANCEDSHADOWORB} 1 0.075%
+  - money 1800000 100%
+  - mmoitems{type=MISCELLANEOUS;id=SHADOW4} 1 8.5%
+  LevelModifiers:
+    Health: 10
+    Damage: 10
+  Skills:
+  - sound{s=entity.experience_orb.pickup;volume=1.0;pitch=2.0} @Self ~onDeath
+  - damage{a=60} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+  - setname{name=<caster.name>;delay=1} @self ~onDamaged
+
+Dark_Zealot:
+  Type: WITHER_SKELETON
+  Display: '&3[Lv. <caster.level>] &4Dark Zealot &c<caster.hp> &c<&heart>'
+  Health: 10
+  Damage: 5
+  Faction: End
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - Dark_ZealotCHEST CHEST
+  - AIR HAND
+  Options:
+    FollowRange: 20
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - cmd{c=codex unlock <trigger.name> monsters 35} 100%
+  - mmoitems{type=MATERIAL;id=SHADOWORB} 1 0.5%
+  - mmoitems{type=MATERIAL;id=ENHANCEDSHADOWORB} 1 0.1%
+  - money 2000000 100%
+  - mmoitems{type=MISCELLANEOUS;id=SHADOW5} 1 8.5%
+  LevelModifiers:
+    Health: 10
+    Damage: 10
+  Skills:
+  - damage{a=65} @target ~onAttack
+  - sound{s=entity.experience_orb.pickup;volume=1.0;pitch=2.0} @Self ~onDeath
+  - cancelevent{sync=true} ~onAttack
+  - setname{name=<caster.name>;delay=1} @self ~onDamaged
+
+

@@ -1,0 +1,6 @@
+Groups:
+  Default:
+    Permission: nte.default
+    Prefix: '%vault_prefix% &8| %luckperms_meta_name-color%'
+    Suffix: ''
+    SortPriority: 1

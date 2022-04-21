@@ -1,0 +1,37 @@
+mine_name: Jupiter
+blocks:
+- GOLD_ORE:4:false:false
+- IRON_ORE:10:false:false
+- COAL_ORE:20:false:false
+- RED_NETHER_BRICKS:33:false:false
+- RED_TERRACOTTA:33:false:false
+region:
+  world: world
+  zmin: 3271
+  ymin: 25
+  xmin: 1017
+  zmax: 3300
+  ymax: 53
+  xmax: 1046
+reset:
+  use_timer: true
+  timer: 180
+  use_percentage: false
+  percentage: 45
+  reset_type: GRADUAL
+  use_messages: false
+  reset_direction: TOPTOBOTTOM
+perm_to_mine: false
+blocks_mined: 0
+stats:
+  holograms:
+  - world:1047.389929059042:57.0:3301.6182160759554:HOLOGRAM_TIMER
+effects: []
+teleport_location:
+  ==: org.bukkit.Location
+  world: world
+  x: 1051.5521694989013
+  y: 56.0
+  z: 3305.504371237448
+  pitch: 0.8999931
+  yaw: -223.94685

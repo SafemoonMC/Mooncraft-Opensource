@@ -1,0 +1,469 @@
+ShopName: normalleggingscraft
+DisplayName: '&0Armor Recipes (3/40)'
+Command: normalleggingscraft
+signs:
+  text: '[orbs]'
+  NeedPermissionToCreateSign: true
+InventorySize: 45
+shop:
+  orb1:
+    RewardType: NOTHING
+    PriceType: NOTHING
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY0YWQ4ZGEzMTllNmViMzc3MjFlMDJjNzg4NjQ5OTBiNDVmYzBmZWEwNmVlNTJlZDRjMjRhYzE5NzI3OGNiNyJ9fX0=
+    - name:&aOrb
+    - 'lore1:&cMaterial'
+    - 'lore2:&a'
+    - 'lore3:&aOrbs &7are used to obtain gear and can be'
+    - 'lore4:&7upgraded to &aEnhanced Orbs'
+    - amount:1
+    InventoryLocation: 12
+  orb2:
+    RewardType: NOTHING
+    PriceType: NOTHING
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY0YWQ4ZGEzMTllNmViMzc3MjFlMDJjNzg4NjQ5OTBiNDVmYzBmZWEwNmVlNTJlZDRjMjRhYzE5NzI3OGNiNyJ9fX0=
+    - name:&aOrb
+    - 'lore1:&cMaterial'
+    - 'lore2:&a'
+    - 'lore3:&aOrbs &7are used to obtain gear and can be'
+    - 'lore4:&7upgraded to &aEnhanced Orbs'
+    - amount:1
+    InventoryLocation: 13
+  orb3:
+    RewardType: NOTHING
+    PriceType: NOTHING
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY0YWQ4ZGEzMTllNmViMzc3MjFlMDJjNzg4NjQ5OTBiNDVmYzBmZWEwNmVlNTJlZDRjMjRhYzE5NzI3OGNiNyJ9fX0=
+    - name:&aOrb
+    - 'lore1:&cMaterial'
+    - 'lore2:&a'
+    - 'lore3:&aOrbs &7are used to obtain gear and can be'
+    - 'lore4:&7upgraded to &aEnhanced Orbs'
+    - amount:1
+    InventoryLocation: 14
+  orb4:
+    RewardType: NOTHING
+    PriceType: NOTHING
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY0YWQ4ZGEzMTllNmViMzc3MjFlMDJjNzg4NjQ5OTBiNDVmYzBmZWEwNmVlNTJlZDRjMjRhYzE5NzI3OGNiNyJ9fX0=
+    - name:&aOrb
+    - 'lore1:&cMaterial'
+    - 'lore2:&a'
+    - 'lore3:&aOrbs &7are used to obtain gear and can be'
+    - 'lore4:&7upgraded to &aEnhanced Orbs'
+    - amount:1
+    InventoryLocation: 21
+  orb6:
+    RewardType: NOTHING
+    PriceType: NOTHING
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY0YWQ4ZGEzMTllNmViMzc3MjFlMDJjNzg4NjQ5OTBiNDVmYzBmZWEwNmVlNTJlZDRjMjRhYzE5NzI3OGNiNyJ9fX0=
+    - name:&aOrb
+    - 'lore1:&cMaterial'
+    - 'lore2:&a'
+    - 'lore3:&aOrbs &7are used to obtain gear and can be'
+    - 'lore4:&7upgraded to &aEnhanced Orbs'
+    - amount:1
+    InventoryLocation: 23
+  orb7:
+    RewardType: NOTHING
+    PriceType: NOTHING
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY0YWQ4ZGEzMTllNmViMzc3MjFlMDJjNzg4NjQ5OTBiNDVmYzBmZWEwNmVlNTJlZDRjMjRhYzE5NzI3OGNiNyJ9fX0=
+    - name:&aOrb
+    - 'lore1:&cMaterial'
+    - 'lore2:&a'
+    - 'lore3:&aOrbs &7are used to obtain gear and can be'
+    - 'lore4:&7upgraded to &aEnhanced Orbs'
+    - amount:1
+    InventoryLocation: 30
+  orb9:
+    RewardType: NOTHING
+    PriceType: NOTHING
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY0YWQ4ZGEzMTllNmViMzc3MjFlMDJjNzg4NjQ5OTBiNDVmYzBmZWEwNmVlNTJlZDRjMjRhYzE5NzI3OGNiNyJ9fX0=
+    - name:&aOrb
+    - 'lore1:&cMaterial'
+    - 'lore2:&a'
+    - 'lore3:&aOrbs &7are used to obtain gear and can be'
+    - 'lore4:&7upgraded to &aEnhanced Orbs'
+    - amount:1
+    InventoryLocation: 32
+  enhancedorb:
+    RewardType: NOTHING
+    PriceType: NOTHING
+    MenuItem:
+    - name:&aScrap Pants
+    - amount:1
+    - 'lore1:&cArmor'
+    - 'lore2:&a'
+    - 'lore3:&7✠ Armor: &f+2'
+    - 'lore4:&7❤ Health: &f+3'
+    - 'lore5:&a'
+    - 'lore6:&7Scrap Set Bonus:'
+    - 'lore7:&8[4] Night Vision I'
+    - type:LEATHER_LEGGINGS
+    - 'color:42#154#49'
+    - hideflags:all
+    InventoryLocation: 25
+  next:
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - normalbootscraft
+    MenuItem:
+    - type:ARROW
+    - name:&aNext Recipe
+    - 'lore1:&7Click to go to the next page'
+    - amount:1
+    InventoryLocation: 27
+  previous:
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - normalchestplatecraft
+    MenuItem:
+    - type:ARROW
+    - name:&aPrevious Recipe
+    - 'lore1:&7Click to go to the previous page'
+    - amount:1
+    InventoryLocation: 19
+  main:
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - normalset
+    MenuItem:
+    - type:BARRIER
+    - name:&cBack
+    - 'lore1:&7Click to go back to the scrap set!'
+    - amount:1
+    InventoryLocation: 45
+  2:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  3:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  4:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  5:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  6:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  7:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  8:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  9:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+  10:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 9
+  11:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+  12:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+  13:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+  14:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+  15:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 17
+  16:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 18
+  17:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 20
+  18:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 24
+  19:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 26
+  20:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+  21:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 29
+  22:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+  23:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+  24:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 35
+  25:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 36
+  26:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 37
+  27:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 38
+  28:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 39
+  29:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 40
+  30:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 41
+  31:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 42
+  32:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 43
+  33:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 44

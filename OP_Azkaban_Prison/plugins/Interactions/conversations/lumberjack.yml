@@ -1,0 +1,53 @@
+name: '{centered}&cLumberjack'
+starts_with:
+- NPC with id 8
+block_movement: false
+slow_effect: false
+save_conversation_progress: false
+start_conversation_radius: 0
+end_conversation_radius: 12
+requires_permission: false
+cooldown: 0
+conversation:
+  conversation1:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Hello there! You have to meet the &cPrison Warden'
+        - '{centered}&7before you can talk to us!'
+        time: 2
+        conditional_dialogue:
+          conditional_dialogue1:
+            requires:
+            - '%quests_player_has_current_quest_introduction% == Yes'
+            start_conversation: conversation2
+          conditional_dialogue2:
+            requires:
+            - '%quests_player_has_completed_quest_introduction% == true'
+            start_conversation: conversation3
+    random_dialogue: false
+  conversation2:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Hello! I see you have met the &cPrison Warden'
+        - '{centered}&7I am the lumberjack! My job here is to ensure the'
+        - '{centered}&7trees you see behind me stay healthy!'
+        - ' '
+        time: 2
+      dialogue2:
+        text:
+        - '{centered}&7You can chop down trees to get &bmoney'
+        - '{centered}&7and special items such as &bHilt Dust'
+        - '{centered}&7which you will need to create gear!'
+        time: 2
+        save_dialogue_to_player: true
+    random_dialogue: false
+  conversation3:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Hello there! Breaking Logs gives you money and'
+        - '{centered}&7special items such as &bHilt Dust&7!'
+        time: 2
+    random_dialogue: false

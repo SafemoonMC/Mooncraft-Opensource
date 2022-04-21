@@ -1,0 +1,35 @@
+mine_name: Mercury
+blocks:
+- COAL_ORE:25:false:false
+- BLACK_TERRACOTTA:27.5:false:false
+- PURPLE_CONCRETE:47.5:false:false
+region:
+  world: world
+  zmin: 3174
+  ymin: 18
+  xmin: 2032
+  zmax: 3208
+  ymax: 47
+  xmax: 2066
+reset:
+  use_timer: true
+  timer: 180
+  use_percentage: false
+  percentage: 45
+  reset_type: GRADUAL
+  use_messages: false
+  reset_direction: TOPTOBOTTOM
+perm_to_mine: false
+blocks_mined: 0
+stats:
+  holograms:
+  - world:2049.5423262334834:50.0:3172.409207335831:HOLOGRAM_TIMER
+effects: []
+teleport_location:
+  ==: org.bukkit.Location
+  world: world
+  x: 2049.586815274772
+  y: 49.0
+  z: 3162.599855779705
+  pitch: 1.0500121
+  yaw: 0.6173319

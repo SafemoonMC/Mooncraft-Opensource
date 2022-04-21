@@ -1,0 +1,317 @@
+Levels-1to15:
+  Skills:
+  - randomskill{s=Lvl-1,Lvl-2,Lvl-3,Lvl-4,Lvl-5,Lvl-6,Lvl-7,Lvl-8,Lvl-9,Lvl-10,Lvl-11,Lvl-12,Lvl-13,Lvl-14,Lvl-15} @self
+
+Levels-20to40:
+  Skills:
+  - randomskill{s=Lvl-20,Lvl-21,Lvl-22,Lvl-23,Lvl-24,Lvl-25,Lvl-26,Lvl-27,Lvl-28,Lvl-29,Lvl-30,Lvl-31,Lvl-32,Lvl-33,Lvl-34,Lvl-35,Lvl-36,Lvl-37,Lvl-38,Lvl-39,Lvl-40} @self
+
+Levels-41to100:
+  Skills:
+  - randomskill{s=Lvl-41,Lvl-42,Lvl-43,Lvl-44,Lvl-45,Lvl-46,Lvl-47,Lvl-48,Lvl-49,Lvl-50,Lvl-51,Lvl-52,Lvl-53,Lvl-54,Lvl-55,Lvl-56,Lvl-57,Lvl-58,Lvl-59,Lvl-60,Lvl-61,Lvl-62,Lvl-63,Lvl-64,Lvl-65,Lvl-66,Lvl-67,Lvl-68,Lvl-69,Lvl-70,Lvl-71,Lvl-72,Lvl-73,Lvl-74,Lvl-75,Lvl-76,Lvl-77,Lvl-78,Lvl-79,Lvl-80,Lvl-81,Lvl-82,Lvl-83,Lvl-84,Lvl-85,Lvl-86,Lvl-87,Lvl-88,Lvl-89,Lvl-90,Lvl-91,Lvl-92,Lvl-93,Lvl-94,Lvl-95,Lvl-96,Lvl-97,Lvl-98,Lvl-99,Lvl-100} @self                                 
+                                                                    
+Lvl-1:
+  Skills:
+  - setlevel{a=set;l=1} @self
+Lvl-2:
+  Skills:
+  - setlevel{a=set;l=2} @self
+Lvl-3:
+  Skills:
+  - setlevel{a=set;l=3} @self
+Lvl-4:
+  Skills:
+  - setlevel{a=set;l=4} @self
+Lvl-5:
+  Skills:
+  - setlevel{a=set;l=5} @self
+Lvl-6:
+  Skills:
+  - setlevel{a=set;l=6} @self
+Lvl-7:
+  Skills:
+  - setlevel{a=set;l=7} @self
+Lvl-8:
+  Skills:
+  - setlevel{a=set;l=8} @self
+Lvl-9:
+  Skills:
+  - setlevel{a=set;l=9} @self
+Lvl-10:
+  Skills:
+  - setlevel{a=set;l=10} @self
+Lvl-11:
+  Skills:
+  - setlevel{a=set;l=11} @self
+Lvl-12:
+  Skills:
+  - setlevel{a=set;l=12} @self
+Lvl-13:
+  Skills:
+  - setlevel{a=set;l=13} @self
+Lvl-14:
+  Skills:
+  - setlevel{a=set;l=14} @self
+Lvl-15:
+  Skills:
+  - setlevel{a=set;l=15} @self
+Lvl-16:
+  Skills:
+  - setlevel{a=set;l=16} @self
+Lvl-17:
+  Skills:
+  - setlevel{a=set;l=17} @self
+Lvl-18:
+  Skills:
+  - setlevel{a=set;l=18} @self
+Lvl-19:
+  Skills:
+  - setlevel{a=set;l=19} @self
+Lvl-20:
+  Skills:
+  - setlevel{a=set;l=20} @self
+Lvl-21:
+  Skills:
+  - setlevel{a=set;l=21} @self
+Lvl-22:
+  Skills:
+  - setlevel{a=set;l=22} @self
+Lvl-23:
+  Skills:
+  - setlevel{a=set;l=23} @self
+Lvl-24:
+  Skills:
+  - setlevel{a=set;l=24} @self
+Lvl-25:
+  Skills:
+  - setlevel{a=set;l=25} @self
+Lvl-26:
+  Skills:
+  - setlevel{a=set;l=26} @self
+Lvl-27:
+  Skills:
+  - setlevel{a=set;l=27} @self
+Lvl-28:
+  Skills:
+  - setlevel{a=set;l=28} @self
+Lvl-29:
+  Skills:
+  - setlevel{a=set;l=29} @self
+Lvl-30:
+  Skills:
+  - setlevel{a=set;l=30} @self
+Lvl-31:
+  Skills:
+  - setlevel{a=set;l=32} @self
+Lvl-32:
+  Skills:
+  - setlevel{a=set;l=32} @self
+Lvl-33:
+  Skills:
+  - setlevel{a=set;l=33} @self
+Lvl-34:
+  Skills:
+  - setlevel{a=set;l=34} @self
+Lvl-35:
+  Skills:
+  - setlevel{a=set;l=35} @self
+Lvl-36:
+  Skills:
+  - setlevel{a=set;l=36} @self
+Lvl-37:
+  Skills:
+  - setlevel{a=set;l=37} @self
+Lvl-38:
+  Skills:
+  - setlevel{a=set;l=38} @self
+Lvl-39:
+  Skills:
+  - setlevel{a=set;l=39} @self
+Lvl-40:
+  Skills:
+  - setlevel{a=set;l=40} @self
+Lvl-41:
+  Skills:
+  - setlevel{a=set;l=41} @self
+Lvl-42:
+  Skills:
+  - setlevel{a=set;l=42} @self
+Lvl-43:
+  Skills:
+  - setlevel{a=set;l=43} @self
+Lvl-44:
+  Skills:
+  - setlevel{a=set;l=44} @self
+Lvl-45:
+  Skills:
+  - setlevel{a=set;l=45} @self
+Lvl-46:
+  Skills:
+  - setlevel{a=set;l=46} @self
+Lvl-47:
+  Skills:
+  - setlevel{a=set;l=47} @self
+Lvl-48:
+  Skills:
+  - setlevel{a=set;l=48} @self
+Lvl-49:
+  Skills:
+  - setlevel{a=set;l=49} @self
+Lvl-50:       
+  Skills:
+  - setlevel{a=set;l=50} @self
+Lvl-51:
+  Skills:
+  - setlevel{a=set;l=51} @self
+Lvl-52:
+  Skills:
+  - setlevel{a=set;l=52} @self
+Lvl-53:
+  Skills:
+  - setlevel{a=set;l=53} @self
+Lvl-54:
+  Skills:
+  - setlevel{a=set;l=54} @self
+Lvl-55:
+  Skills:
+  - setlevel{a=set;l=55} @self
+Lvl-56:
+  Skills:
+  - setlevel{a=set;l=56} @self
+Lvl-57:
+  Skills:
+  - setlevel{a=set;l=57} @self
+Lvl-58:
+  Skills:
+  - setlevel{a=set;l=58} @self
+Lvl-59:
+  Skills:
+  - setlevel{a=set;l=59} @self
+Lvl-60:
+  Skills:
+  - setlevel{a=set;l=60} @self
+Lvl-61:
+  Skills:
+  - setlevel{a=set;l=61} @self
+Lvl-62:
+  Skills:
+  - setlevel{a=set;l=62} @self
+Lvl-63:
+  Skills:
+  - setlevel{a=set;l=63} @self
+Lvl-64:
+  Skills:
+  - setlevel{a=set;l=64} @self
+Lvl-65:
+  Skills:
+  - setlevel{a=set;l=65} @self
+Lvl-66:
+  Skills:
+  - setlevel{a=set;l=66} @self
+Lvl-67:
+  Skills:
+  - setlevel{a=set;l=7} @self
+Lvl-68:
+  Skills:
+  - setlevel{a=set;l=68} @self
+Lvl-69:
+  Skills:
+  - setlevel{a=set;l=69} @self
+Lvl-70:
+  Skills:
+  - setlevel{a=set;l=70} @self
+Lvl-71:
+  Skills:
+  - setlevel{a=set;l=71} @self
+Lvl-72:
+  Skills:
+  - setlevel{a=set;l=72} @self
+Lvl-73:
+  Skills:
+  - setlevel{a=set;l=73} @self
+Lvl-74:
+  Skills:
+  - setlevel{a=set;l=74} @self
+Lvl-75:
+  Skills:
+  - setlevel{a=set;l=75} @self
+Lvl-76:
+  Skills:
+  - setlevel{a=set;l=76} @self
+Lvl-77:
+  Skills:
+  - setlevel{a=set;l=77} @self
+Lvl-78:
+  Skills:
+  - setlevel{a=set;l=78} @self
+Lvl-79:
+  Skills:
+  - setlevel{a=set;l=79} @self
+Lvl-80:
+  Skills:
+  - setlevel{a=set;l=80} @self
+Lvl-81:
+  Skills:
+  - setlevel{a=set;l=81} @self
+Lvl-82:
+  Skills:
+  - setlevel{a=set;l=82} @self
+Lvl-83:
+  Skills:
+  - setlevel{a=set;l=83} @self
+Lvl-84:
+  Skills:
+  - setlevel{a=set;l=84} @self
+Lvl-85:
+  Skills:
+  - setlevel{a=set;l=85} @self
+Lvl-86:
+  Skills:
+  - setlevel{a=set;l=86} @self
+Lvl-87:
+  Skills:
+  - setlevel{a=set;l=87} @self
+Lvl-88:
+  Skills:
+  - setlevel{a=set;l=88} @self
+Lvl-89:
+  Skills:
+  - setlevel{a=set;l=89} @self
+Lvl-90:
+  Skills:
+  - setlevel{a=set;l=90} @self
+Lvl-91:
+  Skills:
+  - setlevel{a=set;l=91} @self
+Lvl-92:
+  Skills:
+  - setlevel{a=set;l=92} @self
+Lvl-93:
+  Skills:
+  - setlevel{a=set;l=93} @self
+Lvl-94:
+  Skills:
+  - setlevel{a=set;l=94} @self
+Lvl-95:
+  Skills:
+  - setlevel{a=set;l=95} @self
+Lvl-96:
+  Skills:
+  - setlevel{a=set;l=96} @self
+Lvl-97:
+  Skills:
+  - setlevel{a=set;l=97} @self
+Lvl-98:
+  Skills:
+  - setlevel{a=set;l=98} @self
+Lvl-99:
+  Skills:
+  - setlevel{a=set;l=99} @self
+
+Lvl-100:
+  Skills:
+  - setlevel{a=set;l=100} @self
+
+
+
+#############################################  

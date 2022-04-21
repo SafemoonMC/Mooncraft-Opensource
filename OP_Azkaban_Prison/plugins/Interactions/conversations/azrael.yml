@@ -1,0 +1,77 @@
+name: '{centered}&4&lAzrael'
+starts_with:
+- NPC with id 22
+block_movement: false
+slow_effect: false
+save_conversation_progress: false
+start_conversation_radius: 0
+end_conversation_radius: 12
+requires_permission: false
+cooldown: 0
+conversation:
+  conversation1:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7...'
+        time: 2
+        conditional_dialogue:
+          conditional_dialogue1:
+            requires:
+            - '%quests_player_has_completed_quest_custom17% == false'
+            - '%player_has_empty_slot% == yes'
+            start_conversation: conversation2
+          conditional_dialogue2:
+            requires:
+            - '%quests_player_has_completed_quest_custom17% == true'
+            start_conversation: conversation3
+          conditional_dialogue3:
+            requires:
+            - '%quests_player_has_completed_quest_custom17% == false'
+            - '%player_has_empty_slot% == no'
+            start_conversation: conversation4
+    random_dialogue: false
+  conversation2:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Ah %player_name% how has your life in captivity'
+        - '{centered}&7 been since I orchestrated my plan?'
+        - '&7'
+        time: 4
+      dialogue2:
+        text:
+        - '{centered}&7Pin the assassination on a lowly guard HA! Genius.'
+        - '{centered}&7I’m afraid this is where your journey ends my dear pawn.'
+        - '&7'
+        time: 3
+      dialogue3:
+        text:
+        - '{centered}&7No more disruptions.. AZKABAN WILL BE MINE!'
+        - '&7'
+        time: 2
+        actions:
+        - 'console_command: questsadmin setstage %player% Azrael 2'
+        - 'console_command: spawnazrael'
+        save_dialogue_to_player: true
+        actions_after_dialogue: true
+    random_dialogue: false
+  conversation3:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7You... you defeated me.. now you are the king of Azkaban.'
+        - '&7'
+        time: 2
+    random_dialogue: false
+  conversation4:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&c&lWARNING!'
+        - '{centered}&cYou must have free inventory space before'
+        - '{centered}&ctalking to Azrael!'
+        time: 1
+        show_name: false
+        save_dialogue_to_player: true
+    random_dialogue: false

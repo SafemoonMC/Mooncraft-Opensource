@@ -1,0 +1,36 @@
+mine_name: Prestige
+blocks:
+- DIAMOND_ORE:5:false:false
+- COAL_BLOCK:5:false:false
+- BRICKS:90:false:false
+region:
+  world: world
+  zmin: 2059
+  ymin: 29
+  xmin: -2984
+  zmax: 2075
+  ymax: 43
+  xmax: -2971
+reset:
+  use_timer: true
+  timer: 180
+  use_percentage: true
+  percentage: 45
+  reset_type: GRADUAL
+  use_messages: false
+  reset_direction: BOTTOMTOTOP
+perm_to_mine: false
+blocks_mined: 0
+stats:
+  holograms:
+  - world:-2975.504269351611:46.5:2067.4722243575125:HOLOGRAM_TIMER
+effects:
+- LUCK:0
+teleport_location:
+  ==: org.bukkit.Location
+  world: world
+  x: -2964.9427345480212
+  y: 45.0
+  z: 2067.803821112463
+  pitch: 9.76394
+  yaw: 91.00098

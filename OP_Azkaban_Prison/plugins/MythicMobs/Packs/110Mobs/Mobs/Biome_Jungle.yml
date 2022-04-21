@@ -1,0 +1,369 @@
+##################################
+#                                #
+#           [ Jungle ]           #
+#                                #
+##################################
+
+Piranha:
+  Type: DOLPHIN
+  Display: '&cPiranha &6[Lv. <caster.level>]'
+  Disguise: ARMOR_STAND setInvisible setDynamicName setYModifier -1.5
+  Faction: Jungle
+  Equipment:
+  - PiranhaHead HEAD
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Options:
+    FollowRange: 20
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - cod 1-3 0.2
+  - bone 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-41to100} @self ~onSpawn
+
+  - damage{a=2} @self ~onTimer:15 ?inblock{m=AIR}
+  - sound{s=entity.salmon.hurt;v=0.8;p=1} @self ~onTimer:15 ?inblock{m=AIR}
+
+  - sound{s=entity.salmon.hurt;v=0.8;p=1} @self ~onDamaged
+  - sound{s=entity.dolphin.swim;v=0.8;p=1} @self ~onTimer:15 0.5 ?inblock{m=WATER}
+
+  - damage{a=3} @target ~onAttack ?targetwithin{d=2}
+  - cancelevent{sync=true} ~onAttack
+
+Jungle_Slime:
+  Type: SLIME
+  Display: '&cJungle Slime &6[Lv. <caster.level>]'
+  Disguise:
+  Faction: Jungle
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  Options:
+    FollowRange: 20
+    Size: 2
+    PreventSlimeSplit: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - slime_ball 1-3 0.2
+  - jungle_leaves 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - effect:particles{particle=spell_mob;color=#013220;amount=5;hS=0.5;vS=0.5;speed=0} @self ~onTimer:10 ?moving{}
+  - effect:particles{particle=BLOCK_CRACK;m=VINE;amount=15;hS=0.5;vS=0.5;speed=0} @self ~onTimer:10 ?moving{}
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Tribal_Shaman:
+  Type: ZOMBIE
+  Display: '&cTribal Shaman &6[Lv. <caster.level>]'
+  Disguise: Tribal_Shaman
+  Faction: Jungle
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - AIR HEAD
+  - AIR CHEST
+  - AIR LEGS
+  - AIR FEET
+  Options:
+    MovementSpeed: 0.18
+    FollowRange: 20
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - stick 1-3 0.2
+  - gunpowder 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Magic_Projectile} ~onTimer:100 0.7
+
+  - equip{i="STICK HAND"} @self ~onSpawn 0.5
+  - equip{i="TOTEM_OF_UNDYING HAND"} @self ~onSpawn 0.5
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - sound{s=entity.pillager.ambient;p=2} @self ~onTimer:120 0.7
+  - sound{s=entity.pillager.hurt;p=2} @self ~onDamaged
+  - sound{s=entity.pillager.death;p=2} @self ~onDeath
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Tribal_Warrior:
+  Type: ZOMBIE
+  Display: '&cTribal Warrior &6[Lv. <caster.level>]'
+  Disguise: Tribal_Warrior
+  Faction: Jungle
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  Options:
+    FollowRange: 20
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - leather 1-3 0.2
+  - stone_Sword 1 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - sound{s=entity.vindicator.ambient;p=0.8} @self ~onTimer:120 0.7
+  - sound{s=entity.vindicator.hurt;p=0.8;v=0.7} @self ~onDamaged
+  - sound{s=entity.vindicator.death;p=0.8;v=0.7} @self ~onDeath
+  - randomskill{s=Stone_WeaponsPick,Iron_WeaponsPick} @self ~onSpawn
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+  
+Tribal_Chief:
+  Type: WITHER_SKELETON
+  Display: '&cTribal Chief &6[Lv. <caster.level>]'
+  Disguise:
+  Faction: Jungle
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - Tribal_ChiefHEAD HEAD
+  - Tribal_ChiefFEET FEET
+  - Tribal_ChiefCHEST CHEST
+  - Tribal_ChiefLEGS LEGS
+  Options:
+    FollowRange: 20
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - gold_nugget 1-3 0.2
+  - iron_sword 1 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - sound{s=entity.vindicator.ambient;p=0.6} @self ~onTimer:120 0.7
+  - sound{s=entity.vindicator.hurt;p=0.8} @self ~onDamaged
+  - sound{s=entity.vindicator.death;p=0.8} @self ~onDeath
+  - randomskill{s=Stone_WeaponsPick,Iron_WeaponsPick} @self ~onSpawn
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Wild_Leopard:
+  Type: ZOMBIE
+  Display: '&eWild Leopard &6[Lv. <caster.level>]'
+  Disguise: OCELOT 
+  Faction: Jungle
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  Options:
+    MovementSpeed: 0.38
+    FollowRange: 20
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - leather 1-3 0.2
+  - bone 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Mossy_Phython:
+  Type: ZOMBIE
+  Display: '&cMossy Phyton &6[Lv. <caster.level>]'
+  Faction: Jungle
+  Disguise: Mossy_Phyton
+  Equipment:
+  - Mossy_PhythonHEAD HEAD
+  - AIR CHEST
+  - AIR LEGS
+  - AIR FEET
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Options:
+    MovementSpeed: 0.28
+    FollowRange: 20
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - vine 1-3 0.2
+  - jungle_leaves 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - sound{s=entity.spider.ambient;v=0.7;p=1.4} @self ~onTimer:120 0.7
+  - sound{s=entity.silverfish.ambient;v=0.7;p=0.9} @self ~onTimer:200 0.7
+  - sound{s=entity.spider.hurt;v=0.5;p=1.5} @self ~onDamaged
+  - sound{s=entity.silverfish.hurt;p=1.5;cooldown=1} @self ~onDamaged
+  - sound{s=entity.spider.death;p=1.5} @self ~onDeath
+  - sound{s=entity.silverfish.death;v=0.8;p=0.9} @self ~onDeath
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+
+Ancient_Golem:
+  Type: IRON_GOLEM
+  Display: '&cAncient Golem &6[Lv. <caster.level>]'
+  Faction: Jungle
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Options:
+    MovementSpeed: 0.2
+    FollowRange: 20
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - vine 1-3 0.2
+  - iron_ingot 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Tropical_Sorcerer:
+  Type: WITCH
+  Display: '&cTropical Sorcerer &6[Lv. <caster.level>]'
+  Faction: Jungle
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Options:
+    MovementSpeed: 0.2
+    FollowRange: 20
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - stick 1-3 0.2
+  - orange_dye 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Magic_Projectile} ~onTimer:100 0.7
+
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Shrine_Guardian:
+  Type: SKELETON
+  Display: '&cShrine Guardian &6[Lv. <caster.level>]'
+  Faction: Jungle
+  Equipment:
+  - Shrine_GuardianHead HEAD
+  - Shrine_GuardianCHEST CHEST
+  - Shrine_GuardianLEGS LEGS
+  - Shrine_GuardianFEET FEET
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Options:
+    MovementSpeed: 0.23
+    FollowRange: 20
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  -   TOTEM_OF_UNDYING 1-3 0.2
+  - gunpowder 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - sound{s=entity.vindicator.ambient;p=0.6;v=0.5} @self ~onTimer:120 0.7
+  - sound{s=entity.vindicator.hurt;p=0.6;v=0.5} @self ~onDamaged
+  - sound{s=block.chain.place;v=0.9;p=0.8} @self ~onDamaged
+  - sound{s=entity.vindicator.death;p=0.6;v=0.5} @self ~onDeath
+  - randomskill{s=Stone_WeaponsPick,Iron_WeaponsPick} @self ~onSpawn
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+

@@ -1,0 +1,112 @@
+# Command section can utilize same custom variables as scheduler. Check schedules.yml file for all possible variables.
+
+OPP1:
+  portal1:
+    Loc: -183.0:80.0:54.0:-161.0:103.0:55.0
+    enabled: true
+    effect: BubblePop
+    showParticles: false
+    kickBack: false
+    particlesByPermission: false
+    requiresPerm: false
+    informOnMissingPerm: false
+    particleAmount: 184
+    particleHide: 0
+    activationRange: 16
+    commandsWithoutTp: true
+    commands:
+    - cmi sudo [playerName] mines
+  portal2:
+    Loc: -204.0:82.0:-3.0:-204.0:103.0:19.0
+    enabled: true
+    effect: BubblePop
+    showParticles: false
+    kickBack: false
+    particlesByPermission: false
+    requiresPerm: false
+    informOnMissingPerm: false
+    particleAmount: 184
+    particleHide: 0
+    activationRange: 16
+    commandsWithoutTp: true
+    commands:
+    - cmi sudo [playerName] mines
+  portal3:
+    Loc: -198.0:75.0:-44.0:-177.0:94.0:-43.0
+    enabled: true
+    effect: BubblePop
+    showParticles: false
+    kickBack: false
+    particlesByPermission: false
+    requiresPerm: false
+    informOnMissingPerm: false
+    particleAmount: 184
+    particleHide: 0
+    activationRange: 16
+    commandsWithoutTp: true
+    commands:
+    - cmi sudo [playerName] mines
+  sewers1:
+    Loc: -99.0:10.0:220.0:-97.0:12.0:220.0
+    enabled: true
+    effect: Reddust
+    showParticles: true
+    Tp: OPP1;27.37;34.0;77.23;-10.74;0.72
+    kickBack: true
+    particlesByPermission: false
+    requiresPerm: false
+    informOnMissingPerm: false
+    particleAmount: 20
+    particleHide: 0
+    activationRange: 16
+    commandsWithoutTp: true
+    commands:
+    - cmi effect [playerName] blindness 2 1 -s
+  sewers2:
+    Loc: 24.0:33.0:76.0:24.0:37.0:77.0
+    enabled: true
+    effect: Reddust
+    showParticles: true
+    Tp: OPP1;-99.1;18.0;213.48;-91.19;-1.93
+    kickBack: true
+    particlesByPermission: false
+    requiresPerm: false
+    informOnMissingPerm: false
+    particleAmount: 20
+    particleHide: 0
+    activationRange: 16
+    commandsWithoutTp: true
+    commands:
+    - cmi effect [playerName] blindness 2 1 -s
+  waterfall:
+    Loc: -82.0:7.0:100.0:-80.0:14.0:106.0
+    enabled: true
+    effect: Reddust
+    showParticles: true
+    Tp: OPP1;-235.5;99.0;-180.29;153.45;1.91
+    kickBack: false
+    particlesByPermission: true
+    requiresPerm: true
+    informOnMissingPerm: false
+    particleAmount: 74
+    particleHide: 0
+    activationRange: 16
+    commandsWithoutTp: true
+    commands:
+    - cmi effect [playerName] blindness 2 1 -s
+  wizard:
+    Loc: -240.0:99.0:-172.0:-236.0:102.0:-171.0
+    enabled: true
+    effect: Reddust
+    showParticles: true
+    Tp: OPP1;-79.16;9.0;104.36;-106.12;-0.55
+    kickBack: true
+    particlesByPermission: false
+    requiresPerm: false
+    informOnMissingPerm: false
+    particleAmount: 20
+    particleHide: 0
+    activationRange: 16
+    commandsWithoutTp: true
+    commands:
+    - cmi effect [playerName] blindness 2 1 -s

@@ -1,0 +1,199 @@
+#-----------------------------------------------------------------------------------------
+#
+# Helpful Information:
+#
+# - Item names: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+#
+#
+# - Enchantment names: http://pastebin.com/0WktGa59
+#
+# - (Example of adding an enchantment)
+# - displayed: 276 1 sharpness:3 smite:2 unbreaking:3
+#
+#
+# - PotionEffect names: http://pastebin.com/eghUaTuJ
+#
+# - (Example of adding a custom potion effect to your displayed potion item)
+# - displayed: 373:8258 1 strength:2:200 speed:3:600
+# [In this case, the item displayed will have Strength II (0:10) and Speed III (0:30).]
+#
+#
+# [IMPORTANT]
+# In Minecraft 1.9, potions & mob spawn eggs no longer use durability to specify the type.
+#
+# NOTE: In Minecraft 1.13, Spawn Eggs were given their own material name!
+#
+#  (1.9+ - 1.12.2) - Example of setting mob spawn egg (zombie) as a displayed item
+#
+#  displayed: MONSTER_EGG:ZOMBIE 1 name:&9Purchase_a_Zombie_Spawn_Egg!
+#
+#
+#  (1.9+) - Example of setting potion (splash strength II) as a displayed item
+#
+#  displayed: POTION:STRENGTH-strong-splash 1 name:&cSplash_Potion_of_Strength_II
+#
+#
+#  (1.9+) - Example of setting potion (speed I extended) as a displayed item
+#
+#  displayed: POTION:SPEED-extended 1 name:&bPotion_of_Speed_(Extended)
+#
+#
+# - 1.9+ Potions: http://minecraft.gamepedia.com/Potion#Data_values
+#
+#-----------------------------------------------------------------------------------------
+
+shops:
+  main: # Name of your shop
+    title: '&0Coin Shop' # Title of the inventory gui displayed in-game
+    rows: 2 # Rows of your shop inventory, must be a number between 1 - 6
+    auto-close: true # 'true' to close the shop inventory when a player purchases an item
+    items:
+      '0':
+        displayed: CHEST 1 name:&cRanks_Shop
+        cost: 0
+        subshop: ranks
+      '1':
+        displayed: CHEST 1 name:&dCrates_Shop
+        cost: 0
+        subshop: crates
+      '2':
+        displayed: CHEST 1 name:&bTools_Shop
+        cost: 0
+        subshop: tools
+      '3':
+        displayed: CHEST 1 name:&6Multiplier_Shop
+        cost: 0
+        subshop: multiplier
+      '17':
+        displayed: GOLD_BLOCK 1 name:&3Balance:_&f%tokens%_&bCoins
+        cost: 0
+        subshop: main
+  ranks:
+    title: '&0Ranks'
+    rows: 1
+    use-permission: true # 'true' to require players to have the permission 'tokenmanager.use.examplesubshop2' to access this shop
+    confirm-purchase: true # 'true' to open a confirm purchase gui for every item in this shop inventory with a cost over 0
+    items:
+      '0':
+        displayed: coal 1 name:&fPaperHands lore:&fThis_grants_you_the_PaperHands_Rank|&3Price:&b_%price%_Coins
+        cost: 1000
+        commands:
+        - 'lp user %player% group add paperhands'
+      '1':
+        displayed: iron_ingot 1 name:&2Holder lore:&fThis_grants_you_the_Holder_Rank|&3Price:&b_%price%_Coins
+        cost: 2500
+        commands:
+        - 'lp user %player% group add holder'
+      '2':
+        displayed: gold_ingot 1 name:&6Investor lore:&fThis_grants_you_the_Investor_Rank|&3Price:&b_%price%_Coins
+        cost: 5000
+        commands:
+        - 'lp user %player% group add investor'
+      '3':
+        displayed: diamond 1 name:&aTrader lore:&fThis_grants_you_the_Trader_Rank|&3Price:&b_%price%_Coins
+        cost: 10000
+        commands:
+        - 'lp user %player% group add trader'
+      '4':
+        displayed: emerald 1 name:&bDiamondHands lore:&fThis_grants_you_the_DiamondHands_Rank|&3Price:&b_%price%_Coins
+        cost: 20000
+        commands:
+        - 'lp user %player% group add diamondhands'
+      '8':
+        displayed: REDSTONE_BLOCK 1 name:&cGo_Back
+        cost: 0
+        subshop: main
+  crates:
+    title: '&0Crates'
+    rows: 2
+    items:
+      '0':
+        displayed: tripwire_hook 1 name:&bBasic_Crate lore:&3Price:&b_%price%_Coins
+        cost: 50
+        commands:
+        - 'cloudcrates givephys %player% basic 1'
+      '1':
+        displayed: tripwire_hook 1 unbreaking:1 name:&6Super_Crate lore:&3Price:&b_%price%_Coins
+        cost: 150
+        commands:
+        - 'cloudcrates givephys %player% super 1'
+      '2':
+        displayed: tripwire_hook 1 unbreaking:1 name:&cLegendary_Crate lore:&3Price:&b_%price%_Coins
+        cost: 350
+        commands:
+        - 'cloudcrates givephys %player% legendary 1'
+      '3':
+        displayed: tripwire_hook 1 unbreaking:1 name:&eTag_Crate lore:&3Price:&b_%price%_Coins
+        cost: 500
+        commands:
+        - 'cloudcrates givephys %player% tag 1'
+      '17':
+        displayed: REDSTONE_BLOCK 1 name:&cGo_Back
+        cost: 0
+        subshop: main
+  tools:
+    title: '&0Tools'
+    rows: 2
+    items:
+      '0':
+        displayed: diamond_pickaxe 1 name:&cExplosive_I_Pickaxe lore:&3Price:&b_%price%_Coins
+        cost: 2000
+        commands:
+        - 'givepickaxe %player% explosive=1'
+      '1':
+        displayed: diamond_pickaxe 1 name:&bTokenator_Pickaxe lore:&3Price:&b_%price%_Coins
+        cost: 2500
+        commands:
+        - 'givepickaxe %player% tokenator=1'
+      '2':
+        displayed: diamond_pickaxe 1 name:&aAutoSell_Pickaxe lore:&3Price:&b_%price%_Coins
+        cost: 3000
+        commands:
+        - 'givepickaxe %player% autosell=1'
+      '17':
+        displayed: REDSTONE_BLOCK 1 name:&cGo_Back
+        cost: 0
+        subshop: main
+  multiplier:
+    title: '&0Multipliers'
+    rows: 2
+    items:
+      '0':
+        displayed: gold_ingot 1 name:&3x1.2_Personal_Multiplier_&7(15_Minutes) lore:&3Price:&b_%price%_Coins
+        cost: 250
+        commands:
+        - 'pmulti %player% 1.2 15'
+      '1':
+        displayed: gold_ingot 1 name:&3x1.5_Personal_Multiplier_&7(30_Minutes) lore:&3Price:&b_%price%_Coins
+        cost: 500
+        commands:
+        - 'pmulti %player% 1.5 30'
+      '2':
+        displayed: gold_ingot 1 name:&3x1.5_Personal_Multiplier_&7(60_Minutes) lore:&3Price:&b_%price%_Coins
+        cost: 750
+        commands:
+        - 'pmulti %player% 1.5 60'
+      '3':
+        displayed: gold_block 1 name:&3x1.2_Global_Multiplier_&7(15_Minutes) lore:&3Price:&b_%price%_Coins
+        cost: 500
+        commands:
+        - 'gmulti 1.2 15'
+      '4':
+        displayed: gold_block 1 name:&3x1.5_Global_Multiplier_&7(30_Minutes) lore:&3Price:&b_%price%_Coins
+        cost: 1000
+        commands:
+        - 'gmulti 1.5 30'
+      '5':
+        displayed: gold_block 1 name:&3x1.5_Global_Multiplier_&7(60_Minutes) lore:&3Price:&b_%price%_Coins
+        cost: 1500
+        commands:
+        - 'gmulti 1.5 60'
+      '6':
+        displayed: gold_block 1 name:&3x2_Global_Multiplier_&7(60_Minutes) lore:&3Price:&b_%price%_Coins
+        cost: 5000
+        commands:
+        - 'gmulti 2.0 60'
+      '17':
+        displayed: REDSTONE_BLOCK 1 name:&cGo_Back
+        cost: 0
+        subshop: main

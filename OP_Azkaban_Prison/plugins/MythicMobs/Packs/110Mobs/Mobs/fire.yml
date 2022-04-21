@@ -1,0 +1,421 @@
+################################
+#                              #
+#           [ Red  ]           #
+#                              #
+################################
+
+Red_Knight:
+  Type: ZOMBIE
+  Display: '&3[Lv. <caster.level>] &6Red Knight &c<caster.hp> &c<&heart>'
+  Health: 10
+  Faction: Red Castle
+  Disguise: Red_Knight
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - AIR HEAD
+  - AIR CHEST
+  - AIR LEGS
+  - AIR FEET
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.26
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - cmd{c=codex unlock <trigger.name> monsters 20} 100%
+  - mmoitems{type=MATERIAL;id=FIREORB} 1 0.5%
+  - money 150000 100%
+  - mmoitems{type=MISCELLANEOUS;id=ASH} 1 1%
+  LevelModifiers:
+    Health: 5.0
+    Damage: 5.0
+  Skills:
+  - randomskill{s=Iron_WeaponsPick2} @self ~onSpawn
+  - equip{i="SHIELD OFFHAND"} @self ~onSpawn 0.5
+  - sound{s=entity.vindicator.ambient;v=0.2;p=0.8} @self ~onTimer:120 0.7
+  - sound{s=entity.vindicator.hurt;v=0.2;p=0.8} @self ~onDamaged
+  - sound{s=entity.vindicator.death;v=0.2;p=0.8} @self ~onDeath
+  - sound{s=block.iron_trapdoor.open;v=0.8;p=0.6} @self ~onDamaged
+  - sound{s=block.iron_trapdoor.close;v=0.8;p=0.6} @self ~onDamaged
+  - sound{s=item.armor.equip_iron;v=0.5;p=0.8} @self ~onDamaged
+  - sound{s=block.chain.break;v=0.3;p=0.8} @self ~onDamaged
+  - sound{s=entity.experience_orb.pickup;volume=1.0;pitch=2.0} @Self ~onDeath
+  - damage{a=25} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+  - setname{name=<caster.name>;delay=1} @self ~onDamaged
+
+Red_Robin:
+  Type: SKELETON
+  Display: '&3[Lv. <caster.level>] &6Red Robin &c<caster.hp> &c<&heart>'
+  Health: 10
+  Faction: Red Castle
+  Disguise: Red_Robin
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - BOW HAND
+  - AIR HEAD
+  - AIR CHEST
+  - AIR LEGS
+  - AIR FEET
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.25
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - cmd{c=codex unlock <trigger.name> monsters 21} 100%
+  - mmoitems{type=MATERIAL;id=FIREORB} 1 0.6%
+  - money 165000 100%
+  - mmoitems{type=MISCELLANEOUS;id=ASH} 1 1.5%
+  LevelModifiers:
+    Health: 5.0
+    Damage: 5.0
+  Skills:
+  - sound{s=entity.pillager.ambient;v=0.2;p=1.2} @self ~onTimer:120 0.7
+  - sound{s=entity.pillager.hurt;v=0.2;p=1.2} @self ~onDamaged
+  - sound{s=entity.pillager.death;v=0.2;p=1.2} @self ~onDeath
+  - sound{s=block.iron_trapdoor.open;v=0.2;p=0.6} @self ~onDamaged
+  - sound{s=block.iron_trapdoor.close;v=0.2;p=0.6} @self ~onDamaged
+  - sound{s=item.armor.equip_leather;v=0.8;p=0.8} @self ~onDamaged
+  - sound{s=entity.experience_orb.pickup;volume=1.0;pitch=2.0} @Self ~onDeath
+  - damage{a=26} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+  - setname{name=<caster.name>;delay=1} @self ~onDamaged
+
+Blood_Mage:
+  Type: ZOMBIE
+  Display: '&3[Lv. <caster.level>] &6Blood Mage &c<caster.hp> &c<&heart>'
+  Health: 10
+  Faction: Red Castle
+  Disguise: Blood_Mage
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - STICK HAND
+  - AIR HEAD
+  - AIR CHEST
+  - AIR LEGS
+  - AIR FEET
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.18
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - cmd{c=codex unlock <trigger.name> monsters 22} 100%
+  - mmoitems{type=MATERIAL;id=FIREORB} 1 0.75%
+  - money 180000 100%
+  - mmoitems{type=MISCELLANEOUS;id=ASH} 1 2%
+  LevelModifiers:
+    Health: 5.0
+    Damage: 5.0
+  Skills:
+  - skill{s=Blood_Projectile} ~onTimer:100 0.5
+  - equip{i="RED_DYE OFFHAND"} @self ~onSpawn 0.5
+  - sound{s=entity.witch.hurt;v=0.3;p=1.2} @self ~onDamaged
+  - sound{s=entity.witch.death;v=0.3;p=1.2} @self ~onDeath
+  - sound{s=entity.evoker.ambient;v=0.5;p=1.2} @self ~onTimer:120 0.7
+  - sound{s=entity.evoker.hurt;v=0.5;p=1.2} @self ~onDamaged
+  - sound{s=entity.evoker.death;v=0.5;p=1.2} @self ~onDeath
+  - sound{s=item.armor.equip_leather;v=0.5;p=0.8} @self ~onDamaged
+  - sound{s=entity.experience_orb.pickup;volume=1.0;pitch=2.0} @Self ~onDeath
+  - damage{a=27} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Armored_Bandit:
+  Type: HUSK
+  Display: '&cArmored Bandit &6[Lv. <caster.level>]'
+  Faction: Red Castle
+  Equipment:
+  - Armored_BanditHEAD HEAD
+  - Armored_BanditCHEST CHEST
+  - Armored_BanditLEGS LEGS
+  - Armored_BanditFEET FEET
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Options:
+    MovementSpeed: 0.25
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 20-40
+  - iron_chestplate 1 0.2
+  - iron_boots 1 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-20to40} @self ~onSpawn
+  - sound{s=entity.vindicator.ambient;p=0.6;v=0.5} @self ~onTimer:120 0.7
+  - sound{s=entity.vindicator.hurt;p=0.6;v=0.5} @self ~onDamaged
+  - sound{s=entity.vindicator.death;p=0.6;v=0.5} @self ~onDeath
+  - sound{s=block.iron_trapdoor.open;v=0.5;p=0.6} @self ~onDamaged
+  - sound{s=block.iron_trapdoor.close;v=0.5;p=0.6} @self ~onDamaged
+  - sound{s=block.chain.place;v=0.2;p=0.8} @self ~onDamaged
+  - sound{s=entity.iron_golem.hurt;v=0.3;p=1} @self ~onDamaged
+  - randomskill{s=Iron_WeaponsPick} @self ~onSpawn
+  - sound{s=entity.experience_orb.pickup;volume=1.0;pitch=2.0} @Self ~onDeath
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Bandit_Dog:
+  Type: ZOMBIE  
+  Display: '&cBandit Dog &6[Lv. <caster.level>]'
+  Disguise: WOLF setAngry
+  Faction: Red Castle
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.34 
+    PreventSunburn: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+  Drops:
+  - exp 20-40
+  - bone 1-3 0.2
+  - leather 1-2 0.2
+  - gold_nugget 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-20to40} @self ~onSpawn
+  - sound{s=entity.experience_orb.pickup;volume=1.0;pitch=2.0} @Self ~onDeath
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Redwood_Coyote:
+  Type: ZOMBIE  
+  Display: '&3[Lv. <caster.level>] &6Flaming Coyote &c<caster.hp> &c<&heart>'
+  Health: 10
+  Disguise: fox setDynamicName setType red
+  Faction: Red Castle
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.34
+    PreventSunburn: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+  Drops:
+  - mmoitems{type=MATERIAL;id=FIREORB} 1 0.9%
+  - money 200000 100%
+  - mmoitems{type=MISCELLANEOUS;id=ASH} 1 3%
+  LevelModifiers:
+    Health: 5.0
+    Damage: 5.0
+  Skills:
+  - effect:particles{p=BLOCK_CRACK;m=REDSTONE_BLOCK;a=5;s=0.07;hS=0.2;vS=0.2;y=0.1} @self ~onTimer:10 ?moving{} 
+  - sound{s=entity.experience_orb.pickup;volume=1.0;pitch=2.0} @Self ~onDeath
+  - damage{a=28} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+  - setname{name=<caster.name>;delay=1} @self ~onDamaged
+
+Fire_Scarab:
+  Type: ZOMBIE  
+  Display: '&3[Lv. <caster.level>] &6Fudder &c<caster.hp> &c<&heart>'
+  Health: 10
+  Disguise: MAGMA_CUBE setDynamicName setSize 1
+  Faction: Red Castle
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.34 
+    PreventSunburn: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+  Drops:
+  - cmd{c=codex unlock <trigger.name> monsters 24} 100%
+  - mmoitems{type=MATERIAL;id=FIREORB} 1 1.2%
+  - money 220000 100%
+  - mmoitems{type=MISCELLANEOUS;id=ASH} 1 5%
+  LevelModifiers:
+    Health: 5.0
+    Damage: 5.0
+  Skills:
+  - effect:particles{p=flame;a=5;s=0.05;hS=0.2;vS=0.2;y=0.1} @self ~onTimer:10 ?moving{} 
+  - sound{s=entity.silverfish.hurt;v=0.7;p=1.8} @self ~onDamaged
+  - sound{s=entity.silverfish.death;v=0.7;p=1.8} @self ~onDeath
+  - sound{s=entity.magma_cube.ambient;v=0.7;p=0.8} @self ~onTimer:120 0.7
+  - sound{s=entity.magma_cube.hurt;v=0.7;p=0.8} @self ~onDamaged
+  - sound{s=entity.magma_cube.death;v=0.7;p=0.8} @self ~onDeath
+  - sound{s=entity.experience_orb.pickup;volume=1.0;pitch=2.0} @Self ~onDeath
+  - damage{a=29} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+  - setname{name=<caster.name>;delay=1} @self ~onDamaged
+
+Flaming_Wisp:
+  Type: BABY_ZOMBIE
+  Display: '&3[Lv. <caster.level>] &6Flaming Wisp &c<caster.hp> &c<&heart>'
+  Health: 10
+  Faction: Red Castle
+  Disguise: ARMOR_STAND setDynamicName setInvisible setYModifier -1.5
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - Flaming_WispHEAD HEAD
+  Options:
+    FollowRange: 20
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - cmd{c=codex unlock <trigger.name> monsters 25} 100%
+  - mmoitems{type=MATERIAL;id=FIREORB} 1 1.2%
+  - mmoitems{type=MATERIAL;id=ENHANCEDFIREORB} 1 0.2%
+  - money 237000 100%
+  - mmoitems{type=MISCELLANEOUS;id=POWEREDASH} 1 1%
+  LevelModifiers:
+    Health: 5.0
+    Damage: 5.0
+  Skills:
+  - effect:particles{p=flame;a=5;s=0.05;hS=0.2;vS=0.2;y=0.1} @self ~onTimer:10 ?moving{} 
+  - effect:spin{v=8;d=99999} @self ~onSpawn  
+  - sound{s=entity.blaze.ambient;p=0.8;v=0.2} @self ~onTimer:120 0.7
+  - sound{s=entity.blaze.hurt;p=0.8;v=0.5} @self ~onDamaged
+  - sound{s=entity.blaze.death;p=0.8;v=0.5} @self ~onDeath
+  - sound{s=entity.experience_orb.pickup;volume=1.0;pitch=2.0} @Self ~onDeath
+  - damage{a=30} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+  - setname{name=<caster.name>;delay=1} @self ~onDamaged
+
+Carrion_Spider:
+  Type: SPIDER
+  Display: '&3[Lv. <caster.level>] &6Carrion Spider &c<caster.hp> &c<&heart>'
+  Health: 10
+  Faction: Red Castle
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.26
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    KnockbackResistance: 0.2  
+  Modules:
+    ThreatTable: true
+  Drops:
+  - cmd{c=codex unlock <trigger.name> monsters 26} 100%
+  - mmoitems{type=MATERIAL;id=FIREORB} 1 1.2%
+  - mmoitems{type=MATERIAL;id=ENHANCEDFIREORB} 1 0.35%
+  - money 250000 100%
+  - mmoitems{type=MISCELLANEOUS;id=POWEREDASH} 1 3.5%
+  LevelModifiers:
+    Health: 5.0
+    Damage: 5.0
+  Skills:
+  - sound{s=entity.creeper.hurt;v=0.7;p=0.8} @self ~onDamaged
+  - sound{s=entity.creeper.death;v=0.7;p=0.8} @self ~onDeath
+  - sound{s=entity.spider.ambient;v=0.7;p=0.8} @self ~onTimer:120 0.7
+  - sound{s=entity.spider.hurt;v=0.7;p=0.8} @self ~onDamaged
+  - sound{s=entity.spider.death;v=0.7;p=0.8} @self ~onDeath
+  - sound{s=entity.experience_orb.pickup;volume=1.0;pitch=2.0} @Self ~onDeath
+  - damage{a=33} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+  - setname{name=<caster.name>;delay=1} @self ~onDamaged
+
+Molten_Golem:
+  Type: WITHER_SKELETON
+  Display: '&3[Lv. <caster.level>] &6Molten Golem &c<caster.hp> &c<&heart>'
+  Health: 10
+  Disguise:
+  Faction: Red Castle
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - Molten_GolemHEAD HEAD
+  - Molten_GolemFEET FEET
+  - Molten_GolemCHEST CHEST
+  - Molten_GolemLEGS LEGS
+  Options:
+    FollowRange: 20
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - cmd{c=codex unlock <trigger.name> monsters 23} 100%
+  - mmoitems{type=MATERIAL;id=FIREORB} 1 1.2%
+  - mmoitems{type=MATERIAL;id=ENHANCEDFIREORB} 1 0.5%
+  - money 280000 100%
+  - mmoitems{type=MISCELLANEOUS;id=POWEREDASH} 1 4%
+  LevelModifiers:
+    Health: 5.0
+    Damage: 5.0
+  Skills:
+  - effect:particles{p=BLOCK_CRACK;m=MAGMA_BLOCK;a=10;s=0.05;hS=0.3;vS=0.5;y=0.1} @self ~onTimer:10 ?moving{} 
+  - sound{s=entity.iron_golem.hurt;v=0.15;p=0.8} @self ~onDamaged
+  - sound{s=block.basalt.break;v=0.8;p=0.8} @self ~onDamaged
+  - sound{s=block.nether_bricks.break;v=0.8;p=0.8} @self ~onDamaged
+  - sound{s=block.gravel.break;v=0.8;p=0.7} @self ~onDamaged
+  - sound{s=entity.blaze.ambient;p=0.8;v=0.2} @self ~onTimer:120 0.7
+  - sound{s=entity.blaze.hurt;p=0.8;v=0.2} @self ~onDamaged
+  - sound{s=entity.blaze.death;p=0.8;v=0.2} @self ~onDeath
+  - sound{s=entity.experience_orb.pickup;volume=1.0;pitch=2.0} @Self ~onDeath
+  - randomskill{s=Stone_WeaponsPick,Iron_WeaponsPick} @self ~onSpawn
+
+  - damage{a=35} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+  - setname{name=<caster.name>;delay=1} @self ~onDamaged

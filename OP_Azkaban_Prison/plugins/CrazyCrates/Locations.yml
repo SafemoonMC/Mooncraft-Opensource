@@ -1,0 +1,31 @@
+Locations:
+  '1':
+    Crate: Common
+    World: OPP1
+    X: 0
+    Y: 87
+    Z: -10
+  '2':
+    Crate: Epic
+    World: OPP1
+    X: 4
+    Y: 87
+    Z: -12
+  '3':
+    Crate: Prestige
+    World: OPP1
+    X: 8
+    Y: 87
+    Z: -14
+  '4':
+    Crate: Legendary
+    World: OPP1
+    X: 12
+    Y: 87
+    Z: -12
+  '5':
+    Crate: Rare
+    World: OPP1
+    X: 16
+    Y: 87
+    Z: -10

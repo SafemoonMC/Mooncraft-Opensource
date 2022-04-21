@@ -1,0 +1,177 @@
+use_tokens_currency: false
+messages:
+  not_enough_tokens: '&e&lRANKUP &8» &7You don''t have enough tokens to rankup. You
+    need %cost% Tokens.'
+  not_prestige_permission: '&e&lPRESTIGE &8» &7You must have permission to prestige'
+  rank_up: '&3MoonPrison &8| &7Congratulations, you ranked up from %Rank-1%&7 mine
+    to %Rank-2%&7 mine.'
+  not_enough_money: '&3MoonPrison &8| &7You don''t have enough money to rankup. You
+    need &b$%cost%'
+  prestige_needed: '&3MoonPrison &8| &7You have reached the final mine. To continue
+    you must &bprestige&7.'
+  prestige_up: '&3MoonPrison &8| &7Congratulations, you prestiged up to &bPrestige
+    %Prestige%'
+  not_enough_money_prestige: '&3MoonPrison &8| &7You don''t have enough money to prestige.
+    You need &b$%cost%'
+  last_prestige: '&3MoonPrison &8| &7You are at the last Prestige. More coming soon...'
+  not_last_rank: '&3MoonPrison &8| &7You must reach the &bNeptune &7mine to prestige.'
+  top_updating: '&cLeaderboard is currently updating...'
+  rank_set: '&3MoonPrison &8| &7You have set %player%''s rank to %rank%'
+  prestige_set: '&3MoonPrison &8| &7You have set %player%''s prestige to %amount%'
+  prestige_add: '&3MoonPrison &8| &7You have added %amount% prestige to  %player%'
+  prestige_remove: '&3MoonPrison &8| &7You have removed %amount% prestige from %player%'
+  max_prestige_started: '&3MoonPrison &8| &7Started /maxprestige. This might take
+    a while...'
+  max_prestige_done: '&3MoonPrison &8| &7Congratulations, you''ve max prestiged from
+    &cPrestige %start_prestige% &7to &cPrestige %prestige%&7.'
+prestige-top-format:
+- '&8&m+--------&r &3Prestige &bTop&r &8&m--------+'
+- '{FOR_EACH_PLAYER} &b#%position% &7- &f%player% &bPrestige %prestige%'
+- '&8&m+----------------------------+'
+reset_rank_after_prestige: true
+prestige_top_update_interval: 10
+unlimited_prestiges:
+  enabled: false
+  max_prestige: 5
+  prestige_cost: 1000000
+  increase_cost:
+    enabled: true
+    increase_cost_by: 1.25
+  prefix: '&3P%prestige%'
+  rewards-per-prestige:
+    enabled: false
+    rewards:
+    - tokens give %player% 50
+  rewards:
+    '10':
+    - eco give %player% 10
+    '100':
+    - eco give %player% 100
+    '1000':
+    - eco give %player% 1000
+    '10000':
+    - eco give %player% 10000
+Ranks:
+  '1':
+    Prefix: '&2Earth'
+  '2':
+    Prefix: '&4Mars'
+    Cost: 30000
+    CMD:
+    - lp user %player% parent add Mars prison
+    - vcells disband normal %player%
+    - lp user %player% parent remove Earth prison
+  '3':
+    Prefix: '&eVenus'
+    Cost: 75000
+    CMD:
+    - lp user %player% parent add Venus prison
+    - vcells disband normal %player%
+    - lp user %player% parent remove Mars prison
+  '4':
+    Prefix: '&cJupiter'
+    Cost: 150000
+    CMD:
+    - lp user %player% parent add Jupiter prison
+    - vcells disband normal %player%
+    - lp user %player% parent remove Venus prison
+  '5':
+    Prefix: '&fMercury'
+    Cost: 250000
+    CMD:
+    - lp user %player% parent add Mercury prison
+    - vcells disband normal %player%
+    - lp user %player% parent remove Jupiter prison
+  '6':
+    Prefix: '&9Uranus'
+    Cost: 500000
+    CMD:
+    - lp user %player% parent add Uranus prison
+    - vcells disband normal %player%
+    - lp user %player% parent remove Mercury prison
+  '7':
+    Prefix: '&dSaturn'
+    Cost: 750000
+    CMD:
+    - lp user %player% parent add Saturn prison
+    - vcells disband normal %player%
+    - lp user %player% parent remove Uranus prison
+  '8':
+    Prefix: '&bNeptune'
+    Cost: 1000000
+    CMD:
+    - lp user %player% parent add Neptune prison
+    - vcells disband normal %player%
+    - lp user %player% parent remove Saturn prison
+Prestige:
+  '0':
+    Prefix: '0'
+  '1':
+    Prefix: '1'
+    Cost: 1500000
+    CMD:
+    - lp user %player% parent remove Neptune prison
+    - lp user %player% parent add Earth prison
+    - lp user %player% parent add p1 prison
+    - resetinv prison %player%
+    - spawn %player%
+    - money set %player% 500
+    - vcells disband normal %player%
+    - vcells disband donator %player%
+    - broadcast &b%player%&7 has just prestiged to &bPrestige %Prestige%
+  '2':
+    Prefix: '2'
+    Cost: 3000000
+    CMD:
+    - lp user %player% parent remove Neptune prison
+    - lp user %player% parent add Earth prison
+    - lp user %player% parent remove p1 prison
+    - lp user %player% parent add p2 prison
+    - resetinv prison %player%
+    - spawn %player%
+    - money set %player% 500
+    - vcells disband normal %player%
+    - vcells disband donator %player%
+    - broadcast &b%player%&7 has just prestiged to &bPrestige %Prestige%
+  '3':
+    Prefix: '3'
+    Cost: 5000000
+    CMD:
+    - lp user %player% parent remove Neptune prison
+    - lp user %player% parent add Earth prison
+    - lp user %player% parent remove p2 prison
+    - lp user %player% parent add p3 prison
+    - resetinv prison %player%
+    - spawn %player%
+    - money set %player% 500
+    - vcells disband normal %player%
+    - vcells disband donator %player%
+    - broadcast &b%player%&7 has just prestiged to &bPrestige %Prestige%
+  '4':
+    Prefix: '4'
+    Cost: 8000000
+    CMD:
+    - lp user %player% parent remove Neptune prison
+    - lp user %player% parent add Earth prison
+    - lp user %player% parent remove p3 prison
+    - lp user %player% parent add p4 prison
+    - resetinv prison %player%
+    - spawn %player%
+    - money set %player% 500
+    - vcells disband normal %player%
+    - vcells disband donator %player%
+    - broadcast &b%player%&7 has just prestiged to &bPrestige %Prestige%
+  '5':
+    Prefix: '5'
+    Cost: 10000000
+    CMD:
+    - lp user %player% parent remove Neptune prison
+    - lp user %player% parent add Earth prison
+    - lp user %player% parent remove p4 prison
+    - lp user %player% parent add p5 prison
+    - resetinv prison %player%
+    - spawn %player%
+    - money set %player% 500
+    - vcells disband normal %player%
+    - vcells disband donator %player%
+    - broadcast &b%player%&7 has just prestiged to &bPrestige %Prestige%

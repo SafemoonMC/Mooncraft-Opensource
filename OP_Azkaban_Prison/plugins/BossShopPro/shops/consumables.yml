@@ -1,0 +1,454 @@
+ShopName: consumables
+DisplayName: '&0Consumables'
+Command: consumables
+signs:
+  text: '[armor]'
+  NeedPermissionToCreateSign: true
+InventorySize: 36
+shop:
+  BREAD:
+    RewardType: NOTHING
+    PriceType: NOTHING
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE5OTdkYTY0MDQzYjI4NDgyMjExNTY0M2E2NTRmZGM0ZThhNzIyNjY2NGI0OGE0ZTFkYmI1NTdiNWMwZmUxNCJ9fX0=
+    - 'name:&bBread'
+    - 'lore1:&cConsumable'
+    - 'lore2:&a'
+    - 'lore3:&bDescription:'
+    - 'lore4:&7Can be eaten alone or combined into'
+    - 'lore5:&7a sandwich for a tastier meal!'
+    - 'lore6:&a'
+    - 'lore7:&7Can be obtained by farming Hay.'
+    - 'lore8:&a'
+    - 'lore9:&bStatistics:'
+    - 'lore10:&8 ▪ &7Food: &f1.0'
+    - 'lore11:&8 ▪ &7Saturation: &f1.0'
+    - amount:1
+    InventoryLocation: 11
+  MEAT:
+    RewardType: NOTHING
+    PriceType: NOTHING
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjYzMzZmNWJiOTk3NWJmNTdlMTRkYjY2MTVjMTg5NmM1YzRiOWMzOWFhZDE3YjE3ZTRlZTIwYjIzMWNmNiJ9fX0=
+    - 'name:&bMeat'
+    - 'lore1:&cConsumable'
+    - 'lore2:&a'
+    - 'lore3:&bDescription:'
+    - 'lore4:&7Can be eaten alone or combined into'
+    - 'lore5:&7other consumables for a tastier meal!'
+    - 'lore6:&a'
+    - 'lore7:&7Can be obtained from killing Animals'
+    - 'lore8:&7and &aAngry Hunter&7, &aRoyal Guard'
+    - 'lore9:&7and &aCity Archers &7in the &7&lStone Realm'
+    - 'lore10:&7area.'
+    - 'lore11:&a'
+    - 'lore12:&bStatistics:'
+    - 'lore13:&8 ▪ &7Food: &f2.0'
+    - 'lore14:&8 ▪ &7Saturation: &f2.0'
+    - amount:1
+    InventoryLocation: 12
+  SANDWICH:
+    RewardType: NOTHING
+    PriceType: NOTHING
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzdjNGMyYmUzOGEzYzA1MDdmYmI3Y2Y0MTFhZjIzNzczMzY0MWEzMDQ0ZTBmYzA4ZWQ5MmRjMzc2ODMyZjcxMSJ9fX0=
+    - 'name:&bSandwich'
+    - 'lore1:&cConsumable'
+    - 'lore2:&a'
+    - 'lore3:&bDescription:'
+    - 'lore4:&7Made of Bread and Meat restores'
+    - 'lore5:&7high amount of hunger and saturation.'
+    - 'lore6:&a'
+    - 'lore7:&7Can be obtained by combining Bread'
+    - 'lore8:&7and Meat in the crafting table.'
+    - 'lore9:&a'
+    - 'lore10:&bStatistics:'
+    - 'lore11:&8 ▪ &7Food: &f4.0'
+    - 'lore12:&8 ▪ &7Saturation: &f4.0'
+    - amount:1
+    InventoryLocation: 13
+  NOTHERN-PIKE:
+    RewardType: NOTHING
+    PriceType: NOTHING
+    MenuItem:
+    - type:COD
+    - 'name:&7Nothern Pike'
+    - 'lore1:&cConsumable'
+    - 'lore2:&a'
+    - 'lore3:&7Can be obtained through Fishing'
+    - 'lore4:&7in the local pond!'
+    - 'lore5:&a'
+    - 'lore6:&bStatistics:'
+    - 'lore7:&8 ▪ &7Food: &f4.0'
+    - 'lore8:&8 ▪ &7Saturation: &f4.0'
+    - amount:1
+    InventoryLocation: 14
+  HUCHEN:
+    RewardType: NOTHING
+    PriceType: NOTHING
+    MenuItem:
+    - type:SALMON
+    - 'name:&7Huchen'
+    - 'lore1:&cConsumable'
+    - 'lore2:&a'
+    - 'lore3:&7Can be obtained through Fishing'
+    - 'lore4:&7in the local pond!'
+    - 'lore5:&a'
+    - 'lore6:&bStatistics:'
+    - 'lore7:&8 ▪ &7Food: &f3.0'
+    - 'lore8:&8 ▪ &7Saturation: &f3.0'
+    - 'lore9:&8 ▪ &7Health: &c+0.5'
+    - amount:1
+    InventoryLocation: 15
+  CHINOOK:
+    RewardType: NOTHING
+    PriceType: NOTHING
+    MenuItem:
+    - type:SALMON
+    - 'name:&7Chinook'
+    - 'lore1:&cConsumable'
+    - 'lore2:&a'
+    - 'lore3:&7Can be obtained through Fishing'
+    - 'lore4:&7in the local pond!'
+    - 'lore5:&a'
+    - 'lore6:&bStatistics:'
+    - 'lore7:&8 ▪ &7Food: &f5.0'
+    - 'lore8:&8 ▪ &7Saturation: &f4.0'
+    - 'lore9:&8 ▪ &7Health: &c+0.5'
+    - amount:1
+    - enchantment:infinity#1
+    - itemflag:HIDE_ENCHANTS
+    InventoryLocation: 16
+  EMPURAU:
+    RewardType: NOTHING
+    PriceType: NOTHING
+    MenuItem:
+    - type:COD
+    - 'name:&7Empurau'
+    - 'lore1:&cConsumable'
+    - 'lore2:&a'
+    - 'lore3:&7Can be obtained through Fishing'
+    - 'lore4:&7in the local pond!'
+    - 'lore5:&a'
+    - 'lore6:&bStatistics:'
+    - 'lore7:&8 ▪ &7Food: &f5.0'
+    - 'lore8:&8 ▪ &7Saturation: &f4.0'
+    - 'lore9:&8 ▪ &7Health: &c+1.0'
+    - amount:1
+    - enchantment:infinity#1
+    - itemflag:HIDE_ENCHANTS
+    InventoryLocation: 17
+  SQUASHED-BUG:
+    RewardType: NOTHING
+    PriceType: NOTHING
+    MenuItem:
+    - type:WARPED_BUTTON
+    - 'name:&bSquashed Bug'
+    - 'lore1:&cConsumable'
+    - 'lore2:&a'
+    - 'lore3:&7Can be obtained through killing'
+    - 'lore4:&aGrass Bug&7 and &aBlossom Fly&7 in the'
+    - 'lore5:&2&lForest Realm&7 area.'
+    - 'lore6:&a'
+    - 'lore7:&bStatistics:'
+    - 'lore8:&8 ▪ &7Food: &f0.5'
+    - 'lore9:&8 ▪ &7Saturation: &f0.5'
+    - amount:1
+    - enchantment:infinity#1
+    - itemflag:HIDE_ENCHANTS
+    InventoryLocation: 20
+  DEAD-FLOWER:
+    RewardType: NOTHING
+    PriceType: NOTHING
+    MenuItem:
+    - type:POPPY
+    - 'name:&bDead Flower'
+    - 'lore1:&cConsumable'
+    - 'lore2:&a'
+    - 'lore3:&7Can be obtained through killing'
+    - 'lore4:&aDawn Tulip&7, &aDusk Orchid &7and &aBloom'
+    - 'lore5:&aSpirit &7in the &2&lForest Realm&7 area.'
+    - 'lore6:&a'
+    - 'lore7:&bStatistics:'
+    - 'lore8:&8 ▪ &7Food: &f1.0'
+    - 'lore9:&8 ▪ &7Saturation: &f1.0'
+    - amount:1
+    InventoryLocation: 21
+  CRYSTAL:
+    RewardType: NOTHING
+    PriceType: NOTHING
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTVhZTYxODAyYjJhYWQ3NmI4YjIwMWFlNGI0ZWZhODYxNjEyM2VkMjNlYmE3NWE1Y2QzN2Q2Y2ExZGEzZDFlYiJ9fX0=
+    - 'name:&dCrystal'
+    - 'lore1:&cConsumable'
+    - 'lore2:&a'
+    - 'lore3:&7This crystal radiates with energy!'
+    - 'lore4:&7'
+    - 'lore5:&a&7Restores &60.5 ⚡&7.'
+    - amount:1
+    InventoryLocation: 22
+  GO-BACK:
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - recipes
+    MenuItem:
+    - type:BARRIER
+    - 'name:&cBack'
+    - 'lore1:&7Back to Main Menu'
+    - amount:1
+    InventoryLocation: 32
+  GLASS-1:
+    MenuItem:
+    - name:&7
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  GLASS-2:
+    MenuItem:
+    - name:&7
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  GLASS-3:
+    MenuItem:
+    - name:&7
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  GLASS-4:
+    MenuItem:
+    - name:&7
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  GLASS-5:
+    MenuItem:
+    - name:&7
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  GLASS-6:
+    MenuItem:
+    - name:&7
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  GLASS-7:
+    MenuItem:
+    - name:&7
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  GLASS-8:
+    MenuItem:
+    - name:&7
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+  GLASS-9:
+    MenuItem:
+    - name:&7
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 9
+  GLASS-10:
+    MenuItem:
+    - name:&7
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+  GLASS-11:
+    MenuItem:
+    - name:&7
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 18
+  GLASS-12:
+    MenuItem:
+    - name:&7
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 19
+  GLASS-13:
+    MenuItem:
+    - name:&7
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 27
+  GLASS-14:
+    MenuItem:
+    - name:&7
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+  GLASS-15:
+    MenuItem:
+    - name:&7
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 36
+  GLASS-16:
+    MenuItem:
+    - name:&7
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 35
+  GLASS-17:
+    MenuItem:
+    - name:&7
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+  GLASS-18:
+    MenuItem:
+    - name:&7
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+  GLASS-19:
+    MenuItem:
+    - name:&7
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 31
+  GLASS-20:
+    MenuItem:
+    - name:&7
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+  GLASS-21:
+    MenuItem:
+    - name:&7
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 29
+  GLASS-22:
+    MenuItem:
+    - name:&7
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+  GLASS-23:
+    MenuItem:
+    - name:&7
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 24
+  GLASS-24:
+    MenuItem:
+    - name:&7
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 25
+  GLASS-25:
+    MenuItem:
+    - name:&7
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 26

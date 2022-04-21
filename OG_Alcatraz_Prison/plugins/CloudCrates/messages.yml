@@ -1,0 +1,178 @@
+NO-PERMISSION:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_BAT_TAKEOFF"
+    Message:
+        Enabled: true
+        Value:
+            - "&3Mooncrates &8| &cYou dont have permission to &nexecute&c this."
+INVALID-CRATE:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_BAT_TAKEOFF"
+    Message:
+        Enabled: true
+        Value:
+            - "&3Mooncrates &8| &cYou have entered an invalid crate key."
+INVALID-AMOUNT:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_BAT_TAKEOFF"
+    Message:
+        Enabled: true
+        Value:
+            - "&3Mooncrates &8| &cYou need to enter a valid amount."
+INVALID-PLAYER:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_BAT_TAKEOFF"
+    Message:
+        Enabled: true
+        Value:
+            - "&3Mooncrates &8| &cYou need to enter a online player."
+NOT-PLAYER:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_BAT_TAKEOFF"
+    Message:
+        Enabled: true
+        Value:
+            - "&3Mooncrates &8| &cYou have to be a player to use this command."
+HELP-MESSAGE:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_BAT_TAKEOFF"
+    Message:
+        Enabled: true
+        Value:
+            - "&6&l[!] &eCloud&6Crates &8[&7Admin&8]"
+            - "&7&oYou are viewing the admin help section."
+            - " "
+            - "&e&lMember &6&lCommands"
+            - "  &8» &e/crates &fopen &8» &7Opens the crates menu."
+            - " "
+            - "&e&lAdmin &6&lCommands"
+            - "  &8» &e/crates &fhelp &8» &7Brings up the Crates commands."
+            - "  &8» &e/crates &freload &8» &7Reload the configuration."
+            - "  &8» &e/crates &fsettings &8» &7Opens the settings gui."
+            - "  &8» &e/crates &fpreview [crate] &8» &7Allows you to preview a crate's loot."
+            - "  &8» &e/crates &6place [crate] &8» &7Places a crate block for you."
+            - "  &8» &e/crates &6give &f<player> <crate> [amount] &8» &7Give a player virtual crates."
+            - "  &8» &e/crates &6givephys &f<player> <crate> [amount] &8» &7Give a player physical crates."
+            - "  &8» &e/crates &6giveall &f<crate> [amount] &8» &7Give all players virtual crates."
+            - "  &8» &e/crates &6giveallphys &f<crate> [amount] &8» &7Give all players physical crates."
+            - "  &8» &e/crates &6remove &f<player> <crate> <amount> &8» &7Removes a key from a player."
+            - "  &8» &e/crates &6set &f<player> <crate> <amount> &8» &7Sets the players amount of keys"
+            - " "
+PLUGIN-RELOADED:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+        Enabled: true
+        Value:
+            - "&3Mooncrates &8| &7You are reloading the configuration files."
+CRATE-PLACER-RECEIVED:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+        Enabled: true
+        Value:
+            - "&3Mooncrates &8| &7You have received the crate placer for the &b%crate% &7crate."
+KEY-ALL-SENT:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+        Enabled: true
+        Value:
+            - "&6&l[!] &7You have given all players &b%amount%x %crate% &7crate keys."
+CRATE-PLACED:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+        Enabled: true
+        Value:
+            - "&3Mooncrates &8| &7You have created a new crate location."
+LOCATION-REMOVED:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+        Enabled: true
+        Value:
+            - "&3Mooncrates &8| &7You have removed one of the crate locations."
+CRATE-RECEIVED:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+        Enabled: true
+        Value:
+            - "&3Mooncrates &8| &7You have received &b%amount%x %crate% &7crate keys."
+SENT-CRATE:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+        Enabled: true
+        Value:
+            - "&3Mooncrates &8| &7You have sent &b%amount%x %crate% &7crate keys to &b%player%&7."
+CRATE-REMOVED:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+        Enabled: true
+        Value:
+            - "&3Mooncrates &8| &7You have lost &b%amount%x %crate% &7crate keys."
+REMOVED-CRATE:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+        Enabled: true
+        Value:
+            - "&3Mooncrates &8| &7You have removed &b%amount%x %crate% &7crate keys from &b%player%&7."
+CRATE-SET:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+        Enabled: true
+        Value:
+            - "&3Mooncrates &8| &7Your &b%crate% &7crate balance has been set to &b%amount%x&7."
+SET-CRATE:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+        Enabled: true
+        Value:
+            - "&3Mooncrates &8| &7You have set &b%player%&7's &b%crate% &7crate balance to &b%amount%x&7."
+MAIN-GUI-OPENED:
+    Sound:
+        Enabled: true
+        Value: "BLOCK_CHEST_OPEN"
+    Message:
+        Enabled: true
+        Value:
+            - "&3Mooncrates &8| &bYou have opened the crate selector."
+CRATES-CONVERTED:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+        Enabled: true
+        Value:
+            - "&3Mooncrates &8| &7You have converted your crates files."
+FORCED-OPEN:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+        Enabled: true
+        Value:
+            - "&3Mooncrates &8| &e7You have force opened the &b%crate% &7crate for &b%player%&7."

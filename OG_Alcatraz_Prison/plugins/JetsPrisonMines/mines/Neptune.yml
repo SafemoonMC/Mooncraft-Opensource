@@ -1,0 +1,35 @@
+mine_name: Neptune
+blocks:
+- DIAMOND_ORE:6:false:false
+- LIGHT_BLUE_CONCRETE:47:false:false
+- END_STONE:47:false:false
+region:
+  world: world
+  zmin: -104
+  ymin: 91
+  xmin: 651
+  zmax: -75
+  ymax: 119
+  xmax: 680
+reset:
+  use_timer: true
+  timer: 180
+  use_percentage: false
+  percentage: 45
+  reset_type: GRADUAL
+  use_messages: false
+  reset_direction: TOPTOBOTTOM
+perm_to_mine: false
+blocks_mined: 0
+stats:
+  holograms:
+  - world:649.3854161440826:122.0:-99.97699017112073:HOLOGRAM_TIMER
+effects: []
+teleport_location:
+  ==: org.bukkit.Location
+  world: world
+  x: 688.7218031247954
+  y: 121.0
+  z: -95.62346390503653
+  pitch: 3.5900168
+  yaw: 75.29913

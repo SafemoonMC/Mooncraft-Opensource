@@ -1,0 +1,69 @@
+name: '{centered}&e&lKeeper of the Lair'
+starts_with:
+- NPC with id 21
+block_movement: false
+slow_effect: false
+save_conversation_progress: false
+start_conversation_radius: 0
+end_conversation_radius: 12
+requires_permission: false
+cooldown: 0
+conversation:
+  conversation1:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Bring me all of the Cryptic Keys before you'
+        - '{centered}&7can talk to me! You currently have &c%checkitem_amount_namecontains:&c&lCryptic
+          Key%/3'
+        time: 2
+        conditional_dialogue:
+          conditional_dialogue1:
+            requires:
+            - '%quests_player_has_completed_quest_custom16% == false'
+            start_conversation: conversation2
+          conditional_dialogue2:
+            requires:
+            - '%quests_player_has_completed_quest_custom16% == true'
+            - '%checkitem_amount_namecontains:&c&lCryptic% >= 3'
+            start_conversation: conversation3
+          conditional_dialogue3:
+            requires:
+            - '%quests_player_has_completed_quest_custom16% == true'
+            - '%quests_player_has_current_quest_custom16% == No'
+            - '%quests_player_has_current_quest_custom17% == Yes'
+            start_conversation: conversation4
+    random_dialogue: false
+  conversation2:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7I am the Keeper of this lair, if you wish to enter.'
+        - '{centered}&7You must first bring me 3 of the Cryptic Keys.'
+        - '&7'
+        time: 3
+    random_dialogue: false
+  conversation3:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&aYou can now access the Lair!'
+        - '&7'
+        time: 2
+        actions:
+        - 'console_command: questsadmin give %player% Azrael'
+        - 'console_command: lp user %player% permission set azrael.entry true opprison'
+        - 'console_command: papi parse %player% %checkitem_remove_namecontains:&c&lCryptic
+          Key%'
+        save_dialogue_to_player: true
+        actions_after_dialogue: true
+    random_dialogue: false
+  conversation4:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7You already can access the Lair!'
+        - '{centered}&7Go ahead and fight Azrael!'
+        - '&7'
+        time: 2
+    random_dialogue: false

@@ -1,0 +1,53 @@
+uranus:
+  name: "&9Uranus"
+  fillItem:
+    material: BLACK_STAINED_GLASS_PANE
+    name: " "
+  buttons:
+    goBack:
+      slot: 49
+    previousPage:
+      slot: 39
+    nextPage:
+      slot: 41
+  items:
+    1:
+      type: item
+      item:
+        material: DARK_PRISMARINE
+        quantity: 1
+      buyPrice: -1
+      sellPrice: 3.0
+      slot: 10
+    2:
+      type: item
+      item:
+        material: PRISMARINE_BRICKS
+        quantity: 1
+      buyPrice: -1
+      sellPrice: 2.5
+      slot: 11
+    3:
+      type: item
+      item:
+        material: LAPIS_LAZULI
+        quantity: 1
+      buyPrice: -1
+      sellPrice: 0.96
+      slot: 12
+    4:
+      type: item
+      item:
+        material: BLUE_TERRACOTTA
+        quantity: 1
+      buyPrice: -1
+      sellPrice: 2.8
+      slot: 13
+    5:
+      type: item
+      item:
+        material: LAPIS_ORE
+        quantity: 1
+      buyPrice: -1
+      sellPrice: 1.5
+      slot: 14

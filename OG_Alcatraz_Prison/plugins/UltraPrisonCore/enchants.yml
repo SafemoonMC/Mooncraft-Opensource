@@ -1,0 +1,524 @@
+# 
+#    material: STAINED_GLASS_PANE:14
+first-join-pickaxe:
+  enabled: true
+  name: '&e%player%''s Pickaxe'
+  material: DIAMOND_PICKAXE
+  enchants:
+  - efficiency 10
+  - unbreaking 10
+  - fortune 10
+open-menu-on-right-click-block: false
+allow-enchants-outside-mine-regions: false
+refund-percentage: 25.0
+enchant_menu:
+  pickaxe_enabled: true
+  title: '&0Pickaxe Upgrades'
+  empty_slots: STAINED_GLASS_PANE:7
+  lines: 4
+  pickaxe_slot: 4
+  item:
+    lore:
+    - '&7%description%'
+    - ' '
+    - '&bPrice &8| &7%cost% Tokens'
+    - '&bMax Level &8| &7%max_level%'
+    - '&bCurrent Level &8| &7%current_level%'
+    - ' '
+    - '&8&o(( &7&oClick&7&o to upgrade a level &8&o))'
+    - ' '
+    - '&bPickaxe Requirement &8| &7Level %pickaxe_level%'
+    max_level_lore:
+    - '&7%description%'
+    - ' '
+    - '&bMax Level &8| &7%max_level%'
+    - '&bCurrent Level &8| &7%current_level%'
+    - ' '
+    - '&8&o((&7&a FULLY UPGRADED &8&o))'
+  help_item:
+    enabled: true
+    material: STAINED_GLASS_PANE:7
+    slot: 34
+    name: '&fGray Stained Glass Pane'
+    lore:
+    - ' '
+  disenchant_item:
+    enabled: true
+    material: FLINT_AND_STEEL
+    Base64: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU0YjhiOGQyMzYyYzg2NGUwNjIzMDE0ODdkOTRkMzI3MmE2YjU3MGFmYmY4MGMyYzViMTQ4Yzk1NDU3OWQ0NiJ9fX0=
+    slot: 31
+    name: '&3Pickaxe &bDowngrades'
+    lore:
+    - ' '
+    - '&7Click to open the refund menu'
+disenchant_menu:
+  pickaxe_enabled: true
+  title: '&0Pickaxe Downgrades'
+  empty_slots: STAINED_GLASS_PANE:7
+  lines: 3
+  pickaxe_slot: 4
+  item:
+    lore:
+    - '&bCurrent Level &8| &7%current_level%'
+    - '&bRefund &8| &7%refund% Tokens'
+    - ' '
+    - '&8&o(( &7&oClick&7&o to refund 1 level &8&o))'
+    min_level_lore:
+    - '&bCurrent Level &8| &7%current_level%'
+    - ' '
+    - '&8&o((&7&4 NO LOWER LEVEL&8&o))'
+  help_item:
+    enabled: true
+    material: STAINED_GLASS_PANE:7
+    slot: 17
+    name: '&fGray Stained Glass Pane'
+    lore:
+    - ' '
+messages:
+  enchant_min_level_exceed: '&e&l(!) &eThis transaction would exceed the min level
+    for this enchant.'
+  transaction_in_progress: '&e&lENCHANT &8» &cPlease wait for your other transaction
+    to complete.'
+  no_pickaxe_found: '&3MoonEnchants &8| &7You must be holding a pickaxe!'
+  enchant_max_level: '&3MoonEnchants &8| &7Enchantment is maxed out.'
+  enchant_max_level_exceed: '&3MoonEnchants &8| &7Upgrade your pickaxe by left-clicking
+    the enchant!'
+  not_enough_tokens: '&3MoonEnchants &8| &cYou do not have enough tokens!'
+  enchant_bought: '&3MoonEnchants &8| &c-%tokens% Tokens'
+  enchant_bought_multiple: '&3MoonEnchants &8| &7You have bought &f%amount% &7levels
+    of %enchant%&r &7for &f%tokens% &7tokens.'
+  enchant_refunded: '&3MoonEnchants &8| &7You have refunded &b%amount% &7levels of
+    %enchant%'
+  enchant_tokens_back: '&3MoonEnchants &8| &7You have received &b%tokens% &7tokens
+    back.'
+  enchant_cant_disenchant: '&3MoonEnchants &8| &7This upgrade can''t be disenchanted.'
+  enchant_no_level: '&3MoonEnchants &8| &7You do not have this upgrade!'
+  charity_other: '&a&l+ $%amount% &7(From %player%''s Charity)'
+  charity_your: '&a&l+ $%amount% &7(From Your Charity)'
+  blessing_other: '&6&l+ %amount% TOKENS &7(From %player%''s Blessing)'
+  blessing_your: '&6&l+ %amount% TOKENS &7(From Your Blessing)'
+  layer_disabled: '&3MoonEnchants &8| &7Layer &cdisabled'
+  layer_enabled: '&3MoonEnchants &8| &7Layer &aenabled'
+  lucky_booster_on: '&3MoonEnchants &8| &7Lucky Mode &aactivated&7, &Fx2 Tokens &7for
+    &b5:00'
+  lucky_booster_off: '&3MoonEnchants &8| &7Lucky Mode &cdeactivated&7.'
+  block_booster_on: '&3MoonEnchants &8| &7Block Booster &aactivated&7, &Fx2 Blocks
+    &7for &b5:00'
+  block_booster_off: '&3MoonEnchants &8| &7Block Booster &cdeactivated&7.'
+  lucky_mode_timeleft: '&3MoonEnchants &8| &7Lucky Mode activated&7 for: &b%timeleft%&7.'
+  lucky_mode_disabled: '&3MoonEnchants &8| &7Lucky Mode &cdisabled&7.'
+  explosive_disabled: '&3MoonEnchants &8| &7Explosive &cdisabled'
+  explosive_enabled: '&3MoonEnchants &8| &7Explosive &aenabled'
+  value_no_permission: '&3MoonEnchants &8| &7You do not have permission'
+  value_no_pickaxe: '&3MoonEnchants &8| &7You must hold a pickaxe in your hand.'
+  value_value: '&3MoonEnchants &8| &b%player%''s &7Pickaxe Value: &b%tokens% &7tokens&7.'
+  value_cooldown: '&3MoonEnchants &8| &7Please wait &b%time% seconds&7 before using
+    this command again.'
+  pickaxe_given: '&3MoonEnchants &8| &7You have given a pickaxe to &e%player%'
+  pickaxe_received: '&3MoonEnchants &8| &7You have received a new pickaxe'
+  pickaxe_inventory_full: '&3MoonEnchants &8| &7%player% &chas full inventory!'
+  prestige_finder: '&3MoonEnchants &8| &7You''ve just found a &fX%prestige% Prestige
+    Level &7while mining.'
+enchants:
+  '21':
+    RawName: nuke
+    Name: '&cNuke'
+    Material: BOOK
+    Enabled: false
+    InGuiSlot: 44
+    Increase-Cost-by: 0
+    Max: 100
+    Chance: 0.001
+    Cost: 1000
+    Description:
+    - '&7&o(( Ability to break whole mine while mining ))'
+    Pickaxe-Level-Required: 1
+    Count-Blocks-Broken: true
+    Refund:
+      Enabled: false
+      InGuiSlot: 44
+  '1':
+    RawName: efficiency
+    Name: '&9Efficiency'
+    Material: BOOK
+    Enabled: true
+    InGuiSlot: 11
+    Increase-Cost-by: 300
+    Max: 5
+    Cost: 100
+    Description:
+    - '&7&o(( Ability to mine blocks faster ))'
+    Pickaxe-Level-Required: 1
+    Refund:
+      Enabled: true
+      InGuiSlot: 11
+  '2':
+    RawName: unbreaking
+    Name: '&9Unbreaking'
+    Material: BOOK
+    Enabled: false
+    InGuiSlot: 13
+    Increase-Cost-by: 1000
+    Max: 1
+    Cost: 1000
+    Description:
+    - '&7&o(( Prevents your pickaxe from breaking while mining ))'
+    Pickaxe-Level-Required: 1
+    Refund:
+      Enabled: false
+      InGuiSlot: 13
+  '3':
+    RawName: fortune
+    Name: '&9Fortune'
+    Material: BOOK
+    Enabled: true
+    InGuiSlot: 14
+    Increase-Cost-by: 750
+    Max: 3
+    Chance: 1
+    Cost: 500
+    Description:
+    - '&7&o(( Ability to receive more blocks while mining ))'
+    Pickaxe-Level-Required: 10
+    Refund:
+      Enabled: true
+      InGuiSlot: 14
+  '4':
+    RawName: haste
+    Name: '&9Haste'
+    Material: BOOK
+    Enabled: true
+    InGuiSlot: 13
+    Increase-Cost-by: 600
+    Max: 3
+    Chance: 3
+    Cost: 350
+    Description:
+    - '&7&o(( Ability to swing your pickaxe faster while mining ))'
+    Pickaxe-Level-Required: 6
+    Refund:
+      Enabled: true
+      InGuiSlot: 13
+  '5':
+    RawName: speed
+    Name: '&aSpeed'
+    Material: BOOK
+    Enabled: false
+    InGuiSlot: 31
+    Increase-Cost-by: 10000
+    Max: 2
+    Cost: 10000
+    Description:
+    - '&7&o(( Ability to move faster while holding your pickaxe ))'
+    Refund:
+      Enabled: false
+      InGuiSlot: 31
+  '6':
+    RawName: jumpboost
+    Name: '&bJump Boost'
+    Material: BOOK
+    Enabled: false
+    InGuiSlot: 32
+    Increase-Cost-by: 5000
+    Max: 5
+    Cost: 5000
+    Description:
+    - '&7&o(( Ability to jump higher while holding your pickaxe ))'
+    Refund:
+      Enabled: false
+      InGuiSlot: 32
+  '7':
+    RawName: nightvision
+    Name: '&cNight Vision'
+    Material: BOOK
+    Enabled: false
+    InGuiSlot: 33
+    Increase-Cost-by: 0
+    Max: 1
+    Cost: 10000
+    Description:
+    - '&7&o(( Ability to see in the dark while mining ))'
+    Refund:
+      Enabled: false
+      InGuiSlot: 33
+  '8':
+    RawName: luckybooster
+    Name: '&9Lucky Booster'
+    Material: BOOK
+    Enabled: true
+    InGuiSlot: 12
+    Increase-Cost-by: 500
+    Max: 3
+    Chance: 0.02
+    Cost: 275
+    Description:
+    - '&7&o(( Ability to receive x2 Tokens for a short time ))'
+    Pickaxe-Level-Required: 4
+    Refund:
+      Enabled: true
+      InGuiSlot: 12
+  '9':
+    Count-Blocks-Broken: true
+    RawName: explosive
+    Name: '&cExplosive'
+    Material: EMERALD
+    Enabled: true
+    InGuiSlot: 21
+    Increase-Cost-by: 10000
+    Cooldown: 0
+    Max: 3
+    Chance: 2
+    Cost: 50000
+    Description:
+    - '&7&o(( Explodes nearby blocks while mining ))'
+    Pickaxe-Level-Required: 20
+    Refund:
+      Enabled: false
+      InGuiSlot: 30
+  '10':
+    Count-Blocks-Broken: true
+    RawName: layer
+    Name: '&bLayer'
+    Material: BOOK
+    Enabled: false
+    Chance: 9.0E-5
+    InGuiSlot: 36
+    Increase-Cost-by: 200
+    Max: 500
+    Cost: 200
+    Description:
+    - '&7&o(( Ability to break full layer of your mine while mining))'
+    Refund:
+      Enabled: false
+      InGuiSlot: 36
+  '11':
+    RawName: charity
+    Name: '&cCharity'
+    Material: BOOK
+    Enabled: false
+    InGuiSlot: 37
+    Increase-Cost-by: 25
+    Max: 750
+    Chance: 6.66E-5
+    Max-Money: 5000000000000
+    Min-Money: 1000000000000
+    Cost: 25
+    Messages-Enabled: true
+    Description:
+    - '&7&o(( Chance to give to everyone online money while mining ))'
+    Refund:
+      Enabled: false
+      InGuiSlot: 37
+  '12':
+    RawName: salary
+    Name: '&dSalary'
+    Material: BOOK
+    Enabled: false
+    InGuiSlot: 38
+    Increase-Cost-by: 35
+    Max: 500
+    Chance: 7.5E-4
+    Max-Money: 5000000000000
+    Min-Money: 2500000000000
+    Cost: 35
+    Description:
+    - '&7&o(( Ability to receive more money while mining ))'
+    Refund:
+      Enabled: false
+      InGuiSlot: 38
+  '13':
+    RawName: blessing
+    Name: '&eBlessing'
+    Material: BOOK
+    Enabled: false
+    InGuiSlot: 39
+    Increase-Cost-by: 25
+    Max: 750
+    Chance: 6.66E-5
+    Max-Tokens: 15000
+    Min-Tokens: 5000
+    Cost: 25
+    Messages-Enabled: true
+    Description:
+    - '&7&o(( Chance to give to everyone online tokens while mining ))'
+    Refund:
+      Enabled: false
+      InGuiSlot: 39
+  '14':
+    RawName: tokenator
+    Name: '&bTokenator'
+    Material: EMERALD
+    Enabled: true
+    IsOP: true
+    InGuiSlot: 22
+    Increase-Cost-by: 0
+    Max: 1
+    Chance: 1
+    Max-Tokens: 6
+    Min-Tokens: 3
+    Cost: 75000
+    Description:
+    - '&7&o(( Ability to gain more tokens while mining ))'
+    Pickaxe-Level-Required: 20
+    Refund:
+      Enabled: false
+      InGuiSlot: 31
+  '15':
+    RawName: keyfinder
+    Name: '&9Crate Finder'
+    Material: BOOK
+    Enabled: true
+    InGuiSlot: 15
+    Increase-Cost-by: 2000
+    Max: 4
+    Chance: 0.01
+    Cost: 1000
+    Description:
+    - '&7&o(( Ability to find crate keys while mining ))'
+    Pickaxe-Level-Required: 14
+    Commands:
+    - crate givephys %player% super 1
+    Refund:
+      Enabled: true
+      InGuiSlot: 15
+  '16':
+    Command: prestigeadmin add %player% %amount%
+    RawName: prestigefinder
+    Name: '&aPrestige Finder'
+    Material: BOOK
+    Enabled: false
+    Min-Levels: 1
+    Max-Levels: 10
+    InGuiSlot: 42
+    Increase-Cost-by: 175
+    Max: 500
+    Cost: 175
+    Description:
+    - '&7&o(( Ability to find prestige levels while mining. ))'
+    Refund:
+      Enabled: false
+      InGuiSlot: 42
+    Chance: 4.0E-7
+  '17':
+    RawName: blockbooster
+    Name: '&dBlock Booster'
+    Material: BOOK
+    Enabled: false
+    InGuiSlot: 43
+    Increase-Cost-by: 225
+    Max: 750
+    Chance: 5.0E-6
+    Cost: 225
+    Description:
+    - '&7&o(( Ability to give everyone global boosters while mining ))'
+    Commands:
+    - tempGlobalMultiplier 0.1 5 minutes
+    - tempGlobalMultiplier 0.09 5 minutes
+    - tempGlobalMultiplier 0.08 5 minutes
+    - tempGlobalMultiplier 0.07 5 minutes
+    - tempGlobalMultiplier 0.06 5 minutes
+    - tempGlobalMultiplier 0.05 5 minutes
+    - tempGlobalMultiplier 0.04 5 minutes
+    - tempGlobalMultiplier 0.03 5 minutes
+    - tempGlobalMultiplier 0.02 5 minutes
+    - tempGlobalMultiplier 0.01 5 minutes
+    Refund:
+      Enabled: false
+      InGuiSlot: 43
+  '18':
+    RawName: keyalls
+    Name: '&cKeyalls'
+    Material: BOOK
+    Enabled: false
+    InGuiSlot: 44
+    Increase-Cost-by: 350
+    Max: 250
+    Chance: 9.0E-5
+    Cost: 350
+    Description:
+    - '&7&o(( Ability to give everyone crate keys while mining ))'
+    Pickaxe-Level-Required: 1
+    Commands:
+    - cc giveall physical Token 1
+    - cc giveall physical Token 2
+    - cc giveall physical Coal 1
+    - cc giveall physical Iron 1
+    - cc giveall physical Gold 1
+    Refund:
+      Enabled: false
+      InGuiSlot: 44
+  '19':
+    Messages-Enabled: true
+    RawName: autosell
+    Name: '&6Autosell'
+    Material: EMERALD
+    Enabled: true
+    IsOP: true
+    InGuiSlot: 23
+    Increase-Cost-by: 0
+    Max: 1
+    Chance: 4.0
+    Cost: 100000
+    Description:
+    - '&7&o(( Ability to sell all items while mining ))'
+    Pickaxe-Level-Required: 20
+    Refund:
+      Enabled: false
+      InGuiSlot: 32
+  '20':
+    RawName: voucher
+    Name: '&bVoucher Finder'
+    Material: BOOK
+    Enabled: false
+    InGuiSlot: 46
+    Increase-Cost-by: 5000
+    Max: 250
+    Chance: 9.0E-5
+    Cost: 5000
+    Description:
+    - '&7&o(( Ability to find store vouchers while mining ))'
+    Pickaxe-Level-Required: 1
+    Refund:
+      Enabled: false
+      InGuiSlot: 45
+    Commands:
+      '1':
+        command: voucher give %player% 5$
+        chance: 50
+      '2':
+        command: voucher give %player% 10$
+        chance: 25
+      '3':
+        command: voucher give %player% 25$
+        chance: 10
+      '4':
+        command: voucher give %player% 50$
+        chance: 5
+      '5':
+        command: voucher give %player% 50$
+        chance: 1
+Pickaxe:
+  lore:
+  - '&bLevel &8| &7%PickaxeLevel% &8[%PickaxeProgress%&8]'
+  - '&bBlocks &8| &7%Blocks%/%Blocks_Required%'
+  - '&8&m------------------------'
+  - '%Enchant-1%'
+  - '%Enchant-2%'
+  - '%Enchant-3%'
+  - '%Enchant-4%'
+  - '%Enchant-5%'
+  - '%Enchant-6%'
+  - '%Enchant-7%'
+  - '%Enchant-8%'
+  - '%Enchant-9%'
+  - '%Enchant-10%'
+  - '%Enchant-11%'
+  - '%Enchant-12%'
+  - '%Enchant-13%'
+  - '%Enchant-14%'
+  - '%Enchant-15%'
+  - '%Enchant-16%'
+  - '%Enchant-17%'
+  - '%Enchant-18%'
+  - '%Enchant-19%'
+  - '%Enchant-20%'

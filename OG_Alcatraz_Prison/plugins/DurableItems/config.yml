@@ -1,0 +1,8 @@
+#Items that you don't want to lose durability.
+Items:
+  - WOODEN_PICKAXE
+  - STONE_PICKAXE
+  - GOLDEN_PICKAXE
+  - IRON_PICKAXE
+  - DIAMOND_PICKAXE
+Enable-Rarities: false

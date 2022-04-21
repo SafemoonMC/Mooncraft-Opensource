@@ -1,0 +1,37 @@
+mine_name: Saturn
+blocks:
+- MOSSY_STONE_BRICKS:22.5:false:false
+- NETHERRACK:22.5:false:false
+- REDSTONE_ORE:10:false:false
+- PINK_CONCRETE:22.5:false:false
+- PURPLE_TERRACOTTA:22.5:false:false
+region:
+  world: world
+  zmin: 295
+  ymin: 133
+  xmin: 1274
+  zmax: 319
+  ymax: 156
+  xmax: 1298
+reset:
+  use_timer: true
+  timer: 180
+  use_percentage: false
+  percentage: 45
+  reset_type: GRADUAL
+  use_messages: false
+  reset_direction: TOPTOBOTTOM
+perm_to_mine: false
+blocks_mined: 0
+stats:
+  holograms:
+  - world:1271.4127945236226:159.0:307.44959739723737:HOLOGRAM_TIMER
+effects: []
+teleport_location:
+  ==: org.bukkit.Location
+  world: world
+  x: 1264.056723036458
+  y: 160.0
+  z: 313.6097432591909
+  pitch: 7.489973
+  yaw: 255.01982

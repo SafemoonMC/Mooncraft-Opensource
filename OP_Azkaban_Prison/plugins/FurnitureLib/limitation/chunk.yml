@@ -1,0 +1,7 @@
+ChunkLimit:
+  total:
+    enable: false
+    amount: -1
+    global: false
+  projects:
+    Crafting: -1

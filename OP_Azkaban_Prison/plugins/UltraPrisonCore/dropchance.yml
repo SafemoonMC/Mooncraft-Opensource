@@ -1,0 +1,23 @@
+command-chance: 50000
+blocks:
+  DARK_OAK_LOG:
+    chance: 6000
+    command: mi give material wood %player% 1-2
+  HAY_BLOCK:
+    chance: 50000
+    command: mi give consumable bread %player% 1
+  STONE:
+    chance: 1000
+    command: mi give material orb %player% 1
+  COAL_ORE:
+    chance: 1
+    command: mi give material enhancedorb %player% 1
+  IRON_ORE:
+    chance: 1
+    command: mi give material stoneorb %player% 1
+  GOLD_ORE:
+    chance: 1
+    command: mi give material enhancedstoneorb %player% 1
+  DIAMOND_ORE:
+    chance: 1
+    command: mi give material frostorb %player% 1

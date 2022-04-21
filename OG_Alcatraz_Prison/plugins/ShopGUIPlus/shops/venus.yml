@@ -1,0 +1,39 @@
+venus:
+  name: "&eVenus"
+  size: 54
+  fillItem:
+    material: BLACK_STAINED_GLASS_PANE
+    name: " "
+  items:
+    1:
+      type: item
+      item:
+        material: YELLOW_CONCRETE
+        quantity: 1
+      buyPrice: -1
+      sellPrice: 0.75
+      slot: 10
+    2:
+      type: item
+      item:
+        material: YELLOW_TERRACOTTA
+        quantity: 1
+      buyPrice: -1
+      sellPrice: 0.75
+      slot: 11
+    3:
+      type: item
+      item:
+        material: GOLD_ORE
+        quantity: 1
+      buyPrice: -1
+      sellPrice: 2.00
+      slot: 12
+    4:
+      type: item
+      item:
+        material: GOLD_INGOT
+        quantity: 1
+      buyPrice: -1
+      sellPrice: 8.00
+      slot: 13

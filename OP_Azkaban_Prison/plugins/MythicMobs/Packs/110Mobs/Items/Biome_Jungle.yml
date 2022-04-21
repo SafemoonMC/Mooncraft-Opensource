@@ -1,0 +1,78 @@
+PiranhaHead:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ3MzFlMGU4YmYwNjI5NjVlODkwNGU5ZWZjMWZkZTMxM2NmODRkNTMxNDg3YzI2Njg2NDk5MGJkY2NkN2I1NCJ9fX0=
+
+Shrine_GuardianHead:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWIyMGFiNDBlNDAxODBkZTJkMDNmN2RlZmVjMjlkNjg3MDY5MGNkNzY3MjllNTkxZTVkZDJlMTc0YzI2MDE5ZSJ9fX0=
+
+Shrine_GuardianCHEST:
+  Id: LEATHER_CHESTPLATE
+  Options:
+    Color: 32,66,40
+
+Shrine_GuardianLEGS:
+  Id: LEATHER_LEGGINGS
+  Options:
+    Color: 32,66,40
+
+Shrine_GuardianFEET:
+  Id: LEATHER_BOOTS
+  Options:
+   # Color: 71,99,35
+
+Mossy_PhythonHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTFiNGIyMDE4OWQ5MDJiYzZjM2ZhYmUyM2Q5ZjU3ODY5N2Y1NDRjZjQxNTMxNzc4NzM3NDExODM5M2RhNCJ9fX0=
+
+Tribal_ChiefHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBiZjM2YWEzM2Y2NDUwZTg1MGRiYjg0OTUyODBjOThmNjg2ZTg3OGY5Mzk4OTI2ZmJjNDg4Y2U2YWJiYzcyIn19fQ==
+
+Tribal_ChiefCHEST:
+  Id: LEATHER_CHESTPLATE
+  Options:
+    Color: 66,42,42
+
+Tribal_ChiefLEGS:
+  Id: LEATHER_LEGGINGS
+  Options:
+    Color: 107,77,77
+
+Tribal_ChiefFEET:
+  Id: LEATHER_BOOTS
+  Options:
+    Color: 66,42,42
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

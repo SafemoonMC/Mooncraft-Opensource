@@ -1,0 +1,77 @@
+[
+  {
+    "user": {
+      "type": "other",
+      "name": "CONSOLE"
+    },
+    "time": 1644332021852,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "plugins/spark/heap-2022-02-08_08.53.38.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "CONSOLE"
+    },
+    "time": 1644330413725,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "plugins/spark/heap-2022-02-08_08.26.49.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "CONSOLE"
+    },
+    "time": 1644326532779,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "plugins/spark/heap-2022-02-08_07.22.09.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ZubeySweet",
+      "uniqueId": "ff60d774-c481-450c-9acd-8711105ee964"
+    },
+    "time": 1644294112809,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/QkVincjXoN"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ZubeySweet",
+      "uniqueId": "ff60d774-c481-450c-9acd-8711105ee964"
+    },
+    "time": 1644294069483,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "plugins/spark/heap-2022-02-07_22.21.06.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ZubeySweet",
+      "uniqueId": "ff60d774-c481-450c-9acd-8711105ee964"
+    },
+    "time": 1644293984291,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/RvdSzjn5z4"
+    }
+  }
+]

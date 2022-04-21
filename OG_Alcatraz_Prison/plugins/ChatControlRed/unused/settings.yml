@@ -1,0 +1,5 @@
+Tag:
+  Change_Customname: false
+List:
+  Sort_Prefix: '{player_group}'
+  Format_Line: list

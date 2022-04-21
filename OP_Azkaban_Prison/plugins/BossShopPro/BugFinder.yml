@@ -1,0 +1,18 @@
+2021 11-09 at 07:51:21 AM (Sat): 'Mistake in Config: ''HIDE_ALL'' is not a valid ''itemflag''.'
+2021 11-09 at 07:52:14 AM (Sat): 'Mistake in Config: ''HIDE_ALL'' is not a valid ''itemflag''.'
+2021 27-09 at 08:41:05 AM (Mon): 'Mistake in Config: ''dark_oak_buton'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2021 27-09 at 08:41:48 AM (Mon): 'Mistake in Config: ''dark_oak_buton'' is not a valid
+  ''type''. Unable to find a fitting material.'
+2021 22-12 at 09:20:08 AM (Wed): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTVhZTYxODAyYjJhYWQ3NmI4YjIwMWFlNGI0ZWZhODYxNjEyM2VkMjNlYmE3NWE1Y2QzN2Q2Y2ExZGEzZDFlYiJ9fX0=''
+  can not be added to an item with material ''STONE''. Don''t worry I''ll automatically
+  transform the material into ''PLAYER_HEAD.'
+2021 22-12 at 09:21:18 AM (Wed): 'Mistake in Config: Itemdata of type ''customskull''
+  with value ''eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTVhZTYxODAyYjJhYWQ3NmI4YjIwMWFlNGI0ZWZhODYxNjEyM2VkMjNlYmE3NWE1Y2QzN2Q2Y2ExZGEzZDFlYiJ9fX0=''
+  can not be added to an item with material ''STONE''. Don''t worry I''ll automatically
+  transform the material into ''PLAYER_HEAD.'
+2022 06-01 at 09:15:32 AM (Thu): "Invalid Configuration! File: /shops/null Cause:\
+  \ while scanning for the next token\nfound character '\\t(TAB)' that cannot start\
+  \ any token. (Do not use \\t(TAB) for indentation)\n in 'string', line 642, column\
+  \ 1:\n    \t- 'lore3:&7to your Monsters Book!'\n    ^\n"

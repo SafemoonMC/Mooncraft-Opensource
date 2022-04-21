@@ -1,0 +1,240 @@
+Inventories:
+  main:
+    slots: 54
+    title: 'Monster Book'
+    '4':
+      item: WRITABLE_BOOK
+      name: '&bMonster Book'
+      lore:
+      - '&7Kill monsters you encounter'
+      - '&7in the Wilderness to add them'
+      - '&7to your Monsters Book!'
+      - ''
+      - '&7Monster Book Unlocked: &b%codex_total_discoveries_percentage_monsters%'
+      - '%progress_bar_{codex_total_discoveries_monsters}_c:&3-_p:&3-_r:&f-_l:20_m:36% &b%codex_total_discoveries_monsters%&3/&b36'
+    0;1;2;3;5;6;7;8;45;46;47;48;50;51;52;53:
+      item: BLACK_STAINED_GLASS_PANE
+      name: ' '
+    '9':
+      type: monsters;1
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQ3MGI5YjgyOTI4YTFhZWRiZWI1MDMzM2Y3NjNiYjI5M2JkY2EyOWNiNDNlMTgxZGE5MDRlMWIwZWQ2MWMxOCJ9fX0=
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '10':
+      type: monsters;2
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjkxYjNlZWE1NWQ2NDg3NGVhNDZhNDNhODNlZmJkYWU3NWUwMGZiOGJjYjYyZmIzOTRjMjIxZTE5Y2Y4MjE1YiJ9fX0=
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '11':
+      type: monsters;3
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJkZWIwMzNkYjMyNmE0MzNhZDhlOTMyZTUzNTVkNGFkZjE3MjlmNDY2Y2ZhYzlmZmJiMzczMjM1MTgxMmRhNCJ9fX0=
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '12':
+      type: monsters;4
+      item: OAK_LEAVES
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '13':
+      type: monsters;5
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzBiMmU4MmQ1Zjk0MTZiZDJmZmMwZDA5YWU1YzM0MDcwZmM1ZGRlNzNmMGVkOGViOWU4Y2Y3YzI2ZGFjMzQ4NCJ9fX0=
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '14':
+      type: monsters;6
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjg2YWIwNTI0OTAwNzZlMzZiMzM2NjcyMWI2M2NkMDNiNzA0ZjIzZWQ3ZTMwMGM3MTU4NGJkMzg2OTBhMDk0NiJ9fX0
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '15':
+      type: monsters;7
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjgyMDM1YmYyMjY4M2ZiNGExNjJlZTUzYTRiNzY4OTcyYzYxNWU5NTVlOGE4OWFjYjIxY2QxY2E0MjRmZWEifX19
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '16':
+      type: monsters;8
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDJlNWZmN2ZkZGUyNmMxYWM0OTgxNDFlNjBkMDhjNzY2MWZjM2MwZGI5NjY5OWI5OWVjMmE4ZjNhY2FiIn19fQ
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '17':
+      type: monsters;9
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzE1Mjg3YzQzZTY1OGE3YTg5MjZiNzE5YmY0MDgzZmM4NjA1ZDBmNDQ3ZWJiY2Y4NTk5MDcyZDA0MmMxYzYwNyJ9fX0
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '18': #City Guard
+      type: monsters;10
+      item: IRON_SWORD
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '19':
+      type: monsters;11 #City Archer
+      item: BOW
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '20':
+      type: monsters;12 #Crazy Blacksmith
+      item: ANVIL
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '21':
+      type: monsters;13 #Wild Bull
+      item: PIG_SPAWN_EGG
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '22':
+      type: monsters;14 #Wild Rooster
+      item: CHICKEN_SPAWN_EGG
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '23':
+      type: monsters;15 #Sky Wolf
+      item: WOLF_SPAWN_EGG
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '24':
+      type: monsters;16 #Fox Spirit
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzFiZTI5NzUwZGRlYzgwOTk0YmRhNzk2NTNlMjFlZDcwZDViMmViNzkzZGE1MWQ1YTg3Yjg5YmY2N2RjYjk2In19fQ==
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '25':
+      type: monsters;17 #Snow Lion
+      item: SNOW_BLOCK
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '26':
+      type: monsters;18 #Assassin
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IzMTNiMmQyMWVhODJmMzRmZTZmMWE4NTc4MzIzN2I4MmQzNGY0ODM2YmZiMGI2ZDM4YWExNjgzNmQ4ZThmMCJ9fX0
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '27':
+      type: monsters;19 #Ice Bandit
+      item: SNOW_BLOCK
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '28':
+      type: monsters;20 #Red Knight
+      item: NETHERRACK
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '29':
+      type: monsters;21 #Red Robin
+      item: NETHERRACK
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '30':
+      type: monsters;22 #Blood Mage
+      item: NETHERRACK
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '31':
+      type: monsters;23 #Molten Golem
+      item: IRON_INGOT
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '32':
+      type: monsters;24 #Fudder
+      item: NETHERRACK
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '33':
+      type: monsters;25 #Flaming Wisp
+      item: NETHERRACK
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '34':
+      type: monsters;26 #Carrion Spider
+      item: SPIDER_SPAWN_EGG
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '35':
+      type: monsters;27 #Purple Worm
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjkyZDViZTZmMTAxODY4MmM2NzRiMzMyZWVlODdkMjY5N2RjNWZhYWVhMDNkNDc0ODMwZWMzNDhmZDNkYWU2YyJ9fX0=
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '36':
+      type: monsters;28 #Night Lurker
+      item: ENDER_PEARL
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '37':
+      type: monsters;29 #Purple Alchemist
+      item: BREWING_STAND
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '38':
+      type: monsters;30 #Violet Wraith
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc3YWQ0YzUyODkzNzllMjVlZDc4ZjU3ZmUwZmMzOWY5YzdmYWQyNDQyMTVkYTY5NTliNDkyNWQ2MzEwZGEzNiJ9fX0=
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '39':
+      type: monsters;31 #Void Cultists
+      item: END_STONE
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '40':
+      type: monsters;32 #Void Sentinel
+      item: END_STONE
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '41':
+      type: monsters;33 #Shadow Watcher
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFhOGZjOGRlNjQxN2I0OGQ0OGM4MGI0NDNjZjUzMjZlM2Q5ZGE0ZGJlOWIyNWZjZDQ5NTQ5ZDk2MTY4ZmMwIn19fQ==
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '42':
+      type: monsters;34 #Shadow Seeker
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU3YTY4ZDFkNTJiNzFhZjAxM2I4OGM4YmU1MDI4ZmYyNzNhMjA5ZTYyMmY1MDVlNDcyYzZiM2Q5ZDBlOTA1OSJ9fX0=
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '43':
+      type: monsters;35 #Dark Zealot - END
+      item: OBSIDIAN
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '44':
+      type: monsters;36 #FINAL BOSS
+      skull_data: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzJlMmQwZWQxNGMyMzg2MjY2NmI0MDVhZWZhYmM2NWE1N2EyNzFlODQyZmRhNWY0ZDE5ZTZiYzExOGNlMGM5NCJ9fX0=
+      name: '%name%'
+      lore:
+      - '%lore%'
+    '49':
+      item: BARRIER
+      name: '&cBack'
+      lore:
+      - '&7Back to Main Menu'
+      click_commands:
+      - "player_command: help"

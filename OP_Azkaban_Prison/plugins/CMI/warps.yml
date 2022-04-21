@@ -1,0 +1,212 @@
+area1:
+  Location: OPP1;-236.75;99.0;-172.02;178.82;2.09
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+A:
+  Location: OPP1;-740.5;75.0;573.5;88.82;-2.85
+  DisName: '&3A Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: WHITE_CONCRETE
+B:
+  Location: OPP1;-758.68;72.0;255.56;89.56;-2.25
+  DisName: '&3B Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: LIME_CONCRETE
+C:
+  Location: OPP1;-791.4;75.0;-9.44;88.83;-2.04
+  DisName: '&3C Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: GREEN_CONCRETE
+D:
+  Location: OPP1;-811.78;73.0;-302.45;89.73;-3.3
+  DisName: '&3D Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: BROWN_CONCRETE
+E:
+  Location: OPP1;-812.3;73.0;-796.48;90.03;-0.44
+  DisName: '&3E Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: LIGHT_GRAY_CONCRETE
+F:
+  Location: OPP1;-825.78;75.0;-1272.48;89.73;-2.85
+  DisName: '&3F Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: GRAY_CONCRETE
+G:
+  Location: OPP1;-841.43;75.0;-1640.47;89.28;-3.15
+  DisName: '&3G Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: LIGHT_BLUE_CONCRETE
+H:
+  Location: OPP1;-878.6;72.0;-2086.51;90.48;-4.04
+  DisName: '&3H Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: CYAN_CONCRETE
+I:
+  Location: OPP1;-845.54;71.0;-2436.37;90.63;-6.0
+  DisName: '&3I Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: BLUE_CONCRETE
+J:
+  Location: OPP1;-842.11;72.30;-2752.56;89.73;-0.6
+  DisName: '&3J Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: YELLOW_CONCRETE
+K:
+  Location: OPP1;-848.59;71.0;-3116.52;87.92;-2.85
+  DisName: '&3K Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: ORANGE_CONCRETE
+L:
+  Location: OPP1;-845.73;71.0;-3517.59;88.21;-3.15
+  DisName: '&3L Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: RED_CONCRETE
+M:
+  Location: OPP1;-866.78;70.0;-3958.49;89.71;-3.3
+  DisName: '&3M Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: PINK_CONCRETE
+N:
+  Location: OPP1;-862.94;69.0;-4333.51;89.56;-4.94
+  DisName: '&3N Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: MAGENTA_CONCRETE
+O:
+  Location: OPP1;-847.43;71.0;-4641.5;89.11;-1.5
+  DisName: '&3O Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: PURPLE_CONCRETE
+P:
+  Location: OPP1;-873.23;71.0;-4974.47;89.86;-2.85
+  DisName: '&3P Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: BLACK_CONCRETE
+Q:
+  Location: OPP1;-903.44;71.0;-5262.39;91.05;-1.8
+  DisName: '&3Q Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: COAL_BLOCK
+R:
+  Location: OPP1;-911.53;71.0;-5562.49;90.45;-2.85
+  DisName: '&3R Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: LAPIS_BLOCK
+S:
+  Location: OPP1;-934.92;71.0;-5865.48;88.35;-3.0
+  DisName: '&3S Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: REDSTONE_BLOCK
+T:
+  Location: OPP1;-927.63;71.0;-6174.44;88.05;-2.08
+  DisName: '&3T Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: IRON_BLOCK
+U:
+  Location: OPP1;-895.73;71.0;-6546.55;88.64;-0.9
+  DisName: '&3U Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: GOLD_BLOCK
+V:
+  Location: OPP1;-931.46;71.0;-6954.5;89.69;-2.4
+  DisName: '&3V Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: DIAMOND_ORE
+W:
+  Location: OPP1;-913.46;71.0;-7382.55;88.34;-6.6
+  DisName: '&3W Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: EMERALD_ORE
+X:
+  Location: OPP1;-884.32;71.0;-7835.59;90.29;-3.6
+  DisName: '&3X Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: DIAMOND_BLOCK
+Y:
+  Location: OPP1;-879.46;73.50;-8312.37;91.79;-3.15
+  DisName: '&3Y Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: EMERALD_BLOCK
+Z:
+  Location: OPP1;-943.95;71.50;-8795.6;88.64;-3.6
+  DisName: '&3Z Mine'
+  ReqPerm: true
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2586
+    type: OBSIDIAN

@@ -1,0 +1,276 @@
+Crate:
+  #Type of crate (CSGO/QuadCrate/QuickCrate/Roulette/CrateOnTheGo/FireCracker/Wonder/Wheel/War/Cosmic(This requires a additional info to work.)).
+  CrateType: Roulette
+  #Name of the Inventory if a GUI crate.
+  CrateName: '&8Common Crate'
+  #The name of the inventory that will be in the preview GUI.
+  Preview-Name: '&8Common Crate Preview'
+  #Starting amount of keys when the player 1st joins.
+  StartingKeys: 0
+  #If the crate shows in the /cc GUI. (If the crate type is QuickCrate/CrateOnTheGo/FireCracker then the Crate will not work. Quick Crate requires a Physical Crate.)
+  InGUI: true
+  #Slot the item is in the GUI.
+  Slot: 21
+  #Enables/Disables the Broadcasts message when they open a crate.
+  OpeningBroadCast: false
+  #Message that is broadcast when opening the crate.
+  BroadCast: '%Prefix%&6&l%Player% &7is opening a &7&lBasic Chest&7.'
+  #Item the crate is in the GUI
+  Item: 'PLAYER_HEAD'
+  Player: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjkyODYxODdmMTUzNGI5M2MyNjhlNmZhZTk4OGU2ZDdkOGVmNGUxNzIxYTg5M2M1M2MxYTE1NWRlNGVlNjIifX19'
+  #If the crate in the main /cc GUI is glowing or not.
+  Glowing: false
+  #Name of the item in the GUI.
+  Name: '&fCommon Crate'
+  #The lore of the item in the GUI.
+  Lore:
+    - '&7This crate contains basic rewards.'
+    - '&7'
+    - '&7Right click to view rewards.'
+  Preview:
+    #Turn on and off the preview for this crate.
+    Toggle: true
+    #How many lines the previewChest should have. Including Header and Bottom (Between 3 and 6)
+    ChestLines: 3
+    Glass:
+      #Turn the glass boarder in the preview on and off.
+      Toggle: true
+      #The item that shows in the boarder. Can be glass or any other item.
+      Item: 'GRAY_STAINED_GLASS_PANE'
+  PhysicalKey:
+    #Name of the Key.
+    Name: '&7Common Crate'
+    #Lore of the Key.
+    Lore:
+      - '&cKey'
+      - '&a'
+      - '&7Can be used at spawn'
+    #The item the key is.
+    Item: 'WHITE_DYE'
+    #Makes the key look enchanted.
+    Glowing: false
+    #Settings for the holograms.
+  Hologram:
+    #Toggle on and off the holograms for the crates.
+    Toggle: false
+    #The height of the hologram above the crate.
+    Height: 5
+    #The message that will be displayed.
+    Message:
+      - '&7Common Chest'
+  Prizes:
+    1:
+      DisplayName: '&a$50,000'
+      DisplayItem: 'GOLD_NUGGET'
+      DisplayAmount: 1
+      Lore:
+        - '&7Adds &a$50,000 &7to your Balance.'
+        - ''
+        - '&bChance: &f25%'
+      MaxRange: 100
+      Chance: 25
+      Firework: false
+      Commands:
+        - 'cmi money give %Player% 50000'
+      Messages:
+        - '&3Crates &8| &dYou won &a$50,000 &dfrom this Crate!'
+      Alternative-Prize:
+        Toggle: false
+        Messages:
+          - '&8[&bCrazyCrates&8]: &7You have already won that prize, so enjoy some gold nuggets.'
+        Commands:
+          - 'give %player% gold_nugget 16'
+    2:
+      DisplayName: '&a$100,000'
+      DisplayItem: 'GOLD_INGOT'
+      DisplayAmount: 1
+      Lore:
+        - '&7Adds &a$100,000 &7to your Balance.'
+        - ''
+        - '&bChance: &f15%'
+      MaxRange: 100
+      Chance: 15
+      Firework: false
+      Commands:
+        - 'cmi money give %Player% 100000'
+      Messages:
+        - '&3Crates &8| &dYou won &a$100,000 &dfrom this Crate!'
+      Alternative-Prize:
+        Toggle: false
+        Messages:
+          - '&8[&bCrazyCrates&8]: &7You have already won that prize, so enjoy some gold nuggets.'
+        Commands:
+          - 'give %player% gold_nugget 16'
+    3:
+      DisplayName: '&a$200,000'
+      DisplayItem: 'GOLD_BLOCK'
+      DisplayAmount: 1
+      Lore:
+        - '&7Adds &a$200,000 &7to your Balance.'
+        - ''
+        - '&bChance: &f10%'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Commands:
+        - 'cmi money give %Player% 200000'
+      Messages:
+        - '&3Crates &8| &dYou won &a$200,000 &dfrom this Crate!'
+      Alternative-Prize:
+        Toggle: false
+        Messages:
+          - '&8[&bCrazyCrates&8]: &7You have already won that prize, so enjoy some gold nuggets.'
+        Commands:
+          - 'give %player% gold_nugget 16'
+    4:
+      DisplayName: '&b100 Tokens'
+      DisplayItem: 'DIAMOND'
+      DisplayAmount: 1
+      Lore:
+        - '&7Gives you &b100 Tokens &7to use'
+        - '&7when enchanting your pickaxe.'
+        - ''
+        - '&bChance: &f15%'
+      MaxRange: 100
+      Chance: 15
+      Firework: false
+      Commands:
+        - 'tokens give %Player% 100'
+      Messages:
+        - '&3Crates &8| &dYou won &b100 Tokens &dfrom this Crate!'
+      Alternative-Prize:
+        Toggle: false
+        Messages:
+          - '&8[&bCrazyCrates&8]: &7You have already won that prize, so enjoy some gold nuggets.'
+        Commands:
+          - 'give %player% gold_nugget 16'
+    5:
+      DisplayName: '&b150 Tokens'
+      DisplayItem: 'DIAMOND'
+      DisplayAmount: 1
+      Lore:
+        - '&7Gives you &b150 Tokens &7to use'
+        - '&7when enchanting your pickaxe.'
+        - ''
+        - '&bChance: &f10%'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Commands:
+        - 'tokens give %Player% 150'
+      Messages:
+        - '&3Crates &8| &dYou won &b150 Tokens &dfrom this Crate!'
+      Alternative-Prize:
+        Toggle: false
+        Messages:
+          - '&8[&bCrazyCrates&8]: &7You have already won that prize, so enjoy some gold nuggets.'
+        Commands:
+          - 'give %player% gold_nugget 16'
+    6:
+      DisplayName: '&eParticle Effect: &6Enchant'
+      DisplayItem: 'BLAZE_POWDER'
+      DisplayAmount: 1
+      Lore:
+        - '&7Gives you the ability to use'
+        - '&7the &6Enchant &7particle effect.'
+        - ''
+        - '&bChance: &f7%'
+      MaxRange: 100
+      Chance: 7
+      Firework: false
+      Commands:
+        - 'lp user %Player% permission set playerparticles.effect.enchant opprison'
+      Messages:
+        - '&3Crates &8| &dYou won &eParticle Effect: &6Enchant &dfrom this Crate!'
+      Alternative-Prize:
+        Toggle: false
+        Messages:
+          - '&8[&bCrazyCrates&8]: &7You have already won that prize, so enjoy some gold nuggets.'
+        Commands:
+          - 'give %player% gold_nugget 16'
+    7:
+      DisplayName: '&eParticle Effect: &6Happy Villager'
+      DisplayItem: 'BLAZE_POWDER'
+      DisplayAmount: 1
+      Lore:
+        - '&7Gives you the ability to use'
+        - '&7the &6Happy Villager &7particle effect.'
+        - ''
+        - '&bChance: &f7%'
+      MaxRange: 100
+      Chance: 7
+      Firework: false
+      Commands:
+        - 'lp user %Player% permission set playerparticles.effect.happy_villager opprison'
+      Messages:
+        - '&3Crates &8| &dYou won &eParticle Effect: &6Happy Villager &dfrom this Crate!'
+      Alternative-Prize:
+        Toggle: false
+        Messages:
+          - '&8[&bCrazyCrates&8]: &7You have already won that prize, so enjoy some gold nuggets.'
+        Commands:
+          - 'give %player% gold_nugget 16'
+    8:
+      DisplayName: '&eParticle Effect: &6Fishing'
+      DisplayItem: 'BLAZE_POWDER'
+      DisplayAmount: 1
+      Lore:
+        - '&7Gives you the ability to use'
+        - '&7the &6Fishing &7particle effect.'
+        - ''
+        - '&bChance: &f7%'
+      MaxRange: 100
+      Chance: 7
+      Firework: false
+      Commands:
+        - 'lp user %Player% permission set playerparticles.effect.fishing opprison'
+      Messages:
+        - '&3Crates &8| &dYou won &eParticle Effect: &6Fishing &dfrom this Crate!'
+      Alternative-Prize:
+        Toggle: false
+        Messages:
+          - '&8[&bCrazyCrates&8]: &7You have already won that prize, so enjoy some gold nuggets.'
+        Commands:
+          - 'give %player% gold_nugget 16'
+    9:
+      DisplayName: '&cRare Crate Key'
+      DisplayItem: 'RED_DYE'
+      DisplayAmount: 1
+      Lore:
+        - '&7Gives you &cx1 Rare Crate Key&7.'
+        - ''
+        - '&bChance: &f4%'
+      MaxRange: 100
+      Chance: 4
+      Firework: false
+      Commands:
+        - 'cc give physical Rare 1 %Player%'
+      Messages:
+        - '&3Crates &8| &dYou won &cRare Crate Key (x1) &dfrom this Crate!'
+      Alternative-Prize:
+        Toggle: false
+        Messages:
+          - '&8[&bCrazyCrates&8]: &7You have already won that prize, so enjoy some gold nuggets.'
+        Commands:
+          - 'give %player% gold_nugget 16'
+    10:
+      DisplayName: '&aEnhanced Orb'
+      DisplayItem: 'CHEST'
+      DisplayAmount: 1
+      Lore:
+        - '&7Gives you &aEnhanced Orb&7.'
+        - ''
+        - '&bChance: &f10%'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Commands:
+        - 'mmoitems give MATERIAL ENHANCEDORB %Player% 1'
+      Messages:
+        - '&3Crates &8| &dYou won &aEnhanced Orb &dfrom this Crate!'
+      Alternative-Prize:
+        Toggle: false
+        Messages:
+          - '&8[&bCrazyCrates&8]: &7You have already won that prize, so enjoy some gold nuggets.'
+        Commands:
+          - 'give %player% gold_nugget 16'

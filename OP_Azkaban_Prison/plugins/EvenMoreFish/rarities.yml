@@ -1,0 +1,26 @@
+rarities:
+  Common:
+    weight: 75
+    colour: '&f'
+    worth-multiplier: 0.1
+    broadcast: true
+  Uncommon:
+    weight: 15
+    colour: '&a'
+    worth-multiplier: 0.1
+    broadcast: true
+  Rare:
+    weight: 8
+    colour: '&9'
+    worth-multiplier: 0.1
+    broadcast: true
+  Epic:
+    weight: 5
+    colour: '&5'
+    worth-multiplier: 0.1
+    broadcast: true
+  Legendary:
+    weight: 2
+    colour: '&6'
+    worth-multiplier: 0.1
+    broadcast: true

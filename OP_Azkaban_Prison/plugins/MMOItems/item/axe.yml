@@ -1,0 +1,14 @@
+STARTERAXE:
+  base:
+    material: STONE_AXE
+    name: '&7Starter Axe'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    attack-speed: 1.0
+    attack-damage: 0.5
+    unbreakable: false
+    tier: BASIC
+    crafting: []

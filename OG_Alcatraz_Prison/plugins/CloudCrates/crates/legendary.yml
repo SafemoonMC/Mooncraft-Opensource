@@ -1,0 +1,594 @@
+Settings:
+    Name: "Legendary"
+    Virtual-Display-Enabed: true #Does it appear in the GUI?
+    Virtual-Display-Amount: -1 #Use -1 to display player keys
+    Preview-Enabled: true
+    Selector-Enabled: true
+    Reroll-Enabled: false
+    Spin-Type: "NoAnimation"
+    Reroll-Permission: "reroll.default"
+
+Location-Interact-Settings:
+    Left-Click-Preview: true
+    Right-Click-Physical-Crate: true
+    Right-Click-Selector: false
+
+Crate-Placer:
+    Material: "ENDER_CHEST"
+    Durability: 0
+    Name: "&2&l[!] &c&lLegendary Crate &l&6&k~~&b&l☆☆☆☆☆&l&6&k~~&e Placer &8(&7Place&8)"
+    Lore:
+        - '&7&o** Place this to add a crate location. **'
+
+Hologram-Settings:
+    Enabled: true
+    Height-Difference: 3.5
+    Lines:
+        - '&cLegendary Crate'
+        - ''
+        - '&7Possible winnings...'
+        - '%item-display%'
+        - '%item%'
+        - ''
+        - '&7Right-Click to open'
+        - '&7Left-Click to preview'
+
+Physical-Crate:
+    Glow: true
+    Material: "tripwire_hook"
+    Durability: 6
+    Name: "&cLegendary"
+    Lore:
+        - ' '
+        - '&bInformation'
+        - '&b&l❚ &7Crate: &c&lLegendary'
+        - '&b&l❚ &7Usage: &fClicking on the crate'
+        - ' '
+        - '&7&o(( Bring me to the &c&lLegendary&7&o crate to use me! ))'
+
+Virtual-Crate:
+    Glow: false
+    Material: "emerald"
+    Durability: 6
+    Name: "&cLegendary Crate"
+    Lore:
+        - ' '
+        - '&bInformation'
+        - '&b&l❚ &7Crate: &c&lLegendary'
+        - '&b&l❚ &7Preview: &fRight-Click'
+
+Virtual-Crate-Filler:
+    Glow: false
+    Material: "emerald"
+    Durability: 0
+    Name: "&cLegendary Crate"
+    Lore:
+        - "&7&oGo to /warp crates to unlock"
+
+Spinning-Settings:
+    Title: "Spinning <crate>"
+    Type: "HORIZONTAL"
+    Speed:
+        Ending-Start: 43 #Crate spins this amount before the ending will start.
+        Ended-Start: 55 #When the crate will end completely.
+    Border:
+        Enabled: false
+        Display-Item:
+            Material: STAINED_GLASS_PANE
+            Durability:
+                - 7
+                - 15
+            Name: " "
+            Lore:
+                - " "
+    Reward-Display:
+        Enabled: true
+        Display-Item:
+            Material: "BEACON"
+            Name: "&6&lYOUR &e&lREWARD"
+            Lore:
+                - " "
+    Sounds:
+        "SPIN-BEGIN": "BLOCK_CHEST_OPEN"
+        "SPIN-SLOT": "BLOCK_NOTE_PLING"
+        "SPIN-ENDING": "ENTITY_PLAYER_LEVELUP"
+        "SPIN-ENDED": "BLOCK_CHEST_CLOSE"
+
+Preview-Inventory:
+    Settings:
+        Title: "Previewing <crate>"
+        Size: 18
+    Scrollable-Slots:
+        - 0-17
+    Items: []
+
+Preview-Icons:
+    Previous-Page-Icon:
+        Enabled: false
+        Slot: 48
+        Previous-Page-Item:
+            Material: ARROW
+            Durability: 0
+            Name: "&4&l[!] &4&l<- PREVIOUS &c&lPAGE"
+            Lore:
+                - '&7&o"View the previous page of rewards."'
+        First-Page-Item:
+            Material: BARRIER
+            Durability: 0
+            Name: "&c&lALREADY ON FIRST PAGE"
+            Lore:
+                - '&7&o** You are already on the first page. **'
+    Next-Page-Icon:
+        Enabled: false
+        Slot: 50
+        Next-Page-Item:
+            Material: ARROW
+            Durability: 0
+            Name: "&2&l[!] &2&lNEXT &a&lPAGE ->"
+            Lore:
+                - '&7&o"View the next page of rewards."'
+        Not-Enough-Pages:
+            Material: BARRIER
+            Durability: 0
+            Name: "&c&lALREADY ON LAST PAGE"
+            Lore:
+                - '&7&o** You are already on the last page. **'
+    Preview-Item-Filler:
+        Material: STAINED_GLASS_PANE
+        Durability: 7
+        Name: " "
+        Lore:
+            - " "
+
+Messages:
+  "INVALID-KEY":
+    Sound:
+      Enabled: true
+      Value: "ENTITY_BAT_TAKEOFF"
+    Message:
+      Enabled: true
+      Value:
+        - "&3Mooncrates &8| &cYou need to be holding a &4Legendary &ckey for this crate."
+  "CRATE-STARTED":
+    Sound:
+      Enabled: true
+      Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+      Enabled: true
+      Value:
+        - "&3Mooncrates &8|  &7You have started opening the &b<crate> &7crate."
+  "NOT-ENOUGH-KEYS":
+    Sound:
+      Enabled: true
+      Value: "ENTITY_BAT_TAKEOFF"
+    Message:
+      Enabled: true
+      Value:
+        - "&3Mooncrates &8|  &cYou dont have enough keys to open the &4<crate> &ccrate."
+  "PREVIEW-OPENED":
+    Sound:
+      Enabled: true
+      Value: "ENTITY_BAT_TAKEOFF"
+    Message:
+      Enabled: true
+      Value:
+        - "&3Mooncrates &8| &7You have opened the preview GUI."
+  "ALREADY-FIRST-PAGE-PREVIEW":
+    Sound:
+      Enabled: true
+      Value: "ENTITY_BAT_TAKEOFF"
+    Message:
+      Enabled: true
+      Value:
+        - "&3Mooncrates &8| &cYou are already on the first page of this preview."
+  "ALREADY-LAST-PAGE-PREVIEW":
+    Sound:
+      Enabled: true
+      Value: "ENTITY_BAT_TAKEOFF"
+    Message:
+      Enabled: true
+      Value:
+        - "&3Mooncrates &8| &cYou are already on the last page of this preview."
+  "ACCESSED-PREVIOUS-PAGE-PREVIEW":
+    Sound:
+      Enabled: true
+      Value: "ENTITY_BAT_TAKEOFF"
+    Message:
+      Enabled: true
+      Value:
+        - "&3Mooncrates &8| &7You are now viewing the previous page of preview."
+  "ACCESSED-NEXT-PAGE-PREVIEW":
+    Sound:
+      Enabled: true
+      Value: "ENTITY_BAT_TAKEOFF"
+    Message:
+      Enabled: true
+      Value:
+        - "&3Mooncrates &8| &7You are now viewing the next page of preview."
+
+Types:
+    Common: &common "&2&l* &7Common Reward Type"
+    Uncommon: &uncommon "&2&l* &7Uncommon Reward Type"
+    Rare: &rare "&2&l* &7Rare Reward Type"
+    Legendary: &legendary "&2&l* &7Legendary Reward Type"
+
+Rewards:
+    "Money 10k":
+        Settings:
+            Enabled: true
+            Chance: 70
+        Display-Item:
+            Amount: 1
+            Material: "EMERALD"
+            Durability: 0
+            Name: "&a+$10,000"
+            Lore:
+                - *common
+        Message-Settings:
+            Sound:
+                Enabled: true
+                Value: "ENTITY_PLAYER_LEVELUP"
+            Message:
+                Enabled: true
+                Value:
+                    - "&2&l+ &6&l$10,000 &c(Legendary Crate)"
+        Commands:
+            - 'eco give %player% 10000'
+    "Money 25k":
+        Settings:
+            Enabled: true
+            Chance: 60
+        Display-Item:
+            Amount: 1
+            Material: "EMERALD"
+            Durability: 0
+            Name: "&2+$25,000"
+            Lore:
+                - *common
+        Message-Settings:
+            Sound:
+                Enabled: true
+                Value: "ENTITY_PLAYER_LEVELUP"
+            Message:
+                Enabled: true
+                Value:
+                    - "&2&l+ &6&l$25,000 &c(Legendary Crate)"
+        Commands:
+            - 'eco give %player% 25000'
+    "Money 50k":
+        Settings:
+            Enabled: true
+            Chance: 50
+        Display-Item:
+            Amount: 1
+            Material: "EMERALD"
+            Durability: 0
+            Name: "&e+$50,000"
+            Lore:
+                - *uncommon
+        Message-Settings:
+            Sound:
+                Enabled: true
+                Value: "ENTITY_PLAYER_LEVELUP"
+            Message:
+                Enabled: true
+                Value:
+                    - "&2&l+ &6&l$50,000 &c(Legendary Crate)"
+        Commands:
+            - 'eco give %player% 50000'
+    "Vote Crate Key x3":
+        Settings:
+            Enabled: true
+            Chance: 50
+        Display-Item:
+            Amount: 3
+            Material: "iron_ingot"
+            Durability: 0
+            Name: "&d3 Vote Crate Keys"
+            Lore:
+                - *common
+        Message-Settings:
+            Sound:
+                Enabled: true
+                Value: "ENTITY_PLAYER_LEVELUP"
+            Message:
+                Enabled: true
+                Value:
+                    - "&2&l+ &b&lVote Crate Key x3 &c(Legendary Crate)"
+        Commands:
+            - "crate givephys %player% vote 3"
+    "Basic Crate Key x3":
+        Settings:
+            Enabled: true
+            Chance: 40
+        Display-Item:
+            Amount: 3
+            Material: "coal"
+            Durability: 0
+            Name: "&d3 Basic Crate Keys"
+            Lore:
+                - *common
+        Message-Settings:
+            Sound:
+                Enabled: true
+                Value: "ENTITY_PLAYER_LEVELUP"
+            Message:
+                Enabled: true
+                Value:
+                    - "&2&l+ &b&lBasic Crate Key x3 &c(Legendary Crate)"
+        Commands:
+            - "crate givephys %player% basic 3"
+    "Basic Crate Key x4":
+        Settings:
+            Enabled: true
+            Chance: 35
+        Display-Item:
+            Amount: 4
+            Material: "coal"
+            Durability: 0
+            Name: "&d4 Basic Crate Keys"
+            Lore:
+                - *uncommon
+        Message-Settings:
+            Sound:
+                Enabled: true
+                Value: "ENTITY_PLAYER_LEVELUP"
+            Message:
+                Enabled: true
+                Value:
+                    - "&2&l+ &b&lBasic Crate Key x4 &c(Legendary Crate)"
+        Commands:
+            - "crate givephys %player% basic 4"
+    "Legendary Crate Key":
+        Settings:
+            Enabled: true
+            Chance: 30
+        Display-Item:
+            Amount: 1
+            Material: "diamond"
+            Durability: 0
+            Name: "&bLegendary Crate Key"
+            Lore:
+                - *common
+        Message-Settings:
+            Sound:
+                Enabled: true
+                Value: "ENTITY_PLAYER_LEVELUP"
+            Message:
+                Enabled: true
+                Value:
+                - "&2&l+ &c&lLegendary Crate Key &c(Legendary Crate)"
+        Commands:
+        - "crate givephys %player% legendary 1"
+    "Super Crate Key x2":
+        Settings:
+            Enabled: true
+            Chance: 35
+        Display-Item:
+            Amount: 2
+            Material: "gold_ingot"
+            Durability: 0
+            Name: "&b2 Super Crate Keys"
+            Lore:
+                - *uncommon
+        Message-Settings:
+            Sound:
+                Enabled: true
+                Value: "ENTITY_PLAYER_LEVELUP"
+            Message:
+                Enabled: true
+                Value:
+                - "&2&l+ &6&lSuper Crate Key x2 &c(Legendary Crate)"
+        Commands:
+        - "crate givephys %player% super 2"
+    "Legendary Crate Key x2":
+        Settings:
+            Enabled: true
+            Chance: 25
+        Display-Item:
+            Amount: 2
+            Material: "diamond"
+            Durability: 0
+            Name: "&bLegendary Crate Key x2"
+            Lore:
+                - *rare
+        Message-Settings:
+            Sound:
+                Enabled: true
+                Value: "ENTITY_PLAYER_LEVELUP"
+            Message:
+                Enabled: true
+                Value:
+                - "&2&l+ &c&lLegendary Crate Key x2 &c(Legendary Crate)"
+        Commands:
+        - "crate givephys %player% legendary 2"
+    "diamond pickaxe":
+        Settings:
+            Enabled: true
+            Chance: 65
+        Display-Item:
+            Amount: 1
+            Material: "diamond_pickaxe"
+            Durability: 0
+            Name: "&7Diamond Pickaxe"
+            Lore:
+                - "&9Efficiency 2"
+                - *uncommon
+        Message-Settings:
+            Sound:
+                Enabled: true
+                Value: "ENTITY_PLAYER_LEVELUP"
+            Message:
+                Enabled: true
+                Value:
+                - "&2&l+ &7&lDiamond Pickaxe &c(Legendary Crate)"
+        Commands:
+        - "givepickaxe %player% efficiency=2"
+    "25 tokens":
+        Settings:
+            Enabled: true
+            Chance: 60
+        Display-Item:
+            Amount: 1
+            Material: "nether_star"
+            Durability: 0
+            Name: "&325 Tokens"
+            Lore:
+                - *uncommon
+        Message-Settings:
+            Sound:
+                Enabled: true
+                Value: "ENTITY_PLAYER_LEVELUP"
+            Message:
+                Enabled: true
+                Value:
+                - "&2&l+ &3&l25 Tokens &c(Legendary Crate)"
+        Commands:
+        - "tokens give %player% 25"
+    "50 tokens":
+        Settings:
+            Enabled: true
+            Chance: 50
+        Display-Item:
+            Amount: 1
+            Material: "nether_star"
+            Durability: 0
+            Name: "&350 Tokens"
+            Lore:
+                - *rare
+        Message-Settings:
+            Sound:
+                Enabled: true
+                Value: "ENTITY_PLAYER_LEVELUP"
+            Message:
+                Enabled: true
+                Value:
+                - "&2&l+ &3&l50 Tokens &c(Legendary Crate)"
+        Commands:
+        - "tokens give %player% 50"
+    "100 tokens":
+        Settings:
+            Enabled: true
+            Chance: 30
+        Display-Item:
+            Amount: 1
+            Material: "nether_star"
+            Durability: 0
+            Name: "&3100 Tokens"
+            Lore:
+                - *rare
+        Message-Settings:
+            Sound:
+                Enabled: true
+                Value: "ENTITY_PLAYER_LEVELUP"
+            Message:
+                Enabled: true
+                Value:
+                - "&2&l+ &3&l100 Tokens &c(Legendary Crate)"
+        Commands:
+        - "tokens give %player% 100"
+    "explosive pickaxe":
+        Settings:
+            Enabled: true
+            Chance: 3
+        Display-Item:
+            Amount: 1
+            Material: "diamond_pickaxe"
+            Durability: 0
+            Name: "&cExplosive Pickaxe"
+            Lore:
+                - *legendary
+        Message-Settings:
+            Sound:
+                Enabled: true
+                Value: "ENTITY_PLAYER_LEVELUP"
+            Message:
+                Enabled: true
+                Value:
+                - "&2&l+ &cExplosive Pickaxe &c(Legendary Crate)"
+        Commands:
+        - "givepickaxe %player% explosive=1"
+    "bountiful pickaxe":
+        Settings:
+            Enabled: true
+            Chance: 2
+        Display-Item:
+            Amount: 1
+            Material: "diamond_pickaxe"
+            Durability: 0
+            Name: "&bTokenator Pickaxe"
+            Lore:
+                - *legendary
+        Message-Settings:
+            Sound:
+                Enabled: true
+                Value: "ENTITY_PLAYER_LEVELUP"
+            Message:
+                Enabled: true
+                Value:
+                - "&2&l+ &bTokenator Pickaxe &c(Legendary Crate)"
+        Commands:
+        - "givepickaxe %player% tokenator 1"
+    "token pickaxe":
+        Settings:
+            Enabled: true
+            Chance: 1
+        Display-Item:
+            Amount: 1
+            Material: "diamond_pickaxe"
+            Durability: 0
+            Name: "&aAutoSell Pickaxe"
+            Lore:
+                - *legendary
+        Message-Settings:
+            Sound:
+                Enabled: true
+                Value: "ENTITY_PLAYER_LEVELUP"
+            Message:
+                Enabled: true
+                Value:
+                - "&2&l+ &aAutoSell Pickaxe &c(Legendary Crate)"
+        Commands:
+        - "givepickaxe %player% autosell=1"
+    "Money 250k":
+        Settings:
+            Enabled: true
+            Chance: 5
+        Display-Item:
+            Amount: 1
+            Material: "EMERALD"
+            Durability: 0
+            Name: "&e+$250,000"
+            Lore:
+                - *legendary
+        Message-Settings:
+            Sound:
+                Enabled: true
+                Value: "ENTITY_PLAYER_LEVELUP"
+            Message:
+                Enabled: true
+                Value:
+                    - "&2&l+ &6&l$250,000 &c(Legendary Crate)"
+        Commands:
+            - 'eco give %player% 250000'
+    "500 tokens":
+        Settings:
+            Enabled: true
+            Chance: 5
+        Display-Item:
+            Amount: 1
+            Material: "nether_star"
+            Durability: 0
+            Name: "&3500 Tokens"
+            Lore:
+                - *legendary
+        Message-Settings:
+            Sound:
+                Enabled: true
+                Value: "ENTITY_PLAYER_LEVELUP"
+            Message:
+                Enabled: true
+                Value:
+                - "&2&l+ &3&l500 Tokens &c(Legendary Crate)"
+        Commands:
+        - "tokens give %player% 500"

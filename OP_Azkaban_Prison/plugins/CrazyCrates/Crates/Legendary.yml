@@ -1,0 +1,152 @@
+Crate:
+  #Type of crate (CSGO/QuadCrate/QuickCrate/Roulette/CrateOnTheGo/FireCracker/Wonder/Wheel/War/Cosmic(This requires a additional info to work.)).
+  CrateType: Roulette
+  #Name of the Inventory if a GUI crate.
+  CrateName: '&8Legendary Crate'
+  #The name of the inventory that will be in the preview GUI.
+  Preview-Name: '&8Legendary Crate Preview'
+  #Starting amount of keys when the player 1st joins.
+  StartingKeys: 0
+  #If the crate shows in the /cc GUI. (If the crate type is QuickCrate/CrateOnTheGo/FireCracker then the Crate will not work. Quick Crate requires a Physical Crate.)
+  InGUI: true
+  #Slot the item is in the GUI.
+  Slot: 24
+  #Enables/Disables the Broadcasts message when they open a crate.
+  OpeningBroadCast: false
+  #Message that is broadcast when opening the crate.
+  BroadCast: '%Prefix%&6&l%Player% &7is opening a &7&lBasic Chest&7.'
+  #Item the crate is in the GUI
+  Item: 'PLAYER_HEAD'
+  Player: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjM3Y2FlNWM1MWViMTU1OGVhODI4ZjU4ZTBkZmY4ZTZiN2IwYjFhMTgzZDczN2VlY2Y3MTQ2NjE3NjEifX19'
+  #If the crate in the main /cc GUI is glowing or not.
+  Glowing: false
+  #Name of the item in the GUI.
+  Name: '&6Legendary Crate'
+  #The lore of the item in the GUI.
+  Lore:
+    - '&7This crate contains legendary rewards.'
+    - '&7'
+    - '&7Right click to view rewards.'
+  Preview:
+    #Turn on and off the preview for this crate.
+    Toggle: true
+    #How many lines the previewChest should have. Including Header and Bottom (Between 3 and 6)
+    ChestLines: 3
+    Glass:
+      #Turn the glass boarder in the preview on and off.
+      Toggle: true
+      #The item that shows in the boarder. Can be glass or any other item.
+      Item: 'GRAY_STAINED_GLASS_PANE'
+  PhysicalKey:
+    #Name of the Key.
+    Name: '&6Legendary Crate'
+    #Lore of the Key.
+    Lore:
+      - '&cKey'
+      - '&a'
+      - '&7Can be used at spawn'
+    #The item the key is.
+    Item: 'ORANGE_DYE'
+    #Makes the key look enchanted.
+    Glowing: false
+    #Settings for the holograms.
+  Hologram:
+    #Toggle on and off the holograms for the crates.
+    Toggle: false
+    #The height of the hologram above the crate.
+    Height: 5
+    #The message that will be displayed.
+    Message:
+      - '&7Common Chest'
+  #All the prizes that can be gotten in the Crate.
+  Prizes:
+    1:
+      DisplayName: '&a$1b'
+      DisplayItem: 'GOLD_BLOCK'
+      DisplayAmount: 1
+      Lore:
+        - '&7Adds &a$1,000,000,000 (1b) &7to your Balance.'
+        - ''
+        - '&bChance: &f30%'
+      MaxRange: 100
+      Chance: 30
+      Firework: false
+      Commands:
+        - 'cmi money give %Player% 1000000000'
+      Messages:
+        - '&3Crates &8| &dYou won &a$1,000,000,000 &dfrom this Crate!'
+      Alternative-Prize:
+        Toggle: false
+        Messages:
+          - '&8[&bCrazyCrates&8]: &7You have already won that prize, so enjoy some gold nuggets.'
+        Commands:
+          - 'give %player% gold_nugget 16'
+    2:
+      DisplayName: '&b2,500 Tokens'
+      DisplayItem: 'DIAMOND_BLOCK'
+      DisplayAmount: 1
+      Lore:
+        - '&7Gives you &b2,500 Tokens &7to use'
+        - '&7when enchanting your pickaxe.'
+        - ''
+        - '&bChance: &f20%'
+      MaxRange: 100
+      Chance: 20
+      Firework: false
+      Commands:
+        - 'tokens give %Player% 2500'
+      Messages:
+        - '&3Crates &8| &dYou won &b2500 Tokens &dfrom this Crate!'
+      Alternative-Prize:
+        Toggle: false
+        Messages:
+          - '&8[&bCrazyCrates&8]: &7You have already won that prize, so enjoy some gold nuggets.'
+        Commands:
+          - 'give %player% gold_nugget 16'
+    3:
+      DisplayName: '&eParticle Effect: &6Barrier &c(EXCLUSIVE)'
+      DisplayItem: 'BLAZE_POWDER'
+      DisplayAmount: 1
+      Lore:
+        - '&7Gives you the ability to use'
+        - '&7the &6Barrier &7particle effect.'
+        - ''
+        - '&cThis effect can only be obtained'
+        - '&cthrough the &6Legendary Crate&c!'
+        - ''
+        - '&bChance: &f7%'
+      MaxRange: 100
+      Chance: 7
+      Firework: false
+      Commands:
+        - 'lp user %Player% permission set playerparticles.effect.barrier opprison'
+      Messages:
+        - '&3Crates &8| &dYou won &eParticle Effect: &6Barrier &dfrom this Crate!'
+      Alternative-Prize:
+        Toggle: false
+        Messages:
+          - '&8[&bCrazyCrates&8]: &7You have already won that prize, so enjoy some gold nuggets.'
+        Commands:
+          - 'give %player% gold_nugget 16'
+    4:
+      DisplayName: '&dGlobal Sell Booster [x0.5] (24h)'
+      DisplayItem: 'EXPERIENCE_BOTTLE'
+      DisplayAmount: 1
+      Lore:
+        - '&7Items you sell give &d+50% &7'
+        - '&7more money for &d24 hours&7.'
+        - ''
+        - '&bChance: &f5%'
+      MaxRange: 100
+      Chance: 5
+      Firework: false
+      Commands:
+        - 'gmulti money 0.5 24 HOURS'
+      Messages:
+        - '&3Crates &8| &dYou won &dGlobal Sell Booster [x0.5] (24h) &dfrom this Crate!'
+      Alternative-Prize:
+        Toggle: false
+        Messages:
+          - '&8[&bCrazyCrates&8]: &7You have already won that prize, so enjoy some gold nuggets.'
+        Commands:
+          - 'give %player% gold_nugget 16'

@@ -1,0 +1,366 @@
+scoreboard-teams:
+  enabled: true
+  invisible-nametags: false
+  anti-override: true
+  enable-collision: false
+  sorting-types:
+  - GROUPS:owner,manager,developer,administrator,srmoderator,moderator,helper,media,diamondhands,trader,investor,holder,paperhands,default
+  - PLACEHOLDER_A_TO_Z:%player%
+  case-sensitive-sorting: true
+  disable-in-worlds:
+  - disabledworld
+  unlimited-nametag-mode:
+    enabled: true
+    use-marker-tag-for-1-8-x-clients: false
+    disable-on-boats: true
+    space-between-lines: false
+    disable-in-worlds:
+    - disabledworld
+    dynamic-lines:
+    - abovename
+    - nametag
+    - belowname
+    - another
+    static-lines:
+      myCustomLine: 0.66
+tablist-name-formatting:
+  enabled: false
+  align-tabsuffix-on-the-right: false
+  character-width-overrides: {}
+  anti-override: true
+  disable-in-worlds:
+  - disabledworld
+header-footer:
+  enabled: false
+  disable-in-worlds:
+  - disabledworld
+  header:
+  - '&r'
+  footer:
+  - ''
+  per-world:
+    world2-world3:
+      header:
+      - This is a shared header for
+      - world2 and world3
+    world1:
+      footer:
+      - header/footer and prefix/suffix
+      header:
+      - an example of world with custom
+yellow-number-in-tablist:
+  enabled: false
+  value: ''
+  disable-in-worlds:
+  - disabledworld
+belowname-objective:
+  enabled: false
+  number: '%health%'
+  text: Health
+  disable-in-worlds:
+  - disabledworld
+prevent-spectator-effect:
+  enabled: false
+bossbar:
+  enabled: true
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  default-bars: []
+  bars:
+    Bossbar:
+      permission-required: false
+      refresh: 100
+      style: PROGRESS
+      color: WHITE
+      progress: '%javascript_example%'
+      text: '&3&lRANKUP PROGRESS  &8[&f&l%ultraprison_rank%&8] &8[%ultraprison_prestige%&8]  &a$%vault_eco_balance_formatted%&7/&a$%ultraprison_next_rank_cost_formatted%  &7(%ultraprison_rankup_progress%)'
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds:
+  - ignoredworld
+  - build
+  shared-playerlist-world-groups:
+    lobby:
+    - lobby1
+    - lobby2
+    minigames:
+    - paintball
+    - bedwars
+scoreboard:
+  enabled: true
+  toggle-command: /sbtoggle
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: true
+  static-number: 0
+  disable-in-worlds:
+  - disabledworld
+  delay-on-join-milliseconds: 0
+  scoreboards:
+    rebooting:
+      display-condition: "%ultimateautorestart_seconds%<60"
+      title: ' &b⁂ %animation:web% &b⁂ '
+      lines:
+      - '              &7%server_time_MMM d%'
+      - '&r'
+      - '&cServer rebooting soon!'
+      - '&cReboot In: &e%ultimateautorestart_seconds%s'
+      - '&c'
+      - '&cPlease rejoin in a few minutes.'
+      - '&r'
+      - '&b&l    play.mooncraft.gg'
+    default-kill-violet-wraiths:
+      display-condition: "%viaversion_player_protocol_id%>335;%quests_player_current_stage_number_custom14%=2"
+      title: ' &b⁂ %animation:web% &b⁂ '
+      lines:
+      - '              &7%server_time_MMM d%'
+      - '&b&l%player%'
+      - '&3&l| &7Rank: &f%vault_group_capital%'
+      - '&3&l| &7Balance:&f $%vault_eco_balance_formatted%'
+      - '&3&l| &7ETokens:&f %ultraprison_tokens%'
+      - '&r'
+      - '&b&lQuest'
+      - '&3&l| &7Name: &bThe Last Key'
+      - '&3&l| &7Objective:'
+      - '%quests_player_current_objectives_custom14%'
+      - '&3'
+      - '     &b&l&nplay.mooncraft.gg'
+    default-kill-fudders:
+      display-condition: "%viaversion_player_protocol_id%>335;%quests_player_current_stage_number_custom13%=1"
+      title: ' &b⁂ %animation:web% &b⁂ '
+      lines:
+      - '             &7%server_time_MMM d%'
+      - '&b&l%player%'
+      - '&3&l| &7Rank: &f%vault_group_capital%'
+      - '&3&l| &7Balance:&f $%vault_eco_balance_formatted%'
+      - '&3&l| &7ETokens:&f %ultraprison_tokens%'
+      - '&r'
+      - '&b&lQuest'
+      - '&3&l| &7Name: &bOne Small Favor'
+      - '&3&l| &7Objective:'
+      - '%quests_player_current_objectives_custom13%'
+      - '&3'
+      - '    &b&l&nplay.mooncraft.gg'
+    default-bloom-spirits:
+      display-condition: "%viaversion_player_protocol_id%>335;%quests_player_current_stage_number_custom8%=1"
+      title: ' &b⁂ %animation:web% &b⁂ '
+      lines:
+      - '             &7%server_time_MMM d%'
+      - '&b&l%player%'
+      - '&3&l| &7Rank: &f%vault_group_capital%'
+      - '&3&l| &7Balance:&f $%vault_eco_balance_formatted%'
+      - '&3&l| &7ETokens:&f %ultraprison_tokens%'
+      - '&r'
+      - '&b&lQuest'
+      - '&3&l| &7Name: &bBloom Spirits'
+      - '&3&l| &7Objective:'
+      - '%quests_player_current_objectives_custom8%'
+      - '&3'
+      - '    &b&l&nplay.mooncraft.gg'
+    default-mine-blocks:
+      display-condition: "%viaversion_player_protocol_id%>335;%quests_player_current_stage_number_custom3%=1"
+      title: ' &b⁂ %animation:web% &b⁂ '
+      lines:
+      - '             &7%server_time_MMM d%'
+      - '&b&l%player%'
+      - '&3&l| &7Rank: &f%vault_group_capital%'
+      - '&3&l| &7Balance:&f $%vault_eco_balance_formatted%'
+      - '&3&l| &7ETokens:&f %ultraprison_tokens%'
+      - '&r'
+      - '&b&lQuest'
+      - '&3&l| &7Name: &bThe Mines'
+      - '&3&l| &7Objective:'
+      - '%quests_player_current_objectives_custom3%'
+      - '&3'
+      - '    &b&l&nplay.mooncraft.gg'
+    default-grass-bug:
+      display-condition: "%viaversion_player_protocol_id%>335;%quests_player_current_stage_number_custom2%=1"
+      title: ' &b⁂ %animation:web% &b⁂ '
+      lines:
+      - '             &7%server_time_MMM d%'
+      - '&b&l%player%'
+      - '&3&l| &7Rank: &f%vault_group_capital%'
+      - '&3&l| &7Balance:&f $%vault_eco_balance_formatted%'
+      - '&3&l| &7ETokens:&f %ultraprison_tokens%'
+      - '&r'
+      - '&b&lQuest'
+      - '&3&l| &7Name: &bThe Forest'
+      - '&3&l| &7Objective:'
+      - '%quests_player_current_objectives_custom2%'
+      - '&3'
+      - '    &b&l&nplay.mooncraft.gg'
+    default:
+      display-condition: "%viaversion_player_protocol_id%>335"
+      title: ' &b⁂ %animation:web% &b⁂ '
+      lines:
+      - '          &7%server_time_MMM d%'
+      - '&b&l%player%'
+      - '&3&l| &7Rank: &f%vault_group_capital%'
+      - '&r'
+      - '&b&lPrison'
+      - '&3&l| &7Rankup:&f &f&l%ultraprison_rank%'
+      - '&3&l| &7Prestige:&f %ultraprison_prestige%'
+      - '&3&l| &7Balance:&a $%vault_eco_balance_formatted%'
+      - '&3&l| &7ETokens:&b %ultraprison_tokens_3%'
+      - '&3&l| &7Blocks Mined:&f %ultraprison_blocks_3%'
+      - '&r'
+      - '&b&lGang'
+      - '&3&l| &7Gang: %ultraprison_gang_name%'
+      - '&3'
+      - '  &b&l&nplay.mooncraft.gg'
+    default-fixed-kill-violet-wraiths:
+      display-condition: "%viaversion_player_protocol_id%<=335;%quests_player_current_stage_number_custom14%=2"
+      title: ' &b⁂ %animation:web% &b⁂ '
+      lines:
+      - '              &7%server_time_MMM d%'
+      - '&b&l%player%'
+      - '&3* &7Rank: &f%vault_group_capital%'
+      - '&3* &7Balance:&f $%vault_eco_balance_formatted%'
+      - '&3* &7ETokens:&f %ultraprison_tokens%'
+      - '&r'
+      - '&b&lQuest'
+      - '&3* &7Name: &bThe Last Key'
+      - '&3* &7Objective:'
+      - '%quests_player_current_objectives_custom14%'
+      - '&3'
+      - '     &b&lplay.mooncraft.gg'
+    default-fixed-kill-fudders:
+      display-condition: "%viaversion_player_protocol_id%<=335;%quests_player_current_stage_number_custom13%=1"
+      title: ' &b⁂ %animation:web% &b⁂ '
+      lines:
+      - '             &7%server_time_MMM d%'
+      - '&b&l%player%'
+      - '&3* &7Rank: &f%vault_group_capital%'
+      - '&3* &7Balance:&f $%vault_eco_balance_formatted%'
+      - '&3* &7ETokens:&f %ultraprison_tokens%'
+      - '&r'
+      - '&b&lQuest'
+      - '&3* &7Name: &bOne Small Favor'
+      - '&3* &7Objective:'
+      - '%quests_player_current_objectives_custom13%'
+      - '&3'
+      - '    &b&lplay.mooncraft.gg'
+    default-fixed-bloom-spirits:
+      display-condition: "%viaversion_player_protocol_id%<=335;%quests_player_current_stage_number_custom8%=1"
+      title: ' &b⁂ %animation:web% &b⁂ '
+      lines:
+      - '             &7%server_time_MMM d%'
+      - '&b&l%player%'
+      - '&3* &7Rank: &f%vault_group_capital%'
+      - '&3* &7Balance:&f $%vault_eco_balance_formatted%'
+      - '&3* &7ETokens:&f %ultraprison_tokens%'
+      - '&r'
+      - '&b&lQuest'
+      - '&3* &7Name: &bBloom Spirits'
+      - '&3* &7Objective:'
+      - '%quests_player_current_objectives_custom8%'
+      - '&3'
+      - '    &b&lplay.mooncraft.gg'
+    default-fixed-mine-blocks:
+      display-condition: "%viaversion_player_protocol_id%<=335;%quests_player_current_stage_number_custom3%=1"
+      title: ' &b⁂ %animation:web% &b⁂ '
+      lines:
+      - '             &7%server_time_MMM d%'
+      - '&b&l%player%'
+      - '&3* &7Rank: &f%vault_group_capital%'
+      - '&3* &7Balance:&f $%vault_eco_balance_formatted%'
+      - '&3* &7ETokens:&f %ultraprison_tokens%'
+      - '&r'
+      - '&b&lQuest'
+      - '&3* &7Name: &bThe Mines'
+      - '&3* &7Objective:'
+      - '%quests_player_current_objectives_custom3%'
+      - '&3'
+      - '    &b&lplay.mooncraft.gg'
+    default-fixed-grass-bug:
+      display-condition: "%viaversion_player_protocol_id%<=335;%quests_player_current_stage_number_custom2%=1"
+      title: ' &b⁂ %animation:web% &b⁂ '
+      lines:
+      - '             &7%server_time_MMM d%'
+      - '&b&l%player%'
+      - '&3* &7Rank: &f%vault_group_capital%'
+      - '&3* &7Balance:&f $%vault_eco_balance_formatted%'
+      - '&3* &7ETokens:&f %ultraprison_tokens%'
+      - '&r'
+      - '&b&lQuest'
+      - '&3* &7Name: &bThe Forest'
+      - '&3* &7Objective:'
+      - '%quests_player_current_objectives_custom2%'
+      - '&3'
+      - '    &b&lplay.mooncraft.gg'
+    default-fixed:
+      display-condition: "%viaversion_player_protocol_id%<=335"
+      title: ' &b⁂ %animation:web% &b⁂ '
+      lines:
+      - '          &7%server_time_MMM d%'
+      - '&b&l%player%'
+      - '&3* &7Rank: &f%vault_group_capital%'
+      - '&r'
+      - '&b&lPrison'
+      - '&3* &7Rankup:&f &f&l%ultraprison_rank%'
+      - '&3* &7Prestige:&f %ultraprison_prestige%'
+      - '&3* &7Balance:&a $%vault_eco_balance_formatted%'
+      - '&3* &7ETokens:&b %ultraprison_tokens_3%'
+      - '&3* &7Blocks Mined:&f %ultraprison_blocks_3%'
+      - '&r'
+      - '&b&lGang'
+      - '&3* &7Gang: %ultraprison_gang_name%'
+      - '&3'
+      - '  &b&lplay.mooncraft.gg'
+  respect-other-plugins: true
+ping-spoof:
+  enabled: false
+fix-pet-names:
+  enabled: false
+placeholders:
+  date-format: MM.dd.yyyy
+  time-format: h:mm a
+  time-offset: 0
+  remove-strings:
+  - '[]'
+  - < >
+placeholder-output-replacements:
+  '%essentials_vanished%':
+    'yes': '&7| Vanished'
+    'no': ''
+  '%tps%':
+    '20': '&aPerfect'
+  '%afk%':
+    'true': ''
+    'false': ''
+conditions:
+  health:
+    conditions:
+    - '%health%<21'
+    - '%health%>15'
+    type: AND
+    true: Healthy!
+    false: Damaged!
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 500
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- owner
+- manager
+- developer
+- administrator
+- srmoderator
+- moderator
+- helper
+- media
+- diamondhands
+- trader
+- investor
+- holder
+- paperhands
+- default
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password

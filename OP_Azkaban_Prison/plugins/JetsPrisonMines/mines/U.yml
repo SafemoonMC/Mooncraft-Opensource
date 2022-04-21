@@ -1,0 +1,35 @@
+mine_name: U
+blocks:
+- COAL_BLOCK:10:false:false
+- LAPIS_ORE:40:false:false
+- STONE:50:false:false
+region:
+  world: OPP1
+  zmin: -6561
+  ymin: 52
+  xmin: -952
+  zmax: -6533
+  ymax: 69
+  xmax: -914
+reset:
+  use_timer: true
+  timer: 180
+  use_percentage: true
+  percentage: 45
+  reset_type: GRADUAL
+  use_messages: false
+  reset_direction: TOPTOBOTTOM
+perm_to_mine: false
+blocks_mined: 0
+stats:
+  holograms: []
+effects:
+- FLY
+teleport_location:
+  ==: org.bukkit.Location
+  world: OPP1
+  x: -895.73
+  y: 71.0
+  z: -6546.55
+  pitch: -0.9
+  yaw: 88.64

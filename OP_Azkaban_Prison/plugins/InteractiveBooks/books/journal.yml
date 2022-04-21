@@ -1,0 +1,24 @@
+name: MoonCraft Journal
+title: MoonCraft Journal
+author: MoonCraft
+generation: ORIGINAL
+lore:
+- MoonCraft Azkaban
+- Prison Quest Journal
+open_command: 'journal'
+
+pages:
+  '1':
+  - ''
+  - '   &3&l&nQUEST JOURNAL'
+  - ''
+  - '&0Current Quest:'     
+  - '&3%quests_player_current_objectives_custom1%%quests_player_current_objectives_custom2%%quests_player_current_objectives_custom3%%quests_player_current_objectives_custom4%%quests_player_current_objectives_custom5%%quests_player_current_objectives_custom6%%quests_player_current_objectives_custom8%%quests_player_current_objectives_custom9%%quests_player_current_objectives_custom10%%quests_player_current_objectives_custom11%%quests_player_current_objectives_custom12%%quests_player_current_objectives_custom13%%quests_player_current_objectives_custom14%%quests_player_current_objectives_custom15%%quests_player_current_objectives_custom16%%quests_player_current_objectives_custom17%%quests_player_current_objectives_custom18%'
+  - ''
+  - ' &0Completed Quests ➜'
+  '2':
+  - ''
+  - '      &3&l&nCOMPLETED&r'
+  - '         &3&l&nQUESTS'
+  - ''
+  - '<tooltip:&a&m%quests_player_completed_quest_names%&r>&0&m%quests_player_completed_quest_names%<reset>'

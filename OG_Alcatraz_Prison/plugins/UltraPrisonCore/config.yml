@@ -1,0 +1,34 @@
+debug-mode: false
+main-command-aliases:
+- upc
+- prisoncore
+- ultraprison
+- prison
+- ultraprisoncore
+database_type: MySQL
+mysql:
+  host: 10.10.10.2
+  port: 3306
+  database: ogprison
+  username: mnc-ogprison
+  password: KCEKzU7x%+Y;mD*OcA*WO5j%e$QdNuSu
+modules:
+  history: true
+  prestiges: true
+  mines: true
+  dropchance: false
+  tokens: true
+  gems: false
+  ranks: true
+  multipliers: true
+  enchants: true
+  autosell: true
+  autominer: true
+  pickaxe_levels: true
+  gangs: false
+supported-pickaxes:
+- DIAMOND_PICKAXE
+- GOLDEN_PICKAXE
+- IRON_PICKAXE
+- STONE_PICKAXE
+- WOODEN_PICKAXE

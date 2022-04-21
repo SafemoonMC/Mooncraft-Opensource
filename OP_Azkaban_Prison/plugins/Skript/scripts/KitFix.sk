@@ -1,0 +1,20 @@
+on join:
+	wait 5 ticks
+	if player doesn't have permission "kits.yes":
+		make the server execute command "/cmi kit start %player%"
+		stop
+	else:
+		stop
+
+on join:
+	wait 3 ticks
+	message "&7"
+	message "&7"
+	message "&7"
+	message "&7"
+	message "&7"
+	message "&f&l    Welcome to &b&lMooncraft Azkaban Prison&f&l!"
+	message "&7"
+	message "&7            Go to the Starter mine with &b/mine a"
+	message "&7        Start in Azkaban Prison by using &b/tutorial"
+	message "&7"

@@ -1,0 +1,67 @@
+block-rewards:
+  '100':
+    message: '&3MoonPrison &8| &7You have mined &b100&7 blocks.'
+    commands:
+    - tokens give %player% 10
+    - money give %player% 1000
+    - crate givephys %player% basic 1
+  '500':
+    message: '&3MoonPrison &8| &7You have mined &b500&7 blocks.'
+    commands:
+    - tokens give %player% 25
+    - money give %player% 5000
+    - crate givephys %player% basic 1
+  '1000':
+    message: '&3MoonPrison &8| &7You have mined &b1000&7 blocks.'
+    commands:
+    - tokens give %player% 50
+    - money give %player%  7500
+    - crate givephys %player% basic 1
+  '5000':
+    message: '&3MoonPrison &8| &7You have mined &b5000&7 blocks.'
+    commands:
+    - tokens give %player% 75
+    - money give %player% 10000
+    - crate givephys %player% basic 1
+  '10000':
+    message: '&3MoonPrison &8| &7You have mined &b10000&7 blocks.'
+    commands:
+    - tokens give %player% 100
+    - money give %player% 25000
+    - crate givephys %player% basic 1
+  '50000':
+    message: '&3MoonPrison &8| &7You have mined &b50000&7 blocks.'
+    commands:
+    - tokens give %player% 150
+    - money give %player% 35000
+    - crate givephys %player% basic 3
+  '100000':
+    message: '&3MoonPrison &8| &7You have mined &b100000&7 blocks.'
+    commands:
+    - tokens give %player% 200
+    - money give %player% 50000
+    - crate givephys %player% super 3
+  '500000':
+    message: '&3MoonPrison &8| &7You have mined &b500000&7 blocks.'
+    commands:
+    - tokens give %player% 200
+    - money give %player% 75000
+    - crate givephys %player% super 5
+  '1000000':
+    message: '&3MoonPrison &8| &7You have mined &b1000000&7 blocks.'
+    commands:
+    - tokens give %player% 500
+    - money give %player% 100000
+    - crate givephys %player% super 10
+  '5000000':
+    message: '&3MoonPrison &8| &7You have mined &b5000000&7 blocks.'
+    commands:
+    - tokens give %player% 750
+    - money give %player% 500000
+    - crate givephys %player% super 15
+  '10000000':
+    message: '&3MoonPrison &8| &7You have mined &b10000000&7 blocks.'
+    commands:
+    - tokens give %player% 1000
+    - money give %player% 1000000
+    - crate givephys %player% super 25

@@ -1,0 +1,44 @@
+levels:
+  '1':
+    display_name: '&7[Lv 1] Pickaxe'
+    blocks_required: 0
+  '2':
+    display_name: '&2[Lv 2] Pickaxe'
+    blocks_required: 50000
+    rewards:
+    - crate give p common 1 %player%
+  '3':
+    display_name: '&a[Lv 3] Pickaxe'
+    blocks_required: 100000
+    rewards:
+    - crate give p common 2 %player%
+  '4':
+    display_name: '&6[Lv 4] Pickaxe'
+    blocks_required: 500000
+    rewards:
+    - crate give p rare 1 %player%
+  '5':
+    display_name: '&e[Lv 5] Pickaxe'
+    blocks_required: 2500000
+    rewards:
+    - crate give p rare 2 %player%
+  '6':
+    display_name: '&c[Lv 6] Pickaxe'
+    blocks_required: 5000000
+    rewards:
+    - crate give p epic 1 %player%
+  '7':
+    display_name: '&4[Lv 7] Pickaxe'
+    blocks_required: 10000000
+    rewards:
+    - crate give p legendary 1 %player%
+  '8':
+    display_name: '&5&kX&r &d[Lv 8] Pickaxe &5&kX&r'
+    blocks_required: 20000000
+    rewards:
+    - crate give p legendary 3 %player%
+messages:
+  pickaxe-level-up: '&3Prison &8| &7Your current pickaxe just leveled up to &bLevel
+    %level%&7!'
+  pickaxe-progress: '&3Prison &8| &7Pickaxe progress: &b%blocks%&7/&b%blocks_required%
+    &7Blocks'

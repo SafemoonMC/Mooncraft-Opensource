@@ -1,0 +1,51 @@
+Settings:
+    Title: "&0Crate Selector"
+    Size: 27
+
+Items:
+    "Border":
+        Settings:
+            Enabled: true
+            Slots:
+                - 0-26
+        Display-Item:
+            Material: "GRAY_STAINED_GLASS_PANE"
+            Durability: 15
+            Name: " "
+            Lore:
+                - " "
+    "Information":
+        Settings:
+            Enabled: true
+            Slots:
+                - 4
+        Display-Item:
+            Material: "BOOK"
+            Durability: 0
+            Name: "&6&l[!] &eCrates Information"
+            Lore:
+                - " "
+
+Crate-Options:
+    "Basic":
+        Enabled: true
+        Slot: 11
+    "Vote":
+        Enabled: true
+        Slot: 12
+    "Super":
+        Enabled: true
+        Slot: 14
+    "Legendary":
+        Enabled: true
+        Slot: 15
+
+Settings-Access:
+    Enabled: false
+    Slot: 22
+    Display-Item:
+        Material: "ITEM_FRAME"
+        Durability: 0
+        Name: "&6&l[!] &eAccess Settings &8(&7Click&8)"
+        Lore:
+            - '&7&o** Click this to access the settings inventory. **'

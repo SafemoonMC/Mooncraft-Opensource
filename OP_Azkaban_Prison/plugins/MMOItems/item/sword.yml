@@ -1,0 +1,321 @@
+STARTERSWORD:
+  base:
+    material: STONE_SWORD
+    name: '&7Starter Sword'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    attack-speed: 1.0
+    attack-damage: 3.0
+    unbreakable: false
+    tier: BASIC
+    crafting: []
+NORMALSWORD:
+  base:
+    material: WOODEN_SWORD
+    name: '&aScrap Sword'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    attack-speed: 1.0
+    attack-damage: 6.0
+    unbreakable: true
+    tier: BASIC
+    unstackable: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m material orb 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m material orb 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m material hilt 1.0..|v AIR 0 1..
+ENHANCEDSWORD:
+  base:
+    material: WOODEN_SWORD
+    name: '&aEnhanced Scrap Sword'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    attack-speed: 1.1
+    attack-damage: 10.0
+    unbreakable: true
+    tier: COMMON
+    unstackable: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m material enhancedorb 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m material enhancedorb 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m material hilt 1.0..|v AIR 0 1..
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    lore:
+    - '&7Requirement: &fPrestige 1'
+    permission:
+    - item.enhanced
+STONESWORD:
+  base:
+    material: STONE_SWORD
+    name: '&9Stone Sword'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    attack-speed: 1.2
+    attack-damage: 15.0
+    unbreakable: true
+    tier: UNCOMMON
+    unstackable: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m material stoneorb 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m material stoneorb 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m material hilt 1.0..|v AIR 0 1..
+    pve-damage: 5.0
+    lore:
+    - '&7Requirement: &fPrestige 2'
+    permission:
+    - item.stone
+ENHANCEDSTONESWORD:
+  base:
+    material: STONE_SWORD
+    name: '&9Enhanced Stone Sword'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    attack-speed: 1.3
+    attack-damage: 25.0
+    unbreakable: true
+    tier: RARE
+    unstackable: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m material enhancedstoneorb 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m material enhancedstoneorb 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m material hilt 1.0..|v AIR 0 1..
+    pve-damage: 7.5
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    lore:
+    - '&7Requirement: &fPrestige 3'
+    permission:
+    - item.enhancedstone
+FROSTSWORD:
+  base:
+    material: IRON_SWORD
+    name: '&fFrost Sword'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    attack-speed: 1.4
+    attack-damage: 30.0
+    unbreakable: true
+    tier: VERY_RARE
+    unstackable: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m material frostorb 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m material frostorb 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m material elementhilt 1.0..|v AIR 0 1..
+    pve-damage: 7.5
+    ability:
+      ability1:
+        type: FREEZE
+        mode: ON_HIT
+        radius: 3.0
+        duration: 3.0
+        cooldown: 10.0
+    lore:
+    - '&7Requirement: &fPrestige 5'
+    permission:
+    - item.frost
+ENHANCEDFROSTSWORD:
+  base:
+    material: IRON_SWORD
+    name: '&fEnhanced Frost Sword'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    attack-speed: 1.5
+    attack-damage: 40.0
+    unbreakable: true
+    tier: EPIC
+    unstackable: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m material enhancedfrostorb 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m material enhancedfrostorb 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m material elementhilt 1.0..|v AIR 0 1..
+    pve-damage: 7.5
+    ability:
+      ability1:
+        type: BLIZZARD
+        mode: RIGHT_CLICK
+        duration: 3.0
+        damage: 4
+        cooldown: 10.0
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    lore:
+    - '&7Requirement: &fPrestige 7'
+    permission:
+    - item.enhancedfrost
+FIRESWORD:
+  base:
+    material: GOLDEN_SWORD
+    name: '&6Fire Sword'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    attack-speed: 1.6
+    attack-damage: 50.0
+    unbreakable: true
+    tier: MYTHICAL
+    unstackable: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m material fireorb 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m material fireorb 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m material elementhilt 1.0..|v AIR 0 1..
+    pve-damage: 7.5
+    ability:
+      ability1:
+        type: BURN
+        mode: ON_HIT
+        duration: 5.0
+        cooldown: 10.0
+    lore:
+    - '&7Requirement: &fPrestige 10'
+    permission:
+    - item.fire
+ENHANCEDFIRESWORD:
+  base:
+    material: GOLDEN_SWORD
+    name: '&6Enhanced Fire Sword'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    attack-speed: 1.7
+    attack-damage: 75.0
+    unbreakable: true
+    tier: LEGENDARY
+    unstackable: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m material enhancedfireorb 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m material enhancedfireorb 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m material elementhilt 1.0..|v AIR 0 1..
+    pve-damage: 7.5
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    ability:
+      ability1:
+        type: IGNITE
+        mode: ON_HIT
+        duration: 5.0
+        radius: 5.0
+        cooldown: 10.0
+    lore:
+    - '&7Requirement: &fPrestige 20'
+    permission:
+    - item.enhancedfire
+SHADOWSWORD:
+  base:
+    material: DIAMOND_SWORD
+    name: '&4Shadow Sword'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    attack-speed: 1.8
+    attack-damage: 88.0
+    unbreakable: true
+    tier: MAGICAL
+    unstackable: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m material shadoworb 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m material shadoworb 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m material godlyhilt 1.0..|v AIR 0 1..
+    pve-damage: 7.5
+    ability:
+      ability1:
+        type: CONFUSE
+        mode: ON_HIT
+        cooldown: 15.0
+    lore:
+    - '&7Requirement: &fPrestige 35'
+    permission:
+    - item.shadow
+ENHANCEDSHADOWSWORD:
+  base:
+    material: DIAMOND_SWORD
+    name: '&4Enhanced Shadow Sword'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    attack-speed: 2.0
+    attack-damage: 100.0
+    unbreakable: true
+    tier: OP
+    unstackable: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|m material enhancedshadoworb 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m material enhancedshadoworb 1.0..|v AIR 0 1..
+          - v AIR 0 1..|m material godlyhilt 1.0..|v AIR 0 1..
+    pve-damage: 7.5
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    ability:
+      ability1:
+        type: VAMPIRISM
+        mode: ON_HIT
+        drain: 10.0
+        cooldown: 20.0
+    lore:
+    - '&7Requirement: &fPrestige 50'
+    permission:
+    - item.enhancedshadow

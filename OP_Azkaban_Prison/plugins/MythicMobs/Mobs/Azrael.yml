@@ -1,0 +1,25 @@
+Azrael:
+  Type: ZOMBIE
+  Display: '&4&lAzrael &c<caster.hp> &c<&heart>'
+  Health: 2000
+  Disguise: WITCH setDynamicName
+  Damage: 75
+  Drops:
+  - cmd{c=codex unlock <trigger.name> monsters 36} 100%
+  - cmd{c=questadmin finish <trigger.name> Azrael} 100%
+  Skills:
+  - skill{s=WickedWitchSpawn} @Self ~onSpawn
+  - skill{s=WickedWitchFlame} @Self 100%
+  - skill{s=WickedWitchSpell} @Self 1%-30%
+  - skill{s=WickedWitchTrap} @Self 1%-50%
+  - skill{s=WickedWitchDeath} @Self ~onDeath
+  - particles{p=reddust;color=#FF000D;amount=15;hs=0.25;vs=0.25;y=1.0} @Self ~onDamaged
+  - setname{name=<caster.name>;delay=1} @self ~onDamaged
+  Options:
+    MovementSpeed: 0.25
+    FollowRange: 25
+    KnockbackResistance: 0.3
+    MaxCombatDistance: 10
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true

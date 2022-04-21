@@ -1,0 +1,107 @@
+Undead_CowboyHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWY4MGNjNGE1ZjFiYTZlNWEyOTdkZTdiZjRiMzY3ZGJkY2I5YTZmNDZjNmM2OGRhYjIxNWQ1OGQ5MmZmY2RkNSJ9fX0=
+
+Undead_CowboyCHEST:
+  Id: LEATHER_CHESTPLATE
+  Options:
+    Color: 191,148,113
+
+Undead_CowboyLEGS:
+  Id: LEATHER_LEGGINGS
+  Options:
+    Color: 186,187,151
+
+Undead_CowboyFEET:
+  Id: LEATHER_BOOTS
+  Options:
+   # Color: 98,98,98    
+
+Undead_ProspectorHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQwMzVhY2EyNmJlOTdiZTg0MDY0MDZmMTU1N2ZhOTkwNzM4NzcwZmUwMzgxOTRhNGFiODFjZTBjODM5NmM3MiJ9fX0=
+
+Undead_ProspectorCHEST:
+  Id: LEATHER_CHESTPLATE
+  Options:
+    Color: 71,99,35
+
+Undead_ProspectorLEGS:
+  Id: LEATHER_LEGGINGS
+  Options:
+    Color: 71,99,35
+
+Undead_ProspectorFEET:
+  Id: LEATHER_BOOTS
+  Options:
+    Color: 98,98,98    
+
+Possessed_SkeletonHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmExZDgzNTg3NTg2ODIyZTIyMDRiYWI2M2ZiNmQ5YmMxYzY5YzA0ZGUyNDFjMmIwOTNhMmVmMTUxNTMwMzdkMSJ9fX0=
+
+Ore_FanaticHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRjODZjOThjYjhhZGE1MGFmZjc1ZWQzZjk2ZTJkOWU1OTAxOGNhOWI2MmJjOTU0OGY3ODE4Zjg0YWZjMDE3In19fQ==
+
+Ore_FanaticCHEST:
+  Id: LEATHER_CHESTPLATE
+  Options:
+   # Color: 71,99,35
+
+Ore_FanaticLEGS:
+  Id: LEATHER_LEGGINGS
+  Options:
+    Color: 191,148,113
+
+Ore_FanaticFEET:
+  Id: LEATHER_BOOTS
+  Options:
+    #Color: 98,98,98    
+
+MercenaryHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQwN2RhYTg3YzQyZjg2YzA3ODk1ZmQ0NTUwMTkwZDEwOGFlNzJiYThiNzllYzMzNTEzNmEyYmQ0MDczY2Y5ZCJ9fX0=
+
+MercenaryCHEST:
+  Id: LEATHER_CHESTPLATE
+  Options:
+    Color: 36,31,27
+
+MercenaryLEGS:
+  Id: LEATHER_LEGGINGS
+  Options:
+    Color: 28,26,24
+
+MercenaryFEET:
+  Id: LEATHER_BOOTS
+  Options:
+    #Color: 98,98,98    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

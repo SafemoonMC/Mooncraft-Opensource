@@ -1,0 +1,65 @@
+Magic_Projectile:
+  Conditions:
+  - health{a=>0} true
+  - incombat{} true
+  Skills:
+  - sound{s=entity.wither.shoot;v=0.1;p=2} @self
+  - sound{s=entity.evoker.cast_spell;v=0.8;p=1.5} @self
+  - projectile{oT=Magic_Projectile-Tick;oH=Magic_Projectile-Hit;v=12;hR=1;vR=1;i=1;tyo=1;fyo=0.2} @targetlocation
+Magic_Projectile-Tick:
+  Skills:
+  - particles{p=spell_witch;a=3;hS=0.1;s=0.08} @origin
+Magic_Projectile-Hit:
+  Skills:
+  - damage{a=1} 
+
+Blood_Projectile:
+  Conditions:
+  - health{a=>0} true
+  - incombat{} true
+  Skills:
+  - sound{s=entity.wither.shoot;v=0.1;p=2} @self
+  - sound{s=entity.evoker.cast_spell;v=0.8;p=1.5} @self
+  - projectile{oT=Blood_Projectile-Tick;oH=Blood_Projectile-Hit;v=12;hR=1;vR=1;i=1;tyo=1;fyo=0.2} @targetlocation
+Blood_Projectile-Tick:
+  Skills:
+  - particles{p=reddust;a=3;hS=0.1;s=0.08} @origin
+  - particles{p=BLOCK_CRACK;m=REDSTONE_BLOCK;a=3;hS=0.1;s=0.08} @origin
+Blood_Projectile-Hit:
+  Skills:
+  - damage{a=12} 
+
+Spore_Projectile:
+  TargetConditions:
+  - distance{d=<10} castinstead Spore_Projectile2
+  Conditions:
+  - health{a=>0} true
+  - incombat{} true
+  Skills:
+  - sound{s=block.shroomlight.hit;p=0.8} @self
+  - sound{s=block.shroomlight.break;v=0.5;p=0.8} @self 
+  - sound{s=block.coral_block.place;p=0.8} @self
+  - sound{s=block.coral_block.break;v=0.5;p=0.8} @self 
+  - sound{s=entity.wither.shoot;v=0.1;p=2} @self
+  - sound{s=entity.evoker.cast_spell;v=0.1;p=1.5} @self
+  - projectile{bulletType=ITEM;material=RED_MUSHROOM;oT=Spore_Projectile-Tick;oH=Spore_Projectile-Hit;v=16;vO=0.8;g=1;hR=1;vR=1;i=1;tyo=1;fyo=0.2} @targetlocation
+Spore_Projectile-Tick:
+  Skills:
+  - particles{p=BLOCK_CRACK;m=red_mushroom_block;a=1;hS=0.1} @origin
+  - particles{p=BLOCK_CRACK;m=mushroom_stem;a=1;hS=0.1} @origin
+Spore_Projectile-Hit:
+  Skills:
+  - damage{a=5} 
+
+Spore_Projectile2: #Closer Range
+  Conditions:
+  - health{a=>0} true
+  - incombat{} true
+  Skills:
+  - sound{s=block.shroomlight.hit;p=0.8} @self
+  - sound{s=block.shroomlight.break;v=0.5;p=0.8} @self 
+  - sound{s=block.coral_block.place;p=0.8} @self
+  - sound{s=block.coral_block.break;v=0.5;p=0.8} @self 
+  - sound{s=entity.wither.shoot;v=0.1;p=2} @self
+  - sound{s=entity.evoker.cast_spell;v=0.1;p=1.5} @self
+  - projectile{bulletType=ITEM;material=RED_MUSHROOM;oT=Spore_Projectile-Tick;oH=Spore_Projectile-Hit;v=16;hR=1;vR=1;i=1;tyo=1;fyo=0.2} @targetlocation

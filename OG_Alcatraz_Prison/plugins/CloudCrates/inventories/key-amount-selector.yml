@@ -1,0 +1,187 @@
+Settings:
+    Title: "&8&lPICK &7&n9&8&l SLOTS"
+    Size: 9
+
+Items:
+
+Slot-Selected-Message:
+    Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+        Enabled: true
+        Value:
+            - "&6&l[!] &eYou have selected a new amount of keys to mass open."
+
+Inventory-Close-Settings:
+    Sound:
+        Enabled: true
+        Value: "BLOCK_CHEST_CLOSE"
+    Message:
+        Enabled: false
+        Value:
+            - " "
+
+Amounts:
+    "1":
+        Slot: 0
+        Amount: 1
+        Display-Item:
+            Amount: 1
+            Material: TRIPWIRE_HOOK
+            Durability: 0
+            Name: "&3&l[!] &b&lCrate Key &8(&7x1&8)"
+            Lore:
+                - "&7&o''To open &f&oone crate key &7&oat a time, click.''"
+        Selected-Item:
+            Amount: 1
+            Material: EMERALD
+            Durability: 0
+            Name: "&2&l[!] &a&lAMOUNT &a&lSET &8(&7x1&8)"
+            Lore:
+                - "&7&o''When opening a &f&ocrate key, &7&oyou've set"
+                - "&7&othe number of keys to open to &f&oone&7&o.''"
+    "2":
+        Slot: 1
+        Amount: 2
+        Display-Item:
+            Amount: 2
+            Material: TRIPWIRE_HOOK
+            Durability: 0
+            Name: "&3&l[!] &b&lCrate Key &8(&7x2&8)"
+            Lore:
+                - "&7&o''To open &f&otwo crate key's &7&oat a time, click.''"
+        Selected-Item:
+            Amount: 2
+            Material: EMERALD
+            Durability: 0
+            Name: "&2&l[!] &a&lAMOUNT &a&lSET &8(&7x2&8)"
+            Lore:
+                - "&7&o''When opening a &f&ocrate key, &7&oyou've set"
+                - "&7&othe number of keys to open to &f&otwo&7&o.''"
+    "3":
+        Slot: 2
+        Amount: 3
+        Display-Item:
+            Amount: 3
+            Material: TRIPWIRE_HOOK
+            Durability: 0
+            Name: "&3&l[!] &b&lCrate Key &8(&7x3&8)"
+            Lore:
+                - "&7&o''To open &f&othree crate key's &7&oat a time, click.''"
+        Selected-Item:
+            Amount: 3
+            Material: EMERALD
+            Durability: 0
+            Name: "&2&l[!] &a&lAMOUNT &a&lSET &8(&7x3&8)"
+            Lore:
+                - "&7&o''When opening a &f&ocrate key, &7&oyou've set"
+                - "&7&othe number of keys to open to &f&othree&7&o.''"
+    "4":
+        Slot: 3
+        Amount: 4
+        Display-Item:
+            Amount: 4
+            Material: TRIPWIRE_HOOK
+            Durability: 0
+            Name: "&3&l[!] &b&lCrate Key &8(&7x4&8)"
+            Lore:
+                - "&7&o''To open &f&ofour crate key's &7&oat a time, click.''"
+        Selected-Item:
+            Amount: 4
+            Material: EMERALD
+            Durability: 0
+            Name: "&2&l[!] &a&lAMOUNT &a&lSET &8(&7x4&8)"
+            Lore:
+                - "&7&o''When opening a &f&ocrate key, &7&oyou've set"
+                - "&7&othe number of keys to open to &f&ofour&7&o.''"
+    "5":
+        Slot: 4
+        Amount: 5
+        Display-Item:
+            Amount: 5
+            Material: TRIPWIRE_HOOK
+            Durability: 0
+            Name: "&3&l[!] &b&lCrate Key &8(&7x5&8)"
+            Lore:
+                - "&7&o''To open &f&ofive crate key's &7&oat a time, click.''"
+        Selected-Item:
+            Amount: 5
+            Material: EMERALD
+            Durability: 0
+            Name: "&2&l[!] &a&lAMOUNT &a&lSET &8(&7x5&8)"
+            Lore:
+                - "&7&o''When opening a &f&ocrate key, &7&oyou've set"
+                - "&7&othe number of keys to open to &f&ofive&7&o.''"
+    "6":
+        Slot: 5
+        Amount: 6
+        Display-Item:
+            Amount: 6
+            Material: TRIPWIRE_HOOK
+            Durability: 0
+            Name: "&3&l[!] &b&lCrate Key &8(&7x6&8)"
+            Lore:
+                - "&7&o''To open &f&osix crate key's &7&oat a time, click.''"
+        Selected-Item:
+            Amount: 6
+            Material: EMERALD
+            Durability: 0
+            Name: "&2&l[!] &a&lAMOUNT &a&lSET &8(&7x6&8)"
+            Lore:
+                - "&7&o''When opening a &f&ocrate key, &7&oyou've set"
+                - "&7&othe number of keys to open to &f&osix&7&o.''"
+    "7":
+        Slot: 6
+        Amount: 7
+        Display-Item:
+            Amount: 7
+            Material: TRIPWIRE_HOOK
+            Durability: 0
+            Name: "&3&l[!] &b&lCrate Key &8(&7x7&8)"
+            Lore:
+                - "&7&o''To open &f&oseven crate key's &7&oat a time, click.''"
+        Selected-Item:
+            Amount: 7
+            Material: EMERALD
+            Durability: 0
+            Name: "&2&l[!] &a&lAMOUNT &a&lSET &8(&7x7&8)"
+            Lore:
+                - "&7&o''When opening a &f&ocrate key, &7&oyou've set"
+                - "&7&othe number of keys to open to &f&oseven&7&o.''"
+    "8":
+        Slot: 7
+        Amount: 8
+        Display-Item:
+            Amount: 8
+            Material: TRIPWIRE_HOOK
+            Durability: 0
+            Name: "&3&l[!] &b&lCrate Key &8(&7x8&8)"
+            Lore:
+                - "&7&o''To open &f&oeight crate key's &7&oat a time, click.''"
+        Selected-Item:
+            Amount: 8
+            Material: EMERALD
+            Durability: 0
+            Name: "&2&l[!] &a&lAMOUNT &a&lSET &8(&7x8&8)"
+            Lore:
+                - "&7&o''When opening a &f&ocrate key, &7&oyou've set"
+                - "&7&othe number of keys to open to &f&oeight&7&o.''"
+    "9":
+        Slot: 8
+        Amount: 9
+        Display-Item:
+            Amount: 9
+            Material: TRIPWIRE_HOOK
+            Durability: 0
+            Name: "&3&l[!] &b&lCrate Key &8(&7x9&8)"
+            Lore:
+                - "&7&o''To open &f&onine crate key's &7&oat a time, click.''"
+        Selected-Item:
+            Amount: 9
+            Material: EMERALD
+            Durability: 0
+            Name: "&2&l[!] &a&lAMOUNT &a&lSET &8(&7x9&8)"
+            Lore:
+                - "&7&o''When opening a &f&ocrate key, &7&oyou've set"
+                - "&7&othe number of keys to open to &f&oseven&7&o.''"

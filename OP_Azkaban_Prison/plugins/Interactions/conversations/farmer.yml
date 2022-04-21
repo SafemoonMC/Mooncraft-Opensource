@@ -1,0 +1,104 @@
+name: '{centered}&cFarmer'
+starts_with:
+- NPC with id 10
+block_movement: false
+slow_effect: false
+save_conversation_progress: false
+start_conversation_radius: 0
+end_conversation_radius: 12
+requires_permission: false
+cooldown: 0
+conversation:
+  conversation1:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Hello there! You have to meet the &cPrison Warden'
+        - '{centered}&7before you can talk to us!'
+        time: 2
+        conditional_dialogue:
+          conditional_dialogue1:
+            requires:
+            - '%quests_player_has_current_quest_introduction% == Yes'
+            start_conversation: conversation2
+          conditional_dialogue2:
+            requires:
+            - '%quests_player_has_current_quest_introduction% == true'
+            start_conversation: conversation3
+          conditional_dialogue3:
+            requires:
+            - '%quests_player_has_current_quest_custom6% == Yes'
+            - '%quests_player_current_stage_number_custom6% == 1'
+            start_conversation: conversation4
+          conditional_dialogue4:
+            requires:
+            - '%quests_player_has_current_quest_custom6% == Yes'
+            - '%quests_player_current_stage_number_custom6% == 2'
+            start_conversation: conversation5
+          conditional_dialogue5:
+            requires:
+            - '%quests_player_has_current_quest_custom6% == Yes'
+            - '%quests_player_current_stage_number_custom6% == 3'
+            start_conversation: conversation6
+    random_dialogue: false
+  conversation2:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Hello! I see you have met the &cPrison Warden'
+        - '{centered}&7I am the farmer! My job here is keep all the cute'
+        - '{centered}&7cows you see behind me healthy and ready to be eaten!'
+        - ' '
+        time: 2
+      dialogue2:
+        text:
+        - '{centered}&7You can kill &bCows&7 to get &bMeat &7and money'
+        - '{centered}&7and you can also break &bHay Blocks&7 for'
+        - '{centered}&7money and basic food!'
+        time: 2
+        save_dialogue_to_player: true
+    random_dialogue: false
+  conversation3:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Hello there! The &eFarm &7is home to'
+        - '{centered}&7the easiest source of food in &bAzkaban&7!'
+        time: 2
+    random_dialogue: false
+  conversation4:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Hello there!'
+        - '&7'
+        time: 1
+    options:
+      option1:
+        text: '&bHave you noticed anything strange in Azkaban? &7(&a&lCLICK HERE&7)'
+        start_conversation: conversation5
+    random_dialogue: false
+  conversation5:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Actually, I have.. My husband has been disappearing'
+        - '{centered}&7in the night. He says he sleepwalks but I don''t believe'
+        - '{centered}&7him. He heads into &2The Forest &7and comes back. He'
+        - '{centered}&7mumbles words like &bDanger, Shadows, Wizard&7. Do you'
+        - '{centered}&7think you could help me figure out what he''s doing?'
+        - '{centered}&bLook around the Stone Realm for a clue!'
+        - '&7'
+        time: 6
+    random_dialogue: false
+  conversation6:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7What is that thing? Is this what my brother'
+        - '{centered}&7found out there in the &2Forest&7? Hold onto'
+        - '{centered}&7it and see if you can figure out what it'
+        - '{centered}&7does.. It definitely seems to be magic'
+        - '&7'
+        time: 2
+    random_dialogue: false

@@ -1,0 +1,17 @@
+auto-miner-region:
+  name: automine
+  world: world
+  rewards:
+  - eco give %player% 1000
+  - tokens give %player% 10
+  reward-period: 5
+messages:
+  not_enough_tokens: '&3AutoMiner &8| &cYou do not have enough tokens! (Needed: %tokens%)'
+  not_a_number: '&c%input% is not a number!'
+  player_not_online: '&cPlayer &e%player% &cis not online!'
+  autominer_disabled: '&e&l(!) &7You''ve &c&lDISABLED &7AutoMiner.'
+  autominer_enabled: '&e&l(!) &7You''ve &a&lENABLED &7AutoMiner.'
+  auto_miner_enabled: '&aYou are now in &a&lAUTO-MINER &amode.'
+  auto_miner_disabled: '&cYou don''t have &c&lAUTO-MINER &ctime.'
+  auto_miner_time: '&3AutoMiner &8| &7Remaining Time: &b%time%'
+  auto_miner_time_add: '&3AutoMiner &8| &7You added &f%time% minutes &7to &f%player%&7.'

@@ -1,0 +1,20 @@
+# Command section can utilize same custom variables as scheduler. Check schedules.yml file for all possible variables.
+
+world:
+  mines:
+    Loc: 38.0:202.0:-60.0:38.0:205.0:-56.0
+    enabled: true
+    effect: VillagerHappy
+    showParticles: true
+    Tp: world;40.45;202.0;-57.5;-271.18;0.46
+    kickBack: false
+    particlesByPermission: true
+    requiresPerm: false
+    informOnMissingPerm: false
+    particleAmount: 5
+    particleHide: 16
+    activationRange: 8
+    commandsWithoutTp: true
+    commands:
+    - delay! 0.1
+    - asPlayer! Mines

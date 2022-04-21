@@ -1,0 +1,100 @@
+Settings:
+    Title: "Want to reroll?"
+    Size: 45
+
+Accept-Rewards-Item:
+    Slot: 12
+    Material: "GREEN_STAINED_GLASS_PANE"
+    Durability: 5
+    Name: "&2&l[!] &aAccept your rewards &7(Click)"
+    Lore:
+        - "&7"
+        - "&aReroll Information:"
+        - "&a┃ &7Action: &fAccept Rewards"
+        - "&a┃ &7Requirements: &fNone"
+        - "&7"
+
+Deny-Rewards-Item:
+    Slot: 14
+    Material: "RED_STAINED_GLASS_PANE"
+    Durability: 14
+    Name: "&4&l[!] &cReroll your rewards &7(Click)"
+    Lore:
+        - "&7"
+        - "&cReroll Information:"
+        - "&c┃ &7Action: &fReroll Rewards"
+        - "&c┃ &7Requirements: &fCrate Reroll Perk"
+        - "&7"
+
+No-Permission-Item:
+    Material: "BARRIER"
+    Durability: 0
+    Name: "&4&lNO PERMISSION"
+    Lore:
+        - "&7&o** You dont have permission to reroll. **"
+
+Reward-Display-Slots:
+    - "28-34"
+
+Reward-Display-Filler:
+    Material: "STAINED_GLASS_PANE"
+    Durability: 7
+    Name: " "
+    Lore:
+        - " "
+
+Items:
+    "Border":
+        Settings:
+            Enabled: true
+            Slots:
+                - 0-43
+        Display-Item:
+            Material: "STAINED_GLASS_PANE"
+            Durability:
+                - 15
+            Name: " "
+            Lore:
+                - " "
+    "Information":
+        Settings:
+            Enabled: true
+            Slots:
+                - 44
+        Display-Item:
+            Material: "BOOK"
+            Durability: 0
+            Name: "&3&l[!] &bCrates Information"
+            Lore:
+                - " "
+                - "&bInformation:"
+                - "&7&oCrates are ingame system that allow you to obtain"
+                - "&7&orandom rewards, with each crate giving different"
+                - "&7&orewards."
+                - "&7"
+
+Messages:
+    "NO-PERMISSION":
+        Sound:
+            Enabled: true
+            Value: "ENTITY_BAT_TAKEOFF"
+        Message:
+            Enabled: true
+            Value:
+                - "&4&l[!] &cYou do not have the &nrequired&c permission for this."
+    "REWARDS-DENIED":
+        Sound:
+            Enabled: true
+            Value: "ENTITY_PLAYER_LEVELUP"
+        Message:
+            Enabled: true
+            Value:
+                - "&2&l[!] &aYou have chosen to &nreroll&a your crate winnings."
+    "REWARDS-ACCEPTED":
+        Sound:
+            Enabled: true
+            Value: "ENTITY_PLAYER_LEVELUP"
+        Message:
+            Enabled: true
+            Value:
+                - "&2&l[!] &aYou have chosen to &naccept&a your crate winnings."

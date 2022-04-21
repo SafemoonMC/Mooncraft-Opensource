@@ -1,0 +1,36 @@
+mine_name: Mars
+blocks:
+- IRON_ORE:7.5:false:false
+- COAL_ORE:17.5:false:false
+- RED_SANDSTONE:37.5:false:false
+- ORANGE_CONCRETE:37.5:false:false
+region:
+  world: world
+  zmin: 1712
+  ymin: 24
+  xmin: 1014
+  zmax: 1746
+  ymax: 54
+  xmax: 1048
+reset:
+  use_timer: true
+  timer: 180
+  use_percentage: false
+  percentage: 45
+  reset_type: GRADUAL
+  use_messages: false
+  reset_direction: TOPTOBOTTOM
+perm_to_mine: false
+blocks_mined: 0
+stats:
+  holograms:
+  - world:1031.4491572155832:57.0:1710.4222481347024:HOLOGRAM_TIMER
+effects: []
+teleport_location:
+  ==: org.bukkit.Location
+  world: world
+  x: 1032.7808880086118
+  y: 58.0
+  z: 1705.9269988666135
+  pitch: 11.4862385
+  yaw: 15.027405

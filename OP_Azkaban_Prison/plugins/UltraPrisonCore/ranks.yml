@@ -1,0 +1,233 @@
+use_tokens_currency: false
+messages:
+  not_enough_tokens: '&e&lRANKUP &8» &7You don''t have enough tokens to rankup. You
+    need %cost% Tokens.'
+  not_prestige_permission: '&3Prison &8| &7You must complete the &cGuard''&cs Duty
+    to prestige.'
+  rank_up: '&3Prison &8| &7Congratulations, you ranked up from %Rank-1%&7 to %Rank-2%&7.'
+  not_enough_money: '&3Prison &8| &7You don''t have enough money to rankup. You need
+    &b$%cost%'
+  prestige_needed: '&3Prison &8| &7You are a Guard. To continue you must &bprestige&7.'
+  prestige_up: '&3Prison &8| &7Congratulations, you prestiged up to &bPrestige %Prestige%'
+  not_enough_money_prestige: '&3Prison &8| &7You don''t have enough money to prestige.
+    You need &b$%cost%'
+  last_prestige: '&3Prison &8| &7You are at the last Prestige. More coming soon...'
+  not_last_rank: '&3Prison &8| &7You must become a &cGuard&7 to prestige.'
+  top_updating: '&cLeaderboard is currently updating...'
+  rank_set: '&3Prison &8| &7You have set %player%''s rank to %rank%'
+  prestige_set: '&3Prison &8| &7You have set %player%''s prestige to %amount%'
+  prestige_add: '&3Prison &8| &7You have added %amount% prestige to  %player%'
+  prestige_remove: '&3Prison &8| &7You have removed %amount% prestige from %player%'
+  max_prestige_started: '&3Prison &8| &7Started /maxprestige. This might take a while...'
+  max_prestige_done: '&3Prison &8| &7Congratulations, you''ve max prestiged from &cPrestige
+    %start_prestige% &7to &cPrestige %prestige%&7.'
+prestige-top-format:
+- '&8&m+--------&r &3Prestige &bTop&r &8&m--------+'
+- '{FOR_EACH_PLAYER} &b#%position% &7- &f%player% &bPrestige %prestige%'
+- '&8&m+----------------------------+'
+reset_rank_after_prestige: true
+prestige_top_update_interval: 10
+unlimited_prestiges:
+  enabled: true
+  max_prestige: 1000000
+  prestige_cost: 0
+  increase_cost:
+    enabled: false
+    increase_cost_by: 1.05
+  prefix: '%prestige%'
+  rewards-per-prestige:
+    enabled: true
+    rewards:
+    - crate give p %player% prestige 1
+    - lp user %player% parent remove guard opprison
+    - lp user %player% parent add a opprison
+    - money set %player% 0
+    - cmi spawn %player%
+    - lp user %player% permission unset ultraprisoncore.prestige opprison
+  rewards:
+    '100':
+    - eco give %player% 100
+    '1000':
+    - eco give %player% 1000
+    '10000':
+    - eco give %player% 10000
+    '1':
+    - lp user %player% permission set item.enhanced opprison
+    '2':
+    - lp user %player% permission set item.stone opprison
+    '3':
+    - lp user %player% permission set item.enhancedstone opprison
+    '5':
+    - lp user %player% permission set item.frost opprison
+    '7':
+    - lp user %player% permission set item.enhancedfrost opprison
+    '10':
+    - lp user %player% permission set item.fire opprison
+    '20':
+    - lp user %player% permission set item.enhancedfire opprison
+    '35':
+    - lp user %player% permission set item.shadow opprison
+    '50':
+    - lp user %player% permission set item.enhancedshadow opprison
+Ranks:
+  '1':
+    Prefix: A
+  '2':
+    Prefix: B
+    Cost: 5000
+    CMD:
+    - lp user %player% parent add b opprison
+    - lp user %player% parent remove a opprison
+  '3':
+    Prefix: C
+    Cost: 10000
+    CMD:
+    - lp user %player% parent add c opprison
+    - lp user %player% parent remove b opprison
+  '4':
+    Prefix: D
+    Cost: 30000
+    CMD:
+    - lp user %player% parent add d opprison
+    - lp user %player% parent remove c opprison
+  '5':
+    Prefix: E
+    Cost: 50000
+    CMD:
+    - lp user %player% parent add e opprison
+    - lp user %player% parent remove d opprison
+  '6':
+    Prefix: F
+    Cost: 75000
+    CMD:
+    - lp user %player% parent add f opprison
+    - lp user %player% parent remove e opprison
+  '7':
+    Prefix: G
+    Cost: 125000
+    CMD:
+    - lp user %player% parent add g opprison
+    - lp user %player% parent remove f opprison
+  '8':
+    Prefix: H
+    Cost: 175000
+    CMD:
+    - lp user %player% parent add h opprison
+    - lp user %player% parent remove g opprison
+  '9':
+    Prefix: I
+    Cost: 250000
+    CMD:
+    - lp user %player% parent add i opprison
+    - lp user %player% parent remove h opprison
+  '10':
+    Prefix: J
+    Cost: 375000
+    CMD:
+    - lp user %player% parent add j opprison
+    - lp user %player% parent remove i opprison
+  '11':
+    Prefix: K
+    Cost: 500000
+    CMD:
+    - lp user %player% parent add k opprison
+    - lp user %player% parent remove j opprison
+  '12':
+    Prefix: L
+    Cost: 750000
+    CMD:
+    - lp user %player% parent add l opprison
+    - lp user %player% parent remove k opprison
+  '13':
+    Prefix: M
+    Cost: 1000000
+    CMD:
+    - lp user %player% parent add m opprison
+    - lp user %player% parent remove l opprison
+  '14':
+    Prefix: N
+    Cost: 2000000
+    CMD:
+    - lp user %player% parent add n opprison
+    - lp user %player% parent remove m opprison
+  '15':
+    Prefix: O
+    Cost: 3500000
+    CMD:
+    - lp user %player% parent add o opprison
+    - lp user %player% parent remove n opprison
+  '16':
+    Prefix: P
+    Cost: 5000000
+    CMD:
+    - lp user %player% parent add p opprison
+    - lp user %player% parent remove o opprison
+  '17':
+    Prefix: Q
+    Cost: 6500000
+    CMD:
+    - lp user %player% parent add q opprison
+    - lp user %player% parent remove p opprison
+  '18':
+    Prefix: R
+    Cost: 8000000
+    CMD:
+    - lp user %player% parent add r opprison
+    - lp user %player% parent remove q opprison
+  '19':
+    Prefix: S
+    Cost: 10000000
+    CMD:
+    - lp user %player% parent add s opprison
+    - lp user %player% parent remove r opprison
+  '20':
+    Prefix: T
+    Cost: 20000000
+    CMD:
+    - lp user %player% parent add t opprison
+    - lp user %player% parent remove s opprison
+  '21':
+    Prefix: U
+    Cost: 35000000
+    CMD:
+    - lp user %player% parent add u opprison
+    - lp user %player% parent remove t opprison
+  '22':
+    Prefix: V
+    Cost: 50000000
+    CMD:
+    - lp user %player% parent add v opprison
+    - lp user %player% parent remove u opprison
+  '23':
+    Prefix: W
+    Cost: 75000000
+    CMD:
+    - lp user %player% parent add w opprison
+    - lp user %player% parent remove v opprison
+  '24':
+    Prefix: X
+    Cost: 100000000
+    CMD:
+    - lp user %player% parent add x opprison
+    - lp user %player% parent remove w opprison
+  '25':
+    Prefix: Y
+    Cost: 150000000
+    CMD:
+    - lp user %player% parent add y opprison
+    - lp user %player% parent remove x opprison
+  '26':
+    Prefix: Z
+    Cost: 250000000
+    CMD:
+    - lp user %player% parent add z opprison
+    - lp user %player% parent remove y opprison
+  '27':
+    Prefix: ✙
+    Cost: 500000000
+    CMD:
+    - lp user %player% parent add guard opprison
+    - lp user %player% parent remove z opprison
+Prestige:
+  '0':
+    Prefix: NOT IN USE

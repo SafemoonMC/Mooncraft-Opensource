@@ -1,0 +1,20 @@
+#Items that you don't want to lose durability.
+Items:
+  - DIAMOND_PICKAXE
+#If rarities are enabled.
+Enable-Rarities: false
+#List of rarities.
+Rarities:
+  #The default rarity.
+  common:
+    color: "&f&l"
+  uncommon:
+    color: "&a&l"
+  rare:
+    color: "&9&l"
+  epic:
+    color: "&5&l"
+  legendary:
+    color: "&6&l"
+  mythic:
+    color: "&d&l"

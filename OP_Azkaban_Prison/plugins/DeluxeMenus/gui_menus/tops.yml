@@ -1,0 +1,125 @@
+menu_title: 'Top Players'
+open_command:
+- topplayers
+- tokenstop
+- baltop
+- balancetop
+- blockstop
+- prestigetop
+size: 27
+register_command: true
+inventory_type: HOPPER
+items:
+
+      mined-blocks:
+        material: DIAMOND_PICKAXE
+        hide_attributes: true
+        slot: 2
+        display_name: '&e&lTop Blocks Mined'
+        lore:
+        - '&e1. &7%ajlb_lb_ultraprison_blocks_1_1_alltime_prefix%%ajlb_lb_ultraprison_blocks_1_1_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_blocks_1_1_alltime_value_formatted%'
+        - '&e2. &7%ajlb_lb_ultraprison_blocks_1_2_alltime_prefix%%ajlb_lb_ultraprison_blocks_1_2_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_blocks_1_2_alltime_value_formatted%'
+        - '&e3. &7%ajlb_lb_ultraprison_blocks_1_3_alltime_prefix%%ajlb_lb_ultraprison_blocks_1_3_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_blocks_1_3_alltime_value_formatted%'
+        - '&e4. &7%ajlb_lb_ultraprison_blocks_1_4_alltime_prefix%%ajlb_lb_ultraprison_blocks_1_4_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_blocks_1_4_alltime_value_formatted%'
+        - '&e5. &7%ajlb_lb_ultraprison_blocks_1_5_alltime_prefix%%ajlb_lb_ultraprison_blocks_1_5_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_blocks_1_5_alltime_value_formatted%'
+        - '&e6. &7%ajlb_lb_ultraprison_blocks_1_6_alltime_prefix%%ajlb_lb_ultraprison_blocks_1_6_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_blocks_1_6_alltime_value_formatted%'
+        - '&e7. &7%ajlb_lb_ultraprison_blocks_1_7_alltime_prefix%%ajlb_lb_ultraprison_blocks_1_7_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_blocks_1_7_alltime_value_formatted%'
+        - '&e8. &7%ajlb_lb_ultraprison_blocks_1_8_alltime_prefix%%ajlb_lb_ultraprison_blocks_1_8_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_blocks_1_8_alltime_value_formatted%'
+        - '&e9. &7%ajlb_lb_ultraprison_blocks_1_9_alltime_prefix%%ajlb_lb_ultraprison_blocks_1_9_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_blocks_1_9_alltime_value_formatted%'
+        - '&e10. &7%ajlb_lb_ultraprison_blocks_1_10_alltime_prefix%%ajlb_lb_ultraprison_blocks_1_10_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_blocks_1_10_alltime_value_formatted%'
+        - ''
+        - '&7Your position: &6#%ajlb_position_ultraprison_blocks_1_alltime%'
+
+      tokens:
+        material: PRISMARINE_CRYSTALS
+        slot: 1
+        display_name: '&e&lTop Tokens'
+        lore:
+        - '&e1. &7%ajlb_lb_ultraprison_tokens_1_1_alltime_prefix%%ajlb_lb_ultraprison_tokens_1_1_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_tokens_1_1_alltime_value_formatted%'
+        - '&e2. &7%ajlb_lb_ultraprison_tokens_1_2_alltime_prefix%%ajlb_lb_ultraprison_tokens_1_2_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_tokens_1_2_alltime_value_formatted%'
+        - '&e3. &7%ajlb_lb_ultraprison_tokens_1_3_alltime_prefix%%ajlb_lb_ultraprison_tokens_1_3_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_tokens_1_3_alltime_value_formatted%'
+        - '&e4. &7%ajlb_lb_ultraprison_tokens_1_4_alltime_prefix%%ajlb_lb_ultraprison_tokens_1_4_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_tokens_1_4_alltime_value_formatted%'
+        - '&e5. &7%ajlb_lb_ultraprison_tokens_1_5_alltime_prefix%%ajlb_lb_ultraprison_tokens_1_5_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_tokens_1_5_alltime_value_formatted%'
+        - '&e6. &7%ajlb_lb_ultraprison_tokens_1_6_alltime_prefix%%ajlb_lb_ultraprison_tokens_1_6_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_tokens_1_6_alltime_value_formatted%'
+        - '&e7. &7%ajlb_lb_ultraprison_tokens_1_7_alltime_prefix%%ajlb_lb_ultraprison_tokens_1_7_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_tokens_1_7_alltime_value_formatted%'
+        - '&e8. &7%ajlb_lb_ultraprison_tokens_1_8_alltime_prefix%%ajlb_lb_ultraprison_tokens_1_8_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_tokens_1_8_alltime_value_formatted%'
+        - '&e9. &7%ajlb_lb_ultraprison_tokens_1_9_alltime_prefix%%ajlb_lb_ultraprison_tokens_1_9_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_tokens_1_9_alltime_value_formatted%'
+        - '&e10. &7%ajlb_lb_ultraprison_tokens_1_10_alltime_prefix%%ajlb_lb_ultraprison_tokens_1_10_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_tokens_1_10_alltime_value_formatted%'
+        - ''
+        - '&7Your position: &6#%ajlb_position_ultraprison_tokens_1_alltime%'
+
+      prestige:
+        material: BEACON
+        slot: 3
+        display_name: '&e&lTop Prestige'
+        lore:
+        - '&e1. &7%ajlb_lb_ultraprison_prestige_id_1_alltime_prefix%%ajlb_lb_ultraprison_prestige_id_1_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_prestige_id_1_alltime_value_formatted%'
+        - '&e2. &7%ajlb_lb_ultraprison_prestige_id_2_alltime_prefix%%ajlb_lb_ultraprison_prestige_id_2_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_prestige_id_2_alltime_value_formatted%'
+        - '&e3. &7%ajlb_lb_ultraprison_prestige_id_3_alltime_prefix%%ajlb_lb_ultraprison_prestige_id_3_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_prestige_id_3_alltime_value_formatted%'
+        - '&e4. &7%ajlb_lb_ultraprison_prestige_id_4_alltime_prefix%%ajlb_lb_ultraprison_prestige_id_4_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_prestige_id_4_alltime_value_formatted%'
+        - '&e5. &7%ajlb_lb_ultraprison_prestige_id_5_alltime_prefix%%ajlb_lb_ultraprison_prestige_id_5_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_prestige_id_5_alltime_value_formatted%'
+        - '&e6. &7%ajlb_lb_ultraprison_prestige_id_6_alltime_prefix%%ajlb_lb_ultraprison_prestige_id_6_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_prestige_id_6_alltime_value_formatted%'
+        - '&e7. &7%ajlb_lb_ultraprison_prestige_id_7_alltime_prefix%%ajlb_lb_ultraprison_prestige_id_7_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_prestige_id_7_alltime_value_formatted%'
+        - '&e8. &7%ajlb_lb_ultraprison_prestige_id_8_alltime_prefix%%ajlb_lb_ultraprison_prestige_id_8_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_prestige_id_8_alltime_value_formatted%'
+        - '&e9. &7%ajlb_lb_ultraprison_prestige_id_9_alltime_prefix%%ajlb_lb_ultraprison_prestige_id_9_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_prestige_id_9_alltime_value_formatted%'
+        - '&e10. &7%ajlb_lb_ultraprison_prestige_id_10_alltime_prefix%%ajlb_lb_ultraprison_prestige_id_10_alltime_name%
+      &7- &e%ajlb_lb_ultraprison_prestige_id_10_alltime_value_formatted%'
+        - ''
+        - '&7Your position: &6#%ajlb_position_ultraprison_prestige_id_alltime%'
+
+      balance:
+        material: PAPER
+        slot: 0
+        display_name: '&e&lTop Balance'
+        lore:
+        - '&e1. &7%ajlb_lb_vault_eco_balance_fixed_1_alltime_prefix%%ajlb_lb_vault_eco_balance_fixed_1_alltime_name%
+      &7- &e%ajlb_lb_vault_eco_balance_fixed_1_alltime_value_formatted%'
+        - '&e2. &7%ajlb_lb_vault_eco_balance_fixed_2_alltime_prefix%%ajlb_lb_vault_eco_balance_fixed_2_alltime_name%
+      &7- &e%ajlb_lb_vault_eco_balance_fixed_2_alltime_value_formatted%'
+        - '&e3. &7%ajlb_lb_vault_eco_balance_fixed_3_alltime_prefix%%ajlb_lb_vault_eco_balance_fixed_3_alltime_name%
+      &7- &e%ajlb_lb_vault_eco_balance_fixed_3_alltime_value_formatted%'
+        - '&e4. &7%ajlb_lb_vault_eco_balance_fixed_4_alltime_prefix%%ajlb_lb_vault_eco_balance_fixed_4_alltime_name%
+      &7- &e%ajlb_lb_vault_eco_balance_fixed_4_alltime_value_formatted%'
+        - '&e5. &7%ajlb_lb_vault_eco_balance_fixed_5_alltime_prefix%%ajlb_lb_vault_eco_balance_fixed_5_alltime_name%
+      &7- &e%ajlb_lb_vault_eco_balance_fixed_5_alltime_value_formatted%'
+        - '&e6. &7%ajlb_lb_vault_eco_balance_fixed_6_alltime_prefix%%ajlb_lb_vault_eco_balance_fixed_6_alltime_name%
+      &7- &e%ajlb_lb_vault_eco_balance_fixed_6_alltime_value_formatted%'
+        - '&e7. &7%ajlb_lb_vault_eco_balance_fixed_7_alltime_prefix%%ajlb_lb_vault_eco_balance_fixed_7_alltime_name%
+      &7- &e%ajlb_lb_vault_eco_balance_fixed_7_alltime_value_formatted%'
+        - '&e8. &7%ajlb_lb_vault_eco_balance_fixed_8_alltime_prefix%%ajlb_lb_vault_eco_balance_fixed_8_alltime_name%
+      &7- &e%ajlb_lb_vault_eco_balance_fixed_8_alltime_value_formatted%'
+        - '&e9. &7%ajlb_lb_vault_eco_balance_fixed_9_alltime_prefix%%ajlb_lb_vault_eco_balance_fixed_9_alltime_name%
+      &7- &e%ajlb_lb_vault_eco_balance_fixed_9_alltime_value_formatted%'
+        - '&e10. &7%ajlb_lb_vault_eco_balance_fixed_10_alltime_prefix%%ajlb_lb_vault_eco_balance_fixed_10_alltime_name%
+      &7- &e%ajlb_lb_vault_eco_balance_fixed_10_alltime_value_formatted%'
+        - ''
+        - '&7Your position: &6#%ajlb_position_vault_eco_balance_fixed_alltime%'

@@ -1,0 +1,47 @@
+prestige2:
+  name: "&0Prison Shop › Tokens"
+  size: 27
+  fillItem:
+    material: CYAN_STAINED_GLASS_PANE
+    name: " "
+  items:
+      1:
+        type: command
+        item:
+          material: nether_star
+          quantity: 1
+          name: "&31 Token"
+        commands: 
+          - "tokens give %PLAYER% 1"
+        buyPrice: 200
+        slot: 10
+      2:
+        type: command
+        item:
+          material: nether_star
+          quantity: 1
+          name: "&310 Tokens"
+        commands: 
+          - "tokens give %PLAYER% 10"
+        buyPrice: 2000
+        slot: 12
+      3:
+        type: command
+        item:
+          material: nether_star
+          quantity: 1
+          name: "&3100 Tokens"
+        commands: 
+          - "tokens give %PLAYER% 100"
+        buyPrice: 20000
+        slot: 14
+      4:
+        type: command
+        item:
+          material: nether_star
+          quantity: 1
+          name: "&31000 Tokens"
+        commands: 
+          - "tokens give %PLAYER% 1000"
+        buyPrice: 200000
+        slot: 16

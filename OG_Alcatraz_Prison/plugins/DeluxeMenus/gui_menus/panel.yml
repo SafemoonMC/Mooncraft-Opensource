@@ -1,0 +1,100 @@
+menu_title: 'Server Panel'
+open_command:
+- panel
+size: 27
+register_command: true
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: admin.admin
+      deny_commands:
+        - '[message] &cYou don''t have permission!'
+update_interval: 1
+inventory_type: HOPPER
+items:
+
+      server-info:
+        material: COMMAND_BLOCK
+        update: true
+        slot: 0
+        display_name: '&aServer Information'
+        lore:
+        - '&7Server Name: &f%server_name%'
+        - '&7Server Version: &f%server_version%'
+        - ''
+        - '&7Online Players: &f%server_online%/%server_max_players%'
+        - '  %progress_bar_{server_online}_c:&a|_p:&e|_r:&7|_l:40_m:{server_max_players}_fullbar:&a&lFULL!%'
+        - ''
+        - '&7Uptime: &f%server_uptime%'
+        - '&7Time Until Reboot: &f%ultimateautorestart_formatted%'
+        - ''
+        - '&7TPS: &a%server_tps_1_colored% %server_tps_5_colored% %server_tps_15_colored%'
+        - ''
+        - '&7RAM: &f%formatter_number_format_#,###_{server_ram_used}%MB / %formatter_number_format_#,###_{server_ram_total}% &7(%formatter_number_format_#,###_{server_ram_free}%MB Free)'
+        - '  %progress_bar_{server_ram_used}_c:&a|_p:&e|_r:&7|_l:40_m:{server_ram_total}_fullbar:&e⚠ &c&lDANGEROUSLY HIGH! &e⚠%'
+        - ''
+        - '&7Chunks Loaded: &f%formatter_number_format_#,###_{server_total_chunks}%'
+
+
+      WHITELIST-ON:
+        material: GREEN_STAINED_GLASS_PANE
+        slot: 3
+        priority: 1
+        display_name: '&aWhitelist - &lENABLED'
+        view_requirement:
+          requirements:
+            whitelist:
+              type: string equals
+              input: '%server_has_whitelist%'
+              output: 'yes'
+        lore:
+        - '&eClick to disable!'
+        left_click_commands:
+        - '[player] whitelist off'
+        - '[message] &cWhitelist has been turned off!'
+        - '[refresh]'
+        right_click_commands:
+        - '[player] whitelist off'
+        - '[message] &cWhitelist has been turned off!'
+        - '[refresh]'
+
+
+      WHITELIST-OFF:
+        material: RED_STAINED_GLASS_PANE
+        slot: 3
+        priority: 2
+        display_name: '&cWhitelist - &lDISABLED'
+        view_requirement:
+          requirements:
+            whitelist:
+              type: string equals
+              input: '%server_has_whitelist%'
+              output: 'no'
+        lore:
+        - '&eClick to enable!'
+        left_click_commands:
+        - '[player] whitelist on'
+        - '[message] &aWhitelist has been turned on!'
+        - '[refresh]'
+        right_click_commands:
+        - '[player] whitelist on'
+        - '[message] &aWhitelist has been turned on!'
+        - '[refresh]'
+
+      REBOOT:
+        material: COMPARATOR
+        slot: 4
+        display_name: '&eForce Reboot'
+        lore:
+        - '&7Sets the timer of the reboot'
+        - '&7to 60s to forcefully restart'
+        - '&7the server.'
+        - ''
+        - '&eClick to reboot!'
+        left_click_commands:
+        - '[player] ar now 60'
+        - '[close]'
+        right_click_commands:
+        - '[player] ar now 60'
+        - '[close]'

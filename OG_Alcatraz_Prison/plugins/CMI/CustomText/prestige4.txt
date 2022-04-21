@@ -1,0 +1,2 @@
+<AutoPage>
+&7You have been given &b60 minutes &7of auto mining!

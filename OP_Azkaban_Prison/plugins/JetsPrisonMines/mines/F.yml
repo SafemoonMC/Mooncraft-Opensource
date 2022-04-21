@@ -1,0 +1,35 @@
+mine_name: F
+blocks:
+- GOLD_ORE:10:false:false
+- IRON_ORE:40:false:false
+- STONE:50:false:false
+region:
+  world: OPP1
+  zmin: -1287
+  ymin: 56
+  xmin: -883
+  zmax: -1259
+  ymax: 73
+  xmax: -845
+reset:
+  use_timer: true
+  timer: 180
+  use_percentage: true
+  percentage: 45
+  reset_type: GRADUAL
+  use_messages: false
+  reset_direction: TOPTOBOTTOM
+perm_to_mine: false
+blocks_mined: 0
+stats:
+  holograms: []
+effects:
+- FLY
+teleport_location:
+  ==: org.bukkit.Location
+  world: OPP1
+  x: -825.78
+  y: 75.0
+  z: -1272.48
+  pitch: -2.85
+  yaw: 89.73

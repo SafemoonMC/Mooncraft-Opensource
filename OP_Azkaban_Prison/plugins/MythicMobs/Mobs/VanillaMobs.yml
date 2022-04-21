@@ -1,0 +1,27 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+COW:
+  Health: 30
+  Options:
+    FollowRange: 5
+    MovementSpeed: 0.22
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Drops:
+  - mmoitems{type=MATERIAL;id=ORB} 1 0.1%
+#  - mmoitems{type=CONSUMABLE;id=MEAT} 1 25%
+  - money 10 100%
+WITHER_SKELETON:
+  Health: 50
+  Damage: 10
+GIANT:
+  Health: 1000
+  Damage: 20
+  Skills:
+  - potion{type=POISON;duration=100;lvl=1} @target ~onAttack

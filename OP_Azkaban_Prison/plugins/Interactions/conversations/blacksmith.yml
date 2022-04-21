@@ -1,0 +1,53 @@
+name: '{centered}&cBlacksmith'
+starts_with:
+- NPC with id 9
+block_movement: false
+slow_effect: false
+save_conversation_progress: false
+start_conversation_radius: 0
+end_conversation_radius: 12
+requires_permission: false
+cooldown: 0
+conversation:
+  conversation1:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Hello there! You have to meet the &cPrison Warden'
+        - '{centered}&7before you can talk to us!'
+        time: 2
+        conditional_dialogue:
+          conditional_dialogue1:
+            requires:
+            - '%quests_player_has_current_quest_introduction% == Yes'
+            start_conversation: conversation2
+          conditional_dialogue2:
+            requires:
+            - '%quests_player_has_completed_quest_introduction% == true'
+            start_conversation: conversation3
+    random_dialogue: false
+  conversation2:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Hello! I see you have met the &cPrison Warden'
+        - '{centered}&7I am the blacksmith! My job here is create custom'
+        - '{centered}&7gear recipes for all you prisoners!'
+        - ' '
+        time: 2
+      dialogue2:
+        text:
+        - '{centered}&7You can check these recipes by clicking the'
+        - '{centered}&7NPCs in the &cArmory &7behind me! You can then'
+        - '{centered}&7craft on our special crafting table!'
+        time: 2
+        save_dialogue_to_player: true
+    random_dialogue: false
+  conversation3:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Hello there! The &cArmory &7is home to'
+        - '{centered}&7all the custom gear and items in &bAzkaban&7!'
+        time: 2
+    random_dialogue: false

@@ -1,0 +1,35 @@
+mine_name: O
+blocks:
+- REDSTONE_ORE:10:false:false
+- EMERALD_ORE:40:false:false
+- STONE:50:false:false
+region:
+  world: OPP1
+  zmin: -4656
+  ymin: 52
+  xmin: -903
+  zmax: -4628
+  ymax: 69
+  xmax: -865
+reset:
+  use_timer: true
+  timer: 180
+  use_percentage: true
+  percentage: 45
+  reset_type: GRADUAL
+  use_messages: false
+  reset_direction: TOPTOBOTTOM
+perm_to_mine: false
+blocks_mined: 0
+stats:
+  holograms: []
+effects:
+- FLY
+teleport_location:
+  ==: org.bukkit.Location
+  world: OPP1
+  x: -847.43
+  y: 71.0
+  z: -4641.5
+  pitch: -1.5
+  yaw: 89.11

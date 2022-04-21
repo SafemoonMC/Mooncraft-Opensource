@@ -1,0 +1,50 @@
+Young_ElfHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI0ZjEzMmNiODZkY2ExZWRlODA5NTVlYTg2ZjlmMjI5MmJlNzg3OTIxNGVmYjBjZTEyNjA2ZTEwMjY4Y2U2In19fQ==
+
+Young_ElfCHEST:
+  Id: LEATHER_CHESTPLATE
+  Options:
+    Color: 71,99,35
+
+Young_ElfLEGS:
+  Id: LEATHER_LEGGINGS
+  Options:
+    Color: 32,66,40
+
+Young_ElfFEET:
+  Id: LEATHER_BOOTS
+  Options:
+    #Color: 71,99,35
+
+Nature_PixieHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2ZiYjk1NTAyZTBmZDBkYmE2MGJiZTU4MThlMmZkNTI3OGVkYTI5OTljYzJkNzgxMDljMmNhNTc3NTU3YTBhNiJ9fX0=
+
+Nature_BeeHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmI3YTc2MWQ3MTVkMmMzYzczYTdkMDE0MTFlNjFmNDIzN2U0Zjc2MzNjYzlmNGRiMmNmMDVmNjZkMjAzMGExNyJ9fX0=
+
+Elf_GuardianHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWJjOWFlODkyNDdhNmY2NjBkODY1YTRhNGY2NmU3MTM1NmU1ZTJjNWI1NTJmZTU3NGMyNzI0Y2MzNGVkIn19fQ==
+
+Elf_GuardianCHEST:
+  Id: IRON_CHESTPLATE
+ # Options:
+   # Color: 71,99,35
+
+Elf_GuardianLEGS:
+  Id: LEATHER_LEGGINGS
+  Options:
+    Color: 71,99,35
+
+Elf_GuardianFEET:
+  Id: LEATHER_BOOTS
+  Options:
+    #Color: 98,98,98    
+

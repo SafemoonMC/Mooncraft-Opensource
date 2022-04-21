@@ -1,0 +1,79 @@
+max-gang-members: 5
+gang-top-update: 1
+max-gang-name-length: 10
+color-codes-in-gang-name: false
+gang-chat-priority: LOW
+messages:
+  no-permission: '&3MoonGangs &8| &7You do not have permission!'
+  gang-already-exists: '&3MoonGangs &8| &7Gang with that name or similar name already
+    exists!'
+  gang-not-exists: '&3MoonGangs &8| &7Gang with that name or does not exist!'
+  gang-created: '&3MoonGangs &8| &7You have created gang &b%name%&7!'
+  not-in-gang: '&3MoonGangs &8| &7You are not in gang!'
+  gang-not-owner: '&3MoonGangs &8| &7Only gang leader is allowed to do that!'
+  gang-cant-invite: '&3MoonGangs &8| &7That player is already in some gang!'
+  gang-invite-success: '&3MoonGangs &8| &7You have successfully invited &b%player%&7
+    to join your gang!'
+  gang-invite-pending: '&3MoonGangs &8| &7That player has already some gang invite
+    pending!'
+  gang-invite-received: '&3MoonGangs &8| &7You have been invited to join &b%gang%&7!
+    Type &b/gang accept &7to join within next &b5 minutes&7.'
+  gang-player-left: '&3MoonGangs &8| &b%player% &7has left your gang.'
+  gang-player-joined: '&3MoonGangs &8| &b%player% &7has joined your gang.'
+  gang-joined: '&3MoonGangs &8| &7You have joined &b%gang%'
+  gang-left: '&3MoonGangs &8| &7You have left &b%gang%'
+  gang-cant-create: '&3MoonGangs &8| &7Please leave your current gang in order to
+    create a new one.'
+  gang-cant-join: '&3MoonGangs &8| &7Please leave your current gang in order to join
+    a new one.'
+  gang-please-disband: '&3MoonGangs &8| &7Please disband your gang via /gang disband
+    in order to leave.'
+  gang-player-not-in-gang: '&3MoonGangs &8| &7That player is not in gang!'
+  gang-disbanded: '&3MoonGangs &8| &7Your gang has been disbanded!'
+  player-not-online: '&3MoonGangs &8| &7That player is not online!'
+  gang-no-invite-pending: '&3MoonGangs &8| &7You have no pending gang invites!'
+  gang-create-broadcast: '&3MoonGangs &8| &7%player% has created a gang called %gang%'
+  gang-disband-broadcast: '&3MoonGangs &8| &7%gang% has been disbanded'
+  gang-invalid-name: '&3MoonGangs &8| &7Please provide a valid gang name.'
+  invalid-value: '&3MoonGangs &8| &7Please provide positive value.'
+  gang-value-add: '&3MoonGangs &8| &7You have added %value% to %gang%.'
+  gang-value-remove: '&3MoonGangs &8| &7You have removed %value% from %gang%.'
+  gang-player-kicked: '&3MoonGangs &8| &b%player% &7was kicked from the gang!'
+  gang-kicked: '&3MoonGangs &8| &7You have been kicked from &b%gang%&7!'
+  gang-full: '&3MoonGangs &8| &7Your gang is &cfull&7!'
+  gang-chat-off: '&3MoonGangs &8| &7You have toggled gang chat &cOff'
+  gang-chat-on: '&3MoonGangs &8| &7You have toggled gang chat &aOn'
+  gang-chat-format: '&c[GC] &f%player%&f: &f%message%'
+  gang-top-updating: '&3MoonGangs &8| &7Please wait, gang top is updating!'
+  gang-name-long: '&3MoonGangs &8| &7Gang name must contain max 10 characters.'
+  gang-name-colors: '&3MoonGangs &8| &7Gang name must not contain colors.'
+gang-help-menu:
+- '&8&m+---------&r &3Gangs &bHelp&r &8&m---------+'
+- '&b/gang create [name]'
+- '&b/gang invite [player]'
+- '&b/gang kick [player]'
+- '&b/gang info [player]'
+- '&b/gang chat'
+- '&b/gang accept'
+- '&b/gang leave'
+- '&b/gang disband'
+- '&8&m+----------------------------+'
+gang-admin-help-menu:
+- '&8&m+--------&r &3Gangs &bAdmin&r &8&m--------+'
+- '&b/gang value add [gang] [value]'
+- '&b/gang value remove [gang] [value]'
+- '&b/gang admin add [player] [gang]'
+- '&b/gang admin remove [player] [gang]'
+- '&b/gang admin disband [gang]'
+- '&8&m+----------------------------+'
+gang-info-format:
+- ' '
+- '&3%gang% &7Gang'
+- '&bLeader &8| &7%gang_owner%'
+- '&bMembers &8| &7%gang_members%'
+- ' '
+gang-top-format:
+- '&8&m+---------&r &bGangs&r &8&m---------+'
+- '{FOR_EACH_GANG} &b#%position% &7- &f%gang%'
+- '&8&m+----------------------------+'
+gang-disband-gui-title: Disband Gang?

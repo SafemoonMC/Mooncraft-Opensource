@@ -1,0 +1,72 @@
+# ||=========================================||
+# ||                Anti Drop                ||
+# ||              Version 2.1.8              ||
+# ||=========================================||
+
+# ||========================================||
+# ||               Placeholders             ||
+# ||========================================||
+
+# {PREFIX} - Prefix of plugin
+# {TOGGLED} - Changes to enabled/disabled depending on if you just toggled apd on or off
+
+prefix: '&b&lAntiDrop &8&l\u00BB &7'
+
+# ||========================================||
+# ||                Preferences             ||
+# ||========================================||
+
+# (true = Enabled on join if new | false = Disabled on join if new)
+enabled-by-default: true
+
+# In seconds
+drop-delay: 3
+
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+applied-items:
+  - DIAMOND_PICKAXE
+
+# Should applied-items drop on death?
+applied-items-death-drop: false
+
+# If true then when a player has antidrop disabled their antidrop items (with drop: false) will still drop (and wont if enabled), if false antidrop items (with drop: false) will never drop
+death-drop-inherits-antidrop: false
+
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html
+specific-items:
+  # Only the item attribute is required. (name, data, enchants or lore) are not
+  # If an item matches all the data below antidrop will be triggered
+  # drop is unreleated and just changes if players will keep this item on death or not
+  redwool:
+    material: 'WOOL'
+    # Data of item (The number after the colon of an item's id) (if there is no colon this can be removed or set to 0)
+    data: 14
+    # Should this item drop on death? (Will still drop if player doesn't have the permission antidrop.deathprotection)
+    drop: false
+    # Name of item
+    name: '&cIf an item has this name it will trigger &lantidrop'
+    # Lore of item
+    lore:
+      - '&e&lline 1'
+    # Enchants must be defined as named on the Spigot JavaDocs (link above)
+    # and the enchants must be defined as 'NAME:LEVEL'
+    enchants:
+      - 'DIG_SPEED:3'
+    # If set specific-items may have its own unqiue anti-drop-message
+    anti-drop-message: '{PREFIX}Press Q again to drop your wool'
+    # If set specific-items may have its own unqiue drop-message
+    drop-message: '{PREFIX}Wool dropped successfully'
+
+# ||=======================================||
+# ||                 Messages              ||
+# ||=======================================||
+
+anti-drop-message: '&e&lDROP CONFIRMATION: Press Q again to drop your held item.'
+
+# Remove the # if you want the message to be sent
+#drop-message: '{PREFIX}Item drop confirmed'
+
+anti-drop-toggled: '{PREFIX}AntiDrop has been {TOGGLED}'
+
+no-permission: '&cYou don''t have permission for this command'

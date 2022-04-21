@@ -1,0 +1,24 @@
+Settings:
+    Debug-Mode: false
+    Auto-Save-Interval: 60 #in seconds
+
+Command-Settings:
+    Permission: "cloudcrates.admin"
+    Command: "crates"
+    Description: "The main command for crates."
+    Aliases:
+        - "crates"
+        - "crate"
+        - "cloudcrate"
+        - "cloudcrates"
+
+Loading-Settings:
+    Crate-Load-Message: "&f[CloudCrates] &7Loaded the &f<crate> &fcrate."
+    Reward-Load-Message: "&f[CloudCrates | <crate> ] &7Loaded the &f<reward> &freward."
+
+Crate-Placer:
+    Material: "ENDER_CHEST"
+    Durability: 0
+    Name: "&6&l[!] &6Regular &eCrate Placer &8(&7Place&8)"
+    Lore:
+        - '&7&o** Place this to add a crate location. **'

@@ -1,0 +1,307 @@
+ShopName: materials
+DisplayName: '&0Materials'
+Command: materials
+signs:
+  text: '[armor]'
+  NeedPermissionToCreateSign: true
+InventorySize: 27
+shop:
+  dust:
+    RewardType: nothing
+    PriceType: nothing
+    MenuItem:
+    - type:DARK_OAK_BUTTON
+    - 'name:&bHilt Dust'
+    - 'lore1:&cMaterial'
+    - 'lore2:&a'
+    - 'lore3:&bUsed for:'
+    - 'lore4:&7 - &7Crafting Hilts that are required for Weapons.'
+    - 'lore5:&b'
+    - 'lore6:&bObtained by:'
+    - 'lore7:&7 - &7Chopping wood at the spawn area.'
+    - amount:1
+    InventoryLocation: 11
+  stick1:
+    RewardType: playercommand
+    PriceType: FREE
+    Reward:
+    - hiltcraft
+    MenuItem:
+    - type:STICK
+    - name:&7Forgotten Hilt
+    - 'lore1:&cMaterial'
+    - 'lore2:&a'
+    - 'lore3:&7Hilts are used to create weapons to advance in the game!'
+    - 'lore4:&a'
+    - 'lore5:&7Can be used with &aOrbs &7and &9Stone Orbs'
+    - 'lore6:&a'
+    - 'lore7:&eClick to view crafting recipe'
+    - amount:1
+    InventoryLocation: 13
+  stick2:
+    RewardType: playercommand
+    PriceType: FREE
+    Reward:
+    - elementhiltcraft
+    MenuItem:
+    - type:STICK
+    - name:&dElement Hilt
+    - 'lore1:&cMaterial'
+    - 'lore2:&a'
+    - 'lore3:&7Hilts are used to create weapons to advance in the game!'
+    - 'lore4:&a'
+    - 'lore5:&7Can be used with &fFrost Orbs &7and &6Fire Orbs'
+    - 'lore6:&a'
+    - 'lore7:&eClick to view crafting recipe'
+    - amount:1
+    - enchantment:infinity#1
+    - itemflag:HIDE_ENCHANTS
+    InventoryLocation: 15
+  stick3:
+    RewardType: playercommand
+    PriceType: FREE
+    Reward:
+    - godlyhiltcraft
+    MenuItem:
+    - type:BLAZE_ROD
+    - name:&cGodly Hilt
+    - 'lore1:&cMaterial'
+    - 'lore2:&a'
+    - 'lore3:&7Hilts are used to create weapons to advance in the game!'
+    - 'lore4:&a'
+    - 'lore5:&7Can be used with &4Shadow Orbs'
+    - 'lore6:&a'
+    - 'lore7:&eClick to view crafting recipe'
+    - amount:1
+    InventoryLocation: 17
+  back:
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - menu
+    MenuItem:
+    - type:BARRIER
+    - 'name:&cGo back'
+    - 'lore1:&7Click to go back to the main menu!'
+    - amount:1
+    InventoryLocation: 23
+  Glass1:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  Glass2:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  Glass3:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  Glass4:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  Glass5:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  Glass6:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  Glass7:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  Glass8:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+  Glass9:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 9
+  Glass10:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+  Glass12:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+  Glass14:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+  Glass16:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+  Glass18:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 18
+  Glass19:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 19
+  Glass20:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 20
+  Glass21:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 21
+  Glass22:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 22
+  Glass24:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 24
+  Glass25:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 25
+  Glass26:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 26
+  Glass27:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 27

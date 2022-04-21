@@ -1,0 +1,17 @@
+bossbar-enabled: true
+bossbar-toggle-command: /bossbar
+permission-required-to-toggle: true
+remember-toggle-choice: false
+hidden-by-default: false
+default-bars:
+- Progress
+per-world:
+  testworld: []
+bars:
+  Progress:
+    permission-required: false
+    refresh: 100
+    style: PROGRESS
+    color: BLUE
+    progress: '100'
+    text: '&3&lPROGRESS  &7[&b&l%ultraprison_rank%&7] &7➠ &7[&b&l%ultraprison_next_rank%&7]  &f%vault_eco_balance_formatted%&7/&f%ultraprison_next_rank_cost_formatted%$  &7(%ultraprison_rankup_progress%)'

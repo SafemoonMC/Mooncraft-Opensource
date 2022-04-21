@@ -1,0 +1,7 @@
+blocks:
+  STONE:
+    chance: 500
+    command: say stone
+  DIRT:
+    chance: 250
+    command: say dirt

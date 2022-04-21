@@ -1,0 +1,3 @@
+#Disabling hooks requires a server restart
+Hooks:
+  UseTokenEnchant: false #Also used in the MineBombs plugin

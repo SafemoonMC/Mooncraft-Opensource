@@ -1,0 +1,27 @@
+Settings:
+    Title: "<crate> Slot Picker"
+
+Pick-Slot:
+    Material: "BEACON"
+    Durability: 0
+    Name: "&3&l[!] &bPick a slot..."
+    Lore:
+        - "&7&oClick this to select this Crate Slot..."
+
+Slot-Picked:
+    Material: "ENDER_CHEST"
+    Durability: 0
+    Name: "&2&l[!] &aSlot Selected!"
+    Lore:
+        - "&7&oYou have selected this Crate Slot!"
+
+Border:
+    Enabled: true
+    Display-Item:
+        Material: "STAINED_GLASS_PANE"
+        Durability:
+            - 7
+            - 15
+        Name: " "
+        Lore:
+            - " "

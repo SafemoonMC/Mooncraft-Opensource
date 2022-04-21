@@ -1,0 +1,35 @@
+actions:
+  ApplyPotion:
+    message: <blue>You received potion effects!
+    potion-effect-types:
+    - Speed
+    - Jump
+    potion-effect-durations:
+    - 100
+    - 25
+    potion-effect-amplifiers:
+    - 3
+    - 2
+  NiceFinish:
+    message: <green>Nice work!
+  DeathFail:
+    fail-quest: true
+  GiveRod:
+    message: <green>Here's a rod to get you started!
+    items:
+    - name-fishing_rod:amount-1
+  TimerStart:
+    timer: 40
+  CancelTimer:
+    cancel-timer: true
+  RunCommand:
+    message: <red>Answer to life, the universe, and everything?
+    commands:
+    - tell <player> 42
+  Crystal:
+    commands:
+    - mi give consumable crystal <player> 1
+  Runes:
+    message: <red>Recite the spell using your crystal!
+    commands:
+    - lp user <player> permission set crystal.use opprison

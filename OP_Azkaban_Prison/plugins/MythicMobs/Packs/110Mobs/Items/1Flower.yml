@@ -1,0 +1,100 @@
+Flower_ElementalHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjg2YWIwNTI0OTAwNzZlMzZiMzM2NjcyMWI2M2NkMDNiNzA0ZjIzZWQ3ZTMwMGM3MTU4NGJkMzg2OTBhMDk0NiJ9fX0=
+
+Dusk_OrchidHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJkZWIwMzNkYjMyNmE0MzNhZDhlOTMyZTUzNTVkNGFkZjE3MjlmNDY2Y2ZhYzlmZmJiMzczMjM1MTgxMmRhNCJ9fX0=
+
+Dusk_OrchidCHEST:
+  Id: LEATHER_CHESTPLATE
+  Options:
+    Color: 215,154,245
+
+Dusk_OrchidLEGS:
+  Id: LEATHER_LEGGINGS
+  Options:
+    Color: 114,158,96
+    
+Dusk_OrchidFEET:
+  Id: LEATHER_BOOTS
+  Options:
+    Color: 174,94,214
+
+Dawn_TulipHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjkxYjNlZWE1NWQ2NDg3NGVhNDZhNDNhODNlZmJkYWU3NWUwMGZiOGJjYjYyZmIzOTRjMjIxZTE5Y2Y4MjE1YiJ9fX0=
+
+Dawn_TulipCHEST:
+  Id: LEATHER_CHESTPLATE
+  Options:
+    Color: 255,201,120
+
+Dawn_TulipLEGS:
+  Id: LEATHER_LEGGINGS
+  Options:
+    Color: 114,158,96
+    
+Dawn_TulipFEET:
+  Id: LEATHER_BOOTS
+  Options:
+    Color: 255,185,79
+
+Bloom_SpiritHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzBiMmU4MmQ1Zjk0MTZiZDJmZmMwZDA5YWU1YzM0MDcwZmM1ZGRlNzNmMGVkOGViOWU4Y2Y3YzI2ZGFjMzQ4NCJ9fX0=
+
+Grass_BugHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQ3MGI5YjgyOTI4YTFhZWRiZWI1MDMzM2Y3NjNiYjI5M2JkY2EyOWNiNDNlMTgxZGE5MDRlMWIwZWQ2MWMxOCJ9fX0=
+
+ShadevineCHEST:
+  Id: LEATHER_CHESTPLATE
+  Options:
+    Color: 32,66,40
+
+ShadevineLEGS:
+  Id: LEATHER_LEGGINGS
+  Options:
+    Color: 32,66,40
+
+ShadevineFEET:
+  Id: LEATHER_BOOTS
+  Options:
+   # Color: 71,99,35
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

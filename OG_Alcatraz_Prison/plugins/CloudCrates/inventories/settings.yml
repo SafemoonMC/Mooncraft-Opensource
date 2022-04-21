@@ -1,0 +1,100 @@
+Settings:
+    Title: "Crate Settings"
+    Size: 27
+
+Items:
+    "Border":
+        Settings:
+            Enabled: true
+            Slots:
+                - 0-26
+        Display-Item:
+            Material: "STAINED_GLASS_PANE"
+            Durability: 15
+            Name: " "
+            Lore:
+                - " "
+
+Toggle-Animation-Messages:
+    Animation-Enabled:
+        Sound:
+            Enabled: true
+            Value: "ENTITY_PLAYER_LEVELUP"
+        Message:
+            Enabled: true
+            Value:
+                - "&6&l[!] &eYou have &aenabled &ecrate animations."
+    Animation-Disabled:
+        Sound:
+            Enabled: true
+            Value: "ENTITY_PLAYER_LEVELUP"
+        Message:
+            Enabled: true
+            Value:
+                - "&6&l[!] &eYou have &cdisabled &ecrate animations."
+
+Accessed-Selector-Amount:
+    Sound:
+        Enabled: true
+        Value: "BLOCK_CHEST_OPEN"
+    Message:
+        Enabled: true
+        Value:
+            - "&6&l[!] &eYou have opened the key amount selector interface."
+
+Inventory-Opened-Settings:
+    Sound:
+        Enabled: true
+        Value: "BLOCK_CHEST_OPEN"
+    Message:
+        Enabled: true
+        Value:
+            - "&6&l[!] &eYou have opened the settings manager."
+
+Inventory-Closed-Settings:
+    Sound:
+        Enabled: true
+        Value: "BLOCK_CHEST_CLOSE"
+    Message:
+        Enabled: false
+        Value:
+            - " "
+
+Toggle-Animation:
+    Slot: 12
+    Enabled: true
+    Enabled-Item:
+        Material: CHEST
+        Durability: 0
+        Name: "&6&l[!] &eToggle Animation &7(Click)"
+        Lore:
+            - '&7&o"Click this item to toggle crate animations."'
+            - ' '
+            - ' &6 &l * &e[Status] &aAnimations Enabled'
+            - ' '
+            - ' &7&o(( &f&oTip: &7&oClick this to disable animations. ))'
+            - ' '
+    Disabled-Item:
+        Material: ENDER_CHEST
+        Durability: 0
+        Name: "&6&l[!] &eToggle Animation &7(Click)"
+        Lore:
+            - '&7&o"Click this item to toggle crate animations."'
+            - ' '
+            - ' &6 &l * &e[Status] &cAnimations Disabled'
+            - ' '
+            - ' &7&o(( &f&oTip: &7&oClick this to enable animations. ))'
+            - ' '
+
+Keys-Amount-Selector:
+    Slot: 14
+    Enabled: true
+    Display-Item:
+        Material: TRIPWIRE_HOOK
+        Data: 0
+        Name: "&6&l[!] &eMass Crate Opening &7(Click)"
+        Lore:
+            - ' '
+            - ' &6&l* &e[Keys] &f%keys%x'
+            - ' '
+            - '&7&o"Click to open crate keys in mass amounts."'

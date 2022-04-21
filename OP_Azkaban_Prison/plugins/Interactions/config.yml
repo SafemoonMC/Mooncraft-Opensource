@@ -1,0 +1,23 @@
+update_notification: false
+allow_chat_while_in_conversation: true
+allow_commands_while_in_conversation: true
+allow_inventory_interact_while_in_conversation: true
+allow_mob_damage: false
+conversation_start_click_type: RIGHT_CLICK
+hide_chat_while_in_conversation_type: ALL
+send_back_hidden_chat: false
+commands_whitelist:
+- /lobby
+- /hub
+- /help
+clickable_options: true
+selectable_options: false
+action_bar: false
+use_empty_spaces: true
+use_protocollib: false
+protocollib_selectable_options_action: SNEAK
+boss_bar:
+  enabled: false
+  color: BLUE
+  style: SEGMENTED_10
+  change_progress_with_time: false

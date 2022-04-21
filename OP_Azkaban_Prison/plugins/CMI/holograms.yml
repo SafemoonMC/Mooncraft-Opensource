@@ -1,0 +1,752 @@
+Main:
+  Loc: OPP1;-3.5;93.0;8.5
+  Range: 20
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&7Welcome to &bAzkaban Prison'
+  - '&a'
+  - '&cMines ✦ &f/mines'
+  - '&aTravel ✦ &f/travel'
+  - '&dMenu ✦ &f/help'
+  - '&a'
+  - '&3First time playing?'
+  - '&7Run the command &9/tutorial &7for'
+  - '&7a brief description on how'
+  - '&7to play &bAzkaban Prison'
+Rare:
+  Loc: OPP1;16.5;89.17;-9.5
+  Range: 8
+  RangeExtra: 26
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&cRare Crate'
+  - '&a'
+  - '&7Right-Click to open'
+  - '&7Left-Click to preview'
+Quests:
+  Loc: OPP1;-13.56;90.5;30.57
+  Range: 20
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&6Dungeon'
+  - '&a'
+  - '&7Daily Prison Quests are found below'
+  - '&7and can be completed by finishing'
+  - '&7their required tasks!'
+  - '&a'
+  - '&cNote: &7Each daily quest can be unlocked'
+  - '&7by progressing to the next mine!'
+Tree:
+  Loc: OPP1;29.5;91.0;-12.5
+  Range: 20
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&aTree Farm'
+  - '&a'
+  - '&7Trees can be mined for &a$$$'
+  - '&7and have a chance of dropping'
+  - '&bHilt Dust &7which can be used'
+  - '&7in order to craft weapons'
+  - '&a'
+  - '&cNote: &7Trees have a chance of'
+  - '&7dropping Forgotten Hilts'
+Epic:
+  Loc: OPP1;4.5;89.17;-11.5
+  Range: 8
+  RangeExtra: 26
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&bEpic Crate'
+  - '&a'
+  - '&7Right-Click to open'
+  - '&7Left-Click to preview'
+PvP:
+  Loc: OPP1;31.5;90.0;31.5
+  Range: 20
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&cPvP Arena'
+  - '&a'
+  - '&7Fight other players with custom'
+  - '&7weapons and armor!'
+  - '&a'
+  - '&4&lItems here cannot be lost!'
+Prestige:
+  Loc: OPP1;8.5;89.17;-13.5
+  Range: 8
+  RangeExtra: 26
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&5Prestige Crate'
+  - '&a'
+  - '&7Right-Click to open'
+  - '&7Left-Click to preview'
+Forest2:
+  Loc: OPP1;8.5;90.62;80.5
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&2The Forest'
+  - '&a'
+  - '&7The Forest is the home to many &acreatures'
+  - '&7that can be killed for rewards including'
+  - '&bitems&7, &aorbs&7, and &6money&7!'
+  - '&a'
+  - '&cWarning: &7Certain creatures might be'
+  - '&7too powerful for you and would require'
+  - '&7stronger armor and weapons to defeat!'
+  - '&a'
+  - '&a'
+  - '&4Enter at your own risk!'
+  - '&6«««« &b &b &b &6»»»»'
+Mines:
+  Loc: OPP1;-16.5;91.0;8.5
+  Range: 20
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&9Mines'
+  - '&a'
+  - '&7Mines can be found at the end'
+  - '&7of this path, and are split into'
+  - '&73 Portals. (&aA&7-&aH&7) (&eI&7-&eQ&7) (&cR&7-&cZ&7)'
+  - '&a'
+  - '&cNote: &7Mines can also be'
+  - '&7accessed using &b/mines'
+Animal:
+  Loc: OPP1;-14.37;91.0;-14.39
+  Range: 20
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&eAnimal Farm'
+  - '&a'
+  - '&7Animals can be killed for &bMeat &7and'
+  - '&7Hay Blocks can be broken for &bBread'
+  - '&a'
+  - '&cNote: &bMeat &7and &bBread &7can be'
+  - '&7combined to form a &bSandwich'
+  - '&7&o(a better source of food)'
+Forest:
+  Loc: OPP1;8.5;90.0;34.4
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&2The Forest'
+  - '&a'
+  - '&7Go through till the end'
+  - '&7of this path to access'
+  - '&7the great magical forest!'
+Guard:
+  Loc: OPP1;47.5;101.62;8.5
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&bGuard Tower'
+  - '&a'
+  - '&7Follow the stairs'
+Common:
+  Loc: OPP1;0.5;89.17;-9.5
+  Range: 8
+  RangeExtra: 26
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&fCommon Crate'
+  - '&a'
+  - '&7Right-Click to open'
+  - '&7Left-Click to preview'
+Legendary:
+  Loc: OPP1;12.5;89.17;-11.5
+  Range: 8
+  RangeExtra: 26
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&6Legendary Crate'
+  - '&a'
+  - '&7Right-Click to open'
+  - '&7Left-Click to preview'
+A:
+  Loc: OPP1;-757.5;79.62;573.5
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3A &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_A%&7/&b%jetsprisonmines_total_blocks_A%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_A% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+B:
+  Loc: OPP1;-776.5;76.62;255.5
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3B &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_B%&7/&b%jetsprisonmines_total_blocks_B%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_B% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+C:
+  Loc: OPP1;-809.5;79.62;-9.5
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3C &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_C%&7/&b%jetsprisonmines_total_blocks_C%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_C% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+GuardTower:
+  Loc: OPP1;96.5;118.62;8.5
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&bGuard Tower'
+  - '&a'
+  - '&7The Guard Tower is unlocked'
+  - '&7at the &cGuard &7rank.'
+  - '&a'
+  - '&cGuard Quests &7must be completed'
+  - '&7in order to prestige through'
+  - '&7the game.'
+D:
+  Loc: OPP1;-829.39;77.62;-302.44
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3D &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_D%&7/&b%jetsprisonmines_total_blocks_D%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_D% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+E:
+  Loc: OPP1;-830.5;77.62;-796.52
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3E &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_E%&7/&b%jetsprisonmines_total_blocks_E%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_E% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+frost1:
+  Loc: OPP1;-59.0;23.8;172.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&eNow entering'
+  - '&a'
+  - '&f&lThe Frost Realm'
+  - '&a'
+  - '&eMob Levels: &3[Lv. 21 - 32]'
+F:
+  Loc: OPP1;-843.51;79.62;-1272.48
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3F &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_F%&7/&b%jetsprisonmines_total_blocks_F%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_F% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+frost2:
+  Loc: OPP1;8.5;23.8;185.5
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&eNow entering'
+  - '&a'
+  - '&f&lThe Frost Realm'
+  - '&a'
+  - '&eMob Levels: &3[Lv. 21 - 32]'
+Fishing:
+  Loc: OPP1;-2.27;87.03;-35.0
+  Range: 8
+  RangeExtra: 16
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&bFishing'
+  - '&a'
+  - '&bFish &7in this lake and get'
+  - '&7food and other cool items!'
+G:
+  Loc: OPP1;-858.42;79.62;-1640.48
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3G &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_G%&7/&b%jetsprisonmines_total_blocks_G%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_G% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+H:
+  Loc: OPP1;-893.46;76.62;-2086.5
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3H &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_H%&7/&b%jetsprisonmines_total_blocks_H%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_H% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+I:
+  Loc: OPP1;-862.52;75.62;-2436.5
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3I &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_I%&7/&b%jetsprisonmines_total_blocks_I%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_I% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+J:
+  Loc: OPP1;-858.43;75.62;-2752.47
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3J &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_J%&7/&b%jetsprisonmines_total_blocks_J%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_J% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+K:
+  Loc: OPP1;-865.48;75.62;-3116.51
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3K &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_K%&7/&b%jetsprisonmines_total_blocks_K%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_K% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+L:
+  Loc: OPP1;-862.48;75.62;-3517.5
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3L &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_L%&7/&b%jetsprisonmines_total_blocks_L%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_L% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+M:
+  Loc: OPP1;-883.53;74.62;-3958.53
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3M &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_M%&7/&b%jetsprisonmines_total_blocks_M%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_M% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+N:
+  Loc: OPP1;-879.53;73.62;-4333.46
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3N &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_N%&7/&b%jetsprisonmines_total_blocks_N%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_N% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+O:
+  Loc: OPP1;-863.57;75.62;-4641.46
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3O &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_O%&7/&b%jetsprisonmines_total_blocks_O%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_O% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+stone:
+  Loc: OPP1;133.5;11.62;9.5
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&eNow entering'
+  - '&a'
+  - '&7&lThe Stone Realm'
+  - '&a'
+  - '&eMob Levels: &3[Lv. 13 - 20]'
+Armoury:
+  Loc: OPP1;38.5;91.0;8.5
+  Range: 20
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&4The Armory'
+  - '&7'
+  - '&7The Armory has all of &bAzkaban&7''s'
+  - '&5Custom Items &7and their recipes'
+  - '&a'
+  - '&cNote: &7Some items may require'
+  - '&7higher prestiges for you'
+  - '&7to equip and use them'
+P:
+  Loc: OPP1;-890.57;75.62;-4974.5
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3P &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_P%&7/&b%jetsprisonmines_total_blocks_P%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_P% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+Q:
+  Loc: OPP1;-920.53;75.62;-5262.49
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3Q &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_Q%&7/&b%jetsprisonmines_total_blocks_Q%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_Q% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+fire2:
+  Loc: OPP1;171.5;23.0;76.5
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&eNow entering'
+  - '&a'
+  - '&6&lThe Fire Realm'
+  - '&a'
+  - '&eMob Levels: &3[Lv. 33 - 50]'
+R:
+  Loc: OPP1;-928.63;75.62;-5562.47
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3R &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_R%&7/&b%jetsprisonmines_total_blocks_R%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_R% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+S:
+  Loc: OPP1;-951.48;75.62;-5865.44
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3S &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_S%&7/&b%jetsprisonmines_total_blocks_S%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_S% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+T:
+  Loc: OPP1;-944.56;75.62;-6174.51
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3T &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_T%&7/&b%jetsprisonmines_total_blocks_T%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_T% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+Crates:
+  Loc: OPP1;8.5;91.4;-12.5
+  Range: 20
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&dCrates'
+  - '&a'
+  - '&7Right-Click to open crates'
+  - '&7Left-Click to view rewards'
+fire1:
+  Loc: OPP1;134.5;23.0;134.5
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&eNow entering'
+  - '&a'
+  - '&6&lThe Fire Realm'
+  - '&a'
+  - '&eMob Levels: &3[Lv. 33 - 50]'
+U:
+  Loc: OPP1;-912.59;75.62;-6546.46
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3U &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_U%&7/&b%jetsprisonmines_total_blocks_U%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_U% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+V:
+  Loc: OPP1;-948.49;75.62;-6954.49
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3V &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_V%&7/&b%jetsprisonmines_total_blocks_V%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_V% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+W:
+  Loc: OPP1;-930.52;75.62;-7382.52
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3W &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_W%&7/&b%jetsprisonmines_total_blocks_W%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_W% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+shadow2:
+  Loc: OPP1;133.5;23.0;-116.5
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&eNow entering'
+  - '&a'
+  - '&4&lThe Shadow Realm'
+  - '&a'
+  - '&eMob Levels: &3[Lv. 51 - 80]'
+X:
+  Loc: OPP1;-901.48;75.62;-7835.5
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3X &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_X%&7/&b%jetsprisonmines_total_blocks_X%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_X% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+shadow3:
+  Loc: OPP1;76.5;23.0;-154.5
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&eNow entering'
+  - '&a'
+  - '&4&lThe Shadow Realm'
+  - '&a'
+  - '&eMob Levels: &3[Lv. 51 - 80]'
+Y:
+  Loc: OPP1;-895.5;75.62;-8312.5
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3Y &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_Y%&7/&b%jetsprisonmines_total_blocks_Y%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_Y% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+Z:
+  Loc: OPP1;-958.46;75.62;-8795.51
+  Interval: 1.0
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&3Z &7Mine'
+  - '&a'
+  - '&7Blocks Mined: &b%jetsprisonmines_blocks_mined_Z%&7/&b%jetsprisonmines_total_blocks_Z%'
+  - '&a'
+  - '&7Resets in &b%jetsprisonmines_formatted_time_until_reset_Z% &7seconds'
+  - '&7'
+  - '&eRight-Click while holding your pickaxe'
+  - '&eto open the Enchantment Menu!'
+shadow1:
+  Loc: OPP1;171.5;23.0;-59.5
+  Range: 50
+  RangeExtra: 50
+  Spacing: 0.25
+  SpacingIcon: 0.5
+  Lines:
+  - '&eNow entering'
+  - '&a'
+  - '&4&lThe Shadow Realm'
+  - '&a'
+  - '&eMob Levels: &3[Lv. 51 - 80]'

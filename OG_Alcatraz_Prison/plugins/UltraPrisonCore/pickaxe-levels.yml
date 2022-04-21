@@ -1,0 +1,108 @@
+levels:
+  '1':
+    display_name: '&7Pickaxe &8| &7Level &b1'
+    blocks_required: 0
+  '2':
+    display_name: '&7Pickaxe &8| &7Level &b2'
+    blocks_required: 1000
+    rewards:
+    - tokens give %player% 5
+  '3':
+    display_name: '&7Pickaxe &8| &7Level &b3'
+    blocks_required: 3000
+    rewards:
+    - tokens give %player% 5
+  '4':
+    display_name: '&7Pickaxe &8| &7Level &b4'
+    blocks_required: 6000
+    rewards:
+    - tokens give %player% 10
+  '5':
+    display_name: '&7Pickaxe &8| &7Level &b5'
+    blocks_required: 9000
+    rewards:
+    - tokens give %player% 15
+    - crate givephys %player% super 1
+  '6':
+    display_name: '&7Pickaxe &8| &7Level &b6'
+    blocks_required: 12000
+    rewards:
+    - tokens give %player% 20
+  '7':
+    display_name: '&7Pickaxe &8| &7Level &b7'
+    blocks_required: 16000
+    rewards:
+    - tokens give %player% 25
+  '8':
+    display_name: '&7Pickaxe &8| &7Level &b8'
+    blocks_required: 20000
+    rewards:
+    - tokens give %player% 30
+  '9':
+    display_name: '&7Pickaxe &8| &7Level &b9'
+    blocks_required: 30000
+    rewards:
+    - tokens give %player% 35
+  '10':
+    display_name: '&7Pickaxe &8| &7Level &b10'
+    blocks_required: 50000
+    rewards:
+    - tokens give %player% 40
+    - crate givephys %player% super 1
+  '11':
+    display_name: '&7Pickaxe &8| &7Level &b11'
+    blocks_required: 100000
+    rewards:
+    - tokens give %player% 45
+  '12':
+    display_name: '&7Pickaxe &8| &7Level &b12'
+    blocks_required: 200000
+    rewards:
+    - tokens give %player% 50
+  '13':
+    display_name: '&7Pickaxe &8| &7Level &b13'
+    blocks_required: 300000
+    rewards:
+    - tokens give %player% 55
+  '14':
+    display_name: '&7Pickaxe &8| &7Level &b14'
+    blocks_required: 400000
+    rewards:
+    - tokens give %player% 60
+  '15':
+    display_name: '&7Pickaxe &8| &7Level &b15'
+    blocks_required: 500000
+    rewards:
+    - tokens give %player% 65
+    - crate givephys %player% super 1
+  '16':
+    display_name: '&7Pickaxe &8| &7Level &b16'
+    blocks_required: 600000
+    rewards:
+    - tokens give %player% 70
+  '17':
+    display_name: '&7Pickaxe &8| &7Level &b17'
+    blocks_required: 700000
+    rewards:
+    - tokens give %player% 75
+  '18':
+    display_name: '&7Pickaxe &8| &7Level &b18'
+    blocks_required: 800000
+    rewards:
+    - tokens give %player% 80
+  '19':
+    display_name: '&7Pickaxe &8| &7Level &b19'
+    blocks_required: 900000
+    rewards:
+    - tokens give %player% 85
+  '20':
+    display_name: '&7Pickaxe &8| &7Level &b20'
+    blocks_required: 1000000
+    rewards:
+    - tokens give %player% 90
+    - crate givephys %player% super 1
+messages:
+  pickaxe-level-up: '&3MoonEnchants &8| &7Your current pickaxe leveled up to &bLevel
+    %level%&7!'
+  pickaxe-progress: '&3MoonEnchants &8| &7Current progress: &b%blocks%&7/&b%blocks_required%
+    Blocks'

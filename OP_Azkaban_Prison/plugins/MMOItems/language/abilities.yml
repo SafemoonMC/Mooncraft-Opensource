@@ -1,0 +1,124 @@
+ability:
+  overload: Overload
+  freeze: Freeze
+  blizzard: Blizzard
+  magical-shield: Magical Shield
+  bouncy-fireball: Bouncy Fireball
+  burning-hands: Burning Hands
+  fire-meteor: Fire Meteor
+  tactical-grenade: Tactical Grenade
+  light-dash: Light Dash
+  ignite: Ignite
+  sparkle: Sparkle
+  tnt-throw: TNT Throw
+  earthquake: Earthquake
+  stun: Stun
+  holy-missile: Holy Missile
+  black-hole: Black Hole
+  throw-up: Throw Up
+  circular-slash: Circular Slash
+  cursed-beam: Cursed Beam
+  slow: Slow
+  thrust: Thrust
+  heavy-charge: Heavy Charge
+  item-throw: Item Throw
+  shock: Shock
+  minor-explosion: Minor Explosion
+  shadow-veil: Shadow Veil
+  frog-mode: Frog Mode
+  regen-ally: Regen Ally
+  lightning-beam: Lightning Beam
+  confuse: Confuse
+  death-mark: Death Mark
+  shulker-missile: Shulker Missile
+  contamination: Contamination
+  heal: Heal
+  corrosion: Corrosion
+  leap: Leap
+  explosive-turkey: Explosive Turkey
+  hoearthquake: Hoearthquake
+  burn: Burn
+  starfall: Starfall
+  wither: Wither
+  shockwave: Shockwave
+  vampirism: Vampirism
+  smite: Smite
+  snowman-turret: Snowman Turret
+  corrupt: Corrupt
+  arcane-hail: Arcane Hail
+  firebolt: Firebolt
+  grand-heal: Grand Heal
+  magical-path: Magical Path
+  life-ender: Life Ender
+  swiftness: Swiftness
+  present-throw: Present Throw
+  weaken-target: Weaken Target
+  chicken-wraith: Chicken Wraith
+  freezing-curse: Freezing Curse
+  arcane-rift: Arcane Rift
+  targeted-fireball: Targeted Fireball
+  corrupted-fangs: Corrupted Fangs
+  ice-crystal: Ice Crystal
+  blind: Blind
+  firefly: Firefly
+  poison: Poison
+  blink: Blink
+  frozen-aura: Frozen Aura
+  sky-smash: Sky Smash
+  bunny-mode: Bunny Mode
+  magma-fissure: Magma Fissure
+  bloodbath: Bloodbath
+  item-bomb: Item Bomb
+modifier:
+  damage: Damage
+  mana: Mana
+  stamina: Stamina
+  cooldown: Cooldown
+  radius: Radius
+  duration: Duration
+  amplifier: Amplifier
+  inaccuracy: Inaccuracy
+  force: Force
+  power: Power
+  ignite: Ignite
+  speed: Speed
+  knockback: Knockback
+  knock-up: Knock Up
+  length: Length
+  max-ignite: Max Ignite
+  limit: Limit
+  jump-force: Jump Force
+  heal: Heal
+  effect-duration: Effect Duration
+  drain: Drain
+  extra-damage: Extra Damage
+  fangs: Fangs
+  range: Range
+  amount: Amount
+  slow-duration: Slow Duration
+  slow-amplifier: Slow Amplifier
+  deception: Deception
+cast-mode:
+  on-hit: On Attack
+  when-hit: When Attacked
+  left-click: On Left Click
+  right-click: On Right Click
+  shift-left-click: On Shift Left Click
+  shift-right-click: On Shift Right Click
+  kill-entity: Kill Entity
+  attack: Attack
+  damaged: Damaged
+  damaged-by-entity: Damaged By Entity
+  death: Death
+  shoot-bow: Shoot Bow
+  arrow-tick: Arrow Tick
+  arrow-hit: Arrow Hit
+  arrow-land: Arrow Land
+  shoot-trident: Shoot Trident
+  trident-tick: Trident Tick
+  trident-hit: Trident Hit
+  trident-land: Trident Land
+  login: Login
+  sneak: Sneak
+  cast: Cast
+  api: Api

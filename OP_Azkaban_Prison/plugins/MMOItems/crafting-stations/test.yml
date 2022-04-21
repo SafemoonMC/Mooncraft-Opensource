@@ -1,0 +1,107 @@
+
+# Name which will be displayed
+# when opening the station
+name: 'Orbs Station'
+
+# The maximum amount of items in the crafting queue ie. the
+# max number of items players are able to craft simultaneously.
+# Must be between 1 and 64.
+max-queue-size: 10
+
+# The sound that plays whenever an action is
+# completed in the crafting station.
+# GET SOUND NAMES HERE:
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
+# This is how the gui looks. You can define your own
+# in crafting-stations/layouts by creating a new
+# file with the name of the file as the id.
+layout: orbs
+
+# Configure GUI items here
+items:
+    fill:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&a'
+    no-recipe:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Recipe'
+    no-queue-item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&aAvailable Crafting Slot'
+
+# Station recipes
+recipes:
+    enhanced-orb:
+        output:
+            type: MATERIAL
+            id: ENHANCEDORB
+            amount: 1
+        crafting-time: 10
+        ingredients:
+        - mmoitem{type=MATERIAL,id=ORB,amount=9}
+    stone-orb:
+        output:
+            type: MATERIAL
+            id: STONEORB
+            amount: 1
+        crafting-time: 20
+        ingredients:
+        - mmoitem{type=MATERIAL,id=ENHANCEDORB,amount=9}
+    enhancedstone-orb:
+        output:
+            type: MATERIAL
+            id: ENHANCEDSTONEORB
+            amount: 1
+        crafting-time: 30
+        ingredients:
+        - mmoitem{type=MATERIAL,id=STONEORB,amount=9}
+    frost-orb:
+        output:
+            type: MATERIAL
+            id: FROSTORB
+            amount: 1
+        crafting-time: 40
+        ingredients:
+        - mmoitem{type=MATERIAL,id=ENHANCEDSTONEORB,amount=9}
+    enhancedfrost-orb:
+        output:
+            type: MATERIAL
+            id: ENHANCEDFROSTORB
+            amount: 1
+        crafting-time: 45
+        ingredients:
+        - mmoitem{type=MATERIAL,id=FROSTORB,amount=9}
+    fire-orb:
+        output:
+            type: MATERIAL
+            id: FIREORB
+            amount: 1
+        crafting-time: 50
+        ingredients:
+        - mmoitem{type=MATERIAL,id=ENHANCEDFROSTORB,amount=9}
+    enhancedfire-orb:
+        output:
+            type: MATERIAL
+            id: ENHANCEDFIREORB
+            amount: 1
+        crafting-time: 55
+        ingredients:
+        - mmoitem{type=MATERIAL,id=FIREORB,amount=9}
+    shadow-orb:
+        output:
+            type: MATERIAL
+            id: SHADOWORB
+            amount: 1
+        crafting-time: 60
+        ingredients:
+        - mmoitem{type=MATERIAL,id=ENHANCEDFIREORB,amount=9}
+    enhancedshadow-orb:
+        output:
+            type: MATERIAL
+            id: ENHANCEDSHADOWORB
+            amount: 1
+        crafting-time: 120
+        ingredients:
+        - mmoitem{type=MATERIAL,id=SHADOWORB,amount=9}

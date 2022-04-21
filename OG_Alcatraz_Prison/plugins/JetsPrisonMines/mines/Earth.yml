@@ -1,0 +1,35 @@
+mine_name: Earth
+blocks:
+- IRON_ORE:5:false:false
+- COAL_ORE:15:false:false
+- STONE:80:false:false
+region:
+  world: world
+  zmin: 1269
+  ymin: 19
+  xmin: 1033
+  zmax: 1307
+  ymax: 39
+  xmax: 1079
+reset:
+  use_timer: true
+  timer: 180
+  use_percentage: false
+  percentage: 45
+  reset_type: GRADUAL
+  use_messages: false
+  reset_direction: TOPTOBOTTOM
+perm_to_mine: false
+blocks_mined: 0
+stats:
+  holograms:
+  - world:1031.4611834731847:42.0:1288.5883610506708:HOLOGRAM_TIMER
+effects: []
+teleport_location:
+  ==: org.bukkit.Location
+  world: world
+  x: 1022.507945904982
+  y: 40.0
+  z: 1288.4973080278753
+  pitch: 5.4463744E-6
+  yaw: -89.3918

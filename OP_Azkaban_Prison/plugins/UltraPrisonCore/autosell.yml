@@ -1,0 +1,172 @@
+messages:
+  autosell_enable: '&3Prison &8| &7Auto Sell &aenabled'
+  autosell_disable: '&3Prison &8| &7Auto Sell &cdisabled'
+  not_in_region: '&3Prison &8| &7You must be in a mine to Auto Sell'
+  invalid_region: '&e&l(!) &cYou have specified invalid region.'
+  sell_all_complete: '&3Prison &8| &7Items sold for &a$%price%'
+  last_minute_earn: '&3Prison &8| &7Sold &b$%amount% &7in last minute.'
+  no_permission_sell: '&3Prison &8| &7You do not have permission to sell in this region!'
+  no_permission_autosell_toggle: '&3Prison &8| &7You do not have permission to auto
+    sell!'
+  no_permission_sellall: '&e&l(!) &cYou do not have permission to use the sellall
+    feature!'
+enable-autosell-automatically: true
+auto-smelt: false
+requiresPickaxe: false
+auto_sell_broadcast:
+  time: 60
+  message:
+  - '&3Prison &8| &7Items sold for &a&l$%money%'
+regions:
+  mine-a:
+    world: OPP1
+    items:
+      STONE: 0.16
+      COAL_ORE: 0.32
+  mine-b:
+    world: OPP1
+    items:
+      STONE: 0.3
+      COAL_ORE: 0.6
+  mine-c:
+    world: OPP1
+    items:
+      STONE: 0.41
+      COAL_ORE: 0.41
+      IRON_ORE: 0.82
+  mine-d:
+    world: OPP1
+    items:
+      STONE: 0.5
+      IRON_ORE: 1.0
+  mine-e:
+    world: OPP1
+    items:
+      STONE: 0.68
+      IRON_ORE: 1.34
+  mine-f:
+    world: OPP1
+    items:
+      STONE: 1
+      IRON_ORE: 1
+      GOLD_ORE: 2
+  mine-g:
+    world: OPP1
+    items:
+      STONE: 1.3
+      GOLD_ORE: 2.6
+  mine-h:
+    world: OPP1
+    items:
+      STONE: 1.7
+      GOLD_ORE: 3.4
+  mine-i:
+    world: OPP1
+    items:
+      STONE: 2.3
+      GOLD_ORE: 2.3
+      DIAMOND_ORE: 4.6
+  mine-j:
+    world: OPP1
+    items:
+      STONE: 2.8
+      DIAMOND_ORE: 5.6
+  mine-k:
+    world: OPP1
+    items:
+      STONE: 3.8
+      DIAMOND_ORE: 7.6
+  mine-l:
+    world: OPP1
+    items:
+      STONE: 4.6
+      DIAMOND_ORE: 4.6
+      EMERALD_ORE: 9.2
+  mine-m:
+    world: OPP1
+    items:
+      STONE: 7.4
+      EMERALD_ORE: 14.8
+  mine-n:
+    world: OPP1
+    items:
+      STONE: 9.6
+      EMERALD_ORE: 19.2
+  mine-o:
+    world: OPP1
+    items:
+      STONE: 14.8
+      EMERALD_ORE: 14.8
+      REDSTONE_ORE: 25.6
+  mine-p:
+    world: OPP1
+    items:
+      STONE: 15.9
+      REDSTONE_ORE: 31.8
+  mine-q:
+    world: OPP1
+    items:
+      STONE: 18.1
+      REDSTONE_ORE: 36.2
+  mine-r:
+    world: OPP1
+    items:
+      STONE: 32.9
+      REDSTONE_ORE: 32.9
+      LAPIS_ORE: 65.8
+  mine-s:
+    world: OPP1
+    items:
+      STONE: 59.9
+      LAPIS_ORE: 119.9
+  mine-t:
+    world: OPP1
+    items:
+      STONE: 81.7
+      LAPIS_ORE: 162.5
+  mine-u:
+    world: OPP1
+    items:
+      STONE: 99
+      LAPIS_ORE: 99
+      COAL_BLOCK: 192
+  mine-v:
+    world: OPP1
+    items:
+      STONE: 112
+      COAL_BLOCK: 162
+  mine-w:
+    world: OPP1
+    items:
+      STONE: 204
+      IRON_BLOCK: 254
+  mine-x:
+    world: OPP1
+    items:
+      STONE: 279
+      GOLD_BLOCK: 329
+  mine-y:
+    world: OPP1
+    items:
+      STONE: 338
+      DIAMOND_BLOCK: 408
+  mine-z:
+    world: OPP1
+    items:
+      STONE: 461
+      EMERALD_BLOCK: 561
+  trees:
+    world: OPP1
+    items:
+      DARK_OAK_LOG: 1.5
+      HAY_BLOCK: 0.5
+  pve:
+    world: OPP1
+    items:
+      HAY_BLOCK: 0.5
+inventory_full_notification:
+  enabled: false
+  title:
+  - '&e&lInventory full!'
+  - '&fType /sellall to sell your inventory'
+  chat: '&c&l(!) &eYour inventory is full! Type /sellall to sell your inventory'

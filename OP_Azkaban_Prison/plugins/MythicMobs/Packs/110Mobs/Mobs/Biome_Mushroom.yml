@@ -1,0 +1,428 @@
+####################################
+#                                  #
+#           [ Mushroom ]           #
+#                                  #
+####################################
+
+Fungus_Knight:
+  Type: ZOMBIE
+  Display: '&cFungus Knight &6[Lv. <caster.level>]'
+  Faction: Mushroom
+  Disguise: Mushroom_Highguard
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - AIR CHEST
+  - AIR FEET
+  - AIR LEGS
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.22
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - red_mushroom 1-3 0.2
+  - brown_mushroom 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - equip{i="RED_BANNER HEAD"} @self ~onSpawn 0.5
+  - sound{s=block.shroomlight.hit;p=0.8} @self ~onDamaged
+  - sound{s=block.shroomlight.break;v=0.5;p=0.8} @self ~onDeath
+  - sound{s=block.coral_block.place;p=0.8} @self ~onDamaged
+  - sound{s=block.coral_block.break;v=0.5;p=0.8} @self ~onDeath
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+  
+Fungus_King:
+  Type: ZOMBIE
+  Display: '&cFungus King &6[Lv. <caster.level>]'
+  Faction: Mushroom
+  Disguise: Fungus_King
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - GOLD_HELMET HEAD
+  - AIR CHEST
+  - AIR LEGS
+  - AIR FEET
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.22
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - red_mushroom_block 1-3 0.2
+  - brown_mushroom_block 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - equip{i="DIAMOND_SWORD HAND"} @self ~onSpawn 0.5
+  - equip{i="GOLD_SWORD HAND"} @self ~onSpawn 0.5
+  - sound{s=block.shroomlight.hit;p=0.8} @self ~onDamaged
+  - sound{s=block.shroomlight.break;v=0.5;p=0.8} @self ~onDeath
+  - sound{s=block.coral_block.place;p=0.8} @self ~onDamaged
+  - sound{s=block.coral_block.break;v=0.5;p=0.8} @self ~onDeath
+  - sound{s=entity.pillager.ambient;p=1.5;v=0.1} @self ~onTimer:120 0.7
+  - sound{s=entity.pillager.hurt;p=1.5;v=0.1} @self ~onDamaged
+  - sound{s=entity.pillager.death;p=1.5;v=0.1} @self ~onDeath
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+
+Mushroom_Highguard:
+  Type: WITHER_SKELETON
+  Display: '&cMushroom Highguard &6[Lv. <caster.level>]'
+  Faction: Mushroom
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - Mushroom_HighguardHEAD HEAD
+  - IRON_CHESTPLATE CHEST
+  - MushroomiteLEGS LEGS
+  - MushroomiteFEET FEET
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.18
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - iron_sword 1 0.2
+  - brown_mushroom 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - equip{i="DIAMOND_SWORD HAND"} @self ~onSpawn 0.5
+  - equip{i="SHIELD OFFHAND"} @self ~onSpawn 0.5
+  - sound{s=block.shroomlight.hit;p=0.8} @self ~onDamaged
+  - sound{s=block.shroomlight.break;v=0.5;p=0.8} @self ~onDeath
+  - sound{s=block.coral_block.place;p=0.8} @self ~onDamaged
+  - sound{s=block.coral_block.break;v=0.5;p=0.8} @self ~onDeath
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Mushroom_Flower:
+  Type: SKELETON
+  Display: '&eMushroom Flower &6[Lv. <caster.level>]'
+  Disguise: ARMOR_STAND setInvisible setYModifier -1.5
+  Faction: Mushroom
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  Equipment:
+  - Mushroom_FlowerHEAD HEAD
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.12
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - red_mushroom 1-3 0.2
+  - brown_mushroom 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - randomskill{s=Stone_WeaponsPick,Iron_WeaponsPick} @self ~onSpawn
+  - sound{s=block.shroomlight.hit;p=1.2} @self ~onDamaged
+  - sound{s=block.shroomlight.break;v=0.5;p=1.2} @self ~onDeath
+  - sound{s=block.coral_block.place;p=1.2} @self ~onDamaged
+  - sound{s=block.coral_block.break;v=0.5;p=1.2} @self ~onDeath
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+  
+Spore_Caster:
+  Type: SKELETON
+  Display: '&cSpore Caster &6[Lv. <caster.level>]'
+  Faction: Mushroom
+  Disguise: Spore_Caster
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - AIR HEAD
+  - AIR CHEST
+  - AIR LEGS
+  - AIR FEET
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.14
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - red_mushroom 1-3 0.2
+  - brown_mushroom 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - skill{s=Spore_Projectile} @target ~onTimer:100 
+  - equip{i="AIR HAND"} @self ~onSpawn
+  - equip{i="RED_MUSHROOM HAND";delay=2} @self ~onSpawn 0.5 
+  - sound{s=block.shroomlight.hit;p=0.8} @self ~onDamaged
+  - sound{s=block.shroomlight.break;v=0.5;p=0.8} @self ~onDeath
+  - sound{s=block.coral_block.place;p=0.8} @self ~onDamaged
+  - sound{s=block.coral_block.break;v=0.5;p=0.8} @self ~onDeath
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Mushroomite:
+  Type: SKELETON
+  Display: '&cMushroomite &6[Lv. <caster.level>]'
+  Faction: Mushroom
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - MushroomiteHEAD HEAD
+  - MushroomiteCHEST CHEST
+  - MushroomiteLEGS LEGS
+  - MushroomiteFEET FEET
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.22
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - red_mushroom 1-3 0.2
+  - brown_mushroom 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - randomskill{s=Stone_WeaponsPick,Iron_WeaponsPick} @self ~onSpawn
+  - sound{s=block.shroomlight.hit;p=0.8} @self ~onDamaged
+  - sound{s=block.shroomlight.break;v=0.5;p=0.8} @self ~onDeath
+  - sound{s=block.coral_block.place;p=0.8} @self ~onDamaged
+  - sound{s=block.coral_block.break;v=0.5;p=0.8} @self ~onDeath
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Mutant_Mushroomite:
+  Type: WITHER_SKELETON
+  Display: '&cMutant Mushroomite &6[Lv. <caster.level>]'
+  Faction: Mushroom
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - Mutant_MushroomiteHEAD HEAD
+  - MushroomiteCHEST CHEST
+  - MushroomiteLEGS LEGS
+  - MushroomiteFEET FEET
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.22
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - red_mushroom 1-3 0.2
+  - brown_mushroom 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - randomskill{s=Stone_WeaponsPick,Iron_WeaponsPick} @self ~onSpawn
+  - sound{s=block.shroomlight.hit;p=0.8} @self ~onDamaged
+  - sound{s=block.shroomlight.break;v=0.5;p=0.8} @self ~onDeath
+  - sound{s=block.coral_block.place;p=0.8} @self ~onDamaged
+  - sound{s=block.coral_block.break;v=0.5;p=0.8} @self ~onDeath
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Shroom_Beholder:
+  Type: SKELETON
+  Display: '&cShroom Beholder &6[Lv. <caster.level>]'
+  Faction: Mushroom
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - BOW HAND
+  - Shroom_BeholderHEAD HEAD
+  - Shroom_BeholderCHEST CHEST
+  - Shroom_BeholderLEGS LEGS
+  - Shroom_BeholderFEET FEET
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.22
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - red_mushroom 1-3 0.2
+  - brown_mushroom 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - randomskill{s=Stone_WeaponsPick,Iron_WeaponsPick} @self ~onSpawn
+  - sound{s=block.shroomlight.hit;p=0.8} @self ~onDamaged
+  - sound{s=block.shroomlight.break;v=0.5;p=0.8} @self ~onDeath
+  - sound{s=block.coral_block.place;p=0.8} @self ~onDamaged
+  - sound{s=block.coral_block.break;v=0.5;p=0.8} @self ~onDeath
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Shroom_Gnome:
+  Type: BABY_ZOMBIE
+  Display: '&eShroom Gnome &6[Lv. <caster.level>]'
+  Faction: Mushroom
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  Equipment:
+  - Shroom_GnomeHEAD HEAD
+  - Shroom_GnomeCHEST CHEST
+  - Shroom_GnomeLEGS LEGS
+  - Shroom_GnomeFEET FEET
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.15
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - red_mushroom 1-3 0.2
+  - brown_mushroom 1-2 0.2
+  - stone_pickaxe 1 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - randomskill{s=Stone_WeaponsPick,Iron_WeaponsPick} @self ~onSpawn
+  - sound{s=block.shroomlight.hit;p=1.2} @self ~onDamaged
+  - sound{s=block.shroomlight.break;v=0.5;p=1.2} @self ~onDeath
+  - sound{s=block.coral_block.place;p=1.2} @self ~onDamaged
+  - sound{s=block.coral_block.break;v=0.5;p=1.2} @self ~onDeath
+  - sound{s=entity.pillager.ambient;p=2;v=0.1} @self ~onTimer:120 0.7
+  - sound{s=entity.pillager.hurt;p=2;v=0.1} @self ~onDamaged
+  - sound{s=entity.pillager.death;p=2;v=0.1} @self ~onDeath
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Fungus_Skeleton:
+  Type: STRAY
+  Display: '&cFungus Skeleton &6[Lv. <caster.level>]'
+  Faction: Mushroom
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - RED_MUSHROOM OFFHAND
+  - Fungus_SkeletonHEAD HEAD
+  - MushroomiteCHEST CHEST
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.22
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - red_mushroom 1-3 0.2
+  - brown_mushroom 1-2 0.2
+  - bone 1-3 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - randomskill{s=Stone_WeaponsPick,Iron_WeaponsPick} @self ~onSpawn
+  - sound{s=block.shroomlight.hit;p=0.8} @self ~onDamaged
+  - sound{s=block.shroomlight.break;v=0.5;p=0.8} @self ~onDeath
+  - sound{s=entity.wither_skeleton.hurt;v=0.1} @self ~onDamaged
+  - sound{s=entity.wither_skeleton.death;v=0.1} @self ~onDeath
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack

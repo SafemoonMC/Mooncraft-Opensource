@@ -1,0 +1,39 @@
+prestige5:
+  name: "&6Prestige5"
+  size: 54
+  fillItem:
+    material: BLACK_STAINED_GLASS_PANE
+    name: " "
+  items:
+    1:
+      type: item
+      item:
+        material: BRICKS
+        quantity: 1
+      buyPrice: -1
+      sellPrice: 2
+      slot: 10
+    2:
+      type: item
+      item:
+        material: COAL_BLOCK
+        quantity: 1
+      buyPrice: -1
+      sellPrice: 10.8
+      slot: 11
+    3:
+      type: item
+      item:
+        material: DIAMOND
+        quantity: 1
+      buyPrice: -1
+      sellPrice: 20
+      slot: 12
+    4:
+      type: item
+      item:
+        material: DIAMOND_ORE
+        quantity: 1
+      buyPrice: -1
+      sellPrice: 15
+      slot: 12

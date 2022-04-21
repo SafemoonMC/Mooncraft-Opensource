@@ -1,0 +1,50 @@
+Purple_WormHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjkyZDViZTZmMTAxODY4MmM2NzRiMzMyZWVlODdkMjY5N2RjNWZhYWVhMDNkNDc0ODMwZWMzNDhmZDNkYWU2YyJ9fX0=
+
+Darkling_BeetleHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDY4NWVhOWNlMGQzNjY4NjkyMTU0NDM5ODU5ZDI4NjMxMDRiNDJmYTA4MjM3OGQ1MDRlYTY2NDQwODc1Y2JjMiJ9fX0=
+
+Violet_WraithHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTc3YWQ0YzUyODkzNzllMjVlZDc4ZjU3ZmUwZmMzOWY5YzdmYWQyNDQyMTVkYTY5NTliNDkyNWQ2MzEwZGEzNiJ9fX0=
+
+Violet_WraithCHEST:
+  Id: LEATHER_CHESTPLATE
+  Options:
+    Color: 83,47,89
+
+Violet_WraithLEGS:
+  Id: LEATHER_LEGGINGS
+  Options:
+    Color: 83,47,89
+
+Violet_WraithFEET:
+  Id: LEATHER_BOOTS
+  Options:
+    Color: 83,47,89
+
+Plains_BrigardHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JhNTVlY2RiYWJiMmVhMWY1NmE3MDU3ZjBiMGExNjdkNGZhYzkwM2Q3YzM1MDg4ZGQ5MDg5YzA3NmY5M2ZkYiJ9fX0=
+
+Plains_BrigardCHEST:
+  Id: IRON_CHESTPLATE
+  Options:
+   # Color: 83,47,89
+
+Plains_BrigardLEGS:
+  Id: LEATHER_LEGGINGS
+  Options:
+    Color: 83,47,89
+
+Plains_BrigardFEET:
+  Id: LEATHER_BOOTS
+  Options:
+    Color: 165,62,176  
+

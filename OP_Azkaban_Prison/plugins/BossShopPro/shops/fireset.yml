@@ -1,0 +1,673 @@
+ShopName: fireset
+DisplayName: '&0Fire Set'
+Command: fireset
+signs:
+  text: '[armor]'
+  NeedPermissionToCreateSign: true
+InventorySize: 54
+shop:
+  helmet:
+    MenuItem:
+    - name:&6Fire Helmet
+    - amount:1
+    - 'lore1:&cArmor'
+    - 'lore2:&a'
+    - 'lore3:&7✠ Armor: &f+3.5'
+    - 'lore4:&7❤ Health: &f+30'
+    - 'lore5:&a'
+    - 'lore6:&7■ Fall Damage Reduction: &f+1.5%'
+    - 'lore7:&7■ Fire Damage Reduction: &f+2.5%'
+    - 'lore8:&7■ Projectile Damage Reduction: &f+2.5%'
+    - 'lore9:&a'
+    - 'lore10:&7Fire Set Bonus:'
+    - 'lore11:&8[4] Fire Resistance I'
+    - 'lore12:&a'
+    - 'lore13:&7Requirement: &fPrestige 10'
+    - 'lore14:&a'
+    - 'lore15:&eClick to view crafting recipe'
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhjNzI0MmIzNDQwZGQ5YzJiYTJlYzI3Yzc5MjI2NDM0MDZlNWZlOGY2YWFlN2I1MDlkNGY2NjY3ZDgyMzZkNSJ9fX0=
+    - hideflags:all
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - firehelmetcraft
+    InventoryLocation: 14
+  chestplate:
+    MenuItem:
+    - name:&6Fire Chestplate
+    - amount:1
+    - 'lore1:&cArmor'
+    - 'lore2:&a'
+    - 'lore3:&7✠ Armor: &f+7'
+    - 'lore4:&7❤ Health: &f+34'
+    - 'lore5:&a'
+    - 'lore6:&7■ Fall Damage Reduction: &f+4%'
+    - 'lore7:&7■ Fire Damage Reduction: &f+4.5%'
+    - 'lore8:&7■ Projectile Damage Reduction: &f+4.5%'
+    - 'lore9:&a'
+    - 'lore10:&7Fire Set Bonus:'
+    - 'lore11:&8[4] Fire Resistance I'
+    - 'lore12:&a'
+    - 'lore13:&7Requirement: &fPrestige 10'
+    - 'lore14:&a'
+    - 'lore15:&eClick to view crafting recipe'
+    - type:LEATHER_CHESTPLATE
+    - 'color:255#137#0'
+    - hideflags:all
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - firechestplatecraft
+    InventoryLocation: 23
+  leggings:
+    MenuItem:
+    - name:&6Fire Pants
+    - amount:1
+    - 'lore1:&cArmor'
+    - 'lore2:&a'
+    - 'lore3:&7✠ Armor: &f+6'
+    - 'lore4:&7❤ Health: &f+32'
+    - 'lore5:&a'
+    - 'lore6:&7■ Fall Damage Reduction: &f+3%'
+    - 'lore7:&7■ Fire Damage Reduction: &f+3.5%'
+    - 'lore8:&7■ Projectile Damage Reduction: &f+3.5%'
+    - 'lore9:&a'
+    - 'lore10:&7Fire Set Bonus:'
+    - 'lore11:&8[4] Fire Resistance I'
+    - 'lore12:&a'
+    - 'lore13:&7Requirement: &fPrestige 10'
+    - 'lore14:&a'
+    - 'lore15:&eClick to view crafting recipe'
+    - type:LEATHER_LEGGINGS
+    - 'color:255#137#0'
+    - hideflags:all
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - fireleggingscraft
+    InventoryLocation: 32
+  boots:
+    MenuItem:
+    - name:&6Fire Shoes
+    - amount:1
+    - 'lore1:&cArmor'
+    - 'lore2:&a'
+    - 'lore3:&7✠ Armor: &f+4'
+    - 'lore4:&7❤ Health: &f+28'
+    - 'lore5:&a'
+    - 'lore6:&7■ Fall Damage Reduction: &f+2%'
+    - 'lore7:&7■ Fire Damage Reduction: &f+2%'
+    - 'lore8:&7■ Projectile Damage Reduction: &f+1.5%'
+    - 'lore9:&a'
+    - 'lore10:&7Fire Set Bonus:'
+    - 'lore11:&8[4] Fire Resistance I'
+    - 'lore12:&a'
+    - 'lore13:&7Requirement: &fPrestige 10'
+    - 'lore14:&a'
+    - 'lore15:&eClick to view crafting recipe'
+    - type:LEATHER_BOOTS
+    - 'color:255#137#0'
+    - hideflags:all
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - firebootscraft
+    InventoryLocation: 41
+  orb:
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - normalset
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY0YWQ4ZGEzMTllNmViMzc3MjFlMDJjNzg4NjQ5OTBiNDVmYzBmZWEwNmVlNTJlZDRjMjRhYzE5NzI3OGNiNyJ9fX0=
+    - name:&aOrb
+    - 'lore1:&a'
+    - 'lore2:&aOrbs &7are used to obtain gear and can be'
+    - 'lore3:&7upgraded to &aEnhanced Orbs'
+    - 'lore4:&a'
+    - 'lore5:&eClick to view &aScrap Set'
+    - amount:1
+    InventoryLocation: 12
+  enhancedorb:
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - enhancednormalset
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQxNDQ5MDk3YjRiNzlhOWY2Y2FmNjM0NDQxOGYyMDM0ZGU0YmI5NzFmZWI3YThlNGFhY2JmYjkwNWFjZGNlZiJ9fX0=
+    - 'name:&aEnhanced Orb'
+    - 'lore1:&a'
+    - 'lore2:&aEnhanced Orbs &7are used to obtain gear'
+    - 'lore3:&7and can be upgraded to &9Stone Orbs'
+    - 'lore4:&a'
+    - 'lore5:&eClick to view &aEnhanced Scrap Set'
+    - amount:1
+    InventoryLocation: 16
+  stoneorb:
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - stoneset
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU1YmMxY2Y4NmU0OTkwNjU0M2MzMTY5OWJlNjdmNjJmZGQ3ZjY1YzgzNjNjZjIwNTkyZGI1N2ExNTExNjZkZSJ9fX0=
+    - name:&9Stone Orb
+    - 'lore1:&a'
+    - 'lore2:&9Stone Orbs &7are used to obtain gear and can be upgraded to &9Enhanced Stone Orbs'
+    - 'lore3:&a'
+    - 'lore4:&eClick to view &9Stone Set'
+    - amount:1
+    InventoryLocation: 21
+  enhancedstoneorb:
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - enhancedstoneset
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFkYzRhMDI0NzE4ZDQwMWVlYWU5ZTk1YjNjOTI3NjdmOTE2ZjMyM2M5ZTgzNjQ5YWQxNWM5MjY1ZWU1MDkyZiJ9fX0=
+    - 'name:&9Enhanced Stone Orb'
+    - 'lore1:&a'
+    - 'lore2:&9Enhanced Stone Orbs &7are used to obtain gear and can be upgraded to &fFrost Orbs'
+    - 'lore3:&a'
+    - 'lore4:&eClick to view &9Enhanced Stone Set'
+    - amount:1
+    InventoryLocation: 25
+  frostorb:
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - frostset
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQ4N2ZmYWIxNWQ2MjhjYjBlZDQ5MzkxOWUxNTRkYTBiOTdiMDYxM2JiNDBmOGIzODc1N2RlNTA3YmJkNjA5NCJ9fX0=
+    - name:&fFrost Orb
+    - 'lore1:&a'
+    - 'lore2:&fFrost Orbs &7are used to obtain gear and can be upgraded to &fEnhanced Frost Orbs'
+    - 'lore3:&a'
+    - 'lore4:&eClick to view &fFrost Set'
+    - amount:1
+    InventoryLocation: 30
+  enhancedfrostorb:
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - enhancedfrostset
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY3OTliZmFhM2EyYzYzYWQ4NWRkMzc4ZTY2ZDU3ZDlhOTdhM2Y4NmQwZDlmNjgzYzQ5ODYzMmY0ZjVjIn19fQ==
+    - 'name:&fEnhanced Frost Orb'
+    - 'lore1:&a'
+    - 'lore2:&fEnhanced Frost Orbs &7are used to obtain gear and can be upgraded to &6Fire Orbs'
+    - 'lore3:&a'
+    - 'lore4:&eClick to view &fEnhanced Frost Set'
+    - amount:1
+    InventoryLocation: 34
+  fireorb:
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - armor
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGM4MjNjOGU1M2QzYWU3NTNjMTkxYzUxZmU2Njc5MTE1MjczMzA2NDFhMDE2YTEzMzI1MDIzYTM5OWYwMTcyYSJ9fX0=
+    - name:&6Fire Orb
+    - 'lore1:&a'
+    - 'lore2:&6Fire Orbs &7are used to obtain gear and can be upgraded to &6Enhanced Fire Orbs'
+    - 'lore3:&a'
+    - 'lore4:&eClick to go back'
+    - amount:1
+    InventoryLocation: 39
+  enhancedfireorb:
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - enhancedfireset
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzM2ODdlMjVjNjMyYmNlOGFhNjFlMGQ2NGMyNGU2OTRjM2VlYTYyOWVhOTQ0ZjRjZjMwZGNmYjRmYmNlMDcxIn19fQ==
+    - 'name:&6Enhanced Fire Orb'
+    - 'lore1:&a'
+    - 'lore2:&6Enhanced Fire Orbs &7are used to obtain gear and can be upgraded to &4Shadow Orbs'
+    - 'lore3:&a'
+    - 'lore4:&eClick to view &6Enhanced Fire Set'
+    - amount:1
+    InventoryLocation: 43
+  shadoworb:
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - shadowset
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2FhNGE3YmIyY2I4OGM3ZDExZWUxYWRmYTQwZDlhY2Q3NWQ4ZmIwNmIxMWE0OTY5Y2UwNzE1Y2Y5OGUwYzVjYSJ9fX0=
+    - name:&4Shadow Orb
+    - 'lore1:&a'
+    - 'lore2:&4Shadow Orbs &7are used to obtain gear and can be upgraded to &4Enhanced Shadow Orbs'
+    - 'lore3:&a'
+    - 'lore4:&eClick to view &4Shadow Set'
+    - amount:1
+    InventoryLocation: 48
+  enhancedshadoworb:
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - enhancedshadowset
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhNzY2MzFjMjNlZTJhNzAwZjMzZGNmYTY1Yzc0ZGQzMGQwZjE1N2YzNTE1ZGIyMjU3Y2FkNjhlMmRjN2MzYSJ9fX0=
+    - 'name:&4Enhanced Shadow Orb'
+    - 'lore1:&a'
+    - 'lore2:&4Enhanced Shadow Orbs &7are used to obtain gear and are the highest tier in the game.'
+    - 'lore3:&a'
+    - 'lore4:&eClick to view &4Enhanced Shadow Set'
+    - amount:1
+    InventoryLocation: 52
+  next:
+    MenuItem:
+    - name:&aNext Set
+    - lore:&7Click to go to the next set
+    - amount:1
+    - type:ARROW
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - enhancedfireset
+    InventoryLocation: 27
+  previous:
+    MenuItem:
+    - name:&aPrevious Set
+    - lore:&7Click to go to the previous set
+    - amount:1
+    - type:ARROW
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - enhancedfrostset
+    InventoryLocation: 19
+  Glass1:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  Glass2:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  Glass3:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  Glass4:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  Glass5:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  Glass6:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  Glass7:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+  Glass8:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 9
+  Glass9:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+  Glass10:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 18
+  Glass13:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+  Glass14:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 36
+  Glass15:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 37
+  Glass16:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 45
+  Glass17:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 46
+  Glass18:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 47
+  Glass19:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 42
+  Glass20:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 49
+  Glass21:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 51
+  Glass22:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 31
+  Glass23:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 53
+  Glass24:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 54
+  Glass25:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 35
+  Glass26:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 44
+  Glass27:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 38
+  Glass28:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+  Glass29:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+  Glass30:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+  Glass31:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 17
+  Glass32:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 22
+  Glass33:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 24
+  Glass34:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 20
+  Glass35:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 26
+  Glass37:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+  Glass39:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 29
+  Glass42:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 40
+  back:
+    MenuItem:
+    - name:&cBack
+    - amount:1
+    - 'lore:&7Back to Main Menu'
+    - type:BARRIER
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - menu
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 50
+  info:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODlhOTk1OTI4MDkwZDg0MmQ0YWZkYjIyOTZmZmUyNGYyZTk0NDI3MjIwNWNlYmE4NDhlZTQwNDZlMDFmMzE2OCJ9fX0=
+    - 'name:&3Orb Armor'
+    - 'lore:&bOrb Armor &7are armor that can be &bcrafted &7using different orb types in order to unlock &bstronger perks&7! You can see all the armor sets below!'
+    - amount:1
+    InventoryLocation: 5

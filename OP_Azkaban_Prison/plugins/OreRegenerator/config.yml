@@ -1,0 +1,77 @@
+# Block to replace if an override isn't specified
+global-replace-block: 'AIR'
+
+# Should all blocks in the block list regen, even if they aren't in a region?
+global-block-regen: false
+
+# Worlds in the blacklist aren't affect by global regen, only region-based regen
+global-regen-blacklist:
+  - 'blacklisted-world'
+
+# Should block break be cancelled in regions if they aren't in the block list?
+# Recommended setting this to false if using global block regen
+cancel-non-blocks: true
+
+# Should block placing be cancelled in regions?
+# Recommended setting this to false if using global block regen
+cancel-block-place: true
+
+# Should trampling farmland in regions be stopped?
+cancel-block-trample: true
+
+# Should falling blocks be disabled in regions?
+disable-gravity-in-regions: false
+
+# Delay between regions.yml autosaves
+autosave-delay: 300
+
+# Add the block name, delay, and replace block that you want to be regenerated
+# Note: You can use 'AIR' to replace the block with nothing
+blocks:
+  dark_oak_log:
+    delay: 7
+  hay_block:
+    delay: 7
+# Here you can define custom block regen and delays based on individual regions
+regions:
+  # The name of the region
+  trees:
+    # The block to be broken
+    dark_oak_log:
+      # The regen delay
+      delay: 7
+      # The block set in place until the regen delay timer finishes
+      replace-block: 'AIR'
+    hay_block:
+      # The regen delay
+      delay: 7
+      # The block set in place until the regen delay timer finishes
+      replace-block: 'WHEAT'
+  pve:
+    # The block to be broken
+    hay_block:
+      # The regen delay
+      delay: 7
+      # The block set in place until the regen delay timer finishes
+      replace-block: 'AIR'
+# Set to true for block drops to automatically be put in the player's inventory
+auto-inventory: true
+
+# Worldguard regions that disallow mining
+# Enter the region name to disable
+worldguard-disabled-regions:
+  - 'example'
+
+# Worldguard regions that you bypass breaking ores in
+# Enter the region name to bypass it
+worldguard-bypass-regions:
+  - 'trees'
+  - 'pve'
+
+# Should regeneration be disabled inside of Lands claimed areas?
+# Requires the plugin "Lands" to be on your server
+disable-in-lands: false
+
+# Should regeneration be disabled inside of Towny claimed areas?
+# Requires the plugin "Towny" to be on your server
+disable-in-towny: false

@@ -1,0 +1,90 @@
+name: '{centered}&5Wizard'
+starts_with:
+- NPC with id 12
+block_movement: false
+slow_effect: false
+save_conversation_progress: false
+start_conversation_radius: 0
+end_conversation_radius: 5
+requires_permission: false
+cooldown: 0
+conversation:
+  conversation1:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7...'
+        time: 2
+        conditional_dialogue:
+          conditional_dialogue1:
+            requires:
+            - '%quests_player_has_completed_quest_custom8% == true'
+            - '%quests_player_has_completed_quest_custom9% == false'
+            start_conversation: conversation2
+          conditional_dialogue2:
+            requires:
+            - '%quests_player_has_completed_quest_custom15% == true'
+            - '%quests_player_has_completed_quest_custom17% == false'
+            start_conversation: conversation3
+    random_dialogue: false
+  conversation2:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Ah I wondered how long it would take you to find me &f%player_name%&7.
+          I’ve been waiting for you… The realm of &fAzkaban&7 is in grave danger…
+          a darkness lurks and I have yet to figure out how to stop it.. With &6King
+          John&7 dead, war will ensue, kingdoms shall fall..But rest assured..'
+        - ' '
+        time: 8
+      dialogue2:
+        text:
+        - '{centered} &7I know you did not kill him. It was the &4Dark Wizard Azrael&7.
+          He has been orchestrating these events since the beginning. Before we can
+          clear your name, we must find a way to stop Azrael from destroying the kingdom
+          of Azkaban. I must remain in hiding so that the Dark Wizard does not sense
+          my magic. But you are the only one who can stop him.'
+        - ' '
+        time: 8
+      dialogue3:
+        text:
+        - '{centered} &7Speak to my &aApprentice&7 in the &fFrost Realm&7. He has
+          a camp by the &bFrost Cave&7. He will give you more information on the whereabouts
+          of Azrael.'
+        - ' '
+        time: 5
+      dialogue4:
+        text:
+        - '{centered}&3Quest Started!'
+        - '{centered}&7The Hunt Begins'
+        - '{centered}'
+        - '{centered}&bObjective:'
+        - '{centered}&7Speak to the Apprentice in the &fFrost Realm&7.'
+        - ' '
+        time: 2
+        actions:
+        - 'console_command: questadmin give %player% the hunt begins'
+        show_name: false
+        save_dialogue_to_player: true
+        actions_after_dialogue: true
+    random_dialogue: false
+  conversation3:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Ah! You’ve learned the three Cryptic Keys needed to open Azrael’s
+          Lair..now.. It will not be easy confronting him. You’ll need to get through
+          his minions, solve the Cryptic Code, and defeat Azrael.. '
+        - ' '
+        time: 5
+      dialogue2:
+        text:
+        - '{centered}&7His lair is located up on a mountain pass..'
+        - '{centered}&7I will teleport you there now.'
+        - ' '
+        time: 3
+        actions:
+        - 'console_command: teleport %player% 120.5 88.5 215.5'
+        save_dialogue_to_player: true
+        actions_after_dialogue: true
+    random_dialogue: false

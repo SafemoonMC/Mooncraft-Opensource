@@ -1,0 +1,69 @@
+name: '{centered}&6Azrael''s Follower'
+starts_with:
+- NPC with id 17
+block_movement: false
+slow_effect: false
+save_conversation_progress: false
+start_conversation_radius: 0
+end_conversation_radius: 12
+requires_permission: false
+cooldown: 0
+conversation:
+  conversation1:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7...'
+        time: 2
+        conditional_dialogue:
+          conditional_dialogue1:
+            requires:
+            - '%quests_player_has_current_quest_custom9% == Yes'
+            - '%quests_player_current_stage_number_custom9% == 2'
+            - '%player_has_empty_slot% == yes'
+            start_conversation: conversation2
+          conditional_dialogue2:
+            requires:
+            - '%quests_player_has_completed_quest_custom9% == true'
+            start_conversation: conversation3
+          conditional_dialogue3:
+            requires:
+            - '%quests_player_has_current_quest_custom9% == Yes'
+            - '%quests_player_current_stage_number_custom9% == 2'
+            - '%player_has_empty_slot% == no'
+            start_conversation: conversation4
+    random_dialogue: false
+  conversation2:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Alright! I’ll talk.. But you’ll need all three &cCryptic Keys&7
+          to even have a chance at entering my Master’s lair..'
+        - '&7'
+        time: 2
+        actions:
+        - 'console_command: questadmin finish %player% The Hunt Begins'
+        - 'console_command: questadmin give %player% the first cryptic key'
+        save_dialogue_to_player: true
+        actions_after_dialogue: true
+    random_dialogue: false
+  conversation3:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7I already told you everything you wanted to know!'
+        - '{centered}&7Now leave me alone!'
+        time: 2
+        save_dialogue_to_player: true
+    random_dialogue: false
+  conversation4:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&c&lWARNING!'
+        - '{centered}&cYou must have free inventory space before talking'
+        - '{centered}&cto Azrael''s Follower!'
+        time: 2
+        show_name: false
+        save_dialogue_to_player: true
+    random_dialogue: false

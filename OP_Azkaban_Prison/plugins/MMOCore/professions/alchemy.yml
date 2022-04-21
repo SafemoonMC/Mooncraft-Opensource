@@ -1,0 +1,63 @@
+
+# Display options
+name: Alchemy
+
+# Experience given to the main level
+# when leveling up this profession
+experience:
+    base: 20
+    per-level: 3
+
+# Must match an existing exp curve filename from the 'expcurves' folder
+exp-curve: levels
+
+exp-sources:
+
+# When brewing a potion, players earn Alchemy experience.
+# Experience earned depends on the effect you give to your
+# potion, if you upgrade/extend its duration, etc.
+alchemy-experience:
+
+    special:
+        
+        # When brewing a potion into a splash potion,
+        # only 40% of the base EXP is earned.
+        splash: 0
+        
+        # When brewing a potion into a splash potion,
+        # only 40% of the base EXP is earned.
+        lingering: 0
+        
+        # When extending a pot duration,
+        # only 40% of base EXP is earned.
+        extend: 0
+        
+        # When upgrading a potion level,
+        # only 40% of base EXP is earned.
+        upgrade: 0
+
+    # Base EXP of potions
+    effects:
+        
+        # Water bottles
+        AWKWARD: 0
+        MUNDANE: 0
+        THICK: 0
+        
+        # Potion effects
+        NIGHT_VISION: 0
+        INVISIBILITY: 0
+        JUMP: 0
+        FIRE_RESISTANCE: 0
+        SPEED: 0
+        SLOWNESS: 0
+        WATER_BREATHING: 0
+        INSTANT_HEAL: 0
+        INSTANT_DAMAGE: 0
+        POISON: 0
+        REGEN: 0
+        STRENGTH: 0
+        WEAKNESS: 0
+        LUCK: 0
+        TURTLE_MASTER: 0
+        SLOW_FALLING: 0

@@ -1,0 +1,103 @@
+Saturn:
+  Location: world;1230.5;165.0;291.5;270.92;1.04
+  Group: Mines
+  DisName: '&dSaturn &3Mine'
+  ReqPerm: true
+  WSlot: 7
+  Item:
+    v: 2730
+    type: PINK_CONCRETE_POWDER
+Mercury:
+  Location: world;2015.85;57.0;3163.42;270.39;0.29
+  Group: Mines
+  DisName: '&fMercury &3Mine'
+  ReqPerm: true
+  WSlot: 5
+  Item:
+    v: 2730
+    type: DIORITE
+Mars:
+  Location: world;1020.12;58.0;1697.87;354.39;2.4
+  Group: Mines
+  DisName: '&4Mars &3Mine'
+  ReqPerm: true
+  WSlot: 2
+  Item:
+    v: 2730
+    type: RED_CONCRETE
+Jupiter:
+  Location: world;1072.43;69.0;3288.61;89.94;1.79
+  Group: Mines
+  DisName: '&cJupiter &3Mine'
+  ReqPerm: true
+  WSlot: 4
+  Item:
+    v: 2730
+    type: RED_SANDSTONE
+enchanter:
+  Location: world;56.38;202.0;-67.23;181.42;-3.75
+  DisName: '&dEnchanter'
+  WSlot: 4
+  Item:
+    v: 2730
+    type: EXPERIENCE_BOTTLE
+pvp:
+  Location: world;11.74;191.0;-83.47;90.37;2.24
+  DisName: '&cThe Yard'
+  WSlot: 6
+Prestige:
+  Location: world;-2553.46;46.0;2067.51;-90.07;1.65
+  DisName: '&6Prestige Island'
+  ReqPerm: true
+  WSlot: 8
+  Item:
+    v: 2730
+    type: EMERALD
+TreeFarm:
+  Location: world;56.55;199.0;-85.31;179.17;1.94
+  DisName: '&3Tree Farm'
+  WSlot: 2
+  Item:
+    v: 2730
+    type: OAK_SAPLING
+Venus:
+  Location: world;1123.79;65.0;2597.91;268.29;0.3
+  Group: Mines
+  DisName: '&eVenus &3Mine'
+  ReqPerm: true
+  WSlot: 3
+  Item:
+    v: 2730
+    type: SAND
+Uranus:
+  Location: world;489.55;137.0;-111.47;343.23;9.29
+  Group: Mines
+  DisName: '&9Uranus &3Mine'
+  ReqPerm: true
+  WSlot: 6
+  Item:
+    v: 2730
+    type: BLUE_CONCRETE
+crates:
+  Location: world;56.52;204.0;-14.48;0.46;1.79
+  Group: crates
+  DisName: '&bCrates'
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+Neptune:
+  Location: world;630.61;125.0;-106.56;290.1;2.24
+  Group: Mines
+  DisName: '&bNeptune &3Mine'
+  ReqPerm: true
+  WSlot: 8
+  Item:
+    v: 2730
+    type: LIGHT_BLUE_CONCRETE_POWDER
+Earth:
+  Location: world;1012.71;44.0;1291.5;264.94;5.75
+  Group: Mines
+  DisName: '&2Earth &3Mine'
+  WSlot: 1
+  Creator: 5485821d-5975-41e6-b620-d7eed1702ea0
+  Item:
+    v: 2730
+    type: GRASS_BLOCK

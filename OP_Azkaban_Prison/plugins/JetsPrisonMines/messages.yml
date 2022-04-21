@@ -1,0 +1,45 @@
+#
+# -- Mine Reset Messages --
+#
+#    CAN BE DISABLED, PER MINE, WITHIN THE IN-GAME GUI IF NEEDED
+#
+# Placeholders:
+#               %MINE% - Returns the name of the mine
+#               %TIME% - Returns the time until the mine resets
+reset:
+  timed:
+    times: "10,5,3,2,1" #The times (in seconds) you wish the messages below to show. If you are using gradual reset, only numbers up to 10 is supported
+    singular: "&a%MINE% &7Will be resetting in &b%TIME% second."
+    plural: "&a%MINE% &7Will be resetting in &b%TIME% seconds."
+    reset: "&a%MINE% &7is now resetting! You have been teleported to &a%MINE% Spawn&7!."
+    onReset: "none"
+  gradual:
+    player_in_mine: "&a%MINE% &7is currently resetting! Please wait!" #Called if a user runs into the mine while its resetting
+#
+#  -- Hologram messages --
+#
+# %STAT% for the corresponding statistic as a percentage
+# %STATUNFORMATTED% to get the raw statistic (I.E the exact amount of blocks left)
+# %MINE% for the mine
+#
+hologram:
+  timer_holo: "&7-- &aMine &b%MINE% &awill reset in &b%STAT% &7--"
+  blocks_left_holo: "&7-- &aThere are &b%STAT%% &ablocks left in mine &b%MINE% &7--"
+  blocks_mined_holo: "&7-- &b%STATUNFORMATTED% &ablocks have been mined &7--"
+
+#Reset messages for user, when a user does the /mine reset <mine> command
+player_not_standing_in_mine: "%PREFIX%&cYou are currently not standing in a mine to reset!"
+player_mine_des_not_exist: "%PREFIX%&cThat mine does not exist!"
+player_cooldown_reset_message: "%PREFIX%&cYou can next reset a mine in %COOLDOWN% seconds!"
+player_reset_mine: "%PREFIX%&aYou have reset mine %MINENAME%!"
+
+#
+# -- Other stuff --
+#
+no_permission: "%PREFIX%&cYou do not have permission for this command"
+#Called if the user tries placing a block in the mine (and they can't)
+place_block_in_mine: "%PREFIX%&cHey! You can't place blocks in the mine here!"
+#If a mine requires a permission to mine in it (you can enable a permissions via the mine GUI) this is the message they will receive
+no_permission_to_mine: "%PREFIX%&cYou do not have permission to break blocks in the mine!"
+#If a block is disabled in the mine, and cannot be mined
+disabled_mine_block: "%PREFIX%&cThis block is disabled, and cannot be mined!"

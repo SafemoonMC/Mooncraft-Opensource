@@ -1,0 +1,27 @@
+obsidianwatcher1:
+  MobName: Obsidian_Watcher
+  World: OPP1
+  X: 166
+  Y: 87
+  Z: 241
+  Yaw: 0.0
+  Pitch: 0.0
+  Radius: 8
+  UseTimer: true
+  MaxMobs: '5'
+  MobLevel: '77'
+  MobsPerSpawn: 1
+  Cooldown: 1
+  CooldownTimer: 0
+  Warmup: 0
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 40
+  ScalingRange: 25.0
+  LeashRange: 15
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0

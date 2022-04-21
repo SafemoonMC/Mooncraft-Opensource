@@ -1,0 +1,246 @@
+MEAT:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjYzMzZmNWJiOTk3NWJmNTdlMTRkYjY2MTVjMTg5NmM1YzRiOWMzOWFhZDE3YjE3ZTRlZTIwYjIzMWNmNiJ9fX0=
+      uuid: 2cc41d8a-2e63-4a85-ba84-a689d3020871
+    name: '&bMeat'
+    lore:
+    - '&7Meat can be eaten alone or used to create'
+    - '&7better sources of hunger satisfaction'
+    - '&a'
+    - '&7Can be obtained by farming animals!'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    restore-food: 2.0
+    tier: COMMON
+    restore-saturation: 2.0
+    item-cooldown: 0.5
+BREAD:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE5OTdkYTY0MDQzYjI4NDgyMjExNTY0M2E2NTRmZGM0ZThhNzIyNjY2NGI0OGE0ZTFkYmI1NTdiNWMwZmUxNCJ9fX0=
+      uuid: f9eeca8e-d880-416a-8d62-fd5528657a93
+    restore-food: 1.0
+    name: '&bBread'
+    lore:
+    - '&7Bread can be eaten alone or used to create'
+    - '&7better sources of hunger satisfaction'
+    - '&a'
+    - '&7Can be obtained by farming hay!'
+    tier: BASIC
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    restore-saturation: 1.0
+    item-cooldown: 0.5
+SANDWICH:
+  base:
+    material: PLAYER_HEAD
+    restore-food: 4.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzdjNGMyYmUzOGEzYzA1MDdmYmI3Y2Y0MTFhZjIzNzczMzY0MWEzMDQ0ZTBmYzA4ZWQ5MmRjMzc2ODMyZjcxMSJ9fX0=
+      uuid: 2dcfa261-8b07-4305-9579-bf49d047fbc1
+    name: '&bSandwich'
+    lore:
+    - '&7Sandwiches are made of Meat and Bread'
+    - '&7and are a better source of food'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: UNCOMMON
+    crafting:
+      shapeless:
+        '1':
+          input:
+          - m consumable meat 1.0..
+          - m consumable bread 1.0..
+    restore-saturation: 4.0
+    item-cooldown: 0.5
+BUG:
+  base:
+    material: WARPED_BUTTON
+    name: '&bSquashed Bug'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    restore-food: 0.5
+    restore-saturation: 0.5
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    tier: BASIC
+    item-cooldown: 0.5
+FLOWER:
+  base:
+    material: POPPY
+    name: '&bDead Flower'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    restore-food: 1.0
+    restore-saturation: 1.0
+    tier: BASIC
+    item-cooldown: 0.5
+SHADEVINE:
+  base:
+    material: FERN
+    name: '&bShadevine Roots'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    restore-food: 1.5
+    restore-saturation: 1.5
+    tier: COMMON
+    item-cooldown: 0.5
+SOULBINDER:
+  base:
+    material: ENDER_EYE
+    name: '&4Soul Binder'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: OP
+    soulbinding-chance: 35.0
+    inedible: true
+    crafting:
+      shaped: {}
+      shapeless:
+        '1':
+          input:
+          - m miscellaneous shadow1 1.0..
+          - m miscellaneous shadow2 1.0..
+          - m miscellaneous shadow5 1.0..
+          - m miscellaneous shadow3 1.0..
+          - m miscellaneous shadow4 1.0..
+SOULBREAKER:
+  base:
+    material: ENDER_PEARL
+    name: '&4Soul Bind Breaker'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    enchants:
+      infinity: 1.0
+    hide-enchants: true
+    tier: OP
+    soulbound-break-chance: 20.0
+    crafting:
+      shaped: {}
+      shapeless:
+        '1':
+          input:
+          - m miscellaneous shadow5 1.0..
+          - m miscellaneous shadow5 1.0..
+          - m miscellaneous shadow5 1.0..
+          - m miscellaneous shadow5 1.0..
+    inedible: true
+SALMON:
+  base:
+    material: SALMON
+    name: '&7Huchen'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: COMMON
+    restore-food: 3.0
+    restore-saturation: 3.0
+    restore-health: 0.5
+    item-cooldown: 0.5
+BIGSALMON:
+  base:
+    material: SALMON
+    name: '&7Chinook'
+    enchants:
+      infinity: 1.0
+    hide-enchants: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: UNCOMMON
+    restore-food: 5.0
+    restore-saturation: 4.0
+    restore-health: 0.5
+    item-cooldown: 0.5
+COD:
+  base:
+    material: COD
+    name: '&7Nothern Pike'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: BASIC
+    restore-food: 3.0
+    restore-saturation: 3.0
+    item-cooldown: 0.5
+BIGCOD:
+  base:
+    material: COD
+    name: '&7Empurau'
+    enchants:
+      infinity: 1.0
+    hide-enchants: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: RARE
+    restore-food: 5.0
+    restore-saturation: 4.0
+    restore-health: 1.0
+    item-cooldown: 0.5
+CRYSTAL:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTVhZTYxODAyYjJhYWQ3NmI4YjIwMWFlNGI0ZWZhODYxNjEyM2VkMjNlYmE3NWE1Y2QzN2Q2Y2ExZGEzZDFlYiJ9fX0=
+      uuid: 39fdb950-5c50-48e4-966d-ebd806d925aa
+    name: '&dCrystal'
+    lore:
+    - '&7This crystal radiates with energy!'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    permission:
+    - crystal.use
+    commands:
+      cmd0:
+        format: teleport %player% -235.5 99 -181
+        delay: 0
+        console: true
+    unstackable: true
+    disable-death-drop: true
+    sounds:
+      on-consume:
+        sound: entity.xp
+        volume: 1.0
+        pitch: 1.0

@@ -1,0 +1,10 @@
+'1':
+  Loc: world;-192.0;46.0;-92.0
+  Interval: 0.1
+  Range: 8
+  Personal: true
+  Lines:
+  - '&3Yard Shop'
+  - '&7Click to Sell'
+  - '&b%cmi_iteminhand_realname%'
+  - '&c%cmi_iteminhand_worth%'

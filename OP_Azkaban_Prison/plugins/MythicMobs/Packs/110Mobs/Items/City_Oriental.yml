@@ -1,0 +1,75 @@
+Jade_RabbitHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDdjZGRmNWIyMGNiNTBkNjYwMGU1MzMzYzZiYjNmYjE1YjQ3NDFmMTdlMzY3NWZjMmJmYzA5YzJjZDA5ZTYxOSJ9fX0=
+
+Fox_SpiritHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzFiZTI5NzUwZGRlYzgwOTk0YmRhNzk2NTNlMjFlZDcwZDViMmViNzkzZGE1MWQ1YTg3Yjg5YmY2N2RjYjk2In19fQ==
+
+Gu_InsectHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWFiNWZkZTJmNzU4MDVhYjBmN2YwYjM2MDVlYzVkMzdhMzljNTY4MWZkZmVlNmVkN2FhNDJiOGJhOTRkNTQifX19
+
+Oriental_AssassinHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IzMTNiMmQyMWVhODJmMzRmZTZmMWE4NTc4MzIzN2I4MmQzNGY0ODM2YmZiMGI2ZDM4YWExNjgzNmQ4ZThmMCJ9fX0=
+
+Oriental_AssassinCHEST:
+  Id: LEATHER_CHESTPLATE
+  Options:
+    Color: 61,48,66
+
+Oriental_AssassinLEGS:
+  Id: LEATHER_LEGGINGS
+  Options:
+    Color: 44,31,48
+
+Oriental_AssassinFEET:
+  Id: LEATHER_BOOTS
+  Options:
+    Color: 59,63,51
+
+Terracotta_GeneralHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmMzNiNzczNmY4MjZmNzVlNGIwNjgyNjE3OGE3MWI0MTE1YmM0ZmE0NjM4OTgwMWRiMmRhNGZlZTc2NjIifX19
+
+Terracotta_GeneralCHEST:
+  Id: LEATHER_CHESTPLATE
+  Options:
+    Color: 191,148,113
+
+Terracotta_GeneralLEGS:
+  Id: LEATHER_LEGGINGS
+  Options:
+    Color: 191,148,113
+
+Terracotta_GeneralFEET:
+  Id: LEATHER_BOOTS
+  Options:
+    Color: 191,148,113
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

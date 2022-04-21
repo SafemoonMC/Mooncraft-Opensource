@@ -1,0 +1,362 @@
+Settings:
+  Name: "Basic"
+  Virtual-Display-Enabed: true #Does it appear in the GUI?
+  Virtual-Display-Amount: -1 #Use -1 to display player keys
+  Preview-Enabled: true
+  Selector-Enabled: true
+  Reroll-Enabled: false
+  Spin-Type: "NoAnimation"
+  Reroll-Permission: "reroll.default"
+
+Location-Interact-Settings:
+  Left-Click-Preview: true
+  Right-Click-Physical-Crate: true
+  Right-Click-Selector: false
+
+Crate-Placer:
+  Material: "ENDER_CHEST"
+  Durability: 0
+  Name: "&6&l[!] &6&lBasic &eCrate Placer &8(&7Place&8)"
+  Lore:
+    - "&7&o** Place this to add a crate location. **"
+
+Hologram-Settings:
+  Enabled: true
+  Height-Difference: 3.5
+  Lines:
+    - '&dBasic Crate'
+    - ''
+    - '&7Possible winnings...'
+    - '%item-display%'
+    - '%item%'
+    - ''
+    - '&7Right-Click to open'
+    - '&7Left-Click to preview'
+
+Physical-Crate:
+  Glow: false
+  Material: "tripwire_hook"
+  Durability: 6
+  Name: "&dBasic Crate Key"
+  Lore:
+    - " "
+    - "&bInformation"
+    - "&b&l❚ &7Crate: &dBasic"
+    - "&b&l❚ &7Usage: &fClicking on the crate"
+    - " "
+    - "&7&o(( Bring me to the &d&oBasic&7&o crate to use me! ))"
+
+Virtual-Crate:
+  Glow: false
+  Material: "coal"
+  Durability: 6
+  Name: "&dBasic Crate"
+  Lore:
+    - " "
+    - "&bInformation"
+    - "&b&l❚ &7Crate: &dBasic"
+    - "&b&l❚ &7Preview: &fRight-Click"
+
+Virtual-Crate-Filler:
+  Glow: false
+  Material: "coal"
+  Durability: 0
+  Name: "&dBasic Crate"
+  Lore:
+    - "&7&oGo to /warp crates to unlock"
+
+Spinning-Settings:
+  Title: "Spinning <crate>"
+  Type: "HORIZONTAL"
+  Speed:
+    Ending-Start: 43 #Crate spins this amount before the ending will start.
+    Ended-Start: 55 #When the crate will end completely.
+  Border:
+    Enabled: false
+    Display-Item:
+      Material: STAINED_GLASS_PANE
+      Durability:
+        - 7
+        - 15
+      Name: " "
+      Lore:
+        - " "
+  Reward-Display:
+    Enabled: true
+    Display-Item:
+      Material: "BEACON"
+      Name: "&6&lYOUR &e&lREWARD"
+      Lore:
+        - " "
+  Sounds:
+    "SPIN-BEGIN": "BLOCK_CHEST_OPEN"
+    "SPIN-SLOT": "BLOCK_NOTE_PLING"
+    "SPIN-ENDING": "ENTITY_PLAYER_LEVELUP"
+    "SPIN-ENDED": "BLOCK_CHEST_CLOSE"
+
+Preview-Inventory:
+  Settings:
+    Title: "Previewing <crate>"
+    Size: 9
+  Scrollable-Slots:
+    - 0-8
+  Items: []
+
+Preview-Icons:
+  Previous-Page-Icon:
+    Enabled: false
+    Slot: 48
+    Previous-Page-Item:
+      Material: ARROW
+      Durability: 0
+      Name: "&4&l[!] &4&l<- PREVIOUS &c&lPAGE"
+      Lore:
+        - '&7&o"View the previous page of rewards."'
+    First-Page-Item:
+      Material: BARRIER
+      Durability: 0
+      Name: "&c&lALREADY ON FIRST PAGE"
+      Lore:
+        - "&7&o** You are already on the first page. **"
+  Next-Page-Icon:
+    Enabled: false
+    Slot: 50
+    Next-Page-Item:
+      Material: ARROW
+      Durability: 0
+      Name: "&2&l[!] &2&lNEXT &a&lPAGE ->"
+      Lore:
+        - '&7&o"View the next page of rewards."'
+    Not-Enough-Pages:
+      Material: BARRIER
+      Durability: 0
+      Name: "&c&lALREADY ON LAST PAGE"
+      Lore:
+        - "&7&o** You are already on the last page. **"
+  Preview-Item-Filler:
+    Material: STAINED_GLASS_PANE
+    Durability: 7
+    Name: " "
+    Lore:
+      - " "
+
+Messages:
+  "INVALID-KEY":
+    Sound:
+      Enabled: true
+      Value: "ENTITY_BAT_TAKEOFF"
+    Message:
+      Enabled: true
+      Value:
+        - "&3Mooncrates &8| &cYou need to be holding a &4Basic &ckey for this crate."
+  "CRATE-STARTED":
+    Sound:
+      Enabled: true
+      Value: "ENTITY_PLAYER_LEVELUP"
+    Message:
+      Enabled: true
+      Value:
+        - "&3Mooncrates &8|  &7You have started opening the &b<crate> &7crate."
+  "NOT-ENOUGH-KEYS":
+    Sound:
+      Enabled: true
+      Value: "ENTITY_BAT_TAKEOFF"
+    Message:
+      Enabled: true
+      Value:
+        - "&3Mooncrates &8|  &cYou dont have enough keys to open the &4<crate> &ccrate."
+  "PREVIEW-OPENED":
+    Sound:
+      Enabled: true
+      Value: "ENTITY_BAT_TAKEOFF"
+    Message:
+      Enabled: true
+      Value:
+        - "&3Mooncrates &8| &7You have opened the preview GUI."
+  "ALREADY-FIRST-PAGE-PREVIEW":
+    Sound:
+      Enabled: true
+      Value: "ENTITY_BAT_TAKEOFF"
+    Message:
+      Enabled: true
+      Value:
+        - "&3Mooncrates &8| &cYou are already on the first page of this preview."
+  "ALREADY-LAST-PAGE-PREVIEW":
+    Sound:
+      Enabled: true
+      Value: "ENTITY_BAT_TAKEOFF"
+    Message:
+      Enabled: true
+      Value:
+        - "&3Mooncrates &8| &cYou are already on the last page of this preview."
+  "ACCESSED-PREVIOUS-PAGE-PREVIEW":
+    Sound:
+      Enabled: true
+      Value: "ENTITY_BAT_TAKEOFF"
+    Message:
+      Enabled: true
+      Value:
+        - "&3Mooncrates &8| &7You are now viewing the previous page of preview."
+  "ACCESSED-NEXT-PAGE-PREVIEW":
+    Sound:
+      Enabled: true
+      Value: "ENTITY_BAT_TAKEOFF"
+    Message:
+      Enabled: true
+      Value:
+        - "&3Mooncrates &8| &7You are now viewing the next page of preview."
+
+Types:
+  Common: &common "&2&l* &7Common Reward Type"
+  Uncommon: &uncommon "&2&l* &7Uncommon Reward Type"
+  Rare: &rare "&2&l* &7Rare Reward Type"
+  Legendary: &legendary "&2&l* &7Legendary Reward Type"
+
+Rewards:
+  "Money 1k":
+    Settings:
+      Enabled: true
+      Chance: 40
+    Display-Item:
+      Amount: 1
+      Material: "EMERALD"
+      Durability: 0
+      Name: "&a+$1,000"
+      Lore:
+        - *uncommon
+    Message-Settings:
+      Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+      Message:
+        Enabled: true
+        Value:
+          - "&2&l+ &6&l$1,000 &d(Basic Crate)"
+    Commands:
+      - "eco give %player% 1000"
+  "Money 2500":
+    Settings:
+      Enabled: true
+      Chance: 30
+    Display-Item:
+      Amount: 1
+      Material: "EMERALD"
+      Durability: 0
+      Name: "&a+$2,500"
+      Lore:
+        - *uncommon
+    Message-Settings:
+      Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+      Message:
+        Enabled: true
+        Value:
+          - "&2&l+ &6&l$2,500 &d(Basic Crate)"
+    Commands:
+      - "eco give %player% 2500"
+  "Money 5k":
+    Settings:
+      Enabled: true
+      Chance: 20
+    Display-Item:
+      Amount: 1
+      Material: "EMERALD"
+      Durability: 0
+      Name: "&2+$5,000"
+      Lore:
+        - *uncommon
+    Message-Settings:
+      Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+      Message:
+        Enabled: true
+        Value:
+          - "&2&l+ &6&l$5,000 &d(Basic Crate)"
+    Commands:
+      - "eco give %player% 5000"
+  "10 Tokens":
+    Settings:
+      Enabled: true
+      Chance: 20
+    Display-Item:
+      Amount: 1
+      Material: "nether_star"
+      Durability: 0
+      Name: "&310 Tokens"
+      Lore:
+        - *rare
+    Message-Settings:
+      Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+      Message:
+        Enabled: true
+        Value:
+          - "&2&l+ &3&l10 Tokens &d(Basic Crate)"
+    Commands:
+      - "tokens give %player% 10"
+  "15 Tokens":
+    Settings:
+      Enabled: true
+      Chance: 15
+    Display-Item:
+      Amount: 1
+      Material: "nether_star"
+      Durability: 0
+      Name: "&315 Tokens"
+      Lore:
+        - *rare
+    Message-Settings:
+      Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+      Message:
+        Enabled: true
+        Value:
+          - "&2&l+ &3&l15 Tokens &d(Basic Crate)"
+    Commands:
+      - "tokens give %player% 15"
+  "20 Tokens":
+    Settings:
+      Enabled: true
+      Chance: 10
+    Display-Item:
+      Amount: 1
+      Material: "nether_star"
+      Durability: 0
+      Name: "&320 Tokens"
+      Lore:
+        - *rare
+    Message-Settings:
+      Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+      Message:
+        Enabled: true
+        Value:
+          - "&2&l+ &3&l20 Tokens &d(Basic Crate)"
+    Commands:
+      - "tokens give %player% 20"
+  "Super Crate Key":
+    Settings:
+      Enabled: true
+      Chance: 1
+    Display-Item:
+      Amount: 1
+      Material: "gold_ingot"
+      Durability: 0
+      Name: "&b1 Super Crate Key"
+      Lore:
+        - *legendary
+    Message-Settings:
+      Sound:
+        Enabled: true
+        Value: "ENTITY_PLAYER_LEVELUP"
+      Message:
+        Enabled: true
+        Value:
+          - "&2&l+ &6&lSuper Crate Key &d(Basic Crate)"
+    Commands:
+      - "crate givephys %player% super 1"

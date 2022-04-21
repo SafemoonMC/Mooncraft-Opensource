@@ -1,0 +1,374 @@
+# Player should have appropriate permission node to use particular kit: cmi.kit.[kitName]
+# cmi.kit.newbie will allow to use newbie kit
+# Possible custom variables: {USERNAME} {DISPLAYNAME} {WORLDNAME} {KITNAME} {RANDOMPLAYER}
+# Edit kits ingame with /cmi kiteditor to avoid formating issues
+# Commands support specialized command format
+
+Starter:
+  CommandName: Starter
+  Delay: 86400
+  ShowWithoutUsages: true
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: COBBLESTONE
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: RED_WOOL
+  Slot: 0
+  Items:
+    '28':
+      v: 2730
+      type: COAL_BLOCK
+    '29':
+      v: 2730
+      type: COOKED_BEEF
+      amount: 16
+    '30':
+      v: 2730
+      type: NETHER_STAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"1
+          Tokens"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Right-Click
+          to Redeem"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/+NiYGBh4CnJz07N003MzS/NK2GAAEYGANZoxr8bAAAA
+Start:
+  CommandName: Start
+  Delay: 10
+  MaxUsages: 1
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: GLOWSTONE
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: RED_WOOL
+  Commands:
+  - perm:ogprison.kit@#! lp user {USERNAME} parent add Earth prison
+  - spawn {USERNAME}
+Paperhands:
+  CommandName: Paperhands
+  Delay: 604800
+  ShowWithoutUsages: true
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: WOODEN_PICKAXE
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: RED_WOOL
+  Slot: 1
+  Items:
+    '28':
+      v: 2730
+      type: LEATHER
+      amount: 64
+    '29':
+      v: 2730
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '30':
+      v: 2730
+      type: COOKED_BEEF
+      amount: 64
+    '31':
+      v: 2730
+      type: COOKED_BEEF
+      amount: 64
+    '32':
+      v: 2730
+      type: IRON_BLOCK
+      amount: 20
+    '33':
+      v: 2730
+      type: IRON_PICKAXE
+    '34':
+      v: 2730
+      type: BOOK
+    '35':
+      v: 2730
+      type: NETHER_STAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"50
+          Tokens"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Right-Click
+          to Redeem"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/+NiYGBh4CnJz07N003MzS/NK2GAACMGAOYNrUsbAAAA
+Holder:
+  CommandName: Holder
+  Delay: 604800
+  ShowWithoutUsages: true
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: STONE_PICKAXE
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: RED_WOOL
+  Slot: 2
+  Items:
+    '28':
+      v: 2730
+      type: GOLD_BLOCK
+      amount: 20
+    '29':
+      v: 2730
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '30':
+      v: 2730
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '31':
+      v: 2730
+      type: COOKED_BEEF
+      amount: 64
+    '32':
+      v: 2730
+      type: IRON_PICKAXE
+    '33':
+      v: 2730
+      type: BOOK
+      amount: 2
+    '34':
+      v: 2730
+      type: NETHER_STAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"100
+          Tokens"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Right-Click
+          to Redeem"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/+NiYGBh4CnJz07N003MzS/NK2GAgBQGADT3TKcbAAAA
+Investor:
+  CommandName: Investor
+  Delay: 604800
+  ShowWithoutUsages: true
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: IRON_PICKAXE
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: RED_WOOL
+  Slot: 3
+  Items:
+    '28':
+      v: 2730
+      type: GOLD_BLOCK
+      amount: 40
+    '29':
+      v: 2730
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '30':
+      v: 2730
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '31':
+      v: 2730
+      type: COOKED_BEEF
+      amount: 64
+    '32':
+      v: 2730
+      type: IRON_PICKAXE
+    '33':
+      v: 2730
+      type: BOOK
+      amount: 3
+    '34':
+      v: 2730
+      type: NETHER_STAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"200
+          Tokens"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Right-Click
+          to Redeem"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/+NiYGBh4CnJz07N003MzS/NK2GAgBMMANEE/qUbAAAA
+Trader:
+  CommandName: Trader
+  Delay: 604800
+  ShowWithoutUsages: true
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: GOLDEN_PICKAXE
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: RED_WOOL
+  Slot: 4
+  Items:
+    '28':
+      v: 2730
+      type: DIAMOND_BLOCK
+      amount: 20
+    '29':
+      v: 2730
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '30':
+      v: 2730
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '31':
+      v: 2730
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '32':
+      v: 2730
+      type: DIAMOND_PICKAXE
+    '33':
+      v: 2730
+      type: BOOK
+      amount: 3
+    '34':
+      v: 2730
+      type: NETHER_STAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"200
+          Tokens"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Right-Click
+          to Redeem"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/+NiYGBh4CnJz07N003MzS/NK2GAgBMMANEE/qUbAAAA
+Diamondhands:
+  CommandName: Diamondhands
+  Delay: 604800
+  ShowWithoutUsages: true
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: DIAMOND_PICKAXE
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: RED_WOOL
+  Slot: 5
+  Items:
+    '28':
+      v: 2730
+      type: DIAMOND_BLOCK
+      amount: 40
+    '29':
+      v: 2730
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '30':
+      v: 2730
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '31':
+      v: 2730
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '32':
+      v: 2730
+      type: NETHER_STAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"300
+          Tokens"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Right-Click
+          to Redeem"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        internal: H4sIAAAAAAAA/+NiYGBh4CnJz07N003MzS/NK2EAA0YdBgAOWC6eGwAAAA==
+    '33':
+      v: 2730
+      type: BOOK
+      amount: 4
+    '34':
+      v: 2730
+      type: DIAMOND_PICKAXE
+Prestige4:
+  Description:
+  - '&7Click to receive your daily automining time!'
+  CommandName: Prestige4
+  DisplayName: '&9AutoMiner'
+  Delay: 86400
+  ShowWithoutUsages: true
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: LIME_WOOL
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: RED_WOOL
+  Commands:
+  - adminautominer give {USERNAME} 60
+  - cmi ctext prestige4 {USERNAME}

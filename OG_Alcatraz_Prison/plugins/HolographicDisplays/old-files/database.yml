@@ -1,0 +1,270 @@
+earth:
+  location: world, 1031.463, 44.000, 1288.534
+  lines:
+  - '&2&lEarth &3&lMine'
+  - '{empty}'
+  - '{empty}'
+  - '{empty}'
+  - '&3Furnace rooms &7are available'
+  - '&7around the mine!'
+mars:
+  location: world, 1031.5, 59.000, 1710.5
+  lines:
+  - '&4&lMars &3&lMine'
+  - '{empty}'
+  - '{empty}'
+  - '{empty}'
+  - '&3Furnace rooms &7are available'
+  - '&7around the mine!'
+venus:
+  location: world, 1150.5, 65.000, 2597.5
+  lines:
+  - '&e&lVenus &3&lMine'
+  - '{empty}'
+  - '{empty}'
+  - '{empty}'
+  - '&3Furnace rooms &7are available'
+  - '&7around the mine!'
+jupiter:
+  location: world, 1047.475, 59.000, 3301.518
+  lines:
+  - '&c&lJupiter &3&lMine'
+  - '{empty}'
+  - '{empty}'
+  - '{empty}'
+  - '&3Furnace rooms &7are available'
+  - '&7around the mine!'
+mercury:
+  location: world, 2049.5, 52.000, 3172.5
+  lines:
+  - '&f&lMercury &3&lMine'
+  - '{empty}'
+  - '{empty}'
+  - '{empty}'
+  - '&3Furnace rooms &7are available'
+  - '&7around the mine!'
+uranus:
+  location: world, 492.5, 135.500, -99.5
+  lines:
+  - '&9&lUranus &3&lMine'
+  - '{empty}'
+  - '{empty}'
+  - '{empty}'
+  - '&3Furnace rooms &7are available'
+  - '&7around the mine!'
+saturn:
+  location: world, 1271.5, 161.000, 307.5
+  lines:
+  - '&d&lSaturn &3&lMine'
+  - '{empty}'
+  - '{empty}'
+  - '{empty}'
+  - '&7There are no &3Furnace rooms'
+  - '&7around the mine!'
+neptune:
+  location: world, 649.5, 124.000, -100.00
+  lines:
+  - '&b&lNeptune &3&lMine'
+  - '{empty}'
+  - '{empty}'
+  - '{empty}'
+  - '&7There are no &3Furnace rooms'
+  - '&7around the mine!'
+yard:
+  location: world, 4.519, 194.7, -83.532
+  lines:
+  - '&c&lTHE YARD'
+  - '{empty}'
+  - '&7Jump down to access the yard!'
+  - '&cPvP &7is enabled!'
+  - '{empty}'
+  - '&7Sell your &8coal&7, &firon&7, &6gold&7, &bdiamond&7, &9lapis&7,'
+  - '&7and &credstone &7blocks for &330% &7profit!'
+tree:
+  location: world, 56.500, 203.000, -85.400
+  lines:
+  - '&3&lTree &7&lFarm'
+  - '{empty}'
+  - '{empty}'
+  - '{empty}'
+  - '&7Use &3wood &7for smelting ores'
+  - '&7and sell them for more &3money!'
+topbalance:
+  location: world, 70.405, 206.400, -71.543
+  lines:
+  - '{animation: bluewhite.txt}&lRichest Players'
+  - '{empty}'
+  - '&e1.{medium}&f%vault_eco_top_player_1%  &7- &a$%vault_eco_top_balance_formatted_1%'
+  - '&e2.{medium}&f%vault_eco_top_player_2%  &7- &a$%vault_eco_top_balance_formatted_2%'
+  - '&e3.{medium}&f%vault_eco_top_player_3%  &7- &a$%vault_eco_top_balance_formatted_3%'
+  - '&e4.{medium}&f%vault_eco_top_player_4%  &7- &a$%vault_eco_top_balance_formatted_4%'
+  - '&e5.{medium}&f%vault_eco_top_player_5%  &7- &a$%vault_eco_top_balance_formatted_5%'
+  - '&e6.{medium}&f%vault_eco_top_player_6%  &7- &a$%vault_eco_top_balance_formatted_6%'
+  - '&e7.{medium}&f%vault_eco_top_player_7%  &7- &a$%vault_eco_top_balance_formatted_7%'
+  - '&e8.{medium}&f%vault_eco_top_player_8%  &7- &a$%vault_eco_top_balance_formatted_8%'
+  - '&e9.{medium}&f%vault_eco_top_player_9%  &7- &a$%vault_eco_top_balance_formatted_9%'
+  - '&e10.{medium}&f%vault_eco_top_player_10%  &7- &a$%vault_eco_top_balance_formatted_10%'
+  - '{empty}'
+  - '{animation: bluewhite.txt}(( You are currently #%vault_eco_top_rank%
+    of #%server_unique_joins%))'
+Prestiges:
+  location: world, -2545.418, 48.500, 2067.476
+  lines:
+  - '&6&lPRESTIGE ISLAND'
+  - '{empty}'
+  - '&7Welcome to &6Prestige Island&7!'
+  - '&7The most exclusive club in &3Prison'
+  - '{empty}'
+  - '&7You have unlocked &6Island 1&7!'
+  - '&7Prestige more to unlock the rest of'
+  - '&7the islands for more rewards!'
+P1:
+  location: world, -2579.500, 48.500, 2067.500
+  lines:
+  - '&aP1 &6Reward'
+  - '{empty}'
+  - '&7You have unlocked a &bStorage Unit&7!'
+  - '&7You may store up to &b27 items &7that'
+  - '&7will not &bclear &7as you prestige!'
+p2island:
+  location: world, -2654.510, 46.000, 2070.512
+  lines:
+  - '&6&lPRESTIGE ISLAND'
+  - '&bLevel 2'
+P2:
+  location: world, -2715.500, 50.00, 2067.500
+  lines:
+  - '&bP2 &6Reward'
+  - '{empty}'
+  - '&7You have unlocked the &bToken shop&7!'
+  - '&7You can now purchase &btokens &7to'
+  - '&7upgrade your &bpickaxe &7faster!'
+p3island:
+  location: world, -2767.536, 48.000, 2070.546
+  lines:
+  - '&6&lPRESTIGE ISLAND'
+  - '&bLevel 3'
+P3:
+  location: world, -2799.543, 49.000, 2067.514
+  lines:
+  - '&dP3 &6Reward'
+  - '{empty}'
+  - '&7You have unlocked &bPrestige Cells&7!'
+  - '&7You can now &bpurchase this cell &7using /cell'
+  - '{empty}'
+  - '&7This cell &cDOES NOT'
+  - '&7reset when you &bprestige!'
+P4:
+  location: world, -2846.500, 48.000, 2010.500
+  lines:
+  - '&eP4 &6Reward'
+  - '{empty}'
+  - '&7You have unlocked &bAuto Miner'
+  - '&7Redeem &b1 Hour &7of auto mining'
+  - '&7Every day! &b/autominer'
+  - '{empty}'
+  - '&7Stand on the &bdiamond blocks'
+  - '&7to use &bAuto Miner &7and &bAFK'
+  - '{empty}'
+  - '{medium}&7Remaining Time: &b%ultraprison_autominer_time%'
+fromhere:
+  location: world, -2859.532, 49.000, 2053.584
+  lines:
+  - '&cP5 &bEntrance'
+  - '&7This way!'
+p5island:
+  location: world, -2912.505, 45.500, 2070.458
+  lines:
+  - '&6&lPRESTIGE ISLAND'
+  - '&bLevel 5'
+P5:
+  location: world, -2975.500, 49.00, 2067.500
+  lines:
+  - '&cP5 &6Reward'
+  - '{empty}'
+  - '&7You have unlocked the &bPrestige Mine&7!'
+  - '&7You can now get &bbetter loot here!'
+theyard:
+  location: world, 42.498, 204.200, -71.559
+  lines:
+  - '&c&lTHE YARD'
+  - '{empty}'
+  - '&fThis way!'
+theyard2:
+  location: world, 34, 201, -83.5
+  lines:
+  - '&c&lTHE YARD'
+  - '{empty}'
+  - '&fThis way!'
+crates:
+  location: world, 56.435, 205.533, -20.676
+  lines:
+  - '&b&lCRATES'
+  - '{empty}'
+  - '&fUnlock crates, and more at'
+  - '&bmcstore.safemoon.net'
+welcome:
+  location: world, 56.507, 206.638, -71.515
+  lines:
+  - ICON:IRON_PICKAXE
+  - '{animation: servername.txt} &b(Prison)'
+  - '{empty}'
+  - '&cMines ✦ &f/mines'
+  - '&aInfo ✦ &f/info'
+  - '&6Equipment ✦ &f/shop'
+  - '&dMenu ✦ &f/menu'
+  - '&eCells ✦ &f/cell'
+  - '{empty}'
+  - '&c&lNote: &7Prison is in &cbeta mode &7so report any'
+  - '&7bug you find and data will be &creset &7on release!'
+p4island:
+  location: world, -2848.486, 48.000, 2036.462
+  lines:
+  - '&6&lPRESTIGE ISLAND'
+  - '&bLevel 4'
+yardmine:
+  location: world, -59.538, 29.500, -145.495
+  lines:
+  - '&c&lYard Mine'
+  - '{empty}'
+  - '{empty}'
+  - '&cPvP &7is enabled! Be Careful!'
+  - '&9Enchanted Pickaxes &7do not work here!'
+cells:
+  location: world, 42.494, 205.7, -43.511
+  lines:
+  - '&3&lCells'
+  - '{empty}'
+  - '&bMine Cells &7reset at every rankup!'
+  - '&dDonator Cells &7reset at every prestige!'
+  - '&6Prestige Cells &7never reset!'
+  - '{empty}'
+  - '&c&lBE CAREFUL!'
+mercurypve:
+  location: world, 2034.409, 62.000, 3153.323
+  lines:
+  - '&cZombie Arena'
+  - '&7Enter at your own risk!'
+pve:
+  location: world, 60.556, 201.498, -28.551
+  lines:
+  - '&d&lFood Farm'
+  - '{empty}'
+  - '&7Kill &5cows &7to get food'
+  - '&7and leather!'
+  - '&5&l˅ ˅ ˅'
+pve2:
+  location: world, 52.556, 201.498, -28.551
+  lines:
+  - '&d&lFood Farm'
+  - '{empty}'
+  - '&7Kill &5cows &7to get food'
+  - '&7and leather!'
+  - '&5&l˅ ˅ ˅'
+mines:
+  location: world, 39.5, 204.5, -57.470
+  lines:
+  - '&9&lPrison Mines'
+  - '{empty}'
+  - '&7Enter to teleport to one'
+  - '&7of your unlocked &3Mines'

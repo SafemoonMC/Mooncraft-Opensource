@@ -1,0 +1,27 @@
+bloodmage2:
+  MobName: Blood_Mage
+  World: OPP1
+  X: 185
+  Y: 21
+  Z: 172
+  Yaw: 0.0
+  Pitch: 0.0
+  Radius: 12
+  UseTimer: true
+  MaxMobs: '6'
+  MobLevel: '40'
+  MobsPerSpawn: 1
+  Cooldown: 1
+  CooldownTimer: 0
+  Warmup: 0
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 40
+  ScalingRange: 25.0
+  LeashRange: 15
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0

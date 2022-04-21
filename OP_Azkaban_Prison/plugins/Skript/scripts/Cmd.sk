@@ -1,0 +1,131 @@
+command /autosell:
+	trigger:
+		message "&cYou cannot disable autosell!"
+        
+on join:
+	set player's fly mode to false
+
+on damage:
+	victim is not a player
+	if damage cause is suffocation:
+		kill victim
+
+on exit of "layer":
+	send "&c&lYou left Azrael's place and he left!" to player
+	make the server execute command "/mm mobs kill Azrael"
+
+on death of a player:
+	if victim is in "layer":
+		send "&c&lYou died and Azrael has escaped!" to victim
+		make the server execute command "/mm mobs kill Azrael"
+
+on quit:
+	if player is in "layer":
+		make the server execute command "/mm mobs kill Azrael"
+
+on load:
+	wait 2 seconds
+	make the server execute command "/dm reload"
+        
+command /spawn:
+	trigger:
+		make the player execute command "/travel"
+
+on death of a player:
+	attacker is a player
+	make the server execute command "/gang value add %attacker% 1"
+
+command /monsterbook:
+	cooldown: 2 seconds
+	cooldown message: &cPlease wait a little bit before doing this!
+	trigger:
+		make the server execute command "/codex open %player% main"
+
+command /givecryptickey <player>:
+	permission: admin.admin
+	trigger:
+		add 1 lever of unbreaking named "&c&lCryptic Key" with lore "%nl%&7Used to open &4Azrael's Lair%nl%&7when having all the &c3 &7keys." to arg 1's inventory
+
+on drop:
+	if event-item's name is "&c&lCryptic Key":
+		cancel event
+		send "&c&lWARNING! &cDo not dispose of your Cryptic Keys because you won't be able to progress through the Story!" to player
+		stop
+	if event-item's name is "&dCrystal":
+		cancel event
+
+on enter of "layer":
+	if player has permission "azrael.entry":
+		stop
+	else:
+		cancel event
+		send "&cYou must talk to the &eKeeper of the Lair &cfirst!" to player
+		stop
+
+on enter of "mobspawn":
+	make the server execute command "/mm mobs kill Void_Cultist"
+	wait 15 ticks
+	make the server execute command "/mm mobs spawn -s Void_Cultist:80 3 OPP1,242,92,185"
+	make the server execute command "/mm mobs spawn -s Void_Cultist:80 3 OPP1,258,92,193"
+	make the server execute command "/mm mobs spawn -s Void_Cultist:80 3 OPP1,280,94,198"
+	make the server execute command "/mm mobs spawn -s Void_Cultist:80 3 OPP1,276,89,166"
+    
+on rightclick holding a diamond pickaxe:
+	if event-block is not air:
+		make the player execute command "/enchantmenu"
+
+on mine of HAY BALE:
+	if event-block is in "trees" or "pve":
+		clear drops
+		chance of 40%:
+			make the server execute command "/mi give CONSUMABLE BREAD %player's name%"
+            
+on mine of DARK OAK LOG:
+	if event-block is in "trees":
+		clear drops
+		chance of 30%:
+			make the server execute command "/mi give MATERIAL WOOD %player's name% 1"
+			send title "&7" with subtitle "&b+ 1 Hilt Dust" to player for 2 seconds
+
+ 
+command /spawnazrael:
+	executable by: console
+	trigger:
+		make the server execute command "/mm mobs kill Azrael"
+		wait 20 ticks
+		make the server execute command "/mm mobs spawn -s Azrael 1 OPP1,384,95,8"
+		wait 10 minutes
+		make the server execute command "/mm mobs kill Azrael"
+
+on mine of COAL ORE:
+	chance of 0.3%:
+		make the server execute command "mi give material orb %player% 1"
+		send title "&7" with subtitle "&a+ 1 Orb" to player for 2 seconds
+
+on mine of IRON ORE:
+	chance of 0.2%:
+		make the server execute command "mi give material enhancedorb %player% 1"
+		send title "&7" with subtitle "&a+ 1 Enhanced Orb" to player for 2 seconds
+
+on mine of GOLD ORE:
+	chance of 0.1%:
+		make the server execute command "mi give material stoneorb %player% 1"
+		send title "&7" with subtitle "&7+ 1 Stone Orb" to player for 2 seconds
+
+on mine of DIAMOND ORE:
+	chance of 0.2%:
+		make the server execute command "mi give material enhancedstoneorb %player% 1"
+		send title "&7" with subtitle "&7+ 1 Enhanced Stone Orb" to player for 2 seconds
+
+on mine of EMERALD ORE:
+	chance of 0.05%:
+		make the server execute command "mi give material frostorb %player% 1"
+		send title "&7" with subtitle "&f+ 1 Frost Orb" to player for 2 seconds
+
+on mine of LAPIS ORE, REDSTONE ORE, COAL BLOCK, IRON BLOCK, GOLD BLOCK, DIAMOND BLOCK or EMERALD BLOCK:
+	chance of 0.03%:
+		make the server execute command "mi give material enhancedfrostorb %player% 1"
+		send title "&7" with subtitle "&f+ 1 Enhanced Frost Orb" to player for 2 seconds
+
+on rightclick holding end crystal or prismarine crystals:
+	make the player execute command "/help"

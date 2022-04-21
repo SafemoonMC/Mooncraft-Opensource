@@ -1,0 +1,44 @@
+priceModifiers:
+  #Global price modifier with ID example1, 200% of buy & sell price, permission: shopguiplus.pricemodifiers.example1
+  prestige:
+    #Valid scopes: GLOBAL, SHOP, ITEM
+    scope: GLOBAL
+    #Valid types: BOTH, BUY, SELL
+    type: SELL
+    #Modifier value, 1.0 = 100%, 2.0 = 200% etc.
+    value: 1.3
+  diamondhands:
+    #Valid scopes: GLOBAL, SHOP, ITEM
+    scope: GLOBAL
+    #Valid types: BOTH, BUY, SELL
+    type: SELL
+    #Modifier value, 1.0 = 100%, 2.0 = 200% etc.
+    value: 1.25
+  trader:
+    #Valid scopes: GLOBAL, SHOP, ITEM
+    scope: GLOBAL
+    #Valid types: BOTH, BUY, SELL
+    type: SELL
+    #Modifier value, 1.0 = 100%, 2.0 = 200% etc.
+    value: 1.2
+  investor:
+    #Valid scopes: GLOBAL, SHOP, ITEM
+    scope: GLOBAL
+    #Valid types: BOTH, BUY, SELL
+    type: SELL
+    #Modifier value, 1.0 = 100%, 2.0 = 200% etc.
+    value: 1.15
+  holder:
+    #Valid scopes: GLOBAL, SHOP, ITEM
+    scope: GLOBAL
+    #Valid types: BOTH, BUY, SELL
+    type: SELL
+    #Modifier value, 1.0 = 100%, 2.0 = 200% etc.
+    value: 1.1
+  paperhands:
+    #Valid scopes: GLOBAL, SHOP, ITEM
+    scope: GLOBAL
+    #Valid types: BOTH, BUY, SELL
+    type: SELL
+    #Modifier value, 1.0 = 100%, 2.0 = 200% etc.
+    value: 1.05

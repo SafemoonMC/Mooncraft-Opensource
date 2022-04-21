@@ -1,0 +1,607 @@
+# 
+#    material: STAINED_GLASS_PANE:14
+first-join-pickaxe:
+  enabled: true
+  name: '&e&l%player%''s Pickaxe'
+  material: DIAMOND_PICKAXE
+  enchants:
+  - efficiency 10
+  - fortune 10
+open-menu-on-right-click-block: false
+allow-enchants-outside-mine-regions: false
+refund-percentage: 35.0
+enchant_menu:
+  pickaxe_enabled: true
+  title: '&0Pickaxe Upgrades'
+  empty_slots: LIME_STAINED_GLASS_PANE
+  lines: 6
+  pickaxe_slot: 11
+  item:
+    lore:
+    - '&7%description%'
+    - ' '
+    - '&ePrice: &f%cost% Enchantment Tokens'
+    - '&eLevel: &f%current_level% / %max_level%'
+    - ' '
+    - '&8&o(( &7&oLeft-Click&7&o to upgrade a level &8&o))'
+    - '&8&o(( &7&oRight-Click&7&o to upgrade 10 levels &8&o))'
+    - ' '
+    - '&cPickaxe Requirement: Level %pickaxe_level%'
+    max_level_lore:
+    - '&7%description%'
+    - ' '
+    - '&eLevel: &7%current_level% / %max_level%'
+    - ' '
+    - '&aMAX LEVEL!'
+  help_item:
+    enabled: true
+    material: STAINED_GLASS_PANE:7
+    slot: 31
+    name: '&fGray Stained Glass Pane'
+    lore:
+    - ' '
+  disenchant_item:
+    enabled: true
+    material: RED_TERRACOTTA
+    slot: 15
+    name: '&c&lPickaxe Downgrades'
+    lore:
+    - '&7Remove current enchantments'
+    - '&7from the pickaxe for a partial'
+    - '&7refund of the Tokens!'
+    - ''
+    - '&eClick to open!'
+disenchant_menu:
+  pickaxe_enabled: true
+  title: '&0Pickaxe Downgrades'
+  empty_slots: RED_STAINED_GLASS_PANE
+  lines: 6
+  pickaxe_slot: 13
+  item:
+    lore:
+    - '%description%'
+    - ''
+    - '&eCurrent Level: &f%current_level%'
+    - '&eRefund Amount: &f%refund% Tokens'
+    - ' '
+    - '&8&o(( &7&oLeft-Click&7&o to refund 1 level &8&o))'
+    - '&8&o(( &7&oRight-Click&7&o to refund 10 levels &8&o))'
+    min_level_lore:
+    - '&bCurrent Level &8| &7%current_level%'
+    - ' '
+    - '&8&o((&7&4 NO LOWER LEVEL&8&o))'
+  help_item:
+    enabled: true
+    material: STAINED_GLASS_PANE:7
+    slot: 31
+    name: '&fGray Stained Glass Pane'
+    lore:
+    - ' '
+messages:
+  no_pickaxe_found: '&3Prison &8| &cYou must be holding a Pickaxe in your hand!'
+  enchant_max_level: '&3Prison &8| &cYou already have maxed out this enchantment!'
+  enchant_max_level_exceed: '&3Prison &8| &cEnchantment too high!'
+  enchant_min_level_exceed: '&3Prison &8| &cEnchantment too low!'
+  not_enough_tokens: '&3Prison &8| &cYou don''t have enough Enchantment Tokens!'
+  enchant_bought: '&3Prison &8| &aYou upgraded your pickaxe! &c(-%tokens% Etokens)'
+  enchant_bought_multiple: '&3Prison &8| &aYou upgraded your pickaxe! &c(-%tokens%
+    Etokens)'
+  enchant_refunded: '&3Prison &8| &eYou have refunded the %enchant%&e Enchantment.'
+  enchant_tokens_back: '&3Prison &8| &eYou have received %tokens% Enchantment Tokens
+    back.'
+  enchant_cant_disenchant: '&3Prison &8| &cThis enchantment cannot be refunded.'
+  enchant_no_level: '&3Prison &8| &cYour pickaxe does not have this enchantment!'
+  charity_other: '&a+ $%amount% &7(From %player%''s Charity Enchantment)'
+  charity_your: '&a+ $%amount% &7(From Your Charity Enchantment)'
+  blessing_other: '&b+ %amount% ETokens &7(From %player%''s Blessing Enchantment)'
+  blessing_your: '&b+ %amount% ETokens &7(From Your Blessing Enchantment)'
+  layer_disabled: '&cLayer is now disabled!'
+  layer_enabled: '&aLayer is now enabled!'
+  lucky_booster_on: '&3Prison &8| &aLucky Mode! Double Money and Tokens for five minutes!'
+  lucky_booster_off: '&3Prison &8| &cLucky Mode disabled.'
+  block_booster_on: '&3Prison &8| &aBlock Booster! Double mined blocks for five minutes.'
+  block_booster_off: '&3Prison &8| &cBlock Booster disabled.'
+  lucky_mode_timeleft: '&3Prison &8| &aLucky Mode: &c%timeleft%'
+  lucky_mode_disabled: '&3Prison &8| &cYou don''t have the Lucky Mode enabled!'
+  explosive_disabled: '&cExplosive is now disabled!'
+  explosive_enabled: '&aExplosive is now enabled!'
+  value_no_permission: '&cYou don''t have permission.'
+  value_no_pickaxe: '&3Prison &8| &cYou must be holding a Pickaxe in your hand!'
+  value_value: '&cUnknown command.'
+  value_cooldown: '&cSlow down a little bit!'
+  pickaxe_given: '&fYou have given pickaxe to %player%'
+  pickaxe_received: '&3Prison &8| &aYou have received the Starter Pickaxe!'
+  pickaxe_inventory_full: '&f%player% has full inventory!'
+  prestige_finder: '&3Prison &8| &dYou''ve just found a &f%prestige% Prestige Level
+    &dwhile mining.'
+  transaction_in_progress: '&cSlow down a little bit!'
+enchants:
+  '21':
+    RawName: nuke
+    Name: '&c&lNuke'
+    Material: FIRE_CHARGE
+    Enabled: true
+    InGuiSlot: 48
+    Increase-Cost-by: 500
+    Max: 25
+    Chance: 0.001
+    Cost: 1000
+    Description:
+    - '&7Adds a +0.001% chance to nuke'
+    - '&7the entire mine per level.'
+    Pickaxe-Level-Required: 6
+    Count-Blocks-Broken: true
+    Refund:
+      Enabled: true
+      InGuiSlot: 48
+  '1':
+    RawName: efficiency
+    Name: '&f&lEfficiency'
+    Material: DIAMOND_PICKAXE
+    Enabled: true
+    InGuiSlot: 28
+    Increase-Cost-by: 5
+    Max: 250
+    Cost: 25
+    Description:
+    - '&7Ability to mine blocks faster'
+    Pickaxe-Level-Required: 1
+    Refund:
+      Enabled: false
+      InGuiSlot: 28
+  '2':
+    RawName: unbreaking
+    Name: '&e&kX&r &6✪ &e&l&nUltimate Flex&r &6✪&l &e&kX&e&l'
+    Material: GOLD_HELMET
+    Enabled: true
+    InGuiSlot: 50
+    Increase-Cost-by: 1
+    Max: 1
+    Cost: 100000
+    Description:
+    - '&7This enchantment is applied automatically'
+    - '&7to the pickaxe if reaching a certain'
+    - '&7amount of broken blocks by the player'
+    - '&7or by the pickaxe, or you always can buy'
+    - '&7this enchant ;)'
+    - ''
+    - '&7Also given to pickaxes to players who'
+    - '&7joined the first week.'
+    - ''
+    - '&c* This enchant cannot be refunded'
+    - '&conce purchased!'
+    Pickaxe-Level-Required: 8
+    Refund:
+      Enabled: false
+      InGuiSlot: 50
+  '3':
+    RawName: fortune
+    Name: '&2&lFortune'
+    Material: DIAMOND
+    Enabled: true
+    InGuiSlot: 49
+    Increase-Cost-by: 25000
+    Max: 15
+    Chance: 0.01
+    Cost: 25000
+    Description:
+    - '&7With every level, you earn'
+    - '&a+100%&7 from sold blocks.'
+    - ''
+    - '&c* This enchant cannot be refunded'
+    - '&conce purchased!'
+    Pickaxe-Level-Required: 8
+    Refund:
+      Enabled: false
+      InGuiSlot: 49
+  '4':
+    RawName: haste
+    Name: '&e&lHaste'
+    Material: LEATHER_BOOTS
+    Enabled: true
+    InGuiSlot: 31
+    Increase-Cost-by: 25
+    Max: 50
+    Chance: 50
+    Cost: 300
+    Description:
+    - '&7Ability to swing your pickaxe'
+    - '&7faster while mining.'
+    Pickaxe-Level-Required: 2
+    Refund:
+      Enabled: true
+      InGuiSlot: 31
+  '5':
+    RawName: speed
+    Name: '&a&lSpeed'
+    Material: SUGAR
+    Enabled: true
+    InGuiSlot: 30
+    Increase-Cost-by: 200
+    Max: 3
+    Cost: 200
+    Description:
+    - '&7Ability to move faster while'
+    - '&7holding your pickaxe.'
+    Pickaxe-Level-Required: 2
+    Refund:
+      Enabled: true
+      InGuiSlot: 30
+  '6':
+    RawName: jumpboost
+    Name: '&a&lJump Boost'
+    Material: RABBIT_FOOT
+    Enabled: true
+    InGuiSlot: 47
+    Increase-Cost-by: 100
+    Max: 3
+    Cost: 100
+    Description:
+    - '&7Ability to jump higher while holding'
+    - '&7your pickaxe.'
+    Pickaxe-Level-Required: 2
+    Refund:
+      Enabled: false
+      InGuiSlot: 47
+  '7':
+    RawName: nightvision
+    Name: '&5&lNight Vision'
+    Material: BAT_SPAWN_EGG
+    Enabled: true
+    InGuiSlot: 29
+    Increase-Cost-by: 150
+    Max: 2
+    Cost: 150
+    Description:
+    - '&7Ability to see in the dark'
+    - '&7while mining.'
+    Pickaxe-Level-Required: 1
+    Refund:
+      Enabled: true
+      InGuiSlot: 29
+  '8':
+    RawName: luckybooster
+    Name: '&9&lLucky Booster'
+    Material: EMERALD
+    Enabled: true
+    InGuiSlot: 34
+    Increase-Cost-by: 1000
+    Max: 3
+    Chance: 0.01
+    Cost: 1000
+    Description:
+    - '&7Ability to receive double Enchantment'
+    - '&7Tokens for a short time.'
+    Pickaxe-Level-Required: 4
+    Refund:
+      Enabled: true
+      InGuiSlot: 34
+  '9':
+    Count-Blocks-Broken: true
+    RawName: explosive
+    Name: '&c&lExplosive'
+    Material: TNT
+    Enabled: true
+    InGuiSlot: 46
+    Increase-Cost-by: 50
+    Cooldown: 0
+    Max: 50
+    Chance:
+      '1': 1
+      '2': 1
+      '3': 2
+      '4': 2
+      '5': 3
+      '6': 3
+      '7': 4
+      '8': 4
+      '9': 5
+      '10': 5
+      '11': 6
+      '12': 6
+      '13': 7
+      '14': 7
+      '15': 8
+      '16': 8
+      '17': 9
+      '18': 9
+      '19': 10
+      '20': 10
+      '21': 11
+      '22': 11
+      '23': 12
+      '24': 12
+      '25': 13
+      '26': 13
+      '27': 14
+      '28': 14
+      '29': 15
+      '30': 15
+      '31': 16
+      '32': 16
+      '33': 17
+      '34': 17
+      '35': 18
+      '36': 18
+      '37': 19
+      '38': 19
+      '39': 20
+      '40': 20
+      '41': 21
+      '42': 21
+      '43': 22
+      '44': 22
+      '45': 23
+      '46': 23
+      '47': 24
+      '48': 24
+      '49': 25
+      '50': 25
+    Cost: 500
+    Description:
+    - '&7Ability to explode nearby blocks'
+    - '&7when mining.'
+    Pickaxe-Level-Required: 4
+    Refund:
+      Enabled: true
+      InGuiSlot: 46
+  '10':
+    Count-Blocks-Broken: true
+    RawName: layer
+    Name: '&6&lLayer'
+    Material: IRON_ORE
+    Enabled: true
+    Chance: 0.005
+    InGuiSlot: 38
+    Increase-Cost-by: 50
+    Max: 100
+    Cost: 550
+    Description:
+    - '&7Ability to break full layer of your'
+    - '&7mine while mining.'
+    Pickaxe-Level-Required: 5
+    Refund:
+      Enabled: true
+      InGuiSlot: 38
+  '11':
+    RawName: charity
+    Name: '&d&lCharity'
+    Material: ENDER_EYE
+    Enabled: true
+    InGuiSlot: 32
+    Increase-Cost-by: 25
+    Max: 250
+    Chance: 6.66E-5
+    Max-Money: 50000
+    Min-Money: 10000
+    Cost: 260
+    Messages-Enabled: true
+    Description:
+    - '&7Chance to give to everyone online'
+    - '&7money while mining.'
+    Pickaxe-Level-Required: 3
+    Refund:
+      Enabled: true
+      InGuiSlot: 32
+  '12':
+    RawName: salary
+    Name: '&e&lSalary'
+    Material: SUNFLOWER
+    Enabled: true
+    InGuiSlot: 39
+    Increase-Cost-by: 35
+    Max: 150
+    Chance: 6.66E-5
+    Max-Money: 1000000
+    Min-Money: 100000
+    Cost: 600
+    Description:
+    - '&7Ability to receive more money'
+    - '&7while mining.'
+    Pickaxe-Level-Required: 5
+    Refund:
+      Enabled: true
+      InGuiSlot: 39
+  '13':
+    RawName: blessing
+    Name: '&d&lBlessing'
+    Material: ENDER_EYE
+    Enabled: true
+    InGuiSlot: 33
+    Increase-Cost-by: 25
+    Max: 250
+    Chance: 6.66E-5
+    Max-Tokens: 12
+    Min-Tokens: 3
+    Cost: 265
+    Messages-Enabled: true
+    Description:
+    - '&7Chance to give to everyone online'
+    - '&7tokens while mining.'
+    Pickaxe-Level-Required: 3
+    Refund:
+      Enabled: true
+      InGuiSlot: 33
+  '14':
+    RawName: tokenator
+    Name: '&3&lTokenator'
+    Material: PRISMARINE_CRYSTALS
+    Enabled: true
+    InGuiSlot: 40
+    Increase-Cost-by: 25
+    Max: 150
+    Chance: 6.66E-5
+    Max-Tokens: 3
+    Min-Tokens: 1
+    Cost: 750
+    Description:
+    - '&7Ability to gain more tokens while mining.'
+    Pickaxe-Level-Required: 6
+    Refund:
+      Enabled: true
+      InGuiSlot: 40
+  '15':
+    RawName: keyfinder
+    Name: '&4&lCrate Finder'
+    Material: TRIPWIRE_HOOK
+    Enabled: true
+    InGuiSlot: 41
+    Increase-Cost-by: 10
+    Max: 100
+    Chance: 5.0E-4
+    Cost: 850
+    Description:
+    - '&7Ability to find crate keys while mining.'
+    Pickaxe-Level-Required: 6
+    Commands:
+    - crate give p epic 1 %player%
+    Refund:
+      Enabled: true
+      InGuiSlot: 41
+  '16':
+    Command: prestigeadmin add %player% %amount%
+    RawName: prestigefinder
+    Name: '&5&lPrestige Finder'
+    Material: BEACON
+    Enabled: true
+    Min-Levels: 1
+    Max-Levels: 2
+    InGuiSlot: 43
+    Increase-Cost-by: 250
+    Max: 200
+    Cost: 1000
+    Description:
+    - '&7Ability to find prestige levels while mining.'
+    Pickaxe-Level-Required: 7
+    Refund:
+      Enabled: true
+      InGuiSlot: 43
+    Chance: 1.0E-4
+  '17':
+    RawName: blockbooster
+    Name: '&a&lBlock Booster'
+    Material: EXPERIENCE_BOTTLE
+    Enabled: true
+    InGuiSlot: 37
+    Increase-Cost-by: 25
+    Max: 250
+    Chance: 5.0E-6
+    Cost: 270
+    Description:
+    - '&7Ability to give everyone global boosters'
+    - '&7while mining.'
+    Commands:
+    - tempGlobalMultiplier 0.1 5 minutes
+    - tempGlobalMultiplier 0.09 5 minutes
+    - tempGlobalMultiplier 0.08 5 minutes
+    - tempGlobalMultiplier 0.07 5 minutes
+    - tempGlobalMultiplier 0.06 5 minutes
+    - tempGlobalMultiplier 0.05 5 minutes
+    - tempGlobalMultiplier 0.04 5 minutes
+    - tempGlobalMultiplier 0.03 5 minutes
+    - tempGlobalMultiplier 0.02 5 minutes
+    - tempGlobalMultiplier 0.01 5 minutes
+    Pickaxe-Level-Required: 4
+    Refund:
+      Enabled: true
+      InGuiSlot: 37
+  '18':
+    RawName: keyalls
+    Name: '&cKeyalls'
+    Material: BOOK
+    Enabled: false
+    InGuiSlot: 34
+    Increase-Cost-by: 350
+    Max: 250
+    Chance: 9.0E-5
+    Cost: 350
+    Description:
+    - '&7&o(( Ability to give everyone crate keys while mining ))'
+    Pickaxe-Level-Required: 1
+    Commands:
+    - cc giveall physical Token 1
+    - cc giveall physical Token 2
+    - cc giveall physical Coal 1
+    - cc giveall physical Iron 1
+    - cc giveall physical Gold 1
+    Refund:
+      Enabled: false
+      InGuiSlot: 34
+  '19':
+    Messages-Enabled: true
+    RawName: autosell
+    Name: '&6Autosell'
+    Material: COMPASS
+    Enabled: false
+    InGuiSlot: 27
+    Increase-Cost-by: 0
+    Max: 1
+    Chance: 4.0
+    Cost: 100000
+    Description:
+    - '&7&o(( Ability to sell all items while mining ))'
+    Pickaxe-Level-Required: 20
+    Refund:
+      Enabled: false
+      InGuiSlot: 27
+  '20':
+    RawName: orbfinder
+    Name: '&8&lOrb Finder'
+    Material: COMPASS
+    Enabled: true
+    InGuiSlot: 42
+    Increase-Cost-by: 5
+    Max: 200
+    Chance: 9.0E-5
+    Cost: 900
+    Description:
+    - '&7Ability to find orbs while mining.'
+    Pickaxe-Level-Required: 2
+    Refund:
+      Enabled: true
+      InGuiSlot: 42
+    Commands:
+      '1':
+        command: mi give MATERIAL ORB %player% 1
+        chance: 85
+      '2':
+        command: mi give MATERIAL ENHANCED.ORB %player% 1
+        chance: 7
+      '3':
+        command: mi give MATERIAL ENHANCED.STONEORB %player% 1
+        chance: 2
+      '4':
+        command: mi give MATERIAL STONEORB %player% 1
+        chance: 5
+      '5':
+        command: mi give MATERIAL FROSTORB %player% 1
+        chance: 1
+Pickaxe:
+  lore:
+  - '&8&m                                &r'
+  - '&7Level: &f%PickaxeLevel%'
+  - '&7XP: &f%Blocks%/%Blocks_Required%'
+  - '&7Progress: &8[%PickaxeProgress%&8]'
+  - '&8&m                                &r'
+  - '%Enchant-3%'
+  - '%Enchant-2%'
+  - '%Enchant-1%'
+  - '%Enchant-4%'
+  - '%Enchant-5%'
+  - '%Enchant-6%'
+  - '%Enchant-7%'
+  - '%Enchant-8%'
+  - '%Enchant-9%'
+  - '%Enchant-10%'
+  - '%Enchant-11%'
+  - '%Enchant-12%'
+  - '%Enchant-13%'
+  - '%Enchant-14%'
+  - '%Enchant-15%'
+  - '%Enchant-16%'
+  - '%Enchant-17%'
+  - '%Enchant-18%'
+  - '%Enchant-19%'
+  - '%Enchant-20%'
+  - '%Enchant-21%'
+  - '&8&m                                &r'

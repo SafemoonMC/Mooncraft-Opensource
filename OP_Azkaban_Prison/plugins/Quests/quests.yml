@@ -1,0 +1,888 @@
+# For non-English characters, this file MUST stay encoded in UTF-8
+quests:
+  custom1:
+    name: Introduction
+    ask-message: DOESNT WORK
+    finish-message: §3Quests §8| §7Quest complete. Go back to the §cPrison Warden
+      §7for your next quest!
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 8
+          - 9
+          - 10
+          objective-override:
+          - '&7Introduce yourself to the &cLumberjack&7, the &cBlacksmith&7, and the
+            &cFarmer'
+    rewards:
+      commands:
+      - cmi sound levelup <player> -s
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: NETHER_STAR
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"50
+            Tokens"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Pickaxes"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Tokens
+            are used to upgrade your"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"pickaxe
+            and progress in the game!"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Right-Click
+            to redeem"}],"text":""}'
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          internal: H4sIAAAAAAAA/+NiYGBh4CnJz07N003MzS/NK2GAACMGAOYNrUsbAAAA
+      details-override:
+      - '&bx50 &7Enchant Tokens'
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: true
+      ignore-silk-touch: false
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: false
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+  custom2:
+    name: The Forest
+    ask-message: Challenge objectives!
+    finish-message: §3Quests §8| §7Quest complete. Go back to the §cPrison Warden
+      §7for your next quest!
+    requirements:
+      quests:
+      - custom1
+    stages:
+      ordered:
+        '1':
+          custom-objectives:
+            custom1:
+              name: Kill Mythic Objective
+              count: 10
+              data:
+                Progress Message: '&7Kill &b10 &7Grass Bugs &3(%count%)'
+                MythicMob: Grass_Bug
+                MythicLevel: '0'
+    rewards:
+      commands:
+      - mi give tool fishingrod <player> 1
+      - cmi sound levelup <player> -s
+      details-override:
+      - '&7Fishing Rod'
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: true
+      ignore-silk-touch: false
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+  custom3:
+    name: The Mines
+    ask-message: Challenge objectives!
+    finish-message: §3Quests §8| §7Quest complete. Go back to the §cPrison Warden
+      §7for your next quest!
+    requirements:
+      quests:
+      - custom2
+    stages:
+      ordered:
+        '1':
+          custom-objectives:
+            custom1:
+              name: Break Objective
+              count: 1000
+              data:
+                ObjectiveBreak: '&7Mine &b1,000 &7blocks. &3(%count%)'
+                BlockType: STONE;COAL_ORE
+    rewards:
+      commands:
+      - cmi sound levelup <player> -s
+      money: 2500
+      details-override:
+      - '&b$2,500'
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: true
+      ignore-silk-touch: false
+      use-parties-plugin: false
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+  custom4:
+    name: Guard Gone Crazy
+    ask-message: Challenge objectives!
+    finish-message: §3Quests §8| §7Quest complete. Go talk to the §cCrazy Guard §7for
+      your next quest!
+    requirements:
+      quests:
+      - custom3
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 11
+          custom-objectives:
+            custom1:
+              name: Interactions End Objective
+              count: 1
+              data:
+                End Obj: End conversation
+                Conversation Name: crazyguard
+          objective-override:
+          - '&7Talk to the &cCrazy Guard &7in the &6Dungeon'
+        '2':
+          npc-ids-to-talk-to:
+          - 7
+          objective-override:
+          - '&7Go back to the &cPrison Warden'
+    rewards:
+      commands:
+      - cmi sound levelup <player> -s
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: NETHER_STAR
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"50
+            Tokens"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Pickaxes"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Tokens
+            are used to upgrade your"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"pickaxe
+            and progress in the game!"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Right-Click
+            to redeem"}],"text":""}'
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          internal: H4sIAAAAAAAA/+NiYGBh4CnJz07N003MzS/NK2GAACMGAOYNrUsbAAAA
+      details-override:
+      - '&bx50 &7Enchant Tokens'
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: true
+      ignore-silk-touch: false
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: false
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+  custom5:
+    name: Magic Aura
+    ask-message: DOESNT WORK
+    finish-message: §3Quests §8| §7Quest complete. Go to the §cCrazy Guard §7for your
+      next quest!
+    requirements:
+      quests:
+      - custom4
+    stages:
+      ordered:
+        '1':
+          use-block-durability: []
+          locations-to-reach:
+          - OPP1 -77.0 9.0 108.0
+          reach-location-radii:
+          - 3
+          reach-location-names:
+          - magic aura
+          objective-override:
+          - '&7Locate the &bMagic Aura &7in the &2Forest'
+    rewards:
+      commands:
+      - cmi sound levelup <player> -s
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: NETHER_STAR
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"50
+            Tokens"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Pickaxes"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Tokens
+            are used to upgrade your"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"pickaxe
+            and progress in the game!"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Right-Click
+            to redeem"}],"text":""}'
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          internal: H4sIAAAAAAAA/+NiYGBh4CnJz07N003MzS/NK2GAACMGAOYNrUsbAAAA
+      details-override:
+      - '&bx50 &7Enchant Tokens'
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: true
+      ignore-silk-touch: false
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: false
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+  custom6:
+    name: The Town
+    ask-message: Challenge objectives!
+    finish-message: §3Quests §8| §7Quest complete. Go back to the §cCrazy Guard §7for
+      your next quest!
+    requirements:
+      quests:
+      - custom5
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 10
+          custom-objectives:
+            custom1:
+              name: Interactions End Objective
+              count: 1
+              data:
+                End Obj: End conversation
+                Conversation Name: farmer
+          objective-override:
+          - '&7Go talk to the &cFarmer &7to learn more.'
+        '2':
+          locations-to-reach:
+          - OPP1 105.0 13.0 -44.0
+          reach-location-radii:
+          - 3
+          reach-location-names:
+          - crystal
+          complete-message: '&aThe crystal radiates in your hand as if it''s alive!
+            You might be able to use it for something later.'
+          objective-override:
+          - '&7Search for a clue in the &8Stone Realm'
+        '3':
+          npc-ids-to-talk-to:
+          - 10
+          objective-override:
+          - '&7Go back to the &cFarmer'
+    rewards:
+      money: 10000
+      commands:
+      - cmi sound levelup <player> -s
+      - lp user <player> permission set cmi.command.portal.waterfall true opprison
+      details-override:
+      - '&b$10,000'
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: true
+      ignore-silk-touch: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+  custom8:
+    name: Bloom Spirits
+    ask-message: Challenge objectives!
+    finish-message: '&3Quests &8| &7If you leave this area and wish to return, simply
+      talk to the &cCrazy Guard&7. For your next Quest talk to the &5Wizard&7.'
+    requirements:
+      quests:
+      - custom6
+    stages:
+      ordered:
+        '1':
+          custom-objectives:
+            custom1:
+              name: Kill Mythic Objective
+              count: 4
+              data:
+                Progress Message: '&7Kill &b4 &7Bloom Spirits &3(%count%)'
+                MythicMob: Bloom_Spirit
+                MythicLevel: '0'
+        '2':
+          npc-ids-to-talk-to:
+          - 11
+          custom-objectives:
+            custom1:
+              name: Interactions End Objective
+              count: 1
+              data:
+                End Obj: End conversation
+                Conversation Name: crazyguard
+          objective-override:
+          - '&7Go talk to the &cCrazy Guard&7.'
+        '3':
+          locations-to-reach:
+          - OPP1 -81.0 7.0 104.0
+          reach-location-radii:
+          - 10
+          reach-location-names:
+          - YellowRunes
+          objective-override:
+          - '&7Find the &b4 yellow runes &7in the &3Forest'
+        '4':
+          locations-to-reach:
+          - OPP1 -235.5 99 -181
+          reach-location-radii:
+          - 3
+          reach-location-names:
+          - SecretArea
+          objective-override:
+          - '&7Enter the &bWaterfall'
+    rewards:
+      commands:
+      - cmi sound levelup <player> -s
+      items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2730
+        type: RED_DYE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Rare
+            Crate"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Key"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Can
+            be used at spawn"}],"text":""}'
+          internal: H4sIAAAAAAAA/+NiYOBgEHQuSqyqBBIlqcW6YIqBJSixKJUBAIGFPlAeAAAA
+      commands:
+      - lp user <player> permission unset crystal.use opprison
+      details-override:
+      - '&cRare Crate Key'
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: true
+      ignore-silk-touch: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+  custom9:
+    name: The Hunt Begins
+    ask-message: Challenge objectives!
+    finish-message: '&3Quests &8| &7For your next Quest talk to the &bApprentice&7.'
+    requirements:
+      quests:
+      - custom8
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 16
+          custom-objectives:
+            custom1:
+              name: Interactions End Objective
+              count: 1
+              data:
+                End Obj: End conversation
+                Conversation Name: apprentice
+          objective-override:
+          - '&7Go talk to the &bApprentice&7 in the &bFrost Realm&7.'
+        '2':
+          npc-ids-to-talk-to:
+          - 22
+          custom-objectives:
+            custom1:
+              name: Interactions End Objective
+              count: 1
+              data:
+                End Obj: End conversation
+                Conversation Name: azrael
+          objective-override:
+          - '&7Interrogate &6Azrael''s Follower&7 in the &bFrost Cave&7.'
+    rewards:
+      commands:
+      - cmi sound levelup <player> -s
+      - givecryptickey <player>
+      details-override:
+      - '&c&lCryptic Key'
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: true
+      ignore-silk-touch: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+  custom10:
+    name: The Sewers
+    ask-message: Challenge objectives!
+    finish-message: '&3Quests &8| &7For your next Quest, talk to &6The Owl &7in &9The
+      Sewers&7.'
+    requirements:
+      quests:
+      - custom9
+    stages:
+      ordered:
+        '1':
+          locations-to-reach:
+          - OPP1 -94.5 11 220.5
+          reach-location-radii:
+          - 3
+          reach-location-names:
+          - Sewers
+          objective-override:
+          - '&7Locate an alternative entrance to &9Sewers &7in the &bFrost Realm'
+    rewards:
+      commands:
+      - cmi sound levelup <player> -s
+      details-override:
+      - '&cNo Reward'
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: true
+      ignore-silk-touch: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+  custom11:
+    name: The Owl
+    ask-message: Challenge objectives!
+    finish-message: '&7'
+    requirements:
+      quests:
+      - custom10
+    stages:
+      ordered:
+        '1':
+          locations-to-reach:
+          - OPP1 154.5 19 244.5
+          reach-location-radii:
+          - 1
+          reach-location-names:
+          - Library
+          objective-override:
+          - '&7Find the &dKnowledge Gem&7 in the Library'
+        '2':
+          npc-ids-to-talk-to:
+          - 15
+          custom-objectives:
+            custom1:
+              name: Interactions End Objective
+              count: 1
+              data:
+                End Obj: End conversation
+                Conversation Name: theowl
+          objective-override:
+          - '&7Return back to &6The Owl'
+    rewards:
+      commands:
+      - cmi sound levelup <player> -s
+      details-override:
+      - '&cNo Reward'
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: true
+      ignore-silk-touch: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+  custom12:
+    name: The Next Cryptic Key
+    ask-message: Challenge objectives!
+    finish-message: '&7'
+    requirements:
+      quests:
+      - custom11
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 22
+          custom-objectives:
+            custom1:
+              name: Interactions End Objective
+              count: 1
+              data:
+                End Obj: End conversation
+                Conversation Name: azrael
+          objective-override:
+          - '&7Talk to the second &6Azrael''s Follower &7in the &cFire Realm'
+          - '&7Tip: He is on the top of the center mountain, follow the lanterns!'
+        '2':
+          npc-ids-to-talk-to:
+          - 15
+          custom-objectives:
+            custom1:
+              name: Interactions End Objective
+              count: 1
+              data:
+                End Obj: End conversation
+                Conversation Name: theowl
+          objective-override:
+          - '&7Return and talk to &6The Owl'
+    rewards:
+      commands:
+      - cmi sound levelup <player> -s
+      details-override:
+      - '&cNo Reward'
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: true
+      ignore-silk-touch: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+  custom13:
+    name: One Small Favor
+    ask-message: Challenge objectives!
+    finish-message: '&3Quests &8| &7For your next Quest find the third &6Azrael''s
+      Follower &7in the &bSoutheastern Crystallized Waterfall &7within the &5Shadow
+      Realm&7.'
+    requirements:
+      quests:
+      - custom12
+    stages:
+      ordered:
+        '1':
+          custom-objectives:
+            custom1:
+              name: Kill Mythic Objective
+              count: 10
+              data:
+                Progress Message: '&7Kill &b10 &7Fudders &3(%count%)'
+                MythicMob: Fire_Scarab
+                MythicLevel: '0'
+        '2':
+          npc-ids-to-talk-to:
+          - 15
+          custom-objectives:
+            custom1:
+              name: Interactions End Objective
+              count: 1
+              data:
+                End Obj: End conversation
+                Conversation Name: theowl
+          objective-override:
+          - '&7Return and talk to &6The Owl'
+    rewards:
+      commands:
+      - cmi sound levelup <player> -s
+      details-override:
+      - '&cNo Reward'
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: true
+      ignore-silk-touch: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+  custom14:
+    name: The Last Key
+    ask-message: Challenge objectives!
+    finish-message: '&3Quests &8| &7For your next Quest speak to the &5Wizard&7.'
+    requirements:
+      quests:
+      - custom13
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 22
+          custom-objectives:
+            custom1:
+              name: Interactions End Objective
+              count: 1
+              data:
+                End Obj: End conversation
+                Conversation Name: azrael
+          objective-override:
+          - '&7Locate and talk to the final &6Azrael''s Follower &7in the &5Shadow
+            Realm'
+          - '&7Tip: &bSouth East &7direction.'
+        '2':
+          custom-objectives:
+            custom1:
+              name: Kill Mythic Objective
+              count: 20
+              data:
+                Progress Message: '&7Kill &b20 &7Violet Wraiths &3(%count%)'
+                MythicMob: Violet_Wraith
+                MythicLevel: '0'
+        '3':
+          npc-ids-to-talk-to:
+          - 22
+          custom-objectives:
+            custom1:
+              name: Interactions End Objective
+              count: 1
+              data:
+                End Obj: End conversation
+                Conversation Name: azrael
+          objective-override:
+          - '&7Talk to the final &6Azrael''s Follower'
+    rewards:
+      commands:
+      - cmi sound levelup <player> -s
+      details-override:
+      - '&c&lCryptic Key'
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: true
+      ignore-silk-touch: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+  custom15:
+    name: The Pursuit to the Lair
+    ask-message: Challenge objectives!
+    finish-message: '&3Quests &8| &7For your next Quest speak to the &eKeeper of the
+      Lair&7 near &4Azrael''s Lair&7.'
+    requirements:
+      quests:
+      - custom14
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 12
+          custom-objectives:
+            custom1:
+              name: Interactions End Objective
+              count: 1
+              data:
+                End Obj: End conversation
+                Conversation Name: wizard
+          objective-override:
+          - '&7Talk to the &5Wizard&7.'
+        '2':
+          locations-to-reach:
+          - OPP1 122 88 216
+          reach-location-radii:
+          - 5
+          reach-location-names:
+          - TpSpotLair
+          objective-override:
+          - '&7Reach &4Azrael’s Lair&7.'
+    rewards:
+      commands:
+      - cmi sound levelup <player> -s
+      - questadmin give <player> Opening the Lair
+      details-override:
+      - '&aAccess to Azrael''s Lair'
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: true
+      ignore-silk-touch: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+  custom16:
+    name: Opening the Lair
+    ask-message: Challenge objectives!
+    finish-message: '&3Quests &8| &7For your next Quest bring all of the &cCryptic
+      Keys &7to the &eKeeper of the Lair&7.'
+    requirements:
+      quests:
+      - custom15
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 21
+          custom-objectives:
+            custom1:
+              name: Interactions End Objective
+              count: 1
+              data:
+                End Obj: End conversation
+                Conversation Name: keeperofthelair
+          objective-override:
+          - '&7Talk to the &eKeeper of the Lair&7.'
+    rewards:
+      commands:
+      - cmi sound levelup <player> -s
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: true
+      ignore-silk-touch: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+  custom17:
+    name: Azrael
+    ask-message: Challenge objectives!
+    finish-message: '&3Quests &8| &7To end Azkaban Story talk to the &cPrison Warden&7!'
+    requirements:
+      quests:
+      - custom16
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 14
+          custom-objectives:
+            custom1:
+              name: Interactions End Objective
+              count: 1
+              data:
+                End Obj: End conversation
+                Conversation Name: mines
+          objective-override:
+          - '&7Talk to &4Azrael&7 in his Lair.'
+        '2':
+          custom-objectives:
+            custom1:
+              name: Kill Mythic Objective
+              count: 1
+              data:
+                Progress Message: 'Kill Mythicmob: %count%'
+                MythicMob: Azrael
+                MythicLevel: '0'
+          objective-override:
+          - '&4&lDefeat Azrael &7before he leaves.'
+    rewards:
+      commands:
+      - cmi sound levelup <player> -s
+      - questsadmin give <player> Finale
+      - mi give ARMOR AZRAELHEADTROPHY <player> 1
+      - lp user <player> permission set azrael.head true opprison
+      details-override:
+      - '&4Azrael Head &7Trophy'
+      - '&7Ability to wear &4Azrael''s Head &7Trophy'
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: true
+      ignore-silk-touch: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+  custom18:
+    name: Finale
+    ask-message: Challenge objectives!
+    finish-message: '&2&lYou have completed Azkaban''s Story!'
+    requirements:
+      quests:
+      - custom17
+    stages:
+      ordered:
+        '1':
+          npc-ids-to-talk-to:
+          - 7
+          custom-objectives:
+            custom1:
+              name: Interactions End Objective
+              count: 1
+              data:
+                End Obj: End conversation
+                Conversation Name: prisonwarden
+          objective-override:
+          - '&7Talk to the &cPrison Ward&7 to complete Azkaban''s Story!'
+    rewards:
+      commands:
+      - cmi sound levelup <player> -s
+      - lp user <player> parent add guard opprison
+      details-override:
+      - '&2&lGuard Rank'
+      - '&aAccess to the Guard Tower'
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: true
+      ignore-silk-touch: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false

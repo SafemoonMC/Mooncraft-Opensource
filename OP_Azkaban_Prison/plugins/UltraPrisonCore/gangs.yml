@@ -1,0 +1,96 @@
+placeholders:
+  gang-without: '&c'
+  gang-in-gang: '&6%gang%&r'
+restricted-names:
+- shit
+- fuck
+- gay
+- bitch
+- ass
+max-gang-members: 4
+gang-top-update: 1
+max-gang-name-length: 10
+color-codes-in-gang-name: true
+gang-chat-priority: LOW
+messages:
+  gang-rename: '&3Prison &8| &aYour Gang was renamed to %gang%.'
+  gang-force-rename: '&3Prison &8| &aYou have renamed %player%''s gang to %gang%'
+  gang-name-restricted: '&3Prison &8| &cThat name contains restricted words!'
+  no-permission: '&3Prison &8| &cYou do not have permission!'
+  gang-already-exists: '&3Prison &8| &cGang with that name or similar name already
+    exists!'
+  gang-not-exists: '&3Prison &8| &cGang with that name or does not exist!'
+  gang-created: '&3Prison &8| &aYou have created gang &e%name%&a!'
+  not-in-gang: '&3Prison &8| &cYou are not in gang!'
+  gang-not-owner: '&3Prison &8| &cOnly gang leader is allowed to do that!'
+  gang-cant-invite: '&3Prison &8| &cThat player is already in some gang!'
+  gang-invite-success: '&3Prison &8| &aYou have successfully invited player %player%
+    to join your gang!'
+  gang-invite-pending: '&3Prison &8| &cThat player has already some gang invite pending!'
+  gang-invite-received: '&3Prison &8| &aYou have been invited to join %gang% &agang!
+    Type &e/gang accept &ato join within next &e5 minutes&a.'
+  gang-player-left: '&3Prison &8| &cPlayer %player% has left your gang.'
+  gang-player-joined: '&3Prison &8| &aPlayer %player% has joined your gang.'
+  gang-joined: '&3Prison &8| &aYou have joined Gang %gang%'
+  gang-left: '&3Prison &8| &cYou have left Gang %gang%'
+  gang-cant-create: '&3Prison &8| &cPlease leave your current gang in order to create
+    a new one.'
+  gang-cant-join: '&3Prison &8| &cPlease leave your current gang in order to join
+    a new one.'
+  gang-please-disband: '&3Prison &8| &cPlease disband your gang via /gang disband
+    in order to leave.'
+  gang-player-not-in-gang: '&3Prison &8| &cThat player is not in gang!'
+  gang-disbanded: '&3Prison &8| &cYour gang has been disbanded!'
+  player-not-online: '&3Prison &8| &cThat player is not online!'
+  gang-no-invite-pending: '&3Prison &8| &cYou have no pending gang invites!'
+  gang-create-broadcast: '&3Prison &8| &a%player% has created a gang %gang%'
+  gang-disband-broadcast: '&3Prison &8| &c%gang% has been disbanded'
+  gang-invalid-name: '&3Prison &8| &cPlease provide a valid gang name.'
+  invalid-value: '&3Prison &8| &cPlease provide positive value.'
+  gang-value-add: '&3Prison &8| &aYou have added %value% to %gang%.'
+  gang-value-remove: '&3Prison &8| &aYou have removed %value% from %gang%.'
+  gang-player-kicked: '&3Prison &8| &7Player %player% was kicked from gang!'
+  gang-kicked: '&3Prison &8|  &cYou have been removed from gang %gang%!'
+  gang-full: '&3Prison &8| &cYour gang is full!'
+  gang-chat-off: '&3Prison &8| &7You have toggled gang chat &cOFF'
+  gang-chat-on: '&3Prison &8| &7You have toggled gang chat &aON'
+  gang-chat-format: '&e&l[GC] &f%player% &8» &f%message%'
+  gang-top-updating: '&3Prison &8| &cPlease wait, gang top is updating!'
+  gang-name-long: '&3Prison &8| &cGang name must contain max 8 characters.'
+  gang-name-colors: '&3Prison &8| &cGang name must not contain colors.'
+gang-help-menu:
+- '&7'
+- '&6&lGang Help Commands:'
+- '&e/gang create [name] &7- Create a gang'
+- '&e/gang invite [player] &7- Invite a player'
+- '&e/gang kick [player] &7- Kick a player'
+- '&e/gang info [player] &7- View a gang info'
+- '&e/gang accept &7- Accept gang invitation'
+- '&e/gang leave &7- Leave current gang'
+- '&e/gang disband &7- Disband current gang'
+- '&e/gang top &7- View gang top'
+- '&7'
+gang-admin-help-menu:
+- '&e&m-------&f&m-------&e&m--------&f&m--------&e&m--------&f&m-------&e&m-------'
+- '&e&lGANG ADMIN HELP MENU '
+- '&e&m-------&f&m-------&e&m--------&f&m--------&e&m--------&f&m-------&e&m-------'
+- '&e/gang value add [gang] [value]'
+- '&e/gang value remove [gang] [value]'
+- '&e/gang admin add [player] [gang]'
+- '&e/gang admin remove [player] [gang]'
+- '&e/gang admin disband [gang]'
+- '&e&m-------&f&m-------&e&m--------&f&m--------&e&m--------&f&m-------&e&m-------'
+gang-info-format:
+- '&7'
+- '&6&l%gang%:'
+- '&eOwner: &e%gang_owner%'
+- '&eMembers: &e%gang_members%'
+- '&eValue: &e%gang_value%'
+- '&eTop Placement: &e#%gang_top%'
+- '&3'
+gang-top-format:
+- '&7'
+- '&6&lGang Top:'
+- '{FOR_EACH_GANG} &e#%position%. &6%gang% &7- &a%value% Kills'
+- '&7'
+gang-disband-gui-title: Disband your gang?

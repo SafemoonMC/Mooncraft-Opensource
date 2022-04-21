@@ -1,0 +1,353 @@
+
+# Waypoint ID, used as reference.
+# Make sure the waypoints have different IDs.
+spawn:
+
+    # Name of waypoint displayed in the waypoint GUI.
+    name: Spawn
+    
+    # Location of waypoint: <world> <x y z> <yaw> <pitch>
+    # Yaw and pitch are where the player will be looking at when teleported.
+    location: 'OPP1 8.5 87 8.5 90.8 1'
+    
+    # Radius of waypoint around the specified location.
+    radius: 2
+    
+    # Stellium cost in order to use the waypoint.
+    # Stellium is like stamina however it's not used
+    # by skills and regens much slower than mana.
+    stellium: 1
+    
+    # When enabled, players can unlock the waypoint
+    # by sneaking on it, and can open the waypoint menu
+    # from the specified location (true by default).
+    sneak: false
+    
+    # Should be waypoint be unlocked by default?
+    default: true
+    dynamic: true
+trees:
+
+    # Name of waypoint displayed in the waypoint GUI.
+    name: Farm
+    
+    # Location of waypoint: <world> <x y z> <yaw> <pitch>
+    # Yaw and pitch are where the player will be looking at when teleported.
+    location: 'OPP1 29.5 85 -11.5 -139.5 -12.6'
+    
+    # Radius of waypoint around the specified location.
+    radius: 3
+    
+    # Stellium cost in order to use the waypoint.
+    # Stellium is like stamina however it's not used
+    # by skills and regens much slower than mana.
+    stellium: 1
+    
+    # When enabled, players can unlock the waypoint
+    # by sneaking on it, and can open the waypoint menu
+    # from the specified location (true by default).
+    sneak: false
+    
+    # Should be waypoint be unlocked by default?
+    default: true
+    dynamic: true
+pvp:
+
+    # Name of waypoint displayed in the waypoint GUI.
+    name: PvP Arena
+    
+    # Location of waypoint: <world> <x y z> <yaw> <pitch>
+    # Yaw and pitch are where the player will be looking at when teleported.
+    location: 'OPP1 26.5 85 25.5 -45 -7.8'
+    
+    # Radius of waypoint around the specified location.
+    radius: 3
+    
+    # Stellium cost in order to use the waypoint.
+    # Stellium is like stamina however it's not used
+    # by skills and regens much slower than mana.
+    stellium: 1
+    
+    # When enabled, players can unlock the waypoint
+    # by sneaking on it, and can open the waypoint menu
+    # from the specified location (true by default).
+    sneak: false
+    
+    # Should be waypoint be unlocked by default?
+    default: true
+    dynamic: true
+pve:
+
+    # Name of waypoint displayed in the waypoint GUI.
+    name: Animals
+    
+    # Location of waypoint: <world> <x y z> <yaw> <pitch>
+    # Yaw and pitch are where the player will be looking at when teleported.
+    location: 'OPP1 -16.5 85 -14.5 -126.6 -1.1'
+    
+    # Radius of waypoint around the specified location.
+    radius: 3
+    
+    # Stellium cost in order to use the waypoint.
+    # Stellium is like stamina however it's not used
+    # by skills and regens much slower than mana.
+    stellium: 1
+    
+    # When enabled, players can unlock the waypoint
+    # by sneaking on it, and can open the waypoint menu
+    # from the specified location (true by default).
+    sneak: false
+    
+    # Should be waypoint be unlocked by default?
+    default: true
+    dynamic: true
+quests:
+
+    # Name of waypoint displayed in the waypoint GUI.
+    name: Dungeon
+    
+    # Location of waypoint: <world> <x y z> <yaw> <pitch>
+    # Yaw and pitch are where the player will be looking at when teleported.
+    location: 'OPP1 -10.5 85 27.5 44.3 -6.8'
+    
+    # Radius of waypoint around the specified location.
+    radius: 3
+    
+    # Stellium cost in order to use the waypoint.
+    # Stellium is like stamina however it's not used
+    # by skills and regens much slower than mana.
+    stellium: 1
+    
+    # When enabled, players can unlock the waypoint
+    # by sneaking on it, and can open the waypoint menu
+    # from the specified location (true by default).
+    sneak: false
+    
+    # Should be waypoint be unlocked by default?
+    default: true
+    dynamic: true
+forest:
+
+    # Name of waypoint displayed in the waypoint GUI.
+    name: Forest
+    
+    # Location of waypoint: <world> <x y z> <yaw> <pitch>
+    # Yaw and pitch are where the player will be looking at when teleported.
+    location: 'OPP1 8.5 34 98.5 -0.1 0.6'
+    
+    # Radius of waypoint around the specified location.
+    radius: 3
+    
+    # Stellium cost in order to use the waypoint.
+    # Stellium is like stamina however it's not used
+    # by skills and regens much slower than mana.
+    stellium: 1.5
+    
+    # When enabled, players can unlock the waypoint
+    # by sneaking on it, and can open the waypoint menu
+    # from the specified location (true by default).
+    sneak: false
+    
+    # Should be waypoint be unlocked by default?
+    default: true
+    dynamic: true
+guard:
+
+    # Name of waypoint displayed in the waypoint GUI.
+    name: Guard Tower
+    
+    # Location of waypoint: <world> <x y z> <yaw> <pitch>
+    # Yaw and pitch are where the player will be looking at when teleported.
+    location: 'OPP1 88.5 113 8.5 -90 -13'
+    
+    # Radius of waypoint around the specified location.
+    radius: 3
+    
+    # Stellium cost in order to use the waypoint.
+    # Stellium is like stamina however it's not used
+    # by skills and regens much slower than mana.
+    stellium: 1.6
+    
+    # When enabled, players can unlock the waypoint
+    # by sneaking on it, and can open the waypoint menu
+    # from the specified location (true by default).
+    sneak: false
+    
+    # Should be waypoint be unlocked by default?
+    default: true
+    dynamic: true
+grassbug:
+
+    # Name of waypoint displayed in the waypoint GUI.
+    name: Grass Field
+    
+    # Location of waypoint: <world> <x y z> <yaw> <pitch>
+    # Yaw and pitch are where the player will be looking at when teleported.
+    location: 'OPP1 -19.5 11 137.5 71 -1.9'
+    
+    # Radius of waypoint around the specified location.
+    radius: 1
+    
+    # Stellium cost in order to use the waypoint.
+    # Stellium is like stamina however it's not used
+    # by skills and regens much slower than mana.
+    stellium: 2
+    
+    # When enabled, players can unlock the waypoint
+    # by sneaking on it, and can open the waypoint menu
+    # from the specified location (true by default).
+    sneak: true
+    
+    # Should be waypoint be unlocked by default?
+    default: false
+    dynamic: true
+vine:
+
+    # Name of waypoint displayed in the waypoint GUI.
+    name: Vine Land
+    
+    # Location of waypoint: <world> <x y z> <yaw> <pitch>
+    # Yaw and pitch are where the player will be looking at when teleported.
+    location: 'OPP1 88.5 15 140.5 155.9 7.7'
+    
+    # Radius of waypoint around the specified location.
+    radius: 1
+    
+    # Stellium cost in order to use the waypoint.
+    # Stellium is like stamina however it's not used
+    # by skills and regens much slower than mana.
+    stellium: 2.2
+    
+    # When enabled, players can unlock the waypoint
+    # by sneaking on it, and can open the waypoint menu
+    # from the specified location (true by default).
+    sneak: true
+    
+    # Should be waypoint be unlocked by default?
+    default: false
+    dynamic: true
+flowers:
+
+    # Name of waypoint displayed in the waypoint GUI.
+    name: Flower Meadow
+    
+    # Location of waypoint: <world> <x y z> <yaw> <pitch>
+    # Yaw and pitch are where the player will be looking at when teleported.
+    location: 'OPP1 135.5 12 97.5 126.6 1.4'
+    
+    # Radius of waypoint around the specified location.
+    radius: 1
+    
+    # Stellium cost in order to use the waypoint.
+    # Stellium is like stamina however it's not used
+    # by skills and regens much slower than mana.
+    stellium: 2.4
+    
+    # When enabled, players can unlock the waypoint
+    # by sneaking on it, and can open the waypoint menu
+    # from the specified location (true by default).
+    sneak: true
+    
+    # Should be waypoint be unlocked by default?
+    default: false
+    dynamic: true
+stone:
+
+    # Name of waypoint displayed in the waypoint GUI.
+    name: Stone Realm
+    
+    # Location of waypoint: <world> <x y z> <yaw> <pitch>
+    # Yaw and pitch are where the player will be looking at when teleported.
+    location: 'OPP1 127.5 12 -2.5 -147.0 1.7'
+    
+    # Radius of waypoint around the specified location.
+    radius: 1
+    
+    # Stellium cost in order to use the waypoint.
+    # Stellium is like stamina however it's not used
+    # by skills and regens much slower than mana.
+    stellium: 2.6
+    
+    # When enabled, players can unlock the waypoint
+    # by sneaking on it, and can open the waypoint menu
+    # from the specified location (true by default).
+    sneak: true
+    
+    # Should be waypoint be unlocked by default?
+    default: false
+    dynamic: true
+frost:
+
+    # Name of waypoint displayed in the waypoint GUI.
+    name: Frost Realm
+    
+    # Location of waypoint: <world> <x y z> <yaw> <pitch>
+    # Yaw and pitch are where the player will be looking at when teleported.
+    location: 'OPP1 -86.5 12 198.5 -41.8 1.1'
+    
+    # Radius of waypoint around the specified location.
+    radius: 1
+    
+    # Stellium cost in order to use the waypoint.
+    # Stellium is like stamina however it's not used
+    # by skills and regens much slower than mana.
+    stellium: 2.8
+    
+    # When enabled, players can unlock the waypoint
+    # by sneaking on it, and can open the waypoint menu
+    # from the specified location (true by default).
+    sneak: true
+    
+    # Should be waypoint be unlocked by default?
+    default: false
+    dynamic: true
+fire:
+
+    # Name of waypoint displayed in the waypoint GUI.
+    name: Fire Realm
+    
+    # Location of waypoint: <world> <x y z> <yaw> <pitch>
+    # Yaw and pitch are where the player will be looking at when teleported.
+    location: 'OPP1 151.5 18 136.5 -36.2 4.7'
+    
+    # Radius of waypoint around the specified location.
+    radius: 1
+    
+    # Stellium cost in order to use the waypoint.
+    # Stellium is like stamina however it's not used
+    # by skills and regens much slower than mana.
+    stellium: 3.0
+    
+    # When enabled, players can unlock the waypoint
+    # by sneaking on it, and can open the waypoint menu
+    # from the specified location (true by default).
+    sneak: true
+    
+    # Should be waypoint be unlocked by default?
+    default: false
+    dynamic: true
+shadow:
+
+    # Name of waypoint displayed in the waypoint GUI.
+    name: Shadow Realm
+    
+    # Location of waypoint: <world> <x y z> <yaw> <pitch>
+    # Yaw and pitch are where the player will be looking at when teleported.
+    location: 'OPP1 256.5 8 -78.5 119.5 -1.2'
+    
+    # Radius of waypoint around the specified location.
+    radius: 1
+    
+    # Stellium cost in order to use the waypoint.
+    # Stellium is like stamina however it's not used
+    # by skills and regens much slower than mana.
+    stellium: 3.5
+    
+    # When enabled, players can unlock the waypoint
+    # by sneaking on it, and can open the waypoint menu
+    # from the specified location (true by default).
+    sneak: true
+    
+    # Should be waypoint be unlocked by default?
+    default: false
+    dynamic: true

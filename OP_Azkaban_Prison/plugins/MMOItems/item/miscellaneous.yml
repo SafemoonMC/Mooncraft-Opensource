@@ -1,0 +1,188 @@
+ARROW:
+  base:
+    material: ARROW
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    name: '&7Piercing Arrow'
+    tier: BASIC
+    lore:
+    - '&7Can be shot using a &bBow'
+STATUEBATTERY:
+  base:
+    material: LEVER
+    name: '&7Statue Battery'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: UNCOMMON
+    lore:
+    - '&7Can be used to craft &bConsumables'
+ROYALSHARD:
+  base:
+    material: GOLD_NUGGET
+    name: '&6Royal Shard'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: RARE
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    lore:
+    - '&7Can be used to craft &bConsumables'
+SMELTEDSHARD:
+  base:
+    material: IRON_NUGGET
+    enchants:
+      infinity: 1.0
+    hide-enchants: true
+    disable-repairing: true
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    disable-interaction: true
+    tier: RARE
+    name: '&bSmelted Shard'
+    lore:
+    - '&7Can be used to craft &bConsumables'
+ICE:
+  base:
+    material: SNOWBALL
+    name: '&9Ice Shard'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: VERY_RARE
+    lore:
+    - '&7Can be used to craft &bConsumables'
+WOLFSKIN:
+  base:
+    material: LEATHER
+    name: '&fWolf Skin'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: VERY_RARE
+    lore:
+    - '&7Can be used to craft &bConsumables'
+STOLENTEAR:
+  base:
+    material: FLINT
+    name: '&bStolen Tear'
+    enchants:
+      infinity: 1.0
+    hide-enchants: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: EPIC
+    lore:
+    - '&7Can be used to craft &bConsumables'
+ASH:
+  base:
+    material: GUNPOWDER
+    name: '&6Ash'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: MYTHICAL
+    lore:
+    - '&7Can be used to craft &bConsumables'
+POWEREDASH:
+  base:
+    material: BLAZE_POWDER
+    name: '&6Powered Ash'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: LEGENDARY
+    lore:
+    - '&7Can be used to craft &bConsumables'
+SHADOW1:
+  base:
+    material: SKELETON_SPAWN_EGG
+    name: '&4Evil Amulet'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: MAGICAL
+    lore:
+    - '&7Can be used to craft &bConsumables'
+SHADOW2:
+  base:
+    material: SILVERFISH_SPAWN_EGG
+    name: '&4Cursed Tablet'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: MAGICAL
+    lore:
+    - '&7Can be used to craft &bConsumables'
+SHADOW3:
+  base:
+    material: ENDERMITE_SPAWN_EGG
+    name: '&4Oblivion Seal'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: MAGICAL
+    lore:
+    - '&7Can be used to craft &bConsumables'
+SHADOW4:
+  base:
+    material: WITHER_SKELETON_SPAWN_EGG
+    name: '&4Equinox Gem'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: OP
+    lore:
+    - '&7Can be used to craft &bConsumables'
+SHADOW5:
+  base:
+    material: ENDERMAN_SPAWN_EGG
+    name: '&4The Final Artifact'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: OP
+    lore:
+    - '&7Can be used to craft &bConsumables'

@@ -1,0 +1,104 @@
+messages:
+  autosell_enable: '&3MoonPrison &8| &7Auto Sell &aenabled'
+  autosell_disable: '&3MoonPrison &8| &7Auto Sell &cdisabled'
+  not_in_region: '&aShop> &fYou must be in a mine to Auto Sell'
+  invalid_region: '&e&l(!) &cYou have specified invalid region.'
+  sell_all_complete: '&aShop > &fItems sold for &a$%price%'
+  last_minute_earn: '&3MoonPrison &8| &7Sold &b$%amount% &7in last minute.'
+  no_permission_sell: '&3MoonPrison &8| &7You do not have permission to sell in this
+    region!'
+  no_permission_autosell_toggle: '&aShop > &fYou do not have permission to auto sell!'
+  no_permission_sellall: '&e&l(!) &cYou do not have permission to use the sellall
+    feature!'
+enable-autosell-automatically: false
+auto-smelt: false
+auto_sell_broadcast:
+  time: 60
+  message:
+  - '&aShop > &fItems sold for &a$%money%'
+regions:
+  mine-earth:
+    world: world
+    items:
+      STONE: 0.6
+      COAL_ORE: 0.7
+      IRON_ORE: 1.2
+      IRON_INGOT: 5.0
+      COAL: 0.9
+      COBBLESTONE: 0.4
+  mine-mars:
+    world: world
+    items:
+      RED_SANDSTONE: 0.6
+      SMOOTH_RED_SANDSTONE: 1.0
+      COAL_ORE: 0.7
+      IRON_ORE: 1.2
+      IRON_INGOT: 5.0
+      COAL: 0.9
+      ORANGE_CONCRETE: 0.6
+  mine-venus:
+    world: world
+    items:
+      YELLOW_TERRACOTTA: 0.75
+      COAL_ORE: 0.7
+      IRON_ORE: 1.2
+      IRON_INGOT: 5.0
+      COAL: 0.9
+      GOLD_ORE: 2.0
+      GOLD_INGOT: 8.0
+      YELLOW_CONCRETE: 0.75
+  mine-jupiter:
+    world: world
+    items:
+      RED_TERRACOTTA: 1.5
+      COAL_ORE: 0.7
+      IRON_ORE: 1.2
+      IRON_INGOT: 5.0
+      COAL: 0.9
+      GOLD_ORE: 2.0
+      GOLD_INGOT: 8.0
+      RED_NETHER_BRICKS: 1.5
+  mine-mercury:
+    world: world
+    items:
+      PURPLE_CONCRETE: 2.2
+      COAL_ORE: 0.7
+      COAL: 0.9
+      BLACK_TERRACOTTA: 2.2
+  mine-uranus:
+    world: world
+    items:
+      DARK_PRISMARINE: 3.0
+      PRISMARINE_BRICKS: 2.5
+      LAPIS_ORE: 2.96
+      BLUE_TERRACOTTA: 2.8
+      LAPIS_LAZULI: 3.96
+  mine-saturn:
+    world: world
+    items:
+      PURPLE_TERRACOTTA: 3.0
+      PINK_CONCRETE: 3.0
+      REDSTONE_ORE: 0.8
+      NETHERRACK: 3.0
+      MOSSY_STONE_BRICKS: 3.0
+      REDSTONE: 0.8
+  mine-neptune:
+    world: world
+    items:
+      LIGHT_BLUE_CONCRETE: 3.6
+      END_STONE: 4.0
+      DIAMOND_ORE: 15.0
+      DIAMOND: 20.0
+  mine-prestige:
+    world: world
+    items:
+      BRICKS: 2.0
+      COAL_BLOCK: 10.8
+      DIAMOND_ORE: 15.0
+      DIAMOND: 20.0
+inventory_full_notification:
+  enabled: false
+  title:
+  - '&cInventory full!'
+  - '&fType /sellall to sell your inventory'
+  chat: '&c&l(!) &eYour inventory is full! Type /sellall to sell your inventory'

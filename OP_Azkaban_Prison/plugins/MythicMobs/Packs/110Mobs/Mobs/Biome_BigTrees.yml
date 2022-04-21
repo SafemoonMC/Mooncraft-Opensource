@@ -1,0 +1,407 @@
+##################################
+#                                #
+#           [ Flower ]           #
+#                                #
+##################################
+
+Treant:
+  Type: WITHER_SKELETON
+  Display: '&eTreant &6[Lv. <caster.level>]'
+  Faction: BigTrees
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  Equipment:
+  - TreantHEAD HEAD
+  - TreantCHEST CHEST
+  - TreantLEGS LEGS
+  - TreantFEET FEET
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.19
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    KnockbackResistance: 1
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - oak_log 1-3 0.2
+  - oak_planks 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - randomskill{s=Stone_WeaponsPick,Iron_WeaponsPick} @self ~onSpawn
+  - sound{s=entity.zombie.attack_wooden_door;v=0.2} @self ~onDamaged
+  - sound{s=entity.zombie.break_wooden_door;v=0.1} @self ~onDeath
+  - sound{s=block.grass.break;v=1.0;p=0.9} @self ~onDeath
+  - sound{s=block.grass.place;v=0.5;p=1.1} @self ~onDamaged
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Toxin_Wood:
+  Type: HUSK
+  Display: '&cToxin Wood &6[Lv. <caster.level>]'
+  Faction: BigTrees
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - Toxin_WoodHEAD HEAD
+  - Toxin_WoodCHEST CHEST
+  - Toxin_WoodLEGS LEGS
+  - Toxin_WoodFEET FEET
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.34
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - oak_log 1-3 0.2
+  - slime_ball 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - effect:particles{particle=spell_mob;color=#013220;amount=5;hS=0.5;vS=0.5;speed=0} @self ~onTimer:10 ?moving{}
+
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - potion{type=POISON;l=0;d=100} @target ~onAttack 0.3
+  - sound{s=entity.zombie.attack_wooden_door;v=0.2} @self ~onDamaged
+  - sound{s=entity.zombie.break_wooden_door;v=0.1} @self ~onDeath
+  - sound{s=block.grass.break;v=1.0;p=0.9} @self ~onDeath
+  - sound{s=block.grass.place;v=0.5;p=1.1} @self ~onDamaged
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Enraged_Tree:
+  Type: HUSK
+  Display: '&cEnraged Tree &6[Lv. <caster.level>]'
+  Faction: BigTrees
+  Disguise: Enraged_Tree
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - AIR HEAD
+  - TreantCHEST CHEST
+  - TreantLEGS LEGS
+  - TreantFEET FEET
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.34
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - oak_log 1-3 0.2
+  - stripped_oak_log 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - randomskill{s=Stone_WeaponsPick,Iron_WeaponsPick} @self ~onSpawn
+  - sound{s=entity.zombie.attack_wooden_door;v=0.2} @self ~onDamaged
+  - sound{s=entity.zombie.break_wooden_door;v=0.1} @self ~onDeath
+  - sound{s=block.grass.break;v=1.0;p=0.9} @self ~onDeath
+  - sound{s=block.grass.place;v=0.5;p=1.1} @self ~onDamaged
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Leaf_Boar:
+  Type: ZOMBIE
+  Display: '&eLeaf Boar &6[Lv. <caster.level>]'
+  Disguise: PIG
+  Faction: BigTrees
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.34
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - leather 1-3 0.2
+  - oak_leaves 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - effect:particles{p=block_crack;m=oak_leaves;a=40;s=0.1;hS=0.4;vS=0.5} @self ~onTimer:10 ?moving{}  
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - sound{s=entity.hoglin.hurt;v=0.3;p=2} @self ~onDamaged
+  - sound{s=entity.hoglin.death;v=0.3;p=2} @self ~onDeath
+  - sound{s=block.grass.break;v=0.3;p=0.9} @self ~onDeath
+  - sound{s=block.grass.place;v=0.3;p=1.1} @self ~onDamaged
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Angry_Leaf_Boar:
+  Type: ZOMBIE
+  Display: '&cAngry Leaf Boar &6[Lv. <caster.level>]'
+  Disguise: PIG
+  Faction: BigTrees
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.34
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - leather 1-3 0.2
+  - oak_leaves 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - effect:particles{p=block_crack;m=oak_leaves;a=40;s=0.1;hS=0.4;vS=0.5} @self ~onTimer:10 ?moving{}
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - sound{s=entity.hoglin.hurt;v=0.3;p=2} @self ~onDamaged
+  - sound{s=entity.hoglin.death;v=0.3;p=2} @self ~onDeath
+  - sound{s=block.grass.break;v=0.3;p=0.9} @self ~onDeath
+  - sound{s=block.grass.place;v=0.3;p=1.1} @self ~onDamaged
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Bramble_Donguri:
+  Type: ZOMBIE  
+  Display: '&eBramble Donguri &6[Lv. <caster.level>]'
+  Disguise: falling_block oak_leaves 
+  Faction: BigTrees
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  Options:
+    FollowRange: 20
+    PreventSunburn: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Drops:
+  - exp 41-100
+  - grass 1-3 0.2
+  - oak_leaves 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - effect:particles{p=block_crack;m=oak_leaves;a=40;s=0.1;hS=0.4;vS=0.5} @self ~onTimer:10 ?moving{}
+
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - sound{s=block.grass.break;v=1.0;p=0.9} @self ~onDeath
+  - sound{s=block.grass.place;v=0.5;p=1.1} @self ~onDamaged
+  - sound{s=entity.player.hurt_sweet_berry_bush;v=0.2;p=0.7} @self ~onDamaged
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Timberbud:
+  Type: BABY_HUSK
+  Display: '&eTimberbud &6[Lv. <caster.level>]'
+  Faction: BigTrees
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  Equipment:
+  - TimberbudHEAD HEAD
+  - TImberbudCHEST CHEST
+  - TImberbudLEGS LEGS
+  - TImberbudFEET FEET
+  Options:
+    FollowRange: 20
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - oak_log 1-3 0.2
+  - grass 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - effect:particles{p=block_crack;m=oak_leaves;a=7;s=0.1;hS=0.2;vS=0.3} @self ~onTimer:5 ?moving{}  
+
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - sound{s=entity.zombie.attack_wooden_door;v=0.1;p=1.5} @self ~onDamaged
+  - sound{s=entity.zombie.break_wooden_door;v=0.12;p=1.5} @self ~onDeath
+  - sound{s=block.grass.break;v=1.0;p=0.9} @self ~onDeath
+  - sound{s=block.grass.place;v=0.5;p=1.1} @self ~onDamaged
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+
+Tree_Soldier:
+  Type: HUSK
+  Display: '&cTree Soldier &6[Lv. <caster.level>]'
+  Faction: BigTrees
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - TreeHEAD HEAD
+  - TreeCHEST CHEST
+  - TreeLEGS LEGS
+  - TreeFEET FEET
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.24
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - oak_log 1-3 0.2
+  - oak_leaves 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - effect:particles{p=block_crack;m=oak_leaves;a=40;s=0.1;hS=0.4;vS=0.5} @self ~onTimer:10 ?moving{}  
+
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - randomskill{s=Stone_WeaponsPick,Iron_WeaponsPick} @self ~onSpawn
+  - sound{s=entity.zombie.attack_wooden_door;v=0.2} @self ~onDamaged
+  - sound{s=entity.zombie.break_wooden_door;v=0.1} @self ~onDeath
+  - sound{s=block.grass.break;v=1.0;p=0.9} @self ~onDeath
+  - sound{s=block.grass.place;v=0.5;p=1.1} @self ~onDamaged
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+
+Tree_Archer:
+  Type: SKELETON
+  Display: '&cTree Archer &6[Lv. <caster.level>]'
+  Faction: BigTrees
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - BOW HAND
+  - TreeHEAD HEAD
+  - TreeCHEST CHEST
+  - TreeLEGS LEGS
+  - TreeFEET FEET
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.22
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - oak_log 1-3 0.2
+  - oak_leaves 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - effect:particles{p=block_crack;m=oak_leaves;a=40;s=0.1;hS=0.4;vS=0.5} @self ~onTimer:10 ?moving{}  
+
+  - skill{s=Levels-41to100} @self ~onSpawn
+  - sound{s=entity.skeleton.shoot} @self ~onShoot
+  - sound{s=entity.zombie.attack_wooden_door;v=0.2} @self ~onDamaged
+  - sound{s=entity.zombie.break_wooden_door;v=0.1} @self ~onDeath
+  - sound{s=block.grass.break;v=1.0;p=0.9} @self ~onDeath
+  - sound{s=block.grass.place;v=0.5;p=1.1} @self ~onDamaged
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+
+Sapling_Cat:
+  Type: ZOMBIE
+  Display: '&eSapling Cat &6[Lv. <caster.level>]'
+  Disguise: OCELOT 
+  Faction: Flower
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  Options:
+    MovementSpeed: 0.38
+    FollowRange: 20
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - exp 41-100
+  - oak_sapling 1-3 0.2
+  - leather 1-2 0.2
+  LevelModifiers:
+    Health: 5.07
+  Skills:
+  - effect:particles{p=BLOCK_CRACK;m=ACACIA_SAPLING;a=20;s=0.1;hS=0.3;vS=0.3;y=0.1} @self ~onTimer:5 ?moving{} 
+  - effect:particles{p=BLOCK_CRACK;m=OAK_SAPLING;a=8;s=0.1;hS=0.1;vS=0.1;y=0.1} @self ~onTimer:5 ?moving{} 
+  - skill{s=Levels-41to100} @self ~onSpawn
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack

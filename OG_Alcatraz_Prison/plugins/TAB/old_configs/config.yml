@@ -1,0 +1,170 @@
+# Detailed explanation of all options available at https://github.com/NEZNAMY/TAB/wiki/config.yml
+
+change-nametag-prefix-suffix: true
+change-tablist-prefix-suffix: false
+enable-header-footer: false
+header:
+- '&r'
+- '&5&l→&d&l→&f&l→ %animation:web% &f&l←&d&l←&5&l←'
+- '&r'
+footer:
+- '&r'
+- '&dPlayers: &f%bungee_total% &dPing: &f%ping%'
+- '&dUptime: &f%server_uptime%'
+- ''
+- '&fJoin us @ &5kjfsjdkfhbsjkfkj'
+- ''
+yellow-number-in-tablist: ''
+group-sorting-priority-list:
+- owner
+- admin
+- srmod
+- mod
+- vip++
+- vip+
+- vip
+- member
+- default
+Groups:
+  Owner+:
+    tabprefix: '&6&l[Owner] &6'
+    tagprefix: '&6&l[Owner] &6'
+  Admin+:
+    tabprefix: '&0&l[&4&lAdmin&0&l] &1'
+    tagprefix: '%animation:admin_prefix%'
+  Helper+:
+    tabprefix: '&e&l[Helper] &e'
+    tagprefix: '&e&l[Helper] &e'
+  Vip++:
+    tabprefix: '&d&l[VIP&a&l+&b&l+&d&l] &d'
+    tagprefix: '&d&l[VIP&a&l+&b&l+&d&l] &d'
+  Vip+:
+    tabprefix: '&b&l[VIP&a&l+&b&l] &b'
+    tagprefix: '&b&l[VIP&a&l+&b&l] &b'
+  Vip:
+    tabprefix: '&a&l[VIP] &a'
+    tagprefix: '&a&l[VIP] &a'
+  Member:
+    tabprefix: ''
+    tagprefix: ''
+  example_group:
+    header:
+    - This is an example of per-group header/footer
+    footer:
+    - applied to a group
+  _OTHER_:
+    tabprefix: '%vault-prefix%'
+    tagprefix: '%vault-prefix%'
+    tabsuffix: '%afk%'
+    tagsuffix: '%afk%'
+    customtabname: '%essentialsnick%'
+    customtagname: '%luckperms_meta_name-color%%essentialsnick%'
+    belowname: ''
+Users:
+  FakeName__:
+    tabprefix: '&6&lTAB Author &a'
+    tagprefix: '&6&lTAB &r&a'
+    abovename: '&bOh look, 3 lines of text !'
+    belowname: '&eThere''s only one plugin out there supporting it'
+classic-vanilla-belowname:
+  enabled: false
+  number: '%health%'
+  text: Health
+enable-collision: false
+revert-collision-rule-in-worlds:
+- revertedworld
+do-not-move-spectators: false
+allow-spectator-bypass-permission: false
+unlimited-nametag-prefix-suffix-mode:
+  enabled: true
+  modify-npc-names: false
+  use-marker-tag-for-1-8-x-clients: false
+  disable-on-boats: true
+  space-between-lines: 0.22
+per-world-settings:
+  world1:
+    header:
+    - an example of world with custom
+    footer:
+    - header/footer and prefix/suffix
+    Groups:
+      Owner:
+        tabprefix: '&0&l[&a&lOwner&0&l] &a'
+        tagprefix: '&2&lOwner &a'
+  world2-world3:
+    header:
+    - This is a shared header for
+    - world2 and world3
+placeholders:
+  afk-yes: ''
+  afk-no: ''
+  date-format: MM.dd.yyyy
+  time-format: h:mm a
+  time-offset: 0
+  remove-strings:
+  - '[]'
+  - < >
+rank-aliases:
+  vip++: '&d&lVIP++'
+  vip+: '&b&lVIP+'
+  vip: '&a&lVIP'
+disable-features-in-worlds:
+  header-footer:
+  - disabledworld
+  tablist-names:
+  - disabledworld
+  nametag:
+  - disabledworld
+  yellow-number:
+  - disabledworld
+  bossbar:
+  - disabledworld
+  belowname:
+  - disabledworld
+  unlimited-nametags:
+  - disabledworld
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 100
+  server:
+    '%server_uptime%': 1000
+    '%server_tps_1_colored%': 1000
+  player:
+    '%player_health%': 200
+    '%player_ping%': 1000
+    '%vault_prefix%': 1000
+  relational:
+    '%rel_factionsuuid_relation_color%': 500
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds:
+  - ignoredworld
+  - build
+  shared-playerlist-world-groups:
+    lobby:
+    - lobby1
+    - lobby2
+    minigames:
+    - paintball
+    - bedwars
+sort-players-by-permissions: false
+fix-pet-names: false
+use-primary-group: false
+primary-group-finding-list:
+- owner
+- admin
+- srmod
+- mod
+- helper
+- vip++
+- vip+
+- vip
+- default
+assign-groups-by-permissions: false
+debug: false
+anti-override:
+  scoreboard-teams: true
+  scoreboard-objectives: true
+invisible-nametags: false
+ping-spoof:
+  enabled: false

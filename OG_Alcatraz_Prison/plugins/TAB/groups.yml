@@ -1,0 +1,39 @@
+Owner+:
+  tabprefix: '&6&l[Owner] &6'
+  tagprefix: '&6&l[Owner] &6'
+Admin+:
+  tabprefix: '&0&l[&4&lAdmin&0&l] &1'
+  tagprefix: '%animation:admin_prefix%'
+Helper+:
+  tabprefix: '&e&l[Helper] &e'
+  tagprefix: '&e&l[Helper] &e'
+Vip++:
+  tabprefix: '&d&l[VIP&a&l+&b&l+&d&l] &d'
+  tagprefix: '&d&l[VIP&a&l+&b&l+&d&l] &d'
+Vip+:
+  tabprefix: '&b&l[VIP&a&l+&b&l] &b'
+  tagprefix: '&b&l[VIP&a&l+&b&l] &b'
+Vip:
+  tabprefix: '&a&l[VIP] &a'
+  tagprefix: '&a&l[VIP] &a'
+Member:
+  tabprefix: ''
+  tagprefix: ''
+example_group:
+  header:
+  - This is an example of per-group header/footer
+  footer:
+  - applied to a group
+per-world:
+  world1:
+    Owner:
+      tabprefix: '&0&l[&a&lOwner&0&l] &a'
+      tagprefix: '&2&lOwner &a'
+_DEFAULT_:
+  tabprefix: '%vault-prefix%'
+  tagprefix: '%vault-prefix%'
+  tabsuffix: '%afk%'
+  tagsuffix: '%afk%'
+  customtabname: '%essentialsnick%'
+  customtagname: '%luckperms_meta_name-color%%essentialsnick%'
+  belowname: ''

@@ -1,0 +1,58 @@
+# The name of this file is the quest ID. It must be alphanumeric and unique.
+# Everything inside of this section defines tasks the player must complete to progress.
+tasks:
+  # This is the task ID ("mining"). This can share the same name as the quest ID but MUST be unique with all other task IDs in the same quest.
+  wood:
+    # This defines what type of task this is. In this instance, it is "blockbreak" (breaking blocks)
+    # NOTE: guides to set up each type of task is on the wiki (see README)!
+    type: "crafting"
+    item: OAK_PLANKS
+    # This defines the amount of blocks which need to be broken
+    amount: 400
+  # You can have multiple tasks for each quest (example further down).
+
+# Everything inside of this section defines the display item.
+display:
+  # This is the name of the item. This allows color codes.
+  name: "&3Crafting I &7(Basic Task)"
+  # This is the lore of the item if the player has not started the quest. This allows color codes and task/player placeholders.
+  lore-normal:
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Craft &b400 Oak Planks&7."
+    - ""
+    - "&7Rewards:"
+    - "&7 - &b5 &7Enchant Tokens."
+  # This lore will be appended to the bottom of the above lore when the player starts their quest.
+  # To get the players progress through a task, use {TASKID:progress}  and replace TASKID with the ID of the task.
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - &b{wood:progress}&7/400 Oak Planks crafted."
+  # This is the material of the item. It is recommended to stick to bukkit names.
+  type: "CRAFTING_TABLE"
+
+# List all commands to be executed by the server when the player completes the quest. Use {player} to get the players name.
+rewards:
+  - "token give {player} 5"
+# These placeholders are accessible using PlaceholderAPI, for example %quests_tracked_p:description%
+# They are useful for putting information about the players tracked quest on a scoreboard
+# You may want to keep the names of them the same for ALL quests for this use-case
+placeholders:
+  description: "Craft 400 Oak Planks"
+  progress: "{wood:progress}/400"
+
+# Everything inside this section define quest-specific options
+options:
+  # This is the category for the quest, it will appear under the "examples" category. Categories can be disabled.
+  category: "weekly"
+  # Set if the quest can be repeated after being completed for the first time.
+  repeatable: true
+  # Define the cooldown on quests. The above (repeatable) must be true for this to take effect.
+  cooldown:
+    # If true, players will have to wait between repeating quests.
+    enabled: true
+    # Time (in minutes)
+    time: 10080
+  # This is the relative position in the GUI
+  sort-order: 4

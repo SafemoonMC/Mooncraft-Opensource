@@ -1,0 +1,7 @@
+PlayerLimit:
+  default:
+    projects:
+      Crafting: 10
+    total:
+      enable: false
+      amount: -1

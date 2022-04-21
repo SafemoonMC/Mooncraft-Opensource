@@ -1,0 +1,67 @@
+WickedWitchSpawn:
+  Cooldown: 1
+  Skills:
+  - effect:lightning @Self
+  - effect:blockmask{m=bedrock;r=5} @Self
+  - message{m="&r"} @PlayersInRadius{r=50}
+  - message{m="&4&lAzrael Has Spawned!"} @PlayersInRadius{r=50}
+  - message{m="&r"} @PlayersInRadius{r=50}
+  - effect:particles{p=witchMagic;a=200;hS=1;vS=1;s5} @Self
+  - sound{s=record.11;volume=2.0;pitch=0.1} @Self
+  - delay 20
+  - sound{s=entity.witch.ambient;volume=1.0;pitch=0.75} @Self
+  - potion{type=SLOW;duration=100;level=1} @PlayersInRadius{r=25} ~onSpawn
+  - potion{type=WEAKNESS;duration=100;level=1} @PlayersInRadius{r=25} ~onSpawn
+  
+WickedWitchFlame:
+  Cooldown: 20
+  Skills:
+  - effect:particles{particle=angryVillager;amount=50;hS=0.1;vS=0.1;speed=5} @self
+  - sound{s=entity.witch.death;volume=1.0;pitch=0.75} @Self
+  - delay 30
+  - sound{s=entity.wither.break_block;volume=2.5;pitch=0.01} @Self
+  - potion{type=SLOW;duration=100;level=5} @PlayersInRadius{r=25}
+  - potion{type=SLOW_DIGGING;duration=100;level=20} @PlayersInRadius{r=25}
+  - delay 20
+  - potion{type=LEVITATION;duration=100;level=0} @PlayersInRadius{r=25}
+  - delay 20
+  - effect:particleline{particle=flame;ys=1.0;amount=10;fromOrigin=false} @PlayersInRadius{r=25}
+  - delay 3
+  - effect:particleline{particle=flame;ys=1.0;amount=10;fromOrigin=false} @PlayersInRadius{r=25}
+  - delay 3
+  - effect:particleline{particle=flame;ys=1.0;amount=10;fromOrigin=false} @PlayersInRadius{r=25}
+  - delay 3
+  - effect:particleline{particle=flame;ys=1.0;amount=10;fromOrigin=false} @PlayersInRadius{r=25}
+  - delay 3
+  - ignite{ticks=100} @PlayersInRadius{r=25}
+  - effect:particleline{particle=flame;ys=1.0;amount=10;fromOrigin=false} @PlayersInRadius{r=25}
+  
+WickedWitchSpell:
+  Cooldown: 20
+  Skills:
+  - sound{s=entity.splash_potion.break;volume=2.5;pitch=0.01} @PlayersInRadius{r=25}
+  - effect:geyser{type=LAVA;height=5;speed=10} @PlayersInRadius{r=25}
+  - delay 20
+  - sound{s=entity.splash_potion.break;volume=2.5;pitch=0.01} @PlayersInRadius{r=25}
+  - effect:geyser{type=LAVA;height=5;speed=10} @PlayersInRadius{r=25}
+  - delay 40
+  - sound{s=entity.splash_potion.break;volume=2.5;pitch=0.01} @PlayersInRadius{r=25}
+  - effect:geyser{type=LAVA;height=5;speed=10} @PlayersInRadius{r=25}
+  
+WickedWitchTrap:
+  Cooldown: 30
+  Skills:
+  - prison{material=IRON_BLOCK;duration=100;breakable=false} @PlayersInRadius{r=25}
+  
+WickedWitchDeath:
+  Cooldown: 1
+  Skills:
+  - message{m="&r"} @PlayersInRadius{r=50}
+  - message{m="&a&lAzrael Has Been Defeated!"} @PlayersInRadius{r=50}
+  - message{m="&r"} @PlayersInRadius{r=50}
+  - effect:lightning @Self
+  - sound{s=ui.toast.challenge_complete;volume=2.5;pitch=0.01} @Self
+  - delay 20
+  - sound{s=ui.toast.challenge_complete;volume=2.5;pitch=0.01} @PlayersInRadius{r=25}
+  
+  

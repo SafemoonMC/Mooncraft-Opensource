@@ -1,0 +1,16 @@
+#
+# EnchantmentBlocker by Mackenzie Molloy
+#
+
+blocked-items:
+  - DIAMOND_PICKAXE
+  - GOLDEN_PICKAXE
+  - WOODEN_PICKAXE
+  - STONE_PICKAXE
+  - NETHERITE_PICKAXE
+  - IRON_PICKAXE
+
+messages:
+  no-permission: "&cYou do not have permission for that command. :("
+  config-reloaded: "&aConfig reloaded."
+  cannot-enchant-item: "&3MoonEnchant &8| &7Pickaxes can only be upgraded through the &cEnchanter"

@@ -1,0 +1,85 @@
+Shroom_BeholderHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGY5MzM3ZWQ4YmIwMTg5NzRkZWQwOThhMTE0N2E2ZTkxMGE5NmExZTIyZTAzMDkzN2VjZGZmMWNkM2ViNTBkIn19fQ==
+
+Shroom_BeholderCHEST:
+  Id: LEATHER_CHESTPLATE
+  Options:
+    Color: 186,94,196
+
+Shroom_BeholderLEGS:
+  Id: LEATHER_LEGGINGS
+  Options:
+    Color: 165,62,176 #151,31,171
+
+Shroom_BeholderFEET:
+  Id: LEATHER_BOOTS
+  Options:
+   # Color: 151,31,171
+
+
+
+Shroom_GnomeHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDkzNmQ3OWU0ZmRhODU5ZDYwOGM4NTNjMTBlZDQyNzYxYjkzNzk5MjBiMDBiMTU1NDMzYzgyOTNmOTFiM2U2ZiJ9fX0=
+
+Shroom_GnomeCHEST:
+  Id: LEATHER_CHESTPLATE
+  Options:
+    Color: 250,59,45
+
+Shroom_GnomeLEGS:
+  Id: LEATHER_LEGGINGS
+  Options:
+    Color: 222,120,113
+
+Shroom_GnomeFEET:
+  Id: LEATHER_BOOTS
+  Options:
+    Color: 250,59,45
+
+MushroomiteHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjljMjhjMDRkZWUzNjBiZTY2ZjEzNDljM2Q3MTU3YmExZTg4NTE1OWZiMTRjYThiN2IzNGQyMDkwOWJiNTU3MyJ9fX0=
+
+MushroomiteCHEST:
+  Id: LEATHER_CHESTPLATE
+  Options:
+    Color: 250,59,45
+
+MushroomiteLEGS:
+  Id: LEATHER_LEGGINGS
+  Options:
+    Color: 222,120,113
+
+MushroomiteFEET:
+  Id: LEATHER_BOOTS
+  Options:
+    Color: 235,64,52
+
+Mutant_MushroomiteHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM0Yjk0YWYxZWQ0NTJjMjU2YzI0NzRhZjgzN2YxMzc3Njc4MDgxZTI4MTBmYWMxYzMxOWMzOTYzMTY2MjNiZiJ9fX0=
+
+Mushroom_HighguardHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQ4OTc5YmQ0MzVlMzY5OWI5MWU1ODgzYzBmNDQzNmI4NDJiZjJjZGRhNWRmYzJmYzg0NjIxZTczMWFkZjA5NyJ9fX0=
+
+
+Fungus_SkeletonHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQ4OTc5YmQ0MzVlMzY5OWI5MWU1ODgzYzBmNDQzNmI4NDJiZjJjZGRhNWRmYzJmYzg0NjIxZTczMWFkZjA5NyJ9fX0=
+
+
+
+Mushroom_FlowerHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODBmODg2NTAzZDI1ZmFkY2JlYTllZTc3Nzk4OTAyNTdkZTBlM2U5NGE0Y2FmN2E2N2M2ODg2MzFjZjJiNjY5In19fQ==
+

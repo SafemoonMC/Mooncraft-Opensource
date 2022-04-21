@@ -1,0 +1,46 @@
+Armored_BanditHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzhhY2M2ZjZmMGFlMTc2YjVjYjczNDVhZTMxMDk4MTUwMzA5NjFiODBiN2M3OGQ4OTk5OWQxOTIzMmVhNDAyYyJ9fX0=
+
+Armored_BanditCHEST:
+  Id: IRON_CHESTPLATE
+  Options:
+   # Color: 83,47,89
+
+Armored_BanditLEGS:
+  Id: LEATHER_LEGGINGS
+  Options:
+    Color: 89,40,40
+
+Armored_BanditFEET:
+  Id: LEATHER_BOOTS
+  Options:
+    Color: 150,65,65
+
+Flaming_WispHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzcxNzkzM2M0MGZiZjkzNmFhOTI4ODUxM2VmZTE5YmRhNDYwMWVmYzBlNGVjYWQyZTAyM2IwYzFkMjg0NDRiIn19fQ==
+
+Molten_GolemHEAD:
+  Id: PLAYER_HEAD
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDBkNTQ5ZjM2N2FiY2JlYTM5MjUyYmEyNzVmNWMzYzFjYjE2OTQ1ZmNmNDcyMTIzZWUyNmQ5YzlkZDQwZSJ9fX0=
+
+Molten_GolemCHEST:
+  Id: LEATHER_CHESTPLATE
+  Options:
+    Color: 56,26,21
+
+Molten_GolemLEGS:
+  Id: LEATHER_LEGGINGS
+  Options:
+    Color: 56,26,21
+
+Molten_GolemFEET:
+  Id: LEATHER_BOOTS
+  Options:
+    #Color: 83,47,89
+
+

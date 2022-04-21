@@ -1,0 +1,5 @@
+&7
+&b&lWebsite &8| &fhttps://mc.safemoon.net
+&b&lServer Store &8| &fhttps://mcstore.safemoon.net
+&b&lDiscord &8| &fhttps://discord.gg/mooncraft
+&7

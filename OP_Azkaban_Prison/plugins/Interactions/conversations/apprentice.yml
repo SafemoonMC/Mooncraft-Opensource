@@ -1,0 +1,79 @@
+name: '{centered}&bApprentice'
+starts_with:
+- NPC with id 16
+block_movement: false
+slow_effect: false
+save_conversation_progress: false
+start_conversation_radius: 0
+end_conversation_radius: 12
+requires_permission: false
+cooldown: 0
+conversation:
+  conversation1:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7You have other things to do right now.'
+        time: 2
+        conditional_dialogue:
+          conditional_dialogue1:
+            requires:
+            - '%quests_player_has_current_quest_custom9% == Yes'
+            - '%quests_player_has_completed_quest_custom9% == false'
+            - '%quests_player_current_stage_number_custom9% == 1'
+            start_conversation: conversation2
+          conditional_dialogue2:
+            requires:
+            - '%quests_player_has_current_quest_custom9% == No'
+            - '%quests_player_has_current_quest_custom10% == No'
+            - '%quests_player_has_completed_quest_custom9% == true'
+            start_conversation: conversation3
+    random_dialogue: false
+  conversation2:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Hello Prisoner! I received word of your coming. I’ve been tracking
+          the Dark Wizard for months. All I’ve gathered is that he hides within a
+          cryptic vault.. Some of his followers have been lurking in The Forest. And
+          I discovered the location of one of them.'
+        - '&7'
+        time: 7
+    random_dialogue: false
+  conversation3:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Great work &f%player_name%&7! With these Cryptic Keys you’ll
+          be able to open &4Azrael’s Lair&7. But that was the only one I knew of..
+          But I think I know of someone who might be able to help..'
+        - '&7'
+        time: 5
+      dialogue2:
+        text:
+        - '{centered}&7They call him &6The Owl&7.. If it’s information you’re looking
+          for, he’s the one you ask. Last I heard he’s located in &9The Sewers&7 right
+          under the castle wall at the entrance to &2The Forest&7.'
+        - '&7'
+        time: 5
+      dialogue3:
+        text:
+        - '{centered}&7Problem is, you’ll need to find another entrance to The Sewers.
+          But there is one near the &fSnow Lions&7 in the &bFrost Realm&7.'
+        - '&7'
+        time: 5
+      dialogue4:
+        text:
+        - '{centered}&3Quest Started!'
+        - '{centered}&7The Sewers'
+        - '{centered}'
+        - '{centered}&bObjective:'
+        - '{centered}&7Locate an alternative &9Sewers &7entrance in the &bFrost Realm'
+        - '&7'
+        time: 2
+        actions:
+        - 'console_command: questadmin give %player% The Sewer'
+        show_name: false
+        save_dialogue_to_player: true
+        actions_after_dialogue: true
+    random_dialogue: false

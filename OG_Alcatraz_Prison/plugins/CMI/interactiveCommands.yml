@@ -1,0 +1,10 @@
+sellshop:
+  Locations:
+  - world;-192.0;46.0;-92.0
+  Commands:
+  - check:%cmi_iteminhand_worthc%>0#!
+  - hasitem:%cmi_iteminhand_type%-%cmi_iteminhand_amount%?#! asConsole! cmi msg [playerName]
+    !{#cancan}You have sold &2%cmi_iteminhand_realname% {#cancan}x &2%cmi_iteminhand_amount%
+    {#cancan}for &2%cmi_iteminhand_worth%
+  - item:%cmi_iteminhand_type%-%cmi_iteminhand_amount%?#! asConsole! cmi money give
+    [playerName] %cmi_iteminhand_worthc%

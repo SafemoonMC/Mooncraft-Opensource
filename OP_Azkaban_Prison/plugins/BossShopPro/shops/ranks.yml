@@ -1,0 +1,977 @@
+ShopName: ranks
+DisplayName: '&0Prison Ranks'
+Command: ranks
+signs:
+  text: '[ranks]'
+  NeedPermissionToCreateSign: true
+InventorySize: 54
+shop:
+  A1:
+    Condition:
+    - type:permission
+    - match:rank.a
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine a
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg5ZjA3M2UwZjg3ZDUwODM5NjM1NmY4YWY4ZGM3NjJjNTMxZTY2ODZiYmJlZGVhNTk4OTI3MjExZjljYmI1In19fQ==
+    - name:&aRank A
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 11
+  A2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTFkMzgzNDAxZjc3YmVmZmNiOTk4YzJjZjc5YjdhZmVlMjNmMThjNDFkOGE1NmFmZmVkNzliYjU2ZTIyNjdhMyJ9fX0=
+    - name:&cRank A
+    - 'lore:&cPrice $0'
+    - amount:1
+    InventoryLocation: 11
+  B1:
+    Condition:
+    - type:permission
+    - match:rank.b
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine b
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGMzNjFiY2U3ODFkMWFiY2ZkMTYxMmU1YTdlMjQwN2M1YmRkMjliNjhmY2ZkNTAxZWE0Y2I4MDEzZmNkNjQifX19
+    - name:&aRank B
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 12
+  B2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDRjNGEyNTRiZWM0NmUyNzQ3NTdjMDc5NzlmMGRkYWUzNmM3YjM2NTQ4N2M4ZjM1ZmZlYWQ0Y2IyZTMxMWI5In19fQ==
+    - name:&cRank B
+    - 'lore:&cPrice $5,000'
+    - amount:1
+    InventoryLocation: 12
+  C1:
+    Condition:
+    - type:permission
+    - match:rank.c
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine c
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWZlNmE0ZjdmYzMxOTU0YWM3ZDE3ZjcwMmYyMjgzNWUzMjVmOGJiNTMyNmNmZjYyNzNjN2I5Y2MxOTIxY2ExIn19fQ==
+    - name:&aRank C
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 13
+  C2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg1MTRiMjFhZTljZGY1YTMzYjg4Mjk4ZWM1YTc3ZjgyMGI4NjllOTdjZDI0OGVlOTc5MWU0ZDMxNTYwN2UifX19
+    - name:&cRank C
+    - 'lore:&cPrice $10,000'
+    - amount:1
+    InventoryLocation: 13
+  D1:
+    Condition:
+    - type:permission
+    - match:rank.d
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine d
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjljNWY1ZDA0NmJkZWU2YzM5OTZkNWM0ZGVhYjI4YjM5Y2QwZmEyZDkzNGNjMjczM2YxNDlkNmJjYmRmOGNhIn19fQ==
+    - name:&aRank D
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 14
+  D2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQ2OGFlMzE1MGQ4MWU0YzBhOWQxNzJiZDg0YzRmZjczY2RjMGI4N2ZlZThlYzY2MTIxMzQ2OGQ1NDQ0ODMifX19
+    - name:&cRank D
+    - 'lore:&cPrice $30,000'
+    - amount:1
+    InventoryLocation: 14
+  E1:
+    Condition:
+    - type:permission
+    - match:rank.e
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine e
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTc3NmZmYjNlODE5MThjM2E1NTI0MzRiZDE1YTI5Y2Y5NzE1Nzk0ZTc3OWYwNzQ0MTQ2ZmMxMmQyMzEzNDdkIn19fQ==
+    - name:&aRank E
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 15
+  E2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmY0ZjI1MTc1MmM3MzE3YmIyZmI2MjhlNGMzN2M4MmM2MDcxOWQ5MDk5ODUxNDZiMjYxODMyMTUyYTMwYWRhMiJ9fX0=
+    - name:&cRank E
+    - 'lore:&cPrice $50,000'
+    - amount:1
+    InventoryLocation: 15
+  F1:
+    Condition:
+    - type:permission
+    - match:rank.f
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine f
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ0MTNiZGIyYTdlYTI3Y2YzMDNkNzk5ZGRjNjI3ZDZmZWVkNzFiMDE4NzZiOWIxYjBlMDEzYThlMWM2MjQifX19
+    - name:&aRank F
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 16
+  F2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODhiYmMzNTIxM2M2NTEwOWZiZDhlOTA3NzFlNGM2ZGI3ODVhOWJlOGU0MDNkMjllZDhlZDJlM2RjZmIxMjgifX19
+    - name:&cRank F
+    - 'lore:&cPrice $75,000'
+    - amount:1
+    InventoryLocation: 16
+  G1:
+    Condition:
+    - type:permission
+    - match:rank.g
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine g
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWYwYThhMGJlNWQzZjNmOTRiZDMyYTNlZDkyNjJlNjYyYTVkYTkxMTkxOWZlZTkxZWJjY2YzYjc5YmY2NTgifX19
+    - name:&aRank G
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 17
+  G2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg1MzYxMzc3MjE1ZTIxNGEzNWM5NmNiYWY5ZGI2NzIxMDVhZmFmYzk0OTRiYmY0YWU3MmFhNjczYzVmZTdjIn19fQ==
+    - name:&cRank G
+    - 'lore:&cPrice $125,000'
+    - amount:1
+    InventoryLocation: 17
+  H1:
+    Condition:
+    - type:permission
+    - match:rank.h
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine h
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcyODgyMGI2MjExNTQ4NGVhNGRkODZmNDkyMmUyMzQ0YmJjZGNmOWI1N2E4NDMwNjQxYTUzNTI1YzRlMjUifX19
+    - name:&aRank H
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 20
+  H2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQ5ZTMzZDc0M2VlMzQyMjQzMzEyMjkxY2NkY2ZmZDdmY2NhNWJkYzhhNmE4NDU5ZWU4ZTYyY2U1N2FkZDcifX19
+    - name:&cRank H
+    - 'lore:&cPrice $175,000'
+    - amount:1
+    InventoryLocation: 20
+  I1:
+    Condition:
+    - type:permission
+    - match:rank.i
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine i
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGQ5YTA4YmQ3NDAyNGFjMTYyZWZiZjg4MjczN2Q3YmY5Y2EzMjg5M2NlN2FjNjk3ODMzZWQyMTg1MjNmMTEifX19
+    - name:&aRank I
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 21
+  I2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTM1YzFlNDRmYTZhNGJhNDVjMmEzNGY1MTlhY2EyNDFkODk1YzVkNzg4M2RkZTA3ZGY0NGZiOTg3NzQ4In19fQ==
+    - name:&cRank I
+    - 'lore:&cPrice $250,000'
+    - amount:1
+    InventoryLocation: 21
+  J1:
+    Condition:
+    - type:permission
+    - match:rank.j
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine j
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU5NmE5MzZmNjFlYWVhNWEyNTRhOGVhM2VmNGJiN2VkMmMwMzg4MzM3MmJhNDkwYWZjMDVmMzk5NjlmZmFiMyJ9fX0=
+    - name:&aRank J
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 22
+  J2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzdmODMxNDRjNGNlMzJlOWVhM2E0NDhjY2M4NWZkOWM5YmU0M2MyYmY1Njg4ZWMyZGQ1MzNhMTk5NTY2MTA2NiJ9fX0=
+    - name:&cRank J
+    - 'lore:&cPrice $375,000'
+    - amount:1
+    InventoryLocation: 22
+  K1:
+    Condition:
+    - type:permission
+    - match:rank.k
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine k
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQyYTQ4MDJiNmIyZGViNDljZmJiNGI3ZTI2N2UyZjlhZDQ1ZGEyNGM3MzI4NmY5N2JlZjkxZDIxNjE2NDk2In19fQ==
+    - name:&aRank K
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 23
+  K2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTg4M2I1YmViNGU2MDFjM2NiZjUwNTA1YzhiZDU1MmU4MWI5OTYwNzYzMTJjZmZlMjdiM2NjMWEyOWUzIn19fQ==
+    - name:&cRank K
+    - 'lore:&cPrice $500,000'
+    - amount:1
+    InventoryLocation: 23
+  L1:
+    Condition:
+    - type:permission
+    - match:rank.l
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine l
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODgzMWNhMmRjNjhhMTYxZTc1YzNlZGRhMWM2MzQ5ZDQxZjU1ZTU3YzcxZTk2N2Q0NTFmNGY4ODFkNzg3NmE1In19fQ==
+    - name:&aRank L
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 24
+  L2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmQxNmU5NTgyYTQ4YTQzMGU4MjdlZjA5YjcxNTc4OWE3MmQ5ZmE1YjEyMjRhMzI2MWM0YmJlNWNiYmMyYyJ9fX0=
+    - name:&cRank L
+    - 'lore:&cPrice $750,000'
+    - amount:1
+    InventoryLocation: 24
+  M1:
+    Condition:
+    - type:permission
+    - match:rank.m
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine m
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDhhNGFiZTE3ODEwNDI0NTJlN2I4Njg5MTAxNzU3ZmVkNTcyODMxNmNkN2Y1Mzk1NWJlODgzMmM0ODVlYjAifX19
+    - name:&aRank M
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 25
+  M2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTE2YWZiMzg1NzI0NzgzOTQ3YTYwNTJjYTI3NThmOWM5MzdjYjgxMzBjMGVhYzFhM2YwNjhkYzU1NDk1MzkzIn19fQ==
+    - name:&cRank M
+    - 'lore:&cPrice $1,000,000'
+    - amount:1
+    InventoryLocation: 25
+  N1:
+    Condition:
+    - type:permission
+    - match:rank.n
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine n
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTBhNTVlOWJiYmZiYzU4OWY2MmZiN2MxM2M0ZmExNjE0YWVhN2U4M2ViZmVjYzdiYjZiMmUxMjg5NWFlZmI3OCJ9fX0=
+    - name:&aRank N
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 26
+  N2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2ExZDFmNmZlYzQyOWU3Y2JhYmM2OTY1YjAzMjg1ZWM1YWM5MThlZTZlNWMzNTExYWVmODFmNTJhODQ4ZTcxIn19fQ==
+    - name:&cRank N
+    - 'lore:&cPrice $2,000,000'
+    - amount:1
+    InventoryLocation: 26
+  O1:
+    Condition:
+    - type:permission
+    - match:rank.o
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine o
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI1ZjgxM2Y2M2M3NDI5YTY3YmI3NWY3YTc4N2RiNGYzNjYxOTJiNjBmNTQzNDEwYTEzZjljODM4OTUzZGMifX19
+    - name:&aRank O
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 29
+  O2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFlY2VkZjViOGIwYWMzZjU2MTkyZmNjYjBhZGU0OGRjNWEwNDNlN2UwZWVhMmJjYzVmNTRhZDAyODFmNjdjOSJ9fX0=
+    - name:&cRank O
+    - 'lore:&cPrice $3,500,000'
+    - amount:1
+    InventoryLocation: 29
+  P1:
+    Condition:
+    - type:permission
+    - match:rank.p
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine p
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc1YTVkYzMxMDg3ZjNhMTZmMjdhNGZmY2YyNTQyZWU4ZDUyMmYyNWViMTlkMDg5NWVmYzMyY2I5YzI1NDgifX19
+    - name:&aRank P
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 30
+  P2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY1ZjIzZGRjNmU4M2FiN2QwYzRhYTljNTc0NGFmN2I5NmJjNzM5YmM4M2E5NmNiMWYyYjE4ZDY3MWYifX19
+    - name:&cRank P
+    - 'lore:&cPrice $5,000,000'
+    - amount:1
+    InventoryLocation: 30
+  Q1:
+    Condition:
+    - type:permission
+    - match:rank.q
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine q
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmU5Y2Q0ZDgxZWE5YzY1ZTRmNTRhN2RmYWY4NWEwYTE3OGJjNGUxNmQ2M2UyOGVhYTQ4YmM5YjczYWQwMzRkMyJ9fX0=
+    - name:&aRank Q
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 31
+  Q2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmZhM2MzMzEzZWEzZTJlNDE4ZTU3YzlmNWNjMzBiMGJjYzgzNWI4ZGZmYjgzYmVhZTFjMWE2MDI2YTZlYSJ9fX0=
+    - name:&cRank Q
+    - 'lore:&cPrice $6,500,000'
+    - amount:1
+    InventoryLocation: 31
+  R1:
+    Condition:
+    - type:permission
+    - match:rank.r
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine r
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjYzNjJiYTRiMmM3YjA1MzE0YmYyNWU5NWY3NjBiOTlmZTRiMzQxZGM4NDE3NzBhMjdjMjQ0YmNlYmZkNWU4In19fQ==
+    - name:&aRank R
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 32
+  R2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzVmNDVjODc1ZWZmNTM4ZmNlYzk4ZjZhY2MxZGYyYWVjYWUyOGY0ODYwYWVjZDI0ZTJkYmRmMTM5MjRiMzI3In19fQ==
+    - name:&cRank R
+    - 'lore:&cPrice $8,000,000'
+    - amount:1
+    InventoryLocation: 32
+  S1:
+    Condition:
+    - type:permission
+    - match:rank.s
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine s
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGQzNTlhZWI3NjdlOTE0NTIxZmY1YjlkMmM2ODVkYjU0ODcxZGMzZjdlOGY3MmY2ZWI4YzFmMmNhOGMyZDIifX19
+    - name:&aRank S
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 33
+  S2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmRkMmNjZTA0Njc0YzJjM2Q1YTNhOTRmZjIxOTc4N2EyYjQ1OWRlNzkwYTBjMDFmZjI5Yjk2NzI5MDcyY2QifX19
+    - name:&cRank S
+    - 'lore:&cPrice $10,000,000'
+    - amount:1
+    InventoryLocation: 33
+  T1:
+    Condition:
+    - type:permission
+    - match:rank.t
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine t
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDc1ODhmMWExNzZhYmM1ZTU4YzVjNGY4NzM3ZDVlOTViOTlhOTdmM2I1ZjUxNGU0ZTMzYmVlZTA0M2QzN2IifX19
+    - name:&aRank T
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 34
+  T2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTJjM2IyZTYyMjcxMmIxNDk1ZmI5NWRmY2IwNWViMTQzYjJmMjY5N2U2ZjNjNGU0YTNkNjg1Y2YzMWQ0In19fQ==
+    - name:&cRank T
+    - 'lore:&cPrice $20,000,000'
+    - amount:1
+    InventoryLocation: 34
+  U1:
+    Condition:
+    - type:permission
+    - match:rank.u
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine u
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY1ZWZlMjQzNjExZDc0OGU2NTA5NjE3NDI5ZDdkODRhZmNiODVjNWUyNTE2ZDhiZDVhMDExYjVkZWIwYjM3MyJ9fX0=
+    - name:&aRank U
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 35
+  U2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJkZGViMTliNGMxMjIxNzg0ZTc5ZjViNjE1ZTk0ZmJiZTc0MmI1Yjk3MmIzY2M4ZTdmNjcyZDQyNDI0NjgyYyJ9fX0=
+    - name:&cRank U
+    - 'lore:&cPrice $35,000,000'
+    - amount:1
+    InventoryLocation: 35
+  V1:
+    Condition:
+    - type:permission
+    - match:rank.v
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine v
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTBjMjNiYWZkZmFiNWEzMzEzMjFlMTM5NDI3ZmQ3Yjc1ZDZmZjU3M2FiOGM5NTg0ZjY3NzE0OWUxMjlhMmNhIn19fQ==
+    - name:&aRank V
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 39
+  V2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2NhNmVhYmVkNjIwZmQxYzM1NzlkYmU2NTY4Zjc0MjdiMzJhMDlmNzMxZGM4Yjc0NTUwNDA1OGM5ODUzNDQ5In19fQ==
+    - name:&cRank V
+    - 'lore:&cPrice $50,000,000'
+    - amount:1
+    InventoryLocation: 39
+  W1:
+    Condition:
+    - type:permission
+    - match:rank.w
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine w
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmYzNTc3N2UxNjM1YTVmMmZkMmI4MjJiODU2OTc4M2ZlYzAzM2JjZGY0NGYxYWEzNzg4OTZmZGM1YjUzNmEifX19
+    - name:&aRank W
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 40
+  W2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI1MThlMGFiMzBmZTgyZmZjNmU1YWRjNDNmZDIyODdjY2Q4ZmE0NzE1Y2JjMjlkODliNTliMjM0OGIzNGIifX19
+    - name:&cRank W
+    - 'lore:&cPrice $75,000,000'
+    - amount:1
+    InventoryLocation: 40
+  X1:
+    Condition:
+    - type:permission
+    - match:rank.x
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine x
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FiYTJkNWE1Y2E4NDJhMmRhN2QyNWEyNTllNzdiNmNiYTVhZTY1NWRkZGMyNGVhNDk1NjQxZDI5ZWZjIn19fQ==
+    - name:&aRank X
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 41
+  X2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+    - name:&cRank X
+    - 'lore:&cPrice $100,000,000'
+    - amount:1
+    InventoryLocation: 41
+  Y1:
+    Condition:
+    - type:permission
+    - match:rank.y
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine y
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjUxNDQ4ZjU5YjA3ZTZlOWRlOGIxODZhZjU5YjhmYzc2MTJkNjJiNDM4MmFlOTc2YmRmYjE0ZGFmOTQ5ODk4In19fQ==
+    - name:&aRank Y
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 42
+  Y2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg4ZjZlZTI2ZmI3NGM3YjJlMmJhM2UzYzRhNTg3MjE2YTFmZDZjYmNjNmRmZjljZDM1MGNiMjY5YWY5M2I3In19fQ==
+    - name:&cRank Y
+    - 'lore:&cPrice $150,000,000'
+    - amount:1
+    InventoryLocation: 42
+  Z1:
+    Condition:
+    - type:permission
+    - match:rank.z
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - mine z
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzA1YTVlYzA3NGNlMzI0OThkNDg0YTkxOWMxZWYwYTEzMTYzMTUzYTIzNTU0YzZmMmEzMWQxMGUxYjJkNyJ9fX0=
+    - name:&aRank Z
+    - 'lore:&7Click to teleport'
+    - amount:1
+    InventoryLocation: 43
+  Z2:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzgzY2UwODcyNTQ4YTlkMWVlYzcyZTViMTk1YWE5OWMzYjAyZjY2NTg5MmI5ODcyNzIyYWNiY2UyMWU5MyJ9fX0=
+    - name:&cRank Z
+    - 'lore:&cPrice $250,000,000'
+    - amount:1
+    InventoryLocation: 43
+  rank:
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - rankup
+    MenuItem:
+    - type:PLAYER_HEAD
+    - playerhead:%name%
+    - name:&3Rank Progress
+    - 'lore1:&bRank: &f%ultraprison_rank%'
+    - 'lore2:&bNext Rank: &f%ultraprison_next_rank%'
+    - 'lore3:&bProgress: &f%ultraprison_rankup_progress%'
+    - 'lore4:&7Click to rankup'
+    - amount:1
+    InventoryLocation: 5
+  prestige:
+    Condition:
+    - type:permission
+    - match:ultraprisoncore.prestige
+    RewardType: playercommand
+    PriceType: free
+    Reward:
+    - prestige
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY5ZTNlNmU1YjJiOTJmMGJlYjM2OGI3MzhiOTkzZDdiYTIyNWJmOWJiMjc1OGJmYzlmYzJkYWJhNGE1YTdkIn19fQ==
+    - name:&b&lPrestige Available
+    - 'lore1:&bCost: &f%ultraprison_next_rank_cost%'
+    - 'lore2:&bProgress: &f%ultraprison_rankup_progress%'
+    - 'lore3:&7Click to prestige'
+    - amount:1
+    InventoryLocation: 50
+  guard:
+    Condition:
+    - type:permission
+    - match:rank.guard
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTYwMDcyOGI5NTBkNWVhZDRmNmMwZGZjN2Y3MWJjYTc2OGNlZTUzOGI0ODAwNzE1N2MxZTBlYjU4M2YzMGJiYiJ9fX0=
+    - name:&aGuard
+    - 'lore1:&7You need to finish the guard''s'
+    - 'lore2:&7duty to be able to prestige!'
+    - 'lore3:&a'
+    - 'lore4:&7These quests can be found in'
+    - 'lore5:&7the &bGuard Tower'
+    - amount:1
+    InventoryLocation: 50
+  noprestige:
+    RewardType: nothing
+    PriceType: free
+    MenuItem:
+    - type:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjc1MzQ4MmMxZDUwNjFlOWIyNDNmMjU5YjUyZjk1YzQzM2ZmMDMwMzlhYzg0M2RkYzQ2MjY3YjkwMzA1MiJ9fX0=
+    - name:&cRank Guard
+    - 'lore:&cPrice $500,000,000'
+    - amount:1
+    InventoryLocation: 50
+  Glass1:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  Glass2:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  Glass3:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  Glass4:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  Glass5:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  Glass6:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  Glass7:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+  Glass8:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 9
+  Glass9:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+  Glass10:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 18
+  Glass11:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 19
+  Glass12:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 27
+  Glass13:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+  Glass14:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 36
+  Glass15:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 37
+  Glass16:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 45
+  Glass17:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 46
+  Glass18:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 47
+  Glass19:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 48
+  Glass20:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 49
+  Glass21:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 51
+  Glass22:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 52
+  Glass23:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 53
+  Glass24:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 54
+  Glass25:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 38
+  Glass26:
+    MenuItem:
+    - name:&2
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 44

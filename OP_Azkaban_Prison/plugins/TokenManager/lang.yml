@@ -1,0 +1,86 @@
+# DO NOT EDIT THIS VALUE!
+config-version: 8
+
+# Define placeholders usable in any message below.
+# Example: Adding 'PREFIX: "[Cool]"' below and then putting '{PREFIX}' in a message will display '[Cool]' when the message is sent in game.
+STRINGS:
+  PREFIX: ''
+  HEADER: '&8&m*]-------------[*&r &3Mooncraft&8&m*]-------------[*&r'
+  FOOTER: '&8&m*]------------------------------------[*&r'
+
+ERROR:
+  no-permission: '&cNope! You are missing %permission% to do this.'
+  invalid-amount: '&c''%input%'' is not a valid amount!'
+  player-not-found: '&cPlayer ''%input%'' is not online.'
+  shop-not-found: '&cShop ''%input%'' does not exist.'
+  invalid-sub-command: '{PREFIX} &7''&b%input%&7'' is not a valid sub command. Please type ''&b/%command%&7'' for help.'
+  balance-not-enough: '&cNot enough coins! You need %needed% more coins.'
+  data-not-enough: '&cNot enough data found to display the top coin balances.'
+  on-click-cooldown: '&cYou''re clicking too fast! Try with a little delay. (%remaining%)'
+  target-is-self: '&cYou cannot send coins to yourself.'
+  target-has-same-ip: '&cYou cannot send coins to this player. (alt prevention)'
+  no-item-in-hand: '&cYou must be holding an item to do this.'
+  item-is-worthless: '&cNo worth has been defined for this item.'
+  inventory-is-full: '&cYour inventory is full!'
+  not-enough-space: '&cYou need at least %slots% empty inventory slots to do this.'
+  on-slot-cancel: '&cYou cannot purchase this item again.'
+
+COMMAND:
+  token:
+    usage:
+    - '{HEADER}'
+    - '&7Your coin balance: &b%tokens% coins'
+    - '&b/coin balance &9<&busername&9> &8» &7Check people''s coin balance.'
+    - '&b/coin send &9<&busername&9> <&bamount&9> &8» &7Send coins to players.'
+    - '&b/coin shop &8» &7Opens the coin shop.'
+    - '&b/coin top &8» &7Displays the top coin balances.'
+    - '{FOOTER}'
+
+    send: '{PREFIX} &7Sent &b%amount% coins &7to %player%.'
+    receive: '{PREFIX} &7Received &b%amount% coins &7from %player%.'
+    balance: '{PREFIX} &7Your coins balance is &b%tokens% coins&7.'
+    balance-other: '{PREFIX} &7%player%''s coin balance is &b%tokens% coins&7.'
+    balance-top:
+      next-update: '{PREFIX} &7Next update: &b%remaining%'
+      header: '&8&m*]------[*&r &7Top &b10 &7Coin Holders&8&m*]------[*&r'
+      display-format: '&7%rank%. &b%name% &7with &b%tokens% coins'
+      footer: '&8&m*]------------------------------[*&r'
+    shops: '{PREFIX} &7Shops: &b%shops%'
+    sell: '{PREFIX} &7Sold &f%item_type% (&ax%item_amount%&f) &7for &b%amount% coins&7.'
+    sell-all: '{PREFIX} &7Sold &f%item_amount% item(s) &7for &b%amount% coins&7.'
+    worth: '{PREFIX} &f%item_type% (&ax%item_amount%&f) &7is worth &b%amount% coins&7. Type &f/coin sell &7to sell this item.'
+    worth-all:
+      item-format: '&a%item_type% (x%item_amount%): &l+%amount% coins'
+      total: '{PREFIX} &7Your inventory &f(%item_amount% items) &7is worth &b%amount% coins&7. Type &f/coin sell all &7to sell your inventory.'
+
+  tokenmanager:
+    usage:
+    - '{HEADER}'
+    - '&7Required permission: &ctokenmanager.admin'
+    - '&b/tokenmanager add &9<&busername&9> <&bamount&9> &8» &7Add coins to player.'
+    - '&b/tokenmanager remove &9<&busername&9> <&bamount&9> &8» &7Remove coins from player.'
+    - '&b/tokenmanager set &9<&busername&9> <&bamount&9> &8» &7Set coins of a player.'
+    - '&b/tokenmanager open &9<&busername&9> &9<&bname&9> &8» &7Open a shop for player.'
+    - '&b/tokenmanager giveall &9<&bamount&9> &8» &7Gives amount of coins to online players.'
+    - '&b/tokenmanager transfer &8» &7MySQL enabled: data.yml -> db. Flatfile enabled: db -> sqldump.yml'
+    - '&b/tokenmanager reload &8» &7Reloads the plugin.'
+    - '{FOOTER}'
+
+    add: '{PREFIX} &7Added &b%amount% coins &7to %player%.'
+    remove: '{PREFIX} &7Removed &b%amount% coins &7from %player%.'
+    set: '{PREFIX} &7Set %player%''s coins to &b%amount% coins&7.'
+    giveall: '{PREFIX} &7Gave &b%amount% coins &7to &b%players% &7players.'
+    open: '{PREFIX} &7Opened coin shop &7for %player%.'
+
+  sub-command-usage: '{PREFIX} &7Usage of this sub command is ''&b/%command% %usage%&7''.'
+  add: '{PREFIX} &b%amount% coins &7have been added to your balance.'
+  remove: '{PREFIX} &b%amount% coins &7have been removed from your balance.'
+
+PLACEHOLDER:
+  rank:
+    loading: 'Loading...'
+    no-data: 'No data'
+    unranked: 'Unranked'
+  top:
+    loading: 'Loading...'
+    no-data: 'No data'

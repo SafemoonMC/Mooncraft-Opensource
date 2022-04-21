@@ -1,0 +1,1228 @@
+NORMALHELMET:
+  base:
+    material: PLAYER_HEAD
+    name: '&aScrap Helmet'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: BASIC
+    armor: 1.0
+    max-health: 2.0
+    unstackable: true
+    dye-color: 42 154 49
+    hide-dye: true
+    set: SCRAP
+    crafting:
+      shaped:
+        '1':
+        - material.orb material.orb material.orb
+        - material.orb AIR material.orb
+        - AIR AIR AIR
+    unbreakable: true
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI2Njk0NmY4NGIyNzc5NmExYzdiMWI2MDY4ZWZiNzc0ODFiOGFkOGJhNGZjMWVlZjM1Y2M5NzVlMDZhZmI0MiJ9fX0=
+      uuid: 63d51951-2960-43ca-898c-94eb3ac0fad5
+NORMALCHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&aScrap Chestplate'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: BASIC
+    set: SCRAP
+    armor: 3.0
+    max-health: 4.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 42 154 49
+    crafting:
+      shaped:
+        '1':
+        - material.orb AIR material.orb
+        - material.orb material.orb material.orb
+        - material.orb material.orb material.orb
+    unbreakable: true
+NORMALLEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&aScrap Pants'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: BASIC
+    set: SCRAP
+    armor: 2.0
+    max-health: 3.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 42 154 49
+    crafting:
+      shaped:
+        '1':
+        - material.orb material.orb material.orb
+        - material.orb AIR material.orb
+        - material.orb AIR material.orb
+    unbreakable: true
+NORMALBOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: '&aScrap Shoes'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: BASIC
+    set: SCRAP
+    armor: 1.0
+    max-health: 1.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 42 154 49
+    crafting:
+      shaped:
+        '1':
+        - AIR AIR AIR
+        - material.orb AIR material.orb
+        - material.orb AIR material.orb
+    unbreakable: true
+ENHANCEDHELMET:
+  base:
+    material: PLAYER_HEAD
+    name: '&aEnhanced Scrap Helmet'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: COMMON
+    armor: 1.0
+    max-health: 7.0
+    unstackable: true
+    dye-color: 42 154 49
+    hide-dye: true
+    set: ENHANCEDSCRAP
+    crafting:
+      shaped:
+        '1':
+        - material.enhancedorb material.enhancedorb material.enhancedorb
+        - material.enhancedorb AIR material.enhancedorb
+        - AIR AIR AIR
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    unbreakable: true
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDEzYWQ0ZmE0ODExOGQxMGExZWY0MmZkNmQ1ODU0NzIyMDNiZDg4YTk4YTA4N2FiNDMxODJhYTA0OTNlYTg0MiJ9fX0=
+      uuid: 08090c3d-a4e1-4ee0-bd07-b85311576307
+    permission:
+    - item.enhanced
+    craft-permission: craft.enhanced
+    lore:
+    - '&7Requirement: &fPrestige 1'
+ENHANCEDCHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&aEnhanced Scrap Chestplate'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: COMMON
+    set: ENHANCEDSCRAP
+    armor: 3.0
+    max-health: 9.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 42 154 49
+    crafting:
+      shaped:
+        '1':
+        - material.enhancedorb AIR material.enhancedorb
+        - material.enhancedorb material.enhancedorb material.enhancedorb
+        - material.enhancedorb material.enhancedorb material.enhancedorb
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    unbreakable: true
+    permission:
+    - item.enhanced
+    craft-permission: craft.enhanced
+    lore:
+    - '&7Requirement: &fPrestige 1'
+ENHANCEDLEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&aEnhanced Scrap Pants'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: COMMON
+    set: ENHANCEDSCRAP
+    armor: 2.0
+    max-health: 8.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 42 154 49
+    crafting:
+      shaped:
+        '1':
+        - material.enhancedorb material.enhancedorb material.enhancedorb
+        - material.enhancedorb AIR material.enhancedorb
+        - material.enhancedorb AIR material.enhancedorb
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    unbreakable: true
+    permission:
+    - item.enhanced
+    craft-permission: craft.enhanced
+    lore:
+    - '&7Requirement: &fPrestige 1'
+ENHANCEDBOOTS:
+  base:
+    material: LEATHER_BOOTS
+    will-break: false
+    name: '&aEnhanced Scrap Shoes'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: COMMON
+    set: ENHANCEDSCRAP
+    armor: 1.0
+    max-health: 6.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 42 154 49
+    crafting:
+      shaped:
+        '1':
+        - AIR AIR AIR
+        - material.enhancedorb AIR material.enhancedorb
+        - material.enhancedorb AIR material.enhancedorb
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    unbreakable: true
+    permission:
+    - item.enhanced
+    craft-permission: craft.enhanced
+    lore:
+    - '&7Requirement: &fPrestige 1'
+STONEHELMET:
+  base:
+    material: PLAYER_HEAD
+    name: '&9Stone Helmet'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: UNCOMMON
+    armor: 1.5
+    max-health: 11.0
+    unstackable: true
+    dye-color: 129 129 129
+    hide-dye: true
+    set: STONE
+    crafting:
+      shaped:
+        '1':
+        - material.stoneorb material.stoneorb material.stoneorb
+        - material.stoneorb AIR material.stoneorb
+        - AIR AIR AIR
+    projectile-damage-reduction: 2.0
+    unbreakable: true
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTc5YzkxNDQ0OTZkMjFmMzMzNGIzMjQzN2RlZWI2MzM3OTc2NjM5OWQwYTkyYmMwNjcxMmJhNTkyYmMyMzdlNiJ9fX0=
+      uuid: 8f0e518f-0c3d-4963-a3dc-8c3a2f05e9f3
+    permission:
+    - item.stone
+    craft-permission: craft.stone
+    lore:
+    - '&7Requirement: &fPrestige 2'
+STONECHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&9Stone Chestplate'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: UNCOMMON
+    set: STONE
+    armor: 3.5
+    max-health: 12.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 129 129 129
+    crafting:
+      shaped:
+        '1':
+        - material.stoneorb AIR material.stoneorb
+        - material.stoneorb material.stoneorb material.stoneorb
+        - material.stoneorb material.stoneorb material.stoneorb
+    projectile-damage-reduction: 4.0
+    unbreakable: true
+    permission:
+    - item.stone
+    craft-permission: craft.stone
+    lore:
+    - '&7Requirement: &fPrestige 2'
+STONELEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&9Stone Pants'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: UNCOMMON
+    set: STONE
+    armor: 2.5
+    max-health: 13.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 129 129 129
+    crafting:
+      shaped:
+        '1':
+        - material.stoneorb material.stoneorb material.stoneorb
+        - material.stoneorb AIR material.stoneorb
+        - material.stoneorb AIR material.stoneorb
+    projectile-damage-reduction: 3.0
+    unbreakable: true
+    permission:
+    - item.stone
+    craft-permission: craft.stone
+    lore:
+    - '&7Requirement: &fPrestige 2'
+STONEBOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: '&9Stone Shoes'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: UNCOMMON
+    set: STONE
+    armor: 1.5
+    max-health: 10.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 129 129 129
+    crafting:
+      shaped:
+        '1':
+        - AIR AIR AIR
+        - material.stoneorb AIR material.stoneorb
+        - material.stoneorb AIR material.stoneorb
+    projectile-damage-reduction: 1.0
+    unbreakable: true
+    permission:
+    - item.stone
+    craft-permission: craft.stone
+    lore:
+    - '&7Requirement: &fPrestige 2'
+ENHANCEDSTONEHELMET:
+  base:
+    material: PLAYER_HEAD
+    name: '&9Enhanced Stone Helmet'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: RARE
+    armor: 1.5
+    max-health: 15.0
+    unstackable: true
+    dye-color: 129 129 129
+    hide-dye: true
+    set: ENHANCEDSTONE
+    crafting:
+      shaped:
+        '1':
+        - material.enhancedstoneorb material.enhancedstoneorb material.enhancedstoneorb
+        - material.enhancedstoneorb AIR material.enhancedstoneorb
+        - AIR AIR AIR
+    projectile-damage-reduction: 2.5
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    unbreakable: true
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjM3YTU5NmNkYzRiMTFhOTk0OGZmYTM4YzJhYTNjNjk0MmVmNDQ5ZWIwYTM5ODIyODFkM2E1YjVhMTRlZjZhZSJ9fX0=
+      uuid: 903d8855-0635-4212-bbaa-06ed437e2aa0
+    permission:
+    - item.enhancedstone
+    craft-permission: craft.enhancedstone
+    lore:
+    - '&7Requirement: &fPrestige 3'
+ENHANCEDSTONECHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&9Enhanced Stone Chestplate'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: RARE
+    set: ENHANCEDSTONE
+    armor: 4.0
+    max-health: 19.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 129 129 129
+    crafting:
+      shaped:
+        '1':
+        - material.enhancedstoneorb AIR material.enhancedstoneorb
+        - material.enhancedstoneorb material.enhancedstoneorb material.enhancedstoneorb
+        - material.enhancedstoneorb material.enhancedstoneorb material.enhancedstoneorb
+    projectile-damage-reduction: 4.5
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    unbreakable: true
+    permission:
+    - item.enhancedstone
+    craft-permission: craft.enhancedstone
+    lore:
+    - '&7Requirement: &fPrestige 3'
+ENHANCEDSTONELEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&9Enhanced Stone Pants'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: RARE
+    set: ENHANCEDSTONE
+    armor: 3.0
+    max-health: 17.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 129 129 129
+    crafting:
+      shaped:
+        '1':
+        - material.enhancedstoneorb material.enhancedstoneorb material.enhancedstoneorb
+        - material.enhancedstoneorb AIR material.enhancedstoneorb
+        - material.enhancedstoneorb AIR material.enhancedstoneorb
+    projectile-damage-reduction: 3.5
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    unbreakable: true
+    permission:
+    - item.enhancedstone
+    craft-permission: craft.enhancedstone
+    lore:
+    - '&7Requirement: &fPrestige 3'
+ENHANCEDSTONEBOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: '&9Enhanced Stone Shoes'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: RARE
+    set: ENHANCEDSTONE
+    armor: 2.0
+    max-health: 13.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 129 129 129
+    crafting:
+      shaped:
+        '1':
+        - AIR AIR AIR
+        - material.enhancedstoneorb AIR material.enhancedstoneorb
+        - material.enhancedstoneorb AIR material.enhancedstoneorb
+    projectile-damage-reduction: 1.5
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    unbreakable: true
+    permission:
+    - item.enhancedstone
+    craft-permission: craft.enhancedstone
+    lore:
+    - '&7Requirement: &fPrestige 3'
+FROSTHELMET:
+  base:
+    material: PLAYER_HEAD
+    name: '&fFrost Helmet'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: VERY_RARE
+    armor: 2.5
+    max-health: 20.0
+    unstackable: true
+    dye-color: 0 239 255
+    hide-dye: true
+    set: FROST
+    crafting:
+      shaped:
+        '1':
+        - material.frostorb material.frostorb material.frostorb
+        - material.frostorb AIR material.frostorb
+        - AIR AIR AIR
+    projectile-damage-reduction: 2.5
+    fall-damage-reduction: 1
+    unbreakable: true
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTRjNjgzNGM4YmYwYjgxZjkyY2YwZGE0YmQ5OWFkNzY0MTU0ZDUzNjhhMzhlMDNjODVhZGRhMTBlNTE4ODkwYSJ9fX0=
+      uuid: 0fc187a4-c8cb-417a-8719-8c4d56259286
+    permission:
+    - item.frost
+    craft-permission: craft.frost
+    lore:
+    - '&7Requirement: &fPrestige 5'
+FROSTCHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&fFrost Chestplate'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: VERY_RARE
+    set: FROST
+    armor: 5.0
+    max-health: 24.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 0 239 255
+    crafting:
+      shaped:
+        '1':
+        - material.frostorb AIR material.frostorb
+        - material.frostorb material.frostorb material.frostorb
+        - material.frostorb material.frostorb material.frostorb
+    projectile-damage-reduction: 4.5
+    fall-damage-reduction: 3
+    unbreakable: true
+    permission:
+    - item.frost
+    craft-permission: craft.frost
+    lore:
+    - '&7Requirement: &fPrestige 5'
+FROSTLEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&fFrost Pants'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: VERY_RARE
+    set: FROST
+    armor: 4.0
+    max-health: 22.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 0 239 255
+    crafting:
+      shaped:
+        '1':
+        - material.frostorb material.frostorb material.frostorb
+        - material.frostorb AIR material.frostorb
+        - material.frostorb AIR material.frostorb
+    projectile-damage-reduction: 3.5
+    fall-damage-reduction: 2
+    unbreakable: true
+    permission:
+    - item.frost
+    craft-permission: craft.frost
+    lore:
+    - '&7Requirement: &fPrestige 5'
+FROSTBOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: '&fFrost Shoes'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: VERY_RARE
+    set: FROST
+    armor: 3.0
+    max-health: 18.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 0 239 255
+    crafting:
+      shaped:
+        '1':
+        - AIR AIR AIR
+        - material.frostorb AIR material.frostorb
+        - material.frostorb AIR material.frostorb
+    projectile-damage-reduction: 1.5
+    fall-damage-reduction: 1.0
+    unbreakable: true
+    permission:
+    - item.frost
+    craft-permission: craft.frost
+    lore:
+    - '&7Requirement: &fPrestige 5'
+ENHANCEDFROSTHELMET:
+  base:
+    material: PLAYER_HEAD
+    name: '&fEnhanced Frost Helmet'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: EPIC
+    armor: 3.0
+    max-health: 26.0
+    unstackable: true
+    dye-color: 0 239 255
+    hide-dye: true
+    set: ENHANCEDFROST
+    crafting:
+      shaped:
+        '1':
+        - material.enhancedfrostorb material.enhancedfrostorb material.enhancedfrostorb
+        - material.enhancedfrostorb AIR material.enhancedfrostorb
+        - AIR AIR AIR
+    projectile-damage-reduction: 2.5
+    fall-damage-reduction: 1.5
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    unbreakable: true
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWEyOTg0Y2YwN2M0OGRhOTcyNDgxNmE4ZmYwODY0YmM2OGJjZTY5NGNlOGJkNmRiMjExMmI2YmEwMzEwNzBkZSJ9fX0=
+      uuid: a8fdd3e8-6326-4a0d-944f-7ae0a048f9d1
+    permission:
+    - item.enhancedfrost
+    craft-permission: craft.enhancedfrost
+    lore:
+    - '&7Requirement: &fPrestige 7'
+ENHANCEDFROSTCHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&fEnhanced Frost Chestplate'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: EPIC
+    set: ENHANCEDFROST
+    armor: 6.0
+    max-health: 30.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 0 239 255
+    crafting:
+      shaped:
+        '1':
+        - material.enhancedfrostorb AIR material.enhancedfrostorb
+        - material.enhancedfrostorb material.enhancedfrostorb material.enhancedfrostorb
+        - material.enhancedfrostorb material.enhancedfrostorb material.enhancedfrostorb
+    projectile-damage-reduction: 4.5
+    fall-damage-reduction: 4
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    unbreakable: true
+    permission:
+    - item.enhancedfrost
+    craft-permission: craft.enhancedfrost
+    lore:
+    - '&7Requirement: &fPrestige 7'
+ENHANCEDFROSTLEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&fEnhanced Frost Pants'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: EPIC
+    set: ENHANCEDFROST
+    armor: 5.0
+    max-health: 28.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 0 239 255
+    crafting:
+      shaped:
+        '1':
+        - material.enhancedfrostorb material.enhancedfrostorb material.enhancedfrostorb
+        - material.enhancedfrostorb AIR material.enhancedfrostorb
+        - material.enhancedfrostorb AIR material.enhancedfrostorb
+    projectile-damage-reduction: 3.5
+    fall-damage-reduction: 3
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    unbreakable: true
+    permission:
+    - item.enhancedfrost
+    craft-permission: craft.enhancedfrost
+    lore:
+    - '&7Requirement: &fPrestige 7'
+ENHANCEDFROSTBOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: '&fEnhanced Frost Shoes'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: EPIC
+    set: ENHANCEDFROST
+    armor: 3.5
+    max-health: 24.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 0 239 255
+    crafting:
+      shaped:
+        '1':
+        - AIR AIR AIR
+        - material.enhancedfrostorb AIR material.enhancedfrostorb
+        - material.enhancedfrostorb AIR material.enhancedfrostorb
+    projectile-damage-reduction: 1.5
+    fall-damage-reduction: 2.0
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    unbreakable: true
+    permission:
+    - item.enhancedfrost
+    craft-permission: craft.enhancedfrost
+    lore:
+    - '&7Requirement: &fPrestige 7'
+FIREHELMET:
+  base:
+    material: PLAYER_HEAD
+    name: '&6Fire Helmet'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: MYTHICAL
+    armor: 3.5
+    max-health: 30.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 255 137 0
+    set: FIRE
+    crafting:
+      shaped:
+        '1':
+        - material.fireorb material.fireorb material.fireorb
+        - material.fireorb AIR material.fireorb
+        - AIR AIR AIR
+    projectile-damage-reduction: 2.5
+    fall-damage-reduction: 1.5
+    fire-damage-reduction: 2.5
+    unbreakable: true
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhjNzI0MmIzNDQwZGQ5YzJiYTJlYzI3Yzc5MjI2NDM0MDZlNWZlOGY2YWFlN2I1MDlkNGY2NjY3ZDgyMzZkNSJ9fX0=
+      uuid: fa9e2c25-9644-48ef-a147-4c28576f55a0
+    permission:
+    - item.fire
+    craft-permission: craft.fire
+    lore:
+    - '&7Requirement: &fPrestige 10'
+FIRECHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&6Fire Chestplate'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: MYTHICAL
+    set: FIRE
+    armor: 7.0
+    max-health: 34.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 255 137 0
+    crafting:
+      shaped:
+        '1':
+        - material.fireorb AIR material.fireorb
+        - material.fireorb material.fireorb material.fireorb
+        - material.fireorb material.fireorb material.fireorb
+    projectile-damage-reduction: 4.5
+    fall-damage-reduction: 4
+    fire-damage-reduction: 4.5
+    unbreakable: true
+    permission:
+    - item.fire
+    craft-permission: craft.fire
+    lore:
+    - '&7Requirement: &fPrestige 10'
+FIRELEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&6Fire Pants'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: MYTHICAL
+    set: FIRE
+    armor: 6.0
+    max-health: 32.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 255 137 0
+    crafting:
+      shaped:
+        '1':
+        - material.fireorb material.fireorb material.fireorb
+        - material.fireorb AIR material.fireorb
+        - material.fireorb AIR material.fireorb
+    projectile-damage-reduction: 3.5
+    fall-damage-reduction: 3
+    fire-damage-reduction: 3.5
+    unbreakable: true
+    permission:
+    - item.fire
+    craft-permission: craft.fire
+    lore:
+    - '&7Requirement: &fPrestige 10'
+FIREBOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: '&6Fire Shoes'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: MYTHICAL
+    set: FIRE
+    armor: 4.0
+    max-health: 28.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 255 137 0
+    crafting:
+      shaped:
+        '1':
+        - AIR AIR AIR
+        - material.fireorb AIR material.fireorb
+        - material.fireorb AIR material.fireorb
+    projectile-damage-reduction: 1.5
+    fall-damage-reduction: 2.0
+    fire-damage-reduction: 2.0
+    unbreakable: true
+    permission:
+    - item.fire
+    craft-permission: craft.fire
+    lore:
+    - '&7Requirement: &fPrestige 10'
+ENHANCEDFIREHELMET:
+  base:
+    material: PLAYER_HEAD
+    name: '&6Enhanced Fire Helmet'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: LEGENDARY
+    armor: 4.0
+    max-health: 36.0
+    unstackable: true
+    dye-color: 255 137 0
+    hide-dye: true
+    set: ENHANCEDFIRE
+    crafting:
+      shaped:
+        '1':
+        - material.enhancedfireorb material.enhancedfireorb material.enhancedfireorb
+        - material.enhancedfireorb AIR material.enhancedfireorb
+        - AIR AIR AIR
+    projectile-damage-reduction: 2.5
+    fall-damage-reduction: 1.5
+    fire-damage-reduction: 3.0
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    unbreakable: true
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc4YmM0YjI1NjRmMWFlZjI5MzlkNWFhMjg1ZjNhZmFlMDJlOWQ5ZjA4MjQzYjI1Nzk5MTNmZDhmZWRkY2I1NiJ9fX0=
+      uuid: 840cef6c-f0c9-47ec-83c7-2549431270a6
+    permission:
+    - item.enhancedfire
+    craft-permission: craft.enhancedfire
+    lore:
+    - '&7Requirement: &fPrestige 20'
+ENHANCEDFIRECHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&6Enhanced Fire Chestplate'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: LEGENDARY
+    set: ENHANCEDFIRE
+    armor: 7.0
+    max-health: 40.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 255 137 0
+    crafting:
+      shaped:
+        '1':
+        - material.enhancedfireorb AIR material.enhancedfireorb
+        - material.enhancedfireorb material.enhancedfireorb material.enhancedfireorb
+        - material.enhancedfireorb material.enhancedfireorb material.enhancedfireorb
+    projectile-damage-reduction: 4.5
+    fall-damage-reduction: 4
+    fire-damage-reduction: 5.0
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    unbreakable: true
+    permission:
+    - item.enhancedfire
+    craft-permission: craft.enhancedfire
+    lore:
+    - '&7Requirement: &fPrestige 20'
+ENHANCEDFIRELEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&6Enhanced Fire Pants'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: LEGENDARY
+    set: ENHANCEDFIRE
+    armor: 6.5
+    max-health: 38.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 255 137 0
+    crafting:
+      shaped:
+        '1':
+        - material.enhancedfireorb material.enhancedfireorb material.enhancedfireorb
+        - material.enhancedfireorb AIR material.enhancedfireorb
+        - material.enhancedfireorb AIR material.enhancedfireorb
+    projectile-damage-reduction: 3.5
+    fall-damage-reduction: 3
+    fire-damage-reduction: 4.0
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    unbreakable: true
+    permission:
+    - item.enhancedfire
+    craft-permission: craft.enhancedfire
+    lore:
+    - '&7Requirement: &fPrestige 20'
+ENHANCEDFIREBOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: '&6Enhanced Fire Shoes'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: LEGENDARY
+    set: ENHANCEDFIRE
+    armor: 4.5
+    max-health: 34.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 255 137 0
+    crafting:
+      shaped:
+        '1':
+        - AIR AIR AIR
+        - material.enhancedfireorb AIR material.enhancedfireorb
+        - material.enhancedfireorb AIR material.enhancedfireorb
+    projectile-damage-reduction: 1.5
+    fall-damage-reduction: 2.0
+    fire-damage-reduction: 2.5
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    unbreakable: true
+    permission:
+    - item.enhancedfire
+    craft-permission: craft.enhancedfire
+    lore:
+    - '&7Requirement: &fPrestige 20'
+SHADOWHELMET:
+  base:
+    material: PLAYER_HEAD
+    name: '&4Shadow Helmet'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: MAGICAL
+    armor: 4.5
+    max-health: 40.0
+    unstackable: true
+    dye-color: 128 0 255
+    hide-dye: true
+    set: SHADOW
+    crafting:
+      shaped:
+        '1':
+        - material.shadoworb material.shadoworb material.shadoworb
+        - material.shadoworb AIR material.shadoworb
+        - AIR AIR AIR
+    projectile-damage-reduction: 2.5
+    fall-damage-reduction: 1.5
+    fire-damage-reduction: 3.0
+    magic-damage-reduction: 2.0
+    unbreakable: true
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJhMDIzNjM2YTdmMDMwMGE3NGNjNTBkM2U0ZGJiODFhN2JjMTQ4NWYwZGFmNmU5YTdjMGY0ZDhhMmUzYTE4ZiJ9fX0=
+      uuid: 903a9ac9-af0d-419b-9e52-aca8553def75
+    permission:
+    - item.shadow
+    craft-permission: craft.shadow
+    lore:
+    - '&7Requirement: &fPrestige 35'
+SHADOWCHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&4Shadow Chestplate'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: MAGICAL
+    set: SHADOW
+    armor: 7.5
+    max-health: 44.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 128 0 255
+    crafting:
+      shaped:
+        '1':
+        - material.shadoworb AIR material.shadoworb
+        - material.shadoworb material.shadoworb material.shadoworb
+        - material.shadoworb material.shadoworb material.shadoworb
+    projectile-damage-reduction: 4.5
+    fall-damage-reduction: 4
+    fire-damage-reduction: 5.0
+    magic-damage-reduction: 4.0
+    unbreakable: true
+    permission:
+    - item.shadow
+    craft-permission: craft.shadow
+    lore:
+    - '&7Requirement: &fPrestige 35'
+SHADOWLEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&4Shadow Pants'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: MAGICAL
+    set: SHADOW
+    armor: 6.5
+    max-health: 42.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 128 0 255
+    crafting:
+      shaped:
+        '1':
+        - material.shadoworb material.shadoworb material.shadoworb
+        - material.shadoworb AIR material.shadoworb
+        - material.shadoworb AIR material.shadoworb
+    projectile-damage-reduction: 3.5
+    fall-damage-reduction: 3.0
+    fire-damage-reduction: 4.0
+    magic-damage-reduction: 4.0
+    unbreakable: true
+    permission:
+    - item.shadow
+    craft-permission: craft.shadow
+    lore:
+    - '&7Requirement: &fPrestige 35'
+SHADOWBOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: '&4Shadow Shoes'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: MAGICAL
+    set: SHADOW
+    armor: 5.0
+    max-health: 38.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 128 0 255
+    crafting:
+      shaped:
+        '1':
+        - AIR AIR AIR
+        - material.shadoworb AIR material.shadoworb
+        - material.shadoworb AIR material.shadoworb
+    projectile-damage-reduction: 1.5
+    fall-damage-reduction: 2.0
+    fire-damage-reduction: 2.5
+    magic-damage-reduction: 2.0
+    unbreakable: true
+    permission:
+    - item.shadow
+    craft-permission: craft.shadow
+    lore:
+    - '&7Requirement: &fPrestige 35'
+ENHANCEDSHADOWHELMET:
+  base:
+    material: PLAYER_HEAD
+    name: '&4Enhanced Shadow Helmet'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: OP
+    armor: 5.0
+    max-health: 50.0
+    unstackable: true
+    dye-color: 128 0 255
+    hide-dye: true
+    set: ENHANCEDSHADOW
+    crafting:
+      shaped:
+        '1':
+        - material.enhancedshadoworb material.enhancedshadoworb material.enhancedshadoworb
+        - material.enhancedshadoworb AIR material.enhancedshadoworb
+        - AIR AIR AIR
+    projectile-damage-reduction: 2.5
+    fall-damage-reduction: 1.5
+    fire-damage-reduction: 3.0
+    magic-damage-reduction: 3.0
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    unbreakable: true
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjkyMmI1ZjhkNTU0Y2E5MjNmOTY4MzJhNWE0ZTkxNjliYzJjZGIzNjBhMmIwNmViZWMwOWI2YTZhZjQ2MThlMyJ9fX0=
+      uuid: 2bc2ea70-0199-4430-9320-e5da15ed69e9
+    permission:
+    - item.enhancedshadow
+    craft-permission: craft.enhancedshadow
+    lore:
+    - '&7Requirement: &fPrestige 50'
+    - ''
+    - '&7Shift-Click the item from'
+    - '&7your inventory to wear it.'
+ENHANCEDSHADOWCHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&4Enhanced Shadow Chestplate'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: OP
+    set: ENHANCEDSHADOW
+    armor: 7.0
+    max-health: 60.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 128 0 255
+    crafting:
+      shaped:
+        '1':
+        - material.enhancedshadoworb AIR material.enhancedshadoworb
+        - material.enhancedshadoworb material.enhancedshadoworb material.enhancedshadoworb
+        - material.enhancedshadoworb material.enhancedshadoworb material.enhancedshadoworb
+    projectile-damage-reduction: 4.5
+    fall-damage-reduction: 4
+    fire-damage-reduction: 5.0
+    magic-damage-reduction: 6.0
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    unbreakable: true
+    permission:
+    - item.enhancedshadow
+    craft-permission: craft.enhancedshadow
+    lore:
+    - '&7Requirement: &fPrestige 50'
+ENHANCEDSHADOWLEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&4Enhanced Shadow Pants'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: OP
+    set: ENHANCEDSHADOW
+    armor: 7.0
+    max-health: 55.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 128 0 255
+    crafting:
+      shaped:
+        '1':
+        - material.enhancedshadoworb material.enhancedshadoworb material.enhancedshadoworb
+        - material.enhancedshadoworb AIR material.enhancedshadoworb
+        - material.enhancedshadoworb AIR material.enhancedshadoworb
+    projectile-damage-reduction: 3.5
+    fall-damage-reduction: 3
+    fire-damage-reduction: 4.0
+    magic-damage-reduction: 5.0
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    unbreakable: true
+    permission:
+    - item.enhancedshadow
+    craft-permission: craft.enhancedshadow
+    lore:
+    - '&7Requirement: &fPrestige 50'
+ENHANCEDSHADOWBOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: '&4Enhanced Shadow Shoes'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: OP
+    set: ENHANCEDSHADOW
+    armor: 5.5
+    max-health: 45.0
+    unstackable: true
+    hide-dye: true
+    dye-color: 128 0 255
+    crafting:
+      shaped:
+        '1':
+        - AIR AIR AIR
+        - material.enhancedshadoworb AIR material.enhancedshadoworb
+        - material.enhancedshadoworb AIR material.enhancedshadoworb
+    projectile-damage-reduction: 1.5
+    fall-damage-reduction: 2.0
+    fire-damage-reduction: 2.5
+    magic-damage-reduction: 3.0
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    unbreakable: true
+    permission:
+    - item.enhancedshadow
+    craft-permission: craft.enhancedshadow
+    lore:
+    - '&7Requirement: &fPrestige 50'
+AZRAELHEADTROPHY:
+  base:
+    material: PLAYER_HEAD
+    name: '&4&lAzrael Head Trophy'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    tier: OP
+    armor: 5.0
+    max-health: 10.0
+    unstackable: true
+    dye-color: 128 0 255
+    hide-dye: true
+ #   set: AZRAEL
+    crafting: []
+    projectile-damage-reduction: 10.0
+    fire-damage-reduction: 10.0
+    magic-damage-reduction: 10.0
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    unbreakable: true
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzJlMmQwZWQxNGMyMzg2MjY2NmI0MDVhZWZhYmM2NWE1N2EyNzFlODQyZmRhNWY0ZDE5ZTZiYzExOGNlMGM5NCJ9fX0=
+      uuid: 4c494158-9548-4015-bf8b-37b979709235
+    permission:
+    - azrael.head
+    craft-permission: azrael.head
+    lore:
+    - '&7Reward for killing &4Azrael'
+    - '&7and completing the Azkaban'
+    - '&7Story.'
+    - ''
+    - '&7Shift-Click from inventory to wear.'

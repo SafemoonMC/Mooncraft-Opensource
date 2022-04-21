@@ -1,0 +1,331 @@
+ORB:
+  base:
+    material: PLAYER_HEAD
+    name: '&aOrb'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: BASIC
+    lore:
+    - '&aOrbs &7are used to obtain gear and can be'
+    - '&7upgraded to &aEnhanced Orbs'
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY0YWQ4ZGEzMTllNmViMzc3MjFlMDJjNzg4NjQ5OTBiNDVmYzBmZWEwNmVlNTJlZDRjMjRhYzE5NzI3OGNiNyJ9fX0=
+      uuid: 074f9396-7b45-44a3-bc33-8ba105a5d182
+ENHANCEDORB:
+  base:
+    material: PLAYER_HEAD
+    name: '&aEnhanced Orb'
+    lore:
+    - '&aEnhanced Orbs &7are used to obtain gear'
+    - '&7and can be upgraded to &9Stone Orbs'
+    enchants:
+      unbreaking: 1.0
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: COMMON
+    crafting:
+      shaped:
+        '1':
+        - material.orb material.orb material.orb
+        - material.orb material.orb material.orb
+        - material.orb material.orb material.orb
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQxNDQ5MDk3YjRiNzlhOWY2Y2FmNjM0NDQxOGYyMDM0ZGU0YmI5NzFmZWI3YThlNGFhY2JmYjkwNWFjZGNlZiJ9fX0=
+      uuid: f960f9d7-2bba-4149-b565-240fdab82f5b
+    hide-enchants: true
+    permission:
+    - item.enhanced
+    craft-permission: craft.enhanced
+STONEORB:
+  base:
+    material: PLAYER_HEAD
+    name: '&9Stone Orb'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: UNCOMMON
+    lore:
+    - '&9Stone Orbs &7are used to obtain gear and can be'
+    - '&7upgraded to &9Enhanced Stone Orbs'
+    crafting:
+      shaped:
+        '1':
+        - material.enhancedorb material.enhancedorb material.enhancedorb
+        - material.enhancedorb material.enhancedorb material.enhancedorb
+        - material.enhancedorb material.enhancedorb material.enhancedorb
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU1YmMxY2Y4NmU0OTkwNjU0M2MzMTY5OWJlNjdmNjJmZGQ3ZjY1YzgzNjNjZjIwNTkyZGI1N2ExNTExNjZkZSJ9fX0=
+      uuid: dcfd396a-446f-4bec-be50-4188c59f7a19
+    permission:
+    - item.stone
+    craft-permission: craft.stone
+ENHANCEDSTONEORB:
+  base:
+    material: PLAYER_HEAD
+    name: '&9Enhanced Stone Orb'
+    lore:
+    - '&9Enhanced Stone Orbs &7are used to obtain gear'
+    - '&7and can be upgraded to &fFrost Orbs'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: RARE
+    crafting:
+      shaped:
+        '1':
+        - material.stoneorb material.stoneorb material.stoneorb
+        - material.stoneorb material.stoneorb material.stoneorb
+        - material.stoneorb material.stoneorb material.stoneorb
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFkYzRhMDI0NzE4ZDQwMWVlYWU5ZTk1YjNjOTI3NjdmOTE2ZjMyM2M5ZTgzNjQ5YWQxNWM5MjY1ZWU1MDkyZiJ9fX0=
+      uuid: 0328fcc5-b9fd-4722-b799-1efe745862d5
+    permission:
+    - item.enhancedstone
+    craft-permission: craft.enhancedstone
+FROSTORB:
+  base:
+    material: PLAYER_HEAD
+    name: '&fFrost Orb'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: VERY RARE
+    lore:
+    - '&fFrost Orbs &7are used to obtain gear and can be'
+    - '&7upgraded to &fEnhanced Frost Orbs'
+    crafting:
+      shaped:
+        '1':
+        - material.enhancedstoneorb material.enhancedstoneorb material.enhancedstoneorb
+        - material.enhancedstoneorb material.enhancedstoneorb material.enhancedstoneorb
+        - material.enhancedstoneorb material.enhancedstoneorb material.enhancedstoneorb
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQ4N2ZmYWIxNWQ2MjhjYjBlZDQ5MzkxOWUxNTRkYTBiOTdiMDYxM2JiNDBmOGIzODc1N2RlNTA3YmJkNjA5NCJ9fX0=
+      uuid: 7aafdf40-225e-44c1-85c7-f58122279ce0
+    permission:
+    - item.frost
+    craft-permission: craft.frost
+ENHANCEDFROSTORB:
+  base:
+    material: PLAYER_HEAD
+    name: '&fEnhanced Frost Orb'
+    lore:
+    - '&fEnhanced Frost Orbs &7are used to obtain gear'
+    - '&7and can be upgraded to &6Fire Orbs'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: EPIC
+    crafting:
+      shaped:
+        '1':
+        - material.frostorb material.frostorb material.frostorb
+        - material.frostorb material.frostorb material.frostorb
+        - material.frostorb material.frostorb material.frostorb
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY3OTliZmFhM2EyYzYzYWQ4NWRkMzc4ZTY2ZDU3ZDlhOTdhM2Y4NmQwZDlmNjgzYzQ5ODYzMmY0ZjVjIn19fQ==
+      uuid: fd270c48-5a9e-4c7d-9501-af61bafc08b5
+    permission:
+    - item.enhancedfrost
+    craft-permission: craft.enhancedfrost
+FIREORB:
+  base:
+    material: PLAYER_HEAD
+    name: '&6Fire Orb'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: MYTHICAL
+    lore:
+    - '&6Fire Orbs &7are used to obtain gear and can be'
+    - '&7upgraded to &6Enhanced Fire Orbs'
+    crafting:
+      shaped:
+        '1':
+        - material.enhancedfrostorb material.enhancedfrostorb material.enhancedfrostorb
+        - material.enhancedfrostorb material.enhancedfrostorb material.enhancedfrostorb
+        - material.enhancedfrostorb material.enhancedfrostorb material.enhancedfrostorb
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGM4MjNjOGU1M2QzYWU3NTNjMTkxYzUxZmU2Njc5MTE1MjczMzA2NDFhMDE2YTEzMzI1MDIzYTM5OWYwMTcyYSJ9fX0=
+      uuid: 61690fe6-7f7d-4199-b64d-46a703b9c605
+    permission:
+    - item.fire
+    craft-permission: craft.fire
+ENHANCEDFIREORB:
+  base:
+    material: PLAYER_HEAD
+    name: '&6Enhanced Fire Orb'
+    lore:
+    - '&6Enhanced Fire Orbs &7are used to obtain gear'
+    - '&7and can be upgraded to &4Shadow Orbs'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: LEGENDARY
+    crafting:
+      shaped:
+        '1':
+        - material.fireorb material.fireorb material.fireorb
+        - material.fireorb material.fireorb material.fireorb
+        - material.fireorb material.fireorb material.fireorb
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzM2ODdlMjVjNjMyYmNlOGFhNjFlMGQ2NGMyNGU2OTRjM2VlYTYyOWVhOTQ0ZjRjZjMwZGNmYjRmYmNlMDcxIn19fQ==
+      uuid: 34979e5e-8e89-4b86-8ca6-f963638645df
+    permission:
+    - item.enhancedfire
+    craft-permission: craft.enhancedfire
+SHADOWORB:
+  base:
+    material: PLAYER_HEAD
+    name: '&4Shadow Orb'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: MAGICAL
+    lore:
+    - '&4Shadow Orbs &7are used to obtain gear and can be'
+    - '&7upgraded to &4Enhanced Shadow Orbs'
+    crafting:
+      shaped:
+        '1':
+        - material.enhancedfireorb material.enhancedfireorb material.enhancedfireorb
+        - material.enhancedfireorb material.enhancedfireorb material.enhancedfireorb
+        - material.enhancedfireorb material.enhancedfireorb material.enhancedfireorb
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2FhNGE3YmIyY2I4OGM3ZDExZWUxYWRmYTQwZDlhY2Q3NWQ4ZmIwNmIxMWE0OTY5Y2UwNzE1Y2Y5OGUwYzVjYSJ9fX0=
+      uuid: 9f993629-eccc-4a7d-a05d-dbf26ac9c72b
+    permission:
+    - item.shadow
+    craft-permission: craft.shadow
+ENHANCEDSHADOWORB:
+  base:
+    material: PLAYER_HEAD
+    name: '&4Enhanced Shadow Orb'
+    lore:
+    - '&4Enhanced Shadow Orbs &7are used to obtain gear'
+    - '&7and are the highest tier in the game.'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: OP
+    crafting:
+      shaped:
+        '1':
+        - material.shadoworb material.shadoworb material.shadoworb
+        - material.shadoworb material.shadoworb material.shadoworb
+        - material.shadoworb material.shadoworb material.shadoworb
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZhNzY2MzFjMjNlZTJhNzAwZjMzZGNmYTY1Yzc0ZGQzMGQwZjE1N2YzNTE1ZGIyMjU3Y2FkNjhlMmRjN2MzYSJ9fX0=
+      uuid: 5512f710-502f-4441-a8a4-f7f58cda1caa
+    permission:
+    - item.enhancedshadow
+    craft-permission: craft.enhancedshadow
+HILT:
+  base:
+    material: STICK
+    name: '&7Forgotten Hilt'
+    lore:
+    - '&7Hilts are used to create weapons'
+    - '&7to advance in the game!'
+    - '&a'
+    - '&7Can be used with &aOrbs &7and &9Stone Orbs'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: COMMON
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m material wood 1.0..|m material wood 1.0..|m material wood 1.0..
+          - m material wood 1.0..|m material wood 1.0..|m material wood 1.0..
+          - m material wood 1.0..|m material wood 1.0..|m material wood 1.0..
+ELEMENTHILT:
+  base:
+    material: STICK
+    name: '&dElement Hilt'
+    lore:
+    - '&7Hilts are used to create weapons'
+    - '&7to advance in the game!'
+    - '&a'
+    - '&7Can be used with &fFrost Orbs'
+    - '&7and with &6Fire Orbs'
+    enchants:
+      unbreaking: 1.0
+    hide-enchants: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    item-particles: {}
+    tier: RARE
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m material hilt 1.0..|m material hilt 1.0..|m material hilt 1.0..
+          - m material hilt 1.0..|m material hilt 1.0..|m material hilt 1.0..
+          - m material hilt 1.0..|m material hilt 1.0..|m material hilt 1.0..
+    permission:
+    - item.frost
+    craft-permission: craft.frost
+GODLYHILT:
+  base:
+    material: BLAZE_ROD
+    name: '&cGodly Hilt'
+    lore:
+    - '&7Hilts are used to create weapons'
+    - '&7to advance in the game!'
+    - '&a'
+    - '&7Can be used with &4Shadow Orbs'
+    item-particles:
+      particle: VILLAGER_HAPPY
+      type: FIREFLIES
+      height: 2.0
+      radius: 0.2
+      amount: 1.0
+      rotation-speed: 1.5
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m material elementhilt 1.0..|m material elementhilt 1.0..|m material elementhilt
+            1.0..
+          - m material elementhilt 1.0..|m material elementhilt 1.0..|m material elementhilt
+            1.0..
+          - m material elementhilt 1.0..|m material elementhilt 1.0..|m material elementhilt
+            1.0..
+    tier: LEGENDARY
+    permission:
+    - item.shadow
+    craft-permission: craft.shadow
+WOOD:
+  base:
+    material: DARK_OAK_BUTTON
+    name: '&bHilt Dust'
+    lore:
+    - '&bHilt Dust &7is used to create Hilts'
+    - '&7which are needed to craft weapons!'
+    - '&a'
+    - '&7Can be obtained by breaking wood!'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: BASIC

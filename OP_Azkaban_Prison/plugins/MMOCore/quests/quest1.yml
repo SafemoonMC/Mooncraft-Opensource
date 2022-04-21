@@ -1,0 +1,35 @@
+
+# Display options
+name: 'The Beginning of an Adventure'
+lore:
+- 'Main Story: Quest 1'
+- ''
+- '&eRewards:'
+- '&7► &a$100'
+
+# Parent quests
+parent: []
+
+# Quest objectives
+objectives:
+    1:
+        type: 'talkto{npc=8}'
+        lore: '&7Go find the &cPrison Warden'
+        bar-color: RED
+        triggers:
+        - 'message{format="&cPrison Warden: &7Welcome to your new home prisoner %player_name%!"}'
+        - 'message{format="&cPrison Warden: &7This is where you''ll serve out your &b100 year sentence&7. I still can''t believe you &bassassinated King Pat&7... and as a trusted guard in his own kingdom. Makes me SICK! Well, this is the realm of &bAzkaban&7. This place is also home to some of the biggest and baddest criminals in the 12 realms. Let''s make sure you know who''s in charge here! Start by finding the &cLumberjack&7!"}'
+    2:
+        type: 'talkto{npc=9}'
+        lore: '&7Go talk to the &cLumberjack.'
+        bar-color: RED
+        triggers:
+        - 'message{format="&cLumberjack: &7Hello there! I''m in charge of all the trees you see behind me! You can break &bWood &7to get &bdust &7which is needed to craft gear! Good luck with your journey!"}'
+        - 'sound{sound=ENTITY_PLAYER_LEVELUP;volume=1,pitch=1}'
+    3:
+        type: 'talkto{npc=10}'
+        lore: '&7Go talk to the &cBlacksmith.'
+        bar-color: YELLOW
+        triggers:
+        - 'message{format="&cBlacksmith: &7!"}'
+        - 'sound{sound=ENTITY_PLAYER_LEVELUP;volume=1,pitch=1}'

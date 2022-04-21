@@ -1,0 +1,21 @@
+one:
+    two:
+        three: four
+signs:
+    top:
+        '1': '&7&m       &r #{POSITION} &7&m       '
+        '2': '&6{NAME}'
+        '3': '&e{VALUE} {VALUENAME}'
+        '4': '&7&m                   '
+formatted:
+    k: k
+    m: m
+    t: t
+    b: b
+    q: q
+noperm: You don't have permission to do this!
+commands:
+    reload:
+        success: '&aConfigs reloaded!'
+        fail: '&cAn error occurred while reloading one of your configs. Check the
+            console for more info.'

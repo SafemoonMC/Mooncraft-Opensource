@@ -1,0 +1,65 @@
+lucky-blocks:
+  SPONGE:
+  - tokens give %player% 1000
+display-token-messages: true
+top_update_interval: 10
+tokens-top-format:
+- '&8&m+----------&r &3Tokens &bTop&r &8&m----------+'
+- '{FOR_EACH_PLAYER} &f#%position% &7- &f%player% &b%tokens% Tokens'
+- '&8&m+-------------------------------+'
+blocks-top-format:
+- '&8&m+----------&r &3Blocks &bTop&r &8&m----------+'
+- '{FOR_EACH_PLAYER} &f#%position%&7 - &f%player% &b%blocks% Blocks'
+- '&8&m+------------------------------+'
+blocks-top-weekly-format:
+- '&8&m+---------&r &3Blocks &bWeekly&r &8&m---------+'
+- '{FOR_EACH_PLAYER} &f#%position%&7 - &f%player% &b%blocks% Blocks'
+- '&8&m+-------------------------------+'
+messages:
+  no_permission: '&c&l(!) &fYou do not have permission to do that!'
+  tokens_cant_send_to_yourself: '&c&l(!) &cYou can''t send tokens to yourself.'
+  lucky_block_mined: '&e&lLUCKY BLOCK &8» &7You have mined a &e&lLUCKY BLOCK &7and
+    received &6%amount% Tokens!'
+  not_enough_tokens: '&3Prison &8| &7You don''t have enough tokens'
+  your_tokens: '&3Prison &8| &7Your Tokens: &b%tokens%'
+  other_tokens: '&3Prison &8| &7%player%''s Tokens: &b%tokens%'
+  your_blocks: '&3Prison &8| &7Your Blocks: &b%blocks%'
+  other_blocks: '&3Prison &8| &7%player%''s Blocks: &b%blocks%'
+  withdraw_successful: '&3Prison &8| &7You have withdrawn &b%value%x %amount% &7Tokens!'
+  admin_set_tokens: '&3Prison &8| &7Successfuly set &b%player%''s &7tokens to &b%tokens%&7
+    tokens.'
+  admin_give_tokens: '&3Prison &8| &7Successfuly given &b%tokens% &7tokens to &b%player%&7.'
+  admin_remove_tokens: '&3Prison &8| &7Successfuly removed &b%tokens% &7tokens from
+    &b%player%&7.'
+  admin_set_blocks: '&3Prison &8| &7Successfuly set &b%blocks%''s &7blocks to &b%blocks%&7.'
+  admin_give_blocks: '&3Prison &8| &7Successfuly given &b%blocks% &7blocks to &b%player%&7.'
+  admin_remove_blocks: '&3Prison &8| &7Successfuly removed &b%blocks% &7blocks from
+    &b%player%&7.'
+  not_token_item: '&cThis is not a token item!'
+  tokens_redeem: '&3Prison &8| &7You redeemed &b%tokens% &7token(s)'
+  tokens_send: '&3Prison &8| &7You have sent &b%tokens%&7 tokens to &b%player%&7.'
+  tokens_received: '&3Prison &8| &7You received &b%tokens%&7 tokens from &b%player%&7.'
+  tokens_received_console: '&3Prison &8| &b+%tokens% &7Tokens.'
+  not_a_number: '&c%input% is not a number!'
+  player_not_online: '&3Prison &8| &cPlayer &e%player% &cis not online!'
+  top_updating: '&cLeaderboard is currently updating...'
+  top_weekly_reset: '&3Prison &8| &7&oTime Left: %time%'
+  token_message_disabled: '&3Prison &8| &7Messages &cOFF'
+  token_message_enabled: '&3Prison &8| &7Messages &aON'
+  tokens_received_mining: '&3MoonTokens &8| &b+%amount% &7Tokens.'
+tokens:
+  breaking:
+    chance: 1.0
+    max: 3
+    min: 1
+  item:
+    material: NETHER_STAR
+    name: '&3%amount% Tokens'
+    lore:
+    - '&cPickaxes'
+    - '&a'
+    - '&7Tokens are used to upgrade your'
+    - '&7pickaxe and progress in the game!'
+    - '&a'
+    - '&7Right-Click to redeem'
+next-reset-weekly: 1633430009207

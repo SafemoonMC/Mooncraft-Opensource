@@ -1,0 +1,27 @@
+voidcultist2:
+  MobName: Void_Cultist
+  World: OPP1
+  X: 15
+  Y: 9
+  Z: -209
+  Yaw: 0.0
+  Pitch: 0.0
+  Radius: 12
+  UseTimer: true
+  MaxMobs: '8'
+  MobLevel: '74'
+  MobsPerSpawn: 1
+  Cooldown: 6
+  CooldownTimer: 0
+  Warmup: 0
+  WarmupTimer: 0
+  CheckForPlayers: false
+  ActivationRange: 40
+  ScalingRange: 25.0
+  LeashRange: 15
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0

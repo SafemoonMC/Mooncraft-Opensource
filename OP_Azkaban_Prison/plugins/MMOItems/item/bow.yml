@@ -1,0 +1,414 @@
+SCRAPBOW:
+  base:
+    material: BOW
+    name: '&aScrap Bow'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    arrow-velocity: 1.0
+    unbreakable: true
+    tier: BASIC
+    unstackable: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m material hilt 1.0..|m material orb 1.0..|v AIR 0 1..
+          - m material hilt 1.0..|v AIR 0 1..|m material orb 1.0..
+          - m material hilt 1.0..|m material orb 1.0..|v AIR 0 1..
+    attack-damage: 2.0
+ENHANCEDBOW:
+  base:
+    material: BOW
+    name: '&aEnhanced Scrap Bow'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    arrow-velocity: 1.1
+    unbreakable: true
+    tier: COMMON
+    unstackable: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m material hilt 1.0..|m material enhancedorb 1.0..|v AIR 0 1..
+          - m material hilt 1.0..|v AIR 0 1..|m material enhancedorb 1.0..
+          - m material hilt 1.0..|m material enhancedorb 1.0..|v AIR 0 1..
+    permission:
+    - item.enhanced
+    craft-permission: craft.enhanced
+    attack-damage: 4.0
+    lore:
+    - '&7Requirement: &fPrestige 1'
+STONEBOW:
+  base:
+    material: BOW
+    name: '&9Stone Bow'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    arrow-velocity: 1.2
+    unbreakable: true
+    tier: UNCOMMON
+    unstackable: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m material hilt 1.0..|m material stoneorb 1.0..|v AIR 0 1..
+          - m material hilt 1.0..|v AIR 0 1..|m material stoneorb 1.0..
+          - m material hilt 1.0..|m material stoneorb 1.0..|v AIR 0 1..
+    permission:
+    - item.stone
+    craft-permission: craft.stone
+    pve-damage: 5.0
+    attack-damage: 6.0
+    lore:
+    - '&7Requirement: &fPrestige 2'
+ENHANCEDSTONEBOW:
+  base:
+    material: BOW
+    name: '&9Enhanced Stone Bow'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    arrow-velocity: 1.3
+    unbreakable: true
+    tier: RARE
+    unstackable: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m material hilt 1.0..|m material enhancedstoneorb 1.0..|v AIR 0 1..
+          - m material hilt 1.0..|v AIR 0 1..|m material enhancedstoneorb 1.0..
+          - m material hilt 1.0..|m material enhancedstoneorb 1.0..|v AIR 0 1..
+    permission:
+    - item.enhancedstone
+    craft-permission: craft.enhancedstone
+    pve-damage: 7.5
+    attack-damage: 8.0
+    lore:
+    - '&7Requirement: &fPrestige 3'
+FROSTBOW:
+  base:
+    material: BOW
+    name: '&fFrost Bow'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    arrow-velocity: 1.4
+    unbreakable: true
+    tier: VERY_RARE
+    unstackable: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m material elementhilt 1.0..|m material frostorb 1.0..|v AIR 0 1..
+          - m material elementhilt 1.0..|v AIR 0 1..|m material frostorb 1.0..
+          - m material elementhilt 1.0..|m material frostorb 1.0..|v AIR 0 1..
+    permission:
+    - item.frost
+    craft-permission: craft.frost
+    pve-damage: 7.5
+    arrow-potion-effects:
+      SLOW:
+        duration: 5.0
+        amplifier: 1
+    lore:
+    - '&7Applies &f5 Seconds &7of Slowness to enemies on hit.'
+    - '&a'
+    - '&7Requirement: &fPrestige 5'
+    attack-damage: 10.0
+ENHANCEDFROSTBOW:
+  base:
+    material: BOW
+    name: '&fEnhanced Frost Bow'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    arrow-velocity: 1.5
+    unbreakable: true
+    tier: EPIC
+    unstackable: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m material elementhilt 1.0..|m material enhancedfrostorb 1.0..|v AIR 0
+            1..
+          - m material elementhilt 1.0..|v AIR 0 1..|m material enhancedfrostorb 1.0..
+          - m material elementhilt 1.0..|m material enhancedfrostorb 1.0..|v AIR 0
+            1..
+    permission:
+    - item.enhancedfrost
+    craft-permission: craft.enhancedfrost
+    pve-damage: 7.5
+    arrow-potion-effects:
+      SLOW:
+        duration: 10
+        amplifier: 1
+    lore:
+    - '&7Applies &f10 Seconds &7of Slowness to enemies on hit.'
+    - '&a'
+    - '&7Requirement: &fPrestige 7'
+    attack-damage: 13.0
+FIREBOW:
+  base:
+    material: BOW
+    name: '&6Fire Bow'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    arrow-velocity: 1.6
+    unbreakable: true
+    tier: MYTHICAL
+    unstackable: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m material elementhilt 1.0..|m material fireorb 1.0..|v AIR 0 1..
+          - m material elementhilt 1.0..|v AIR 0 1..|m material fireorb 1.0..
+          - m material elementhilt 1.0..|m material fireorb 1.0..|v AIR 0 1..
+    permission:
+    - item.fire
+    craft-permission: craft.fire
+    pve-damage: 7.5
+    lore:
+    - '&7Applies &fFlame &7to enemies on hit.'
+    - '&a'
+    - '&7Requirement: &fPrestige 10'
+    enchants:
+      flame: 1.0
+    hide-enchants: true
+    attack-damage: 15.0
+    arrow-particles:
+      amount: 50
+      offset: 0.0
+      particle: FLAME
+      speed: 0.0
+ENHANCEDFIREBOW:
+  base:
+    material: BOW
+    name: '&6Enhanced Fire Bow'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    arrow-velocity: 1.7
+    unbreakable: true
+    tier: LEGENDARY
+    unstackable: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m material elementhilt 1.0..|m material enhancedfireorb 1.0..|v AIR 0
+            1..
+          - m material elementhilt 1.0..|v AIR 0 1..|m material enhancedfireorb 1.0..
+          - m material elementhilt 1.0..|m material enhancedfireorb 1.0..|v AIR 0
+            1..
+    permission:
+    - item.enhancedfire
+    craft-permission: craft.enhancedfire
+    pve-damage: 7.5
+    lore:
+    - '&7Applies &fFlame &7to enemies on hit.'
+    - '&a'
+    - '&7Requirement: &fPrestige 20'
+    enchants:
+      flame: 1.0
+    hide-enchants: true
+    attack-damage: 18.0
+    arrow-particles:
+      amount: 100
+      offset: 0.01
+      particle: FLAME
+      speed: 0.01
+INFINITEFIREBOW:
+  base:
+    material: BOW
+    name: '&6Infinite Fire Bow'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    arrow-velocity: 1.7
+    unbreakable: true
+    tier: LEGENDARY
+    unstackable: true
+    crafting:
+      shapeless:
+        '1':
+          input:
+          - m bow enhancedfirebow 1.0..
+          - m bow enhancedfirebow 1.0..
+    permission:
+    - item.enhancedfire
+    craft-permission: craft.enhancedfire
+    pve-damage: 7.5
+    lore:
+    - '&7Requires &f1 Arrow &7only.'
+    - '&7Applies &fFlame &7to enemies on hit.'
+    - '&a'
+    - '&7Requirement: &fPrestige 20'
+    enchants:
+      flame: 1.0
+      infinity: 1.0
+    hide-enchants: true
+    attack-damage: 20.0
+    arrow-particles:
+      amount: 100
+      offset: 0.015
+      particle: FLAME
+      speed: 0.015
+SHADOWBOW:
+  base:
+    material: BOW
+    name: '&4Shadow Bow'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    arrow-velocity: 1.8
+    unbreakable: true
+    tier: MAGICAL
+    unstackable: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m material godlyhilt 1.0..|m material shadoworb 1.0..|v AIR 0 1..
+          - m material godlyhilt 1.0..|v AIR 0 1..|m material shadoworb 1.0..
+          - m material godlyhilt 1.0..|m material shadoworb 1.0..|v AIR 0 1..
+    permission:
+    - item.shadow
+    craft-permission: craft.shadow
+    pve-damage: 7.5
+    arrow-potion-effects:
+      WEAKNESS:
+        duration: 5.0
+        amplifier: 1
+    lore:
+    - '&7Requires &f1 Arrow &7only.'
+    - '&7Applies &f5 Seconds &7of Weakness to enemies on hit.'
+    - '&a'
+    - '&7Requirement: &fPrestige 35'
+    enchants:
+      infinity: 1.0
+    hide-enchants: true
+    attack-damage: 25.0
+    arrow-particles:
+      amount: 100
+      offset: 0.02
+      particle: FALLING_OBSIDIAN_TEAR
+      speed: 0.01
+ENHANCEDSHADOWBOW:
+  base:
+    material: BOW
+    name: '&4Enhanced Shadow Bow'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    arrow-velocity: 1.9
+    unbreakable: true
+    tier: OP
+    unstackable: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - m material godlyhilt 1.0..|m material enhancedshadoworb 1.0..|v AIR 0
+            1..
+          - m material godlyhilt 1.0..|v AIR 0 1..|m material enhancedshadoworb 1.0..
+          - m material godlyhilt 1.0..|m material enhancedshadoworb 1.0..|v AIR 0
+            1..
+    permission:
+    - item.enhancedshadow
+    craft-permission: craft.enhancedshadow
+    pve-damage: 7.5
+    arrow-potion-effects:
+      WITHER:
+        duration: 5.0
+        amplifier: 1
+    lore:
+    - '&7Requires &f1 Arrow &7only.'
+    - '&7Applies &f5 Seconds &7of Wither to enemies on hit.'
+    - '&a'
+    - '&7Requirement: &fPrestige 50'
+    enchants:
+      infinity: 1.0
+    hide-enchants: true
+    attack-damage: 30.0
+    arrow-particles:
+      amount: 100
+      offset: 0.02
+      particle: DRAGON_BREATH
+      speed: 0.02
+GODBOW:
+  base:
+    material: BOW
+    name: '&aG&bo&cd &9B&4o&6w'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    arrow-velocity: 2.0
+    unbreakable: true
+    tier: OP
+    unstackable: true
+    permission:
+    - item.enhancedshadow
+    craft-permission: craft.enhancedshadow
+    pve-damage: 7.5
+    arrow-potion-effects:
+      WITHER:
+        duration: 10
+        amplifier: 1
+      CONFUSION:
+        duration: 10
+        amplifier: 1
+    lore:
+    - '&7Requires &f1 Arrow &7only.'
+    - '&7Applies &f10 Seconds &7of Wither to enemies on hit.'
+    - '&7Applies &f10 Seconds &7of Confusion to enemies on hit.'
+    - '&a'
+    - '&7Requirement: &fPrestige 50'
+    enchants:
+      infinity: 1.0
+    hide-enchants: true
+    crafting:
+      shapeless:
+        '1':
+          input:
+          - m bow enhancedshadowbow 1.0..
+          - m bow enhancedshadowbow 1.0..
+    attack-damage: 35.0
+    arrow-particles:
+      amount: 100
+      offset: 0.01
+      particle: SOUL
+      speed: 0.02

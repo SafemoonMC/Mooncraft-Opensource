@@ -1,0 +1,14 @@
+
+# Display options
+name: Woodcutting
+
+# Experience given to the main level
+# when leveling up this profession
+experience:
+    base: 13
+    per-level: 2.5
+
+# Must match an existing exp curve filename from the 'expcurves' folder
+exp-curve: levels
+
+exp-sources:

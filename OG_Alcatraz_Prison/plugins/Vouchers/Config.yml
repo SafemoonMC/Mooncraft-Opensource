@@ -1,0 +1,379 @@
+###################################
+#             Items: Options
+# Item: <ID:MD/Item Name> - You can choose the item with its id and meta data.
+# Amount: <Number> - Choose how many of the item you get.
+# Name: <Name> - The display name that goes on the item.
+# Lore: <Line 1>,<Line 2>,<Line 3>,<Line 4> - The lore that will go under the enchantments. Split lines with a ','
+# <Enchantment>:<Level> - Choose the enchantment you want to add to the item. You can use the in-game names of the enchantment if you want. Replace the spaces in the name with a "_".
+###########################################################
+#                    Sound Options                        #
+# 1.9 and up players use these sounds: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+###################################################################
+#                         Firework Colors:                        #
+#      Aqua, Black, Blue, Fuchsia, Gray, Green, Lime, Maroon,     #
+#  Navy, Olive, Orange, Purple, Red, Silver, Teal, White, Yellow  #
+###################################################################
+Settings: #Settings
+  Prefix: '&3Mooncraft &8| ' #The prefix before messages.
+  Updater: false
+Vouchers: #Where you make your vouchers.
+  Bearish: #The name of the voucher.
+    Item: 'name_tag' #The item the voucher is.
+    Name: '&7[&cBearish&7] &3Tag' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to claim the &bBearish Tag&7.'
+      - '&7&l(&3&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission set deluxetags.tag.bearish true prison'
+    Options: #The options
+      Message: '&3Bearish Tag &7unlocked!' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.
+          Message: '&cSorry but you can not use this voucher as you have already unlocked it.' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'deluxetags.tag.bearish'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  Bullish: #The name of the voucher.
+    Item: 'name_tag' #The item the voucher is.
+    Name: '&7[&aBullish&7] &3Tag' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to claim the &bBullish Tag&7.'
+      - '&7&l(&3&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission set deluxetags.tag.bullish true prison'
+    Options: #The options
+      Message: '&3Bullish Tag &7unlocked!' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.
+          Message: '&cSorry but you can not use this voucher as you have already unlocked it.' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'deluxetags.tag.bullish'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  HODL: #The name of the voucher.
+    Item: 'name_tag' #The item the voucher is.
+    Name: '&6[&eHODL&6] &3Tag' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to claim the &bHODL Tag&7.'
+      - '&7&l(&3&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission set deluxetags.tag.hodl true prison'
+    Options: #The options
+      Message: '&3HODL Tag &7unlocked!' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.
+          Message: '&cSorry but you can not use this voucher as you have already unlocked it.' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'deluxetags.tag.hodl'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  32: #The name of the voucher.
+    Item: 'name_tag' #The item the voucher is.
+    Name: '&a[&b32&a] &3Tag' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to claim the &b32 Tag&7.'
+      - '&7&l(&3&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission set deluxetags.tag.thirtytwo true prison'
+    Options: #The options
+      Message: '&332 Tag &7unlocked!' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.
+          Message: '&cSorry but you can not use this voucher as you have already unlocked it.' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'deluxetags.tag.thirtytwo'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  Pump: #The name of the voucher.
+    Item: 'name_tag' #The item the voucher is.
+    Name: '&7[&6Pump&7] &3Tag' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to claim the &bPump Tag&7.'
+      - '&7&l(&3&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission set deluxetags.tag.pump true prison'
+    Options: #The options
+      Message: '&3Pump Tag &7unlocked!' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.
+          Message: '&cSorry but you can not use this voucher as you have already unlocked it.' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'deluxetags.tag.pump'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  Lambo: #The name of the voucher.
+    Item: 'name_tag' #The item the voucher is.
+    Name: '&e[&cLambo&e] &3Tag' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to claim the &bLambo Tag&7.'
+      - '&7&l(&3&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission set deluxetags.tag.lambo true prison'
+    Options: #The options
+      Message: '&3Lambo Tag &7unlocked!' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.
+          Message: '&cSorry but you can not use this voucher as you have already unlocked it.' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'deluxetags.tag.lambo'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  Apollo: #The name of the voucher.
+    Item: 'name_tag' #The item the voucher is.
+    Name: '&3[&fApollo&3] &3Tag' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to claim the &bApollo Tag&7.'
+      - '&7&l(&3&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission set deluxetags.tag.apollo true prison'
+    Options: #The options
+      Message: '&3Apollo Tag &7unlocked!' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.
+          Message: '&cSorry but you can not use this voucher as you have already unlocked it.' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'deluxetags.tag.apollo'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  SFM: #The name of the voucher.
+    Item: 'name_tag' #The item the voucher is.
+    Name: '&b[&3SFM&b] &3Tag' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to claim the &bSFM Tag&7.'
+      - '&7&l(&3&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission set deluxetags.tag.sfm true prison'
+    Options: #The options
+      Message: '&3SFM Tag &7unlocked!' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.
+          Message: '&cSorry but you can not use this voucher as you have already unlocked it.' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'deluxetags.tag.sfm'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.
+  contributer: #The name of the voucher.
+    Item: 'name_tag' #The item the voucher is.
+    Name: '&4[&6$$$&4] &3Tag' #The item name.
+    Lore: #The item's lore
+      - '&7Use this voucher to claim the &b$$$ Tag&7.'
+      - '&7&l(&3&l!&7&l) &7Right click to redeem.'
+    Player: '' #Set the Item: to PLAYER_HEAD and use this to set the skin on the player head. Can use Name/Hash/URL
+    Glowing: false #Toggle if the item will have a glowing effect or not.
+    Commands: #The commands that are ran when redeemed.
+      - 'lp user %Player% permission set deluxetags.tag.contributer true prison'
+    Options: #The options
+      Message: '&3$$$ Tag &7unlocked!' #The message sent to the player when redeemed. Set to '' if no message needs sent.
+      Whitelist-Worlds: #This allows you to make it so some vouchers can only be used in specific worlds.
+        Toggle: false #True if you wish to use this feature.
+        Message: '&cYou can not use that voucher here as you are not in a whitelisted world for this voucher.' #The message sent to the user that tried to use it in a non whitelisted world.
+        Worlds: #List of worlds you want the voucher to be used in.
+          - 'world'
+      Permission: #Permission options.
+        Whitelist-Permission: #The player needs this permission to use it.
+          Toggle: false #Toggle the permission on or off.
+          Message: '&cYou do not have permission to use that voucher.'
+          Permissions: #List of permissions the player needs.
+            - 'voucher.money'
+        Blacklist-Permissions: #If the player has any of these permissions then they can't use the voucher.
+          Toggle: true #Toggle if it checks for blacklisted permissions.
+          Message: '&cSorry but you can not use this voucher as you have already unlocked it.' #The message that is sent to the player if they have a blacklisted message. Use %permission% if you wise to show the permission they need.
+          Permissions: #List all the blacklisted permissions here.
+            - 'deluxetags.tag.contributer'
+      Limiter: #Limiter options.
+        Toggle: false #Toggle on or off the limiter.
+        Limit: 10 #The limit of how many times it may be used.
+      Two-Step-Authentication: #This is for when the player right clicks the voucher. It tells them to click again to confirm.
+        Toggle: true #Toggle this option on or off.
+      Sound: #The sound options.
+        Toggle: true #Toggle on or off if a sound is played.
+        Sounds: #The sound that is played. Make sure the sound works with your minecraft version.
+          - 'CLICK'
+      Firework: #The firework options
+        Toggle: false #Toggle if the firework goes off.
+        Colors: 'Green, Lime' #The colors of the firework.

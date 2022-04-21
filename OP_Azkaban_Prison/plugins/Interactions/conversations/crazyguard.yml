@@ -1,0 +1,218 @@
+name: '{centered}&cCrazy Guard'
+starts_with:
+- NPC with id 11
+block_movement: false
+slow_effect: false
+save_conversation_progress: false
+start_conversation_radius: 0
+end_conversation_radius: 12
+requires_permission: false
+cooldown: 0
+conversation:
+  conversation1:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7voices.... voices... VOICES!'
+        - '{centered}&7Go away!'
+        time: 2
+        conditional_dialogue:
+          conditional_dialogue1:
+            requires:
+            - '%quests_player_has_current_quest_custom4% == Yes'
+            start_conversation: conversation2
+          conditional_dialogue2:
+            requires:
+            - '%quests_player_has_completed_quest_custom4% == true'
+            - '%quests_player_has_completed_quest_custom5% == false'
+            - '%quests_player_has_current_quest_custom5% == No'
+            start_conversation: conversation3
+          conditional_dialogue3:
+            requires:
+            - '%quests_player_has_completed_quest_custom4% == true'
+            - '%quests_player_has_completed_quest_custom5% == false'
+            - '%quests_player_has_current_quest_custom5% == Yes'
+            start_conversation: conversation7
+          conditional_dialogue5:
+            requires:
+            - '%quests_player_has_completed_quest_custom5% == true'
+            - '%quests_player_has_completed_quest_custom6% == false'
+            - '%quests_player_has_current_quest_custom6% == No'
+            start_conversation: conversation9
+          conditional_dialogue6:
+            requires:
+            - '%quests_player_has_current_quest_custom6% == No'
+            - '%quests_player_has_current_quest_custom8% == No'
+            - '%quests_player_has_completed_quest_custom6% == true'
+            - '%quests_player_has_completed_quest_custom8% == false'
+            start_conversation: conversation10
+          conditional_dialogue8:
+            requires:
+            - '%quests_player_has_completed_quest_custom8% == true'
+            start_conversation: conversation12
+          conditional_dialogue9:
+            requires:
+            - '%quests_player_has_current_quest_custom8% == Yes'
+            - '%quests_player_current_stage_number_custom8% == 2'
+            start_conversation: conversation13
+    random_dialogue: false
+  conversation2:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7They sent a prisoner to check on me?! How downgrading...'
+        - '{centered}&7Something strange is going on in Azkaban.. I hear whispers'
+        - '{centered}&7in the night.. maybe you can help me investigate! I won''t
+          tell'
+        - '{centered}&7the Warden if you don''t! But you should probably &bgo back'
+        - '{centered}&7to the &cPrison Warden&7 and tell him I''m fine.'
+        - '{centered}&7Visit me again when you are ready!'
+        - ' '
+        time: 3
+    random_dialogue: false
+  conversation3:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Ah you came! So I read your report..'
+        - '{centered}&7Did you really... ya know?'
+        time: 2
+        actions_after_dialogue: true
+    options:
+      option1:
+        text: '&bNo I didn''t... I was framed! &7(&a&lCLICK HERE&7)'
+        start_conversation: conversation4
+    random_dialogue: false
+  conversation4:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Hm.. I guess I''ll have to take your word for it.'
+        - '{centered}&7Also! If you help me I might be able to help clear'
+        - '{centered}&7your name! No promises though. Deal?'
+        time: 2
+        actions_after_dialogue: true
+    options:
+      option1:
+        text: '&bSure, what can you offer me? &7(&a&lCLICK HERE&7)'
+        start_conversation: conversation6
+      option2:
+        text: '&bUhhh... I don''t know if I should &7(&a&lCLICK HERE&7)'
+        start_conversation: conversation5
+    random_dialogue: false
+  conversation5:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Your choice.... Just to let you know'
+        - '{centered}&7without me you won''t be able to clear'
+        - '{centered}&7name. I''ll be here if you change your mind.'
+        time: 2
+        actions_after_dialogue: true
+    random_dialogue: false
+  conversation6:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Every night I hear whispers. The only words I can'
+        - '{centered}&7make out are &b"Danger, Shadow, Wizard" &7I have no'
+        - '{centered}&7idea what that means. Danger and shadows concern me,'
+        - '{centered}&7but wizards have been extinct for centuries. If there'
+        - '{centered}&7really is a &bWizard &, he would leave behind &bMagic Aura'
+        - '{centered}&7when performing spells. &bGo look for it in the &2Forest'
+        time: 2
+      dialogue2:
+        text:
+        - '{centered}&3Quest Started!'
+        - '{centered}&7Whispers in the Night'
+        - '{centered}'
+        - '{centered}&bObjective:'
+        - '{centered}&7Locate the &bmagic aura'
+        - ' '
+        time: 2
+        actions:
+        - 'console_command: questadmin give %player% magic aura'
+        show_name: false
+        save_dialogue_to_player: true
+        actions_after_dialogue: true
+    random_dialogue: false
+  conversation7:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7I see you haven''t found the magic aura yet.'
+        - '{centered}&7Return to me when you find it!'
+        - '{centered}&7I need to know the truth!'
+        time: 2
+        actions_after_dialogue: true
+    random_dialogue: false
+  conversation9:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Hey! Let''s see if anyone else has'
+        - '{centered}&7noticed anything strange as of late.'
+        - '{centered}&bGo speak to the locals if they'
+        - '{centered}&bnoticed anything!'
+        time: 2
+      dialogue2:
+        text:
+        - '{centered}&3Quest Started!'
+        - '{centered}&7Ask The Town'
+        - '{centered}'
+        - '{centered}&bObjective:'
+        - '{centered}&7Talk to the farmer'
+        - ' '
+        time: 2
+        actions:
+        - 'console_command: questadmin give %player% the town'
+        show_name: false
+        save_dialogue_to_player: true
+        actions_after_dialogue: true
+    random_dialogue: false
+  conversation10:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7Alright.. Now I did some reading, and it looks like'
+        - '{centered}&7back in the ancient days, wizards would use crystals like'
+        - '{centered}&7these as a key to a magic door! They usually have a spell binded
+          to them for it to work but I can’t read the spell because it’s in their
+          language.. BUT! I found out that Bloom Spirits were around during the ancient
+          days! Maybe they remember some of the ancient languages.'
+        time: 12
+      dialogue2:
+        text:
+        - '{centered}&3Quest Started!'
+        - '{centered}&7Investigate the Crystal'
+        - '{centered}'
+        - '{centered}&bObjective:'
+        - '{centered}&7Kill 4 Bloom Spirits!'
+        - ' '
+        time: 2
+        actions:
+        - 'console_command: questadmin give %player% Bloom Spirits'
+        show_name: false
+        save_dialogue_to_player: true
+        actions_after_dialogue: true
+    random_dialogue: false
+  conversation12:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7I see you have lost your way'
+        - '{centered}&7I''ll teleport you to the wizard'
+        time: 3
+        actions:
+        - 'console_command: teleport %player% -235.5 99 -181'
+        actions_after_dialogue: true
+    random_dialogue: false
+  conversation13:
+    dialogue:
+      dialogue1:
+        text:
+        - '{centered}&7So the book says, “recite the spell near the 4 yellow runes”
+          I think I saw some yellow runes under a waterfall in &2The Forest&7!'
+        - '&7'
+        time: 2
+    random_dialogue: false

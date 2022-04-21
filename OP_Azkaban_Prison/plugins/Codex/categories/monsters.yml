@@ -1,0 +1,609 @@
+name: "&c&lMonsters"
+discover_title:
+  title: "&aNew Mob Discovered!"
+  subtitle: "%name%"
+  fade_in: 20
+  stay: 60
+  fade_out: 20
+discover_message:
+- "&3Monster Book &8| &3%name% &bhas been added to your Monster Book! &e(/monsterbook)"
+discover_sound:
+  name: ENTITY_PLAYER_LEVELUP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  1:
+    name: "&3[Lv. 1-2] &aGrass Bug &c5-7 ❤"
+    lore:
+    - "&7Walks on the ground. When the"
+    - "&7player is in range, creeps towards"
+    - "&7the player doing melee attacks."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &2Forest Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$250 &7(Common)"
+    - "&8• &fSquashed Bug &7(Common)"
+    - "&8• &fOrb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  2:
+    name: "&3[Lv. 3] &aDawn Tulip &c9 ❤"
+    lore:
+    - "&7Extremely fast. Runs towards the"
+    - "&7player inflicting melee attacks."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &2Forest Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$300 &7(Common)"
+    - "&8• &fDead Flower &7(Common)"
+    - "&8• &fOrb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  3:
+    name: "&3[Lv. 4] &aDusk Orchid &c11 ❤"
+    lore:
+    - "&7Extremely fast. Runs towards the"
+    - "&7player inflicting melee attacks."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &2Forest Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$300 &7(Common)"
+    - "&8• &fDead Flower &7(Common)"
+    - "&8• &fOrb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  4:
+    name: "&3[Lv. 5-6] &aShadevine &c13-15 ❤"
+    lore:
+    - "&7Fast. Passive but turns aggressive"
+    - "&7when the player is near. When in reach"
+    - "&7walks towards the player inflicting"
+    - "&7melee attacks."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &2Forest Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$450 &7(Common)"
+    - "&8• &fShadevine Roots &7(Common)"
+    - "&8• &fOrb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  5:
+    name: "&3[Lv. 8-10] &aBloom Spirit &c20-24 ❤"
+    lore:
+    - "&7Slow. Targets and attacks the"
+    - "&7nearest player with melee."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &2Forest Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$500 &7(Common)"
+    - "&8• &fx2 Dead Flower &7(Common)"
+    - "&8• &fOrb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  6:
+    name: "&3[Lv. 11-12] &aBloossom Fly &c28-30 ❤"
+    lore:
+    - "&7Slow. Walks towards the player dealing"
+    - "&7small amount of melee damage."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &2Forest Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$550 &7(Common)"
+    - "&8• &fx2-3 Squashed Bug &7(Common)"
+    - "&8• &fOrb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  7:
+    name: "&3[Lv. 17-18] &aAngry Hunter &c51-54 ❤"
+    lore:
+    - "&7Slow. Walks to the player inflicting"
+    - "&7melee damage."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &7Stone Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$13500 &7(Common)"
+    - "&8• &fx4 Meat &7(Common)"
+    - "&8• &fStone Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  8:
+    name: "&3[Lv. 16-17] &aRoyal Guard &c46-48 ❤"
+    lore:
+    - "&7Slow. Walks to the player inflicting melee"
+    - "&7damage. Sometimes can spawn with Axes and other"
+    - "&7tools dealing more damage on attack."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &7Stone Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$10000 &7(Common)"
+    - "&8• &fx2 Meat &7(Common)"
+    - "&8• &fStone Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  9:
+    name: "&3[Lv. 16] &aAnimated Statue &c36-40 ❤"
+    lore:
+    - "&7Fast walking speed. Passive until attacked."
+    - "&7Sprints towards player dealing melee damage."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &7Stone Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$3800 &7(Common)"
+    - "&8• &fStatue Battery &7(Common)"
+    - "&8• &fStone Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  10:
+    name: "&3[Lv. 13-16] &aCity Guard &c36-40 ❤"
+    lore:
+    - "&7Moderate speed. Passive until attacked."
+    - "&7Deals melee damage."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &7Stone Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$2600 &7(Common)"
+    - "&8• &fMeat &7(Common)"
+    - "&8• &fStone Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  11:
+    name: "&3[Lv. 13-14] &aCity Archer &c36-40 ❤"
+    lore:
+    - "&7Moderate walking speed. Passive until"
+    - "&7attacked. hoots piercing arrows towards"
+    - "&7the player."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &7Stone Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$3000 &7(Common)"
+    - "&8• &fPiercing Arrow &7(Common)"
+    - "&8• &fStone Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  12:
+    name: "&3[Lv. 20] &aCrazy Blacksmith &c63 ❤"
+    lore:
+    - "&7Walks towards the player dealing considerable"
+    - "&7amount of melee damage, sometimes can hold"
+    - "&7sword or other tools that increase it’s damage."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &7Stone Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$15000 &7(Common)"
+    - "&8• &fSmelted Shard &7(Common)"
+    - "&8• &fStone Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  13:
+    name: "&3[Lv. 19] &aWild Bull &c58 ❤"
+    lore:
+    - "&7Passive."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &7Stone Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$14000 &7(Common)"
+    - "&8• &fStone Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  14:
+    name: "&3[Lv. 19] &aWild Rooster &c58 ❤"
+    lore:
+    - "&7Passive."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &7Stone Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$14000 &7(Common)"
+    - "&8• &fStone Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  15:
+    name: "&3[Lv. 25-26] &aSky Wolf &c79-82 ❤"
+    lore:
+    - "&7Always targets the nearest player,"
+    - "&7aggressive. Tend to attack in groups"
+    - ""
+    - "&f&lLocation:"
+    - "&8• &fFrost Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$55000 &7(Common)"
+    - "&8• &fFrost Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  16:
+    name: "&3[Lv. 25] &aFox Spirit &c70 ❤"
+    lore:
+    - "&7Passive until attacked. If attacked, sprints"
+    - "&7towards the player dealing melee damage."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &fFrost Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$50000 &7(Common)"
+    - "&8• &fFrost Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  17:
+    name: "&3[Lv. 22-23] &aSnow Lion &c70-73 ❤"
+    lore:
+    - "&7Slow. Targets and attacks the nearest"
+    - "&7player with melee."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &fFrost Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$74000 &7(Common)"
+    - "&8• &fFrost Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  18:
+    name: "&3[Lv. 28-29] &aAssassin &c91-94 ❤"
+    lore:
+    - "&7Deals melee damage to the player."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &fFrost Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$60000 &7(Common)"
+    - "&8• &fFrost Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  19:
+    name: "&3[Lv. 31-32] &aIce Bandit &c100-103 ❤"
+    lore:
+    - "&7Deals melee damage to the player."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &fFrost Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$75000 &7(Common)"
+    - "&8• &fFrost Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  20:
+    name: "&3[Lv. 33-34] &aRed Knight &c170-175 ❤"
+    lore:
+    - "&7Attacks with melee to the player that is"
+    - "&7 within its range. Follows the players."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &cFire Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$150000 &7(Common)"
+    - "&8• &fFire Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  21:
+    name: "&3[Lv. 36-37] &aRed Robin &c185-190 ❤"
+    lore:
+    - "&7Follows players. Shoots powerful arrows"
+    - "&7dealing projectile damage."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &cFire Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$165000 &7(Common)"
+    - "&8• &fFire Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  22:
+    name: "&3[Lv. 39-40] &aBlood Mage &c200-205 ❤"
+    lore:
+    - "&7Shoots magic from their wand dealing"
+    - "&7magic damage to the player from a distance."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &cFire Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$180000 &7(Common)"
+    - "&8• &fFire Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  23:
+    name: "&3[Lv. 50] &aMolten Golem &c255 ❤"
+    lore:
+    - "&7Sprints towards the player dealing a"
+    - "&7considerable amount of melee damage."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &cFire Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$280000 &7(Common)"
+    - "&8• &fFire Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  24:
+    name: "&3[Lv. 45] &aFudder &c230 ❤"
+    lore:
+    - "&7Has a moderate walking speed. Walks"
+    - "&7to the player dealing melee damage."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &cFire Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$220000 &7(Common)"
+    - "&8• &fFire Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  25:
+    name: "&3[Lv. 46] &aFlaming Wisp &c235 ❤"
+    lore:
+    - "&7Sprints towards the player dealing a"
+    - "&7considerable amount of melee damage."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &cFire Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$237000 &7(Common)"
+    - "&8• &fFire Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  26:
+    name: "&3[Lv. 48] &aCarrion Spider &c245 ❤"
+    lore:
+    - "&7Sprints towards the player dealing a"
+    - "&7considerable amount of melee damage."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &cFire Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$250000 &7(Common)"
+    - "&8• &fFire Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  27:
+    name: "&3[Lv. 53] &aPurple Worm &c426 ❤"
+    lore:
+    - "&7Walks on the ground. When the player"
+    - "&7is in range, creeps towards the player"
+    - "&7doing melee attacks."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &dShadow Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$1000000 &7(Common)"
+    - "&8• &fShadow Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  28:
+    name: "&3[Lv. 55-58] &aNight Lurker &c442-466 ❤"
+    lore:
+    - "&7Sprints towards the player if looked onto."
+    - "&7Can teleport away if hit. Can’t be hit"
+    - "&7with projectiles."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &dShadow Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$1100000 &7(Common)"
+    - "&8• &fShadow Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  29:
+    name: "&3[Lv. 61-64] &aPurple Alchemist &c490-514 ❤"
+    lore:
+    - "&7Throws potions at the player (Poison, Weakness,"
+    - "&7Instant Damage, etc). Can drink  potions to"
+    - "&7restore some of its health if damaged."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &dShadow Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$1250000 &7(Common)"
+    - "&8• &fShadow Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  30:
+    name: "&3[Lv. 67-69] &aViolet Wraith &c538-554 ❤"
+    lore:
+    - "&7Fast. Aggressive. Sprints towards the player"
+    - "&7dealing a considerable amount of melee damage."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &dShadow Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$1300000 &7(Common)"
+    - "&8• &fShadow Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  31:
+    name: "&3[Lv. 72-74] &aVoid Cultist &c720-740 ❤"
+    lore:
+    - "&7Has a moderate walking speed. Walks"
+    - "&7to the player dealing melee damage."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &dShadow Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$1400000 &7(Common)"
+    - "&8• &fShadow Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  32:
+    name: "&3[Lv. 76] &aVoid Sentinel &c760 ❤"
+    lore:
+    - "&7Sprints towards the player. Always angry."
+    - "&7Can teleport away if hit. Can’t be hit with"
+    - "&7projectiles."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &dShadow Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$1500000 &7(Common)"
+    - "&8• &fShadow Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  33:
+    name: "&3[Lv. 77] &aShadow Watcher &c770 ❤"
+    lore:
+    - "&7Has a large player finding area."
+    - "&7Sprints towards the player dealing"
+    - "&7a considerable amount of melee damage."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &dShadow Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$1650000 &7(Common)"
+    - "&8• &fShadow Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  34:
+    name: "&3[Lv. 79] &aShadow Seeker &c790 ❤"
+    lore:
+    - "&7Moderate walking speed. Shoots powerful"
+    - "&7arrows dealing projectile damage."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &dShadow Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$1800000 &7(Common)"
+    - "&8• &fShadow Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  35:
+    name: "&3[Lv. 80] &aDark Zealot &c800 ❤"
+    lore:
+    - "&7Sprints towards the player dealing"
+    - "&7enormous amount of melee damage."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &dShadow Realm"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &f$2000000 &7(Common)"
+    - "&8• &fShadow Orb &7(Rare)"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []
+  36:
+    name: "&4&lAzrael"
+    lore:
+    - "&7The Dark Wizard Azrael."
+    - "&7Final Boss of the Azkaban"
+    - "&7Prison."
+    - ""
+    - "&f&lLocation:"
+    - "&8• &4Azrael's Lair"
+    - ""
+    - "&f&lDrops:"
+    - "&8• &4Azrael's Head &7Trophy"
+    discovered_on_mob_kill:
+      type: IRON_GOLEM
+      name: "********"
+    commands: []

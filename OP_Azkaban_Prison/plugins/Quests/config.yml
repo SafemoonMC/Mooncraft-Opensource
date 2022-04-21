@@ -1,0 +1,39 @@
+# See https://pikamug.gitbook.io/quests/setup/configuration
+accept-timeout: 20
+allow-command-questing: false
+allow-command-quests-with-npcs: false
+allow-pranks: false
+allow-quitting: false
+ask-confirmation: false
+console-logging: 1
+disable-command-feedback: true
+generate-files-on-join: true
+ignore-locked-quests: true
+kill-delay: 600
+language: en-US
+max-quests: 1
+show-requirements: false
+show-titles: true
+strict-player-movement: 0
+storage-data:
+  address: 10.10.10.2:3305
+  database: opprison
+  username: mnc-opprison
+  password: n-l2a4jiw^AqukSM:~X#f7KX&~@3J6q|
+  table_prefix: quests_
+  pool-settings:
+    max-pool-size: 10
+    min-idle: 10
+    max-lifetime: 1800000
+    connection-timeout: 5000
+storage-method:
+  player-data: mysql
+trial-save: false
+top-limit: 150
+translate-names: true
+translate-subcommands: false
+update-check: false
+npc-effects:
+  enabled: false
+  new-quest: villager_happy
+  redo-quest: heart

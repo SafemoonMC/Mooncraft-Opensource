@@ -1,0 +1,272 @@
+# Player should have appropriate permission node to use particular kit: cmi.kit.[kitName]
+# cmi.kit.newbie will allow to use newbie kit
+# Possible custom variables: {USERNAME} {DISPLAYNAME} {WORLDNAME} {KITNAME} {RANDOMPLAYER}
+# Edit kits ingame with /cmi kiteditor to avoid formating issues
+# Commands support specialized command format
+Start:
+  CommandName: Start
+  DropOnGround: false
+  Delay: 10
+  MaxUsages: 1
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: GLOWSTONE
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: RED_WOOL
+  Commands:
+  - lp user {USERNAME} permission set kits.yes opp-1
+  - cmi spawn {USERNAME}
+  Items:
+    '1':
+      v: 2730
+      type: WHITE_DYE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Common
+          Crate"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Key"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Can
+          be used at spawn"}],"text":""}'
+        internal: H4sIAAAAAAAA/+NiYOBgEHQuSqyqBBIlqcW6YIqBzTk/Nzc/jwEAm4/k2CAAAAA=
+    '29':
+      v: 2730
+      type: CHAINMAIL_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Starter
+          Helmet"}],"text":""}'
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        Unbreakable: true
+    '30':
+      v: 2730
+      type: CHAINMAIL_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Starter
+          Chestplate"}],"text":""}'
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        Unbreakable: true
+    '31':
+      v: 2730
+      type: CHAINMAIL_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Starter
+          Leggings"}],"text":""}'
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        Unbreakable: true
+    '32':
+      v: 2730
+      type: CHAINMAIL_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Starter
+          Boots"}],"text":""}'
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        Unbreakable: true
+    '33':
+      v: 2730
+      type: STONE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"italic":false,"color":"gray","text":"Starter Sword"}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Sword"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+        - '{"extra":[{"italic":false,"color":"dark_aqua","text":" "},{"italic":false,"color":"gray","text":"➸
+          Attack Damage: "},{"italic":false,"color":"white","text":"3"}],"text":""}'
+        - '{"extra":[{"italic":false,"color":"dark_aqua","text":" "},{"italic":false,"color":"gray","text":"➸
+          Attack Speed: "},{"italic":false,"color":"white","text":"1"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+        - '{"extra":[{"italic":false,"color":"dark_aqua","text":" "},{"italic":false,"color":"gray","text":"Tier:
+          "},{"bold":true,"italic":false,"color":"dark_gray","text":"BASIC"}],"text":""}'
+        attribute-modifiers:
+          GENERIC_ATTACK_SPEED:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 0.0
+            name: mmoitemsDecoy
+            uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
+            operation: 0
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/3WQy0rDQBSGT4SWIN5FQd2EWbhyI11UutFp5tgM5sbMgIRSQmijiFdCwIX4Km7zCq7zKD6Bj2AuNLa2DsMs/u+fw/n/VYA27DuOxxU6MqRKUfMqZNShA7zQoTpt2PtrkD4iO/+uuQ5bDS/fkDNYk4oKhUJee4LpsN4YXOogbB53ZRolaZwY8vU5meiw3RjQNS3qKgkrw5EGR43OuKR9G6ecuwNNg4MFbAp6+S+UDldWDQ8XoECfclFSHXbmA6nAR2hVWZaPRVvVHzcsqUTwG2L3jRRJU9IjU4m8z9ahOApo9ankpj5TMwuKnrgZ2p5AeBqSPBtXRZETUtw86xh51v36+DRomkbje4NFj9Ft3CvUm85Sg3yJ40nFT+dmqLs4KeWzPHuotiAj+AFC0vbeFAIAAA==
+    '34':
+      v: 2730
+      type: STONE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Starter
+          Axe"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Axe"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Damage: "},{"italic":false,"color":"white","text":"0.5"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Speed: "},{"italic":false,"color":"white","text":"1"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"Tier: "},{"bold":true,"italic":false,"color":"dark_gray","text":"BASIC"}],"text":""}'
+        attribute-modifiers:
+          GENERIC_ATTACK_SPEED:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 0.0
+            name: mmoitemsDecoy
+            uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
+            operation: 0
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/3WQzUrDQBSFbxRLKFT8QUHdhFm4ElFEKt2U2+TaDDZpmJmFoZQQahSxioQsBPFV3OYVXOdJxCfwEUxSGltbh2EW5ztzuefUAWqw6zh9rsiRASqF5lVgoYNdan9CeWqw89cgPSKr/T3hOmxUvHgDbkFdKhSKBF6TDo0Ku+gQNA6bMgnjJIoNfIl02KwwuaaNrpKwMhhqcFDpFpfY6dGUc7erabC3gE2Bl/9C6XBlT+D+AhTkIRcF1WFrPozyPYLVPMfyodRTk2/rtlTC/42w/crylAlrsanE3marUJwErHVQclOfKdjy8464GfT6guBpwLJ0lJfEjlh+s/TMyNLm1/uHgUkSjh4MK3wM76JWrt6eHJ8vtcjnKLopHadzU9R9FBfyRZaOyy3YEH4Afj9Obw4CAAA=
+    '35':
+      v: 2730
+      type: BREAD
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Prison
+          Bread"}],"text":""}'
+Pickaxe:
+  CommandName: Pickaxe
+  DisplayName: Prisoner
+  Delay: 3600
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: GREEN_TERRACOTTA
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2730
+    type: RED_CONCRETE
+  Commands:
+  - givefirstjoinpickaxe {USERNAME}
+  Items:
+    '29':
+      v: 2730
+      type: CHAINMAIL_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Starter
+          Helmet"}],"text":""}'
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        Unbreakable: true
+    '30':
+      v: 2730
+      type: CHAINMAIL_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Starter
+          Chestplate"}],"text":""}'
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        Unbreakable: true
+    '31':
+      v: 2730
+      type: CHAINMAIL_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Starter
+          Leggings"}],"text":""}'
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        Unbreakable: true
+    '32':
+      v: 2730
+      type: CHAINMAIL_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Starter
+          Boots"}],"text":""}'
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        Unbreakable: true
+    '33':
+      v: 2730
+      type: STONE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Starter
+          Sword"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Sword"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Damage: "},{"italic":false,"color":"white","text":"3"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Speed: "},{"italic":false,"color":"white","text":"1"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"Tier: "},{"bold":true,"italic":false,"color":"dark_gray","text":"BASIC"}],"text":""}'
+        attribute-modifiers:
+          GENERIC_ATTACK_SPEED:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 0.0
+            name: mmoitemsDecoy
+            uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
+            operation: 0
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/3WQy0rDQBSGT4SWIN5FQd2EWbhyI11UutFp5tgM5sbMgIRSQmijiFdCwIX4Km7zCq7zKD6Bj2AuNLa2DsMs/u+fw/n/VYA27DuOxxU6MqRKUfMqZNShA7zQoTpt2PtrkD4iO/+uuQ5bDS/fkDNYk4oKhUJee4LpsN4YXOogbB53ZRolaZwY8vU5meiw3RjQNS3qKgkrw5EGR43OuKR9G6ecuwNNg4MFbAp6+S+UDldWDQ8XoECfclFSHXbmA6nAR2hVWZaPRVvVHzcsqUTwG2L3jRRJU9IjU4m8z9ahOApo9ankpj5TMwuKnrgZ2p5AeBqSPBtXRZETUtw86xh51v36+DRomkbje4NFj9Ft3CvUm85Sg3yJ40nFT+dmqLs4KeWzPHuotiAj+AFC0vbeFAIAAA==
+    '34':
+      v: 2730
+      type: STONE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Starter
+          Axe"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Axe"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Damage: "},{"italic":false,"color":"white","text":"0.5"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Speed: "},{"italic":false,"color":"white","text":"1"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"Tier: "},{"bold":true,"italic":false,"color":"dark_gray","text":"BASIC"}],"text":""}'
+        attribute-modifiers:
+          GENERIC_ATTACK_SPEED:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 0.0
+            name: mmoitemsDecoy
+            uuid: 87851e28-af12-43f6-898e-c62bde6bd0ec
+            operation: 0
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/3WQzUrDQBSFbxRLKFT8QUHdhFm4ElFEKt2U2+TaDDZpmJmFoZQQahSxioQsBPFV3OYVXOdJxCfwEUxSGltbh2EW5ztzuefUAWqw6zh9rsiRASqF5lVgoYNdan9CeWqw89cgPSKr/T3hOmxUvHgDbkFdKhSKBF6TDo0Ku+gQNA6bMgnjJIoNfIl02KwwuaaNrpKwMhhqcFDpFpfY6dGUc7erabC3gE2Bl/9C6XBlT+D+AhTkIRcF1WFrPozyPYLVPMfyodRTk2/rtlTC/42w/crylAlrsanE3marUJwErHVQclOfKdjy8464GfT6guBpwLJ0lJfEjlh+s/TMyNLm1/uHgUkSjh4MK3wM76JWrt6eHJ8vtcjnKLopHadzU9R9FBfyRZaOyy3YEH4Afj9Obw4CAAA=
+    '35':
+      v: 2730
+      type: BREAD
+      amount: 5
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Prison
+          Bread"}],"text":""}'

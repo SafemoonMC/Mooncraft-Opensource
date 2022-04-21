@@ -1,0 +1,151 @@
+# Categories are a way of grouping up quests.
+# When a player uses /quests, a menu of categories will be presented to them.
+# When a player clicks ona category, a list of quests under that category will show.
+# If categories are disabled, all quests will be shown under one big GUI.
+# Players can access specific categories by command using /quests c [category].
+# If a quest does not have a category, it will not be shown.
+categories:
+  weekly:
+    display:
+      name: "&bWeekly Quests"
+      lore:
+        - "&7Click to view all available"
+        - "&7weekly prison quests "
+        - ""
+        - "&cYou can unlock extra"
+        - "&cweekly quests by purchasing"
+        - '&ca &6Donator &crank or a'
+        - "&cQuests Pass"
+      type: "DIAMOND_BLOCK"
+  earth:
+    display:
+      name: "&3Earth Quests"
+      lore:
+        - "&7Click to view all available"
+        - "&7Earth mine quests "
+        - ""
+        - "&cYou can unlock extra"
+        - "&cEarth quests by purchasing"
+        - '&ca &6Donator &crank or a'
+        - "&cQuests Pass"
+      type: "GRASS_BLOCK"
+    # This category needs the permission "quests.category.permissionexample", because the category ID is 'permissionexample'.
+    # The permission for other categories is: "quests.category.<id>".
+    permission-required: true
+  mars:
+    display:
+      name: "&4Mars Quests"
+      lore:
+        - "&7Click to view all available"
+        - "&7Mars mine quests "
+        - ""
+        - "&cYou can unlock extra"
+        - "&cMars quests by purchasing"
+        - '&ca &6Donator &crank or a'
+        - "&cQuests Pass"
+      type: "RED_CONCRETE"
+    # This category needs the permission "quests.category.permissionexample", because the category ID is 'permissionexample'.
+    # The permission for other categories is: "quests.category.<id>".
+    permission-required: true
+  venus:
+    display:
+      name: "&eVenus Quests"
+      lore:
+        - "&7Click to view all available"
+        - "&7Venus mine quests "
+        - ""
+        - "&cYou can unlock extra"
+        - "&cVenus quests by purchasing"
+        - '&ca &6Donator &crank or a'
+        - "&cQuests Pass"
+      type: "SAND"
+    # This category needs the permission "quests.category.permissionexample", because the category ID is 'permissionexample'.
+    # The permission for other categories is: "quests.category.<id>".
+    permission-required: true
+  jupiter:
+    display:
+      name: "&cJupiter Quests"
+      lore:
+        - "&7Click to view all available"
+        - "&7Jupiter mine quests "
+        - ""
+        - "&cYou can unlock extra"
+        - "&cJupiter quests by purchasing"
+        - '&ca &6Donator &crank or a'
+        - "&cQuests Pass"
+      type: "RED_SANDSTONE"
+    # This category needs the permission "quests.category.permissionexample", because the category ID is 'permissionexample'.
+    # The permission for other categories is: "quests.category.<id>".
+    permission-required: true
+  mercury:
+    display:
+      name: "&fMercury Quests"
+      lore:
+        - "&7Click to view all available"
+        - "&7Mercury mine quests "
+        - ""
+        - "&cYou can unlock extra"
+        - "&cMercury quests by purchasing"
+        - '&ca &6Donator &crank or a'
+        - "&cQuests Pass"
+      type: "DIORITE"
+    # This category needs the permission "quests.category.permissionexample", because the category ID is 'permissionexample'.
+    # The permission for other categories is: "quests.category.<id>".
+    permission-required: true
+  uranus:
+    display:
+      name: "&9Uranus Quests"
+      lore:
+        - "&7Click to view all available"
+        - "&7Uranus mine quests "
+        - ""
+        - "&cYou can unlock extra"
+        - "&cUranus quests by purchasing"
+        - '&ca &6Donator &crank or a'
+        - "&cQuests Pass"
+      type: "BLUE_CONCRETE"
+    # This category needs the permission "quests.category.permissionexample", because the category ID is 'permissionexample'.
+    # The permission for other categories is: "quests.category.<id>".
+    permission-required: true
+  saturn:
+    display:
+      name: "&dSaturn Quests"
+      lore:
+        - "&7Click to view all available"
+        - "&7Saturn mine quests "
+        - ""
+        - "&cYou can unlock extra"
+        - "&cSaturn quests by purchasing"
+        - '&ca &6Donator &crank or a'
+        - "&cQuests Pass"
+      type: "PINK_CONCRETE_POWDER"
+    # This category needs the permission "quests.category.permissionexample", because the category ID is 'permissionexample'.
+    # The permission for other categories is: "quests.category.<id>".
+    permission-required: true
+  neptune:
+    display:
+      name: "&bNeptune Quests"
+      lore:
+        - "&7Click to view all available"
+        - "&7Neptune mine quests "
+        - ""
+        - "&cYou can unlock extra"
+        - "&cNeptune quests by purchasing"
+        - '&ca &6Donator &crank or a'
+        - "&cQuests Pass"
+      type: "LIGHT_BLUE_CONCRETE_POWDER"
+    # This category needs the permission "quests.category.permissionexample", because the category ID is 'permissionexample'.
+    # The permission for other categories is: "quests.category.<id>".
+    permission-required: true
+  events:
+    display:
+      name: "&6Event Quests"
+      lore:
+        - "&7Click to view if there are any"
+        - "&7Event quests right now"
+        - ""
+        - "&cThese event quests will"
+        - "&cbe broadcasted on discord"
+        - "&cand will last for 1 week"
+        - "&cEach quest is a 1 time use"
+      type: "NETHER_STAR"

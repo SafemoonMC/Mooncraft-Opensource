@@ -1,0 +1,27 @@
+grassbug1:
+  MobName: Grass_Bug
+  World: OPP1
+  X: -6
+  Y: 10
+  Z: 137
+  Yaw: 0.0
+  Pitch: 0.0
+  Radius: 15
+  UseTimer: true
+  MaxMobs: '3'
+  MobLevel: '1'
+  MobsPerSpawn: 1
+  Cooldown: 1
+  CooldownTimer: 0
+  Warmup: 2
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 40
+  ScalingRange: 25.0
+  LeashRange: 32
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0

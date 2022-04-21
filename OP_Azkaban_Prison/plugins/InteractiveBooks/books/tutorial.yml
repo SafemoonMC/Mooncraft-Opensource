@@ -1,0 +1,30 @@
+name: MoonCraft Tutorial
+title: MoonCraft Tutorial
+author: MoonCraft
+generation: ORIGINAL
+lore:
+- MoonCraft Azkaban
+- Prison Tutorial
+open_command: 'tutorial'
+
+pages:
+  '1':
+  - '       &3&lTUTORIAL'
+  - ''
+  - '&0Welcome &3%player_name%&0 to &3&nAzkaban Prison&0!'
+  - ''
+  - '&0This is a OP Prison combined with several RPG elements.'
+  - ''
+  - '&0In this book you will be able to learn the basics of it and other relevant information.'
+  - ''
+  '2':
+  - 'Hover over the items below to see info on them!'
+  - '<tooltip:&bAzkaban Prison &7is a OP Prison combined with<br>&7a lot of RPG elements. The essence remains<br>&7the same:<br>&8 1. &7Mine in the mines to earn money. &f(/mines)<br>&8 2. &7Rankup with the money you get. &f(/balance)<br>&8 3. &7Unlock new mines by Ranking Up. &f(/rankup)<br>&8 4. &7Prestige to unlock Prestige mines. &f(/prestige)<br>&7<br>&7Prestiging will reset you to the starter<br>&7rank but will give you extra perks.<br>&7<br>&7To start do &e/mines &7and visit the A mine!&7>&8 ▪ &3Introduction<reset>&r'
+  - '<tooltip:&bAzkaban Prison &7contains several Custom Enchantments<br>&7which will assist you during your journey, most<br>&7of those enchantments are related to Pickaxes.<br>&7<br>You can earn &bETokens &7to upgrade your Pickaxe from<br>&7mining. Every enchantment requires a specific &aPickaxe<br>&aLevel&7.<br>&7<br>&7You can increase your Pickaxe Level by mining.<br>&7<br>&7To open the &3Enchantment GUI &7and start upgrading<br>&7your Pickaxe, and click while holding it.&7>&8 ▪ &3Enchantments<reset>&r'
+  - '<tooltip:&bAzkaban Prison &7offers a extensive Story Line<br>&7with many Quests that require different<br>&7actions to be completed. Some Quests have<br>&7cool rewards!<br>&7<br>&7To start your journey talk to the &cPrison Warden<br>&7located at spawn area!&7>&8 ▪ &3Story Line<reset>&r'
+  - '<tooltip:&bAzkaban Prison &7offers a high amount of custom<br>&7items, those items vary in rarity, from &aScrap &7to &4Shadow&7.<br>&7<br>&7All of the items require &bOrbs &7and &bHilts &7to be crafted.<br>&7<br>&eHilts&7 are like sticks for weapons, they can be<br>&7obtained through chopping wood at spawn.<br>&7<br>&eOrbs&7 can be obtained through Mining and Killing<br>&7mobs in the different real areas (next point).<br>&7<br>&7Every Orb has it''s own items associated with it, for<br>&7example the &fFrost Orb &7has &fFrost Sword, Bow and Armor&7.<br>&7<br>&7Preview all of the available recipes with &3/recipes&7.>&8 ▪ &3Custom Items<reset>&r'
+  - '<tooltip:&bAzkaban Prison &7also contains Waypoints you<br>&7can unlock and use!<br>&7<br>All waypoints require &6⚡ Energy &7to use them, <br>&7energy recovers with time. To unlock a new waypoint<br>&7you must find it &f(Yellow Circle)&7 and sneak on it. After<br>&7which it will appear in your &3/travel&7.<br>&7<br>&7You can view your &6⚡ Energy &7in the middle bottom<br>&7of your screen, next to your &c❤ Health&7 and &a✠ Defense&7!>&8 ▪ &3Waypoints<reset>&r'
+  - '<tooltip:&bAzkaban Prison &7offers a lot of areas with Custom Mobs<br>&7which are called Realms, there are currently<br>&7five realms: &2Forest&7, &7Stone&7, &fFrost&7, &cFire &7and &5Shadow&7.<br>&7<br>&7Every realm has mobs stronger that the one before,<br>&7Mobs are also a great way to earn Money and Orbs.<br><br>&7It is not recommended for brand new users to visit<br>&7the latest Realms as they require better gear and weapons.>&8 ▪ &3Realms & Mobs<reset>&r'
+  '3':
+  - ''
+  - '&0Still need help or have a question that is not listed? Contact us in our <tooltip:&bClick to join our discord server!><link:https://discord.gg/XtHPXdGMSt>&3&nDiscord Server<reset>&0.'

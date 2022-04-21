@@ -1,0 +1,106 @@
+AIR:
+  Skills:
+  - equip{i="AIR HAND"} @self
+
+Stone_WeaponsPick:
+  Skills:
+  - equip{i="AIR HEAD"} @self
+  - equip{i="AIR CHEST"} @self
+  - equip{i="AIR LEGS"} @self
+  - equip{i="AIR FEET"} @self 
+  - randomskill{s=AIR,Stone_Pickaxe,Stone_Sword,Stone_Hoe,Stone_Shovel,Stone_Axe} @self   
+
+Stone_Pickaxe:  
+  Skills:
+  - equip{i="STONE_PICKAXE HAND"} @self
+Stone_Sword:  
+  Skills:
+  - equip{i="STONE_SWORD HAND"} @self
+Stone_Hoe:  
+  Skills:
+  - equip{i="STONE_HOE HAND"} @self
+Stone_Shovel:  
+  Skills:
+  - equip{i="STONE_SHOVEL HAND"} @self
+Stone_Axe:  
+  Skills:
+  - equip{i="STONE_AxE HAND"} @self
+
+
+Iron_WeaponsPick:
+  Skills:
+  - equip{i="AIR HEAD"} @self
+  - equip{i="AIR CHEST"} @self
+  - equip{i="AIR LEGS"} @self
+  - equip{i="AIR FEET"} @self 
+  - randomskill{s=AIR,Iron_Pickaxe,Iron_Sword,Iron_Hoe,Iron_Shovel,Iron_Axe} @self   
+
+Iron_Pickaxe:  
+  Skills:
+  - equip{i="IRON_PICKAXE HAND"} @self
+Iron_Sword:  
+  Skills:
+  - equip{i="IRON_SWORD HAND"} @self
+Iron_Hoe:  
+  Skills:
+  - equip{i="IRON_HOE HAND"} @self
+Iron_Shovel:  
+  Skills:
+  - equip{i="IRON_SHOVEL HAND"} @self
+Iron_Axe:  
+  Skills:
+  - equip{i="IRON_AXE HAND"} @self
+
+Iron_WeaponsPick2:
+  Skills:
+  - equip{i="AIR HEAD"} @self
+  - equip{i="AIR CHEST"} @self
+  - equip{i="AIR LEGS"} @self
+  - equip{i="AIR FEET"} @self 
+  - randomskill{s=AIR,Iron_Sword2,Iron_Hoe2,Iron_Axe2} @self   
+
+Iron_Sword2:  
+  Skills:
+  - equip{i="IRON_SWORD HAND"} @self
+Iron_Hoe2:  
+  Skills:
+  - equip{i="IRON_HOE HAND"} @self
+Iron_Axe2:  
+  Skills:
+  - equip{i="IRON_AXE HAND"} @self
+
+Gold_WeaponsPick2:
+  Skills:
+  - equip{i="AIR HEAD"} @self
+  - equip{i="AIR CHEST"} @self
+  - equip{i="AIR LEGS"} @self
+  - equip{i="AIR FEET"} @self 
+  - randomskill{s=AIR,Gold_Sword2,Gold_Hoe2,Gold_Axe2} @self   
+
+Gold_Sword2:  
+  Skills:
+  - equip{i="GOLD_SWORD HAND"} @self
+Gold_Hoe2:  
+  Skills:
+  - equip{i="GOLD_HOE HAND"} @self
+Gold_Axe2:  
+  Skills:
+  - equip{i="GOLD_AXE HAND"} @self
+
+Leather_ArmorPick:
+  Skills:
+  - randomskill{s=AIR,Leather_Leggings} @self   
+  - randomskill{s=AIR,Leather_Chestplate} @self   
+  - randomskill{s=AIR,Leather_Boots} @self   
+
+Leather_Leggings:
+  Skills:
+  - equip{i="LEATHER_LEGGINGS LEGS"} @self
+
+Leather_Chestplate:
+  Skills:
+  - equip{i="LEATHER_CHESTPLATE CHEST"} @self
+
+Leather_Boots:
+  Skills:
+  - equip{i="LEATHER_BOOTS FEET"} @self

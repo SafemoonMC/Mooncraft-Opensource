@@ -1,0 +1,61 @@
+# The name of this file is the quest ID. It must be alphanumeric and unique.
+
+# Everything inside of this section defines tasks the player must complete to progress.
+tasks:
+  # This is the task ID ("mining"). This can share the same name as the quest ID but MUST be unique with all other task IDs in the same quest.
+  fishing:
+    # This defines what type of task this is. In this instance, it is "blockbreak" (breaking blocks)
+    # NOTE: guides to set up each type of task is on the wiki (see README)!
+    type: "fishingcertain"
+    item: TROPICAL_FISH
+    # This defines the amount of blocks which need to be broken
+    amount: 2
+  # You can have multiple tasks for each quest (example further down).
+
+# Everything inside of this section defines the display item.
+display:
+  # This is the name of the item. This allows color codes.
+  name: "&3Fishing II &9(Premium Task)"
+  # This is the lore of the item if the player has not started the quest. This allows color codes and task/player placeholders.
+  lore-normal:
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Catch &b2 Tropical Fish&7."
+    - ""
+    - "&7Rewards:"
+    - "&7 - &b$5000"
+  # This lore will be appended to the bottom of the above lore when the player starts their quest.
+  # To get the players progress through a task, use {TASKID:progress}  and replace TASKID with the ID of the task.
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - &b{fishing:progress}&7/2 Tropical Fish Caught."
+  # This is the material of the item. It is recommended to stick to bukkit names.
+  type: "TROPICAL_FISH"
+
+# List all commands to be executed by the server when the player completes the quest. Use {player} to get the players name.
+rewards:
+  - "money give {player} 5000"
+
+# These placeholders are accessible using PlaceholderAPI, for example %quests_tracked_p:description%
+# They are useful for putting information about the players tracked quest on a scoreboard
+# You may want to keep the names of them the same for ALL quests for this use-case
+placeholders:
+  description: "Catch 2 Tropical Fish"
+  progress: "{fishing:progress}/2"
+
+# Everything inside this section define quest-specific options
+options:
+  # This is the category for the quest, it will appear under the "examples" category. Categories can be disabled.
+  category: "jupiter"
+  permission-required: true
+  # Set if the quest can be repeated after being completed for the first time.
+  repeatable: true
+  # Define the cooldown on quests. The above (repeatable) must be true for this to take effect.
+  cooldown:
+    # If true, players will have to wait between repeating quests.
+    enabled: true
+    # Time (in minutes)
+    time: 1440
+  # This is the relative position in the GUI
+  sort-order: 5

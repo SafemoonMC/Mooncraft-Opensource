@@ -1,0 +1,36 @@
+mine_name: Uranus
+blocks:
+- BLUE_TERRACOTTA:25:false:false
+- LAPIS_ORE:25:false:false
+- PRISMARINE_BRICKS:25:false:false
+- DARK_PRISMARINE:25:false:false
+region:
+  world: world
+  zmin: -98
+  ymin: 102
+  xmin: 483
+  zmax: -69
+  ymax: 130
+  xmax: 512
+reset:
+  use_timer: true
+  timer: 180
+  use_percentage: false
+  percentage: 45
+  reset_type: GRADUAL
+  use_messages: false
+  reset_direction: TOPTOBOTTOM
+perm_to_mine: false
+blocks_mined: 0
+stats:
+  holograms:
+  - world:492.546310025928:133.5:-99.55574340114715:HOLOGRAM_TIMER
+effects: []
+teleport_location:
+  ==: org.bukkit.Location
+  world: world
+  x: 489.52604813987637
+  y: 137.0
+  z: -111.47639052245815
+  pitch: 0.76411635
+  yaw: -0.11264056

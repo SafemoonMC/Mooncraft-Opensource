@@ -1,0 +1,34 @@
+mine_name: Q
+blocks:
+- REDSTONE_ORE:30:false:false
+- STONE:70:false:false
+region:
+  world: OPP1
+  zmin: -5277
+  ymin: 52
+  xmin: -960
+  zmax: -5249
+  ymax: 69
+  xmax: -922
+reset:
+  use_timer: true
+  timer: 180
+  use_percentage: true
+  percentage: 45
+  reset_type: GRADUAL
+  use_messages: false
+  reset_direction: TOPTOBOTTOM
+perm_to_mine: false
+blocks_mined: 0
+stats:
+  holograms: []
+effects:
+- FLY
+teleport_location:
+  ==: org.bukkit.Location
+  world: OPP1
+  x: -903.44
+  y: 71.0
+  z: -5262.39
+  pitch: -1.8
+  yaw: 91.05

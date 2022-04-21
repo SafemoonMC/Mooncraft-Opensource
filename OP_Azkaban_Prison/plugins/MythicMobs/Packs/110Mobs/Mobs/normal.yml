@@ -1,0 +1,437 @@
+##################################
+#                                #
+#           [ Flower ]           #
+#                                #
+##################################
+
+Dandy_Lion:
+  Type: ZOMBIE
+  Display: '&eDandy Lion &6[Lv. <caster.level>]'
+  Disguise: OCELOT
+  Faction: Flower
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  Options:
+    MovementSpeed: 0.38
+    FollowRange: 20
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - mmoitems{type=MATERIAL;id=ORB} 1 1%
+  LevelModifiers:
+    Health: 5.07
+    Damage: 1.05
+  Skills:
+  - effect:particles{p=BLOCK_CRACK;m=DANDELION;a=20;s=0.1;hS=0.3;vS=0.3;y=0.1} @self ~onTimer:5 ?moving{} 
+  - effect:particles{p=BLOCK_CRACK;m=OAK_LEAVES;a=8;s=0.1;hS=0.1;vS=0.1;y=0.1} @self ~onTimer:5 ?moving{} 
+  - skill{s=Levels-20to40} @self ~onSpawn
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Dusk_Orchid:
+  Type: BABY_ZOMBIE
+  Display: '&3[Lv. <caster.level>] &aDusk Orchid &c<caster.hp> &c<&heart>'
+  Faction: Flower
+  Health: 5
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  Equipment:
+  - Dusk_OrchidHEAD HEAD
+  - Dusk_OrchidCHEST CHEST
+  - Dusk_OrchidLEGS LEGS
+  - Dusk_OrchidFEET FEET
+  Options:
+    MovementSpeed: 0.39
+    FollowRange: 20
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - cmd{c=codex unlock <trigger.name> monsters 3} 100%
+  - mmoitems{type=MATERIAL;id=ORB} 1 1.2%
+  - money 300 100%
+  - mmoitems{type=CONSUMABLE;id=FLOWER} 1 1
+  LevelModifiers:
+    Health: 2
+    Damage: 1
+  Skills:
+  - effect:particles{p=BLOCK_CRACK;m=WHITE_TULIP;a=20;s=0.1;hS=0.3;vS=0.3;y=0.1} @self ~onTimer:5 ?moving{} 
+  - effect:particles{p=BLOCK_CRACK;m=OAK_LEAVES;a=3;s=0.1;hS=0.1;vS=0.1;y=0.1} @self ~onTimer:5 ?moving{} 
+  - sound{s=entity.vex.ambient;v=1.0;p=2} @self ~onTimer:120 0.7
+  - sound{s=block.grass.step;v=0.3;p=0.8} @self ~onTimer:10 ?moving{}
+  - sound{s=block.grass.break;v=0.7;p=0.9} @self ~onDeath
+  - sound{s=entity.vex.charge;v=1.0;p=2} @self ~onDeath
+  - sound{s=block.grass.place;v=0.5;p=1.1} @self ~onDamaged
+  - sound{s=item.sweet_berries.pick_from_bush;v=0.5;p=1.5} @self ~onDamaged
+  - sound{s=block.bamboo_sapling.break;v=0.7;p=1.2} @self ~onDamaged
+  - damage{a=1.5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+  - setname{name=<caster.name>;delay=1} @self ~onDamaged
+  - sound{s=entity.experience_orb.pickup;volume=1.0;pitch=2.0} @Self ~onDeath
+
+Dawn_Tulip:
+  Type: BABY_ZOMBIE
+  Display: '&3[Lv. <caster.level>] &aDawn Tulip &c<caster.hp> &c<&heart>'
+  Faction: Flower
+  Health: 5
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  Equipment:
+  - Dawn_TulipHEAD HEAD
+  - Dawn_TulipCHEST CHEST
+  - Dawn_TulipLEGS LEGS
+  - Dawn_TulipFEET FEET
+  Options:
+    MovementSpeed: 0.39
+    FollowRange: 20
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - cmd{c=codex unlock <trigger.name> monsters 2} 100%
+  - mmoitems{type=MATERIAL;id=ORB} 1 1.2%
+  - money 300 100%
+  - mmoitems{type=CONSUMABLE;id=FLOWER} 1 1
+  LevelModifiers:
+    Health: 2
+    Damage: 1
+  Skills:
+  - effect:particles{p=BLOCK_CRACK;m=ORANGE_TULIP;a=20;s=0.1;hS=0.3;vS=0.3;y=0.1} @self ~onTimer:5 ?moving{} 
+  - effect:particles{p=BLOCK_CRACK;m=OAK_LEAVES;a=3;s=0.1;hS=0.1;vS=0.1;y=0.1} @self ~onTimer:5 ?moving{} 
+  - sound{s=entity.vex.ambient;v=1.0;p=2} @self ~onTimer:120 0.7
+  - sound{s=block.grass.step;v=0.3;p=0.8} @self ~onTimer:10 ?moving{}
+  - sound{s=block.grass.break;v=0.7;p=0.9} @self ~onDeath
+  - sound{s=entity.vex.charge;v=1.0;p=2} @self ~onDeath
+  - sound{s=block.grass.place;v=0.5;p=1.1} @self ~onDamaged
+  - sound{s=item.sweet_berries.pick_from_bush;v=0.5;p=1.5} @self ~onDamaged
+  - sound{s=block.bamboo_sapling.break;v=0.7;p=1.2} @self ~onDamaged
+  - damage{a=1.5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+  - setname{name=<caster.name>;delay=1} @self ~onDamaged
+  - sound{s=entity.experience_orb.pickup;volume=1.0;pitch=2.0} @Self ~onDeath
+
+Flowery_Slime:
+  Type: ZOMBIE
+  Display: '&3[Lv. <caster.level>] &aBlossom Fly &c<caster.hp> &c<&heart>'
+  Disguise: ARMOR_STAND setDynamicName setInvisible setYModifier -1.5
+  Faction: Flower
+  Health: 5
+  Equipment:
+  - AIR HAND
+  - Flower_ElementalHEAD HEAD
+  - AIR CHEST
+  - AIR LEGS 
+  - AIR FEET
+  Options:
+    FollowRange: 20
+    Size: 2
+    PreventSlimeSplit: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - cmd{c=codex unlock <trigger.name> monsters 6} 100%
+  - mmoitems{type=MATERIAL;id=ORB} 1 2.5%
+  - mmoitems{type=MATERIAL;id=ENHANCEDORB} 1 0.8%
+  - money 5500 100%
+  - mmoitems{type=CONSUMABLE;id=BUG} 2 1
+  - mmoitems{type=CONSUMABLE;id=BUG} 1 8%
+  LevelModifiers:
+    Health: 2.3
+    Damage: 1.2
+  Skills:
+  - effect:particles{particle=BLOCK_CRACK;m=POPPY;amount=15;hS=0.5;vS=0.5;speed=0} @self ~onTimer:10 ?moving{}
+  - effect:particles{particle=BLOCK_CRACK;m=BLUE_ORCHID;amount=15;hS=0.5;vS=0.5;speed=0} @self ~onTimer:10 ?moving{}
+  - effect:particles{particle=BLOCK_CRACK;m=DANDELION;amount=15;hS=0.5;vS=0.5;speed=0} @self ~onTimer:10 ?moving{}
+  - sound{s=block.grass.step;v=0.3;p=0.8} @self ~onTimer:10 ?moving{}
+  - sound{s=block.grass.break;v=0.7;p=0.9} @self ~onDeath
+  - sound{s=block.grass.place;v=0.5;p=1.1} @self ~onDamaged
+  - sound{s=item.sweet_berries.pick_from_bush;v=0.5;p=1.5} @self ~onDamaged
+  - sound{s=block.bamboo_sapling.break;v=0.7;p=1.2} @self ~onDamaged
+
+  - damage{a=1} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+  - setname{name=<caster.name>;delay=1} @self ~onDamaged
+
+Shadevine:
+  Type: ZOMBIE
+  Display: '&3[Lv. <caster.level>] &aShadevine &c<caster.hp> &c<&heart>'
+  Faction: Jungle
+  Health: 5
+  Equipment:
+  - OAK_LEAVES HEAD
+  - ShadevineCHEST CHEST
+  - ShadevineLEGS LEGS
+  - ShadevineFEET FEET
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  Options:
+    MovementSpeed: 0.5
+    FollowRange: 20
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - cmd{c=codex unlock <trigger.name> monsters 4} 100%
+  - mmoitems{type=MATERIAL;id=ORB} 1 2.4%
+  - money 4500 100%
+  - mmoitems{type=CONSUMABLE;id=SHADEVINE} 1 1
+  LevelModifiers:
+    Health: 2
+    Damage: 1
+  Skills:
+  - sound{s=entity.llama.hurt;p=1.9;v=0.5} @self ~onDamaged
+  - sound{s=entity.llama.death;p=1.9;v=0.5} @self ~onDeath
+  - sound{s=block.chain.place;v=0.3;p=1.9} @self ~onDamaged
+  - sound{s=block.grass.step;v=0.3;p=0.8} @self ~onTimer:10 ?moving{}
+  - sound{s=block.grass.break;v=0.7;p=0.9} @self ~onDeath
+  - sound{s=block.grass.place;v=0.5;p=1.1} @self ~onDamaged
+  - sound{s=item.sweet_berries.pick_from_bush;v=0.5;p=1.5} @self ~onDamaged
+  - sound{s=block.bamboo_sapling.break;v=0.7;p=1.2} @self ~onDamaged
+
+  - effect:particles{p=block_crack;m=oak_leaves;a=40;s=0.1;hS=0.4;vS=0.5} @self ~onTimer:10 ?moving{}
+
+  - damage{a=1.5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+  - setname{name=<caster.name>;delay=1} @self ~onDamaged
+  - sound{s=entity.experience_orb.pickup;volume=1.0;pitch=2.0} @Self ~onDeath
+
+Flower_Elemental:
+  Type: BEE
+  Display: '&cFlower Elemental &3[Lv. <caster.level>] \n &c<caster.hp> &c<&heart>'
+  Faction: Flower
+  Disguise: ARMOR_STAND setDynamicName setInvisible setYModifier -1.5
+  Health: 5
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Equipment:
+  - Flower_ElementalHEAD HEAD
+  Options:
+    FollowRange: 20
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - mmoitems{type=MATERIAL;id=ORB} 1 1.5%
+  - money 300 100%
+  - mmoitems{type=CONSUMABLE;id=FLOWER} 1 1
+  LevelModifiers:
+    Health: 2
+    Damage: 1
+  Skills:
+  - effect:particles{p=BLOCK_CRACK;m=WHITE_TULIP;a=20;s=0.1;hS=0.3;vS=0.3;y=0.1} @self ~onTimer:15 ?moving{} 
+  - effect:particles{p=BLOCK_CRACK;m=LILAC;a=3;s=0.1;hS=0.1;vS=0.1;y=0.1} @self ~onTimer:15 ?moving{} 
+
+  - effect:spin{v=8;d=99999} @self ~onSpawn
+ 
+  - sound{s=block.grass.break;v=0.7;p=0.9} @self ~onDeath
+  - sound{s=block.grass.place;v=0.5;p=1.1} @self ~onDamaged
+  - sound{s=item.sweet_berries.pick_from_bush;v=0.5;p=1.5} @self ~onDamaged
+  - sound{s=block.bamboo_sapling.break;v=0.7;p=1.2} @self ~onDamaged
+
+  - damage{a=1.5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+  - setname{name=<caster.name>;delay=1} @self ~onDamaged
+
+Bloom_Spirit:
+  Type: SKELETON
+  Display: '&3[Lv. <caster.level>] &aBloom Spirit &c<caster.hp> &c<&heart>'
+  Faction: Flower
+  Disguise: Bloom_Spirit
+  Health: 5
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Equipment:
+  - AIR HAND
+  Options:
+    MovementSpeed: 0.24
+    FollowRange: 20
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    KnockbackResistance: 0.2
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - cmd{c=codex unlock <trigger.name> monsters 5} 100%
+  - mmoitems{type=MATERIAL;id=ORB} 1 2.5%
+  - mmoitems{type=MATERIAL;id=ENHANCEDORB} 1 0.5%
+  - money 500 100%
+  - mmoitems{type=CONSUMABLE;id=FLOWER} 2 1
+  LevelModifiers:
+    Health: 2.2
+    Damage: 1.1
+  Skills:
+  - effect:particles{p=BLOCK_CRACK;m=ORANGE_TULIP;a=20;s=0.1;hS=0.3;vS=0.3;y=0.1} @self ~onTimer:5 ?moving{} 
+  - effect:particles{p=BLOCK_CRACK;m=LILAC;a=3;s=0.1;hS=0.1;vS=0.1;y=0.1} @self ~onTimer:5 ?moving{} 
+
+  - sound{s=entity.vex.charge;v=1.0;p=2} @self ~onDeath
+  - sound{s=entity.vex.ambient;v=1.0;p=2} @self ~onTimer:120 0.7
+  - sound{s=block.grass.step;v=0.1;p=0.8} @self ~onTimer:10 ?moving{}
+  - sound{s=block.grass.break;v=0.7;p=0.9} @self ~onDeath
+  - sound{s=block.grass.place;v=0.5;p=1.1} @self ~onDamaged
+  - sound{s=entity.evoker.ambient;v=0.5;p=2} @self ~onTimer:120 0.7
+  - sound{s=entity.evoker.hurt;v=0.5;p=2} @self ~onDamaged
+  - sound{s=entity.evoker.death;v=0.5;p=2} @self ~onDeath
+
+  - sound{s=item.sweet_berries.pick_from_bush;v=0.5;p=1.5} @self ~onDamaged
+  - sound{s=block.bamboo_sapling.break;v=0.7;p=1.2} @self ~onDamaged
+
+  - damage{a=1} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+  - setname{name=<caster.name>;delay=1} @self ~onDamaged
+
+Grass_Bug:
+  Type: ZOMBIE
+  Display: '&3[Lv. <caster.level>] &aGrass Bug &c<caster.hp> &c<&heart>'
+  Disguise: ARMOR_STAND setDynamicName setInvisible setYModifier -1.5
+  Faction: Flower
+  Health: 5
+  Equipment:
+  - AIR HAND
+  - Grass_BugHEAD HEAD
+  - AIR CHEST
+  - AIR LEGS 
+  - AIR FEET
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  Options:
+    PreventSunburn: true
+    MovementSpeed: 0.4
+    PreventSlimeSplit: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - cmd{c=codex unlock <trigger.name> monsters 1} 100%
+  - mmoitems{type=MATERIAL;id=ORB} 1 0.7%
+  - money 2500 100%
+  - mmoitems{type=CONSUMABLE;id=BUG} 1 1
+  LevelModifiers:
+    Health: 2
+    Damage: 1
+  Skills:
+  - effect:particles{p=BLOCK_CRACK;m=OAK_LEAVES;a=3;s=0.1;hS=0.1;vS=0.1;y=0.1} @self ~onTimer:5 ?moving{} 
+  - sound{s=block.grass.step;v=0.3;p=0.8} @self ~onTimer:10 0.8 ?moving{}  
+  - sound{s=block.grass.break;v=0.7;p=0.9} @self ~onDeath
+  - sound{s=block.grass.place;v=0.5;p=1.1} @self ~onDamaged
+  - sound{s=item.sweet_berries.pick_from_bush;v=0.5;p=1.5} @self ~onDamaged
+  - sound{s=block.bamboo_sapling.break;v=0.7;p=1.2} @self ~onDamaged
+  - damage{a=1} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+  - setname{name=<caster.name>;delay=1} @self ~onDamaged
+  - sound{s=entity.experience_orb.pickup;volume=1.0;pitch=2.0} @Self ~onDeath
+
+Wandering_Nomad:
+  Type: ZOMBIE
+  Display: '&eWandering Nomad &6[Lv. <caster.level>]'
+  Faction: Jungle
+  Disguise: Villager setBiome TAIGA setProfession FARMER
+  Equipment:
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  Options:
+    MovementSpeed: 0.23
+    FollowRange: 20
+    PreventSunburn: true
+    PreventItemPickup: true
+    PreventRenaming: true
+    PreventLeashing: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    KnockbackResistance: 0.2
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - mmoitems{type=MATERIAL;id=ORB} 1 1%
+  LevelModifiers:
+    Health: 5.07
+    Damage: 1.05
+  Skills:
+  - skill{s=Levels-20to40} @self ~onSpawn  
+  - sound{s=entity.pillager.ambient;p=1.2} @self ~onTimer:120 0.7
+  - sound{s=entity.pillager.hurt;p=1.2} @self ~onDamaged
+  - sound{s=entity.pillager.death;p=1.2} @self ~onDeath
+  - randomskill{s=Stone_WeaponsPick,Iron_WeaponsPick} @self ~onSpawn
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack
+
+Wild_Boar:  
+  Type: ZOMBIE
+  Display: '&cWild Boar &6[Lv. <caster.level>]'
+  Disguise: hoglin setDynamicName
+  Faction: Flower
+  Options:
+    MovementSpeed: 0.3
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventOtherDrops: true
+    PreventLeashing: true
+    PreventRenaming: true
+    AlwaysShowName: true
+    #Silent: true
+    PreventItemPickup: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  - mmoitems{type=MATERIAL;id=ORB} 1 1%
+  - mmoitems{type=CONSUMABLE;id=MEAT} 1 45%
+  LevelModifiers:
+    Health: 5.07
+    Damage: 1.05
+  Skills:
+  - skill{s=Levels-20to40} @self ~onSpawn  
+
+  - damage{a=5} @target ~onAttack
+  - cancelevent{sync=true} ~onAttack

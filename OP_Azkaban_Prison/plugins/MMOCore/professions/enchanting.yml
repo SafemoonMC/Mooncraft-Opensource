@@ -1,0 +1,65 @@
+
+# Display options
+name: Enchanting
+
+# Experience given to the main level
+# when leveling up this profession
+experience:
+    base: 10
+    per-level: 2
+
+# Must match an existing exp curve filename from the 'expcurves' folder
+exp-curve: levels
+
+# Remove the 'enchant' parameter from the line config
+# to make the profession get EXP with ANY enchant.
+
+# Specifying enchants like that lets you create different
+# enchanting professions, like DESTRUCTION for offense enchants
+# (Smite, Bane of Arth., Sharpness, Power, Fire Aspect, Flame)
+# and ALTERATION for strategic enchants for e.g
+
+exp-sources:
+
+# When enchanting an item, players earn Enchanting experience.
+# Experience given by an item is the sum of the EXP given by every extra enchantment.
+# Enchantment experience depends on the enchant itself + the enchant level.
+# Enchant exp = <enchant-level> * <base-enchant-exp>
+base-enchant-exp:
+    fire_protection: 0
+    sharpness: 0
+    flame: 0
+    aqua_affinity: 0
+    punch: 0
+    loyalty: 0
+    depth_strider: 0
+    vanishing_curse: 0
+    unbreaking: 0
+    knockback: 0
+    luck_of_the_sea: 0
+    binding_curse: 0
+    fortune: 0
+    protection: 0
+    efficiency: 0
+    mending: 0
+    frost_walker: 0
+    lure: 0
+    looting: 0
+    piercing: 0
+    blast_protection: 0
+    smite: 0
+    multishot: 0
+    fire_aspect: 0
+    channeling: 0
+    sweeping: 0
+    thorns: 0
+    bane_of_arthropods: 0
+    respiration: 0
+    riptide: 0
+    silk_touch: 0
+    quick_charge: 0
+    projectile_protection: 0
+    impaling: 0
+    feather_falling: 0
+    power: 0
+    infinity: 0

@@ -1,0 +1,37 @@
+mine_name: Venus
+blocks:
+- GOLD_ORE:2.5:false:false
+- IRON_ORE:7.5:false:false
+- COAL_ORE:20:false:false
+- YELLOW_TERRACOTTA:35:false:false
+- YELLOW_CONCRETE:35:false:false
+region:
+  world: world
+  zmin: 2578
+  ymin: 31
+  xmin: 1152
+  zmax: 2616
+  ymax: 60
+  xmax: 1190
+reset:
+  use_timer: true
+  timer: 180
+  use_percentage: false
+  percentage: 45
+  reset_type: GRADUAL
+  use_messages: false
+  reset_direction: TOPTOBOTTOM
+perm_to_mine: false
+blocks_mined: 0
+stats:
+  holograms:
+  - world:1150.3667863968801:63.0:2597.49086495473:HOLOGRAM_TIMER
+effects: []
+teleport_location:
+  ==: org.bukkit.Location
+  world: world
+  x: 1143.3968826745229
+  y: 63.0
+  z: 2597.5727876726633
+  pitch: 0.8999829
+  yaw: 269.19046

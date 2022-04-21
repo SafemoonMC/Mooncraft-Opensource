@@ -1,0 +1,56 @@
+# The name of this file is the quest ID. It must be alphanumeric and unique.
+
+# Everything inside of this section defines tasks the player must complete to progress.
+tasks:
+ mining:
+  type: "inventory"
+  item: PRISMARINE_BRICKS
+  amount: 128
+
+# Everything inside of this section defines the display item.
+display:
+  # This is the name of the item. This allows color codes.
+  name: "&3Mining III &9(Premium Task)"
+  # This is the lore of the item if the player has not started the quest. This allows color codes and task/player placeholders.
+  lore-normal:
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Gather &b128 Prismarine Bricks At Once&7."
+    - ""
+    - "&7Rewards:"
+    - "&7 - &b$4000"
+  # This lore will be appended to the bottom of the above lore when the player starts their quest.
+  # To get the players progress through a task, use {TASKID:progress}  and replace TASKID with the ID of the task.
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - &b{mining:progress}&7/128 Prismarine Bricks In Inventory."
+  # This is the material of the item. It is recommended to stick to bukkit names.
+  type: "PRISMARINE_BRICKS"
+
+# List all commands to be executed by the server when the player completes the quest. Use {player} to get the players name.
+rewards:
+  - "money give {player} 4000"
+
+# These placeholders are accessible using PlaceholderAPI, for example %quests_tracked_p:description%
+# They are useful for putting information about the players tracked quest on a scoreboard
+# You may want to keep the names of them the same for ALL quests for this use-case
+placeholders:
+  description: "Gather 128 Prismarine Bricks At Once"
+  progress: "{mining:progress}/128"
+
+# Everything inside this section define quest-specific options
+options:
+  # This is the category for the quest, it will appear under the "examples" category. Categories can be disabled.
+  category: "uranus"
+  permission-required: true
+  # Set if the quest can be repeated after being completed for the first time.
+  repeatable: true
+  # Define the cooldown on quests. The above (repeatable) must be true for this to take effect.
+  cooldown:
+    # If true, players will have to wait between repeating quests.
+    enabled: true
+    # Time (in minutes)
+    time: 1440
+  # This is the relative position in the GUI
+  sort-order: 4

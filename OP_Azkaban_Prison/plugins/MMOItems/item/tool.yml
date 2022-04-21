@@ -1,0 +1,11 @@
+FISHINGROD:
+  base:
+    material: FISHING_ROD
+    name: '&7Fishing Rod'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: COMMON
+    unbreakable: true

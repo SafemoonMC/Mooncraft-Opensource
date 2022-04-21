@@ -1,0 +1,23 @@
+jupiter:
+  name: "&cJupiter"
+  size: 54
+  fillItem:
+    material: BLACK_STAINED_GLASS_PANE
+    name: " "
+  items:
+    1:
+      type: item
+      item:
+        material: RED_NETHER_BRICKS
+        quantity: 1
+      buyPrice: -1
+      sellPrice: 1.5
+      slot: 10
+    2:
+      type: item
+      item:
+        material: RED_TERRACOTTA
+        quantity: 1
+      buyPrice: -1
+      sellPrice: 1.5
+      slot: 11

@@ -1,0 +1,27 @@
+darkzealot1:
+  MobName: Dark_Zealot
+  World: OPP1
+  X: -58
+  Y: 12
+  Z: -201
+  Yaw: 0.0
+  Pitch: 0.0
+  Radius: 12
+  UseTimer: true
+  MaxMobs: '3'
+  MobLevel: '80'
+  MobsPerSpawn: 1
+  Cooldown: 1
+  CooldownTimer: 0
+  Warmup: 0
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 40
+  ScalingRange: 25.0
+  LeashRange: 15
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0

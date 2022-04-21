@@ -1,0 +1,150 @@
+menu_title: 'Fisherman'
+open_command:
+- fisherman
+size: 36
+items:
+
+      glass:
+        material: BLACK_STAINED_GLASS_PANE
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 15
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 33
+        - 34
+        - 35
+        display_name: '&7'
+        
+      soon:
+        material: RED_STAINED_GLASS_PANE
+        slots:
+        - 11
+        - 12
+        - 13
+        - 14
+        display_name: '&c&lComing Soon!'
+
+      fishing-rod:
+        display_name: '&fFishing Rod'
+        lore:
+        - '&7Can be used to Fish items'
+        - '&7in the Spawn lake.'
+        - '&8&m                                 &r'
+        - '&e&lPRICE: &b100 Tokens'
+        - ''
+        - '&eClick to buy!'
+        material: FISHING_ROD
+        priority: 1
+        amount: 1
+        slot: 10
+        right_click_commands:
+        - '[console] tokens remove %player_name% 100'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP 1 2'
+        - '[console] mi give TOOL FISHINGROD %player_name%'
+        - '[refresh]'
+        right_click_requirement:
+          minimum_requirements: 2
+          requirements:
+            money:
+              type: '>='
+              input: '%ultraprison_tokens_1%'
+              output: 100
+            inventory:
+              type: string equals
+              input: "%player_has_empty_slot%"
+              output: "yes"
+          deny_commands:
+            - "[message] &c&lYou cannot afford that!"
+            - "[sound] BLOCK_LAVA_POP 1 2"
+        left_click_commands:
+        - '[console] tokens remove %player_name% 100'
+        - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP 1 2'
+        - '[console] mi give TOOL FISHINGROD %player_name%'
+        - '[refresh]'
+        left_click_requirement:
+          minimum_requirements: 2
+          requirements:
+            money:
+              type: '>='
+              input: '%ultraprison_tokens_1%'
+              output: 100
+            inventory:
+              type: string equals
+              input: "%player_has_empty_slot%"
+              output: "yes"
+          deny_commands:
+            - "[message] &c&lYou cannot afford that!"
+            - "[sound] BLOCK_LAVA_POP 1 2"
+
+
+      sell-fish:
+        display_name: '&b&lSell Your Fish'
+        lore:
+        - '&7Here you can sell all the'
+        - '&7Fish you have catched to'
+        - '&7earn some money.'
+        - ''
+        - '&6Click to open!'
+        material: COD
+        priority: 1
+        amount: 1
+        slot: 16
+        right_click_commands:
+        - '[player] emf shop'
+        left_click_commands:
+        - '[player] emf shop'
+
+      fish-types:
+        display_name: '&b&lFish Rarities'
+        lore:
+        - '&7When fishing you can get'
+        - '&7different Fish (and not only!)'
+        - '&7with different rarities.'
+        - ''
+        - '&7Higher rarities reward you'
+        - '&7with more money when selling.'
+        - '&7Some fish is only available'
+        - '&7at certain rarity.'
+        - ''
+        - '&7Fishing Rarities:'
+        - ' &f&lCOMMON &7- &e70%'
+        - ' &a&lUNCOMMON &7- &e15%'
+        - ' &9&lRARE &7- &e8%'
+        - ' &5&lEPIC &7- &e5%'
+        - ' &6&lLEGENDARY &7- &e2%'
+        - ''
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQ0N2U3ZTgyNzFmNTczOTY5ZjJkYTczNGM0MTI1ZjkzYjI4NjRmYjUxZGI2OWRhNWVjYmE3NDg3Y2Y4ODJiMCJ9fX0=
+        priority: 1
+        amount: 1
+        slot: 32
+
+      close:
+        material: BARRIER
+        slot: 31
+        display_name: '&c&lClose'
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'

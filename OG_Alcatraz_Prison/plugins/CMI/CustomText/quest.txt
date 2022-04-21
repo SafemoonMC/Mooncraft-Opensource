@@ -1,0 +1,5 @@
+<AutoPage>
+&8&m+------------- &3Quests &8&m-------------+
+&b/quests &8- &7Show all quests
+&b/quests started &8- &7Shows all active quests
+&8&m+---------------------------------+

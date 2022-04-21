@@ -1,0 +1,66 @@
+
+# Levels players must have in
+# order to unlock this quest.
+
+# Quest name displayed in the quest menu.
+name: 'Tutorial'
+
+# Quest lore displayed in the quest menu.
+lore:
+- '&3First time playing?'
+- '&7This tutorial will show'
+- '&7you the different aspects'
+- '&7available in Azkaban Prison'
+- '&a'
+- '&eRewards:'
+- '&7► &cRare Crate'
+- '&7► &a1 Orb'
+
+# Quests the player must finish
+# in order to unlock this one.
+parent: []
+
+# Cooldown in hours. Don't put any
+# to make the quest a one-time quest.
+# Put it to 0 to make it instantly redoable.
+delay: 0
+
+# Objectives the player needs to
+# complete. Once they're all complete,
+# the quest will end.
+objectives:
+    1:
+        type: 'goto{world="OPP1";x=8;y=87;z=8;range=10}'
+        lore: 'Head to spawn.'
+        triggers:
+        - 'message{format="&3Tutorial &8| &Blah blah blah blah blah blah"}'
+        - 'message{format="&3Tutorial &8| Blah blah wood"}'
+        - 'sound{sound=ENTITY_EXPERIENCE_ORB_PICKUP}'
+    2:
+        type: 'mineblock{type="DARK_OAK_LOG";amount=3}'
+        lore: 'Get three oak logs!'
+        triggers:
+        - 'message{format="&3Tutorial &8| &fGood job, now bring these logs back to me!"}'
+        - 'sound{sound="ENTITY_EXPERIENCE_ORB_PICKUP"}'
+    3:
+        type: 'getitem{type="OAK_LOG";amount=3;npc=0}'
+        lore: 'Give these oak logs to the blacksmith.'
+        triggers:
+        - 'message{format="&aBlacksmith> &fGood job, now talk to the blacksmith again to claim your weapons!"}'
+        - 'sound{sound=ENTITY_EXPERIENCE_ORB_PICKUP}'
+    4:
+        type: 'talkto{npc=0}'
+        lore: 'Get your weapons from the blacksmith!'
+        triggers:
+        - 'item{type=WOODEN_SWORD}'
+        - 'item{type=WOODEN_AXE}'
+        - 'item{type=BOW}'
+        - 'message{format="&aBlacksmith> &fNow go kill 5 skeletal knights to finish tutorial!"}'
+        - 'sound{sound=ENTITY_PLAYER_LEVELUP}'
+    5:
+        type: 'killmythicmob{name="SkeletalKnight";amount=5}'
+        lore: 'Kill 5 skeletal knights!'
+        triggers:
+        - 'message{format="&aYou have successfully finished the tutorial!"}'
+        - 'sound{sound="ENTITY_PLAYER_LEVELUP"}'
+        - 'experience{amount=100}'

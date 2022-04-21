@@ -1,0 +1,141 @@
+# PremiumVanish v2.7.0 - Messages
+#
+# Information:
+# <..> means that .. is required; [..] means that .. is optional and can be left out; | INSIDE [] or <> stands for 'OR'
+# You can use the & character for color codes. Example: '&cThe color of this text would be red!'
+# You can use #XXXXXX for HEX color codes. Example: '#663EF6This text would be purple!'
+# You can use %p% to get the player's name. Example: '&4&l%p%, you aren't allowed to execute this command!'
+# You can use %other% to get the name of the target or cause
+# You can use %d% to get the player's display name. If you use Essentials then the display name contains the prefix too
+# You can use %tab% to get the player's name in the player list (TAB)
+# You can use %prefix% to get the player's prefix (Requires Vault)
+# You can use %suffix% to get the player's suffix (Requires Vault)
+# You can use %group% to get the player's group (Requires Vault)
+# You can use %nick% to get the player's nickname (Requires Essentials)
+# You can use %special{<text>|<hoverMessage>|[clickCommand]|[run|suggest]}% to create a clickable/hoverable
+#  message part for any message (only one per message possible)
+# You can use %time{<format>}% to get the current time (Uses the server's timezone)
+#  Replace <format> with the date format of your choice. Example: %time{hh:mma | yyyy/MM/dd}%
+#  More info: http://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html
+# You can use %uselevel% and %seelevel% to get the player's respective vanish level (with LayeredPermissions)
+# There is also %health%, %maxhealth%, %tps%, %plain_tps%, %ping% and %plain_ping%
+# Some messages allow different, unique variables too
+#
+# NOTE: You can get WAY more placeholders by installing PlaceholderAPI or MVdWPlaceholderAPI
+#
+# You can also make any message dependent on a player's group by adding 'PerGroup' in front of the message:
+# PerGroupNoPermission:
+#   Admin: 'What, this should not happen you are the Admin!'
+#   Player: 'You have like no permissions anyway'
+#   Silence: ''
+#   Default: 'Access denied.'
+#
+# You can start a message with [JSON] to send JSON text directly.
+# Example: '[JSON]{"text":"Welcome %p%","color":"yellow"}'
+#
+# Empty messages will not be sent.
+# Using \n starts a new line.
+#
+# Important:
+# You must double single quotes if you want to use them inside a message.
+# You must NOT use any tab characters inside this file (indent key) otherwise YAML will spam your console with errors!
+# !! If there are errors in the console after editing this file paste it into an online YAML parser to see if
+# there are any YAML syntax errors !!
+Messages:
+  NoPermission: '&cYou do not have permission!'
+  InvalidUsage: '&cInvalid usage, you can use %special{&6''/pv help''|&6Click here for help!|/pv help|run}% &cfor help.'
+  VanishMessage: ''
+  ReappearMessage: ''
+  VanishMessageWithPermission: '&c&lVANISH &c» &7%p% vanished.'
+  ReappearMessageWithPermission: '&c&lVANISH &c» &7%p% unvanished.'
+  OnVanish: '&c&lVANISH &c» &7You are now vanished.'
+  OnReappear: '&c&lVANISH &c» &7You are no longer vanished.'
+  OnVanishCausedByOtherPlayer: '&c&lVANISH &c» &c%other%&7 put you in vanish.'
+  OnReappearCausedByOtherPlayer: '&c&lVANISH &c» &c%other%&7 took you out of vanish.'
+  AlreadyVanishedError: '&c&lVANISH &c» &7You are already vanished.'
+  NotVanishedError: '&c&lVANISH &c» &7You are not vanished.'
+  AppliedSilentFlag: '  &eUsing flag -s: No fake join/quit broadcast'
+  AppliedShowInTabFlag: '  &eUsing flag -t: Not hidden in the tablist'
+  SilentJoinMessageForAdmins: '&c&lVANISH &c» &7%p% joined silently.'
+  SilentQuitMessageForAdmins: '&c&lVANISH &c» &7%p% left silently.'
+  RemindingMessage: '&c&lVANISH &c» &7You are still invisible!'
+  ListMessagePrefix: '&c&lVANISH &c» &7Invisible Players:&f '
+  ActionBarMessage: '&c&lVANISH &c» &7You are invisible to other players.'
+  HideOtherMessage: '&c&lVANISH &c» &c%other%&7 is now in vanish.'
+  ShowOtherMessage: '&c&lVANISH &c» &c%other%&7 is no-longer in vanish.'
+  CannotHideOtherPlayer: '&c&lVANISH &c» &7You''re not allowed to change &c%other%''s &7visibility.'
+  AlreadyInvisibleMessage: '&c&lVANISH &c» &c%other%&7 is already in vanish.'
+  AlreadyVisibleMessage: '&c&lVANISH &c» &c%other%&7 is not in vanish.'
+  PluginReloaded: '&aSuccessfully reloaded PremiumVanish (%time%ms)!'
+  InvalidSender: '&cYou must be a player to execute this command!'
+  PlayerNotOnline: '&c&lVANISH &c» &7That player is not online.'
+  PlayerNonExistent: '&c&lVANISH &c» &7That player doesn''t exist.'
+  TeleportationFailed: '&c&lVANISH &c» &7Your teleportation failed because another plugin disallowed it.'
+  ToggledPickingUpItemsOn: '&c&lVANISH &c» &7Picking up items is now turned &aON&7.'
+  ToggledPickingUpItemsOff: '&c&lVANISH &c» &7Picking up items is now turned &cOFF&7.'
+  UpdateWarning: '&cWarning! Recreating %updates% resets %changes%. Please use &e/pv recreatefiles confirm&c if you''d like to continue.'
+  RecreatedConfig: '&aSuccessfully recreated %updates%! Please check %changes%.'
+  NoConfigUpdateAvailable: '&eYour PremiumVanish-files are up to date!'
+  RecreationRequiredMsg: '&c[PV] Your PremiumVanish-files are not up to date. You can use &e/pv recreatefiles&c to recreate them
+  or click %special{&6here|&6Click here to dismiss this message!|/pv recreatefiles dismiss|run}% &cto dismiss this message.
+  Recreating PremiumVanish''s files is optional and gives you access to newer config settings and messages of the plugin.
+  If you don''t want to redo the entire config files you can also copy in new messages/settings manually
+  (see default config files in resource description).'
+  DismissedRecreationWarning: '&eYou are no longer receiving notifications about this recreation.'
+  UndismissedRecreationWarning: '&eYou are now receiving notifications about this recreation.'
+  MustBeVanished: '&c&lVANISH &c» &7You need to be in vanish to use this.'
+  ScoreboardDisabled: '&cThe scoreboard has been disabled in the configuration.'
+  NoTarget: '&c&lVANISH &c» &7You don''t have any target at the moment!'
+  NoLockedTarget: '&c&lVANISH &c» &7You don''t have any locked target at the moment!'
+  UnlockedPlayer: '&c&lVANISH &c» &7Unlocked your target.'
+  TargetedPlayer: '&c&lVANISH &c» &7Locked your target. &f(%other%)'
+  ScoreboardLockedTarget: '&e[L]'
+  ScoreboardNoTarget: 'None'
+  ToggledScoreboardOn: '&eYour vanish scoreboard is now turned &aON&e.'
+  ToggledScoreboardOff: '&eYour vanish scoreboard is now turned &cOFF&e.'
+  PrintedStacktrace: '&eSuccessfully created a stacktrace, see console!'
+  ChatMessageWarning: '&7\n&c&lVANISH &c» &7Your message must end with a &c%char%&7 to be sent.'
+  ChatMessageWarning2: '&7&o(( Alternatively, click %special{&c&ohere|&eClick to send message|%message%/|run}% &7&oto send the message))\n&7'
+  ChatMessageDenied: '&c&lVANISH &c» &7You can''t send messages in vanish! %special{&6[Reappear]|&eClick here to reappear!|/pv off|run}%'
+  CommandAccessDenied: '&c&lVANISH &c» &7You can''t use this command in vanish!'
+  CreativeItemDenied: '&c&lVANISH &c» &7You can''t cheat items in vanish!'
+  SpectatorTeleportDenied: '&c&lVANISH &c» &7You can''t teleport using the spectator menu in vanish!'
+  EntityHitDenied: '&c&lVANISH &c» &7You can''t hit players or mobs in vanish!'
+  BlockInteractDenied: '&c&lVANISH &c» &7You can''t interact with this block in vanish!'
+  BlockUseDenied: '&c&lVANISH &c» &7You can''t use this block in vanish!'
+  BlockPlaceDenied: '&c&lVANISH &c» &7You can''t place blocks in vanish!'
+  BlockBreakDenied: '&c&lVANISH &c» &7You can''t break blocks in vanish!'
+  InventoryModifyDenied: '&c&lVANISH &c» &7You can''t edit this inventory in vanish!'
+  MessageFailedAntiSpam: '&c&lVANISH &c» &7Please wait &c%time% &7before running this command again.'
+  SwitchedGameMode: '&c&lVANISH &c» &7Switched gamemode (Double-Shift)'
+  PluginOutdated: '&c[PV] Your current version of PremiumVanish is outdated. New version: ''%new%''; Currently: ''%current%'''
+  NoDatabaseConnection: '&c[PV] Error: Failed to connect to the database, more info in console.'
+  DynmapFakeJoin: '%d% joined'
+  DynmapFakeQuit: '%d% quit'
+  HelpHeader: '&7\n&c&lVANISH\n&7'
+  HelpHint: '&7You can hover over a command to show more information about it and click on a command to
+  insert it into your chat.\n&7'
+  HelpCommands: '&cCommands'
+  HelpCommandFormat: '%special{&7- &c%usage% &7%shortdesc%|&e%usage%\n&7\n&f%longdesc%}%'
+  HelpCustomCommandShortDescriptions:
+     '/pv help': 
+#    '/pv help': 'Custom short description; Keep the indentation, only remove the hashtag!'
+  HelpCustomCommandLongDescriptions:
+     '/pv help': "Displays the following information."
+     '/pv tipu': "Toggles item pickup."
+     '/pv setlevel <level>': "Sets your vanish level."
+     '/pv [on|off] [-s] [-t]': "Sets your own vanish state.\n&7\n&e-t &7Visible in tab\n&e-s&7 Silent join/quit messages"
+     '/pv [on|off] <player> [-s] [-t]': "Sets yourself, or other's vanish state.\n&7\n&e-t &7Visible in tab\n&e-s&7 Silent join/quit messages"
+#    '/pv target <player>': 'Custom long description'
+  HelpConsoleYes: 'Yes'
+  HelpConsoleNo: 'No'
+  HelpOtherPermissions: '&7' #'%special{&e> Other permissions <|&aOther permissions%permissions%}%'
+  HelpOtherPermissionsPermissionsFormat: '\n&c%permission% &e> &f%description%'
+  HelpFooter: ''
+  InvalidVanishLevel: "&c&lVANISH &c» &c%arg% &7is not a valid vanish level. &f(Max %maxlevel%)"
+  SetVanishLevelDenied: "&c&lVANISH &c» &7You do not have access to vanish level &c%level%&7."
+  LayeredPermissionsDisabled: "&cLayered permissions must be enabled in the config."
+  SetVanishLevel: "&c&lVANISH &c» &7You set your vanish level to &c%level%&7."
+  DiscordSRVFakeQuit: "&e%p% left the game"
+  DiscordSRVFakeJoin: "&e%p% joined the game"
+MessagesVersion: 2.7.0

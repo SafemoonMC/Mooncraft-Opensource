@@ -1,0 +1,101 @@
+# Item sets let you create links betweens the different items you create.
+# By wearing multiple items from the same set, the player will benefit from
+# set bonuses which incites him to use items from the same type.
+# This is a very powerful system for RPG items.
+#
+# You can also use potion effects as set bonuses, e.g
+# - "potion-speed: 2" gives permanent Speed II
+# - "potion-increase_damage: 3" gives permanent Strength III
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+#
+# You may also add abilities as full set bonuses. The ability ID
+# must start with 'ability-' but it is only used as reference.
+# You can configure the ability cast mode, type & modifiers as usual.
+
+
+SCRAP:
+    name: '&aScrap Set'
+    bonuses:
+        '4':
+            potion-night_vision: 1
+    lore-tag:
+    - '&7Scrap Set Bonus:'
+    - '&8[4] Night Vision I'
+ENHANCEDSCRAP:
+    name: '&aEnhanced Scrap Set'
+    bonuses:
+        '4':
+            potion-night_vision: 2
+    lore-tag:
+    - '&7Enhanced Scrap Set Bonus:'
+    - '&8[4] Night Vision II'
+STONE:
+    name: '&9Stone Set'
+    bonuses:
+        '4':
+            potion-saturation: 1
+    lore-tag:
+    - '&7Stone Set Bonus:'
+    - '&8[4] Saturation I'
+ENHANCEDSTONE:
+    name: '&9Enhanced Stone Set'
+    bonuses:
+        '4':
+            potion-saturation: 2
+    lore-tag:
+    - '&7Enhanced Stone Set Bonus:'
+    - '&8[4] Saturation II'
+FROST:
+    name: '&fFrost Set'
+    bonuses:
+        '4':
+            potion-speed: 1
+    lore-tag:
+    - '&7Frost Set Bonus:'
+    - '&8[4] Speed I'
+ENHANCEDFROST:
+    name: '&fEnhanced Frost Set'
+    bonuses:
+        '4':
+            potion-speed: 2
+    lore-tag:
+    - '&7Enhanced Frost Set Bonus:'
+    - '&8[4] Speed II'
+FIRE:
+    name: '&6Fire Set'
+    bonuses:
+        '4':
+            potion-fire_resistance: 1
+    lore-tag:
+    - '&7Fire Set Bonus:'
+    - '&8[4] Fire Resistance I'
+ENHANCEDFIRE:
+    name: '&6Enhanced Fire Set'
+    bonuses:
+        '3':
+            potion-fire_resistance: 1
+        '4':
+            potion-fast_digging: 1
+    lore-tag:
+    - '&7Enhanced Fire Set Bonus:'
+    - '&8[3] Fire Resistance I'
+    - '&8[4] Haste I'
+SHADOW:
+    name: '&4Shadow Set'
+    bonuses:
+        '4':
+            potion-increase_damage: 1
+    lore-tag:
+    - '&7Shadow Set Bonus:'
+    - '&8[4] Strength I'
+ENHANCEDSHADOW:
+    name: '&4Enhanced Shadow Set'
+    bonuses:
+        '3':
+            potion-increase_damage: 1
+        '4':
+            potion-increase_damage: 2
+    lore-tag:
+    - '&7Enhanced Shadow Set Bonus:'
+    - '&8[3] Strength I'
+    - '&8[4] Strength II'

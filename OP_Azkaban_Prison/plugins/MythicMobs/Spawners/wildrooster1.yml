@@ -1,0 +1,27 @@
+wildrooster1:
+  MobName: Wild_Rooster
+  World: OPP1
+  X: 28
+  Y: 10
+  Z: -143
+  Yaw: 0.0
+  Pitch: 0.0
+  Radius: 3
+  UseTimer: true
+  MaxMobs: '2'
+  MobLevel: '19'
+  MobsPerSpawn: 1
+  Cooldown: 1
+  CooldownTimer: 0
+  Warmup: 0
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 40
+  ScalingRange: 25.0
+  LeashRange: 15
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0

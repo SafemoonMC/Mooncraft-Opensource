@@ -1,0 +1,40 @@
+mine_name: Trees
+blocks: []
+region:
+  world: world
+  zmin: -118
+  ymin: 199
+  xmin: 41
+  zmax: -88
+  ymax: 204
+  xmax: 71
+reset:
+  use_timer: true
+  timer: 120
+  use_percentage: false
+  percentage: 45
+  reset_type: GRADUAL
+  use_messages: false
+  reset_direction: BOTTOMTOTOP
+perm_to_mine: false
+blocks_mined: 4156
+stats:
+  holograms:
+  - world:56.52074779093861:201.0:-85.31655268763708:HOLOGRAM_TIMER
+effects: []
+schem_loc:
+  ==: org.bukkit.Location
+  world: world
+  x: 57.61298438034676
+  y: 200.5
+  z: -81.17926850433362
+  pitch: 15.30004
+  yaw: 170.92853
+teleport_location:
+  ==: org.bukkit.Location
+  world: world
+  x: 56.618282119064496
+  y: 201.53721146358876
+  z: -80.98170574651729
+  pitch: 9.794522
+  yaw: 179.16522

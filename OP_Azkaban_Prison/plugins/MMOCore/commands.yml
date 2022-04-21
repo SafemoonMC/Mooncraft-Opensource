@@ -1,0 +1,3 @@
+waypoints:
+  main: "waypoints"
+  aliases: ["wp","travel","fasttravel"]

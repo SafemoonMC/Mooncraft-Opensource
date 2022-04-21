@@ -1,0 +1,64 @@
+sorting-type: GROUPS
+sorting-placeholder: '%some_level_maybe?%'
+case-sentitive-sorting: true
+unlimited-nametag-mode-dynamic-lines:
+- abovename
+- nametag
+- belowname
+- another
+unlimited-nametag-mode-static-lines:
+  myCustomLine: 0.66
+scoreboard:
+  enabled: true
+  toggle-command: /sbtoggle
+  permission-required-to-toggle: true
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: false
+  static-number: 0
+  disable-in-worlds:
+  - disabledworld
+  default-scoreboard: default
+  per-world: {}
+  delay-on-join-milliseconds: 0
+scoreboards:
+  default:
+    title: ' &b⁂ %animation:web% &b⁂ '
+    lines:
+    - '       &7%server_time_MMM d%'
+    - '&b&l%player%'
+    - '&3&l| &7Rank: &f%vault_group_capital%'
+    - '&3&l| &7Coins: &f%tm_tokens%'
+    - '&r'
+    - '&b&lPrison'
+    - '&3&l| &7Balance:&f $%vault_eco_balance_formatted%'
+    - '&3&l| &7ETokens:&f %ultraprison_tokens%'
+    - '&3&l| &7Rank:&f %ultraprison_rank%'
+    - '&3&l| &7Prestige:&f %ultraprison_prestige%'
+#    - '&3&l| &7Rankup Cost:&f %ultraprison_next_rank_cost_formatted% &8[&b%ultraprison_rankup_progress%&8]'
+    - '&r'
+    - '&b&lStory'
+    - '&3&l| &7Progress: &f%quests_player_completed_quest_amount%&7/&f50'
+    - '&r'
+    - '&b  &nmc.safemoon.net'
+scoreboard-on: '&7Scoreboard &aON'
+scoreboard-off: '&7Scoreboard &cOFF'
+placeholder-output-replacements:
+  '%essentials_vanished%':
+    'yes': '&7| Vanished'
+    'no': ''
+  '%tps%':
+    '20': '&aPerfect'
+align-tabsuffix-on-the-right: false
+extra-character-widths: {}
+conditions:
+  health:
+    conditions:
+    - '%health%<21'
+    - '%health%>15'
+    type: AND
+    true: Healthy!
+    false: Damaged!
+placeholder-order:
+- value1
+- value2
