@@ -1,0 +1,126 @@
+(1)[2022/02/09 13:14:44]: '[Spartan Build 446/1677-33408/449485-544843] Fagiosh failed
+  MorePackets (VL: 2) [(Version: Airplane 1.17), (C-V: 9) (Silent: false), (Ping:
+  166ms), (TPS: 19.972), (Plib: true), (Online: 3), (type: instant, overall: 4.033149690496595,
+  last-tick: 0)]'
+(2)[2022/02/09 13:14:44]: '[Spartan Build 446/1677-33408/449485-544843] Fagiosh failed
+  MorePackets (VL: 3) [(Version: Airplane 1.17), (C-V: 9) (Silent: false), (Ping:
+  166ms), (TPS: 19.944), (Plib: true), (Online: 3), (type: instant, overall: 6.464063796288259,
+  last-tick: 0)]'
+(3)[2022/02/09 21:00:05]: '[Spartan Build 446/1677-33408/449485-544843] GlennHasABeard
+  failed MorePackets (VL: 1) [(Version: Airplane 1.17), (C-V: 9) (Silent: false),
+  (Ping: 74ms), (TPS: 19.924), (Plib: true), (Online: 8), (type: instant, overall:
+  1.8571405385109416, last-tick: 0)]'
+(4)[2022/02/09 21:00:05]: '[Spartan Build 446/1677-33408/449485-544843] GlennHasABeard
+  failed MorePackets (VL: 2) [(Version: Airplane 1.17), (C-V: 9) (Silent: false),
+  (Ping: 74ms), (TPS: 19.92), (Plib: true), (Online: 8), (type: instant, overall:
+  4.468739155197073, last-tick: 0)]'
+(5)[2022/02/09 21:20:42]: '[Spartan Build 446/1677-33408/449485-544843] Safemoon7
+  failed FastPlace (VL: 1) [(Version: Airplane 1.17), (C-V: 4) (Silent: false), (Ping:
+  117ms), (TPS: 19.956), (Plib: true), (Online: 7), (t: fast, ms: 0, b: stone)]'
+(6)[2022/02/09 21:20:42]: '[Spartan Build 446/1677-33408/449485-544843] Safemoon7
+  failed FastPlace (VL: 2) [(Version: Airplane 1.17), (C-V: 4) (Silent: false), (Ping:
+  117ms), (TPS: 19.956), (Plib: true), (Online: 7), (t: fast, ms: 1, b: stone)]'
+(7)[2022/02/09 21:20:42]: '[Spartan Build 446/1677-33408/449485-544843] Safemoon7
+  failed FastPlace (VL: 3) [(Version: Airplane 1.17), (C-V: 4) (Silent: false), (Ping:
+  117ms), (TPS: 19.952), (Plib: true), (Online: 7), (t: fast, ms: 0, b: stone)]'
+(8)[2022/02/09 21:20:42]: '[Spartan Build 446/1677-33408/449485-544843] Safemoon7
+  failed FastPlace (VL: 4) [(Version: Airplane 1.17), (C-V: 4) (Silent: false), (Ping:
+  117ms), (TPS: 19.952), (Plib: true), (Online: 7), (t: fast, ms: 1, b: stone)]'
+(9)[2022/02/09 21:20:42]: '[Spartan Build 446/1677-33408/449485-544843] Safemoon7
+  failed FastPlace (VL: 5) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  117ms), (TPS: 19.944), (Plib: true), (Online: 7), (t: fast, ms: 1, b: stone)]'
+(10)[2022/02/09 21:20:49]: '[Spartan Build 446/1677-33408/449485-544843] Safemoon7
+  failed FastPlace (VL: 6) [(Version: Airplane 1.17), (C-V: 4) (Silent: false), (Ping:
+  117ms), (TPS: 19.948), (Plib: true), (Online: 7), (t: fast, ms: 1, b: stone)]'
+(11)[2022/02/09 21:20:49]: '[Spartan Build 446/1677-33408/449485-544843] Safemoon7
+  failed MorePackets (VL: 1) [(Version: Airplane 1.17), (C-V: 10) (Silent: false),
+  (Ping: 117ms), (TPS: 19.94), (Plib: true), (Online: 7), (type: instant, overall:
+  2.005557185694731, last-tick: 0)]'
+(12)[2022/02/09 21:20:49]: '[Spartan Build 446/1677-33408/449485-544843] Safemoon7
+  failed FastPlace (VL: 7) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  117ms), (TPS: 19.94), (Plib: true), (Online: 7), (t: fast, ms: 2, b: stone)]'
+(13)[2022/02/09 21:20:49]: '[Spartan Build 446/1677-33408/449485-544843] Safemoon7
+  failed FastPlace (VL: 8) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  117ms), (TPS: 19.928), (Plib: true), (Online: 7), (t: fast, ms: 3, b: stone)]'
+(14)[2022/02/09 21:20:50]: '[Spartan Build 446/1677-33408/449485-544843] Safemoon7
+  failed FastPlace (VL: 9) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  117ms), (TPS: 19.849), (Plib: true), (Online: 7), (t: fast, ms: 20, b: stone)]'
+(15)[2022/02/09 21:20:50]: '[Spartan Build 446/1677-33408/449485-544843] Safemoon7
+  failed FastPlace (VL: 10) [(Version: Airplane 1.17), (C-V: -4) (Silent: false),
+  (Ping: 117ms), (TPS: 19.845), (Plib: true), (Online: 7), (t: fast, ms: 1, b: stone)]'
+(16)[2022/02/09 21:20:50]: '[Spartan Build 446/1677-33408/449485-544843] Safemoon7
+  failed MorePackets (VL: 2) [(Version: Airplane 1.17), (C-V: 10) (Silent: false),
+  (Ping: 117ms), (TPS: 19.833), (Plib: true), (Online: 7), (type: instant, overall:
+  3.0546518552963295, last-tick: 0)]'
+(17)[2022/02/09 21:21:02]: '[Spartan Build 446/1677-33408/449485-544843] Safemoon7
+  failed FastPlace (VL: 11) [(Version: Airplane 1.17), (C-V: 4) (Silent: false), (Ping:
+  1076ms), (TPS: 19.92), (Plib: true), (Online: 7), (t: fast, ms: 1, b: stone)]'
+(18)[2022/02/09 21:21:02]: '[Spartan Build 446/1677-33408/449485-544843] Safemoon7
+  failed FastPlace (VL: 12) [(Version: Airplane 1.17), (C-V: -4) (Silent: false),
+  (Ping: 1076ms), (TPS: 19.908), (Plib: true), (Online: 7), (t: fast, ms: 4, b: stone)]'
+(19)[2022/02/09 21:21:08]: '[Spartan Build 446/1677-33408/449485-544843] Safemoon7
+  failed FastPlace (VL: 13) [(Version: Airplane 1.17), (C-V: 4) (Silent: false), (Ping:
+  1076ms), (TPS: 20.0), (Plib: true), (Online: 7), (t: fast, ms: 0, b: stone)]'
+(20)[2022/02/09 21:55:05]: '[Spartan Build 446/1677-33408/449485-544843] TIMTIM420
+  failed MorePackets (VL: 1) [(Version: Airplane 1.17), (C-V: 10) (Silent: false),
+  (Ping: 85ms), (TPS: 15.363), (Plib: true), (Online: 6), (type: instant, overall:
+  2.078375386674716, last-tick: 1)]'
+(21)[2022/02/09 21:57:59]: '[Spartan Build 446/1677-33408/449485-544843] SterlingRACERS1
+  failed FastBreak (VL: 1) [(Version: Airplane 1.17), (C-V: 3) (Silent: false), (Ping:
+  153ms), (TPS: 19.992), (Plib: true), (Online: 6), (t: frequency, ms: 11, t: 40,
+  a: 4, l: 8, b: grass-block)]'
+(22)[2022/02/09 22:00:12]: '[Spartan Build 446/1677-33408/449485-544843] Safemoon7
+  failed MorePackets (VL: 3) [(Version: Airplane 1.17), (C-V: 10) (Silent: false),
+  (Ping: 64ms), (TPS: 19.904), (Plib: true), (Online: 6), (type: horizontal, total-horizontal:
+  0.0, total-vertical: 0.0, extra-ticks: 8, extra-packets: 3, tick-average: 50.0)]'
+(23)[2022/02/09 22:00:15]: '[Spartan Build 446/1677-33408/449485-544843] Safemoon7
+  failed MorePackets (VL: 4) [(Version: Airplane 1.17), (C-V: 10) (Silent: false),
+  (Ping: 64ms), (TPS: 19.904), (Plib: true), (Online: 6), (type: horizontal, total-horizontal:
+  0.2202487154496718, total-vertical: 0.0, extra-ticks: 13, extra-packets: 6, tick-average:
+  49.983333333333334)]'
+(24)[2022/02/09 22:00:18]: '[Spartan Build 446/1677-33408/449485-544843] Safemoon7
+  failed MorePackets (VL: 5) [(Version: Airplane 1.17), (C-V: 10) (Silent: false),
+  (Ping: 64ms), (TPS: 19.708), (Plib: true), (Online: 6), (type: horizontal, total-horizontal:
+  0.22024690855539328, total-vertical: 0.0, extra-ticks: 10, extra-packets: 9, tick-average:
+  49.18333333333333)]'
+(25)[2022/02/09 22:00:44]: '[Spartan Build 446/1677-33408/449485-544843] MacWayne
+  failed MorePackets (VL: 1) [(Version: Airplane 1.17), (C-V: 10) (Silent: false),
+  (Ping: 179ms), (TPS: 19.948), (Plib: true), (Online: 6), (type: instant, overall:
+  3.4096398297705135, last-tick: 1)]'
+(26)[2022/02/09 22:00:46]: '[Spartan Build 446/1677-33408/449485-544843] MacWayne
+  failed FastPlace (VL: 1) [(Version: Airplane 1.17), (C-V: 4) (Silent: false), (Ping:
+  179ms), (TPS: 19.864), (Plib: true), (Online: 6), (t: fast, ms: 1, b: oak-log)]'
+(27)[2022/02/09 22:00:46]: '[Spartan Build 446/1677-33408/449485-544843] MacWayne
+  failed FastPlace (VL: 2) [(Version: Airplane 1.17), (C-V: 4) (Silent: false), (Ping:
+  179ms), (TPS: 19.86), (Plib: true), (Online: 6), (t: fast, ms: 1, b: oak-log)]'
+(28)[2022/02/09 22:00:46]: '[Spartan Build 446/1677-33408/449485-544843] MacWayne
+  failed MorePackets (VL: 2) [(Version: Airplane 1.17), (C-V: 10) (Silent: false),
+  (Ping: 179ms), (TPS: 19.86), (Plib: true), (Online: 6), (type: instant, overall:
+  1.9256199599243042, last-tick: 0)]'
+(29)[2022/02/09 22:00:46]: '[Spartan Build 446/1677-33408/449485-544843] MacWayne
+  failed FastPlace (VL: 3) [(Version: Airplane 1.17), (C-V: 4) (Silent: false), (Ping:
+  179ms), (TPS: 19.857), (Plib: true), (Online: 6), (t: fast, ms: 1, b: oak-log)]'
+(30)[2022/02/09 22:04:25]: '[Spartan Build 446/1677-33408/449485-544843] Safemoon7
+  failed MorePackets (VL: 6) [(Version: Airplane 1.17), (C-V: 10) (Silent: false),
+  (Ping: 61ms), (TPS: 19.872), (Plib: true), (Online: 6), (type: instant, overall:
+  2.5265290563848914, last-tick: 1)]'
+(31)[2022/02/09 22:04:25]: '[Spartan Build 446/1677-33408/449485-544843] Safemoon7
+  failed MorePackets (VL: 7) [(Version: Airplane 1.17), (C-V: 10) (Silent: false),
+  (Ping: 61ms), (TPS: 19.841), (Plib: true), (Online: 6), (type: instant, overall:
+  4.739845058836258, last-tick: 0)]'
+(32)[2022/02/09 22:04:25]: '[Spartan Build 446/1677-33408/449485-544843] Safemoon7
+  failed MorePackets (VL: 8) [(Version: Airplane 1.17), (C-V: 10) (Silent: false),
+  (Ping: 61ms), (TPS: 19.809), (Plib: true), (Online: 6), (type: instant, overall:
+  7.111721806940963, last-tick: 1)]'
+(33)[2022/02/09 22:04:32]: '[Spartan Build 446/1677-33408/449485-544843] Safemoon7
+  failed MorePackets (VL: 9) [(Version: Airplane 1.17), (C-V: 10) (Silent: false),
+  (Ping: 61ms), (TPS: 19.813), (Plib: true), (Online: 6), (type: instant, overall:
+  1.6548549834176154, last-tick: 0)]'
+(34)[2022/02/09 22:50:55]: '[Spartan Build 446/1677-33408/449485-544843] Safemoon7
+  failed MorePackets (VL: 10) [(Version: Airplane 1.17), (C-V: 10) (Silent: false),
+  (Ping: 61ms), (TPS: 19.964), (Plib: true), (Online: 4), (type: instant, overall:
+  1.8016800740189514, last-tick: 0)]'
+(35)[2022/02/09 22:51:09]: '[Spartan Build 446/1677-33408/449485-544843] Safemoon7
+  failed MorePackets (VL: 11) [(Version: Airplane 1.17), (C-V: 10) (Silent: false),
+  (Ping: 1628ms), (TPS: 20.0), (Plib: true), (Online: 4), (type: instant, overall:
+  1.8097989959700738, last-tick: 0)]'

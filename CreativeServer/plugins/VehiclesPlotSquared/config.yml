@@ -1,0 +1,6 @@
+placeProtectionEnabled: true
+placeInRoadProtectionEnabled: true
+dismountProtectionEnabled: true
+allowVehicleStealingInPlot: true
+message-place-no-permission-plot: "&cYou don't have permission to place Vehicles in this plot."
+message-place-no-permission-road: "&cYou don't have permission to place Vehicles in the road."

@@ -1,0 +1,91 @@
+menu_title: 'Rating: %plotsquared_currentplot_owner%''s Plot'
+open_requirement:
+  requirements:
+    inplot:
+      type: '>='
+      input: "%plotsquared_currentplot_members%"
+      output: 1
+  deny_commands:
+  - "[message] &3MoonCraft &8| &cYou must be in a plot!"
+open_command:
+- rate
+- vote
+- rating
+- rateplot
+- voteplot
+- like
+- dislike
+size: 5
+inventory_type: 'HOPPER'
+register_command: true
+update_interval: 1
+items:
+
+      POOP:
+        material: RED_TERRACOTTA
+        slot: 0
+        display_name: '&e&c&lPOOP'
+        lore:
+        - '&7Click to rate'
+        left_click_commands:
+        - '[player] plot rate 2'
+        - '[close]'
+        right_click_commands:
+        - '[player] plot rate 2'
+        - '[close]'
+
+      OK:
+        material: LIME_TERRACOTTA
+        slot: 1
+        amount: 2
+        display_name: '&a&lOK'
+        lore:
+        - '&7Click to rate'
+        left_click_commands:
+        - '[player] plot rate 4'
+        - '[close]'
+        right_click_commands:
+        - '[player] plot rate 4'
+        - '[close]'
+
+      GOOD:
+        material: GREEN_TERRACOTTA
+        slot: 2
+        amount: 3
+        display_name: '&2&lGOOD'
+        lore:
+        - '&7Click to rate'
+        left_click_commands:
+        - '[player] plot rate 6'
+        - '[close]'
+        right_click_commands:
+        - '[player] plot rate 6'
+        - '[close]'
+
+      EPIC:
+        material: BLUE_TERRACOTTA
+        slot: 3
+        amount: 4
+        display_name: '&5&lEPIC'
+        lore:
+        - '&7Click to rate'
+        left_click_commands:
+        - '[player] plot rate 8'
+        - '[close]'
+        right_click_commands:
+        - '[player] plot rate 8'
+        - '[close]'
+
+      LEGENDARY:
+        material: YELLOW_TERRACOTTA
+        slot: 4
+        amount: 5
+        display_name: '&6&lLEGENDARY'
+        lore:
+        - '&7Click to rate'
+        left_click_commands:
+        - '[player] plot rate 10'
+        - '[close]'
+        right_click_commands:
+        - '[player] plot rate 10'
+        - '[close]'

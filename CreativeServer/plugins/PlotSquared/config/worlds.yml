@@ -1,0 +1,61 @@
+configuration_version: v5
+worlds:
+  plotworld:
+    generator:
+      plugin: PlotSquared
+    plot:
+      height: 50
+      size: 105
+      filling: dirt
+      floor: grass_block
+      bedrock: true
+      biome: minecraft:forest
+      auto_merge: false
+      create_signs: true
+      sign_material: OAK_WALL_SIGN
+    wall:
+      block: polished_andesite
+      block_claimed: polished_andesite
+      filling: polished_andesite
+      height: 49
+      place_top_block: true
+    road:
+      width: 50
+      height: 25
+      block: polished_andesite
+      flags: {}
+    misc_spawn_unowned: false
+    home:
+      nonmembers: side
+      default: side
+    schematic:
+      specify_on_claim: false
+      on_claim: false
+      file: 'null'
+      schematics: []
+    economy:
+      prices:
+        merge: 100
+        sell: 100
+        claim: 100
+      use: false
+    chat:
+      enabled: false
+      forced: false
+    limits:
+      max-members: 99999
+    world:
+      max_height: 256
+      gamemode: creative
+      min_height: 1
+      border: false
+    event:
+      spawn:
+        egg: true
+        breeding: false
+        custom: true
+    natural_mob_spawning: false
+    mob_spawner_spawning: false
+    flags:
+      use: oak_door,oak_trapdoor,spruce_trapdoor,birch_trapdoor,jungle_trapdoor,acacia_trapdoor,dark_oak_trapdoor,spruce_door,birch_door,jungle_door,acacia_door,dark_oak_door,birch_sign,
+      redstone: true

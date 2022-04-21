@@ -1,0 +1,54 @@
+#Customtext
+&6This is the custom text commands file.
+
+&6This file allows you to define custom text commands.
+
+&6You can create a specific file for a user or a group:
+&6Name it custom_username.txt or custom_groupname.txt
+
+&6You can use multiple pages, for example type:
+&c/customtext 2
+
+&6To add a custom command you need to do three things:
+&e-&9 Add a section below in the custom.txt
+&e-&9 Add a line to the commands.yml aliases section
+&e-&9 Give players access to 'essentials.customtext'
+
+To add /vote, add this to commands.yml:
+  vote: 
+  - customtext vote $1-
+
+&6The following commands can also be customized:
+&c/rules /motd /news /help
+
+&6These support chapter customization such as:&c /rules grief
+&6You can use custom aliases with these commands too.
+#vote
+&8&m+-------------------------------------+
+&f &f &f &7Vote&f &r &bhttps://mc.safemoon.net/vote
+&8&m+-------------------------------------+
+#buy
+&8&m+-------------------------------------+
+&f &f &f &7Webstore&f &r &bhttps://mcstore.safemoon.net
+&8&m+-------------------------------------+
+#rules
+&8&m+-------------------------------------+
+&f &f &f &7Rules&f &r &bhttps://mc.safemoon.net/rules
+&8&m+-------------------------------------+
+#marriage
+&8&m+------------------- &3Moon Marry&8&m -------------------+
+&b/marry gift &8- &7Gift the item you are holding
+&b/marry gender <gender> &8- &7Choose your gender
+&b/marry <player> &8- &7Request to marry someone
+&b/marry list [page] &8- &7List all married players
+&b/marry seen &8- &7Check when your partner was online
+&b/marry home &8- &7Teleport to your marriage home
+&b/marry chat &8- &7Enable partner-only chat mode
+&b/marry sethome &8- &7Set a home for you and your partner
+&b/marry divorce &8- &7Divorce your current partner
+&b/marry tp &8- &7Teleport to your partner.
+&8&m+-----------------------***-----------------------+
+#wiki
+&8&m+---------------------------------------+
+&7Wiki&f &r &bhttps://mcwiki.safemoon.net/en/how-to/creative
+&8&m+---------------------------------------+

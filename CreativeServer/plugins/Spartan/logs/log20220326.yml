@@ -1,0 +1,20 @@
+(1)[2022/03/26 12:22:15]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 14) (Silent:
+  false), (Ping: 61ms), (TPS: 19.996), (Plib: true), (Online: 1), (instance: step-limit(1/20/1),
+  extra: (difference: 5.998664020887851, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air: 0, horizontal:
+  0.09796244797288971)]'
+(2)[2022/03/26 12:23:04]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 14) (Silent:
+  false), (Ping: 56ms), (TPS: 19.849), (Plib: true), (Online: 1), (instance: step-abstract(1),
+  extra: (difference: 1.3536091292308328, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(3)[2022/03/26 12:58:01]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed FastBreak (VL: 1) [(Version: Airplane 1.17), (C-V: 6) (Silent: false), (Ping:
+  79ms), (TPS: 19.896), (Plib: true), (Online: 1), (t: moves-in-between, b: cobblestone,
+  a: 1.2)]'
+(4)[2022/03/26 12:58:06]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed FastBreak (VL: 2) [(Version: Airplane 1.17), (C-V: 6) (Silent: false), (Ping:
+  75ms), (TPS: 19.944), (Plib: true), (Online: 1), (t: moves-in-between, b: cobblestone,
+  a: 1.5)]'

@@ -1,0 +1,343 @@
+menu_title: '&lPunishing: {target}'
+open_command:
+- punish
+args:
+- target
+args_usage_message: "&cIncorrect Usage! (/punish <player>)"
+register_command: true
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: punishmenu.open
+      deny_commands:
+        - '[message] &cYou don''t have permission!'
+size: 54
+items:
+
+      glass:
+        material: BLACK_STAINED_GLASS_PANE
+        priority: 2
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 8
+        - 7
+        - 9
+        - 11
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 20
+        - 22
+        - 24
+        - 26
+        - 27
+        - 29
+        - 31
+        - 33
+        - 35
+        - 36
+        - 38
+        - 40
+        - 42
+        - 44
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+        - 25
+        - 43
+        - 34
+        display_name: '&7'
+
+      perma-mute:
+        material: PAPER
+        slot: 25
+        priority: 1
+        display_name: '&c&lPermanent Mute'
+        lore:
+        - ''
+        - '&7Inappropriate Chat Behavior'
+        left_click_commands:
+        - '[console] sc sudo bungee %player_name% warn {target} Inappropriate Chat Behavior'
+        - '[close]'
+        right_click_commands:
+        - '[console] sc sudo bungee %player_name% warn {target} Inappropriate Chat Behavior'
+        - '[close]'
+
+      warn:
+        material: ANVIL
+        slot: 7
+        priority: 1
+        display_name: '&c&lWarn'
+        lore:
+        - ''
+        - '&7Inappropriate Chat Behavior'
+        - '&7Inappropriate Game Behavior'
+        left_click_commands:
+        - '[console] sc sudo bungee %player_name% warn {target} Inappropriate Behavior'
+        - '[close]'
+        right_click_commands:
+        - '[console] sc sudo bungee %player_name% warn {target} Inappropriate Behavior'
+        - '[close]'
+
+      perma-ip-ban:
+        material: TNT
+        slot: 43
+        priority: 1
+        display_name: '&c&lPermanent IP Ban'
+        lore:
+        - ''
+        - '&7Inappropriate Behavior'
+        left_click_commands:
+        - '[console] sc sudo bungee %player_name% ipban {target} Inappropriate Behavior'
+        - '[close]'
+        right_click_commands:
+        - '[console] sc sudo bungee %player_name% ipban {target} Inappropriate Behavior'
+        - '[close]'
+        
+      chat:
+        material: WRITABLE_BOOK
+        slot: 10
+        display_name: '&a&lChat Offenses'
+        lore:
+        - '&7Offenses related to verbal abuse,'
+        - '&7spam, harassment and other chat'
+        - '&7related misconduct.'
+
+      chat-1:
+        material: INK_SAC
+        slot: 19
+        display_name: '&a&lLight Severity'
+        lore:
+        - '&fMute Duration: &e1 Hour'
+        - ''
+        - '&7Light Spam'
+        - '&fPlayer sends the same message'
+        - '&f2-4 times.'
+        - ''
+        - '&7Light Advertising'
+        - '&fPlayer advertises another server'
+        - '&for page without sending the IP or'
+        - '&flink.'
+        - ''
+        - '&7Light Abuse / Harassment'
+        - '&fPlayer insults other player in a'
+        - '&flight way.'
+        left_click_commands:
+        - '[console] sc sudo bungee %player_name% tempmute {target} 1h Inappropriate Chat Behavior'
+        - '[close]'
+        right_click_commands:
+        - '[console] sc sudo bungee %player_name% tempmute {target} 1h Inappropriate Chat Behavior'
+        - '[close]'
+
+      chat-2:
+        material: INK_SAC
+        slot: 28
+        display_name: '&a&lMedium Severity'
+        lore:
+        - '&fMute Duration: &e12 Hours'
+        - ''
+        - '&7Medium Spam'
+        - '&fPlayer sends the same message'
+        - '&f5-7 times.'
+        - ''
+        - '&7Medium Advertising'
+        - '&fPlayer advertises another server'
+        - '&fand sending the IP or link.'
+        - ''
+        - '&7Medium Abuse / Harassment'
+        - '&fPlayer insults other player in a'
+        - '&fharsh way.'
+        left_click_commands:
+        - '[console] sc sudo bungee %player_name% tempmute {target} 12h Inappropriate Chat Behavior'
+        - '[close]'
+        right_click_commands:
+        - '[console] sc sudo bungee %player_name% tempmute {target} 12h Inappropriate Chat Behavior'
+        - '[close]'
+
+      chat-3:
+        material: INK_SAC
+        slot: 37
+        display_name: '&a&lSevere Severity'
+        lore:
+        - '&fMute Duration: &e5 Days'
+        - ''
+        - '&7Severe Spam'
+        - '&fPlayer sends the same message'
+        - '&f8+ times or it is a spam bot.'
+        - ''
+        - '&7Severe Advertising'
+        - '&fPlayer advertises another server'
+        - '&fencouraging other players to join'
+        - '&fand sending the IP or link.'
+        - ''
+        - '&7Severe Abuse / Harassment'
+        - '&fPlayer insults other player in a'
+        - '&fsevere way, threats, etc.'
+        left_click_commands:
+        - '[console] sc sudo bungee %player_name% tempmute {target} 12h Inappropriate Chat Behavior'
+        - '[close]'
+        right_click_commands:
+        - '[console] sc sudo bungee %player_name% tempmute {target} 12h Inappropriate Chat Behavior'
+        - '[close]'
+
+      general:
+        material: HOPPER
+        slot: 12
+        display_name: '&a&lGeneral Offenses'
+        lore:
+        - '&7General offenses, they can be'
+        - '&7related to Exploiting and other'
+        - '&7medium offenses.'
+
+      general-1:
+        material: INK_SAC
+        slot: 21
+        display_name: '&a&lLight Severity'
+        lore:
+        - '&fBan Duration: &e5 Hours'
+        - ''
+        - '&7Light Exploits'
+        - '&fPlayer is using light exploits'
+        - '&ffor his advantage.'
+        left_click_commands:
+        - '[console] sc sudo bungee %player_name% tempban {target} 5h Inappropriate Game Behavior'
+        - '[close]'
+        right_click_commands:
+        - '[console] sc sudo bungee %player_name% tempban {target} 5h Inappropriate Game Behavior'
+        - '[close]'
+
+      general-2:
+        material: INK_SAC
+        slot: 30
+        display_name: '&a&lMedium Severity'
+        lore:
+        - '&fBan Duration: &e3 Days'
+        - ''
+        - '&7Medium Exploits'
+        - '&fPlayer is using medium exploits'
+        - '&ffor his advantage and they affect'
+        - '&fother players or the server.'
+        left_click_commands:
+        - '[console] sc sudo bungee %player_name% tempban {target} 3d Inappropriate Game Behavior'
+        - '[close]'
+        right_click_commands:
+        - '[console] sc sudo bungee %player_name% tempban {target} 3d Inappropriate Game Behavior'
+        - '[close]'
+
+      general-3:
+        material: INK_SAC
+        slot: 39
+        display_name: '&a&lSevere Severity'
+        lore:
+        - '&fBan Duration: &e30 Days'
+        - ''
+        - '&7Severe Exploits'
+        - '&fPlayer is using severe exploits'
+        - '&ffor his advantage and they directly'
+        - '&faffect other players or the server.'
+        left_click_commands:
+        - '[console] sc sudo bungee %player_name% tempban {target} 30d Inappropriate Game Behavior'
+        - '[close]'
+        right_click_commands:
+        - '[console] sc sudo bungee %player_name% tempban {target} 30d Inappropriate Game Behavior'
+        - '[close]'
+
+      client-modifications:
+        material: IRON_SWORD
+        hide_attributes: true
+        slot: 14
+        display_name: '&a&lClient Modification Offenses'
+        lore:
+        - '&7Offenses linked to client modifications.'
+
+      client-1:
+        material: INK_SAC
+        slot: 23
+        display_name: '&a&lLight Severity'
+        lore:
+        - '&fBan Duration: &e5 Days'
+        - ''
+        - '&7Light Client Modifications'
+        - '&fPlayer is using light client'
+        - '&fmodifications, such as:'
+        - '&f - Damage Indicators'
+        - '&f - Radar'
+        left_click_commands:
+        - '[console] sc sudo bungee %player_name% tempban {target} 5d Light Client Modifications'
+        - '[close]'
+        right_click_commands:
+        - '[console] sc sudo bungee %player_name% tempban {target} 5d Light Client Modifications'
+        - '[close]'
+
+      client-2:
+        material: INK_SAC
+        slot: 32
+        display_name: '&a&lMedium Severity'
+        lore:
+        - '&fBan Duration: &e14 Days'
+        - ''
+        - '&7Medium Client Modifications'
+        - '&fPlayer is using light client'
+        - '&fmodifications, such as:'
+        - '&f - Killaura'
+        - '&f - Reach'
+        - '&f - Fly'
+        - '&f - Nuker'
+        left_click_commands:
+        - '[console] sc sudo bungee %player_name% tempban {target} 14d Medium Client Modifications'
+        - '[close]'
+        right_click_commands:
+        - '[console] sc sudo bungee %player_name% tempban {target} 14d Light Client Modifications'
+        - '[close]'
+
+      client-3:
+        material: INK_SAC
+        slot: 41
+        display_name: '&a&lSevere Severity'
+        lore:
+        - '&fBan Duration: &e30 Days'
+        - ''
+        - '&7Severe Client Modifications'
+        - '&fPlayer is using light client'
+        - '&fmodifications, such as:'
+        - '&f - Crash Clients'
+        - ''
+        - '&cFor second offenders of the same'
+        - '&cpunishment type too!'
+        left_click_commands:
+        - '[console] sc sudo bungee %player_name% tempban {target} 30d Severe Client Modifications'
+        - '[close]'
+        right_click_commands:
+        - '[console] sc sudo bungee %player_name% tempban {target} 30d Severe Client Modifications'
+        - '[close]'
+
+      perma-ban:
+        material: REDSTONE_BLOCK
+        priority: 1
+        slot: 34
+        display_name: '&c&lPermanent Ban'
+        lore:
+        - ''
+        - '&7Severe threats'
+        left_click_commands:
+        - '[console] sc sudo bungee %player_name% ipban {target} Severe Inappropriate Behavior'
+        - '[close]'
+        right_click_commands:
+        - '[console] sc sudo bungee %player_name% ipban {target} Severe Inappropriate Behavior'
+        - '[close]'

@@ -1,0 +1,45 @@
+# This is the Message file for all Simple Elevator messages.
+# 
+# All messages are fully customizable and support color codes, formatting and ASCII symbols.
+# HEX color codes are supported in 1.16+. The format is &#XXXXXX e.g. '&#XXXXXXYour message'
+# Set the Prefix and use %prefix% to add the corresponding prefix to a message.
+# Prepend any message with <ActionBar> to send it as an ActionBar message.
+# Leave a message blank ('') to disable it.
+# 
+# You can also create messages with Hover and Click events. Syntax options: (Space between comma and quote is NOT allowed)
+#  - ["Message","/Command"]
+#  - ["Message","Hover"]
+#  - ["Message","/Command","Hover"]
+#  - ["Message","/Command","Suggest"]
+#  - ["Message","/Command","Hover","Suggest"]
+# You can add as many events to a message as you want. Example:
+# '%prefix% &cInvalid arguments! ["&c&n&oHelp","/se help","&aClick to get help!"]'
+# The "Suggest" tag is used if the click event should suggest the command. Default is Run.
+
+Prefix: '&dElevators '
+Messages:
+  General:
+    InvalidPermission: '%prefix% &cYou do not have permission to do this!'
+    PlayerOnly: '%prefix% &cCommand can only be used as a Player!'
+    NoCommands: Unknown command. Type "/help" for help.
+    InvalidArguments: '%prefix% &cInvalid arguments! ["&c&n&oHelp","/elevator help","&aClick
+      to get help!"]'
+    InvalidCreateInput: '%prefix% &cInvalid combination and/or distance input!'
+    InvalidMaterialInput: '%prefix% &cCombination contains (an) invalid material(s).'
+    InvalidElevatorDestination: '%prefix% &cCannot place destination Elevator!'
+    ElevatorDestinationOccupied: '%prefix% &cDestination location occupied! Remove
+      blocks at Destination.'
+    ElevatorDestinationTooGreat: '%prefix% &cDestination Elevator distance too great!
+      Max: %maxDistance% blocks'
+    UnknownCombination: '%prefix% &cUnknown combination input! Combinations range
+      from (1 - %combinations%)'
+    ElevatorPlaced: '%prefix% &aElevator successfully placed!'
+    ElevatorNotPlaced: '%prefix% &cCannot place an Elevator here!'
+    TooGreatDistanceUp: '%prefix% &cThe distance to the next floor is too great!'
+    TooGreatDistanceDown: '%prefix% &cThe distance to the previous floor is too great!'
+  FactionsUUID:
+    EnemyFaction: '%prefix% &cYou can''t use elevators in enemy territory!'
+  Admin:
+    ConfigurationsReloaded: '%prefix% &aConfiguration files successfully reloaded!'
+  CombatLogX:
+    InCombat: '%prefix% &cYou can''t use jumppads when in combat!'

@@ -1,0 +1,204 @@
+# PlayerWarps by Olzie-12
+# https://www.spigotmc.org/resources/66692/
+# We also have a discord server for help: https://olziedev.com/discord or check docs https://docs.olziedev.com/projects/playerwarps
+# Also if you find any bugs be happy to report them I will fix them :)
+# Made with love
+
+# If you want to disable any message just set it to nothing. by doing
+# list: "" <- This will no longer send a message.
+
+
+# every singe message in the plugin is here.
+# make sure you use "" to end of every string
+# Also you can use colour codes <3
+
+# To use hex color codes you will need to do
+# "{#HEX} text"
+
+lang:
+  console-name: "&d服务器传送点"
+  console-uuid: "f78a4d8d-d51b-4b39-98a3-230f2de0c670"
+  cancel-chat-wait: "取消"
+  friendly-max-warps: "Unlimited" # If you want it to show the actual amount, use %amount%
+  prefix: "&b&lPW &7»" # 使用变量 %prefix% 将前缀添加到任何消息!
+  list: "%prefix% &b当前传送点: &d%list%"
+  list-none: "&c无传送点" # 如果没有传送点应该显示什么？
+  list-hover: "&bClick to teleport to &d%warp%"
+  warp-removed: "%prefix% &a成功! 你的传送点已经删除!"
+  teleported: "%prefix% &a成功传送到 &d%warp%&a!"
+  someone-teleported: "%prefix% &d%player%&a 已传送到 &d%warp%&a!" # 如果玩家传送到他们自己的传送点,那么将不会有这条消息!
+  warp-set-confirmation: "%prefix% &a设置传送点 %name% 将消耗你 &d%price% &a金币, 再次执行命令以确认操作."
+  warp-teleport-confirmation: "%prefix% &a传送到 %warp% &a将消耗你 %price% &a金币, 再次执行命令以确认操作."
+  warp-remove-confirmation: "%prefix% &a你确定要删除 %warp% 吗? 如果你愿意,那么请再次执行命令以确认操作."
+  warp-set: "%prefix% &a成功设置了一个名为 &d%name%&a 的玩家传送点!"
+  reloaded: "%prefix% &a成功重新加载所有配置!"
+  money-taken: "%prefix% &a已从你的帐户中提取 %price% &a金币."
+  items-taken-set: "%prefix% &a钻石已从你的背包中取走."
+  items-taken-teleport: "%prefix% &a钻石已从你的背包中取走."
+  teleporting-dont-move: "%prefix% &a将在 &d%time% &a秒后传送到 &d%warp%&a!"
+  desc-set-success: "%prefix% &a成功将传送点 &d%warp% &a的描述修改为 &d%desc%&. "
+  desc-remove-success: "%prefix% &a成功移除了 &d%warp% &a的描述."
+  given-more-warps-success: "%prefix% &a成功给予 &d%player%&a 额外的 &d%extra%&a 传送点,总计: &d%total%&a!"
+  set-warp-icon: "%prefix% &a成功将 &d%warp%'s&的图标设置为 &d%icon%&a!"
+  removed-warp-icon: "%prefix% &a成功移除 &d%warp%'s&的图标!"
+  category-set: "%prefix% &a您已成功将 &d%warp% &a的类型设置为 &d%category%&a!"
+  rate-set: "%prefix% &a您已成功为 &d%warp% &a评分: %rate%&a!"
+  warps-removed: "%prefix% &d%player% %a的传送点已被移除!"
+  warp-locked: "%prefix% &a成功锁定传送点: &d%warp%&a!"
+  warp-unlocked: "%prefix% &a成功解锁传送点: &d%warp%&a!"
+  warp-cost-set: "%prefix% &a已将设置传送点的成本设置为: &d%cost%&a!"
+  warp-cost-removed: "%prefix% &a已成功移除传送点成本!"
+  successfully-reset-warp: "%prefix% &a已重置传送点坐标!"
+  successfully-renamed-warp: "%prefix% &a已将传送点重命名为 &d%warp%&a!"
+  successfully-setowner: "%prefix% &a已成功设置所有权为 &d%owner%&a!"
+  successfully-banned: "%prefix% &a已成功禁止玩家 &d%player%&a 使用 &d%warp%&a进行传送!"
+  successfully-unbanned: "%prefix% &a已解除对玩家 &d%player%&a 使用传送点 &d%warp%&a进行传送的禁制!"
+  successfully-whitelisted: "%prefix% &a已将 &d%player%&a 列入 &d%warp%&a的传送白名单!"
+  successfully-unwhitelisted: "%prefix% &a已将 &d%player%&从传送点 &d%warp%&a的传送白名单中移除!"
+  new-owner: "%prefix% &d%player%&a已将你设置为 &d%warp% &a的所有者!"
+  pass-set-success: "%prefix% &a成功设置 &d%warp% &a的传送密码!"
+  pass-remove-success: "%prefix% &a成功删除了 &d%warp% &a的传送密码!"
+  require-password: "%prefix% &c这个传送点需要传送密码才能进行传送,请输入密码!"
+  rent: "%prefix% &a你已成功支付传送点 &d%warp% &a的租金!"
+  rent-reminder: "%prefix% &c提醒!你需要在 &e%time% &c内为你的传送点 &d%warp% &c缴纳租金."
+  banned-list: "%prefix% &b传送点黑名单玩家: &d%list%"
+  whitelisted-list: "%prefix% &b传送点白名单玩家: &d%list%"
+  rate-notify: "%prefix% &d%player% &a刚刚评价了你的领地 &d%warp% &a为 %rate%&a星!"
+  favourite-warp: "%prefix% &a已将 &d%warp% &a添加到你的收藏列表中!"
+  unfavourite-warp: "%prefix% &a已从你的收藏列表中移除 &d%warp%&a!"
+  sponsored-warp: "%prefix% &a你已成功购买该赞助商名额!"
+  current-amount-of-warps:
+    - "%prefix% &7&l&m----------&7&l[ &b&l玩家传送 &7&l]&m----------"
+    - "%prefix% &b你目前最多有 &d%warpsmax%&b (&d%staticwarps% 个状态为静止&b)个传送点."
+    - "%prefix% &b你目前使用了 &d%warpsused% &b的传送点."
+    - "%prefix% &7&l&m----------&7&l[ &c&l玩家传送 &7&l]&m----------"
+  current-amount-of-warps-other:
+    - "%prefix% &7&l&m----------&7&l[ &b&lPlayer Warps &7&l]&m----------"
+    - "%prefix% &d%player%&b 你目前最多有 &d%warpsmax%&b (&d%staticwarps% 个状态为静止&b)个传送点."
+    - "%prefix% &d%player%&b 你目前使用了 &d%warpsused% &b的传送点."
+    - "%prefix% &7&l&m----------&7&l[ &b&lPlayer Warps &7&l]&m----------"
+  amount-warps-others-alert: "&c%player% is currently offline, only showing their maximum warps as a static amount."
+  locked-gui: "&c&l锁定界面"
+  unlocked-gui: "&a&l解锁界面"
+  offline-title: "%prefix% &b当你离线时..."
+  sent-setowner: "%prefix% &a成功向&d%player%&a发送了 &d%warp 的管理员身份申请%&a!\n%prefix% &a若要取消此申请,请输入输入 &d/pwarp setowner cancel %warp%&a!"
+  received-setowner: "%prefix% &a你收到了 &d%player% &a想成为 &d%warp% &a管理员的请求!\n%prefix% &a请输入 &d/pwarp setowner accept %warp% &来接受申请."
+  cancelled-setowner: "%prefix% &a已取消玩家 &d%player% &a成为管理员的请求!"
+  sent-expired-setowner: "%prefix% &c你发送给 &a%player% &c的成为传送点 &d%warp% &c管理员的请求已过期."
+  received-expired-setowner: "%prefix% &c你对 &a%player% &c的传送点 &d%warp% &c设置管理员的请求已过期."
+
+  # the help menu for a player
+  # The variable %cmd% is any command from the config.yml :)
+  help-player:
+    - "%prefix% &7&l&m----------&7&l[ &b&l玩家传送 &7&l]&m----------"
+    - "%prefix% &d/%cmd% help &7&l- &b显示此菜单."
+    - "%prefix% &d/%cmd% <warp> &7&l- &b传送到玩家传送点."
+    - "%prefix% &d/%cmd% set <name> &7&l- &b设置你的坐标为传送点"
+    - "%prefix% &d/%cmd% remove <warp> &7&l- &b删除这个传送点."
+    - "%prefix% &d/%cmd% removeall <player> &7&l- &b删除这个玩家的所有传送点."
+    - "%prefix% &d/%cmd% desc set/remove <warp> <desc> &7&l- &b传送点描述."
+    - "%prefix% &d/%cmd% list &7&l- &b列出当前所有玩家的传送点."
+    - "%prefix% &d/%cmd% open [category] [action] &7&l- &b打开玩家的传送点菜单."
+    - "%prefix% &d/%cmd% amount &7&l- &b查看你有多少传送点."
+    - "%prefix% &d/%cmd% reload &7&l- &b重新加载所有配置文件."
+    - "%prefix% &d/%cmd% icon set/remove <warp> &7&l- &b设置传送点图标."
+    # This is useful for if you want to sell warp amounts on your store, but what happens if a player already has 5 warps?
+    # This just simply gives them more warps. For example if a player has 10 warps (pw.limit.10) and you do /pw addwarps *player* 10. They will now have 20 warps.
+    - "%prefix% &d/%cmd% addwarps <player> <amount> &7&l- &b通过命令向玩家添加更多设置传送点次数."
+    - "%prefix% &d/%cmd% category <warp> <category> &7&l- &b设置传送点类型."
+    - "%prefix% &d/%cmd% rate <warp> <rate> &7&l- &b评价传送点."
+    - "%prefix% &d/%cmd% ban set/remove/list <warp> [player] &7&l- &b禁止传送."
+    - "%prefix% &d/%cmd% reset <warp> &7&l- &b重新设置传送点位置."
+    - "%prefix% &d/%cmd% rename <warp> <name> &7&l- &b重命名传送点"
+    - "%prefix% &d/%cmd% setowner <warp> <player> &7&l- &b把传送点的所有权转让给目标玩家."
+    - "%prefix% &d/%cmd% favourite <warp> &7&l- &b最喜欢的传送点."
+    - "%prefix% &7&l&m----------&7&l[ &b&l玩家传送 &7&l]&m----------"
+
+  # the help menu for console
+  # The variable %cmd% is any command from the config.yml :)
+  help-console:
+    - "%prefix% &7&l&m----------&7&l[ &b&l玩家传送 &7&l]&m----------"
+    - "%prefix% &d/%cmd% help &7&l- &b显示此菜单."
+    - "%prefix% &d/%cmd% open [category] [action] &7&l- &b打开玩家传送菜单."
+    - "%prefix% &d/%cmd% remove <warp> &7&l- &b删除传送点."
+    - "%prefix% &d/%cmd% list &7&l- &b列出当前所有玩家的传送点."
+    - "%prefix% &d/%cmd% reload &7&l- &b重载配置文件"
+    # This is useful for if you want to sell warp amounts on your store, but what happends if a player already has 5 playerwarps.
+    # This just simply gives them more warps. For example if a player has 10 warps (pw.limit.10) and you do /pw addwarps *player* 10. They will now have 20 warps.
+    - "%prefix% &d/%cmd% addwarps <player> <amount> &7&l- &b通过命令向玩家添加更多传送点."
+    - "%prefix% &d/%cmd% category <warp> <category> &7&l- &b设置传送点类别."
+    - "%prefix% &d/%cmd% removeall <player> &7&l- &b删除所有玩家传送点."
+    - "%prefix% &d/%cmd% setowner <warp> <player> &7&l- &b转让传送点所有权."
+    - "%prefix% &7&l&m----------&7&l[ &b&l玩家传送 &7&l]&m----------"
+
+  # error messages.
+  errors:
+    command-syntax: "%prefix% &c语法错误,使用:\n%syntax%"
+    player-only: "%prefix% &c你必须是玩家!"
+    name-too-long-set: "%prefix% &c传送点名称最多不能超过 &4%max%&c 个字符!"
+    desc-too-long-set: "%prefix% &c你的描述最多不能超过 &4%max%&c 个字符!"
+    pass-too-long-set: "%prefix% &c你的密码最多不能超过 &4%max%&c 个字符!"
+    rate-too-big: "%prefix% &c你不能评价高于&45&c的传送点!"
+    not-a-number: "%prefix% &c那不是一个数字!"
+    invalid-name-set: "%prefix% &c你不能设置名为 &4%name%&c 的玩家传送点!"
+    name-taken-set: "%prefix% &c该传送点名称已被占用!"
+    valid-name-set: "%prefix% &c请为你的传送点输入一个有效的名称!"
+    warp-dont-own: "%prefix% &c你未拥有这个传送点"
+    warp-dont-exist: "%prefix% &c这个传送点不存在!"
+    invalid-warp: "%prefix% &c这是无效的传送点."
+    no-permission: "%prefix% &c你没有权限执行此操作! %reason%"
+    too-many-warps-set: "%prefix% &c你不能这只这么多传送点,你只能设置 &4%amount% &c个!"
+    limit-setowner: "%prefix% &c无法转让传送点 %warp% 因为玩家的传送点过多!"
+    already-setowner: "%prefix% &c你已有 %warp% 的待处理请求"
+    not-setowner: "%prefix% &c你没有这个传送点的集合所有者请求!"
+    warp-not-safe: "%prefix% &c这种传送并不安全,如果你想传送,请在输入一次指令."
+    money-not-enough-teleport: "%prefix% &c你没有 %price% 金币,可以传送到这个传送点!"
+    money-not-enough-reset: "%prefix% &c你没有 %price% 金币,来重新设置传送点!"
+    money-not-enough-rename: "%prefix% &c你没有 %price% 金币来重命名你的传送点!"
+    items-not-enough-set: "%prefix% &c你没有钻石来设置这个传送点!"
+    items-not-enough-teleport: "%prefix% &c你没有钻石可以传送到这个传送点!"
+    money-not-enough-set: "%prefix% &c你没有 %price% 金币来设置此传送点!"
+    money-not-enough-sponsor: "%prefix% &c你没有 %price% 金币来赞助此传送点!"
+    item-not-enough-sponsor: "%prefix% &c你没有足够的 %item% 来赞助这个传送点!"
+    moved-while-teleporting: "%prefix% &c取消了,你搬家了!"
+    desc-no-desc-gui: "&cNone"
+    desc-no-desc: "%prefix% &c%warp% 没有描述!"
+    cost-no-cost: "%prefix% &c%warp% 不需要花费金币!"
+    pass-no-pass: "%prefix% &c%warp% 没有密码!"
+    disabled-world-set: "%prefix% &c你不能在这个世界上设置传送点!"
+    player-offline: "%prefix% &c该玩家离线!"
+    invalid-item: "%prefix% &c这是将你的传送点图标设置为无效的物品."
+    invalid-category: "%prefix% &c这是一个无效的类型"
+    no-player-joined: "%prefix% &c该玩家不存在!"
+    set-cooldown: "%prefix% &c你需要 %cooldown% 后才可以设置下一个传送点!"
+    rate-cooldown: "%prefix% &c你需要 %cooldown% 后才可以评价下一个传送点!"
+    teleport-cooldown: "%prefix% &c你需要 %cooldown% 后才可以进行下一次传送!"
+    teleport-warp-locked: "%prefix% &c此传送点当前已锁定!"
+    rate-own-warp: "%prefix% &c你不能评价自己的传送点!"
+    already-owner: "%prefix% &c您已经是此传送点的所有者!"
+    already-teleporting: "%prefix% &c你已经在传送到传送点!"
+    wrong-password: "%prefix% &c该密码不正确!"
+    not-whitelisted: "%prefix% &c抱歉，传送点所有者尚未将你列入白名单 :("
+    not-same-world: "%prefix% &c你不能传送到那个传送点!"
+    rent: "%prefix% &c你无法支付 %warp%, 传送点现已被移除!"
+    banned: "%prefix% &c抱歉，传送点所有者已经把你拉入黑名单 :("
+    owner-ban: "%prefix% &c你不能禁止自己，笨蛋!"
+    already-banned: "%prefix% &c该玩家已被禁止!"
+    not-banned: "%prefix% &cThat player is not banned!"
+    max-cost: "%prefix% &c抱歉，你可以设置的最高费用上限为 %max%!"
+    min-cost: "%prefix% &cSorry, the minimum cost you can set is %min%!"
+    already-whitelisted: "%prefix% &c该玩家已被列入白名单!"
+    already-sponsored: "%prefix% &c你已经赞助了那个传送点!"
+    max-sponsors: "%prefix% &c您仅限于 1 个赞助商传送点!"
+    change-location-sign: "%prefix% &c你不能改变标志传送点的位置!"
+    gui-cooldown: "%prefix% &c您需要等待几秒钟才能再次使用它."
+
+n/a:
+  no-prefix: "N/A"
+  no-suffix: "N/A"
+  no-server: "N/A"
+  no-password: "N/A"
+  no-user: "N/A"
+  no-payer: "N/A"
+  no-warp: "N/A"
+  no-displayname: "%player%" # show the players name instead

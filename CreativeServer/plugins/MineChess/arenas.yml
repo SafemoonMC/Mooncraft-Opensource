@@ -1,0 +1,225 @@
+Arenas:
+  Arena1:
+    Spawn:
+      x: '36.83095461074096'
+      y: '51.0'
+      z: '-119.2283277200906'
+      world: plotworld
+      pitch: 4.9499984
+      yaw: 180.30017
+    Location:
+      x: '25.0'
+      y: '50.0'
+      z: '-130.0'
+      world: plotworld
+    enabled: 'true'
+  Arena2:
+    Spawn:
+      x: '63.99830010969964'
+      y: '51.0'
+      z: '-119.46392176211647'
+      world: plotworld
+      pitch: 6.1499677
+      yaw: 179.6991
+    Location:
+      x: '52.0'
+      y: '50.0'
+      z: '-130.0'
+      world: plotworld
+    enabled: 'true'
+  Arena3:
+    Spawn:
+      x: '91.00127484039653'
+      y: '51.0'
+      z: '-119.40336541483275'
+      world: plotworld
+      pitch: 5.0999336
+      yaw: 179.54785
+    Location:
+      x: '79.0'
+      y: '50.0'
+      z: '-130.0'
+      world: plotworld
+    enabled: 'true'
+  Arena4:
+    Spawn:
+      x: '117.86276139705875'
+      y: '51.0'
+      z: '-119.5412547155993'
+      world: plotworld
+      pitch: 3.1501346
+      yaw: 179.3999
+    Location:
+      x: '106.0'
+      y: '50.0'
+      z: '-130.0'
+      world: plotworld
+    enabled: 'true'
+  Arena5:
+    Spawn:
+      x: '36.986936792743066'
+      y: '51.0'
+      z: '-93.46000944642735'
+      world: plotworld
+      pitch: -0.74995077
+      yaw: 180.74817
+    Location:
+      x: '25.0'
+      y: '50.0'
+      z: '-103.0'
+      world: plotworld
+    enabled: 'true'
+  Arena6:
+    Spawn:
+      x: '63.90250329248266'
+      y: '51.0'
+      z: '-90.57634495037594'
+      world: plotworld
+      pitch: -0.15002556
+      yaw: 180.7489
+    Location:
+      x: '52.0'
+      y: '50.0'
+      z: '-103.0'
+      world: plotworld
+    enabled: 'true'
+  Arena7:
+    Spawn:
+      x: '90.91590424919868'
+      y: '51.0'
+      z: '-91.588657915479'
+      world: plotworld
+      pitch: 0.5999853
+      yaw: 180.15005
+    Location:
+      x: '79.0'
+      y: '50.0'
+      z: '-103.0'
+      world: plotworld
+    enabled: 'true'
+  Arena8:
+    Spawn:
+      x: '118.00740784731777'
+      y: '51.0'
+      z: '-91.4825989231192'
+      world: plotworld
+      pitch: 0.75001335
+      yaw: 179.99994
+    Location:
+      x: '106.0'
+      y: '50.0'
+      z: '-103.0'
+      world: plotworld
+    enabled: 'true'
+  Arena9:
+    Spawn:
+      x: '37.18185071926874'
+      y: '51.0'
+      z: '-65.01082074533313'
+      world: plotworld
+      pitch: 0.7500243
+      yaw: 179.39941
+    Location:
+      x: '25.0'
+      y: '50.0'
+      z: '-76.0'
+      world: plotworld
+    enabled: 'true'
+  Arena10:
+    Spawn:
+      x: '64.01225646010178'
+      y: '51.0'
+      z: '-64.82491610298587'
+      world: plotworld
+      pitch: 1.1999614
+      yaw: 180.44934
+    Location:
+      x: '52.0'
+      y: '50.0'
+      z: '-76.0'
+      world: plotworld
+    enabled: 'true'
+  Arena11:
+    Spawn:
+      x: '90.99540237065413'
+      y: '51.0'
+      z: '-64.22249280881123'
+      world: plotworld
+      pitch: 1.0500075
+      yaw: 180.29999
+    Location:
+      x: '79.0'
+      y: '50.0'
+      z: '-76.0'
+      world: plotworld
+    enabled: 'true'
+  Arena12:
+    Spawn:
+      x: '117.87407471464127'
+      y: '51.0'
+      z: '-64.0101174245401'
+      world: plotworld
+      pitch: 0.75001705
+      yaw: 180.15051
+    Location:
+      x: '106.0'
+      y: '50.0'
+      z: '-76.0'
+      world: plotworld
+    enabled: 'true'
+  Arena13:
+    Spawn:
+      x: '36.91628522683711'
+      y: '51.0'
+      z: '-39.8557377139022'
+      world: plotworld
+      pitch: 2.8500173
+      yaw: 180.4505
+    Location:
+      x: '25.0'
+      y: '50.0'
+      z: '-49.0'
+      world: plotworld
+    enabled: 'true'
+  Arena14:
+    Spawn:
+      x: '63.92942274093174'
+      y: '51.0'
+      z: '-37.68591349294067'
+      world: plotworld
+      pitch: 1.1999928
+      yaw: 180.30194
+    Location:
+      x: '52.0'
+      y: '50.0'
+      z: '-49.0'
+      world: plotworld
+    enabled: 'true'
+  Arena15:
+    Spawn:
+      x: '90.94783666073137'
+      y: '51.0'
+      z: '-38.93671763052108'
+      world: plotworld
+      pitch: 1.3499871
+      yaw: 180.75037
+    Location:
+      x: '79.0'
+      y: '50.0'
+      z: '-49.0'
+      world: plotworld
+    enabled: 'true'
+  Arena16:
+    Spawn:
+      x: '117.82941610464361'
+      y: '51.0'
+      z: '-36.57652420908517'
+      world: plotworld
+      pitch: 1.799983
+      yaw: 180.29865
+    Location:
+      x: '106.0'
+      y: '50.0'
+      z: '-49.0'
+      world: plotworld
+    enabled: 'true'

@@ -1,0 +1,18 @@
+bossbar-enabled: true
+bossbar-toggle-command: /bossbar
+permission-required-to-toggle: true
+remember-toggle-choice: false
+hidden-by-default: false
+default-bars:
+- plotworld
+per-world:
+  testworld:
+  - test
+bars:
+  plotworld:
+    permission-required: false
+    refresh: 20
+    style: PROGRESS
+    color: BLUE
+    progress: '100'
+    text: 'test'

@@ -1,0 +1,42 @@
+#########################################################################
+#          ____  __            _            __  ___     __              #
+#         / __ \/ /_  ______ _(_)___  _____/ / / (_)___/ /__  _____     #
+#        / /_/ / / / / / __ `/ / __ \/ ___/ /_/ / / __  / _ \/ ___/     #
+#       / ____/ / /_/ / /_/ / / / / (__  ) __  / / /_/ /  __/ /         #
+#      /_/   /_/\__,_/\__, /_/_/ /_/____/_/ /_/_/\__,_/\___/_/          #
+#                    /____/                                             #
+#                                                                       #
+#                         Created by: _HeroPwP                          #
+#                   SpigotMC: https://bit.ly/2ObqifX                    #
+#                                                                       #
+#                       List of Permissions:                            #
+#  - PluginHider.bypass - Permission to see plugins.                    #
+#  - PluginHider.reload - Permission to reload the configuration file.  #
+#                                                                       #
+#########################################################################
+
+prefix: '&3MoonCraft &8|'
+
+Basic:
+  # Can a player with permission PluginHider.bypass see all plugins?
+  Bypass: false
+  Check-For-Updates: false
+
+# Here you can block your custom commands.
+Custom-Blocked-Commands:
+  Enabled: true
+  List:
+    - 'plot plugin'
+    - 'SecondCommand'
+    - 'YouCanUse Arguments'
+
+# List of messages
+Messages:
+  # This message will show up when player attempt to view plugins
+  BlockedCommand: '&cYou''re not allowed to do this!'
+  # This message will show up when player tries to run command, that doesn't exist.
+  UnknownCommand: '&cThis command doesn''t exist!'
+  # This message will show up when player reload configuration file.
+  ConfigurationReloaded: '&aConfiguration file successfully reloaded!'
+  # This message will show up when player have insufficient permissions.
+  InsufficientPermissions: '&cYou don''t have permissions!'

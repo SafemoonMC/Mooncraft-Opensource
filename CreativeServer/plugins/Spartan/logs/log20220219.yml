@@ -1,0 +1,132 @@
+(1)[2022/02/19 23:46:48]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11 failed
+  EntityMove (VL: 2) [(Version: Airplane 1.17), (C-V: 3) (Silent: false), (Ping: 97ms),
+  (TPS: 19.908), (Plib: true), (Online: 1), (t: air(horizontal), ds: 0.07929461150297357,
+  dm: 0.001, bt: 51, e: boat)]'
+(2)[2022/02/19 23:46:49]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11 failed
+  EntityMove (VL: 3) [(Version: Airplane 1.17), (C-V: 3) (Silent: false), (Ping: 97ms),
+  (TPS: 19.976), (Plib: true), (Online: 1), (t: air(horizontal), ds: 0.13696887290068027,
+  dm: 0.001235, bt: 66, e: boat)]'
+(3)[2022/02/19 23:46:55]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11 failed
+  EntityMove (VL: 4) [(Version: Airplane 1.17), (C-V: 3) (Silent: false), (Ping: 97ms),
+  (TPS: 20.0), (Plib: true), (Online: 1), (t: air(horizontal), ds: 1.415458567814233,
+  dm: 0.6174999999999999, bt: 1, e: boat)]'
+(4)[2022/02/19 23:47:00]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11 failed
+  EntityMove (VL: 5) [(Version: Airplane 1.17), (C-V: -3) (Silent: false), (Ping:
+  97ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: air(horizontal), ds: 0.035285905654745875,
+  dm: 0.001235, bt: 3, e: boat)]'
+(5)[2022/02/19 23:47:03]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11 failed
+  EntityMove (VL: 6) [(Version: Airplane 1.17), (C-V: -3) (Silent: false), (Ping:
+  97ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: air(horizontal), ds: 2.0572250893219306,
+  dm: 0.001235, bt: 1, e: boat)]'
+(6)[2022/02/19 23:47:06]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11 failed
+  EntityMove (VL: 7) [(Version: Airplane 1.17), (C-V: -3) (Silent: false), (Ping:
+  97ms), (TPS: 19.952), (Plib: true), (Online: 1), (t: air(horizontal), ds: 3.946403819668376,
+  dm: 0.001235, bt: 1, e: boat)]'
+(7)[2022/02/19 23:47:10]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11 failed
+  EntityMove (VL: 8) [(Version: Airplane 1.17), (C-V: -3) (Silent: false), (Ping:
+  97ms), (TPS: 19.996), (Plib: true), (Online: 1), (t: air(horizontal), ds: 2.5208384235022683,
+  dm: 0.001235, bt: 1, e: boat)]'
+(8)[2022/02/19 23:47:14]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11 failed
+  EntityMove (VL: 9) [(Version: Airplane 1.17), (C-V: -3) (Silent: false), (Ping:
+  97ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: air(horizontal), ds: 1.8225680147483425,
+  dm: 0.6174999999999999, bt: 1, e: boat)]'
+(9)[2022/02/19 23:47:16]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11 failed
+  EntityMove (VL: 10) [(Version: Airplane 1.17), (C-V: -3) (Silent: false), (Ping:
+  95ms), (TPS: 19.996), (Plib: true), (Online: 1), (t: air(horizontal), ds: 1.401716006962003,
+  dm: 0.001225, bt: 1, e: boat)]'
+(10)[2022/02/19 23:47:22]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11
+  failed EntityMove (VL: 11) [(Version: Airplane 1.17), (C-V: -3) (Silent: false),
+  (Ping: 95ms), (TPS: 19.996), (Plib: true), (Online: 1), (t: air(horizontal), ds:
+  2.4234245601827658, dm: 0.001225, bt: 1, e: boat)]'
+(11)[2022/02/19 23:47:30]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11
+  failed EntityMove (VL: 12) [(Version: Airplane 1.17), (C-V: -3) (Silent: false),
+  (Ping: 94ms), (TPS: 19.996), (Plib: true), (Online: 1), (t: air(horizontal), ds:
+  2.630601702996007, dm: 0.00122, bt: 1, e: boat)]'
+(12)[2022/02/19 23:47:32]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11
+  failed EntityMove (VL: 13) [(Version: Airplane 1.17), (C-V: -3) (Silent: false),
+  (Ping: 94ms), (TPS: 19.996), (Plib: true), (Online: 1), (t: air(horizontal), ds:
+  1.835650034381702, dm: 0.001, bt: 1, e: boat)]'
+(13)[2022/02/19 23:47:39]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11
+  failed EntityMove (VL: 14) [(Version: Airplane 1.17), (C-V: -3) (Silent: false),
+  (Ping: 94ms), (TPS: 19.968), (Plib: true), (Online: 1), (t: air(horizontal), ds:
+  0.09826597192568443, dm: 0.001, bt: 2, e: boat)]'
+(14)[2022/02/19 23:47:42]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11
+  failed EntityMove (VL: 15) [(Version: Airplane 1.17), (C-V: -3) (Silent: false),
+  (Ping: 94ms), (TPS: 19.984), (Plib: true), (Online: 1), (t: air(horizontal), ds:
+  2.1793461244457744, dm: 0.001, bt: 1, e: boat)]'
+(15)[2022/02/19 23:47:43]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11
+  failed EntityMove (VL: 16) [(Version: Airplane 1.17), (C-V: -3) (Silent: false),
+  (Ping: 94ms), (TPS: 19.96), (Plib: true), (Online: 1), (t: air(horizontal), ds:
+  0.06957326602511946, dm: 0.001, bt: 2, e: boat)]'
+(16)[2022/02/19 23:47:46]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11
+  failed EntityMove (VL: 1) [(Version: Airplane 1.17), (C-V: 3) (Silent: false), (Ping:
+  93ms), (TPS: 19.98), (Plib: true), (Online: 1), (t: air(horizontal), ds: 0.2319024884850478,
+  dm: 0.001215, bt: 11, e: boat)]'
+(17)[2022/02/19 23:47:46]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11
+  failed EntityMove (VL: 2) [(Version: Airplane 1.17), (C-V: 3) (Silent: false), (Ping:
+  93ms), (TPS: 19.996), (Plib: true), (Online: 1), (t: air(horizontal), ds: 0.2425084253231944,
+  dm: 0.001, bt: 12, e: boat)]'
+(18)[2022/02/19 23:47:46]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11
+  failed EntityMove (VL: 3) [(Version: Airplane 1.17), (C-V: 3) (Silent: false), (Ping:
+  93ms), (TPS: 19.952), (Plib: true), (Online: 1), (t: air(horizontal), ds: 0.2520558208593684,
+  dm: 0.001, bt: 13, e: boat)]'
+(19)[2022/02/19 23:47:49]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11
+  failed EntityMove (VL: 4) [(Version: Airplane 1.17), (C-V: 3) (Silent: false), (Ping:
+  93ms), (TPS: 19.948), (Plib: true), (Online: 1), (t: air(horizontal), ds: 1.6626541806869002,
+  dm: 0.001215, bt: 1, e: boat)]'
+(20)[2022/02/19 23:47:52]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11
+  failed EntityMove (VL: 5) [(Version: Airplane 1.17), (C-V: -3) (Silent: false),
+  (Ping: 93ms), (TPS: 19.996), (Plib: true), (Online: 1), (t: air(horizontal), ds:
+  0.08242390887016882, dm: 0.001215, bt: 2, e: boat)]'
+(21)[2022/02/19 23:47:56]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11
+  failed EntityMove (VL: 6) [(Version: Airplane 1.17), (C-V: -3) (Silent: false),
+  (Ping: 93ms), (TPS: 19.98), (Plib: true), (Online: 1), (t: air(horizontal), ds:
+  0.06572049850549934, dm: 0.001215, bt: 2, e: boat)]'
+(22)[2022/02/19 23:47:59]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11
+  failed EntityMove (VL: 7) [(Version: Airplane 1.17), (C-V: -3) (Silent: false),
+  (Ping: 92ms), (TPS: 19.98), (Plib: true), (Online: 1), (t: air(horizontal), ds:
+  2.816234149684862, dm: 0.605, bt: 1, e: boat)]'
+(23)[2022/02/19 23:48:01]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11
+  failed EntityMove (VL: 8) [(Version: Airplane 1.17), (C-V: -3) (Silent: false),
+  (Ping: 92ms), (TPS: 19.996), (Plib: true), (Online: 1), (t: air(horizontal), ds:
+  2.1164799860714987, dm: 0.0012100000000000001, bt: 1, e: boat)]'
+(24)[2022/02/19 23:48:03]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11
+  failed EntityMove (VL: 9) [(Version: Airplane 1.17), (C-V: -3) (Silent: false),
+  (Ping: 92ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: air(horizontal), ds: 0.05800928587495946,
+  dm: 0.0012100000000000001, bt: 2, e: boat)]'
+(25)[2022/02/19 23:48:05]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11
+  failed EntityMove (VL: 10) [(Version: Airplane 1.17), (C-V: -3) (Silent: false),
+  (Ping: 92ms), (TPS: 19.996), (Plib: true), (Online: 1), (t: air(horizontal), ds:
+  0.8991672070205587, dm: 0.0012100000000000001, bt: 1, e: boat)]'
+(26)[2022/02/19 23:48:07]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11
+  failed EntityMove (VL: 11) [(Version: Airplane 1.17), (C-V: -3) (Silent: false),
+  (Ping: 92ms), (TPS: 19.976), (Plib: true), (Online: 1), (t: air(horizontal), ds:
+  1.0648943243924287, dm: 0.0012100000000000001, bt: 1, e: boat)]'
+(27)[2022/02/19 23:48:14]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11
+  failed EntityMove (VL: 12) [(Version: Airplane 1.17), (C-V: -3) (Silent: false),
+  (Ping: 92ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: air(horizontal), ds: 0.018427948974434772,
+  dm: 0.0012100000000000001, bt: 2, e: boat)]'
+(28)[2022/02/19 23:48:22]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11
+  failed EntityMove (VL: 13) [(Version: Airplane 1.17), (C-V: -3) (Silent: false),
+  (Ping: 91ms), (TPS: 19.96), (Plib: true), (Online: 1), (t: air(horizontal), ds:
+  0.028482726578961767, dm: 0.001, bt: 2, e: boat)]'
+(29)[2022/02/19 23:48:30]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11
+  failed EntityMove (VL: 14) [(Version: Airplane 1.17), (C-V: -3) (Silent: false),
+  (Ping: 91ms), (TPS: 19.996), (Plib: true), (Online: 1), (t: air(horizontal), ds:
+  0.0014374884483459027, dm: 0.001, bt: 2, e: boat)]'
+(30)[2022/02/19 23:48:34]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11
+  failed EntityMove (VL: 15) [(Version: Airplane 1.17), (C-V: -3) (Silent: false),
+  (Ping: 91ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: air(horizontal), ds: 2.0378172876217597,
+  dm: 0.5, bt: 1, e: boat)]'
+(31)[2022/02/19 23:48:48]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11
+  failed EntityMove (VL: 1) [(Version: Airplane 1.17), (C-V: 3) (Silent: false), (Ping:
+  91ms), (TPS: 19.996), (Plib: true), (Online: 1), (t: air(horizontal), ds: 0.28702814406048777,
+  dm: 0.001205, bt: 11, e: boat)]'
+(32)[2022/02/19 23:48:48]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11
+  failed EntityMove (VL: 2) [(Version: Airplane 1.17), (C-V: 3) (Silent: false), (Ping:
+  91ms), (TPS: 19.972), (Plib: true), (Online: 1), (t: air(horizontal), ds: 0.2983253215812613,
+  dm: 0.001, bt: 12, e: boat)]'
+(33)[2022/02/19 23:48:48]: '[Spartan Build 446/1677-33408/449485-544843] EAKILL11
+  failed EntityMove (VL: 3) [(Version: Airplane 1.17), (C-V: 3) (Silent: false), (Ping:
+  91ms), (TPS: 19.936), (Plib: true), (Online: 1), (t: air(horizontal), ds: 0.30849278108003186,
+  dm: 0.001, bt: 13, e: boat)]'

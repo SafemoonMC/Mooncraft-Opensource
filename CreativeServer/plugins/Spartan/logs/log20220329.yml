@@ -1,0 +1,94 @@
+(1)[2022/03/29 17:59:21]: '[Spartan Build 446/1677-33408/449485-544843] LiamLiam5571
+  failed Exploits (VL: 2) [(Version: Airplane 1.17), (C-V: 12) (Silent: false), (Ping:
+  147ms), (TPS: 19.976), (Plib: true), (Online: 1), (t: head-position(rotations),
+  r: 101, l: 100)]'
+(2)[2022/03/29 17:59:21]: '[Spartan Build 446/1677-33408/449485-544843] LiamLiam5571
+  failed Exploits (VL: 3) [(Version: Airplane 1.17), (C-V: 12) (Silent: false), (Ping:
+  147ms), (TPS: 19.972), (Plib: true), (Online: 1), (t: head-position(rotations),
+  r: 102, l: 100)]'
+(3)[2022/03/29 17:59:21]: '[Spartan Build 446/1677-33408/449485-544843] LiamLiam5571
+  failed Exploits (VL: 4) [(Version: Airplane 1.17), (C-V: 12) (Silent: false), (Ping:
+  147ms), (TPS: 19.972), (Plib: true), (Online: 1), (t: head-position(rotations),
+  r: 103, l: 100)]'
+(4)[2022/03/29 17:59:21]: '[Spartan Build 446/1677-33408/449485-544843] LiamLiam5571
+  failed Exploits (VL: 5) [(Version: Airplane 1.17), (C-V: 12) (Silent: false), (Ping:
+  147ms), (TPS: 19.968), (Plib: true), (Online: 1), (t: head-position(rotations),
+  r: 104, l: 100)]'
+(5)[2022/03/29 17:59:21]: '[Spartan Build 446/1677-33408/449485-544843] LiamLiam5571
+  failed Exploits (VL: 6) [(Version: Airplane 1.17), (C-V: 12) (Silent: false), (Ping:
+  147ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: head-position(rotations), r:
+  112, l: 100)]'
+(6)[2022/03/29 17:59:21]: '[Spartan Build 446/1677-33408/449485-544843] LiamLiam5571
+  failed Exploits (VL: 7) [(Version: Airplane 1.17), (C-V: 12) (Silent: false), (Ping:
+  147ms), (TPS: 19.857), (Plib: true), (Online: 1), (t: head-position(rotations),
+  r: 113, l: 100)]'
+(7)[2022/03/29 17:59:21]: '[Spartan Build 446/1677-33408/449485-544843] LiamLiam5571
+  failed Exploits (VL: 8) [(Version: Airplane 1.17), (C-V: 12) (Silent: false), (Ping:
+  147ms), (TPS: 19.853), (Plib: true), (Online: 1), (t: head-position(rotations),
+  r: 114, l: 100)]'
+(8)[2022/03/29 17:59:21]: '[Spartan Build 446/1677-33408/449485-544843] LiamLiam5571
+  failed Exploits (VL: 9) [(Version: Airplane 1.17), (C-V: 12) (Silent: false), (Ping:
+  147ms), (TPS: 19.829), (Plib: true), (Online: 1), (t: head-position(rotations),
+  r: 115, l: 100)]'
+(9)[2022/03/29 18:18:07]: '[Spartan Build 446/1677-33408/449485-544843] LiamLiam5571
+  failed Exploits (VL: 10) [(Version: Airplane 1.17), (C-V: 12) (Silent: false), (Ping:
+  1590ms), (TPS: 19.976), (Plib: true), (Online: 1), (t: head-position(rotations),
+  r: 100, l: 100)]'
+(10)[2022/03/29 18:18:07]: '[Spartan Build 446/1677-33408/449485-544843] LiamLiam5571
+  failed Exploits (VL: 11) [(Version: Airplane 1.17), (C-V: 12) (Silent: false), (Ping:
+  1590ms), (TPS: 19.976), (Plib: true), (Online: 1), (t: head-position(rotations),
+  r: 101, l: 100)]'
+(11)[2022/03/29 18:18:07]: '[Spartan Build 446/1677-33408/449485-544843] LiamLiam5571
+  failed Exploits (VL: 12) [(Version: Airplane 1.17), (C-V: 12) (Silent: false), (Ping:
+  1590ms), (TPS: 19.972), (Plib: true), (Online: 1), (t: head-position(rotations),
+  r: 102, l: 100)]'
+(12)[2022/03/29 18:18:10]: '[Spartan Build 446/1677-33408/449485-544843] LiamLiam5571
+  failed MorePackets (VL: 1) [(Version: Airplane 1.17), (C-V: 8) (Silent: false),
+  (Ping: 1590ms), (TPS: 19.86), (Plib: true), (Online: 1), (type: horizontal, total-horizontal:
+  0.11057463395072437, total-vertical: 0.11700390039916186, extra-ticks: 93, extra-packets:
+  0, tick-average: 49.666666666666664)]'
+(13)[2022/03/29 18:34:45]: '[Spartan Build 446/1677-33408/449485-544843] LiamLiam5571
+  failed MorePackets (VL: 2) [(Version: Airplane 1.17), (C-V: 8) (Silent: false),
+  (Ping: 399ms), (TPS: 19.984), (Plib: true), (Online: 1), (type: horizontal, total-horizontal:
+  0.13244883041352296, total-vertical: -0.15233518685055714, extra-ticks: 52, extra-packets:
+  0, tick-average: 49.86666666666667)]'
+(14)[2022/03/29 18:36:36]: '[Spartan Build 446/1677-33408/449485-544843] LiamLiam5571
+  failed Exploits (VL: 13) [(Version: Airplane 1.17), (C-V: 12) (Silent: false), (Ping:
+  318ms), (TPS: 19.888), (Plib: true), (Online: 1), (t: head-position(rotations),
+  r: 100, l: 100)]'
+(15)[2022/03/29 18:36:36]: '[Spartan Build 446/1677-33408/449485-544843] LiamLiam5571
+  failed Exploits (VL: 14) [(Version: Airplane 1.17), (C-V: 12) (Silent: false), (Ping:
+  1852ms), (TPS: 19.896), (Plib: true), (Online: 1), (t: head-position(rotations),
+  r: 101, l: 100)]'
+(16)[2022/03/29 18:36:39]: '[Spartan Build 446/1677-33408/449485-544843] LiamLiam5571
+  failed MorePackets (VL: 3) [(Version: Airplane 1.17), (C-V: 8) (Silent: false),
+  (Ping: 1852ms), (TPS: 19.841), (Plib: true), (Online: 1), (type: horizontal, total-horizontal:
+  0.2797907522159666, total-vertical: 0.0, extra-ticks: 61, extra-packets: 4, tick-average:
+  49.65)]'
+(17)[2022/03/29 18:43:30]: '[Spartan Build 446/1677-33408/449485-544843] LiamLiam5571
+  failed FastPlace (VL: 1) [(Version: Airplane 1.17), (C-V: 4) (Silent: false), (Ping:
+  67ms), (TPS: 19.992), (Plib: true), (Online: 1), (t: fast, ms: 0, b: cobblestone)]'
+(18)[2022/03/29 18:49:43]: '[Spartan Build 446/1677-33408/449485-544843] LiamLiam5571
+  failed FastBreak (VL: 1) [(Version: Airplane 1.17), (C-V: 6) (Silent: false), (Ping:
+  420ms), (TPS: 19.984), (Plib: true), (Online: 1), (t: frequency, ms: 0, t: 40, a:
+  4, l: 3, b: cobblestone)]'
+(19)[2022/03/29 18:49:43]: '[Spartan Build 446/1677-33408/449485-544843] LiamLiam5571
+  failed FastBreak (VL: 2) [(Version: Airplane 1.17), (C-V: 6) (Silent: false), (Ping:
+  420ms), (TPS: 19.968), (Plib: true), (Online: 1), (t: frequency, ms: 5, t: 40, a:
+  4, l: 3, b: cobblestone)]'
+(20)[2022/03/29 18:51:19]: '[Spartan Build 446/1677-33408/449485-544843] LiamLiam5571
+  failed BlockReach (VL: 1) [(Version: Airplane 1.17), (C-V: 4) (Silent: false), (Ping:
+  213ms), (TPS: 19.837), (Plib: true), (Online: 1), (t: interact, d: 10.917972452993455,
+  l: 7.5, m: 1.0)]'
+(21)[2022/03/29 18:51:19]: '[Spartan Build 446/1677-33408/449485-544843] LiamLiam5571
+  failed BlockReach (VL: 2) [(Version: Airplane 1.17), (C-V: 4) (Silent: false), (Ping:
+  213ms), (TPS: 19.928), (Plib: true), (Online: 1), (t: interact, d: 10.917972452993455,
+  l: 7.5, m: 1.0)]'
+(22)[2022/03/29 19:02:57]: '[Spartan Build 446/1677-33408/449485-544843] LiamLiam5571
+  failed Exploits (VL: 15) [(Version: Airplane 1.17), (C-V: 12) (Silent: false), (Ping:
+  193ms), (TPS: 19.794), (Plib: true), (Online: 1), (t: head-position(rotations),
+  r: 100, l: 100)]'
+(23)[2022/03/29 19:03:06]: '[Spartan Build 446/1677-33408/449485-544843] LiamLiam5571
+  failed BlockReach (VL: 3) [(Version: Airplane 1.17), (C-V: 4) (Silent: false), (Ping:
+  1260ms), (TPS: 19.892), (Plib: true), (Online: 1), (t: interact, d: 12.226139161141512,
+  l: 7.5, m: 1.0)]'

@@ -1,0 +1,32 @@
+(1)[2022/02/18 06:53:10]: '[Spartan Build 446/1677-33408/449485-544843] Kastaa1994
+  failed FastBreak (VL: 1) [(Version: Airplane 1.17), (C-V: 2) (Silent: false), (Ping:
+  162ms), (TPS: 19.857), (Plib: true), (Online: 2), (t: moves-in-between, b: mossy-cobblestone,
+  a: 1.5)]'
+(2)[2022/02/18 06:53:49]: '[Spartan Build 446/1677-33408/449485-544843] Kastaa1994
+  failed FastBreak (VL: 1) [(Version: Airplane 1.17), (C-V: 2) (Silent: false), (Ping:
+  148ms), (TPS: 19.837), (Plib: true), (Online: 2), (t: moves-in-between, b: waxed-exposed-cut-copper,
+  a: 1.4)]'
+(3)[2022/02/18 06:55:07]: '[Spartan Build 446/1677-33408/449485-544843] Kastaa1994
+  failed FastBreak (VL: 1) [(Version: Airplane 1.17), (C-V: 2) (Silent: false), (Ping:
+  172ms), (TPS: 19.833), (Plib: true), (Online: 2), (t: moves-in-between, b: weathered-cut-copper,
+  a: 1.5)]'
+(4)[2022/02/18 06:55:43]: '[Spartan Build 446/1677-33408/449485-544843] Kastaa1994
+  failed FastBreak (VL: 2) [(Version: Airplane 1.17), (C-V: 2) (Silent: false), (Ping:
+  181ms), (TPS: 19.876), (Plib: true), (Online: 2), (t: moves-in-between, b: weathered-copper,
+  a: 1.3)]'
+(5)[2022/02/18 06:55:48]: '[Spartan Build 446/1677-33408/449485-544843] Kastaa1994
+  failed FastBreak (VL: 1) [(Version: Airplane 1.17), (C-V: 2) (Silent: false), (Ping:
+  168ms), (TPS: 19.817), (Plib: true), (Online: 2), (t: moves-in-between, b: weathered-copper,
+  a: 1.3)]'
+(6)[2022/02/18 06:56:06]: '[Spartan Build 446/1677-33408/449485-544843] Kastaa1994
+  failed FastBreak (VL: 2) [(Version: Airplane 1.17), (C-V: 2) (Silent: false), (Ping:
+  158ms), (TPS: 19.735), (Plib: true), (Online: 2), (t: moves-in-between, b: mossy-stone-brick-slab,
+  a: 1.2)]'
+(7)[2022/02/18 06:56:12]: '[Spartan Build 446/1677-33408/449485-544843] Kastaa1994
+  failed FastBreak (VL: 3) [(Version: Airplane 1.17), (C-V: 2) (Silent: false), (Ping:
+  158ms), (TPS: 19.833), (Plib: true), (Online: 2), (t: moves-in-between, b: weathered-copper,
+  a: 1.5)]'
+(8)[2022/02/18 06:56:16]: '[Spartan Build 446/1677-33408/449485-544843] Kastaa1994
+  failed FastBreak (VL: 4) [(Version: Airplane 1.17), (C-V: 2) (Silent: false), (Ping:
+  158ms), (TPS: 19.833), (Plib: true), (Online: 2), (t: moves-in-between, b: weathered-copper,
+  a: 1.2)]'

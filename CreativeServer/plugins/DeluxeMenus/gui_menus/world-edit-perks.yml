@@ -1,0 +1,155 @@
+menu_title: 'World Edit'
+open_command:
+- wehelp
+- worldedit
+- worldedithelp
+size: 36
+register_command: true
+update_interval: 1
+items:
+
+      paperhands:
+        material: WHITE_DYE
+        update: true
+        slot: 9
+        display_name: '&8[&f&lPaperHands&8]'
+        lore:
+        - '&7Has access to the following'
+        - '&7WorldEdit commands:'
+        - ''
+        - ' &b//wand &7- get the worldedit wand'
+        - ' &b//set &7- set specific selection'
+        - ' &b//undo &7- undo previous action'
+        - ' &b//redo &7- redo previous action'
+        left_click_commands:
+        - '[openguimenu] world-edit-perks'
+        right_click_commands:
+        - '[openguimenu] world-edit-perks'
+
+      holder:
+        material: GREEN_DYE
+        update: true
+        slot: 11
+        display_name: '&8[&2&lHolder&8]'
+        lore:
+        - '&7Has access to the following'
+        - '&7WorldEdit commands:'
+        - ''
+        - ' &b//wand &7- get the worldedit wand'
+        - ' &b//set &7- set specific selection'
+        - ' &b//undo &7- undo previous action'
+        - ' &b//redo &7- redo previous action'
+        - ' &b//center &7- create block in center'
+        - ' &b//replace &7- replace blocks in selection'
+        left_click_commands:
+        - '[openguimenu] world-edit-perks'
+        right_click_commands:
+        - '[openguimenu] world-edit-perks'
+
+      investor:
+        material: ORANGE_DYE
+        update: true
+        slot: 13
+        display_name: '&8[&6&lInvestor&8]'
+        lore:
+        - '&7Has access to the following'
+        - '&7WorldEdit commands:'
+        - ''
+        - ' &b//wand &7- get the worldedit wand'
+        - ' &b//set &7- set specific selection'
+        - ' &b//undo &7- undo previous action'
+        - ' &b//redo &7- redo previous action '
+        - ' &b//center &7- create block in center '
+        - ' &b//replace &7- replace blocks in selection '
+        - ' &b//walls &7- create walls'
+        - ' &b//smooth &7- smooth area'
+        - ' &b//copy &7- copy selection'
+        - ' &b//paste &7- paste selection'
+        - ' &b//rotate &7- rotate selection'
+        left_click_commands:
+        - '[openguimenu] world-edit-perks'
+        right_click_commands:
+        - '[openguimenu] world-edit-perks'
+
+
+      trader:
+        material: LIME_DYE
+        update: true
+        slot: 15
+        display_name: '&8[&a&lTrader&8]'
+        lore:
+        - '&7Has access to the following'
+        - '&7WorldEdit commands:'
+        - ''
+        - ' &b//wand &7- get the worldedit wand'
+        - ' &b//set &7- set specific selection'
+        - ' &b//undo &7- undo previous action'
+        - ' &b//redo &7- redo previous action '
+        - ' &b//center &7- create block in center '
+        - ' &b//replace &7- replace blocks in selection '
+        - ' &b//walls &7- create walls'
+        - ' &b//smooth &7- smooth area'
+        - ' &b//copy &7- copy selection'
+        - ' &b//paste &7- paste selection'
+        - ' &b//rotate &7- rotate selection'
+        - ' &b//cyl &7- create cylinder'
+        - ' &b//sphere &7- create sphere'
+        - ' &b//pyramid &7- create pyramid'
+        - ' &b//line &7- create line'
+        left_click_commands:
+        - '[openguimenu] world-edit-perks'
+        right_click_commands:
+        - '[openguimenu] world-edit-perks'
+
+      diamondhands:
+        material: LIGHT_BLUE_DYE
+        update: true
+        slot: 17
+        display_name: '&8[&b&lDiamondHands&8]'
+        lore:
+        - '&7Has access to the following'
+        - '&7WorldEdit commands:'
+        - ''
+        - ' &b//wand &7- get the worldedit wand'
+        - ' &b//set &7- set specific selection'
+        - ' &b//undo &7- undo previous action'
+        - ' &b//redo &7- redo previous action '
+        - ' &b//center &7- create block in center '
+        - ' &b//replace &7- replace blocks in selection '
+        - ' &b//walls &7- create walls'
+        - ' &b//smooth &7- smooth area'
+        - ' &b//copy &7- copy selection'
+        - ' &b//paste &7- paste selection'
+        - ' &b//rotate &7- rotate selection'
+        - ' &b//cyl &7- create cylinder'
+        - ' &b//sphere &7- create sphere'
+        - ' &b//pyramid &7- create pyramid'
+        - ' &b//line &7- create line'
+        - ' &b//cut &7- cut a area to paste'
+        - ' &b//curve &7- curve the selection'
+        - ' &b//overlay &7- overlay selection'
+        left_click_commands:
+        - '[openguimenu] world-edit-perks'
+        right_click_commands:
+        - '[openguimenu] world-edit-perks'
+        
+
+      go-back:
+        material: ARROW
+        slot: 30
+        display_name: '&a&lGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] menu'
+        right_click_commands:
+        - '[openguimenu] menu'
+
+      close:
+        material: BARRIER
+        slot: 31
+        display_name: '&c&lClose'
+        lore: []
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'

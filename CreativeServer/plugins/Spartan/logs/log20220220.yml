@@ -1,0 +1,5 @@
+(1)[2022/02/20 13:40:45]: '[Spartan Build 446/1677-33408/449485-544843] Spossy failed
+  IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 15) (Silent: false),
+  (Ping: 104ms), (TPS: 19.996), (Plib: true), (Online: 1), (instance: step-box(1),
+  extra: (difference: 1.0, base-limit: 2.0, limit: 2.0), scenario: neutral, up/down:
+  1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air: 0, horizontal: 0.0)]'

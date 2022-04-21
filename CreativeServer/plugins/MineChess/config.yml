@@ -1,0 +1,176 @@
+Config:
+  arena_starting_cooldown: 10
+  arena_ending_phase_cooldown: 10
+  arena_time: 1800
+  piece_holograms_enabled: true
+  teleport_last_location: false
+  empty_inventory_to_join: true
+  time_in_each_turn:
+    enabled: true
+    time: 60
+    action_when_time_runs_out: move
+  leave_item_enabled: true
+  leave_item:
+    item: IRON_DOOR
+    name: '&cLeave Game'
+    lore:
+    - '&7Right Click to leave the game.'
+  select_item:
+    item: NAME_TAG
+    name: '&aSelect and Move'
+    lore:
+    - '&bLeft Click &7to select a piece.'
+    - '&bRight Click &7to move a selected piece.'
+  commands_whitelist:
+  - /chess leave
+  per_arena_chat: true
+  soundCapturePiece: BLOCK_NOTE_BLOCK_PLING;10;2
+  soundLosePiece: BLOCK_NOTE_BLOCK_PLING;10;0.1
+  soundMovePiece: BLOCK_STONE_STEP;10;1
+  soundCastling: BLOCK_PISTON_EXTEND;10;1.5
+  soundSelectPiece: UI_BUTTON_CLICK;10;1
+  soundPromotion: ENTITY_PLAYER_LEVELUP;10;2
+  soundCheck: ENTITY_BLAZE_DEATH;10;0.5
+  pointsPawn: 1
+  pointsRook: 3
+  pointsKnight: 3
+  pointsBishop: 3
+  pointsQueen: 10
+  pointsKing: 20
+  winners_command_rewards:
+  - msg %player% &bCongratulations!
+  - tab scoreboard
+  - tab scoreboard
+  losers_command_rewards:
+  - msg %player% &bYou've lost!
+  - tab scoreboard
+  - tab scoreboard
+  minimum_time_for_rewards: 240
+  rewards_executed_after_teleport: false
+  mysql_database:
+    enabled: false
+    host: localhost
+    port: 3306
+    username: root
+    password: root
+    database: database
+  click_distance: 15
+Messages:
+  prefix: '&3MoonChess &8| '
+  configReloaded: '&aConfig Reloaded!'
+  noPermissions: '&cYou don''t have permissions.'
+  commandCreateErrorUse: '&cYou need to use &7/chess create <arena>'
+  arenaAlreadyExists: '&cThat arena already exists.'
+  arenaCreated: '&aArena created! Use &7/chess build %arena% &ato automatically construct
+    the arena in your position.'
+  arenaDoesNotExists: '&cThat arena doesn''t exists.'
+  commandBuildErrorUse: '&cYou need to use &7/chess build <arena>'
+  arenaBuilt: '&aThe arena was built correctly!'
+  commandSetSpawnErrorUse: '&cYou need to use &7/chess setspawn <arena>'
+  spawnSet: '&aSpawn set for arena &e%arena%&a.'
+  mainLobbyDefined: '&aMain Lobby defined correctly.'
+  commandJoinErrorUse: '&cYou need to use &7/chess join <arena>'
+  playerJoin: '&b%player% &7has joined the game (%current_players%/2)'
+  playerLeave: '&b%player% &7has left the game (%current_players%/2)'
+  arenaStartingMessage: '&bThe game starts in &7%time% &bseconds!'
+  gameStartingCancelled: '&7There are not enough players to start the game.'
+  gameStarted: 
+  - '&bGame started!'
+  - '&7Chess Rules: &ahttps://bit.ly/31L3MH7'
+  blackPiecesInfo: '&7You are the &bBLACK &7pieces.'
+  whitePiecesInfo: '&7You are the &bWHITE &7pieces.'
+  gameFinished:
+  - '&e                                               '
+  - '&bCongratuations to %player%!'
+  - '&7They won with &b%points% &7Points!'
+  - '&e                                               '
+  gameFinishedTie:
+  - '&e                                               '
+  - '&c                  It was a tie!'
+  - '&e                                               '
+  arenaDisabledError: '&cThe arena is disabled.'
+  alreadyInArena: '&cYou are already in an arena.'
+  arenaAlreadyStarted: '&cThe arena already started.'
+  arenaIsFull: '&cThe arena is full.'
+  notInAGame: '&cYou are not in a game.'
+  commandEnableErrorUse: '&cYou need to use: &7/chess enable <arena>'
+  arenaAlreadyEnabled: '&cThe arena is already enabled.'
+  enableArenaBuildError: '&cYou need to build the arena first by using &7/chess build
+    <arena>'
+  enableArenaSpawnError: '&cYou need to set the arena spawn first by using &7/chess
+    setspawn <arena>'
+  arenaEnabled: '&7Arena &b%arena% &7enabled.'
+  commandDisableErrorUse: '&cYou need to use: &7/chess disable <arena>'
+  arenaAlreadyDisabled: '&cThe arena is already disabled.'
+  arenaDisabled: '&7Arena &b%arena% &7disabled.'
+  noMainLobby: '&cBefore creating an arena you need to set the Main Lobby with: &7/chess
+    setmainlobby'
+  commandDeleteErrorUse: '&cYou need to use: &7/chess delete <arena>'
+  arenaDeleted: '&7Arena &b%arena% &7deleted.'
+  notYourTurn: '&cIs not your turn!'
+  notYourPiece: '&cThat is not your piece!'
+  pieceSelected: '&b%piece% &7selected.'
+  piecePawn: '&bPawn'
+  pieceRook: '&bRook'
+  pieceKnight: '&bKnight'
+  pieceBishop: '&bBishop'
+  pieceQueen: '&bQueen'
+  pieceKing: '&bKing'
+  changeTurn: '&7It''s &b%player%''s Turn&7.'
+  pieceMove: '&b%player% &7moved &b%piece%&7. (%coords%)'
+  pieceCaptured: '&b%player% &7moved &b%piece%&7 capturing &b%player2%''s %player2_piece%&7.
+    (%coords%)'
+  castling: '&b%player% &7castled his King. (%coords%)'
+  promotion: '&b%player% &7promoted his Pawn to &b%piece%&7.'
+  check: '&b%player%''s King &7is in &ccheck&7!'
+  checkmate: '&b%player%''s King&7 is in &c&lcheckmate&7!'
+  actionbarPlayerTurn: '&7(( %player% is currently in play with %time% left ))'
+  actionbarYourTurn: '&7(( You are currently in play with %time% left ))'
+  gameScoreboardTitle: '&3&lChess'
+  gameScoreboardBody:
+  - '&1'
+  - '&fStatus: &b%status%'
+  - '&2'
+  - '&f%player_1%''s Points: &b%player_1_points%'
+  - '&f%player_2%''s Points: &b%player_2_points%'
+  - '&3'
+  - '&3    mc.safemoon.net'
+  statusWaiting: '&cWaiting'
+  statusStarting: '&bStarting'
+  statusIngame: '&bEnds in %time%'
+  statusFinishing: '&cFinishing in %time%'
+  gameScoreboardWaitingPlayer: Player
+  pawnPromotionInventoryTitle: '&cPawn Promotion'
+  promoteItemName: '&7Promote to: &b%piece%'
+  signFormat:
+  - '&7[&3Moon&bChess&7]'
+  - '&9%arena%'
+  - '%status%'
+  - '&b%current_players%&8/&b%max_players%'
+  signStatusWaiting: '&cWaiting'
+  signStatusStarting: '&dStarting'
+  signStatusIngame: '&bIngame'
+  signStatusDisabled: '&4Disabled'
+  signStatusFinishing: '&dFinishing'
+  titleKingInCheck: '&b%player%''s &7King is in check!'
+  titleKingInCheckmate: '&7%player%''s &7King is in checkmate!'
+  commandSpectateErrorUse: '&cYou need to use &7/chess spectate <arena>/<player>'
+  commandSpectateAllError: '&cThe arena doesn''t exists or that player is not playing
+    on it.'
+  arenaMustHaveStarted: '&cThe arena must have started to spectate it!'
+  errorPlayerNotExists: '&7Player &b%player% &7doesn''t have any stored stats.'
+  commandPlayerStats:
+  - '&3Stats of &b%player%'
+  - '&7Wins: &b%wins%'
+  - '&7Ties: &b%ties%'
+  - '&7Loses: &b%loses%'
+  - '&7Time Played: &9%time%'
+  noArenasAvailable: '&cThere are no arenas available.'
+  errorClearInventory: '&cERROR! &7To join an arena clear your inventory first.'
+MainLobby:
+  x: '-32.59926916929629'
+  y: '51.0'
+  z: '-77.37429950622074'
+  world: plotworld
+  pitch: 3.9000072
+  yaw: -89.99997

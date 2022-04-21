@@ -1,0 +1,868 @@
+(1)[2022/02/08 00:53:20]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 61ms), (TPS: 19.992), (Plib: true), (Online: 1), (instance: step-abstract(1),
+  extra: (difference: 1.9986640208878583, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(2)[2022/02/08 01:56:05]: '[Spartan Build 446/1677-33408/449485-544843] vande_nwfnd
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 129ms), (TPS: 17.464), (Plib: true), (Online: 4), (instance: horizontal-motion(5/20/5),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.0, air: 3, horizontal: 0.06593371944859427)]'
+(3)[2022/02/08 02:06:48]: '[Spartan Build 446/1677-33408/449485-544843] 64Nut failed
+  IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 55ms), (TPS: 18.487), (Plib: true), (Online: 4), (instance: horizontal-motion(5/20/5),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.0, air: 8, horizontal: 0.2858670785162638)]'
+(4)[2022/02/08 02:06:49]: '[Spartan Build 446/1677-33408/449485-544843] 64Nut failed
+  IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 55ms), (TPS: 18.112), (Plib: true), (Online: 4), (instance: horizontal-motion(5/20/5),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.0, air: 9, horizontal: 0.28349832894003596)]'
+(5)[2022/02/08 02:06:49]: '[Spartan Build 446/1677-33408/449485-544843] 64Nut failed
+  IrregularMovements (VL: 3) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 55ms), (TPS: 18.079), (Plib: true), (Online: 4), (instance: horizontal-motion(5/20/5),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.0, air: 10, horizontal: 0.2823464770535729)]'
+(6)[2022/02/08 02:06:50]: '[Spartan Build 446/1677-33408/449485-544843] 64Nut failed
+  IrregularMovements (VL: 4) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 55ms), (TPS: 17.921), (Plib: true), (Online: 4), (instance: horizontal-motion(5/20/5),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.0, air: 10, horizontal: 0.15239626615091156)]'
+(7)[2022/02/08 02:14:00]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 79ms), (TPS: 19.912), (Plib: true), (Online: 4), (instance: step-abstract(1),
+  extra: (difference: 0.8787031594608052, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.15150694263500372)]'
+(8)[2022/02/08 02:16:56]: '[Spartan Build 446/1677-33408/449485-544843] Zackezragaming
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 405ms), (TPS: 20.0), (Plib: true), (Online: 4), (instance: step-limit(1),
+  extra: (difference: 6.2057056529354, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion: -0.07840000152587834, old-motion: 0.0, box: 0.9215999984741217,
+  old-box: 0.0, air: 0, horizontal: 0.17792434958536654)]'
+(9)[2022/02/08 02:24:09]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 69ms), (TPS: 19.916), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 1.5800000131130219, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.12694654334429953)]'
+(10)[2022/02/08 02:35:04]: '[Spartan Build 446/1677-33408/449485-544843] upz28 failed
+  IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 381ms), (TPS: 19.996), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 1.4986640208878512, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(11)[2022/02/08 09:52:35]: '[Spartan Build 446/1677-33408/449485-544843] MathildeBMxx
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 33ms), (TPS: 19.868), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 0.7064878604694229, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: -1.022581551478055, old-motion: -0.9634505424243045,
+  box: 0.7064878604694229, old-box: 0.7290694119474779, air: 60, horizontal: 0.16257693258233388)]'
+(12)[2022/02/08 09:55:04]: '[Spartan Build 446/1677-33408/449485-544843] MathildeBMxx
+  failed IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 123ms), (TPS: 20.0), (Plib: true), (Online: 4), (instance: horizontal-motion(3/20/3),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.017053132165308682, air: 11, horizontal: 0.0)]'
+(13)[2022/02/08 09:55:20]: '[Spartan Build 446/1677-33408/449485-544843] MathildeBMxx
+  failed IrregularMovements (VL: 3) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 122ms), (TPS: 20.0), (Plib: true), (Online: 4), (instance: step-abstract(1),
+  extra: (difference: 0.6409632031373, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air: 0, horizontal:
+  0.21585774987306186)]'
+(14)[2022/02/08 09:56:04]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 3) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 62ms), (TPS: 19.127), (Plib: true), (Online: 4), (instance: horizontal-motion(5/20/5),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.0, air: 2, horizontal: 0.09689293515612007)]'
+(15)[2022/02/08 10:01:21]: '[Spartan Build 446/1677-33408/449485-544843] kmorch failed
+  MorePackets (VL: 1) [(Version: Airplane 1.17), (C-V: 11) (Silent: false), (Ping:
+  55ms), (TPS: 19.936), (Plib: true), (Online: 5), (type: horizontal, total-horizontal:
+  0.2158590643966818, total-vertical: 0.0, extra-ticks: 5, extra-packets: 2, tick-average:
+  49.6)]'
+(16)[2022/02/08 10:11:46]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 4) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 58ms), (TPS: 19.868), (Plib: true), (Online: 5), (instance: step-abstract(1),
+  extra: (difference: 0.975575911786315, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air: 0, horizontal:
+  0.21501375141148155)]'
+(17)[2022/02/08 10:22:08]: '[Spartan Build 446/1677-33408/449485-544843] kmorch failed
+  IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 56ms), (TPS: 20.0), (Plib: true), (Online: 5), (instance: horizontal-motion(3/20/3),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.024424088213685025, air: 7, horizontal: 0.0)]'
+(18)[2022/02/08 10:30:00]: '[Spartan Build 446/1677-33408/449485-544843] Spossy failed
+  IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 128ms), (TPS: 20.0), (Plib: true), (Online: 5), (instance: step-abstract(1),
+  extra: (difference: 0.7985649007103035, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: -0.9634505424243116, old-motion: -0.9031127792580804,
+  box: 0.7290694119474779, old-box: 0.6925199543717895, air: 17, horizontal: 0.28376813885394236)]'
+(19)[2022/02/08 10:31:20]: '[Spartan Build 446/1677-33408/449485-544843] Steve4270
+  failed MorePackets (VL: 1) [(Version: Airplane 1.17), (C-V: 11) (Silent: false),
+  (Ping: 203ms), (TPS: 16.189), (Plib: true), (Online: 5), (type: instant, overall:
+  4.720126189190239, last-tick: 0)]'
+(20)[2022/02/08 10:33:49]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 5) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 66ms), (TPS: 19.992), (Plib: true), (Online: 3), (instance: step-limit(1/20/1),
+  extra: (difference: 49.58000001311302, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air: 0, horizontal:
+  0.18072338794448606)]'
+(21)[2022/02/08 10:39:51]: '[Spartan Build 446/1677-33408/449485-544843] kmorch failed
+  IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 65ms), (TPS: 20.0), (Plib: true), (Online: 3), (instance: horizontal-motion(3/20/3),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.02442408821369213, air: 3, horizontal: 0.0)]'
+(22)[2022/02/08 10:40:33]: '[Spartan Build 446/1677-33408/449485-544843] Spossy failed
+  IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 129ms), (TPS: 19.508), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 0.7132800039362905, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.15148370562525587)]'
+(23)[2022/02/08 10:52:57]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 6) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 58ms), (TPS: 19.94), (Plib: true), (Online: 2), (instance: step-limit(1/20/1),
+  extra: (difference: 97.99866402088786, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air: 0, horizontal:
+  0.0914115156842854)]'
+(24)[2022/02/08 11:02:26]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 7) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 60ms), (TPS: 20.0), (Plib: true), (Online: 2), (instance: step-limit(1/20/1),
+  extra: (difference: 12.251164162868875, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(25)[2022/02/08 11:15:00]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 8) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 63ms), (TPS: 19.9), (Plib: true), (Online: 3), (instance: step-limit(1/20/1),
+  extra: (difference: 14.55414116287497, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air: 0, horizontal:
+  0.09800000291536712)]'
+(26)[2022/02/08 11:16:28]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 69ms), (TPS: 19.841), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 1.8338907390617862, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.011479551638615249)]'
+(27)[2022/02/08 11:17:35]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 104ms), (TPS: 19.884), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 1.2468000194787976, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.1805291434759219)]'
+(28)[2022/02/08 11:22:11]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 9) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 58ms), (TPS: 19.88), (Plib: true), (Online: 5), (instance: step-limit(1),
+  extra: (difference: 39.58000001311302, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion: 0.0, old-motion: -0.02442408821369213, box/old-box:
+  0.0, air: 0, horizontal: 0.20061781127019346)]'
+(29)[2022/02/08 11:31:49]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 10) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 61ms), (TPS: 19.984), (Plib: true), (Online: 3), (instance: step-limit(1/20/1),
+  extra: (difference: 35.89493143742108, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air: 0, horizontal:
+  0.18054419014193532)]'
+(30)[2022/02/08 11:33:57]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 11) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 58ms), (TPS: 19.809), (Plib: true), (Online: 3), (instance: step-limit(1/20/1),
+  extra: (difference: 12.59382114530466, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air: 0, horizontal:
+  0.0)]'
+(31)[2022/02/08 11:43:49]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 12) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 63ms), (TPS: 19.948), (Plib: true), (Online: 3), (instance: step-limit(1),
+  extra: (difference: 54.25360873497834, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion: -2.7381678246361787, old-motion: -2.7140487462693272,
+  box: 0.6736087218653211, old-box: 0.41177654650149975, air: 61, horizontal: 0.07541132541507523)]'
+(32)[2022/02/08 11:43:50]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 13) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 63ms), (TPS: 20.0), (Plib: true), (Online: 3), (instance: horizontal-motion(1/20/1),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.0, old-motion: -1.6533467175725178,
+  box/old-box: 0.0, air: 84, horizontal: 0.0)]'
+(33)[2022/02/08 11:47:27]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 3) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 119ms), (TPS: 19.948), (Plib: true), (Online: 4), (instance: step-limit(1),
+  extra: (difference: 3.1669367563425297, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: -2.7326147621606864, old-motion: -2.7083823560984897,
+  box: 0.16827273545467847, old-box: 0.9008874976153649, air: 60, horizontal: 0.0)]'
+(34)[2022/02/08 11:47:29]: '[Spartan Build 446/1677-33408/449485-544843] CheemsInu
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 150ms), (TPS: 19.813), (Plib: true), (Online: 4), (instance: step-limit(1),
+  extra: (difference: 12.188835979112149, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: 0.24813599859094637, old-motion: 0.33319999363422426,
+  box: 0.18883597911214878, old-box: 0.9406999805212024, air: 1, horizontal: 0.02222941065922157)]'
+(35)[2022/02/08 11:51:24]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 4) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 118ms), (TPS: 19.924), (Plib: true), (Online: 4), (instance: step-abstract(1),
+  extra: (difference: 1.2468000194787976, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.27345509059880785)]'
+(36)[2022/02/08 11:52:26]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 5) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 119ms), (TPS: 20.0), (Plib: true), (Online: 4), (instance: step-limit(1/20/1),
+  extra: (difference: 2.2468000194787976, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(37)[2022/02/08 11:55:14]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 6) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 122ms), (TPS: 19.892), (Plib: true), (Online: 4), (instance: step-abstract(1),
+  extra: (difference: 1.2468000194787976, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(38)[2022/02/08 11:57:58]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 7) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 119ms), (TPS: 20.0), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 0.9986640208878512, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.07513834192664264)]'
+(39)[2022/02/08 11:58:07]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 8) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 119ms), (TPS: 19.892), (Plib: true), (Online: 3), (instance: horizontal-motion(3/20/3),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.024424088213685025, air: 6, horizontal: 0.0)]'
+(40)[2022/02/08 11:59:08]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 9) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 119ms), (TPS: 20.0), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 1.2468000194787976, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.06508314466821903)]'
+(41)[2022/02/08 12:19:21]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 14) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 56ms), (TPS: 19.908), (Plib: true), (Online: 3), (instance: step-limit(1/20/1),
+  extra: (difference: 17.246800019478798, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.15150801083552637)]'
+(42)[2022/02/08 12:23:19]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 15) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 59ms), (TPS: 19.466), (Plib: true), (Online: 3), (instance: horizontal-motion(4/20/4),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.0, air: 12, horizontal: 0.0)]'
+(43)[2022/02/08 12:23:20]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 16) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 59ms), (TPS: 19.182), (Plib: true), (Online: 3), (instance: horizontal-motion(4/20/4),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.0, air: 9, horizontal: 0.19213142719216078)]'
+(44)[2022/02/08 12:30:12]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 17) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 62ms), (TPS: 19.837), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 1.8338907390617862, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(45)[2022/02/08 12:36:19]: '[Spartan Build 446/1677-33408/449485-544843] Fagiosh failed
+  MorePackets (VL: 1) [(Version: Airplane 1.17), (C-V: 11) (Silent: false), (Ping:
+  152ms), (TPS: 20.0), (Plib: true), (Online: 3), (type: instant, overall: 2.754400314264591,
+  last-tick: 0)]'
+(46)[2022/02/08 12:37:48]: '[Spartan Build 446/1677-33408/449485-544843] Fagiosh failed
+  IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 152ms), (TPS: 19.9), (Plib: true), (Online: 3), (instance: horizontal-motion(3/20/3),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.024424088213679696, air: 12, horizontal: 0.0)]'
+(47)[2022/02/08 12:40:33]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 18) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 62ms), (TPS: 19.908), (Plib: true), (Online: 4), (instance: horizontal-motion(4/20/4),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.0, air: 11, horizontal: 0.18243362698160578)]'
+(48)[2022/02/08 12:41:05]: '(False Positive) [Spartan Build 446/1677-33408/449485-544843]
+  SafemoonBDA failed IrregularMovements (VL: 18) [(Version: Airplane 1.17), (C-V:
+  16) (Silent: false), (Ping: 71ms), (TPS: 19.131), (Plib: true), (Online: 4), (instance:
+  horizontal-motion(4/20/4), scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion:
+  0.0, box/old-box: 0.0, air: 6, horizontal: 0.0)]'
+(49)[2022/02/08 12:45:40]: '[Spartan Build 446/1677-33408/449485-544843] Fagiosh failed
+  IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 149ms), (TPS: 19.928), (Plib: true), (Online: 5), (instance: step-air(1),
+  extra: (difference: 1.024424088213685, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion: -0.15233518685055714, old-motion: -0.07544406518948676,
+  box: 0.024424088213685025, old-box: 0.17675927506424216, air: 5, horizontal: 0.34421161629217467)]'
+(50)[2022/02/08 12:55:37]: '[Spartan Build 446/1677-33408/449485-544843] Fagiosh failed
+  IrregularMovements (VL: 3) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 160ms), (TPS: 20.0), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 0.9986640208878512, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(51)[2022/02/08 12:56:38]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 10) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 120ms), (TPS: 19.996), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 0.8338907390617862, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(52)[2022/02/08 13:02:40]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 11) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 119ms), (TPS: 19.88), (Plib: true), (Online: 3), (instance: step-limit(1),
+  extra: (difference: 61.807591518845896, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: -2.7381678246361787, old-motion: -2.7140487462693272,
+  box: 0.8320156070595885, old-box: 0.5701834316957672, air: 60, horizontal: 0.0)]'
+(53)[2022/02/08 13:02:57]: '[Spartan Build 446/1677-33408/449485-544843] Fagiosh failed
+  BlockReach (VL: 1) [(Version: Airplane 1.17), (C-V: 3) (Silent: false), (Ping: 160ms),
+  (TPS: 19.936), (Plib: true), (Online: 3), (t: unusual, d: 2.72009284995041, ab_d:
+  2.570759175688091, ypos: -2.0)]'
+(54)[2022/02/08 13:03:09]: '[Spartan Build 446/1677-33408/449485-544843] Fagiosh failed
+  BlockReach (VL: 2) [(Version: Airplane 1.17), (C-V: 3) (Silent: false), (Ping: 158ms),
+  (TPS: 19.9), (Plib: true), (Online: 3), (t: unusual, d: 1.618838521264821, ab_d:
+  1.5410346936253072, ypos: -1.0)]'
+(55)[2022/02/08 13:03:58]: '[Spartan Build 446/1677-33408/449485-544843] Fagiosh failed
+  IrregularMovements (VL: 4) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 169ms), (TPS: 19.888), (Plib: true), (Online: 4), (instance: step-abstract(1),
+  extra: (difference: 1.2468000194787976, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(56)[2022/02/08 13:05:41]: '[Spartan Build 446/1677-33408/449485-544843] Fagiosh failed
+  IrregularMovements (VL: 5) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 167ms), (TPS: 19.972), (Plib: true), (Online: 5), (instance: step-abstract(1),
+  extra: (difference: 1.2468000194787976, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(57)[2022/02/08 13:11:20]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 19) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 57ms), (TPS: 19.908), (Plib: true), (Online: 4), (instance: step-abstract(1),
+  extra: (difference: 1.2468000194787976, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(58)[2022/02/08 13:19:39]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 20) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 56ms), (TPS: 19.896), (Plib: true), (Online: 4), (instance: step-abstract(1),
+  extra: (difference: 1.8019800041508631, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0625,
+  air: 0, horizontal: 0.21240098794832865)]'
+(59)[2022/02/08 13:22:16]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 21) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 59ms), (TPS: 19.88), (Plib: true), (Online: 5), (instance: step-limit(1/20/1),
+  extra: (difference: 4.246800019478798, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air: 0, horizontal:
+  0.10595633420849938)]'
+(60)[2022/02/08 13:23:52]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 12) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 203ms), (TPS: 20.0), (Plib: true), (Online: 4), (instance: step-limit(1/20/1),
+  extra: (difference: 32.878703159460805, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(61)[2022/02/08 13:25:33]: '[Spartan Build 446/1677-33408/449485-544843] Fagiosh failed
+  IrregularMovements (VL: 6) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 155ms), (TPS: 19.319), (Plib: true), (Online: 4), (instance: horizontal-motion(4/20/4),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.0, air: 57, horizontal: 0.2555261603095879)]'
+(62)[2022/02/08 13:25:33]: '[Spartan Build 446/1677-33408/449485-544843] Fagiosh failed
+  IrregularMovements (VL: 7) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 155ms), (TPS: 19.022), (Plib: true), (Online: 4), (instance: horizontal-motion(4/20/4),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.0, air: 59, horizontal: 0.10491124371404764)]'
+(63)[2022/02/08 13:25:34]: '[Spartan Build 446/1677-33408/449485-544843] Fagiosh failed
+  IrregularMovements (VL: 8) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 155ms), (TPS: 19.805), (Plib: true), (Online: 4), (instance: horizontal-motion(4/20/4),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.0, air: 9, horizontal: 0.1988865821707441)]'
+(64)[2022/02/08 13:26:53]: '[Spartan Build 446/1677-33408/449485-544843] Fagiosh failed
+  IrregularMovements (VL: 9) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 155ms), (TPS: 19.809), (Plib: true), (Online: 4), (instance: step-limit(1/20/1),
+  extra: (difference: 58.833890739061786, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.10965676703689811)]'
+(65)[2022/02/08 13:29:32]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 13) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 172ms), (TPS: 20.0), (Plib: true), (Online: 4), (instance: step-limit(1/20/1),
+  extra: (difference: 31.99866402088785, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air: 0, horizontal:
+  0.0)]'
+(66)[2022/02/08 13:31:25]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 14) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 227ms), (TPS: 19.984), (Plib: true), (Online: 4), (instance: step-limit(1/20/1),
+  extra: (difference: 29.99866402088786, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air: 0, horizontal:
+  0.23449677485603398)]'
+(67)[2022/02/08 13:33:11]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 22) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 56ms), (TPS: 20.0), (Plib: true), (Online: 5), (instance: step-limit(1/20/1),
+  extra: (difference: 63.99866402088785, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air: 0, horizontal:
+  0.0)]'
+(68)[2022/02/08 13:35:04]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 23) [(Version: Airplane 1.17), (C-V: -16) (Silent:
+  false), (Ping: 58ms), (TPS: 18.198), (Plib: true), (Online: 4), (instance: horizontal-motion(4/20/4),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.0, air: 8, horizontal: 0.21309077031742107)]'
+(69)[2022/02/08 13:36:24]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 15) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 261ms), (TPS: 19.94), (Plib: true), (Online: 4), (instance: step-limit(1/20/1),
+  extra: (difference: 64.2468000194788, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air: 0, horizontal:
+  0.0)]'
+(70)[2022/02/08 13:38:17]: '[Spartan Build 446/1677-33408/449485-544843] Spossy failed
+  IrregularMovements (VL: 3) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 78ms), (TPS: 19.972), (Plib: true), (Online: 5), (instance: step-abstract(1),
+  extra: (difference: 0.7532800030422209, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.1616324664106883)]'
+(71)[2022/02/08 13:38:52]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 16) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 207ms), (TPS: 20.0), (Plib: true), (Online: 5), (instance: step-limit(1/20/1),
+  extra: (difference: 50.99866402088785, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air: 0, horizontal:
+  0.0)]'
+(72)[2022/02/08 13:39:59]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 24) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 62ms), (TPS: 19.809), (Plib: true), (Online: 4), (instance: step-limit(1/20/1),
+  extra: (difference: 64.99866402088784, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air: 0, horizontal:
+  0.19438855511852599)]'
+(73)[2022/02/08 13:50:12]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 17) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 210ms), (TPS: 19.849), (Plib: true), (Online: 5), (instance: step-limit(1/20/1),
+  extra: (difference: 27.99866402088785, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air: 0, horizontal:
+  0.2575164181348555)]'
+(74)[2022/02/08 13:50:37]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 18) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 191ms), (TPS: 19.857), (Plib: true), (Online: 5), (instance: step-limit(1/20/1),
+  extra: (difference: 2.8783999538421625, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.08260349637467083)]'
+(75)[2022/02/08 13:51:12]: '[Spartan Build 446/1677-33408/449485-544843] Fagiosh failed
+  IrregularMovements (VL: 10) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 174ms), (TPS: 19.868), (Plib: true), (Online: 5), (instance: step-limit(1),
+  extra: (difference: 2.460720302945589, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion: -2.2077981103811553, old-motion: -2.1728551708279156,
+  box: 0.46205628205773763, old-box: 0.6698543924388929, air: 60, horizontal: 0.18908809581081168)]'
+(76)[2022/02/08 13:51:12]: '[Spartan Build 446/1677-33408/449485-544843] Fagiosh failed
+  IrregularMovements (VL: 11) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 174ms), (TPS: 19.868), (Plib: true), (Online: 5), (instance: horizontal-motion(1/20/1),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.0, old-motion: -1.2200140902479149,
+  box/old-box: 0.0, air: 63, horizontal: 0.257415355378667)]'
+(77)[2022/02/08 13:56:33]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 19) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 182ms), (TPS: 19.96), (Plib: true), (Online: 6), (instance: step-limit(1/20/1),
+  extra: (difference: 2.9986640208878512, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.2123302002281033)]'
+(78)[2022/02/08 13:59:30]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 20) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 157ms), (TPS: 20.0), (Plib: true), (Online: 6), (instance: step-abstract(1),
+  extra: (difference: 1.8702882187152383, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(79)[2022/02/08 14:00:53]: '[Spartan Build 446/1677-33408/449485-544843] Fagiosh failed
+  IrregularMovements (VL: 12) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 630ms), (TPS: 19.86), (Plib: true), (Online: 5), (instance: step-abstract(1),
+  extra: (difference: 1.2468000194787976, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.03464898632603402)]'
+(80)[2022/02/08 14:10:59]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 25) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 63ms), (TPS: 20.0), (Plib: true), (Online: 3), (instance: step-limit(1/20/1),
+  extra: (difference: 46.833890739061786, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(81)[2022/02/08 14:12:31]: '[Spartan Build 446/1677-33408/449485-544843] Fagiosh failed
+  IrregularMovements (VL: 13) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 189ms), (TPS: 19.876), (Plib: true), (Online: 3), (instance: step-limit(1/20/1),
+  extra: (difference: 32.2468000194788, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air: 0, horizontal:
+  0.09428539885767505)]'
+(82)[2022/02/08 14:13:24]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 26) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 59ms), (TPS: 19.94), (Plib: true), (Online: 3), (instance: step-limit(1/20/1),
+  extra: (difference: 13.772948782399325, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.19667498784671542)]'
+(1)[2022/02/08 14:21:50]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed MorePackets (VL: 1) [(Version: Airplane 1.17), (C-V: 4) (Silent: false),
+  (Ping: 72ms), (TPS: 20.0), (Plib: true), (Online: 2), (type: instant, overall: 2.3407063567465163,
+  last-tick: 0)]'
+(2)[2022/02/08 14:30:09]: '[Spartan Build 446/1677-33408/449485-544843] Zeboimz failed
+  MorePackets (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  296ms), (TPS: 19.988), (Plib: true), (Online: 3), (type: instant, overall: 4.393430662988735,
+  last-tick: 0)]'
+(3)[2022/02/08 14:30:09]: '[Spartan Build 446/1677-33408/449485-544843] Zeboimz failed
+  MorePackets (VL: 2) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  296ms), (TPS: 19.98), (Plib: true), (Online: 3), (type: instant, overall: 7.942129867055488,
+  last-tick: 0)]'
+(4)[2022/02/08 14:34:43]: '[Spartan Build 446/1677-33408/449485-544843] Zeboimz failed
+  IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent: false),
+  (Ping: 209ms), (TPS: 20.0), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 1.9986640208878441, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.14293454017280194)]'
+(5)[2022/02/08 14:35:57]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 87ms), (TPS: 19.936), (Plib: true), (Online: 2), (instance: step-abstract(1),
+  extra: (difference: 1.8338907390617862, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.21515568794681808)]'
+(6)[2022/02/08 14:43:52]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 4) (Silent: false),
+  (Ping: 84ms), (TPS: 19.92), (Plib: true), (Online: 2), (instance: step-abstract(1),
+  extra: (difference: 0.6216000461578375, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: -0.07840000152587834, old-motion: 0.28000006079673767,
+  box: 0.12160004615783748, old-box: 0.20000004768371582, air: 0, horizontal: 0.04572129191808472)]'
+(7)[2022/02/08 14:43:59]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: 4) (Silent: false),
+  (Ping: 83ms), (TPS: 19.872), (Plib: true), (Online: 2), (instance: step-abstract(1),
+  extra: (difference: 0.7016593272717273, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.4375,
+  air: 0, horizontal: 0.08830568686435261)]'
+(8)[2022/02/08 15:03:29]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed MorePackets (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent: false),
+  (Ping: 91ms), (TPS: 19.996), (Plib: true), (Online: 2), (type: horizontal, total-horizontal:
+  0.06434472072850055, total-vertical: 0.0, extra-ticks: 5, extra-packets: 4, tick-average:
+  49.93333333333333)]'
+(9)[2022/02/08 15:09:04]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 89ms), (TPS: 19.912), (Plib: true), (Online: 2), (instance: step-limit(1),
+  extra: (difference: 38.1887297373867, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion: -2.7346971605890076, old-motion: -2.7105072524125546,
+  box: 0.19006571649885018, old-box: 0.9247628770878578, air: 59, horizontal: 0.16115101428413645)]'
+(10)[2022/02/08 15:29:42]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 152ms), (TPS: 19.825), (Plib: true), (Online: 2), (instance: step-abstract(1),
+  extra: (difference: 0.9986640208878512, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(11)[2022/02/08 15:38:27]: '[Spartan Build 446/1677-33408/449485-544843] sektnan failed
+  IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 117ms), (TPS: 19.936), (Plib: true), (Online: 5), (instance: step-limit(1),
+  extra: (difference: 105.92014047881813, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: -2.744337894053416, old-motion: -2.72034473534805,
+  box: 0.6733404593393288, old-box: 0.41767835339274484, air: 60, horizontal: 0.02240885151503022)]'
+(12)[2022/02/08 16:02:25]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 150ms), (TPS: 19.813), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 1.7468000194787976, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.1663229559845346)]'
+(13)[2022/02/08 16:03:17]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 152ms), (TPS: 19.988), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 1.1218000194787976, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(14)[2022/02/08 16:05:05]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 151ms), (TPS: 20.0), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 1.4986640208878512, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(15)[2022/02/08 16:05:15]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 151ms), (TPS: 19.98), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 0.8787031594608052, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(16)[2022/02/08 16:17:06]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 151ms), (TPS: 19.888), (Plib: true), (Online: 2), (instance: step-abstract(1),
+  extra: (difference: 1.7468000194787976, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.15150427559468943)]'
+(17)[2022/02/08 16:19:27]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 151ms), (TPS: 20.0), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 0.9986640208878512, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(18)[2022/02/08 16:20:45]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 149ms), (TPS: 19.888), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 0.9986640208878512, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.1940582756569711)]'
+(19)[2022/02/08 16:20:56]: '[Spartan Build 446/1677-33408/449485-544843] Dunkaknee
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 65ms), (TPS: 19.892), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 0.8338907390617862, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.09800000275271185)]'
+(20)[2022/02/08 16:21:10]: '[Spartan Build 446/1677-33408/449485-544843] Dunkaknee
+  failed IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 66ms), (TPS: 20.0), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 0.7508129212553172, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(21)[2022/02/08 16:23:20]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 150ms), (TPS: 20.0), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 0.8736640208878512, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.15150801101033776)]'
+(22)[2022/02/08 16:23:53]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 150ms), (TPS: 20.0), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 1.2468000194787976, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(23)[2022/02/08 16:24:23]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 151ms), (TPS: 19.872), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 1.2468000194787976, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(24)[2022/02/08 16:24:32]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 151ms), (TPS: 20.0), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 0.9986640208878512, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(25)[2022/02/08 16:24:54]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 3) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 151ms), (TPS: 19.857), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 0.7088907390617862, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.11308640792959952)]'
+(26)[2022/02/08 16:26:01]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 151ms), (TPS: 20.0), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 1.6848688423936125, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.05281846598164176)]'
+(27)[2022/02/08 16:49:53]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 217ms), (TPS: 20.0), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 1.5926045976350593, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.037587644397831355)]'
+(28)[2022/02/08 16:50:50]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 176ms), (TPS: 19.888), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 0.9986640208878583, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.27573859027572695)]'
+(29)[2022/02/08 16:52:24]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 164ms), (TPS: 20.0), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 1.1451067006516382, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(30)[2022/02/08 17:06:16]: '[Spartan Build 446/1677-33408/449485-544843] BlaiddMoon
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 145ms), (TPS: 19.996), (Plib: true), (Online: 3), (instance: step-limit(1),
+  extra: (difference: 21.99866402088785, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion: -0.23152379758701613, old-motion: -0.30431682745754074,
+  box: 0.0, old-box: 0.23152379758701613, air: 3, horizontal: 0.15704292282584453)]'
+(31)[2022/02/08 17:06:42]: '[Spartan Build 446/1677-33408/449485-544843] BlaiddMoon
+  failed IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 149ms), (TPS: 19.996), (Plib: true), (Online: 3), (instance: step-limit(1),
+  extra: (difference: 10.008286984644435, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: -2.743952264714835, old-motion: -2.7199512360306173,
+  box: 0.1743962455826491, old-box: 0.9183485102974842, air: 60, horizontal: 0.0)]'
+(32)[2022/02/08 17:24:24]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 151ms), (TPS: 20.0), (Plib: true), (Online: 5), (instance: step-limit(1),
+  extra: (difference: 58.878703159460805, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: -0.40739540236494065, old-motion: -0.44749789698342113,
+  box: 0.0, old-box: 0.40739540236494065, air: 0, horizontal: 0.03578685735953968)]'
+(33)[2022/02/08 17:25:02]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 151ms), (TPS: 19.837), (Plib: true), (Online: 5), (instance: step-abstract(1),
+  extra: (difference: 0.8338907390617862, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(34)[2022/02/08 17:35:50]: '[Spartan Build 446/1677-33408/449485-544843] ViewedBacon1
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 48ms), (TPS: 19.888), (Plib: true), (Online: 5), (instance: step-abstract(1),
+  extra: (difference: 0.756759288177264, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion: -0.07544406518948676, old-motion: 0.003016261509046103,
+  box: 0.17675927506424216, old-box: 0.2522033402537289, air: 32, horizontal: 0.1616870644688563)]'
+(35)[2022/02/08 17:41:25]: '[Spartan Build 446/1677-33408/449485-544843] ViewedBacon1
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 49ms), (TPS: 19.876), (Plib: true), (Online: 5), (instance: step-abstract(1),
+  extra: (difference: 0.8787031594608052, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.14839491846617486)]'
+(36)[2022/02/08 17:42:32]: '[Spartan Build 446/1677-33408/449485-544843] TIMTIM420
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 91ms), (TPS: 20.0), (Plib: true), (Online: 3), (instance: step-abstract(1),
+  extra: (difference: 0.9986640208878512, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.15139783490650796)]'
+(37)[2022/02/08 17:45:19]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 58ms), (TPS: 19.992), (Plib: true), (Online: 3), (instance: step-limit(1),
+  extra: (difference: 38.38390487946411, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion: -2.7140487462693272, old-motion: -2.689437442292359,
+  box: 0.7995507402515898, old-box: 0.513599486520917, air: 60, horizontal: 0.0)]'
+(38)[2022/02/08 17:47:11]: '[Spartan Build 446/1677-33408/449485-544843] TIMTIM420
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 92ms), (TPS: 20.0), (Plib: true), (Online: 3), (instance: horizontal-motion(3/20/4),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.024424088213685025, air: 6, horizontal: 0.0)]'
+(39)[2022/02/08 17:51:54]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 62ms), (TPS: 19.936), (Plib: true), (Online: 4), (instance: step-limit(1),
+  extra: (difference: 18.43457094889507, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion: -2.7381678246361787, old-motion: -2.7140487462693272,
+  box: 0.14105880936449466, old-box: 0.8792266340006734, air: 60, horizontal: 0.04956126429143183)]'
+(40)[2022/02/08 17:52:16]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 154ms), (TPS: 19.88), (Plib: true), (Online: 4), (instance: step-abstract(1),
+  extra: (difference: 0.8338907390617862, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.2716779993042362)]'
+(41)[2022/02/08 17:57:17]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 154ms), (TPS: 20.0), (Plib: true), (Online: 4), (instance: step-abstract(1),
+  extra: (difference: 0.8338907390617862, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.29532281367296637)]'
+(42)[2022/02/08 17:59:22]: '[Spartan Build 446/1677-33408/449485-544843] colecoolgamimg
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 83ms), (TPS: 20.0), (Plib: true), (Online: 4), (instance: step-limit(1),
+  extra: (difference: 2.9986640208878512, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: 0.0, old-motion: -0.12129684053919476,
+  box/old-box: 0.0, air: 0, horizontal: 0.0)]'
+(43)[2022/02/08 18:01:50]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 154ms), (TPS: 19.821), (Plib: true), (Online: 5), (instance: step-air(1),
+  extra: (difference: 1.1248643978054105, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: -0.07840000152587834, old-motion: 0.0,
+  box: 0.9215999984741217, old-box: 0.0, air: 0, horizontal: 0.186351277478276)]'
+(44)[2022/02/08 18:05:34]: '[Spartan Build 446/1677-33408/449485-544843] Sucubussy
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 42ms), (TPS: 19.603), (Plib: true), (Online: 5), (instance: horizontal-motion(5/20/5),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.0, old-motion: 0.5, box/old-box:
+  0.0, air: 9, horizontal: 0.200506256567245)]'
+(45)[2022/02/08 18:10:12]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 69ms), (TPS: 20.0), (Plib: true), (Online: 5), (instance: step-abstract(1),
+  extra: (difference: 1.6954856189588128, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.059821092507576376)]'
+(46)[2022/02/08 18:34:01]: '[Spartan Build 446/1677-33408/449485-544843] HuxJames
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 50ms), (TPS: 19.896), (Plib: true), (Online: 6), (instance: step-abstract(1),
+  extra: (difference: 0.8338907390617862, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.0)]'
+(47)[2022/02/08 18:39:47]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 155ms), (TPS: 19.968), (Plib: true), (Online: 6), (instance: step-limit(1),
+  extra: (difference: 2.1077640193619733, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: -0.07840000152587923, old-motion: 0.0,
+  box: 0.10909999847412077, old-box: 0.1875, air: 0, horizontal: 0.20311636222543544)]'
+(48)[2022/02/08 18:55:50]: '[Spartan Build 446/1677-33408/449485-544843] kmorch failed
+  IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 157ms), (TPS: 19.996), (Plib: true), (Online: 5), (instance: horizontal-motion(3/20/3),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.02442408821369213, air: 12, horizontal: 0.0)]'
+(49)[2022/02/08 18:56:35]: '[Spartan Build 446/1677-33408/449485-544843] kmorch failed
+  IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 146ms), (TPS: 20.0), (Plib: true), (Online: 5), (instance: horizontal-motion(3/20/4),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.02442408821369213, air: 8, horizontal: 0.0)]'
+(50)[2022/02/08 18:58:05]: '[Spartan Build 446/1677-33408/449485-544843] kmorch failed
+  IrregularMovements (VL: 3) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 113ms), (TPS: 19.805), (Plib: true), (Online: 5), (instance: horizontal-motion(3/20/3),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.02442408821369213, air: 5, horizontal: 0.0)]'
+(51)[2022/02/08 18:58:31]: '[Spartan Build 446/1677-33408/449485-544843] UXSciGuy
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 108ms), (TPS: 19.944), (Plib: true), (Online: 5), (instance: step-air(1),
+  extra: (difference: 1.1767592750642422, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: -0.07544406518948676, old-motion: 0.003016261509046103,
+  box: 0.17675927506424216, old-box: 0.2522033402537289, air: 18, horizontal: 0.1694965421966396)]'
+(52)[2022/02/08 19:00:53]: '[Spartan Build 446/1677-33408/449485-544843] kmorch failed
+  IrregularMovements (VL: 4) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 83ms), (TPS: 20.0), (Plib: true), (Online: 4), (instance: horizontal-motion(3/20/3),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.02442408821369213, air: 5, horizontal: 0.0)]'
+(53)[2022/02/08 19:01:48]: '[Spartan Build 446/1677-33408/449485-544843] kmorch failed
+  IrregularMovements (VL: 5) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 150ms), (TPS: 19.9), (Plib: true), (Online: 4), (instance: horizontal-motion(3/20/3),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.02442408821369213, air: 3, horizontal: 0.0)]'
+(54)[2022/02/08 19:03:21]: '(False Positive) [Spartan Build 446/1677-33408/449485-544843]
+  kmorch failed IrregularMovements (VL: 5) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 80ms), (TPS: 19.813), (Plib: true), (Online: 4), (instance: horizontal-motion(3/20/3),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.02442408821369213, air: 4, horizontal: 0.0)]'
+(55)[2022/02/08 19:04:14]: '[Spartan Build 446/1677-33408/449485-544843] kmorch failed
+  IrregularMovements (VL: 6) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 88ms), (TPS: 20.0), (Plib: true), (Online: 4), (instance: horizontal-motion(3/20/3),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.02442408821369213, air: 6, horizontal: 0.0)]'
+(56)[2022/02/08 19:04:44]: '[Spartan Build 446/1677-33408/449485-544843] kmorch failed
+  IrregularMovements (VL: 7) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 81ms), (TPS: 19.92), (Plib: true), (Online: 4), (instance: horizontal-motion(3/20/3),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.02442408821369213, air: 8, horizontal: 0.0)]'
+(57)[2022/02/08 19:04:49]: '[Spartan Build 446/1677-33408/449485-544843] I3leedWishes
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 59ms), (TPS: 19.805), (Plib: true), (Online: 4), (instance: step-limit(1),
+  extra: (difference: 10.766367993957523, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: -0.15523200451659847, old-motion: -0.07840000152587834,
+  box: 0.7663679939575232, old-box: 0.9215999984741217, air: 0, horizontal: 0.0)]'
+(58)[2022/02/08 19:05:04]: '[Spartan Build 446/1677-33408/449485-544843] kmorch failed
+  IrregularMovements (VL: 8) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 81ms), (TPS: 18.765), (Plib: true), (Online: 4), (instance: horizontal-motion(4/20/4),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.0, air: 7, horizontal: 0.0)]'
+(59)[2022/02/08 19:05:05]: '[Spartan Build 446/1677-33408/449485-544843] kmorch failed
+  IrregularMovements (VL: 9) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 81ms), (TPS: 18.765), (Plib: true), (Online: 4), (instance: horizontal-motion(4/20/4),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.0, air: 8, horizontal: 0.180722159731641)]'
+(60)[2022/02/08 19:05:21]: '(False Positive) [Spartan Build 446/1677-33408/449485-544843]
+  kmorch failed IrregularMovements (VL: 9) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 76ms), (TPS: 19.948), (Plib: true), (Online: 4), (instance: horizontal-motion(3/20/3),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.02442408821369213, air: 4, horizontal: 0.0)]'
+(61)[2022/02/08 19:06:49]: '(False Positive) [Spartan Build 446/1677-33408/449485-544843]
+  kmorch failed IrregularMovements (VL: 9) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 94ms), (TPS: 19.249), (Plib: true), (Online: 5), (instance: horizontal-motion(4/20/4),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box:
+  0.0, air: 7, horizontal: 0.196674986148185)]'
+(62)[2022/02/08 19:14:12]: '[Spartan Build 446/1677-33408/449485-544843] I3leedWishes
+  failed IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 57ms), (TPS: 19.829), (Plib: true), (Online: 6), (instance: step-abstract(1),
+  extra: (difference: 0.9986640208878512, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion/old-motion: 0.0, box/old-box: 0.0, air:
+  0, horizontal: 0.09799626755375576)]'
+(63)[2022/02/08 19:59:20]: '[Spartan Build 446/1677-33408/449485-544843] Rythegamer01
+  failed MorePackets (VL: 1) [(Version: Airplane 1.17), (C-V: 11) (Silent: false),
+  (Ping: 32ms), (TPS: 15.857), (Plib: true), (Online: 7), (type: instant, overall:
+  1.777999159152042, last-tick: 1)]'
+(64)[2022/02/08 19:59:20]: '[Spartan Build 446/1677-33408/449485-544843] kmorch failed
+  MorePackets (VL: 1) [(Version: Airplane 1.17), (C-V: 11) (Silent: false), (Ping:
+  58ms), (TPS: 15.976), (Plib: true), (Online: 7), (type: instant, overall: 7.971948015448001,
+  last-tick: 1)]'
+(65)[2022/02/08 19:59:34]: '[Spartan Build 446/1677-33408/449485-544843] kmorch failed
+  MorePackets (VL: 2) [(Version: Airplane 1.17), (C-V: 11) (Silent: false), (Ping:
+  58ms), (TPS: 16.866), (Plib: true), (Online: 7), (type: instant, overall: 3.435932208842943,
+  last-tick: 0)]'
+(66)[2022/02/08 20:02:04]: '[Spartan Build 446/1677-33408/449485-544843] Kirby229
+  failed MorePackets (VL: 1) [(Version: Airplane 1.17), (C-V: 11) (Silent: false),
+  (Ping: 0ms), (TPS: 19.984), (Plib: true), (Online: 8), (type: instant, overall:
+  2.6920143779630186, last-tick: 0)]'
+(67)[2022/02/08 20:02:34]: '[Spartan Build 446/1677-33408/449485-544843] Kirby229
+  failed MorePackets (VL: 2) [(Version: Airplane 1.17), (C-V: 11) (Silent: false),
+  (Ping: 49ms), (TPS: 16.63), (Plib: true), (Online: 8), (type: instant, overall:
+  6.845356401848977, last-tick: 0)]'
+(68)[2022/02/08 20:02:34]: '[Spartan Build 446/1677-33408/449485-544843] UXSciGuy
+  failed MorePackets (VL: 1) [(Version: Airplane 1.17), (C-V: 11) (Silent: false),
+  (Ping: 102ms), (TPS: 16.627), (Plib: true), (Online: 8), (type: instant, overall:
+  4.05558067941397, last-tick: 2)]'
+(69)[2022/02/08 20:02:34]: '[Spartan Build 446/1677-33408/449485-544843] Rythegamer01
+  failed MorePackets (VL: 2) [(Version: Airplane 1.17), (C-V: 11) (Silent: false),
+  (Ping: 34ms), (TPS: 16.616), (Plib: true), (Online: 8), (type: instant, overall:
+  10.671645961435983, last-tick: 1)]'
+(70)[2022/02/08 21:05:22]: '[Spartan Build 446/1677-33408/449485-544843] SterlingRACERS1
+  failed MorePackets (VL: 1) [(Version: Airplane 1.17), (C-V: 11) (Silent: false),
+  (Ping: 190ms), (TPS: 19.853), (Plib: true), (Online: 8), (type: horizontal, total-horizontal:
+  0.18910466785514496, total-vertical: -0.07544406518948676, extra-ticks: 5, extra-packets:
+  3, tick-average: 49.46666666666667)]'
+(71)[2022/02/08 21:14:12]: '[Spartan Build 446/1677-33408/449485-544843] GodTheGamer01
+  failed MorePackets (VL: 1) [(Version: Airplane 1.17), (C-V: 11) (Silent: false),
+  (Ping: 28ms), (TPS: 19.916), (Plib: true), (Online: 6), (type: instant, overall:
+  3.635251366171226, last-tick: 0)]'
+(72)[2022/02/08 22:14:48]: '[Spartan Build 446/1677-33408/449485-544843] WENEHUT failed
+  FastPlace (VL: 1) [(Version: Airplane 1.17), (C-V: 2) (Silent: false), (Ping: 72ms),
+  (TPS: 19.817), (Plib: true), (Online: 9), (t: fast, ms: 31, b: polished-blackstone)]'
+(73)[2022/02/08 22:14:48]: '[Spartan Build 446/1677-33408/449485-544843] WENEHUT failed
+  FastPlace (VL: 2) [(Version: Airplane 1.17), (C-V: 2) (Silent: false), (Ping: 72ms),
+  (TPS: 19.841), (Plib: true), (Online: 9), (t: fast, ms: 45, b: polished-blackstone)]'
+(74)[2022/02/08 22:14:49]: '[Spartan Build 446/1677-33408/449485-544843] WENEHUT failed
+  FastPlace (VL: 3) [(Version: Airplane 1.17), (C-V: -2) (Silent: false), (Ping: 72ms),
+  (TPS: 19.805), (Plib: true), (Online: 9), (t: fast, ms: 43, b: polished-blackstone)]'
+(75)[2022/02/08 22:14:49]: '[Spartan Build 446/1677-33408/449485-544843] WENEHUT failed
+  FastPlace (VL: 4) [(Version: Airplane 1.17), (C-V: -2) (Silent: false), (Ping: 72ms),
+  (TPS: 19.837), (Plib: true), (Online: 9), (t: medium, ms: 95, b: polished-blackstone)]'
+(76)[2022/02/08 22:14:50]: '[Spartan Build 446/1677-33408/449485-544843] WENEHUT failed
+  FastPlace (VL: 5) [(Version: Airplane 1.17), (C-V: -2) (Silent: false), (Ping: 72ms),
+  (TPS: 19.924), (Plib: true), (Online: 9), (t: medium, ms: 79, b: polished-blackstone)]'
+(77)[2022/02/08 22:14:50]: '[Spartan Build 446/1677-33408/449485-544843] WENEHUT failed
+  FastPlace (VL: 6) [(Version: Airplane 1.17), (C-V: -2) (Silent: false), (Ping: 72ms),
+  (TPS: 19.805), (Plib: true), (Online: 9), (t: medium, ms: 80, b: polished-blackstone)]'

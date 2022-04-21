@@ -1,0 +1,58 @@
+(1)[2022/03/07 07:51:23]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed MorePackets (VL: 1) [(Version: Airplane 1.17), (C-V: 8) (Silent: false),
+  (Ping: 218ms), (TPS: 19.924), (Plib: true), (Online: 1), (type: instant, overall:
+  3.378127640315436, last-tick: 0)]'
+(2)[2022/03/07 07:51:24]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed MorePackets (VL: 2) [(Version: Airplane 1.17), (C-V: 8) (Silent: false),
+  (Ping: 218ms), (TPS: 19.916), (Plib: true), (Online: 1), (type: instant, overall:
+  6.051641251250012, last-tick: 0)]'
+(3)[2022/03/07 07:51:24]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed MorePackets (VL: 3) [(Version: Airplane 1.17), (C-V: 8) (Silent: false),
+  (Ping: 218ms), (TPS: 19.912), (Plib: true), (Online: 1), (type: instant, overall:
+  8.104553496677587, last-tick: 0)]'
+(4)[2022/03/07 07:51:24]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed MorePackets (VL: 4) [(Version: Airplane 1.17), (C-V: 8) (Silent: false),
+  (Ping: 218ms), (TPS: 19.944), (Plib: true), (Online: 1), (type: instant, overall:
+  2.232832082243351, last-tick: 0)]'
+(5)[2022/03/07 07:51:24]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed MorePackets (VL: 5) [(Version: Airplane 1.17), (C-V: 8) (Silent: false),
+  (Ping: 218ms), (TPS: 19.936), (Plib: true), (Online: 1), (type: instant, overall:
+  4.318182661786786, last-tick: 0)]'
+(6)[2022/03/07 07:51:38]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed MorePackets (VL: 6) [(Version: Airplane 1.17), (C-V: 8) (Silent: false),
+  (Ping: 352ms), (TPS: 20.0), (Plib: true), (Online: 2), (type: horizontal, total-horizontal:
+  0.01626331961233518, total-vertical: -0.12160004615783748, extra-ticks: 87, extra-packets:
+  0, tick-average: 49.61666666666667)]'
+(7)[2022/03/07 07:52:32]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed FastBreak (VL: 1) [(Version: Airplane 1.17), (C-V: 6) (Silent: false), (Ping:
+  2328ms), (TPS: 19.86), (Plib: true), (Online: 2), (t: frequency, ms: 1, t: 40, a:
+  4, l: 3, b: cobblestone)]'
+(8)[2022/03/07 07:52:32]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed FastBreak (VL: 2) [(Version: Airplane 1.17), (C-V: 6) (Silent: false), (Ping:
+  2328ms), (TPS: 19.857), (Plib: true), (Online: 2), (t: frequency, ms: 0, t: 40,
+  a: 4, l: 3, b: cobblestone)]'
+(9)[2022/03/07 07:52:32]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed FastBreak (VL: 3) [(Version: Airplane 1.17), (C-V: 6) (Silent: false), (Ping:
+  2328ms), (TPS: 19.857), (Plib: true), (Online: 2), (t: frequency, ms: 1, t: 40,
+  a: 4, l: 3, b: cobblestone)]'
+(10)[2022/03/07 07:52:32]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed FastBreak (VL: 4) [(Version: Airplane 1.17), (C-V: 6) (Silent: false), (Ping:
+  2328ms), (TPS: 19.853), (Plib: true), (Online: 2), (t: frequency, ms: 1, t: 40,
+  a: 4, l: 3, b: cobblestone)]'
+(11)[2022/03/07 07:52:32]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed FastBreak (VL: 5) [(Version: Airplane 1.17), (C-V: 6) (Silent: false), (Ping:
+  2328ms), (TPS: 19.853), (Plib: true), (Online: 2), (t: frequency, ms: 0, t: 40,
+  a: 4, l: 3, b: cobblestone)]'
+(12)[2022/03/07 07:55:28]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed MorePackets (VL: 1) [(Version: Airplane 1.17), (C-V: 8) (Silent: false),
+  (Ping: 1029ms), (TPS: 19.98), (Plib: true), (Online: 1), (type: horizontal, total-horizontal:
+  0.0920134143028839, total-vertical: -0.031726841810176154, extra-ticks: 20, extra-packets:
+  0, tick-average: 49.75)]'
+(13)[2022/03/07 07:55:47]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed MorePackets (VL: 2) [(Version: Airplane 1.17), (C-V: 8) (Silent: false),
+  (Ping: 880ms), (TPS: 19.968), (Plib: true), (Online: 1), (type: instant, overall:
+  5.0939706242491365, last-tick: 0)]'
+(14)[2022/03/07 07:55:47]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed MorePackets (VL: 3) [(Version: Airplane 1.17), (C-V: 8) (Silent: false),
+  (Ping: 880ms), (TPS: 20.0), (Plib: true), (Online: 1), (type: instant, overall:
+  7.67519831302198, last-tick: 0)]'

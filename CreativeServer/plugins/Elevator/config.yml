@@ -1,0 +1,158 @@
+#######################################################################################
+# +---------------------------------------------------------------------------------+ #
+# |    ___ ___ __  __ ___ _    ___      ___ _    _____   ___ _____ ___  ___  ___    | #
+# |   / __|_ _|  \/  | _ \ |  | __|    | __| |  | __\ \ / /_\_   _/ _ \| _ \/ __|   | #
+# |   \__ \| || |\/| |  _/ |__| _|     | _|| |__| _| \ V / _ \| || (_) |   /\__ \   | #
+# |   |___/___|_|  |_|_| |____|___|    |___|____|___| \_/_/ \_\_| \___/|_|_\|___/   | #
+# |                                                                                 | #
+# | By: Benz56                                                                      | #
+# +---------------------------------------------------------------------------------+ #
+#######################################################################################
+
+
+# Update checker.
+# If enabled you'll receive a message in console
+# and as OP in chat when joining when a new update is available.
+updateChecker: false
+
+# Elevator Combinations:
+# Add/Change as many combinations as you want. First Material is the block under your feet.
+# Syntax: 'Material:Data, Material:Data' and 'Material:Data'.
+# Use 'any' for any block. E.g. 'any, Redstone_block' or 'Quartz_Block, any'.
+# If using 'any' as the top block the block at the elevators in the column has to be of the
+# same height e.g. if you're standing on a slab then you can only elevate to slabs.
+# You can set a custom maxDistance for individual combinations with a third argument e.g:
+# - 'Quartz_Block, Redstone_block, 10' <- This means you can only place these 10 blocks apart.
+combinations:
+  - 'Quartz_Block, Redstone_block'
+  - 'Step:7, Iron_Block'
+  - 'Carpet:14, Wool:11'
+  - 'Stone:1, dirt:1'
+
+# Enable/Disable worlds:
+# Add worlds(Case-sensitive) to exclusively enable those e.g:
+#
+# enabledworlds:
+#    - world
+#    - world_nether
+#
+# The above example will enable Elevators ONLY in those worlds.
+# Leave blank to enable all worlds.
+enabledworlds:
+
+# Max Elevator distance:
+# Set to 255 or higher to ignore completely.
+maxDistance: 256
+
+# Replace blocks at destination Elevator:
+# true will replace blocks at the destination when creating a set of Elevators.
+createReplace: true
+# The elevator will not be placed if the block is of a type defined in this list. (Comma-separated e.g. 'BEDROCK, STONE')
+createReplaceBlacklist: 'BEDROCK'
+
+# Elevator sound:
+# View supported sound enums here; https://jd.bukkit.org/org/bukkit/Sound.html
+# And here; https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+# Both 1.8 and 1.8+ Sounds enums are supported.
+# Pitch: 0.5 to 2.0
+# Volume: 0 to 1.0 (Larger values increases the distance from where it can be heard)
+# World: Specifies whether the sound is played only to the elevated player or everyone in range.
+elevatorSound:
+  up:
+    enabled: true
+    sound: "ORB_PICKUP"
+    pitch: 0.5
+    world: false
+  down:
+    enabled: true
+    sound: "ORB_PICKUP"
+    pitch: 1
+    world: false
+
+# ActionBar:
+actionBarEnabled: false
+# Messages:
+floorUp: '&a&l⬆'
+floorDown: '&c&l⬇'
+
+# TitleBar:
+titleBarEnabled: true
+# Messages:
+floorUpTitle: '&a&l⬆ UP ⬆'
+floorUpSubTitle: '&7&oYou have gone up a floor'
+floorDownTitle: '&c&l⬇ DOWN ⬇'
+floorDownSubTitle: '&7&oYou have gone down a floor'
+# Settings:
+titleBarFadeIn: 5
+titleBarStay: 10
+titleBarFadeOut: 5
+
+# BossBar (Unsupported in 1.8)
+bossBarEnabled: true
+# Color: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarColor.html
+bossBarColor: RED
+# Style: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarStyle.html
+bossBarStyle: SEGMENTED_6
+# Message. Placeholders: %floor% == current floor & %totalFloors% == total floors.
+bossBarMessage: "&eFloor %floor% of %totalFloors%"
+
+# Arrow Particles: (Unsupported in 1.8)
+arrow_enabled: true
+# Enable/disable arrow on current and/or destination floor.
+arrow_currentFloor: true
+arrow_destinationFloor: true
+# Every Minecraft color is Valid (names(e.g. red) and color codes (e.g &c):
+# colors: http://imgur.com/a/v3TzU (Use 'random' for a random color)
+arrow_color_up: 'green'
+arrow_color_down: 'red'
+# arrow size: (blocks in height)
+arrow_size: 2.0
+
+# Items that Elevators will ignore checking for.
+# These items can be placed in the destination space.
+# Remove/add any item you want. Use valid Material names and IDs.
+# Ignore everything with: ignoreList: 'all'
+# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+ignoreList: 'air, torch, wall_torch, redstone_torch_on, redstone_torch_off, redstone_wall_torch, vine, lever, banner, stone_button, wood_button, oak_button, spruce_button, birch_button, jungle_button, acacia_button, dark_oak_button, sign, sign_post, wall_sign, oak_sign, oak_wall_sign, spruce_sign, spruce_wall_sign, birch_sign, birch_wall_sign, jungle_sign, jungle_wall_sign, acacia_sign, acacia_wall_sign, dark_oak_sign, dark_oak_wall_sign'
+
+# Elevator delay:
+# Set the delay of the elevators. The delay is in ticks (20 ticks == 1 second)
+# If the player leaves the elevator before the time has passed they are not elevated.
+delay: 20
+# An actionbar countdown message sent to the player with the delay.
+elevatorDelayMessage: '&7Elevation in &a%seconds% seconds&7...'
+# The message sent if the elevation is canceled by moving outside of the elevator.
+elevatorCanceledMessage: '&cElevation canceled!'
+
+# Set a delay before a player can use an elevator again.
+# The delay is in ticks (20 ticks == 1 second)
+elevatorCooldown: 0
+# The cooldown message sent to the player if they try to use an elevator while in cooldown mode. Leave it blank to disable it.
+# The %cooldown% placeholder is the time in seconds until they can use an elevator again.
+elevatorCooldownMessage: '&cPlease wait %cooldown% seconds before using an elevator again!'
+
+# Include an extra floor that is not an elevator above and/or below the elevator column.
+lazyCheck:
+  top: false
+  bottom: false
+  # You can whitelist certain materials if you don't want all materials to be a lazyCheck floor.
+  # E.g. 'QUARTZ_BLOCK, IRON_BLOCK, REDSTONE_BLOCK'
+  # Leave it empty to allow all.
+  whitelist: ''
+  # Effectively makes the whitelist a blacklist if set to true.
+  invert: false
+
+# Make the player invulnerable for a few ticks when elevating.
+temporaryInvulnerable: false
+
+# This ensures that using an elevator doesn't change your last location in plugins that have a /back command.
+# Currently supported are: Essentials and CMI.
+backCompatibility: true
+
+# Enables factions support.
+# If this is enabled players can't use elevators in enemy and neutral territory.
+#
+#   Currently supported are:
+#    - FactionsUUID
+#    - Factions3
+factionsSupport: true

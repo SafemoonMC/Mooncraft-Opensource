@@ -1,0 +1,147 @@
+MyAnimation1:
+  change-interval: 300
+  texts:
+  - '&cPurchase &aRanks&7, &eCrates&7, &6Boosters &d& More! &8| &3&l/buy'
+  - '&bPurchase &cRanks&7, &eCrates&7, &6Boosters &d& More! &8| &3&l/buy'
+  - '&bPurchase &aRanks&7, &cCrates&7, &6Boosters &d& More! &8| &3&l/buy'
+  - '&bPurchase &aRanks&7, &eCrates&7, &cBoosters &d& More! &8| &3&l/buy'
+  - '&bPurchase &aRanks&7, &eCrates&7, &6Boosters &c& More! &8| &3&l/buy'
+  - '&bPurchase &aRanks&7, &eCrates&7, &6Boosters &d& More! &8| &c&l/buy'
+web:
+  change-interval: 50
+  texts:
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&f&lM&3&loonCraft'
+  - '&F&lMo&3&lonCraft'
+  - '&f&lMoo&3&lnCraft'
+  - '&3&lM&f&loon&3&lCraft'
+  - '&3&lMo&f&lonC&3&lraft'
+  - '&3&lMoo&f&lnCr&3&laft'
+  - '&3&lMoon&f&lCra&3&lft'
+  - '&3&lMoonC&f&lraf&3&lt'
+  - '&3&lMoonCr&f&laft'
+  - '&3&lMoonCra&f&lft'
+  - '&3&lMoonCraf&f&lt'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+  - '&3&lMoonCraft'
+links:
+  change-interval: 1000
+  texts:
+  - '&b&nmc.safemoon.net'
+  - '&b&nmcstore.safemoon.net'
+  - '&b&nmcwiki.safemoon.net'
+  - '&b&nmc.safemoon.net/vote'
+Welcome:
+  change-interval: 400
+  texts:
+  - '&7&lW_'
+  - '&7&lW_'
+  - '&7&lWe_'
+  - '&7&lWel_'
+  - '&7&lWelc_'
+  - '&7&lWelco_'
+  - '&7&lWelcom_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcom_'
+  - '&7&lWelco_'
+  - '&7&lWelc_'
+  - '&7&lWel_'
+  - '&7&lWe_'
+  - '&7&lW_'
+  - '&7&lW_'
+time:
+  change-interval: 900
+  texts:
+  - '&7Time &b%time%'
+  - '&7> Time &b%time% &7<'
+  - '&7>> Time &b%time% &7<<'
+  - '&7>>> Time &b%time% &7<<<'
+  - '&7Date &b%date%'
+  - '&7> Date &b%date% &7<'
+  - '&7>> Date &b%date% &7<<'
+  - '&7>>> Date &b%date% &7<<<'
+ping-tps:
+  change-interval: 5000
+  texts:
+  - '&aPing: &2&n%ping%&r &ams'
+  - '&bServer TPS: &8%tps%'
+admin_prefix:
+  change-interval: 1000
+  texts:
+  - '&6&lAdmin &e'
+  - '&6&lAdmin &e'
+  - '&9&lAdmin &e'
+  - '&9&lAdmin &e'
+  - '&4&lAdmin &e'
+  - '&4&lAdmin &e'
+  - '&d&lAdmin &e'
+  - '&d&lAdmin &e'
+  - '&2&lAdmin &e'
+  - '&2&lAdmin &e'
+  - '&d&lAdmin &e'
+  - '&d&lAdmin &e'
+  - '&f&lAdmin &e'
+  - '&f&lAdmi &e'
+  - '&f&lAdm &e'
+  - '&f&lAd &e'
+  - '&f&lA &e'
+  - '&f&lAd &e'
+  - '&f&lAdm &e'
+  - '&f&lAdmi &e'
+  - '&f&lAdmin &e'
+barcolors:
+  change-interval: 1000
+  texts:
+  - RED
+  - BLUE
+  - GREEN
+  - YELLOW

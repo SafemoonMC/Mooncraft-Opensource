@@ -1,0 +1,10 @@
+&7
+&7
+&7
+&7
+&7
+&f&l       Welcome to &b&lMooncraft Creative&f&l!
+&7
+&7        Start in Creative by using &b/plot auto
+&7           Get more help by using &b/menu
+&7

@@ -1,0 +1,43 @@
+#
+# Language-File translated by:		Gecolay
+#
+  
+  
+  
+Plugin:
+  
+  plugin-enabled: "&3The Plugin was successfully enabled."
+  plugin-hook: "&3Hooked successfully with&b %Link%&3!"
+  plugin-update: "&aNew Version available:&6 %NewVersion%&a!\n[P]&a You are currently running Version:&6 %Version%&a!\n[P]&a Download the latest Version at:\n[P]&6 %Path%"
+  plugin-disabled: "&3The Plugin was successfully disabled."
+  plugin-prefix: "&3Moonseats &8|"
+  
+  
+  
+Messages:
+  
+  command-reload: "&3The Settings were successfully reloaded."
+  command-permission-error: "&cYou don't have Permission to use this Command!"
+  command-console-error: "&cThis Command is only for Players!"
+  
+  command-gsittoggle-on: "&3You can now sit down by clicking."
+  command-gsittoggle-off: "&3You can no longer sit down by clicking."
+  
+  action-sit-water-error: "&cIt's too wet to sit here!"
+  action-sit-location-error: "&cYou can't sit here!"
+  action-sit-area-error: "&cYou can't sit in this Area!"
+  action-sit-ground-error: "&cYou can only sit on the Ground!"
+  action-sit-already-error: "&cYou are already seated!"
+  action-sit-safe-error: "&cIt's not safe to sit here!"
+  action-sit-world-error: "&cYou can't sit in this World!"
+  action-sit-target-error: "&cThere is no Target to sit on!"
+  action-sit-info: "&3Use your&b %Key%&3 Key to get up!"
+  
+  action-lay-location-error: "&cYou can't lay here!"
+  action-lay-area-error: "&cYou can't lay in this Area!"
+  action-lay-ground-error: "&cYou can only lay on the Ground!"
+  action-lay-already-error: "&cYou are already lying down!"
+  action-lay-world-error: "&cYou can't lay in this World!"
+  action-lay-info: "&3Use your&b %Key%&3 Key to get up!"
+  
+  action-blocked-error: "&cYou are not allowed to execute this command right now!"

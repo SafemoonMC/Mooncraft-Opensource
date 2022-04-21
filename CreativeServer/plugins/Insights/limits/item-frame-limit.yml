@@ -1,0 +1,20 @@
+# This is an example group limit for tiles. Users will be able to place at most 64 redstone in a chunk.
+# The limit makes use of a world blacklist, which means with the current configuration it will work for all worlds.
+# It will also work for all addons.
+limit:
+  name: "Item Frames"
+  type: "GROUP"
+  bypass-permission: "insights.bypass.limit.itemframes"
+  limit: 32
+  materials:
+    - "ITEM_FRAME"
+  settings:
+    enabled-worlds:
+      whitelist: false
+      worlds: []
+    enabled-addons:
+      whitelist: true
+      addons:
+        - "PlotSquared"
+        - "PlotSquaredAddon"
+    disallow-placement-outside-region: false

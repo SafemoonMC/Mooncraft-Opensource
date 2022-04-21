@@ -1,0 +1,177 @@
+menu_title: 'Creative Menu'
+open_command:
+- menu
+- help
+- creativemenu
+- cmenu
+- roleplay
+size: 36
+register_command: true
+update_interval: 1
+items:
+
+      plot-help:
+        material: GRASS_BLOCK
+        update: true
+        slot: 10
+        display_name: '&b&lPlots Help'
+        lore:
+        - '&8/plot help'
+        - '&7View commands related to Plots.'
+        - ''
+        - '&eClick to view!'
+        left_click_commands:
+        - '[player] plot help'
+        - '[close]'
+        right_click_commands:
+        - '[player] plot help'
+        - '[close]'
+
+      postures:
+        material: LEATHER_LEGGINGS
+        hide_attributes: true
+        update: true
+        slot: 11
+        display_name: '&b&lPostures'
+        lore:
+        - "&b/sit&7 &7- Sit on the block beneath you."
+        - "&7You can also right click on stairs block"
+        - "&7and can sit on players too!"
+        - "&7"
+        - "&b/lay&7 - Lay down (similar to sleeping)"
+        - "&7on the block beneath your feet!"
+        - "&7"
+        - "&b/crawl&7 - Crawl."
+        left_click_commands:
+        - '[openguimenu] menu'
+        right_click_commands:
+        - '[openguimenu] menu'
+
+      disguises:
+        material: CREEPER_SPAWN_EGG
+        hide_attributes: true
+        update: true
+        slot: 12
+        display_name: '&b&lDisguises'
+        lore:
+        - '&b/disguise &7- morph into'
+        - '&7other entities like animals.'
+        left_click_commands:
+        - '[openguimenu] menu'
+        right_click_commands:
+        - '[openguimenu] menu'
+
+      marriage:
+        material: GOLDEN_HELMET
+        hide_attributes: true
+        update: true
+        slot: 13
+        display_name: '&b&lMarriage & Gender'
+        lore:
+        - '&b/marry gender <gender> &7- set your gender.'
+        - '&7Available genders: &amale&7, &dfemale'
+        - '&7After switching your gender it will'
+        - '&7appear before your name in chat.'
+        - ''
+        - '&b/marry <player> &7- send marriage request.'
+        - '&b/marry divorce &7- divorce current partner.'
+        - '&b/marry seen &7- see partner activity.'
+        - '&b/marry tp &7- teleport to partner.'
+        - '&b/marry kiss &7- kiss your partner.'
+        left_click_commands:
+        - '[openguimenu] menu'
+        right_click_commands:
+        - '[openguimenu] menu'
+
+
+      worldedit:
+        material: WOODEN_AXE
+        hide_attributes: true
+        update: true
+        slot: 15
+        display_name: '&b&lWorld Editing Commands'
+        lore:
+        - '&7View all of the World Edit commands.'
+        - ''
+        - '&eClick to open!'
+        - '&cRequires &fPaperhands &cRank or higher!'
+        left_click_commands:
+        - '[openguimenu] world-edit-perks'
+        right_click_commands:
+        - '[openguimenu] world-edit-perks'
+
+      wardrobe:
+        material: ARMOR_STAND
+        hide_attributes: true
+        update: true
+        slot: 19
+        display_name: '&d&lNEW! &b&lWardrobe'
+        lore:
+        - '&8/wardrobe'
+        - '&7Store and switch between your'
+        - '&7armor sets quickly!'
+        - ''
+        - '&eClick to open!'
+        left_click_commands:
+        - '[player] wardrobe'
+        right_click_commands:
+        - '[player] wardrobe'
+
+      player-warps:
+        material: COMPASS
+        hide_attributes: true
+        update: true
+        slot: 20
+        display_name: '&d&lNEW! &b&lPlayer Warps'
+        lore:
+        - '&8/warp'
+        - '&7Browse, create, manage and visit'
+        - '&7other warps!'
+        - ''
+        - '&7Your warps: &d%pw_player_warps%'
+        - ''
+        - '&eClick to open!'
+        left_click_commands:
+        - '[player] warp'
+        right_click_commands:
+        - '[player] warp'
+
+      decoration-blocks:
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFkZDRmZTRhNDI5YWJkNjY1ZGZkYjNlMjEzMjFkNmVmYTZhNmI1ZTdiOTU2ZGI5YzVkNTljOWVmYWIyNSJ9fX0=
+        update: true
+        slot: 16
+        display_name: '&b&lDecoration Heads'
+        lore:
+        - '&7Browse and get more than 41k Custom'
+        - '&7heads used for Decoration!'
+        - ''
+        - '&eClick to open!'
+        - '&cRequires &2Holder &cRank or higher!'
+        left_click_commands:
+        - '[player] heads'
+        right_click_commands:
+        - '[player] heads'
+
+      online-store:
+        material: DIAMOND
+        update: true
+        slot: 35
+        display_name: '&d&lOnline Store'
+        lore:
+        - '&7Click to view the store!'
+        left_click_commands:
+        - '[message] &b&lMoonCraft Store &8| &fhttps://mcstore.safemoon.net/ &7(Click)'
+        - '[close]'
+        right_click_commands:
+        - '[message] &b&lMoonCraft Store &8| &fhttps://mcstore.safemoon.net/ &7(Click)'
+        - '[close]'
+
+      close:
+        material: BARRIER
+        slot: 31
+        display_name: '&c&lClose'
+        lore: []
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'

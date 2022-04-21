@@ -1,0 +1,71 @@
+player_not_found: '&cNo player named %s was found!'
+target_already_married: '&cPlayers %s is already married to someone!'
+already_married: '&cYou are already married to someone!'
+married: '&bPlayer %s and %s have just married!'
+marriage_requested: '&bPlayer %s has requested you to marry with them, use &3/marry
+  %s &bto accept it.'
+request_sent: '&bYou have proposed to %s!'
+not_married: '&cYou are currently not married with someone!'
+divorced: '&bPlayer %s and %s have divorced!'
+home_teleport: '&bYou have been teleported to your marriage home!'
+home_not_set: '&cYou currently do not have a home set for your marriage!'
+no_item: '&cYou aren''t holding an item to gift!'
+item_gifted: '&bYou have given %s of %s to your partner!'
+gift_received: '&bYou have received %s of %s as a gift from your partner!'
+partner_not_online: '&cYour partner is currently not online!'
+fetching_list: '&3Fetching player marriage list...'
+home_set: '&bYou have set a home for your marriage!'
+invalid_format: '&cThe argument could not be parsed to an integer!'
+invalid_gender: '&cThat is not a valid gender! Pick "male" or "female"'
+gender_set: '&bYour gender has been set to %s!'
+marry_self: '&cYou cannot marry yourself!'
+negative_number: '&cYou must enter a positive number!'
+priest_added: '&bSet player as a priest, they may now no longer marry other players!'
+priest_removed: '&bUnset player as a priest, they may now marry other players!'
+teleported: '&bYou have been teleported to your partners location!'
+teleported_2: '&bYour partner has just teleported to you!'
+online_since: '&bYour partner has been &3ONLINE &bfor %s!'
+offline_since: '&bYour partner has been &cOFFLINE &bfor %ss!'
+not_a_priest: '&cYou are not permitted to marry 2 players!'
+cooldown: '&cYou may not perform this action too frequently!'
+update_available: |-
+  &f&l[Marriage] &eThere is a new update available! %s for %s
+  Type &6/marry update &eto update now.
+paid_fee: '&b%s has been removed from your balance.'
+insufficient_money: '&cYou have insufficient funds, costs %s'
+partner_fee: '&cYour partner couldn''t pay the marriage fee!'
+married_to: '&fmarried to %s'
+chat_enabled: '&bYou are now in marriage chat mode!'
+chat_disabled: '&bYou are no longer in marriage chat mode!'
+chat_spy_enabled: '&bNow spying on marriage private chat!'
+chat_spy_disabled: '&bNo longer spying on marriage chat!'
+no_health: '&cYou don''t have enough health to share!'
+full_health: '&cYour partner already has full health!'
+health_given: '&bYou healed your partner by %s hearts!'
+health_taken: '&bYou were healed by your partner with %s hearts!'
+pvp_enabled: '&bYou have enabled pvp with your partner!'
+pvp_disabled: '&nYou have disabled pvp with your partner!'
+partner_pvp: '&nYour partner has changed pvp rules.'
+bonus_exp: '&nYou gained %s extra EXP for leveling with your partner!'
+config_reload: '&nConfiguration settings were reloaded, please note that some settings
+  may not apply until reboot.'
+gender_already_changed: '&cYou have already specified your gender, you can only do
+  this once.'
+teleport_unsafe: '&cThe location you are trying to teleport to is unsafe or obstructed'
+partner_inventory_full: '&cYour partner''s inventory is full!'
+command_marry: Request a marriage with another player
+command_marry_priest: Marry 2 players with eachother
+command_chat: Enable partner-only chat mode
+command_divorce: Divorce your current partner
+command_gender: Specify your gender
+command_gift: Gift the item(s) you currently hold
+command_home: Teleport to your marriage home
+command_list: View a list of all married players
+command_seen: Check when your partner last logged in
+command_sethome: Set a home for you a your partner
+command_teleport: Teleport to your partner
+command_heal: Send your health to your partner
+command_pvp: Enable/disable pvping with your partner
+status: '&bStatus: %s'
+single: '&fsingle'
+on_off: on/off

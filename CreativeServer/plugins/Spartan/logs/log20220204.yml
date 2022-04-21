@@ -1,0 +1,1083 @@
+(1)[2022/02/04 12:22:06]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 1) [(Version: Airplane 1.17), (C-V: 4) (Silent: false), (Ping:
+  52ms), (TPS: 19.924), (Plib: true), (Online: 2), (t: normal, reason: air, d: 0.5046580274356149,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.4399200057172834, a: 0)]'
+(2)[2022/02/04 12:22:06]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 2) [(Version: Airplane 1.17), (C-V: 4) (Silent: false), (Ping:
+  52ms), (TPS: 20.0), (Plib: true), (Online: 2), (t: normal, reason: air, d: 0.6486292608187633,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.3890227329174394, a: 3)]'
+(3)[2022/02/04 12:22:06]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 3) [(Version: Airplane 1.17), (C-V: 4) (Silent: false), (Ping:
+  52ms), (TPS: 19.864), (Plib: true), (Online: 2), (t: normal, reason: air, d: 0.6882526029020689,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.38341364571093095, a: 4)]'
+(4)[2022/02/04 12:22:06]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 4) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  52ms), (TPS: 19.944), (Plib: true), (Online: 2), (t: normal, reason: air, d: 0.6484678121123129,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.14506834053499063, a: 7)]'
+(5)[2022/02/04 12:22:06]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 5) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  52ms), (TPS: 19.904), (Plib: true), (Online: 2), (t: normal, reason: air, d: 0.5584333511716914,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: -0.09399019937598041, a: 10)]'
+(6)[2022/02/04 12:22:06]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 6) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  52ms), (TPS: 19.996), (Plib: true), (Online: 2), (t: normal, reason: air, d: 0.925406137296408,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.0, a: 0)]'
+(7)[2022/02/04 12:22:08]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 52ms), (TPS: 19.88), (Plib: true), (Online: 2), (instance: step-air(1),
+  extra: (difference: 1.486478125275596, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion: 0.3736577640670333, old-motion: 0.37276293017760054,
+  box: 0.8212412503295496, old-box: 0.4475834862625163, air: 13)]'
+(8)[2022/02/04 12:22:23]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 3) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 102ms), (TPS: 19.996), (Plib: true), (Online: 2), (instance: step-limit(1),
+  extra: (difference: 23.529837935819415, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: -1.4215581911499129, old-motion: -1.2442636072130284,
+  box: 0.4198378768108171, old-box: 0.84139606796073, air: 21)]'
+(9)[2022/02/04 12:22:24]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 7) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  102ms), (TPS: 20.0), (Plib: true), (Online: 2), (t: normal, reason: ground, d: 0.529199932239238,
+  dm: 0.325, dm_s: 0.40625, dy: 0.0, a: 0)]'
+(10)[2022/02/04 12:22:24]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 4) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 102ms), (TPS: 19.864), (Plib: true), (Online: 2), (instance: step-limit(1),
+  extra: (difference: 29.532852633619157, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: 1.0141875268220844, old-motion: 0.0,
+  box: 0.5328526336191572, old-box: 0.0, air: 0)]'
+(11)[2022/02/04 12:22:24]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 8) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  102ms), (TPS: 19.996), (Plib: true), (Online: 2), (t: normal, reason: ground, d:
+  0.603751098271143, dm: 0.39, dm_s: 0.48750000000000004, dy: 0.0, a: 0)]'
+(12)[2022/02/04 12:22:25]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 5) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 102ms), (TPS: 19.888), (Plib: true), (Online: 2), (instance: step-limit(1),
+  extra: (difference: 28.594040106797067, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: 0.07537499999999397, old-motion: 0.0,
+  box: 0.5940401067970669, old-box: 0.0, air: 0)]'
+(13)[2022/02/04 12:22:31]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 9) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  102ms), (TPS: 19.984), (Plib: true), (Online: 2), (t: normal, reason: air, d: 1.5405089717132647,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.37385018012909654, a: 3)]'
+(14)[2022/02/04 12:22:31]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 10) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  102ms), (TPS: 19.972), (Plib: true), (Online: 2), (t: normal, reason: air, d: 4.923612523641703,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 1.0141875268220844, a: 0)]'
+(15)[2022/02/04 12:22:32]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 6) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 102ms), (TPS: 19.912), (Plib: true), (Online: 2), (instance: step-air(1),
+  extra: (difference: 1.3249999731779099, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: -1.0, old-motion: 2.8959196219069625,
+  box/old-box: 0.0, air: 0)]'
+(16)[2022/02/04 12:22:33]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 11) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  102ms), (TPS: 20.0), (Plib: true), (Online: 2), (t: normal, reason: air, d: 1.58013499536991,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 1.4993999713540092, a: 0)]'
+(17)[2022/02/04 12:22:34]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 12) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  102ms), (TPS: 19.96), (Plib: true), (Online: 2), (t: normal, reason: air, d: 1.4869545916015847,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.7414797682173031, a: 2)]'
+(18)[2022/02/04 12:22:34]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 13) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  102ms), (TPS: 19.813), (Plib: true), (Online: 2), (t: normal, reason: air, d: 4.878385171008319,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 1.0141875268220844, a: 0)]'
+(19)[2022/02/04 12:22:35]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 14) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  102ms), (TPS: 19.968), (Plib: true), (Online: 2), (t: normal, reason: air, d: 0.8323791349656554,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: -0.10325466991577059, a: 2)]'
+(20)[2022/02/04 12:22:35]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 15) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  132ms), (TPS: 19.984), (Plib: true), (Online: 2), (t: normal, reason: air, d: 1.0064469208105729,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.07537500000000108, a: 0)]'
+(21)[2022/02/04 12:22:35]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 7) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 132ms), (TPS: 19.864), (Plib: true), (Online: 2), (instance: step-box(1),
+  extra: (difference: 1.0, base-limit: 2.0, limit: 2.0), scenario: neutral, up/down:
+  1, jump/fall: 1, motion: -1.0, old-motion: 1.8959196219069625, box/old-box: 0.0,
+  air: 0)]'
+(22)[2022/02/04 12:22:37]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 16) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  132ms), (TPS: 19.936), (Plib: true), (Online: 2), (t: normal, reason: air, d: 1.2694013716164811,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.7414797682173031, a: 1)]'
+(23)[2022/02/04 12:22:37]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 8) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 132ms), (TPS: 19.872), (Plib: true), (Online: 2), (instance: step-abstract(1),
+  extra: (difference: 0.9986640208878583, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: -1.0, old-motion: 3.0, box/old-box: 0.0,
+  air: 0)]'
+(24)[2022/02/04 12:22:37]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 17) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  132ms), (TPS: 19.916), (Plib: true), (Online: 2), (t: normal, reason: air, d: 0.5556598764940714,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.7650000303983688, a: 0)]'
+(25)[2022/02/04 12:22:38]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 18) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  132ms), (TPS: 19.872), (Plib: true), (Online: 2), (t: normal, reason: air, d: 1.0477124509109743,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.07537500000000108, a: 0)]'
+(1)[2022/02/04 12:26:35]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 2) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 19.892), (Plib: true), (Online: 1), (t: normal, reason: air, d: 3.041814867684619,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 1.666425530703279, a: 5)]'
+(2)[2022/02/04 12:26:35]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 3) [(Version: Airplane 1.17), (C-V: 4) (Silent: false), (Ping:
+  0ms), (TPS: 19.841), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.6392007821307913,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.14044776784538726, a: 7)]'
+(3)[2022/02/04 12:26:35]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 4) [(Version: Airplane 1.17), (C-V: 4) (Silent: false), (Ping:
+  0ms), (TPS: 19.996), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.6071522978503988,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.05923881364142858, a: 7)]'
+(4)[2022/02/04 12:26:35]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 5) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 19.845), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.5779882124335277,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: -0.02034596302738123, a: 8)]'
+(5)[2022/02/04 12:26:36]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 6) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 19.821), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.9015020248159236,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.0, a: 0)]'
+(6)[2022/02/04 12:26:36]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 7) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 19.892), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.5409012621280775,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.0, a: 0)]'
+(7)[2022/02/04 12:26:37]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 8) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 19.813), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.5409012621280775,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.0, a: 0)]'
+(8)[2022/02/04 12:26:37]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  was kicked for Speed'
+(9)[2022/02/04 12:26:57]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 0ms), (TPS: 19.688), (Plib: true), (Online: 1), (instance: ground-up(7/20/7),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.22625972015647733, old-motion:
+  0.3770995335941336, box: 0.9606104763896894, old-box: 0.7343507562332121, air: 5)]'
+(1)[2022/02/04 12:29:53]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 2) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 19.892), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.0938301896869422,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.22537500596046556, a: 0)]'
+(2)[2022/02/04 12:29:53]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 3) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.9548722939182835,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.0, a: 0)]'
+(3)[2022/02/04 12:29:54]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 4) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 19.825), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.9548722939182835,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.0, a: 0)]'
+(4)[2022/02/04 12:29:54]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 5) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 19.876), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.543723346431388,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.0, a: 0)]'
+(5)[2022/02/04 12:29:54]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 6) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 19.952), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.9062054982443642,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.0, a: 1)]'
+(6)[2022/02/04 12:29:55]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 7) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 19.872), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.9062054982443642,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.0, a: 0)]'
+(7)[2022/02/04 12:29:55]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 8) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 19.86), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.9062054982443642,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.0, a: 0)]'
+(8)[2022/02/04 12:29:55]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  was kicked for Speed'
+(9)[2022/02/04 12:30:52]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 0ms), (TPS: 19.809), (Plib: true), (Online: 1), (instance: step-limit(1),
+  extra: (difference: 3.0143352222723507, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: 0.3751632734747261, old-motion: 0.3752721125237741,
+  box: 0.6122552209181293, old-box: 0.23709194744340323, air: 15)]'
+(10)[2022/02/04 12:31:05]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  114ms), (TPS: 19.798), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.323464339281521,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.7406335692014494, a: 8)]'
+(11)[2022/02/04 12:31:08]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 2) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  114ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.5658233883290663,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.32954656365213, a: 0)]'
+(12)[2022/02/04 12:31:09]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 3) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  114ms), (TPS: 19.86), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.5366676547872584,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.5880000233650264, a: 0)]'
+(13)[2022/02/04 12:31:09]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 4) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  114ms), (TPS: 19.968), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.3094557454981905,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.5704500190734905, a: 0)]'
+(14)[2022/02/04 12:31:10]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 5) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  114ms), (TPS: 19.956), (Plib: true), (Online: 1), (t: normal, reason: air, d: 2.1443432449176787,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.4507500119209311, a: 3)]'
+(15)[2022/02/04 12:31:10]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 6) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  114ms), (TPS: 19.825), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.9775387597105551,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.4507500119209311, a: 0)]'
+(16)[2022/02/04 12:31:10]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 7) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  114ms), (TPS: 19.801), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.579207238997316,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.5704500190734905, a: 0)]'
+(17)[2022/02/04 12:31:11]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 8) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  114ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.2760695527051988,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.5704500190734905, a: 0)]'
+(18)[2022/02/04 12:31:11]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  was kicked for Speed'
+(1)[2022/02/04 12:39:47]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 2) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: ground, d: 0.6344799190885461,
+  dm: 0.325, dm_s: 0.40625, dy: 0.0, a: 0)]'
+(2)[2022/02/04 12:39:48]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 3) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.454272409285265,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.09044999999999703, a: 0)]'
+(3)[2022/02/04 12:39:48]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 0ms), (TPS: 20.0), (Plib: true), (Online: 1), (instance: step-limit(1),
+  extra: (difference: 2.0, base-limit: 2.0, limit: 2.0), scenario: neutral, up/down:
+  1, jump/fall: 1, motion: 2.0, old-motion: 0.09044999999999703, box: 0.0, old-box:
+  0.2411999999999992, air: 0)]'
+(4)[2022/02/04 12:41:23]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 206ms), (TPS: 19.976), (Plib: true), (Online: 1), (instance: step-air(1),
+  extra: (difference: 1.1707870772188045, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: -0.07840000152587834, old-motion: 0.0,
+  box: 0.3582870772188045, old-box: 0.4366870787446828, air: 0)]'
+(5)[2022/02/04 12:41:45]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  482ms), (TPS: 19.976), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.7426341707836828,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.49627199718189274, a: 13)]'
+(1)[2022/02/04 12:51:20]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 2) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 19.928), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.0986078329256812,
+  dm: 0.42, dm_s: 0.525, dy: 0.4507500119209311, a: 0)]'
+(2)[2022/02/04 12:51:20]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 3) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.9659519128270888,
+  dm: 0.42, dm_s: 0.525, dy: 0.04522500000000207, a: 0)]'
+(3)[2022/02/04 12:51:21]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 4) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 19.968), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.5454627567936815,
+  dm: 0.42, dm_s: 0.525, dy: 0.0, a: 0)]'
+(1)[2022/02/04 12:54:17]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 2) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: air, d: 2.1872809565060782,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.15075000000000216, a: 0)]'
+(2)[2022/02/04 12:54:18]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 0ms), (TPS: 20.0), (Plib: true), (Online: 1), (instance: step-air(1),
+  extra: (difference: 1.699999988079071, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion: 2.0, old-motion: 0.15075000000000216, box: 0.0,
+  old-box: 0.4507500119209311, air: 0)]'
+(3)[2022/02/04 12:54:21]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed MorePackets (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent: false),
+  (Ping: 0ms), (TPS: 19.968), (Plib: true), (Online: 1), (type: instant, overall:
+  4.2838693883022545, last-tick: 1)]'
+(4)[2022/02/04 12:54:31]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 64ms), (TPS: 19.825), (Plib: true), (Online: 1), (instance: spoof-jump(1),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.33178912366830104, old-motion:
+  -0.30431682745754074, box: 0.0, old-box: 0.668210876331699, air: 7)]'
+(5)[2022/02/04 12:54:32]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 3) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  64ms), (TPS: 19.944), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.987720681991471,
+  dm: 0.7, dm_s: 0.875, dy: 0.07537499999999397, a: 0)]'
+(6)[2022/02/04 12:54:32]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 4) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  64ms), (TPS: 19.892), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.6047299639510341,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: -0.23052736891295922, a: 5)]'
+(7)[2022/02/04 12:54:33]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 5) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  64ms), (TPS: 19.805), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.7926492687350257,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.07537499999999397, a: 0)]'
+(8)[2022/02/04 12:56:54]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed MorePackets (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent: false),
+  (Ping: 218ms), (TPS: 19.829), (Plib: true), (Online: 1), (type: instant, overall:
+  4.902811260027504, last-tick: 0)]'
+(9)[2022/02/04 12:56:57]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  219ms), (TPS: 19.857), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.6300807382910498,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: -0.31046400903319693, a: 3)]'
+(10)[2022/02/04 12:56:57]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 2) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  219ms), (TPS: 19.719), (Plib: true), (Online: 1), (t: normal, reason: air, d: 2.1013667916323766,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.4507500119209311, a: 0)]'
+(11)[2022/02/04 12:56:57]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 3) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  219ms), (TPS: 19.646), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.0036436340491088,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.07537499999999397, a: 0)]'
+(12)[2022/02/04 12:56:58]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 4) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  219ms), (TPS: 19.837), (Plib: true), (Online: 1), (t: normal, reason: air, d: 2.1013667916323766,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.4507500119209311, a: 0)]'
+(13)[2022/02/04 12:56:58]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 5) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  219ms), (TPS: 19.829), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.9053678122608477,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.4507500119209311, a: 0)]'
+(14)[2022/02/04 12:56:58]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 6) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  219ms), (TPS: 19.872), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.8073683225827089,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.4507500119209311, a: 0)]'
+(15)[2022/02/04 12:56:59]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 219ms), (TPS: 19.976), (Plib: true), (Online: 1), (instance: step-abstract(1),
+  extra: (difference: 0.699999988079071, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion: -1.0, old-motion: 2.0, box/old-box: 0.0, air:
+  0)]'
+(16)[2022/02/04 12:57:00]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 219ms), (TPS: 19.912), (Plib: true), (Online: 1), (instance: ground-up(7/20/7),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.7494122985482505, old-motion:
+  0.7490204777121932, box: 0.3758819694101305, old-box: 0.62646967086188, air: 11)]'
+(17)[2022/02/04 12:57:00]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 3) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 219ms), (TPS: 19.92), (Plib: true), (Online: 1), (instance: step-air(1),
+  extra: (difference: 1.37353032913812, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion: -1.0, old-motion: 11.0, box/old-box: 0.0, air:
+  0)]'
+(1)[2022/02/04 13:16:49]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 2) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 19.813), (Plib: true), (Online: 1), (t: normal, reason: air, d: 2.0937712977783995,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.4507500119209311, a: 0)]'
+(2)[2022/02/04 13:16:50]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 3) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.9455119661847157,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.0, a: 0)]'
+(3)[2022/02/04 13:16:57]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 47ms), (TPS: 18.968), (Plib: true), (Online: 1), (instance: step-abstract(1),
+  extra: (difference: 0.8292129227811955, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: 0.0, old-motion: 0.5, box/old-box: 0.0,
+  air: 3)]'
+(4)[2022/02/04 13:17:00]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 47ms), (TPS: 19.853), (Plib: true), (Online: 1), (instance: step-limit(1),
+  extra: (difference: 2.0013359791121417, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: 0.24813599859093927, old-motion: 0.33319999363422426,
+  box: 0.001335979112141672, old-box: 0.7531999805212024, air: 0)]'
+(5)[2022/02/04 13:17:00]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 3) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 47ms), (TPS: 19.932), (Plib: true), (Online: 1), (instance: step-air(1),
+  extra: (difference: 1.2468000194787976, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: -1.0, old-motion: 4.0, box/old-box: 0.0,
+  air: 0)]'
+(6)[2022/02/04 13:17:01]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 4) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  47ms), (TPS: 19.912), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.3356429092176902,
+  dm: 0.78, dm_s: 0.9750000000000001, dy: -1.0, a: 0)]'
+(1)[2022/02/04 13:22:50]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  194ms), (TPS: 19.948), (Plib: true), (Online: 1), (t: normal, reason: ground, d:
+  0.43373606517615715, dm: 0.325, dm_s: 0.40625, dy: 0.0, a: 0)]'
+(2)[2022/02/04 13:22:50]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 2) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  194ms), (TPS: 19.896), (Plib: true), (Online: 1), (t: normal, reason: air, d: 2.096250004908735,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.4507500119209311, a: 0)]'
+(3)[2022/02/04 13:22:51]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 3) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  194ms), (TPS: 19.952), (Plib: true), (Online: 1), (t: normal, reason: air, d: 2.096250004908735,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.4507500119209311, a: 0)]'
+(4)[2022/02/04 13:22:51]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 4) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  194ms), (TPS: 19.94), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.6904341266149832,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.7416229445017564, a: 1)]'
+(5)[2022/02/04 13:22:52]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 194ms), (TPS: 19.928), (Plib: true), (Online: 1), (instance: step-air(1),
+  extra: (difference: 1.1771821109148846, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: -1.0, old-motion: 7.0, box/old-box: 0.0,
+  air: 0)]'
+(6)[2022/02/04 13:22:54]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 3) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 194ms), (TPS: 20.0), (Plib: true), (Online: 1), (instance: step-limit(1),
+  extra: (difference: 3.0011842880628876, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: 0.7501175759752954, old-motion: 0.750195940090606,
+  box: 0.7248239579021316, old-box: 0.9747063819268362, air: 12)]'
+(7)[2022/02/04 13:22:55]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 5) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  194ms), (TPS: 19.948), (Plib: true), (Online: 1), (t: normal, reason: ground, d:
+  0.6229209893737603, dm: 0.39, dm_s: 0.48750000000000004, dy: 0.0, a: 4)]'
+(8)[2022/02/04 13:22:55]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 4) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 211ms), (TPS: 19.984), (Plib: true), (Online: 1), (instance: ground-up(7/20/7),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.7360382209680552, old-motion:
+  0.7267303484118628, box: 0.3628178509381428, old-box: 0.6267796299700876, air: 1)]'
+(9)[2022/02/04 13:22:56]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 6) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  211ms), (TPS: 19.868), (Plib: true), (Online: 1), (t: normal, reason: air, d: 2.0965927930189365,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.4507500119209311, a: 0)]'
+(10)[2022/02/04 13:22:56]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 7) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  211ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: air, d: 2.0058995034786005,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.5704500190734905, a: 6)]'
+(11)[2022/02/04 13:22:59]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 5) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 211ms), (TPS: 19.932), (Plib: true), (Online: 1), (instance: ground-up(7/20/7),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.749563028216528, old-motion:
+  0.7492716938260031, box: 0.9489942021365039, old-box: 0.1994311739199759, air: 0)]'
+(12)[2022/02/04 13:23:00]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 6) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 211ms), (TPS: 19.798), (Plib: true), (Online: 1), (instance: step-abstract(1),
+  extra: (difference: 0.8005688260800241, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: -1.0, old-motion: 11.0, box/old-box:
+  0.0, air: 0)]'
+(13)[2022/02/04 13:23:00]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 8) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  211ms), (TPS: 19.908), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.5366676161318823,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.5880000233650264, a: 0)]'
+(14)[2022/02/04 13:23:00]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  was kicked for Speed, IrregularMovements'
+(15)[2022/02/04 13:23:07]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 9) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 19.956), (Plib: false), (Online: 1), (t: normal, reason: air, d: 0.5830413600610193,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.32954656365213, a: 2)]'
+(16)[2022/02/04 13:23:08]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 7) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 0ms), (TPS: 19.94), (Plib: false), (Online: 1), (instance: step-abstract(1),
+  extra: (difference: 0.9986640208878583, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: -1.0, old-motion: 3.0, box/old-box: 0.0,
+  air: 0)]'
+(17)[2022/02/04 13:23:08]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 10) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 19.805), (Plib: false), (Online: 1), (t: normal, reason: air, d: 1.3274401272612544,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.7454650664221134, a: 7)]'
+(18)[2022/02/04 13:23:09]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 8) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 0ms), (TPS: 19.936), (Plib: false), (Online: 1), (instance: step-air(1),
+  extra: (difference: 1.363662368032081, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion: -1.0, old-motion: 8.0, box/old-box: 0.0, air:
+  0)]'
+(19)[2022/02/04 13:23:09]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 9) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 0ms), (TPS: 19.988), (Plib: false), (Online: 1), (instance: ground-up(7/20/7),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.7290048289680442, old-motion:
+  0.7150080284118587, box: 0.1564929651641762, old-box: 0.427488136196132, air: 1)]'
+(20)[2022/02/04 13:23:10]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 10) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 0ms), (TPS: 19.984), (Plib: false), (Online: 1), (instance: step-air(1),
+  extra: (difference: 1.572511863803868, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion: -1.0, old-motion: 6.0, box/old-box: 0.0, air:
+  0)]'
+(21)[2022/02/04 13:23:10]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 11) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 0ms), (TPS: 19.964), (Plib: false), (Online: 1), (instance: ground-up(7/20/7),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.737402909301764, old-motion:
+  0.7290048289680442, box: 0.8938958744659402, old-box: 0.1564929651641762, air: 5)]'
+(22)[2022/02/04 13:23:10]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 12) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 0ms), (TPS: 19.849), (Plib: false), (Online: 1), (instance: step-abstract(1),
+  extra: (difference: 0.8435070348358238, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: -1.0, old-motion: 6.0, box/old-box: 0.0,
+  air: 0)]'
+(23)[2022/02/04 13:23:10]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  was kicked for Speed, IrregularMovements'
+(24)[2022/02/04 13:27:30]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 393ms), (TPS: 19.98), (Plib: false), (Online: 1), (instance: step-limit(1),
+  extra: (difference: 2.2167065159576254, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: 0.7438848836585663, old-motion: 0.7398081195627242,
+  box: 0.24136004365065844, old-box: 0.49747515999209213, air: 14)]'
+(25)[2022/02/04 13:27:39]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 1) [(Version: Airplane 1.17), (C-V: 4) (Silent: false), (Ping:
+  393ms), (TPS: 19.98), (Plib: false), (Online: 1), (t: normal, reason: ground, d:
+  0.5710738014966774, dm: 0.325, dm_s: 0.40625, dy: 0.0, a: 0)]'
+(26)[2022/02/04 13:27:39]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 2) [(Version: Airplane 1.17), (C-V: 4) (Silent: false), (Ping:
+  393ms), (TPS: 19.976), (Plib: false), (Online: 1), (t: normal, reason: ground, d:
+  1.0420300541027574, dm: 0.325, dm_s: 0.40625, dy: 0.0, a: 0)]'
+(27)[2022/02/04 13:27:39]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 3) [(Version: Airplane 1.17), (C-V: 4) (Silent: false), (Ping:
+  393ms), (TPS: 19.908), (Plib: false), (Online: 1), (t: normal, reason: ground, d:
+  1.302772422925581, dm: 0.325, dm_s: 0.40625, dy: 0.0, a: 0)]'
+(28)[2022/02/04 13:27:39]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 4) [(Version: Airplane 1.17), (C-V: 4) (Silent: false), (Ping:
+  393ms), (TPS: 20.0), (Plib: false), (Online: 1), (t: normal, reason: ground, d:
+  1.4451377728387966, dm: 0.325, dm_s: 0.40625, dy: 0.0, a: 0)]'
+(29)[2022/02/04 13:27:39]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 5) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  393ms), (TPS: 19.892), (Plib: false), (Online: 1), (t: normal, reason: ground, d:
+  1.5228692629202218, dm: 0.325, dm_s: 0.40625, dy: 0.0, a: 0)]'
+(30)[2022/02/04 13:27:40]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 6) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  393ms), (TPS: 19.908), (Plib: false), (Online: 1), (t: normal, reason: air, d: 3.0938078275171064,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.0, a: 0)]'
+(31)[2022/02/04 13:27:40]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 7) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  352ms), (TPS: 19.829), (Plib: false), (Online: 1), (t: normal, reason: air, d: 2.570835905971239,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.0, a: 0)]'
+(32)[2022/02/04 13:27:41]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 352ms), (TPS: 19.88), (Plib: false), (Online: 1), (instance: step-abstract(1),
+  extra: (difference: 0.9246249999999989, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: -1.0, old-motion: 2.0, box/old-box: 0.0,
+  air: 0)]'
+(33)[2022/02/04 13:27:55]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 8) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  352ms), (TPS: 19.936), (Plib: false), (Online: 1), (t: normal, reason: ground, d:
+  1.042028775511613, dm: 0.525, dm_s: 0.65625, dy: 0.0, a: 0)]'
+(34)[2022/02/04 13:27:55]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  was kicked for Speed, IrregularMovements'
+(35)[2022/02/04 13:31:15]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 20.0), (Plib: false), (Online: 1), (t: normal, reason: ground, d: 0.5644799575995876,
+  dm: 0.325, dm_s: 0.40625, dy: 0.0, a: 0)]'
+(36)[2022/02/04 13:31:15]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 2) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 19.809), (Plib: false), (Online: 1), (t: normal, reason: air, d: 4.918104187951821,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.07537500000000108, a: 0)]'
+(37)[2022/02/04 13:31:16]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 3) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 19.936), (Plib: false), (Online: 1), (t: normal, reason: air, d: 5.360280148440903,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.07537500000000108, a: 0)]'
+(38)[2022/02/04 13:31:16]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 4) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 19.837), (Plib: false), (Online: 1), (t: normal, reason: air, d: 2.618507208196661,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.0, a: 0)]'
+(39)[2022/02/04 13:31:17]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 5) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 19.896), (Plib: false), (Online: 1), (t: normal, reason: air, d: 2.618507208196661,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.0, a: 0)]'
+(40)[2022/02/04 13:31:17]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 6) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 19.857), (Plib: false), (Online: 1), (t: normal, reason: air, d: 4.364178299191735,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.0, a: 0)]'
+(41)[2022/02/04 13:31:18]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 7) [(Version: Airplane 1.17), (C-V: -4) (Silent: false), (Ping:
+  0ms), (TPS: 20.0), (Plib: false), (Online: 1), (t: normal, reason: air, d: 2.618507208196661,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.0, a: 0)]'
+(42)[2022/02/04 13:31:18]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 0ms), (TPS: 19.96), (Plib: false), (Online: 1), (instance: step-air(1),
+  extra: (difference: 1.924624999999999, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion: 2.0, old-motion: 0.0, box: 0.0, old-box: 0.07537500000000108,
+  air: 0)]'
+(43)[2022/02/04 13:31:49]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed MorePackets (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent: false),
+  (Ping: 92ms), (TPS: 19.837), (Plib: false), (Online: 1), (type: instant, overall:
+  2.790751672136277, last-tick: 0)]'
+(44)[2022/02/04 13:32:01]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 124ms), (TPS: 20.0), (Plib: false), (Online: 1), (instance: step-air(1),
+  extra: (difference: 1.015555072702199, base-limit: 2.0, limit: 2.0), scenario: neutral,
+  up/down: 1, jump/fall: 1, motion: -0.15523200451660557, old-motion: -0.07840000152587834,
+  box: 0.015555072702198913, old-box: 0.17078707721880448, air: 0)]'
+(45)[2022/02/04 13:32:01]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 124ms), (TPS: 19.872), (Plib: false), (Online: 1), (instance: step-air(1),
+  extra: (difference: 1.8292129227811955, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: 3.0, old-motion: -0.15523200451660557,
+  box: 0.0, old-box: 0.015555072702198913, air: 0)]'
+(46)[2022/02/04 13:36:47]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: -4) (Silent:
+  false), (Ping: 216ms), (TPS: 19.908), (Plib: false), (Online: 1), (instance: step-limit(1),
+  extra: (difference: 2.1661092609382138, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: 0.1647732818260721, old-motion: 0.24813599859093927,
+  box: 0.16610926093821377, old-box: 0.001335979112141672, air: 0)]'
+(1)[2022/02/04 13:38:20]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.841), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.5066068683470473,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.19434481565569683, a: 0)]'
+(2)[2022/02/04 13:38:20]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.984), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.7244118338905863,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: -0.8975442151278159, a: 12)]'
+(3)[2022/02/04 13:38:20]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 3) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.964), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.3648776183934181,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.8399999737739563, a: 0)]'
+(4)[2022/02/04 13:38:20]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 4) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.817), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.9412129598900346,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.803999996185297, a: 0)]'
+(5)[2022/02/04 13:38:20]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 5) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.996), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.052497181629354,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.7824000096321129, a: 0)]'
+(6)[2022/02/04 13:38:20]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 6) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.813), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.3297902328501143,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.7569984254455591, a: 2)]'
+(7)[2022/02/04 13:38:20]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 0ms), (TPS: 19.992), (Plib: true), (Online: 1), (instance: ground-up(7/20/7),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.7525194522338836, old-motion:
+  0.7541990671882672, box: 0.22122096470030783, old-box: 0.4687015124664242, air:
+  4)]'
+(8)[2022/02/04 13:38:20]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 7) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.809), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.5387556560662474,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.7515116832612563, a: 5)]'
+(9)[2022/02/04 13:38:21]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 8) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.809), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.5962669827238176,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.7509070218776799, a: 6)]'
+(10)[2022/02/04 13:38:21]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 9) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.8512572873477406,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.22502116725182475, a: 13)]'
+(11)[2022/02/04 13:38:21]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 3) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 0ms), (TPS: 19.9), (Plib: true), (Online: 1), (instance: air-up(2/20/2),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.1421207466728589, old-motion:
+  0.22502116725182475, box: 0.8420364293329214, old-box: 0.6999156826600625, air:
+  13)]'
+(12)[2022/02/04 13:38:21]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 10) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.7049262002844774,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.06087833292426126, a: 14)]'
+(13)[2022/02/04 13:38:21]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 11) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.98), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.641482860746242,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: -0.018739234098944735, a: 16)]'
+(14)[2022/02/04 13:38:21]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 12) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.984), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.5837494201027494,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: -0.09676445130027389, a: 17)]'
+(15)[2022/02/04 13:38:21]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  was kicked for Speed, IrregularMovements'
+(16)[2022/02/04 13:39:23]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 143ms), (TPS: 19.868), (Plib: true), (Online: 1), (instance: step-box(1),
+  extra: (difference: 1.0, base-limit: 2.0, limit: 2.0), scenario: neutral, up/down:
+  1, jump/fall: 1, motion: 0.0, old-motion: 0.5, box/old-box: 0.0, air: 0)]'
+(17)[2022/02/04 13:39:28]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  161ms), (TPS: 19.988), (Plib: true), (Online: 1), (t: normal, reason: ground, d:
+  0.4367257390827035, dm: 0.325, dm_s: 0.40625, dy: 0.0, a: 0)]'
+(18)[2022/02/04 13:39:31]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 161ms), (TPS: 19.857), (Plib: true), (Online: 1), (instance: step-box(1),
+  extra: (difference: 1.0, base-limit: 2.0, limit: 2.0), scenario: neutral, up/down:
+  1, jump/fall: 1, motion: 0.0, old-motion: 0.5, box/old-box: 0.0, air: 0)]'
+(19)[2022/02/04 13:39:31]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  161ms), (TPS: 19.992), (Plib: true), (Online: 1), (t: normal, reason: ground, d:
+  1.0635410798553286, dm: 0.78, dm_s: 0.9750000000000001, dy: 0.0, a: 0)]'
+(20)[2022/02/04 13:39:31]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 3) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  161ms), (TPS: 19.968), (Plib: true), (Online: 1), (t: normal, reason: ground, d:
+  1.1638222070950297, dm: 0.325, dm_s: 0.40625, dy: 0.0, a: 0)]'
+(21)[2022/02/04 13:39:31]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 4) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  161ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: ground, d: 0.5550190961335446,
+  dm: 0.325, dm_s: 0.40625, dy: 0.0, a: 0)]'
+(22)[2022/02/04 13:39:32]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 5) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  161ms), (TPS: 19.936), (Plib: true), (Online: 1), (t: normal, reason: ground, d:
+  0.5237517567110471, dm: 0.325, dm_s: 0.40625, dy: 0.0, a: 0)]'
+(23)[2022/02/04 13:39:32]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 6) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  161ms), (TPS: 19.932), (Plib: true), (Online: 1), (t: normal, reason: ground, d:
+  0.6001205147254272, dm: 0.325, dm_s: 0.40625, dy: 0.0, a: 0)]'
+(24)[2022/02/04 13:39:32]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 7) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  161ms), (TPS: 19.928), (Plib: true), (Online: 1), (t: normal, reason: ground, d:
+  0.46647338090598733, dm: 0.325, dm_s: 0.40625, dy: 0.0, a: 0)]'
+(25)[2022/02/04 13:39:32]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed MorePackets (VL: 1) [(Version: Airplane 1.17), (C-V: -5) (Silent: false),
+  (Ping: 161ms), (TPS: 19.988), (Plib: true), (Online: 1), (type: instant, overall:
+  3.067722308888381, last-tick: 1)]'
+(26)[2022/02/04 13:39:33]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 8) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  161ms), (TPS: 19.86), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.5387253792961083,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: -0.48000001907348633, a: 10)]'
+(27)[2022/02/04 13:39:33]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  was kicked for Speed, IrregularMovements'
+(28)[2022/02/04 13:39:49]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.88), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.6873762820028675,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.6663999872684485, a: 0)]'
+(29)[2022/02/04 13:39:49]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.872), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.8182036453800846,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.7962720091028217, a: 0)]'
+(30)[2022/02/04 13:39:50]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 3) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.6968480822869182,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: -1.0528557635886102, a: 12)]'
+(31)[2022/02/04 13:39:50]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 4) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.872), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.829868254404769,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: -0.3954198685618593, a: 14)]'
+(32)[2022/02/04 13:39:50]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 5) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.837), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.4605653116142054,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.8399999737739563, a: 14)]'
+(33)[2022/02/04 13:39:50]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 6) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.845), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.1969702848556234,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.769440017700191, a: 2)]'
+(34)[2022/02/04 13:39:50]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 7) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.2852291243451994,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.7616640225410407, a: 2)]'
+(35)[2022/02/04 13:39:50]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 8) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.833), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.6102578025587783,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.22849920676230795, a: 8)]'
+(36)[2022/02/04 13:39:50]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 9) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.821), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.5296360723627846,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: -0.015465730944868028, a: 8)]'
+(37)[2022/02/04 13:39:50]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 10) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.813), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.507447833713494,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: -0.09355641814683224, a: 8)]'
+(38)[2022/02/04 13:39:50]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  was kicked for Speed, IrregularMovements'
+(39)[2022/02/04 13:43:23]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  218ms), (TPS: 19.912), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.5914376564685615,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: -0.31046400903319693, a: 5)]'
+(40)[2022/02/04 13:43:23]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  218ms), (TPS: 19.88), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.6739342814038695,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: -0.1610547259050037, a: 6)]'
+(41)[2022/02/04 13:43:23]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 3) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  218ms), (TPS: 19.996), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.8088526994521494,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.2033671763779239, a: 7)]'
+(42)[2022/02/04 13:43:23]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 4) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  218ms), (TPS: 19.805), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.9318000537029171,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.42202031774768045, a: 8)]'
+(43)[2022/02/04 13:43:24]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 5) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  218ms), (TPS: 19.904), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.1457237061518915,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.6319273334626558, a: 10)]'
+(44)[2022/02/04 13:43:24]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 6) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  218ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.5890037493355305,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.20374692359955304, a: 12)]'
+(45)[2022/02/04 13:43:24]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 7) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  218ms), (TPS: 19.904), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.56146604806901,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.12127198748784451, a: 13)]'
+(46)[2022/02/04 13:43:24]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 218ms), (TPS: 19.896), (Plib: true), (Online: 1), (instance: air-up(2/20/2),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.04044654852529561, old-motion:
+  0.12127198748784451, box: 0.5544172440496169, old-box: 0.5139706955243213, air:
+  14)]'
+(47)[2022/02/04 13:43:24]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 8) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  218ms), (TPS: 19.888), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.5136046814044698,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: -0.038762383199639316, a: 15)]'
+(48)[2022/02/04 13:43:24]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  was kicked for Speed, IrregularMovements'
+(49)[2022/02/04 13:45:23]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  204ms), (TPS: 19.845), (Plib: true), (Online: 1), (t: normal, reason: ground, d:
+  0.6334997957958144, dm: 0.325, dm_s: 0.40625, dy: 0.0, a: 4)]'
+(50)[2022/02/04 13:45:35]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  219ms), (TPS: 19.916), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.7419541092764379,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.7244963273929557, a: 12)]'
+(51)[2022/02/04 13:45:35]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 219ms), (TPS: 19.892), (Plib: true), (Online: 1), (instance: air-up(2/20/2),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.5680098134870093, old-motion:
+  0.7244963273929557, box: 0.20000004768371582, old-box: 0.6319902341967065, air:
+  13)]'
+(52)[2022/02/04 13:45:35]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 3) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  219ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.8015816680075747,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.0, a: 14)]'
+(53)[2022/02/04 13:45:35]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 219ms), (TPS: 19.9), (Plib: true), (Online: 1), (instance: step-abstract(1),
+  extra: (difference: 0.7444912300819055, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: 0.7444912300819055, old-motion: 0.0,
+  box: 0.9444912777656214, old-box: 0.20000004768371582, air: 15)]'
+(54)[2022/02/04 13:45:35]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 4) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  219ms), (TPS: 19.896), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.8509635029544275,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.7466947499700751, a: 16)]'
+(55)[2022/02/04 13:45:35]: '(False Positive) [Spartan Build 445/1681-10337/2525386-523595]
+  GiveMeFlowers failed IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V:
+  16) (Silent: false), (Ping: 219ms), (TPS: 19.888), (Plib: true), (Online: 1), (instance:
+  horizontal-motion(3/20/5), scenario: neutral, up/down: 1, jump/fall: 1, motion:
+  0.0, old-motion: 0.5088140199480193, box/old-box: 0.20000004768371582, air: 18)]'
+(56)[2022/02/04 13:45:36]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 5) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  219ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.5764161135018953,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: -1.5622663864197648, a: 29)]'
+(57)[2022/02/04 13:45:36]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 6) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  219ms), (TPS: 19.884), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.6225382719548938,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: -1.3878210796200676, a: 30)]'
+(58)[2022/02/04 13:45:36]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 7) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  219ms), (TPS: 19.904), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.6645095523385254,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: -0.5326926358511059, a: 31)]'
+(59)[2022/02/04 13:45:36]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 3) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 219ms), (TPS: 19.9), (Plib: true), (Online: 1), (instance: greater-down(2/20/2),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: -0.019615569589731763, old-motion:
+  -0.5326926358511059, box: 0.6342593223560442, old-box: 0.653874891945776, air: 32)]'
+(60)[2022/02/04 13:45:36]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 8) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  219ms), (TPS: 19.88), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.7374600416558775,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.28823067016708137, a: 33)]'
+(61)[2022/02/04 13:45:36]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  was kicked for Speed, IrregularMovements'
+(62)[2022/02/04 13:46:11]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  106ms), (TPS: 19.928), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.7017710657338894,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.49627199718189274, a: 1)]'
+(63)[2022/02/04 13:46:11]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  106ms), (TPS: 19.92), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.8341370811400398,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.6295465755730589, a: 2)]'
+(64)[2022/02/04 13:46:11]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 3) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  106ms), (TPS: 19.912), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.064658950793476,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.7066367862797875, a: 4)]'
+(65)[2022/02/04 13:46:12]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 4) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  106ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.4141816531155873,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.7443801534417958, a: 7)]'
+(66)[2022/02/04 13:46:12]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 106ms), (TPS: 19.841), (Plib: true), (Online: 1), (instance: ground-up(7/20/7),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.7466281039860121, old-motion:
+  0.7443801534417958, box: 0.953396469272974, old-box: 0.20676836528696185, air: 9)]'
+(67)[2022/02/04 13:46:12]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 5) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  106ms), (TPS: 19.837), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.5453849681481653,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.7479768743125419, a: 10)]'
+(68)[2022/02/04 13:46:12]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 6) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  106ms), (TPS: 19.86), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.6022798410380985,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.7487861365084569, a: 10)]'
+(69)[2022/02/04 13:46:12]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 7) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  106ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: air, d: 1.654058821084493,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.7492716938260031, a: 11)]'
+(70)[2022/02/04 13:46:12]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 8) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  106ms), (TPS: 19.964), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.7780750236660209,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.2247815081477995, a: 16)]'
+(71)[2022/02/04 13:46:12]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 106ms), (TPS: 19.96), (Plib: true), (Online: 1), (instance: air-up(2/20/2),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.14188588074632946, old-motion:
+  0.2247815081477995, box: 0.5660985628141049, old-box: 0.4242126820677754, air: 16)]'
+(72)[2022/02/04 13:46:12]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 9) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  106ms), (TPS: 19.936), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.6929877386011969,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.06064816431178599, a: 16)]'
+(73)[2022/02/04 13:46:12]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  was kicked for Speed, IrregularMovements'
+(74)[2022/02/04 13:48:15]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  188ms), (TPS: 19.888), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.7455171850023657,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.6663999872684485, a: 0)]'
+(75)[2022/02/04 13:48:15]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 188ms), (TPS: 19.904), (Plib: true), (Online: 1), (instance: step-air(1),
+  extra: (difference: 1.8826719832582484, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: 0.7962720091028217, old-motion: 0.6663999872684485,
+  box: 0.8826719832582484, old-box: 0.08639997415542666, air: 1)]'
+(76)[2022/02/04 13:48:15]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  188ms), (TPS: 19.916), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.6173628164850676,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.7777632173826277, a: 2)]'
+(77)[2022/02/04 13:48:15]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 188ms), (TPS: 19.845), (Plib: true), (Online: 1), (instance: ground-up(7/20/7),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.7521588952685647, old-motion:
+  0.7535981389127357, box: 0.44884183282357526, old-box: 0.6966829375550105, air:
+  7)]'
+(78)[2022/02/04 13:48:15]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 3) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  188ms), (TPS: 19.924), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.5006284358990327,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.75016790318098, a: 12)]'
+(79)[2022/02/04 13:48:15]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 3) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 188ms), (TPS: 19.896), (Plib: true), (Online: 1), (instance: air-up(2/20/2),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.7501007538295141, old-motion:
+  0.75016790318098, box: 0.9519292237960855, old-box: 0.20182846996657133, air: 13)]'
+(80)[2022/02/04 13:48:15]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 4) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  188ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.5012851861702766,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.7500604642186346, a: 14)]'
+(81)[2022/02/04 13:48:16]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 4) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 188ms), (TPS: 19.944), (Plib: true), (Online: 1), (instance: step-abstract(1),
+  extra: (difference: 0.8820055615186533, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: 0.16200102150342843, old-motion: 0.2700017025057093,
+  box: 0.33407900109914124, old-box: 0.1720779795957128, air: 22)]'
+(82)[2022/02/04 13:48:33]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 5) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  192ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.5667155219766671,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.749777597524826, a: 16)]'
+(83)[2022/02/04 13:48:34]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 6) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  192ms), (TPS: 19.908), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.5059732843594293,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.4861181501745193, a: 35)]'
+(84)[2022/02/04 13:48:34]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 7) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  192ms), (TPS: 19.924), (Plib: true), (Online: 1), (t: normal, reason: ground, d:
+  0.6886938466597847, dm: 0.46, dm_s: 0.5750000000000001, dy: 0.0, a: 0)]'
+(85)[2022/02/04 13:48:34]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 8) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  192ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.6038018186070729,
+  dm: 0.46, dm_s: 0.5750000000000001, dy: 0.8399999737739563, a: 0)]'
+(86)[2022/02/04 13:48:35]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 5) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 192ms), (TPS: 19.904), (Plib: true), (Online: 1), (instance: ground-up(7/20/7),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.7525194522338836, old-motion:
+  0.7541990671882672, box: 0.22122096470030783, old-box: 0.4687015124664242, air:
+  6)]'
+(87)[2022/02/04 13:48:35]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 9) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  192ms), (TPS: 19.864), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.7442485720157727,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.7515116832612563, a: 7)]'
+(88)[2022/02/04 13:48:35]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 10) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  192ms), (TPS: 19.833), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.7747444683444265,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.7509070218776799, a: 8)]'
+(89)[2022/02/04 13:48:35]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 11) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  192ms), (TPS: 19.813), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.7549803541665082,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: -0.13780409519534942, a: 11)]'
+(90)[2022/02/04 13:48:35]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 6) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 192ms), (TPS: 19.992), (Plib: true), (Online: 1), (instance: distant-fall(2/20/2),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: -0.3826824690381443, old-motion:
+  -0.13780409519534942, box: 0.9240238466083213, old-box: 0.30670631564646555, air:
+  12)]'
+(91)[2022/02/04 13:48:35]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 12) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  192ms), (TPS: 19.813), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.66604192347295,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: -0.5296094933438127, a: 14)]'
+(92)[2022/02/04 13:48:35]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 13) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  192ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.628369352107807,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: -0.6177657079272194, a: 14)]'
+(93)[2022/02/04 13:48:35]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  was kicked for Speed, IrregularMovements'
+(1)[2022/02/04 13:51:07]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.813), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.5585541158919577,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.6528000259399391, a: 0)]'
+(2)[2022/02/04 13:51:07]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 3) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.6062820639928596,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.6916800274848924, a: 1)]'
+(3)[2022/02/04 13:51:07]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 4) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.94), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.6497122364929027,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.7150080284118587, a: 2)]'
+(4)[2022/02/04 13:51:07]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 5) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.805), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.6892333084531038,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.7290048289680442, a: 4)]'
+(5)[2022/02/04 13:51:07]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 6) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.98), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.6272016984646598,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.43740289738083504, a: 4)]'
+(6)[2022/02/04 13:51:08]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 0ms), (TPS: 19.972), (Plib: true), (Online: 1), (instance: ground-up(7/20/7),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.15746504305710118, old-motion:
+  0.2624417384284925, box: 0.013802644030604938, old-box: 0.8563376009735038, air:
+  7)]'
+(7)[2022/02/04 13:51:08]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 7) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.984), (Plib: true), (Online: 1), (t: normal, reason: ground, d: 0.45235237765079345,
+  dm: 0.325, dm_s: 0.40625, dy: 0.0, a: 17)]'
+(8)[2022/02/04 13:51:08]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 8) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.98), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.5095226347227783,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.30000001192092896, a: 19)]'
+(9)[2022/02/04 13:51:08]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 2) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 0ms), (TPS: 19.805), (Plib: true), (Online: 1), (instance: air-up(2/20/2),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.18000000715255737, old-motion:
+  0.30000001192092896, box: 0.7116335050675815, old-box: 0.5316334979150241, air:
+  20)]'
+(10)[2022/02/04 13:51:08]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 9) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.809), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.6087881268312964,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.10800000429154011, a: 20)]'
+(11)[2022/02/04 13:51:08]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 3) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 0ms), (TPS: 20.0), (Plib: true), (Online: 1), (instance: air-up(2/20/2),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.36480001449585586, old-motion:
+  0.10800000429154011, box: 0.18443352385497747, old-box: 0.8196335093591216, air:
+  21)]'
+(12)[2022/02/04 13:51:08]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 10) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.809), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.6909505458432813,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.5188800206184396, a: 22)]'
+(13)[2022/02/04 13:51:08]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 4) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 0ms), (TPS: 19.817), (Plib: true), (Online: 1), (instance: air-up(2/20/2),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.3113280123710638, old-motion:
+  0.5188800206184396, box: 0.014641556844480874, old-box: 0.7033135444734171, air:
+  23)]'
+(14)[2022/02/04 13:51:08]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 11) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.829), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.7589872516486355,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.18679680742263827, a: 24)]'
+(15)[2022/02/04 13:51:09]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 5) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 0ms), (TPS: 19.813), (Plib: true), (Online: 1), (instance: air-up(2/20/2),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.1120780844535858, old-motion:
+  0.18679680742263827, box: 0.31351644872070494, old-box: 0.20143836426711914, air:
+  25)]'
+(16)[2022/02/04 13:51:09]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 12) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: air, d: 0.8153287628373762,
+  dm: 0.39, dm_s: 0.48750000000000004, dy: 0.06724685067214864, a: 26)]'
+(17)[2022/02/04 13:51:09]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  was kicked for Speed, IrregularMovements'
+(18)[2022/02/04 13:51:20]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 13) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.928), (Plib: true), (Online: 1), (t: normal, reason: ground, d: 0.5157856306361114,
+  dm: 0.325, dm_s: 0.40625, dy: 0.0, a: 0)]'
+(19)[2022/02/04 13:51:20]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 14) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.884), (Plib: true), (Online: 1), (t: normal, reason: ground, d: 0.5168179658842078,
+  dm: 0.325, dm_s: 0.40625, dy: 0.0, a: 0)]'
+(20)[2022/02/04 13:51:20]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 15) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 20.0), (Plib: true), (Online: 1), (t: normal, reason: ground, d: 0.5173816209972208,
+  dm: 0.325, dm_s: 0.40625, dy: 0.0, a: 0)]'
+(21)[2022/02/04 13:51:21]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 6) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 0ms), (TPS: 19.944), (Plib: true), (Online: 1), (instance: ground-up(7/20/7),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.7525194522338836, old-motion:
+  0.7541990671882672, box: 0.22122096470030783, old-box: 0.4687015124664242, air:
+  8)]'
+(22)[2022/02/04 13:51:21]: '(False Positive) [Spartan Build 445/1681-10337/2525386-523595]
+  GiveMeFlowers failed IrregularMovements (VL: 6) [(Version: Airplane 1.17), (C-V:
+  16) (Silent: false), (Ping: 0ms), (TPS: 20.0), (Plib: true), (Online: 1), (instance:
+  air-up(2/20/2), scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.7500423464245927,
+  old-motion: 0.7500705575061062, box: 0.22493686183283046, old-box: 0.4748945154082378,
+  air: 12)]'
+(23)[2022/02/04 13:51:22]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed IrregularMovements (VL: 7) [(Version: Airplane 1.17), (C-V: 16) (Silent:
+  false), (Ping: 0ms), (TPS: 20.0), (Plib: true), (Online: 1), (instance: distant-fall(2/20/2),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: -0.594479767750073, old-motion:
+  -0.49079959304857823, box: 0.9917200628971727, old-box: 0.5861998306472458, air:
+  22)]'
+(24)[2022/02/04 13:51:24]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  failed Speed (VL: 16) [(Version: Airplane 1.17), (C-V: 16) (Silent: false), (Ping:
+  0ms), (TPS: 19.968), (Plib: true), (Online: 1), (t: normal, reason: ground, d: 0.4523472862146051,
+  dm: 0.325, dm_s: 0.40625, dy: 0.0, a: 0)]'
+(25)[2022/02/04 13:51:24]: '[Spartan Build 445/1681-10337/2525386-523595] GiveMeFlowers
+  was kicked for Speed, IrregularMovements'
+(1)[2022/02/04 17:04:15]: '[Spartan Build 445/1681-10337/2525386-523595] Jchnny failed
+  IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 6ms), (TPS: 19.884), (Plib: true), (Online: 3), (instance: spoof-jump(1),
+  scenario: neutral, up/down: 1, jump/fall: 1, motion: 0.0834196219069554, old-motion:
+  -0.37663049823865435, box: 0.1875, old-box: 0.1040803780930446, air: 10)]'
+(2)[2022/02/04 17:07:16]: '[Spartan Build 445/1681-10337/2525386-523595] Jchnny failed
+  IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 26ms), (TPS: 19.868), (Plib: true), (Online: 3), (instance: step-air(1),
+  extra: (difference: 1.1707870772188045, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: -0.07840000152587834, old-motion: 0.0,
+  box: 0.17078707721880448, old-box: 0.24918707874468282, air: 1)]'
+(1)[2022/02/04 19:11:01]: '[Spartan Build 445/1681-10337/2525386-523595] Jchnny failed
+  IrregularMovements (VL: 1) [(Version: Airplane 1.17), (C-V: 16) (Silent: false),
+  (Ping: 28ms), (TPS: 19.932), (Plib: true), (Online: 1), (instance: step-air(1),
+  extra: (difference: 1.1707870772188045, base-limit: 2.0, limit: 2.0), scenario:
+  neutral, up/down: 1, jump/fall: 1, motion: -0.07840000152587834, old-motion: 0.0,
+  box: 0.17078707721880448, old-box: 0.24918707874468282, air: 1)]'

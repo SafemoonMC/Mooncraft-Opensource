@@ -1,0 +1,14 @@
+(1)[2022/02/11 12:42:39]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed MorePackets (VL: 1) [(Version: Airplane 1.17), (C-V: 9) (Silent: false),
+  (Ping: 156ms), (TPS: 19.849), (Plib: true), (Online: 2), (type: vertical, total-horizontal:
+  0.10642279967424832, total-vertical: -0.07544406518948676, extra-ticks: 6, extra-packets:
+  1, tick-average: 49.733333333333334)]'
+(2)[2022/02/11 12:45:34]: '[Spartan Build 446/1677-33408/449485-544843] IndigosPizza
+  failed BlockReach (VL: 1) [(Version: Airplane 1.17), (C-V: 4) (Silent: false), (Ping:
+  157ms), (TPS: 19.813), (Plib: true), (Online: 2), (t: unusual, d: 1.5990634982550525,
+  ab_d: 1.549376208355961, ypos: -1.0)]'
+(3)[2022/02/11 19:06:12]: '[Spartan Build 446/1677-33408/449485-544843] SafemoonBDA
+  failed MorePackets (VL: 1) [(Version: Airplane 1.17), (C-V: 9) (Silent: false),
+  (Ping: 65ms), (TPS: 20.0), (Plib: true), (Online: 2), (type: horizontal, total-horizontal:
+  0.08943575602923204, total-vertical: 0.0, extra-ticks: 15, extra-packets: 5, tick-average:
+  49.733333333333334)]'

@@ -1,0 +1,365 @@
+# Here you can choose to be able to convert from other plugins that PlayerWarps supports.
+# MAKE SURE TO DISABLE THESE AFTER THE CONVERSION!
+converters:
+  welcomewarpsigns:
+    # if this is enabled, this will convert data from Welcome Warp Signs (https://www.spigotmc.org/resources/12256/) to PlayerWarps.
+    # Please restart the server for this conversion to happen.
+    enabled: false
+  pwarp:
+    # if this is enabled, this will convert data from PWarp (https://www.spigotmc.org/resources/64542/) to PlayerWarps.
+    # Please restart the server for this conversion to happen.
+    enabled: false
+  playerwarps:
+    # if this is enabled, this will convert data from PLAYERWARPS (https://www.spigotmc.org/resources/79089/) to PlayerWarps.
+    # Due to some conflicts, you will need make sure the PLAYERWARPS folder (plugins/PlayerWarps) is named "PlayerWarp"
+    # You will also need to change the name of the plugin, if you have winrar, open the jar up open the plugin.yml and change
+    # the name to "PlayerWarp" without the speech marks.
+    # Please restart the server for this conversion to happen.
+    enabled: false
+
+# Here you can choose to be able to hook into expansions that supports PlayerWarps and configure them to your liking.
+expansions:
+  essentials:
+    # Do you want to enable essentials expansion?
+    # This expansion sets their last location before they teleport to a warp.
+    # You need Essentials installed for this to work!
+    enabled: true
+
+# Here you can choose to be able to hook into addons that restricts player warp creation/web-based maps and configure them to your liking.
+addons:
+  plotsquared:
+    # Do you want to enable plotsquared support?
+    # You need plotsquared installed for this to work!
+    enabled: false
+    # Should the warp be created when a plot is created?
+    create: false
+    # Should the warp get deleted once the plot is deleted?
+    delete: true
+    # Should they only be able to set warps in plots? If disabled, they can set warps in their plot or wilderness.
+    only-land: true
+    lang:
+      not-in-plot: "%prefix% &cSorry you can't set a warp here, &cYou aren't on a plot!"
+      dont-own-plot: "%prefix% &cSorry you can't set a warp here, because you dont own this plot!"
+
+  worldguard:
+    # Do you want to enable worldguard support?
+    # You need worldguard installed for this to work!
+    enabled: false
+    # Do you want to revert the addon to make players force to be in a region? If so the message below will be displayed as not being in a region.
+    revert: false
+    # When reverted, do players need to be a member/owner of the region?
+    owner-member: false
+    # Should the warp get deleted once the region is deleted?
+    # Due to limitations of WorldGuard, this setting will only work if you have ProtectionStones enabled on your server.
+    delete: false
+    lang:
+      in-region: "%prefix% &cSorry you can't set a warp here, because you are in a region!"
+      dont-own-region: "%prefix% &cSorry you can't set a warp here, because you dont own this region!"
+
+  askyblock:
+    # Do you want to enable askyblock support?
+    # You need askyblock installed for this to work!
+    enabled: false
+    # Should the warp be created when an island is created?
+    create: false
+    # Should the warp get deleted once the island is deleted?
+    delete: true
+    # Should they only be able to set warps in islands? If disabled, they can set warps on their island or wilderness.
+    only-land: true
+    lang:
+      not-in-island: "%prefix% &cSorry you can't set a warp here, &cYou aren't on a island!"
+      dont-own-island: "%prefix% &cSorry you can't set a warp here, because you don't own this island."
+
+  bentobox:
+    # Do you want to enable bentobox support?
+    # You need bentobox installed for this to work!
+    enabled: false
+    # Should the warp be created when an island is created?
+    create: false
+    # Should the warp get deleted once the island is deleted?
+    delete: true
+    # Should they only be able to set warps in islands? If disabled, they can set warps on their island or wilderness.
+    only-land: true
+    lang:
+      not-in-island: "%prefix% &cSorry you can't set a warp here, &cYou aren't on a island!"
+      dont-own-island: "%prefix% &cSorry you can't set a warp here, because you don't own this island."
+
+  griefprevention:
+    # Do you want to enable griefprevention support?
+    # You need griefprevention installed for this to work!
+    enabled: false
+    # Should the warp be created when a claim is created?
+    create: false
+    # Should the warp get deleted once the claim is deleted?
+    delete: true
+    # Should they only be able to set warps in claim? If disabled, they can set warps in their claim or wilderness.
+    only-land: true
+    lang:
+      not-in-claim: "%prefix% &cSorry you can't set a warp here, &cYou aren't in a claim!"
+      dont-own-claim: "%prefix% &cSorry you can't set a warp here, because you don't own this claim."
+
+  griefdefender:
+    # Do you want to enable griefdefender support?
+    # You need griefdefender installed for this to work!
+    enabled: false
+    # Should the warp be created when a claim is created?
+    create: false
+    # Should the warp get deleted once the claim is deleted?
+    delete: true
+    # Should they only be able to set warps in claim? If disabled, they can set warps in their claim or wilderness.
+    only-land: true
+    lang:
+      not-in-claim: "%prefix% &cSorry you can't set a warp here, &cYou aren't in a claim!"
+      dont-own-claim: "%prefix% &cSorry you can't set a warp here, because you don't own this claim."
+
+  fabledskyblock:
+    # Do you want to enable fabledskyblock support?
+    # You need fabledskyblock installed for this to work!
+    enabled: false
+    # Should the warp be created when an island is created?
+    create: false
+    # Should the warp get deleted once the island is deleted?
+    delete: true
+    # Should they only be able to set warps in islands? If disabled, they can set warps on their island or wilderness.
+    only-land: true
+    lang:
+      not-in-island: "%prefix% &cSorry you can't set a warp here, &cYou aren't on a island!"
+      dont-own-island: "%prefix% &cSorry you can't set a warp here, because you don't own this island."
+
+  lands:
+    # Do you want to enable lands support?
+    # You need lands installed for this to work!
+    enabled: false
+    # Should the warp be created when a land is created?
+    create: false
+    # Should the warp get deleted once the land is deleted?
+    delete: true
+    # Should they only be able to set warps in lands? If disabled, they can set warps in their land or wilderness.
+    only-land: true
+    # Force PlayerWarps to allow warps to bypass land restrictions
+    force: false
+    lang:
+      not-in-land: "%prefix% &cSorry you can't set a warp here, &cYou aren't on a land"
+      dont-own-land: "%prefix% &cSorry you can't set a warp here, because you don't own this land."
+
+  landlord:
+    # Do you want to enable landlord support?
+    # You need landlord installed for this to work!
+    enabled: false
+    # Should the warp be created when a land is created?
+    create: false
+    # Should the warp get deleted once the land is deleted?
+    delete: true
+    # Should they only be able to set warps in lands? If disabled, they can set warps in their land or wilderness.
+    only-land: true
+    lang:
+      not-in-land: "%prefix% &cSorry you can't set a warp here, &cYou aren't on a land"
+      dont-own-land: "%prefix% &cSorry you can't set a warp here, because you don't own this land."
+
+  kindomsx:
+    # Do you want to enable kingdomsx support?
+    # You need kingdomsx installed for this to work!
+    enabled: false
+    # Should the warp be created when a land is created?
+    create: false
+    # Should the warp get deleted once the land is deleted?
+    delete: true
+    # Should they only be able to set warps in lands? If disabled, they can set warps in their land or wilderness.
+    only-land: true
+    lang:
+      not-in-land: "%prefix% &cSorry you can't set a warp here, &cYou aren't on a land"
+      dont-own-land: "%prefix% &cSorry you can't set a warp here, because you don't own this land."
+
+  residence:
+    # Do you want to enable residence support?
+    # You need Residence installed for this to work!
+    enabled: false
+    # Should the warp be created when a land is created?
+    create: false
+    # Should the warp get deleted once the land is deleted?
+    delete: true
+    # Should they only be able to set warps in lands? If disabled, they can set warps in their land or wilderness.
+    only-land: true
+    lang:
+      not-in-land: "%prefix% &cSorry you can't set a warp here, &cYou aren't on a land"
+      dont-own-land: "%prefix% &cSorry you can't set a warp here, because you don't own this land."
+      not-allowed-to-tp: "%prefix% &cSorry you can't teleport to this warp, &cYou don't have permission to teleport there."
+
+  ultimateclaims:
+    # Do you want to enable ultimateclaims support?
+    # You need ultimateclaims installed for this to work!
+    enabled: false
+    # Should the warp be created when a claim is created?
+    create: false
+    # Should the warp get deleted once the claim is deleted?
+    delete: true
+    # Should they only be able to set warps in lands? If disabled, they can set warps in their land or wilderness.
+    only-land: true
+    lang:
+      not-in-claim: "%prefix% &cSorry you can't set a warp here, &cYou aren't on a claim"
+      dont-own-claim: "%prefix% &cSorry you can't set a warp here, because you don't own this claim."
+      
+  claimchunk:
+    # Do you want to enable claimchunk support?
+    # You need claimchunk installed for this to work!
+    enabled: false
+    # Should the warp be created when a claim is created?
+    # Should they only be able to set warps in lands? If disabled, they can set warps in their land or wilderness.
+    only-land: true
+    lang:
+      not-in-claim: "%prefix% &cSorry you can't set a warp here, &cYou aren't on a claim"
+      dont-own-claim: "%prefix% &cSorry you can't set a warp here, because you don't own this claim."
+
+  crashclaims:
+    # Do you want to enable crashclaims support?
+    # You need crashclaims installed for this to work!
+    enabled: false
+    # Should they only be able to set warps in lands? If disabled, they can set warps in their land or wilderness.
+    only-land: true
+    lang:
+      not-in-claim: "%prefix% &cSorry you can't set a warp here, &cYou aren't on a claim"
+      dont-own-claim: "%prefix% &cSorry you can't set a warp here, because you don't own this claim."
+
+  simpleskyblock:
+    # Do you want to enable simpleskyblock support?
+    # You need simpleskyblock installed for this to work!
+    enabled: false
+    # Should they only be able to set warps in islands? If disabled, they can set warps on their island or wilderness.
+    only-land: true
+    lang:
+      not-in-island: "%prefix% &cSorry you can't set a warp here, &cYou aren't on a island!"
+      dont-own-island: "%prefix% &cSorry you can't set a warp here, because you don't own this island."
+
+  superiorskyblock:
+    # Do you want to enable superiorskyblock support?
+    # You need superiorskyblock installed for this to work!
+    enabled: false
+    # Should the warp be created when a claim is created?
+    create: false
+    # Should the warp get deleted once the faction is deleted?
+    delete: true
+    # Should they only be able to set warps in islands? If disabled, they can set warps on their island or wilderness.
+    only-land: true
+    lang:
+      not-in-island: "%prefix% &cSorry you can't set a warp here, &cYou aren't on a island!"
+      dont-own-island: "%prefix% &cSorry you can't set a warp here, because you don't own this island."
+
+  factions:
+    # Do you want to enable factions support?
+    # You need factions installed for this to work!
+    enabled: false
+    # Should the warp get deleted once the faction is deleted?
+    delete: true
+    # Should they only be able to set warps in claims? If disabled, they can set warps in their claim or wilderness.
+    only-land: true
+    lang:
+      not-in-claim: "%prefix% &cSorry you can't set a warp here, &cYou aren't in a claim!"
+      dont-own-claim: "%prefix% &cSorry you can't set a warp here, because you don't own this claim."
+
+  saberfactions:
+    # Do you want to enable saberfactions support?
+    # You need saberfactions installed for this to work!
+    enabled: false
+    # Should the warp get deleted once the faction is deleted?
+    delete: true
+    # Should they only be able to set warps in claims? If disabled, they can set warps in their claim or wilderness.
+    only-land: true
+    lang:
+      not-in-claim: "%prefix% &cSorry you can't set a warp here, &cYou aren't in a claim!"
+      dont-own-claim: "%prefix% &cSorry you can't set a warp here, because you don't own this claim."
+
+  factionsx:
+    # Do you want to enable factionsx support?
+    # You need factionsx installed for this to work!
+    enabled: false
+    # Should the warp get deleted once the faction is deleted?
+    delete: true
+    # Should they only be able to set warps in claims? If disabled, they can set warps in their claim or wilderness.
+    only-land: true
+    lang:
+      not-in-claim: "%prefix% &cSorry you can't set a warp here, &cYou aren't in a claim!"
+      dont-own-claim: "%prefix% &cSorry you can't set a warp here, because you don't own this claim."
+
+  factionsuuid:
+    # Do you want to enable factionsuuid support?
+    # You need factionsuuid installed for this to work!
+    enabled: false
+    # Should the warp get deleted once the faction is deleted?
+    delete: true
+    # Should they only be able to set warps in claims? If disabled, they can set warps in their claim or wilderness.
+    only-land: true
+    lang:
+      not-in-claim: "%prefix% &cSorry you can't set a warp here, &cYou aren't in a claim!"
+      dont-own-claim: "%prefix% &cSorry you can't set a warp here, because you don't own this claim."
+
+  towny:
+    # Do you want to enable towny support?
+    # You need towny installed for this to work!
+    enabled: false
+    # Should the warp get deleted once the town is deleted?
+    delete: true
+    # Should they only be able to set warps in towns? If disabled, they can set warps in their town or wilderness.
+    only-land: true
+    # Should the plugin cancel the warp teleportation if the warp they're teleporting to is enemey land?
+    cancel-enemy-teleport: false
+    lang:
+      not-in-town: "%prefix% &cSorry you can't set a warp here, &cYou aren't in a town!"
+      dont-own-town: "%prefix% &cSorry you can't set a warp here, because you don't own this town."
+      town-teleport-enemy: "%prefix% &cSorry you can't teleport to this warp as its in enemy land."
+
+  husktowns:
+    # Do you want to enable husktowns support?
+    # You need husktowns installed for this to work!
+    enabled: false
+    # Should the warp be created when a town is created?
+    create: false
+    # Should the warp get deleted once the town is deleted?
+    delete: true
+    # Should they only be able to set warps in towns? If disabled, they can set warps in their town or wilderness.
+    only-land: true
+    # What is the required level for a town to set a warp?
+    required-level: 0
+    lang:
+      not-in-town: "%prefix% &cSorry you can't set a warp here, &cYou aren't in a town!"
+      dont-own-town: "%prefix% &cSorry you can't set a warp here, because you don't own this town."
+      not-required-level: "%prefix% &cSorry your town doesn't meet the level requirements"
+
+  dynmap:
+    # Do you want to enable dynmap support?
+    # You need dynmap installed for this to work!
+    enabled: false
+    # What is the marker icon?
+    marker-icon: "star"
+    # What is the layer name?
+    layer-name: "PlayerWarps"
+    # What is the description of the marker?
+    description:
+    - "Owner: [owner]"
+    - "Visits: [visits]"
+    - "Description: [desc]"
+    - "Time Created: [date]"
+    - "Category: [category]"
+    - "Rates: [rates]"
+    - "Rates Average: [rates_average] ([rates_stars])"
+
+  bluemap:
+    # Do you want to enable bluemap support?
+    # You need bluemap installed for this to work!
+    enabled: false
+    # What is the layer name?
+    layer-name: "PlayerWarps"
+
+  pl3xmap:
+    # Do you want to enable pl3xmap/squaremap support?
+    # You need pl3xmap/squaremap installed for this to work!
+    enabled: false
+    # What is the layer name?
+    layer-name: "PlayerWarps"
+    # What is the icon size?
+    icon-size: 16
+    # What is the anchor x?
+    icon-x: 8
+    # What is the anchor z?
+    icon-z: 16
+    # Should the layer be hidden by default?
+    default-hidden: false
