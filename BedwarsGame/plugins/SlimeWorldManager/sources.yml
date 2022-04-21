@@ -1,0 +1,24 @@
+file:
+    path: slime_worlds
+mysql:
+    enabled: true
+    host: 10.10.10.2
+    port: 3306
+    username: mnc-bedwars
+    password: Si9Xd!9P59@k*q+Z=NF5;ba%9ciFHD_p
+    database: bedwars
+    usessl: true
+    sqlUrl: jdbc:mysql://{host}:{port}/{database}?autoReconnect=true&allowMultiQueries=true&useSSL={usessl}
+mongodb:
+    enabled: false
+    host: 127.0.0.1
+    port: 27017
+    auth: admin
+    username: slimeworldmanager
+    password: ''
+    database: slimeworldmanager
+    collection: worlds
+    uri: ''
+redis:
+    enabled: false
+    uri: redis://127.0.0.1/

@@ -1,0 +1,668 @@
+# You need to activate UseOwnLanguageFile to change the messages
+General:
+  Language: English
+  UseOwnLanguageFile: false
+  CloseInventoryOnReload: true
+  SendFriendshipInvitationsByHittingAPlayer: true
+  PermissionNoHide: partyandfriends.hide.nohide
+  DisableJump: false
+  DisableFriendMSG: false
+  UseSkeletonSkullForOfflinePlayer: true
+  SoundForHideGUI: true
+  PreventItemsOfGettingOverwritten: true
+  SendFriendRequestByRightClickingAndSneaking: false
+  AutoDownloadDependencies: true
+  SkinHeadDownload: true
+  Compatibility:
+    Warning: Switching any of these settings to false might result in incompatibilities
+      with some other plugins.
+    ResetCursorOnMenuSwitch: true
+    TicksUntilMessageChannelIsUsedAfterJoin: 10
+  SoundOfHideGUI: BLOCK_NOTE_BLOCK_BASS
+Design:
+  Lore:
+    ShowServerInLore: true
+    ShowLastOnlineTime: true
+  FriendsMenu:
+    Minimum-Lines: 5
+Commands:
+  FriendsGUI:
+    Enabled: true
+    Names:
+    - friendsgui
+  FriendSettings:
+    Enabled: true
+    Names:
+    - friendsettings
+  FriendRequest:
+    Enabled: true
+    Names:
+    - friendrequest
+  Hide:
+    Enabled: true
+    Names:
+    - hidegui
+    - hide
+  PartyGUI:
+    Enabled: true
+    Names:
+    - partygui
+Inventories:
+  ToolBar:
+    MultiWorld:
+      SupportMultiWorld: false
+      EnabledWorlds:
+      - world
+    HideItem:
+      CustomModelData: 0
+      Use: false
+      Place: 1
+      ItemData: BLAZE_ROD
+      MetaData: 0
+      Text: '&6Hide Players'
+      Permission: ''
+      UseCustomTexture: false
+      Base64CustomTexture: ''
+      Cooldown:
+        Time: 0
+        Message: '&8[&5&lFriends&8] &cPlease don''t use this item so often.'
+        ByPassPermission: partyandfriends.hideitem.cooldown
+    ProfileItem:
+      Use: false
+      Place: 8
+      Text: '&5Profile'
+      Permission: ''
+      AlwaysOpenFriendMenu: false
+      UsePlayerSkin: true
+      Cooldown:
+        Time: 0
+        Message: '&8[&5&lFriends&8] &cPlease don''t use this item so often.'
+        ByPassPermission: partyandfriends.profileitem.cooldown
+  EveryMenu:
+    BackItem:
+      CustomModelData: 0
+      Text: '&5Back%LINE_BREAK%&7Click on this item to%LINE_BREAK%&7return to the
+        main menu.'
+      ItemData: IRON_DOOR
+      MetaData: 0
+      UseCustomTexture: false
+      Base64CustomTexture: ''
+  MainMenuMenuBar:
+    DoNotShowItemIfCurrentMenu: false
+    PartyItem:
+      CustomModelData: 0
+      Use: false
+      ItemData: FIREWORK
+      MetaData: 0
+      Place: 4
+      Text: '&5Open party menu'
+      Permission: ''
+      UseCustomTexture: false
+      Base64CustomTexture: ''
+    FriendItem:
+      CustomModelData: 0
+      Use: false
+      ItemData: GOLD_HELMET
+      MetaData: 0
+      Place: 5
+      Text: '&eOpen friend menu'
+      Permission: ''
+      UseCustomTexture: false
+      Base64CustomTexture: ''
+    SettingsItem:
+      CustomModelData: 0
+      Use: false
+      Permission: ''
+      ItemData: REDSTONE_COMPARATOR
+      MetaData: 0
+      Text: '&7Settings%LINE_BREAK%&7Opens a menu where you can%LINE_BREAK%&7change
+        your settings.'
+      Place: 6
+      UseCustomTexture: false
+      Base64CustomTexture: ''
+    FriendRequestItem:
+      CustomModelData: 0
+      Use: false
+      Permission: ''
+      ItemData: PAPER
+      MetaData: 0
+      Text: '&5Friend requests%LINE_BREAK%&7Opens a menu where you can%LINE_BREAK%&7view
+        and accept or decline friend%LINE_BREAK%&7requests.'
+      Place: 7
+      UseCustomTexture: false
+      Base64CustomTexture: ''
+    PlaceHolderItem:
+      CustomModelData: 0
+      Use: false
+      MetaData: 15
+      Text: ' '
+      UseCustomTexture: false
+      Base64CustomTexture: ''
+      ItemData: BLACK_STAINED_GLASS_PANE
+    NextPageButton:
+      CustomModelData: 0
+      ItemData: SIGN
+      Text: '&aNext'
+      MetaData: 0
+      Place: 1
+      UseCustomTexture: false
+      Base64CustomTexture: ''
+    PreviousPageButton:
+      CustomModelData: 0
+      ItemData: SIGN
+      Text: '&aPrevious'
+      MetaData: 0
+      Place: 9
+      UseCustomTexture: false
+      Base64CustomTexture: ''
+    Own:
+      Example:
+        CustomModelData: 0
+        Use: false
+        ItemData: STONE
+        MetaData: 0
+        Text: A simple example. Click this command to let the player who is clicking
+          onto the item execute "/bar" command
+        Place: 0
+        Command: bar
+        BungeeCordCommand: false
+        KeepOpen: false
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+    GlowIfCurrentMenu: true
+  FriendMenu:
+    StartsWithOne: true
+    Name: '&5&lFriends &7Page '
+    PastPage: ''
+    OnlineFriends:
+      ShowServer: true
+      OnlineOn: '&7Online on &e[SERVER]'
+    OfflineFriends:
+      LastSeen: '&7Last seen at [LAST_SEEN]'
+    NoFriendsItem:
+      CustomModelData: 0
+      Use: false
+      ItemData: PAPER
+      MetaData: 0
+      Text: '&4You have not added any friends as yet.%LINE_BREAK%&4Add friends by
+        using &5/friend add&4.'
+      UseCustomTexture: false
+      Base64CustomTexture: ''
+    PlaceHolderItem:
+      CustomModelData: 0
+      Use: false
+      MetaData: 15
+      Text: ' '
+      UseCustomTexture: false
+      Base64CustomTexture: ''
+      ItemData: BLACK_STAINED_GLASS_PANE
+    Sorting:
+      Enabled: true
+      BackwardsMenubarPlace: 2
+      SortByLastOnline:
+        CustomModelData: 0
+        ItemData: NETHER_STAR
+        MetaData: 0
+        Text: '&dCurrently sorting by &blast online.'
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+      SortByAlphabeticAscending:
+        CustomModelData: 0
+        Use: true
+        ItemData: NETHER_STAR
+        MetaData: 0
+        Text: '&dCurrently sorting by &3ascending alphabetic order.'
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+      SortByAlphabeticDescending:
+        CustomModelData: 0
+        Use: true
+        ItemData: NETHER_STAR
+        MetaData: 0
+        Text: '&dCurrently sorting by &cdescending alphabetic order.'
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+      SortByFriendshipDuration:
+        CustomModelData: 0
+        Use: true
+        ItemData: NETHER_STAR
+        MetaData: 0
+        Text: '&dCurrently sorting by &5friendship duration.'
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+  HideInventory:
+    Size: 27
+    Name: '&6Hide Players'
+    HideModeItems:
+      ShowAll:
+        CustomModelData: 0
+        Text: '&aShow all players'
+        MetaData: 5
+        Place: 11
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+        ItemData: GREEN_TERRACOTTA
+      HideAll:
+        CustomModelData: 0
+        Text: '&cHide All Players'
+        Use: true
+        MetaData: 14
+        Place: 15
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+        ItemData: RED_TERRACOTTA
+      ShowOnlyFriendsAndPeopleOfTheServerTeam:
+        CustomModelData: 0
+        Text: '&eShow only friends and people of the server team'
+        Use: true
+        MetaData: 4
+        Place: 13
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+        ItemData: YELLOW_TERRACOTTA
+      ShowOnlyFriends:
+        CustomModelData: 0
+        Text: '&6Show only friends'
+        Use: true
+        MetaData: 1
+        Place: 12
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+        ItemData: ORANGE_TERRACOTTA
+      ShowOnlyPeopleOfTheServerTeamItem:
+        CustomModelData: 0
+        Text: '&5Show only people of the server team'
+        Use: true
+        MetaData: 10
+        Place: 14
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+        ItemData: PURPLE_TERRACOTTA
+      ShowOnlyPartyMembers:
+        CustomModelData: 0
+        Text: '&dShow only party members'
+        Use: true
+        MetaData: 6
+        Place: 16
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+        ItemData: PINK_TERRACOTTA
+    GlowIfSelectedHideMode: true
+    PlaceHolderItem:
+      CustomModelData: 0
+      Use: false
+      MetaData: 15
+      Text: ' '
+      UseCustomTexture: false
+      Base64CustomTexture: ''
+      ItemData: BLACK_STAINED_GLASS_PANE
+    Own:
+      Example:
+        CustomModelData: 0
+        Use: false
+        ItemData: STONE
+        MetaData: 0
+        Text: A simple example. Click this command to let the player who is clicking
+          onto the item execute "/bar" command
+        Place: 0
+        Command: bar
+        BungeeCordCommand: false
+        KeepOpen: false
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+  FriendDetailView:
+    Size: 27
+    PlaceHolderItem:
+      CustomModelData: 0
+      Use: false
+      MetaData: 15
+      Text: ' '
+      UseCustomTexture: false
+      Base64CustomTexture: ''
+      ItemData: BLACK_STAINED_GLASS_PANE
+    DeleteItem:
+      CustomModelData: 0
+      Use: false
+      MetaData: 0
+      Text: '&cRemove this friend%LINE_BREAK%&7If you click on this item your friend
+        will%LINE_BREAK%&7be removed from your friend list and you from his.'
+      Place: 10
+      UseCustomTexture: false
+      Base64CustomTexture: ''
+      ItemData: BARRIER
+    InviteIntoParty:
+      CustomModelData: 0
+      Use: false
+      ItemData: FIREWORK
+      MetaData: 0
+      Text: '&5Invite this player into your party%LINE_BREAK%§7If you click on this
+        item a%LINE_BREAK%&7party invite will be send to your friend.'
+      Place: 12
+      UseCustomTexture: false
+      Base64CustomTexture: ''
+    JumpTo:
+      CustomModelData: 0
+      Use: false
+      ItemData: WOOD_PLATE
+      MetaData: 0
+      Text: '&6Jump to this Player%LINE_BREAK%&7If you click on this item you will%LINE_BREAK%&7join
+        the server of your friend.'
+      Place: 13
+      UseCustomTexture: false
+      Base64CustomTexture: ''
+    Own:
+      Example1:
+        CustomModelData: 0
+        Use: false
+        OnlyOnline: true
+        ItemData: STONE
+        MetaData: 0
+        Text: A simple example. Click this command to execute "/foo <player>" command
+        Place: 11
+        Command: foo %player%
+        BungeeCordCommand: true
+        KeepOpen: false
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+      Example2:
+        CustomModelData: 0
+        Use: false
+        OnlyOnline: false
+        ItemData: STONE
+        MetaData: 0
+        Text: A simple example. Click this command to let the player who is clicking
+          onto the item execute "/bar" command
+        Place: 9
+        Command: bar
+        BungeeCordCommand: false
+        KeepOpen: false
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+    BackItem:
+      Use: false
+      Place: 16
+  ConfirmFriendDeleteMenu:
+    Use: false
+    Name: '&cRemove &7%PLAYER_NAME%'
+    Size: 27
+    FriendRemoveConfirmAccept:
+      CustomModelData: 0
+      Text: '&cConfirm to delete this friend from your friend list.'
+      UseCustomTexture: false
+      Base64CustomTexture: ''
+      Place: 11
+      ItemData: RED_TERRACOTTA
+    FriendRemoveConfirmDecline:
+      CustomModelData: 0
+      Use: false
+      Text: '&aDo not delete this friend from your friend list.'
+      UseCustomTexture: false
+      Base64CustomTexture: ''
+      Place: 15
+      ItemData: GREEN_TERRACOTTA
+    PlaceHolderItem:
+      CustomModelData: 0
+      Use: false
+      MetaData: 15
+      Text: ' '
+      UseCustomTexture: false
+      Base64CustomTexture: ''
+      ItemData: BLACK_STAINED_GLASS_PANE
+    Own:
+      Example1:
+        CustomModelData: 0
+        Use: false
+        ItemData: STONE
+        MetaData: 0
+        Text: A simple example. Click this command to execute "/foo <player>" command
+        Place: 10
+        Command: foo %player%
+        BungeeCordCommand: true
+        KeepOpen: false
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+  FriendRequestMenu:
+    Size: 45
+    Name: '&5&lFriend requests'
+    NoPendingFriendRequestsItem:
+      CustomModelData: 0
+      Use: false
+      ItemData: PAPER
+      MetaData: 0
+      Text: '&5You do not have any pending friend requests.'
+      UseCustomTexture: false
+      Base64CustomTexture: ''
+  FriendAcceptMenu:
+    PlaceHolderItem:
+      CustomModelData: 0
+      Use: false
+      MetaData: 15
+      Text: ' '
+      UseCustomTexture: false
+      Base64CustomTexture: ''
+      ItemData: BLACK_STAINED_GLASS_PANE
+    AcceptItem:
+      CustomModelData: 0
+      MetaData: 5
+      Text: '&aAccept friend request%LINE_BREAK%&7Click on this item%LINE_BREAK%&7to
+        accept the friend request.'
+      UseCustomTexture: false
+      Base64CustomTexture: ''
+      ItemData: GREEN_TERRACOTTA
+    DenyItem:
+      CustomModelData: 0
+      MetaData: 14
+      Text: '&cDecline the friend request%LINE_BREAK%&7Click on this item%LINE_BREAK%&7to
+        decline the friend request.'
+      UseCustomTexture: false
+      Base64CustomTexture: ''
+      ItemData: RED_TERRACOTTA
+  SettingsMenu:
+    Size: 45
+    Name: '&7&lSettings'
+    FirstItemPlace: 9
+    PlaceHolderItem:
+      CustomModelData: 0
+      Use: false
+      MetaData: 15
+      Text: ' '
+      UseCustomTexture: false
+      Base64CustomTexture: ''
+      ItemData: BLACK_STAINED_GLASS_PANE
+    FriendRequestSetting:
+      Activated: true
+      Priority: 1
+      Permission: ''
+      TopItem:
+        CustomModelData: 0
+        ItemData: PAPER
+        MetaData: 0
+        Text: '&5Do you want to receive friend requests?'
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+    PartyInviteSetting:
+      Activated: true
+      Priority: 2
+      Permission: ''
+      TopItem:
+        CustomModelData: 0
+        ItemData: FIREWORK
+        MetaData: 0
+        Text: '&5Do you want to receive party invitations from everybody?'
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+    ReceiveFriendMSG:
+      Activated: true
+      Priority: 3
+      Permission: ''
+      TopItem:
+        CustomModelData: 0
+        ItemData: BOOK
+        MetaData: 0
+        Text: '&aDo you want to receive messages?'
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+    ShowOnlineSetting:
+      Activated: true
+      Priority: 4
+      Permission: ''
+      TopItem:
+        CustomModelData: 0
+        ItemData: COMPASS
+        MetaData: 0
+        Text: '&aDo you want that your friends can see, that you are online?'
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+    NotifyOnlineStatusChange:
+      Activated: true
+      Priority: 5
+      Permission: ''
+      TopItem:
+        CustomModelData: 0
+        MetaData: 0
+        Text: '&aDo you want to receive a notification if a friend goes offline/online?'
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+        ItemData: EXPERIENCE_BOTTLE
+    FriendJumpSetting:
+      Activated: true
+      Priority: 6
+      Permission: ''
+      TopItem:
+        CustomModelData: 0
+        ItemData: WOOD_PLATE
+        MetaData: 0
+        Text: '&6Should your friends be allowed to jump to you?'
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+    CloseSettingsInventoryAutomatically: true
+    DelayedRefreshInTicks: 2
+  PartyGUI:
+    Enabled: false
+    MainMenu:
+      Minimum-Lines: 5
+      Name: '&5&lYour Party &7Page '
+      PastPage: ''
+      StartsWithOne: true
+      PlaceHolderItem:
+        CustomModelData: 0
+        Use: true
+        MetaData: 15
+        Text: ' '
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+        ItemData: BLACK_STAINED_GLASS_PANE
+      HowToCreateAPartyItem:
+        CustomModelData: 0
+        ItemData: PAPER
+        MetaData: 0
+        Text: '&4You are not in a party. Invite people into a party by using /party
+          invite'
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+      Leader:
+        Color: '&6'
+        Lore: '&7Party &5Leader'
+      PartyMembers:
+        Color: '&b'
+        Lore: '&7Party &6Member'
+        ShowServer: true
+      LeaveParty:
+        CustomModelData: 0
+        Use: true
+        MetaData: 0
+        Text: '&4Leave your party.'
+        Place: 2
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+        ItemData: BARRIER
+    PartyMemberDetailView:
+      Size: 27
+      Prefix: '&5Party &6Member: '
+      ShortPrefix: '&6Member: '
+      PlaceHolderItem:
+        Use: true
+        MetaData: 15
+        Text: ' '
+        ItemData: BLACK_STAINED_GLASS_PANE
+      KickItem:
+        CustomModelData: 0
+        Use: true
+        MetaData: 0
+        Text: '&cKick this player from the party'
+        Place: 10
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+        ItemData: BARRIER
+      MakeLeader:
+        CustomModelData: 0
+        Use: true
+        ItemData: BOOK_AND_QUILL
+        MetaData: 0
+        Text: '&eMakes this player the new leader of this party'
+        Place: 13
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+      BackItem:
+        CustomModelData: 0
+        Use: true
+        Place: 16
+        UseCustomTexture: false
+        Base64CustomTexture: ''
+      Own:
+        Example1:
+          CustomModelData: 0
+          Use: false
+          ItemData: STONE
+          MetaData: 0
+          Text: A simple example. Click this command to execute "/foo <player>" command
+          Place: 11
+          Command: foo %player%
+          BungeeCordCommand: true
+          KeepOpen: false
+          UseCustomTexture: false
+          Base64CustomTexture: ''
+        Example2:
+          CustomModelData: 0
+          Use: false
+          ItemData: STONE
+          MetaData: 0
+          Text: A simple example. Click this command to let the player who is clicking
+            onto the item execute "/bar" command
+          Place: 9
+          Command: bar
+          BungeeCordCommand: false
+          KeepOpen: false
+          UseCustomTexture: false
+          Base64CustomTexture: ''
+Messages:
+  Experimental:
+    Warning: Changing these values to a wrongly chosen one could break the gui for
+      some players. This value should only have a maximum length of 9 and has to be
+      at least 2 characters long. On cracked servers without name checking it still
+      might break the plugin for some people with special names. Those 2 values may
+      not be the same.
+    FriendHeadOnlineSuffix: Online
+    FriendHeadOfflineSuffix: Offline
+  YouReceiveFriendRequests: '&aYou will now friend requests'
+  YouReceiveNoFriendRequests: '&cYou will not receive friend requests'
+  YouReceivePartyInvitations: '&aYou will receive party invitations from everyone'
+  YouReceivePartyInvitationsOnlyFromFriends: '&cYou will only receive party invitations
+    from your friends'
+  YourStatusWillBeShownOnline: '&aYour online status will be shown'
+  YourStatusWillBeShownOffline: '&cYour online status will not be shown'
+  YouReceiveOnlineStatusNotifcation: '&aYou will receive a notification when a friend
+    of yours goes online/offline'
+  YouDoNotReceiveOnlineStatusNotifcation: '&cYou will not receive a notification when
+    a friend of yours goes online/offline'
+  YouReceiveMessages: '&aYou will receive messages'
+  YouWontReceiveMessages: '&cYou will not receive messages'
+  JumpAllowed: '&aFriends can jump to you'
+  NoJump: '&cNo one can jump to you'
+  ErrorTheNameIsToLong: '&8[&5&lFriends&8]&r &7The name of the player is too long.
+    Please use the command /friend instead of the GUI'
+  FriendPlayerColorOnline: '&5'
+  FriendsStatusOnlineColor: '&a'
+  FriendPlayerColorOffline: '&7'
+  FriendsStatusOfflineColor: '&c'
+  FriendRequestFriendColor: '&7'

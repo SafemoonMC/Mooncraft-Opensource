@@ -1,0 +1,27 @@
+space-between-lines: 0.01
+quick-edit-commands: true
+bungee:
+  refresh-seconds: 3
+  use-RedisBungee: false
+  pinger:
+    enable: false
+    timeout: 500
+    offline-motd: '&cOffline, couldn''t get the MOTD.'
+    status:
+      online: '&aOnline'
+      offline: '&cOffline'
+    motd-remove-leading-trailing-spaces: true
+    servers: []
+time:
+  format: H:mm
+  zone: GMT+1
+update-notification: true
+debug: false
+image-rendering:
+  transparent-pixel: '&7 [|] '
+  solid-pixel: '[x]'
+images:
+  symbol: '[x]'
+  transparency:
+    space: ' [|] '
+    color: '&7'

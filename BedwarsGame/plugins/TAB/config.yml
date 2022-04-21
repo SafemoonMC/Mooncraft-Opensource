@@ -1,0 +1,93 @@
+scoreboard-teams:
+  enabled: true
+  invisible-nametags: false
+  anti-override: true
+  enable-collision: false
+  sorting-types: []
+  case-sensitive-sorting: true
+  disable-in-worlds: []
+  unlimited-nametag-mode:
+    enabled: false
+    use-marker-tag-for-1-8-x-clients: false
+    disable-on-boats: true
+    space-between-lines: true
+    disable-in-worlds: []
+    dynamic-lines:
+    - abovename
+    - belowname
+    - nametag
+    - another
+    static-lines:
+tablist-name-formatting:
+  enabled: false
+  align-tabsuffix-on-the-right: false
+  character-width-overrides: {}
+  anti-override: true
+  disable-in-worlds: []
+header-footer:
+  enabled: false
+  disable-in-worlds: []
+  header: []
+  footer: []
+  per-world: {}
+yellow-number-in-tablist:
+  enabled: false
+  value: ''
+  disable-in-worlds: []
+belowname-objective:
+  enabled: true
+  number: '%player_health_rounded%'
+  text: '&c❤'
+  disable-in-worlds: []
+prevent-spectator-effect:
+  enabled: false
+bossbar:
+  enabled: false
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  default-bars: []
+  bars:
+per-world-playerlist:
+  enabled: true
+  allow-bypass-permission: false
+  ignore-effect-in-worlds: []
+  shared-playerlist-world-groups: null
+scoreboard:
+  enabled: true
+  toggle-command: /sbtoggle
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: true
+  static-number: 0
+  disable-in-worlds: []
+  scoreboards:
+  respect-other-plugins: true
+  delay-on-join-milliseconds: 0
+ping-spoof:
+  enabled: false
+fix-pet-names:
+  enabled: false
+placeholders:
+  date-format: MM/dd/yyyy
+  remove-strings: []
+  time-offset: 0.0
+  time-format: '[HH:mm:ss / h:mm a]'
+placeholder-output-replacements:
+conditions: {}
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 100
+  server: null
+  player:
+    "%player_health_rounded%": 100
+  relational: null
+assign-groups-by-permissions: false
+primary-group-finding-list: []
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password

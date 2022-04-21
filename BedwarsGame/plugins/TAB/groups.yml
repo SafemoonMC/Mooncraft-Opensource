@@ -1,0 +1,3 @@
+per-world: {}
+_DEFAULT_:
+  belowname: '%health% Health'
