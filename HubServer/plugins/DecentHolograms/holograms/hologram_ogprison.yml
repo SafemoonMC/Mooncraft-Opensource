@@ -1,0 +1,18 @@
+location: mooncraft_hub:214.500:66.960:1191.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&6&lAlcatraz Prison'
+    height: 0.3
+  - content: '&u%msminecraft_players-ogp% &7Players'
+    height: 0.3
+  - content: '&bClick to join!'
+    height: 0.3
+  actions: {}
+  always-face-player: true

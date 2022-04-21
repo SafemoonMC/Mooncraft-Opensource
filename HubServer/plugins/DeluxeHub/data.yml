@@ -1,0 +1,9 @@
+chat_locked: false
+spawn:
+  ==: org.bukkit.Location
+  world: mooncraft_hub
+  x: 222.57926923679398
+  y: 63.0
+  z: 1223.5021993760258
+  pitch: -2.2499871
+  yaw: 180.0002

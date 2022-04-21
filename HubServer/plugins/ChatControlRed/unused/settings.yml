@@ -1,0 +1,28 @@
+Tag:
+  Change_Customname: false
+List:
+  Sort_Prefix: '{player_group}'
+  Format_Line: list
+  Sort_By: group
+  Format: ' &7{count}. &f{player_name}'
+  Format_Hover:
+  - '&7Server: &f{player_server}'
+  - '&7Nick: &f{player_nick}'
+  - '&7Vanished: &f{player_is_vanished}'
+  - '&7Channels: &f{player_channels}'
+Channels:
+  Autojoin_On_Reload: false
+UUID_Lookup: true
+Register_Tools: false
+Integration:
+  Discord:
+    Forward_From_Bungee: false
+  TownyChat:
+    Spy_Channels_Whitelist:
+    - '@blacklist'
+Motd:
+  Commands:
+    Console: []
+    Player: []
+Clear_Cache_On_Disconnect: false
+Sync_Period: 1 second

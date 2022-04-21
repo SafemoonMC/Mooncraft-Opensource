@@ -1,0 +1,38 @@
+# This is the Message file for all Gravity Tubes messages.
+# 
+# All messages are fully customizable and support color codes, formatting and ASCII symbols.
+# Set the Prefix and use %prefix% to add the corresponding prefix to a message.
+# Prepend any message with <ActionBar> to send it as an ActionBar message.
+# Leave a message blank ('') to disable it.
+# 
+# You can also create messages with Hover and Click events. Syntax options: (Space between comma and quote is NOT allowed)
+#  - ["Message","/Command"]
+#  - ["Message","Hover"]
+#  - ["Message","/Command","Hover"]
+#  - ["Message","/Command","Suggest"]
+#  - ["Message","/Command","Hover","Suggest"]
+# You can add as many events to a message as you want. Example:
+# '%prefix% &cInvalid arguments! ["&c&n&oHelp","/gravitytubes help","&aClick to get help!"]'
+# The "Suggest" tag is used if the click event should suggest the command. Default is Run.
+
+
+Prefix: '&7[&eGravity Tubes&7]'
+Messages:
+  General:
+    InvalidPermission: '%prefix% &cYou do not have permission to do this!'
+    NoCommands: Unknown command. Type "/help" for help.
+    PlayerOnly: '%prefix% &cCommand can only be used as a Player!'
+    InvalidArguments: '%prefix% &cInvalid arguments! ["&c&n&oHelp","/gravitytubes
+      help","&aClick to get help!"]'
+  GravityTubes:
+    TubeCreated: '%prefix% &aGravity tube created!'
+    TubeRemoved: '%prefix% &aGravity tube removed!'
+    CantCreate: '%prefix% &cCan''t create a gravity tube here!'
+    NoTube: '%prefix% &cNo gravity tube found at the targeted location!'
+    SettingReset: '%prefix% &aThe setting was set to the default!'
+    SettingSet: '%prefix% &aThe setting was successfully set to the specified value!'
+    SettingInvalid: '%prefix% &cThe setting was not available for this tube!'
+    InCombat: '%prefix% &cYou can''t use Gravity Tubes when in combat!'
+  Admin:
+    ConfigurationsReloaded: '%prefix% &aConfiguration files successfully reloaded!'
+    UnsafeTeleport: '%prefix% &cThere is no safe destination at the gravity tube!'

@@ -1,0 +1,6 @@
+speed: 20
+pause: 20
+steps:
+- '&f&l'
+- '&b&l'
+- '&3&l'

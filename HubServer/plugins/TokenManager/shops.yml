@@ -1,0 +1,93 @@
+#-----------------------------------------------------------------------------------------
+#
+# Helpful Information:
+#
+# - Item names: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+#
+#
+# - Enchantment names: http://pastebin.com/0WktGa59
+#
+# - (Example of adding an enchantment)
+# - displayed: 276 1 sharpness:3 smite:2 unbreaking:3
+#
+#
+# - PotionEffect names: http://pastebin.com/eghUaTuJ
+#
+# - (Example of adding a custom potion effect to your displayed potion item)
+# - displayed: 373:8258 1 strength:2:200 speed:3:600
+# [In this case, the item displayed will have Strength II (0:10) and Speed III (0:30).]
+#
+#
+# [IMPORTANT]
+# In Minecraft 1.9, potions & mob spawn eggs no longer use durability to specify the type.
+#
+# NOTE: In Minecraft 1.13, Spawn Eggs were given their own material name!
+#
+#  (1.9+ - 1.12.2) - Example of setting mob spawn egg (zombie) as a displayed item
+#
+#  displayed: MONSTER_EGG:ZOMBIE 1 name:&9Purchase_a_Zombie_Spawn_Egg!
+#
+#
+#  (1.9+) - Example of setting potion (splash strength II) as a displayed item
+#
+#  displayed: POTION:STRENGTH-strong-splash 1 name:&cSplash_Potion_of_Strength_II
+#
+#
+#  (1.9+) - Example of setting potion (speed I extended) as a displayed item
+#
+#  displayed: POTION:SPEED-extended 1 name:&bPotion_of_Speed_(Extended)
+#
+#
+# - 1.9+ Potions: http://minecraft.gamepedia.com/Potion#Data_values
+#
+#-----------------------------------------------------------------------------------------
+
+shops:
+  main: # Name of your shop
+    title: '&0Coin Shop' # Title of the inventory gui displayed in-game
+    rows: 2 # Rows of your shop inventory, must be a number between 1 - 6
+    auto-close: true # 'true' to close the shop inventory when a player purchases an item
+    items:
+      '0':
+        displayed: CHEST 1 name:&cRanks_Shop
+        cost: 0
+        subshop: ranks
+      '17':
+        displayed: GOLD_BLOCK 1 name:&3Balance:_&f%tokens%_&bCoins
+        cost: 0
+        subshop: main
+  ranks:
+    title: '&0Ranks'
+    rows: 1
+    use-permission: true # 'true' to require players to have the permission 'tokenmanager.use.examplesubshop2' to access this shop
+    confirm-purchase: true # 'true' to open a confirm purchase gui for every item in this shop inventory with a cost over 0
+    items:
+      '0':
+        displayed: coal 1 name:&fPaperHands lore:&fThis_grants_you_the_PaperHands_Rank|&3Price:&b_%price%_Coins
+        cost: 1000
+        commands:
+        - 'lp user %player% group add paperhands'
+      '1':
+        displayed: iron_ingot 1 name:&2Holder lore:&fThis_grants_you_the_Holder_Rank|&3Price:&b_%price%_Coins
+        cost: 2500
+        commands:
+        - 'lp user %player% group add holder'
+      '2':
+        displayed: gold_ingot 1 name:&6Investor lore:&fThis_grants_you_the_Investor_Rank|&3Price:&b_%price%_Coins
+        cost: 5000
+        commands:
+        - 'lp user %player% group add investor'
+      '3':
+        displayed: diamond 1 name:&aTrader lore:&fThis_grants_you_the_Trader_Rank|&3Price:&b_%price%_Coins
+        cost: 10000
+        commands:
+        - 'lp user %player% group add trader'
+      '4':
+        displayed: emerald 1 name:&bDiamondHands lore:&fThis_grants_you_the_DiamondHands_Rank|&3Price:&b_%price%_Coins
+        cost: 20000
+        commands:
+        - 'lp user %player% group add diamondhands'
+      '8':
+        displayed: REDSTONE_BLOCK 1 name:&cGo_Back
+        cost: 0
+        subshop: main

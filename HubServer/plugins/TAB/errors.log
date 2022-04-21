@@ -1,0 +1,58 @@
+05.02.2022 - 13:49:49 - [TAB v3.0.1] left side of numeric condition only accepts numeric values! (Attempted to use "%viaversion_player_protocol_id%")
+07.02.2022 - 10:19:58 - [TAB v3.0.1] left side of numeric condition only accepts numeric values! (Attempted to use "%ultimateautorestart_seconds%")
+09.02.2022 - 00:00:32 - [TAB v3.0.1] left side of numeric condition only accepts numeric values! (Attempted to use "%ultimateautorestart_seconds%")
+10.02.2022 - 00:00:32 - [TAB v3.0.1] left side of numeric condition only accepts numeric values! (Attempted to use "%ultimateautorestart_seconds%")
+11.02.2022 - 00:00:34 - [TAB v3.0.1] left side of numeric condition only accepts numeric values! (Attempted to use "%ultimateautorestart_seconds%")
+12.02.2022 - 00:52:40 - [TAB v3.0.1] An error occurred when refreshing placeholders
+12.02.2022 - 00:52:40 - java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because the return value of "java.util.Map.get(Object)" is null
+12.02.2022 - 00:52:40 -        at TAB_v3.0.1.jar//me.neznamy.tab.shared.placeholders.PlayerPlaceholderImpl.update(PlayerPlaceholderImpl.java:55)
+12.02.2022 - 00:52:40 -        at TAB_v3.0.1.jar//me.neznamy.tab.shared.features.PlaceholderManagerImpl.updatePlayerPlaceholder(PlaceholderManagerImpl.java:137)
+12.02.2022 - 00:52:40 -        at TAB_v3.0.1.jar//me.neznamy.tab.shared.features.PlaceholderManagerImpl.refresh(PlaceholderManagerImpl.java:71)
+12.02.2022 - 00:52:40 -        at TAB_v3.0.1.jar//me.neznamy.tab.shared.TabRepeatingTask.lambda$createTask$0(TabRepeatingTask.java:41)
+12.02.2022 - 00:52:40 -        at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+12.02.2022 - 00:52:40 -        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+12.02.2022 - 00:52:40 -        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+12.02.2022 - 00:52:40 -        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+12.02.2022 - 00:52:40 -        at java.base/java.lang.Thread.run(Thread.java:833)
+13.02.2022 - 00:00:30 - [TAB v3.0.1] left side of numeric condition only accepts numeric values! (Attempted to use "%ultimateautorestart_seconds%")
+14.02.2022 - 12:36:10 - [TAB v3.0.1] An error occurred when processing PlayerQuitEvent
+14.02.2022 - 12:36:10 - java.lang.NullPointerException: Cannot invoke "me.neznamy.tab.shared.features.scoreboard.ScoreboardImpl.getPlayers()" because the return value of "java.util.Map.get(Object)" is null
+14.02.2022 - 12:36:10 -        at TAB_v3.0.1.jar//me.neznamy.tab.shared.features.scoreboard.ScoreboardManagerImpl.unregisterScoreboard(ScoreboardManagerImpl.java:181)
+14.02.2022 - 12:36:10 -        at TAB_v3.0.1.jar//me.neznamy.tab.shared.features.scoreboard.ScoreboardManagerImpl.onQuit(ScoreboardManagerImpl.java:163)
+14.02.2022 - 12:36:10 -        at TAB_v3.0.1.jar//me.neznamy.tab.shared.FeatureManagerImpl.onQuit(FeatureManagerImpl.java:117)
+14.02.2022 - 12:36:10 -        at TAB_v3.0.1.jar//me.neznamy.tab.platforms.bukkit.BukkitEventListener.lambda$onQuit$0(BukkitEventListener.java:31)
+14.02.2022 - 12:36:10 -        at TAB_v3.0.1.jar//me.neznamy.tab.shared.CpuManager.lambda$submit$4(CpuManager.java:151)
+14.02.2022 - 12:36:10 -        at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+14.02.2022 - 12:36:10 -        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+14.02.2022 - 12:36:10 -        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+14.02.2022 - 12:36:10 -        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+14.02.2022 - 12:36:10 -        at java.base/java.lang.Thread.run(Thread.java:833)
+15.02.2022 - 00:00:27 - [TAB v3.0.1] left side of numeric condition only accepts numeric values! (Attempted to use "%ultimateautorestart_seconds%")
+19.02.2022 - 00:00:29 - [TAB v3.0.1] left side of numeric condition only accepts numeric values! (Attempted to use "%ultimateautorestart_seconds%")
+19.02.2022 - 20:00:12 - [TAB v3.0.1] left side of numeric condition only accepts numeric values! (Attempted to use "%viaversion_player_protocol_id%")
+20.02.2022 - 07:37:26 - [TAB v3.0.1] left side of numeric condition only accepts numeric values! (Attempted to use "%viaversion_player_protocol_id%")
+22.02.2022 - 13:01:51 - [TAB v3.0.1] Group "communitymanager" is not defined in group sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "communitymanager" into GROUPS sorting type in config.yml. Your current list: [owner, manager, developer, administrator, srmoderator, moderator, helper, media, diamondhands, trader, investor, holder, paperhands, default]
+23.02.2022 - 00:00:27 - [TAB v3.0.1] left side of numeric condition only accepts numeric values! (Attempted to use "%ultimateautorestart_seconds%")
+23.02.2022 - 13:05:54 - [TAB v3.0.1] Group "communitymanager" is not defined in group sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "communitymanager" into GROUPS sorting type in config.yml. Your current list: [owner, manager, developer, administrator, srmoderator, moderator, helper, media, diamondhands, trader, investor, holder, paperhands, default]
+24.02.2022 - 15:11:58 - [TAB v3.0.1] Group "communitymanager" is not defined in group sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "communitymanager" into GROUPS sorting type in config.yml. Your current list: [owner, manager, developer, administrator, srmoderator, moderator, helper, media, diamondhands, trader, investor, holder, paperhands, default]
+26.02.2022 - 20:51:38 - [TAB v3.0.1] Group "communitymanager" is not defined in group sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "communitymanager" into GROUPS sorting type in config.yml. Your current list: [owner, manager, developer, administrator, srmoderator, moderator, helper, media, diamondhands, trader, investor, holder, paperhands, default]
+27.02.2022 - 11:58:18 - [TAB v3.0.1] Group "communitymanager" is not defined in group sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "communitymanager" into GROUPS sorting type in config.yml. Your current list: [owner, manager, developer, administrator, srmoderator, moderator, helper, media, diamondhands, trader, investor, holder, paperhands, default]
+28.02.2022 - 08:37:51 - [TAB v3.0.1] Group "communitymanager" is not defined in group sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "communitymanager" into GROUPS sorting type in config.yml. Your current list: [owner, manager, developer, administrator, srmoderator, moderator, helper, media, diamondhands, trader, investor, holder, paperhands, default]
+28.02.2022 - 11:50:13 - [TAB v3.0.1] left side of numeric condition only accepts numeric values! (Attempted to use "%viaversion_player_protocol_id%")
+01.03.2022 - 11:12:59 - [TAB v3.0.1] Group "communitymanager" is not defined in group sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "communitymanager" into GROUPS sorting type in config.yml. Your current list: [owner, manager, developer, administrator, srmoderator, moderator, helper, media, diamondhands, trader, investor, holder, paperhands, default]
+02.03.2022 - 07:11:11 - [TAB v3.0.1] Group "communitymanager" is not defined in group sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "communitymanager" into GROUPS sorting type in config.yml. Your current list: [owner, manager, developer, administrator, srmoderator, moderator, helper, media, diamondhands, trader, investor, holder, paperhands, default]
+05.03.2022 - 15:42:00 - [TAB v3.0.1] Group "communitymanager" is not defined in group sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "communitymanager" into GROUPS sorting type in config.yml. Your current list: [owner, manager, developer, administrator, srmoderator, moderator, helper, media, diamondhands, trader, investor, holder, paperhands, default]
+08.03.2022 - 07:03:13 - [TAB v3.0.1] Group "communitymanager" is not defined in group sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "communitymanager" into GROUPS sorting type in config.yml. Your current list: [owner, manager, developer, administrator, srmoderator, moderator, helper, media, diamondhands, trader, investor, holder, paperhands, default]
+12.03.2022 - 00:33:29 - [TAB v3.0.1] Group "communitymanager" is not defined in group sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "communitymanager" into GROUPS sorting type in config.yml. Your current list: [owner, manager, developer, administrator, srmoderator, moderator, helper, media, diamondhands, trader, investor, holder, paperhands, default]
+25.03.2022 - 11:02:43 - [TAB v3.0.1] An error occurred when refreshing placeholders
+25.03.2022 - 11:02:43 - java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because the return value of "java.util.Map.get(Object)" is null
+25.03.2022 - 11:02:43 -        at TAB_v3.0.1.jar//me.neznamy.tab.shared.placeholders.PlayerPlaceholderImpl.update(PlayerPlaceholderImpl.java:55)
+25.03.2022 - 11:02:43 -        at TAB_v3.0.1.jar//me.neznamy.tab.shared.features.PlaceholderManagerImpl.updatePlayerPlaceholder(PlaceholderManagerImpl.java:137)
+25.03.2022 - 11:02:43 -        at TAB_v3.0.1.jar//me.neznamy.tab.shared.features.PlaceholderManagerImpl.refresh(PlaceholderManagerImpl.java:71)
+25.03.2022 - 11:02:43 -        at TAB_v3.0.1.jar//me.neznamy.tab.shared.TabRepeatingTask.lambda$createTask$0(TabRepeatingTask.java:41)
+25.03.2022 - 11:02:43 -        at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+25.03.2022 - 11:02:43 -        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+25.03.2022 - 11:02:43 -        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+25.03.2022 - 11:02:43 -        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+25.03.2022 - 11:02:43 -        at java.base/java.lang.Thread.run(Thread.java:833)
+02.04.2022 - 03:23:09 - [TAB v3.0.1] left side of numeric condition only accepts numeric values! (Attempted to use "%viaversion_player_protocol_id%")

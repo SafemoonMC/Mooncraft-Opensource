@@ -1,0 +1,7 @@
+locations:
+  fuel1:
+    world: mooncraft_hub
+    x: 217
+    y: 63
+    z: 1216
+    particle: Spiral

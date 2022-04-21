@@ -1,0 +1,25 @@
+bossbar-enabled: true
+bossbar-toggle-command: /bossbar
+permission-required-to-toggle: true
+remember-toggle-choice: false
+hidden-by-default: false
+default-bars:
+- ServerInfo
+per-world:
+  testworld:
+  - test
+bars:
+  ServerInfo:
+    permission-required: false
+    refresh: 300
+    style: PROGRESS
+    color: PINK
+    progress: '100'
+    text: '%animation:MyAnimation1%'
+  test:
+    permission-required: false
+    refresh: 100
+    style: PROGRESS
+    color: WHITE
+    progress: '100'
+    text: test

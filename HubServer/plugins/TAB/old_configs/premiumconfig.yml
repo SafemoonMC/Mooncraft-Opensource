@@ -1,0 +1,62 @@
+sorting-type: GROUPS
+sorting-placeholder: "%some_level_maybe?%"
+case-sentitive-sorting: true
+unlimited-nametag-mode-dynamic-lines:
+  - abovename
+  - nametag
+  - belowname
+  - another
+unlimited-nametag-mode-static-lines:
+  myCustomLine: 0.66
+#for bungee mode it counts as "server" instead of "world", such as disable in servers
+scoreboard:
+  enabled: true
+  toggle-command: /sbtoggle
+  #tab.togglescoreboard
+  permission-required-to-toggle: true
+  remember-toggle-choice: false
+  #initially hidden until players run toggle command
+  hidden-by-default: false
+  use-numbers: true
+  static-number: 0
+  disable-in-worlds: 
+    - disabledworld
+  default-scoreboard: "default"
+  per-world: {}
+scoreboards:
+  default:
+    title: ' &b⁂ %animation:web% &b⁂ '
+    lines:
+    - '        &7%server_time_MMM d%'
+    - '&b&l%player%'
+    - '&3&l| &7Rank: &f%vault_group_capital%'
+    - '&3&l| &7Cosmetic Dust: &f%gadgetsmenu_mystery_dust%'
+    - '&3&l| &7Cosmetic Boxes: &f%gadgetsmenu_mystery_boxes%'
+    - '&r'
+    - '&b&lNetwork'
+    - '&3&l| &7Players: &f%bungee_total%'
+    - '&3&l| &7Mooncoins: &f%tm_tokens%'
+    - '&r'
+    - '&b&lCollect'
+    - '&3&l| &7Fuel Cells: &f%souls_collected%/%souls_total%'
+    - '&3&l| &7Cosmetics: &f%gadgetsmenu_unlocked_total%/%gadgetsmenu_total_size%'
+    - '&r'
+    - '&b    &n&lmooncraft.gg'
+scoreboard-on: "&7Scoreboard &aON"
+scoreboard-off: "&7Scoreboard &cOFF"
+placeholder-output-replacements:
+  "%essentials_vanished%":
+    "yes": "&7| Vanished"
+    "no": ""
+  "%tps%":
+    "20": "&aPerfect"  
+align-tabsuffix-on-the-right: false
+extra-character-widths: {}
+conditions:
+  health:
+    conditions:
+      - "%health%<21"
+      - "%health%>15"
+    type: AND
+    yes: "Healthy!"
+    no: "Damaged!"

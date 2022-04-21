@@ -1,0 +1,22 @@
+location: mooncraft_hub:222.500:67.560:1192.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&a&lProgress:'
+    height: 0.3
+  - content: '&b||||||||||||||&7|||||||| &a70%'
+    height: 0.3
+  - content: '&c&lUnder Development'
+    height: 0.3
+  - content: '&5&lStarfruit Skyblock'
+    height: 0.3
+  - content: '&u%msminecraft_players-sf% &7Players'
+    height: 0.3
+  actions: {}
+  always-face-player: true

@@ -1,0 +1,16 @@
+location: mooncraft_hub:139.500:61.000:1202.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&b&lObservation Deck'
+    height: 0.3
+  - content: '&3Floor 1 &7➤ &3Floor 2 &aJUMP&7!'
+    height: 0.3
+  actions: {}
+  always-face-player: true

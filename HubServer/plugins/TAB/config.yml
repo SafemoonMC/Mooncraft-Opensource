@@ -1,0 +1,231 @@
+scoreboard-teams:
+  enabled: true
+  invisible-nametags: false
+  anti-override: true
+  enable-collision: false
+  sorting-types:
+  - GROUPS:owner,manager,developer,administrator,srmoderator,moderator,helper,media,diamondhands,trader,investor,holder,paperhands,default
+  - PLACEHOLDER_A_TO_Z:%player%
+  case-sensitive-sorting: true
+  disable-in-worlds:
+  - disabledworld
+  unlimited-nametag-mode:
+    enabled: true
+    use-marker-tag-for-1-8-x-clients: false
+    disable-on-boats: true
+    space-between-lines: true
+    disable-in-worlds:
+    - disabledworld
+    dynamic-lines:
+    - abovename
+    - nametag
+    - belowname
+    - another
+    static-lines:
+      myCustomLine: 0.66
+tablist-name-formatting:
+  enabled: false
+  align-tabsuffix-on-the-right: false
+  character-width-overrides: {}
+  anti-override: true
+  disable-in-worlds:
+  - disabledworld
+header-footer:
+  enabled: false
+  disable-in-worlds:
+  - disabledworld
+  header:
+  - '&r'
+  - '&5&l→&d&l→&f&l→ %animation:web% &f&l←&d&l←&5&l←'
+  - '&r'
+  footer:
+  - '&r'
+  - '&dPlayers: &f%bungee_total% &dPing: &f%ping%'
+  - '&dUptime: &f%server_uptime%'
+  - ''
+  - '&fJoin us @ &5kjfsjdkfhbsjkfkj'
+  - ''
+  per-world:
+    world2-world3:
+      header:
+      - This is a shared header for
+      - world2 and world3
+    world1:
+      footer:
+      - header/footer and prefix/suffix
+      header:
+      - an example of world with custom
+yellow-number-in-tablist:
+  enabled: false
+  value: ''
+  disable-in-worlds:
+  - disabledworld
+belowname-objective:
+  enabled: false
+  number: '%health%'
+  text: Health
+  disable-in-worlds:
+  - disabledworld
+prevent-spectator-effect:
+  enabled: false
+bossbar:
+  enabled: true
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  default-bars:
+  - ServerInfo
+  bars:
+    ServerInfo:
+      permission-required: false
+      refresh: 300
+      style: PROGRESS
+      color: BLUE
+      progress: '100'
+      text: '%animation:MyAnimation1%'
+    test:
+      permission-required: false
+      refresh: 100
+      style: PROGRESS
+      color: WHITE
+      progress: '100'
+      text: test
+      display-condition: '%world%=testworld'
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds:
+  - ignoredworld
+  - build
+  shared-playerlist-world-groups:
+    lobby:
+    - lobby1
+    - lobby2
+    minigames:
+    - paintball
+    - bedwars
+scoreboard:
+  enabled: true
+  toggle-command: /sbtoggle
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: true
+  static-number: 0
+  disable-in-worlds:
+  - disabledworld
+  scoreboards:
+    rebooting:
+      display-condition: "%ultimateautorestart_seconds%<60"
+      title: ' &b☄ %animation:web% &b☄ '
+      lines:
+      - '              &7%server_time_MMM d%'
+      - '&r'
+      - '&cServer rebooting soon!'
+      - '&cReboot In: &e%ultimateautorestart_seconds%s'
+      - '&c'
+      - '&cPlease rejoin in a few minutes.'
+      - '&r'
+      - '&b&l    play.mooncraft.gg'
+    default:
+      display-condition: "%viaversion_player_protocol_id%>335"
+      title: ' &b☄ %animation:web% &b☄ '
+      lines:
+      - '           &7%server_time_MMM d%'
+      - '&b&lPlayer'
+      - '&3&l| &7Rank: &f%vault_group_capital%'
+      - '&3&l| &7Cosmetic Dust: &f%gadgetsmenu_mystery_dust%'
+      - '&3&l| &7Cosmetic Boxes: &f%gadgetsmenu_mystery_boxes%'
+      - '&r'
+      - '&b&lNetwork'
+      - '&3&l| &7Players: &f%bungee_total%'
+      - '&3&l| &7Mooncoins: &f0'
+      - '&r'
+      - '&b&lCollectibles'
+      - '&3&l| &7Fuel Cells: &f%souls_collected%/%souls_total% &e⚡'
+      - '&3&l| &7Cosmetics: &f%gadgetsmenu_unlocked_total%/%gadgetsmenu_total_size%'
+      - '&r'
+      - '  &b&l&nplay.mooncraft.gg'
+    defaultfixed:
+      display-condition: "%viaversion_player_protocol_id%<=335"
+      title: ' &b☄ %animation:web% &b☄ '
+      lines:
+      - '           &7%server_time_MMM d%'
+      - '&b&lPlayer'
+      - '&3* &7Rank: &f%vault_group_capital%'
+      - '&3* &7Cosmetic Dust: &f%gadgetsmenu_mystery_dust%'
+      - '&3* &7Cosmetic Boxes: &f%gadgetsmenu_mystery_boxes%'
+      - '&r'
+      - '&b&lNetwork'
+      - '&3* &7Players: &f%bungee_total%'
+      - '&3* &7Mooncoins: &f0'
+      - '&r'
+      - '&b&lCollectibles'
+      - '&3* &7Fuel Cells: &f%souls_collected%/%souls_total%'
+      - '&3* &7Cosmetics: &f%gadgetsmenu_unlocked_total%/%gadgetsmenu_total_size%'
+      - '&r'
+      - '&b&l  play.mooncraft.gg'
+  respect-other-plugins: true
+  delay-on-join-milliseconds: 100
+ping-spoof:
+  enabled: false
+fix-pet-names:
+  enabled: false
+placeholders:
+  date-format: MM.dd.yyyy
+  time-format: h:mm a
+  time-offset: 0
+  remove-strings:
+  - '[]'
+  - < >
+placeholder-output-replacements:
+  '%essentials_vanished%':
+    'yes': '&7| Vanished'
+    'no': ''
+  '%tps%':
+    '20': '&aPerfect'
+  '%afk%':
+    'true': ''
+    'false': ''
+conditions:
+  health:
+    conditions:
+    - '%health%<21'
+    - '%health%>15'
+    type: AND
+    true: Healthy!
+    false: Damaged!
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 100
+  server:
+    '%server_uptime%': 1000
+    '%server_tps_1_colored%': 1000
+  player:
+    '%player_health%': 200
+    '%player_ping%': 1000
+    '%vault_prefix%': 1000
+  relational:
+    '%rel_factionsuuid_relation_color%': 500
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- owner
+- manager
+- developer
+- administrator
+- srmoderator
+- moderator
+- helper
+- media
+- diamondhands
+- trader
+- investor
+- holder
+- paperhands
+- default
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password

@@ -1,0 +1,152 @@
+[
+  {
+    "id": 0,
+    "hasGlow": false,
+    "hasLookAt": false,
+    "hasMirror": false,
+    "hasToggleHolo": true,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYyNzEwOTEwOTA0NiwKICAicHJvZmlsZUlkIiA6ICIxNzhmMTJkYWMzNTQ0ZjRhYjExNzkyZDc1MDkzY2JmYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJzaWxlbnRkZXRydWN0aW9uIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg1ZWQyNGUyMTZlNjA3NzQ4ZTNkZTA3ZmMzZTJmZjA0MWU3ODk3ZjVkOWUyMmFhZjRhMDU5NTQxM2VmNTFjYyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+    "signature": "sQeLOGyUDMPm3jwtwyTRlEJKnXt4RhWuEZBEePjQy68EZSrZpxsqPCK2dB1bP3kms5cjcQXYzej6YcaNn7OwzfmAmHthpgrOfGis01txOeoHVLyjH3hDvBbX3FrWhg+BLd8qEyUaNE6+sv9O2kwgAbuH1DSD/JNZjjngetxFbo8SvnjcvM5HPZHM0GfozKGOe8rI3ua0vrvjRzTlirS+jT8VcPqrbwuYJ60PjLXvG0/qI/Odc2dg1rD1wiJ+/E9opbSjo4vUrydP4sKYqgCewz0rGrbFa2Pkc0MYh5S4JWXZq17k183mOZeF7q+wKJd5bYqVdegjd1Rp3d42zbbBi6ZiPSnnpNT+boe1LDmS6wza2hlAt1wJHFL3Hcq2bAZcFOObPGEb5Wfl6K1l4z6xHgnkoDLLTXP1Oo5xtipWigZ8swHkMRCnvEDsc+uBkj7Qg7a/kgLkJYQTcikU4G+kl5gGA6I+oXkk0jwaZJjKQPYnJkArbfBwxqcgpghDzv55kRmdM5vId3vDbe+SXsPUHJMtVAgWSgJzm6jpUNl29wR+fPY6jQPQC45LF/GF0aoDqpzt1geFUPc6l0z3B7c4628BRExCbcb8HF7v8XGbGuw5tWUnOSV8q3ifWhPSXy/P/mjMQdJgGlWrmlzlubx4GrWZ4U3EWShaTe7cDT7lz9Q=",
+    "location": {
+      "world": "mooncraft_hub",
+      "x": 222.5,
+      "y": 64.0,
+      "z": 1192.5,
+      "yaw": 10.292942,
+      "pitch": 1.6502732
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [],
+    "clickActions": [
+      {
+        "actionType": "CONSOLE",
+        "clickType": "DEFAULT",
+        "action": "sc console bungee ggsend %player_name% starfruit",
+        "delay": 0
+      }
+    ],
+    "npcEquip": {},
+    "customizationMap": {}
+  },
+  {
+    "id": 1,
+    "hasGlow": false,
+    "hasLookAt": false,
+    "hasMirror": false,
+    "hasToggleHolo": true,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYyNzA2NDg5NTA5MSwKICAicHJvZmlsZUlkIiA6ICIwYTUzMDU0MTM4YWI0YjIyOTVhMGNlZmJiMGU4MmFkYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJQX0hpc2lybyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNDNjMDIwN2ViMjA3M2QwOWFjNmYwOTFkZDEyZDkxMTFjZTcyNzA0ZDEyMjk0ODZhZDk1YjU2YjMyYTQyNDE3IgogICAgfQogIH0KfQ==",
+    "signature": "BPa3jEX9+ftuelUU/7d3jGnY0NWlY3RHnTW/RNKd1e4/PNEakbKnplRj4ilj1hELRtUuH0powJ2AQ9n9JYEcxVlgD0GFv6TOFprV9vyyRaCzI4i3hnVkorU9uD9L3Tm98ALHTykEM/mDirWjyC/cy4ASWiIcavzl3CrsM2qOdvSC4oTsIKwzHH2HyEZhGWZaEll6APUXG8j+AF7pQA1CZMOpi/av7uFAIJtyHMg+TGfvoOigezCK4++TI4zRwtb1O5s++uqYZlPip2SotEIOM9YcJP3pnSQZmKB2vsj90d/m5/ubFbk+oi9DcTwz+Er52o8xpul2hJ56cn3+1CXEWxjm0oeNjlWrvUY5wyc7DHG4RdKvJS3JrbGSBKDLLg0f/0etFpBV04J4FcGAvrhSs9XXUALPXIWTWCh7Jxf9Fk64XQDprG12Ocnz0JRJY4M/aUBXrJI5O++BQgC7a2J6d2bv0+bd5zzVjN2GZDsvTA2U/Mj5ZPOxrlbkco0RWxHJ7YaLVctyrxxt4W/gASyA8LTFktvn1JchgfR6HliyufFTNlMzly71vzhapvtoxy5i8CdPNW0714kNupDc4doujg651LG9ksOJGBJQucHaTfCr6PjlkjmoiRqhj6V1toWDgX5vTPBH9IGyiSciOxR4VYxUuT2gsHyZs1iwVzlnnJk=",
+    "location": {
+      "world": "mooncraft_hub",
+      "x": 218.5,
+      "y": 64.0,
+      "z": 1191.5,
+      "yaw": 358.1431,
+      "pitch": 1.949802
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [],
+    "clickActions": [
+      {
+        "actionType": "CONSOLE",
+        "clickType": "DEFAULT",
+        "action": "sc console bungee ggsend %player_name% opprison",
+        "delay": 0
+      }
+    ],
+    "npcEquip": {},
+    "customizationMap": {}
+  },
+  {
+    "id": 2,
+    "hasGlow": false,
+    "hasLookAt": false,
+    "hasMirror": false,
+    "hasToggleHolo": true,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYyNTA4MzUyNjMzNCwKICAicHJvZmlsZUlkIiA6ICJiNTM5NTkyMjMwY2I0MmE0OWY5YTRlYmYxNmRlOTYwYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYXJpYW5hZmFnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NmYThhY2FkNDY5ZWVhNzdjMmQ4ZGZmOThmMTZhMTIyMjhhMGI3YjY0MmQ3ZmQwODYyOTQzMTk4ZDNlMGU4NTEiCiAgICB9CiAgfQp9",
+    "signature": "fX77UGGi3TBVx7r1AnV8g6nf0Sj5sOeHCTSAFCQ2+Of3F7B+hnqR0zQztmcVC5m9keUc4oDWxQd87CN5mB/sVZ4/b3nhq/A69EbxCFA9L69z6gSgYGIO6I2hCMXjZrBVjkH8y78SDH06eRb8gy993sSvFld2AVq1JSD8Au9LQuJLZ7RTueCZT0hSxdLA5ZcJhul+Dux6em7u5HtF/CES4DJsJVmeC+mYE041L+djgnsuEUIdtp0GyPtmYoXaEdvkuHflC0Unxxt6mkYGuztnc/5zX7DiHX+XETjnrR9iI+nCyLfWBWKdHeH5M60Sl6i9DKJuTXqWrdiNci6BLeoa0DMp81e5l4el+w2u7egsXBIut4WT++4JRo+xJWGwH3STXR7ujuNDJCrdxZt36Vk14v7BJrq65oxINozQ1sz7RUfe7iJArz8zSZwFMQfXwAToSpbc+FrW1ilriIJd4sk4RCoaepmx0cN7O55g8awY6fXY0TOe2jUZWvOPKpnvfek81IpHGDA9IsXs+UaEG5XosPwumelXLt0NeDSKqu5PPqGL/sgmbUJX/R7AvCH7TjcnlE1TOgYqXVoKkpS14zJCdFtKj3JWOUVvHG+vra2Gm/OcynFO5SbxtatOcEi7OF6Zj6lJRBnZ7nKqoCtwVAqPrHHRmiUTn95U3hwk8FCjUv8=",
+    "location": {
+      "world": "mooncraft_hub",
+      "x": 230.5,
+      "y": 64.0,
+      "z": 1191.5,
+      "yaw": -1.2685938,
+      "pitch": -0.15017135
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [],
+    "clickActions": [
+      {
+        "actionType": "SERVER",
+        "clickType": "DEFAULT",
+        "action": "creative-1",
+        "delay": 0
+      }
+    ],
+    "npcEquip": {},
+    "customizationMap": {}
+  },
+  {
+    "id": 3,
+    "hasGlow": false,
+    "hasLookAt": false,
+    "hasMirror": false,
+    "hasToggleHolo": true,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYwMTA2Mjg1MjE2OCwKICAicHJvZmlsZUlkIiA6ICI5YjBkNDI0OGI5NmQ0YTg0OWZlYjg0NzA4N2QxNmIxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZWRXYXJzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U2Zjk3OTY4NGM4NjFiMDg3ZDc3ZTI4NTllMDg1ZTg5ZThjYWQyYWU2ZThjMzAxYTMzYmUzOGM1N2NlZmMzMWMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+    "signature": "Pf5MYsmonLQYkvqScSJiuchVVcc4Vz9eijbVuIEUab+ydU5VS/sj/XHjVLteyXLF1EVFJEWTef9k6hAud3SVfjss24XlMC5wiLKEdB6eQUWJ4AhgB9OMUTlj0+N89KB/Pzhs3Nb3a3Ed2ojk4HdcJGJ+UR8oTDO6oqSNGwJ/QPrGJ0upuc1X8jwk3gZ0SjZkPgVu5VyVnkshS22tQyCpnIIsQumtCTylPjIMiKJAKfnOWqimcf6pZfcWF7GEJanKANclDqxN//0JbUmilerbjRuA1KHq+yTHq4V3csahJTldlKnmN97QPujuMRXO8aCwZysuGq77xHDI5raz41c0zHpIelIcizr8spdPezQkrd0/fd4edFr+WDwG0/NxHnS7DzG1ZAy/nrfdFzH4H1HNp403b2BhF3Z42PEHvC9YaRUsvXDJ4Bg5zJjQIWHxLEdXLv/pnqUrhhYLzdrvbJqo4SGrL7+fGsfyTIgk+5qML577TYWATwo5SOFpypP1l+XZs9+Q1UkkSd5/A1tpt1Z7viQ2G70N2+6VimvqnzwD7NFPoOdO4GLpdpqHT3q707hT8KPGglIaQqlSqNUdsLrDPQYTrh6kjXmxOdZsU38hTm3kQTo6XIJ35fSr6tv3FtsTr+6eETDPuHz4uoCUbhwEJkSUfdnhTG8pfpVaai1Gr/8=",
+    "location": {
+      "world": "mooncraft_hub",
+      "x": 226.5,
+      "y": 64.0,
+      "z": 1191.5,
+      "yaw": -0.21944539,
+      "pitch": -2.6734918E-4
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [],
+    "clickActions": [
+      {
+        "actionType": "CONSOLE",
+        "clickType": "DEFAULT",
+        "action": "sc console bungee ggsend %player_name% bedwarslobby",
+        "delay": 0
+      }
+    ],
+    "npcEquip": {},
+    "customizationMap": {}
+  },
+  {
+    "id": 4,
+    "hasGlow": false,
+    "hasLookAt": false,
+    "hasMirror": false,
+    "hasToggleHolo": true,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYyNzEwOTU3Mzk3OCwKICAicHJvZmlsZUlkIiA6ICI2MTZiODhkNDMwNzM0ZTM3OWM3NDc1ODdlZTJkNzlmZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJfX25vdGFodW1hbl9fIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q2MzI5YWQ2YjlkM2UwYWI3ZDY5MjcyNTE4ODIwMDMwZTdmMjViMTI4NmU3Njc0OWU1MjJjYWNlMzYzN2M2N2IiCiAgICB9CiAgfQp9",
+    "signature": "LevSP4CLLpdKp1NbzRrpWS3GL3zltBQEWaS3SRT4nHjlOD9K441jIp9aIRDpvrc3H/ZupCdCRJdNdwxNBKtBK8NlN9AFsqnM4eSerrrixfZFXb35BWLg8Ry++HCQpxRJCjibhNCLbokhRx8ynJjBPq/du6SVQY91pFdjV2PjvBQ8TTo5k243cu6gJ9TgQfPXvIeW4h81AfB8GsfqJSsXmH0FCA3NVftxI0B+xOS7oHGKrh+wd/qyF+dlCDPC8YDPAkQQap3AE2Pi6EszgvZeyBZLvZjO/Kz8KXYiK2LqnDG4hmpyneWjHAjVqCI8tU7My96XZJSjVzbazNc+x2BkMKZ3To/vb1lyQhVEv6h9Z3W/iZTH8ktqTGZUuOwnkA2RcuTJgfpnfJxI1mnipTGnerZR4+rM87gsJIVLTCTjrPBOuR44rsmGKaDyUwY1Q+wo4gAQ6Qakzfl0tnRNYmQsV+PFnpKD0g2/Ba3soGx5brOkKO4vjYCfwcCBdMG1gGaEI2nDm5lQMlGtYyy4NmKUkc/SAJORzANeUS6lBETLz0hNztIdzFAqJm5Hz+weP+HrVdfZJEAld7kh8o8wuTEVi3Wa6a2ewcBrPFvbthRCE9iAYPG5ASx8a0I46i9UKZ77bVtM6NuVaiUl9CGJK4Hm08A7/3Tpv11wgBOwmsbA3+k=",
+    "location": {
+      "world": "mooncraft_hub",
+      "x": 214.5,
+      "y": 64.0,
+      "z": 1191.5,
+      "yaw": 0.3802676,
+      "pitch": -2.1847337E-4
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [],
+    "clickActions": [
+      {
+        "actionType": "CONSOLE",
+        "clickType": "DEFAULT",
+        "action": "sc console bungee ggsend %player_name% ogprison",
+        "delay": 0
+      }
+    ],
+    "npcEquip": {},
+    "customizationMap": {}
+  }
+]

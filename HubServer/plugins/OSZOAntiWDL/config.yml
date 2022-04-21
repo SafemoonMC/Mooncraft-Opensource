@@ -1,0 +1,8 @@
+#OSZOantiwdl 1.3-SNAPSHOT
+#Minecraft Versions: 1.8 - 1.15
+
+# %p is replaced by the player's name
+#executed command when player join server with WDL:
+execute-command: 'kick %p &c&l[OSZOAntiWDL] &fWDL is not allowed on this server!'
+
+permission-message: '&cYou don''t have permission!'

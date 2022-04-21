@@ -1,0 +1,16 @@
+location: mooncraft_hub:241.500:68.200:1191.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&b&lParkour'
+    height: 0.3
+  - content: '&aThis Way!'
+    height: 0.3
+  actions: {}
+  always-face-player: true

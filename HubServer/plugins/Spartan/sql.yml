@@ -1,0 +1,9 @@
+host: ''
+user: ''
+password: ''
+database: ''
+table: spartan_logs
+port: '3306'
+driver: mysql
+tls_Version: ''
+use_SSL: true

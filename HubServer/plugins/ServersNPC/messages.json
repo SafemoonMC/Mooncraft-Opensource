@@ -1,0 +1,23 @@
+{
+  "NPC_FOUND": "&cThere is already a npc with this id.",
+  "INVALID_NUMBER": "&cHey!, The inserted number/id does not look like a number..",
+  "INCORRECT_USAGE": "&cIncorrect use of command.",
+  "TOO_FEW_ARGUMENTS": "&cToo few arguments.",
+  "INCORRECT_USAGE_ACTION_ADD": "&cUsage: <SERVER:CMD:MESSAGE:CONSOLE> <actionValue>",
+  "INCORRECT_USAGE_PATH_SET": "&cUsage: -set <npc_id> -path <path_name>",
+  "NO_PATH_FOUND": "&cNo path found.",
+  "EXIT_PATH": "&cYou have exited the waypoint creation.",
+  "UNSUPPORTED_ENTITY": "&cEntity type not available for your current version.",
+  "NO_NPC_FOUND": "&cNo npc found.",
+  "SUCCESS": "&aDone...",
+  "COMMAND_ERROR": "&cThere was an error executing the command, see the console for more information.",
+  "START_PATH": "&aDone, now walk where you want the npc to, when u finish type /znpcs path -exit.",
+  "PATH_FOUND": "&cThere is already a path with this name.",
+  "NPC_NOT_FOUND": "&cHey!, I couldnt find a npc with this id.",
+  "NO_PERMISSION": "&cYou do not have permission to execute this command.",
+  "COMMAND_NOT_FOUND": "&cThis command was not found.",
+  "INVALID_NAME_LENGTH": "&cThe name is too short or long, it must be in the range of (3 to 16) characters.",
+  "NO_ACTION_FOUND": "&cNo action found.",
+  "METHOD_NOT_FOUND": "&cNo method found.",
+  "INCORRECT_USAGE_ACTION_DELAY": "&cUsage: <actionID> <delayInSeconds>"
+}

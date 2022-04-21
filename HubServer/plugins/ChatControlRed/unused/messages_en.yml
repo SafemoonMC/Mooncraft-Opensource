@@ -1,0 +1,78 @@
+Channels:
+  Leave:
+    Usages:
+    - /{label} {sublabel} <channel> &7- Leave chat channel.
+    - /{label} {sublabel} <channel> <player> &7- Force player to leave channel.
+    Usages_Others:
+    - /{label} {sublabel} <channel> <player> &7- Force player to leave channel.
+    Usages_Self:
+    - /{label} {sublabel} <channel> &7- Leave chat channel.
+  Join:
+    Usages:
+    - /{label} {sublabel} <channel> &7- Join channel for writing.
+    - /{label} {sublabel} <channel> <mode> &7- Join channel for mode.
+    - /{label} {sublabel} <channel> <mode> [player] &7- Join player to channel for
+      mode.
+    - ''
+    - '&cNote: Joining player will leave old channel(s) if over limit.'
+    - ''
+    - '&cWarning: Give players chatcontrol.channel.join.{channel}.{mode}'
+    - '&cpermission for the relevant channel and mode (read or write)'
+    - '&cotherwise we will kick them out of channel when they join.'
+    Usages_Self:
+    - /{label} {sublabel} <channel> &7- Join channel for writing.
+    - /{label} {sublabel} <channel> <mode> &7- Join channel for mode.
+    Usages_Others:
+    - /{label} {sublabel} <channel> <mode> [player] &7- Join player to channel for
+      mode.
+    Usages_2:
+    - ''
+    - '&cNote: Joining player will leave old channel(s) if over limit.'
+    - ''
+    - '&cWarning: Give players chatcontrol.channel.join.{channel}.{mode}'
+    - '&cpermission for the relevant channel and mode (read or write)'
+    - '&cotherwise we will kick them out of channel when they join.'
+Commands:
+  Motd:
+    Usages:
+    - /{label} &7- Read your message of the day.
+    - /{label} <player> &7- Send the motd to other player.
+    Usages_Self:
+    - /{label} &7- Read your message of the day.
+    Usages_Others:
+    - /{label} <player> &7- Send the motd to other player.
+  Migrate:
+    Export_Start: Begun exporting data.db entries to database. This may take a long
+      time, please watch your console.
+    Import_Start: Begun importing database entries to data.db and usermap.scv. This
+      may take a long time, please watch your console. We will however keep ignoring
+      them until you disable MySQL.
+    Export_Finish: Successfully exported {0} entries.
+    Import_Finish: Successfully imported data.db and usermap.csv entries.
+    Essentials: Successfully imported usermap.csv from Essentials (if existed).
+  Tag:
+    Disabled: Please fill your Tag.Apply_On key in settings.yml first before using
+      this command.
+  Announce:
+    Usage_No_Perms: You don't have any subpermissions to announce any type, such as
+      chatcontrol.command.announce.chat.
+  Region:
+    Tool_Disabled: Region tools are disabled. Set 'Register_Tools' to true in settings.yml
+      to use tools.
+  Rule:
+    Rule_Import_Start: Rules are now being imported, please wait...
+    Rule_Import_Fail: '{prefix_error}There was an error importing rules, please see
+      the console!'
+  Ignore:
+    Cannot_PM_Ignored: You are ignoring {0}. No message sent.
+    Usages_List_Others:
+    - /{label} list <player> &7- Print players another player is ignoring.
+    Usages_List:
+    - /{label} list &7- Print players you are ignoring.
+    Usages_Others:
+    - /{label} <forWhom> <player> &7- Toggle ignoring a player for other player.
+Menu:
+  Color:
+    Header: Select Chat Color
+Checker:
+  Chat_Exploit_Disallowed: Your message contained code execution and was disallowed.

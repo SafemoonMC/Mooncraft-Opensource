@@ -1,0 +1,26 @@
+location: mooncraft_hub:222.499:68.000:1213.5
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&3&lMoonCraft &b&lNetwork'
+    height: 0.5
+  - content: '&7Welcome &b{player}&7 to the MoonCraft Network!'
+    height: 0.5
+  - content: '&7Website: &bmooncraft.gg'
+    height: 0.3
+  - content: '&7Store: &bmcstore.safemoon.net'
+    height: 0.3
+  - content: '&7Discord: &bdiscord.gg/mooncraft'
+    height: 0.5
+  - content: '&7To start click the &3Game Selector&7 or use the &3NPCs&7!'
+    height: 0.5
+  - content: '&cWe are currently in &ev1.0&c. Join our Discord for updates!'
+    height: 0.3
+  actions: {}
+  always-face-player: true

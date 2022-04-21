@@ -1,0 +1,13 @@
+# -----------------------------------------------------------------------------------------
+# The default chat format shown to the sender of a private message.
+# -----------------------------------------------------------------------------------------
+
+# The parts of this format.
+Parts:
+  
+  # See the chat.yml format file for a tutorial on how this works.
+  everything:
+    Message: '&3✉ &8[&fYou &b-> &f{receiver}&8] &f{message}'
+    Hover:
+    - '&7Click to reply.'
+    Suggest_Command: '/r '

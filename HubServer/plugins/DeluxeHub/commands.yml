@@ -1,0 +1,49 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# | CUSTOM COMMANDS                          |
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# You do not need to restart your server if you edit anything below here
+
+links:
+  links:
+    aliases:
+      - link
+      - importantlinks
+    actions:
+      - '[MESSAGE] &3Website &8| &fmooncraft.gg &7(Click)'
+      - '[MESSAGE] &3Store &8| &fmcstore.safemoon.net &7(Click)'
+      - '[MESSAGE] &3Discord &8| &fdiscord.gg/XtHPXdGMSt &7(Click)'
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# | DELUXEHUB COMMANDS                       |
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# It's highly recommended to restart your server if you edit anything below
+
+commands:
+  gamemode:
+    enabled: true
+    aliases:
+      - gm
+  gms:
+    enabled: true
+  gmc:
+    enabled: true
+  gma:
+    enabled: true
+  gmsp:
+    enabled: true
+  clearchat:
+    enabled: true
+  fly:
+    enabled: true
+  lockchat:
+    enabled: true
+    aliases:
+      - lc
+  setspawn:
+    enabled: true
+  spawn:
+    enabled: true
+  vanish:
+    enabled: false
+    aliases:
+      - v

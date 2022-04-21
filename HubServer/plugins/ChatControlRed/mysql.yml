@@ -1,0 +1,30 @@
+# -----------------------------------------------------------------------------------------------------
+# An alternative file that holds sensitive database information. When this is used,
+# we ignore the logins from settings.yml
+#
+# **IMPORTANT** We only support utf8mb4_unicode_520_ci collation (database encoding) because we need
+# need to store messages in 4 bytes (mb4) due to unicode/emojis/non-English letter support.
+# 
+# Check if your database has such charset. Check with your hosting provider. Or try removing all
+# old ChatControl tables and the plugin will recreate the database with the right encoding.
+# Using MySQL 5.7 or 8.0 is recommended, there may be issues with MariaDB due to this encoding.
+# -----------------------------------------------------------------------------------------------------
+
+# Overrides the MySQL.Enabled flag from settings.yml
+Enabled: true
+
+# The host and the port to connect to
+Host: 10.10.10.2:3306
+
+# The database name
+Database: misc
+
+# The username
+User: mnc-network
+
+# The password
+Password: ~K&e_@'$z1es9Mc5S&a@=Xy`Ov-g+6wZ
+
+# ADVANCED: The full connector line, do not modify unless you know what you are doing.
+# If facing issues try appending &useUnicode=yes&characterEncoding=UTF-8 at the end.
+Line: jdbc:mysql://{host}/{database}?autoReconnect=true&useUnicode=yes&characterEncoding=UTF-8&useSSL=false

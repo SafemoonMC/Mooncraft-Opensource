@@ -1,0 +1,20 @@
+Effects:
+  Safemoon:
+    Displayname: "&3&lSafemoon"
+    Delay: 1.0
+    Colors:
+     - "darkaqua"
+     - "aqua"
+     - "white"
+    GUI:
+     Page: 1
+     Slot: 1
+     Material: "FIREWORK_ROCKET"
+     Meta: 1
+     Name: "&3&lSafemoon"
+     Lores:
+      - "&7Alternates your glowing"
+      - "&7between &3Cyan&7, &bAqua &7and &fWhite&7."
+      - "&3"
+      - "&fLeft-Click: %effect_name%"
+      - "&fEffect permission: %effect_has_permission%"

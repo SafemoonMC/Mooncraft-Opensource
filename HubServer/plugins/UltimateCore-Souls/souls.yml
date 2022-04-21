@@ -1,0 +1,217 @@
+souls:
+  '1':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 171
+      Y: 63
+      Z: 1213
+      World: mooncraft_hub
+  '2':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 140
+      Y: 53
+      Z: 1247
+      World: mooncraft_hub
+  '3':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 106
+      Y: 51
+      Z: 1283
+      World: mooncraft_hub
+  '4':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 120
+      Y: 57
+      Z: 1313
+      World: mooncraft_hub
+  '5':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 208
+      Y: 41
+      Z: 1261
+      World: mooncraft_hub
+  '6':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 176
+      Y: 45
+      Z: 1294
+      World: mooncraft_hub
+  '7':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 253
+      Y: 67
+      Z: 1217
+      World: mooncraft_hub
+  '8':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 236
+      Y: 52
+      Z: 1299
+      World: mooncraft_hub
+  '9':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 217
+      Y: 41
+      Z: 1324
+      World: mooncraft_hub
+  '10':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 193
+      Y: 49
+      Z: 1342
+      World: mooncraft_hub
+  '11':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 104
+      Y: 178
+      Z: 1208
+      World: mooncraft_hub
+  '12':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 145
+      Y: 189
+      Z: 1200
+      World: mooncraft_hub
+  '13':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 120
+      Y: 187
+      Z: 1239
+      World: mooncraft_hub
+  '14':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 119
+      Y: 185
+      Z: 1173
+      World: mooncraft_hub
+  '15':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 248
+      Y: 109
+      Z: 1165
+      World: mooncraft_hub
+  '16':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 203
+      Y: 116
+      Z: 1147
+      World: mooncraft_hub
+  '17':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 232
+      Y: 110
+      Z: 1136
+      World: mooncraft_hub
+  '18':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 195
+      Y: 126
+      Z: 1122
+      World: mooncraft_hub
+  '19':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 220
+      Y: 122
+      Z: 1149
+      World: mooncraft_hub
+  '20':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 354
+      Y: 155
+      Z: 1222
+      World: mooncraft_hub
+  '21':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 322
+      Y: 77
+      Z: 1429
+      World: mooncraft_hub
+  '22':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 158
+      Y: 135
+      Z: 1507
+      World: mooncraft_hub
+  '23':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: -13
+      Y: 235
+      Z: 1459
+      World: mooncraft_hub
+  '24':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 0
+      Y: 240
+      Z: 1323
+      World: mooncraft_hub
+  '25':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 96
+      Y: 199
+      Z: 1209
+      World: mooncraft_hub
+  '26':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 217
+      Y: 63
+      Z: 1216
+      World: mooncraft_hub
+  '27':
+    moneyReward: 0.0
+    commandRewards: []
+    location:
+      X: 107
+      Y: 212
+      Z: 1282
+      World: mooncraft_hub

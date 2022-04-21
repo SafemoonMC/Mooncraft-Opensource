@@ -1,0 +1,15 @@
+Mystery-Vaults:
+  '1':
+    BlockFace: SOUTH
+    Location:
+      world: mooncraft_hub
+      x: 230.0
+      y: 64.0
+      z: 1200.0
+  '2':
+    BlockFace: SOUTH
+    Location:
+      world: mooncraft_hub
+      x: 214.0
+      y: 64.0
+      z: 1200.0

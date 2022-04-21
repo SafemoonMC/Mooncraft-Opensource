@@ -1,0 +1,64 @@
+# PlaceholderAPI
+# Version: 2.10.10
+# Created by: extended_clip
+# Contributors: https://github.com/PlaceholderAPI/PlaceholderAPI/graphs/contributors
+# Issues: https://github.com/PlaceholderAPI/PlaceholderAPI/issues
+# Expansions: https://api.extendedclip.com/all/
+# Wiki: https://github.com/PlaceholderAPI/PlaceholderAPI/wiki
+# Discord: https://helpch.at/discord
+# No placeholders are provided with this plugin by default.
+# Download placeholders: /papi ecloud
+check_updates: false
+cloud_enabled: true
+cloud_sorting: name
+cloud_allow_unverified_expansions: false
+boolean:
+  'true': 'yes'
+  'false': 'no'
+date_format: MM/dd/yy HH:mm:ss
+debug: false
+expansions:
+  player:
+    ping_color:
+      medium: '&e'
+      high: '&a'
+      low: '&c'
+  vault:
+    baltop:
+      check_delay: 30
+      cache_size: 100
+      enabled: false
+    formatting:
+      thousands: k
+      trillions: T
+      quadrillions: Q
+      billions: B
+      millions: M
+  bungee:
+    check_interval: 30
+  server:
+    tps_color:
+      high: '&a'
+      low: '&c'
+      medium: '&e'
+    server_name: A Minecraft Server
+  formatter:
+    time:
+      hours: h
+      seconds: s
+      milliseconds: ms
+      days: d
+      condensed: false
+      minutes: m
+    format: '#,###,###.##'
+    locale: en-US
+  progress:
+    in_progress: '&e■'
+    length: 10
+    completed: '&a■'
+    maximum_value: 100
+    decimal: 2
+    remaining: '&7■'
+    full: '&aCompleted'
+    replace_placeholder:
+    - ',;.'

@@ -1,0 +1,13 @@
+# -----------------------------------------------------------------------------------------
+# The default chat format used in the admin channel.
+# -----------------------------------------------------------------------------------------
+
+# The parts of this format.
+Parts:
+  prefix:
+    Message: '&8[&4Admin&8] '
+    Hover:
+    - '&cClick to join admin chat'
+    Run_Command: /channel join Admin
+  rest:
+    Message: '&f{player_prefix}&f{player_nick}&7: &c{message}'

@@ -1,0 +1,18 @@
+location: mooncraft_hub:230.500:66.960:1191.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&b&lCreative'
+    height: 0.3
+  - content: '&u%msminecraft_players-creative% &7Players'
+    height: 0.3
+  - content: '&bClick to join!'
+    height: 0.3
+  actions: {}
+  always-face-player: true

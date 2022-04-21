@@ -1,0 +1,20 @@
+location: mooncraft_hub:218.500:67.260:1191.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+always-face-player: true
+pages:
+- lines:
+  - content: '&uPopular!'
+    height: 0.3
+  - content: '&c&lAzkaban Prison'
+    height: 0.3
+  - content: '&u%msminecraft_players-opp% &7Players'
+    height: 0.3
+  - content: '&bClick to join!'
+    height: 0.3
+  actions: {}
+  always-face-player: true
