@@ -4,7 +4,7 @@ This repository contains all the configured servers that were running on the Moo
 Any plugin jars that were not made exclusively by us, we cannot directly distribute. However, we have left ALL our configuration files present so our settings & alterations can be used. These plugins can be found on SpigotMC or MCMarket marketplaces. All of the code for our custom plugins are available within these repositories. However, for our internally coded solutions, you will need to edit some code to fit your needs, and then compile the jars yourself. Since build scripts were using internal and private infrastructure, things may not compile as expected out of the box. Also, attention must be oriented **only** towards the pinned repositories, any other repository may be incomplete or obsolete: in other words, were unused.
 
 ## Requirements
-Servers were running with Java 17, Airplane, and Waterfall for Minecraft 1.17.
+Servers were running with Java 17, Airplane (https://airplane.gg/), and Waterfall (https://papermc.io/downloads#Waterfall) for Minecraft 1.17.
 
 Other technologies used:
 - MariaDB;
